@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# uv / virtualenv
+.venv/
+.python-version
+
+# Local DB (never commit the SQLite file)
+backend/andatest.db
+
+# Secrets
+.env
+backend/.env
+
+# Alembic local state (versions are committed, this isn't)
+backend/alembic/__pycache__/
+
+# OS
+.DS_Store
+Thumbs.db
