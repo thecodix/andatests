@@ -1,32 +1,518 @@
 [
-{"q":"¿Qué establece el Real Decreto 822/2021?","o":["El régimen del empleo público","La organización de las enseñanzas universitarias y el procedimiento de aseguramiento de su calidad","Los precios públicos universitarios","El estatuto del estudiante"],"c":1,"ref":"Art. 1 RD 822/2021","exp":"El RD 822/2021 establece la organización y estructura de las enseñanzas universitarias, a partir de los principios del EEES, y los procedimientos de aseguramiento de su calidad."},
-{"q":"Los estudios universitarios oficiales se estructuran en tres ciclos denominados (art. 3):","o":["Diplomatura, Licenciatura y Doctorado","Grado, Máster y Doctorado","Grado, Posgrado y Especialización","Ciclo inicial, medio y superior"],"c":1,"ref":"Art. 3.1 RD 822/2021","exp":"Los estudios oficiales se estructuran en tres ciclos: Grado, Máster y Doctorado."},
-{"q":"¿En qué registro deben inscribirse los títulos universitarios oficiales (art. 3.2)?","o":["El Registro Civil","El Registro de Universidades, Centros y Títulos (RUCT)","El Registro Mercantil","El Registro de la Propiedad"],"c":1,"ref":"Art. 3.2 RD 822/2021","exp":"Los títulos universitarios oficiales deben inscribirse en el Registro de Universidades, Centros y Títulos (RUCT) del Ministerio de Universidades."},
-{"q":"Un curso académico, en Grado y Máster, equivale a (art. 5.2):","o":["30 créditos ECTS","60 créditos ECTS","90 créditos ECTS","120 créditos ECTS"],"c":1,"ref":"Art. 5.2 RD 822/2021","exp":"El plan de estudios se estructura en cursos de 60 créditos ECTS, salvo Másteres de 90 créditos en que uno de los cursos puede ser de 30."},
-{"q":"Con carácter general, un título de Grado tiene (art. 14.1):","o":["180 créditos ECTS","240 créditos ECTS, salvo legislación específica","300 créditos ECTS","120 créditos ECTS"],"c":1,"ref":"Art. 14.1 RD 822/2021","exp":"Los planes de estudios de Grado tendrán 240 créditos ECTS, salvo los sujetos a legislación específica o normas de la UE que tengan 300 o 360 créditos."},
-{"q":"Los planes de estudios de Grado de 240 créditos incluirán un mínimo de formación básica de (art. 14.4):","o":["30 créditos","60 créditos","75 créditos","90 créditos"],"c":1,"ref":"Art. 14.4 RD 822/2021","exp":"Los planes de 240 créditos incluirán un mínimo de 60 créditos de formación básica; los de 300 y 360 créditos incluirán 75 y 90 respectivamente."},
-{"q":"El Trabajo de Fin de Grado (art. 14.6) dispondrá de un mínimo de:","o":["3 créditos","6 créditos","12 créditos","24 créditos"],"c":1,"ref":"Art. 14.6 RD 822/2021","exp":"El TFG dispondrá de un mínimo de 6 créditos para todos los títulos, y un máximo de 24 (240 cr.), 30 (300 cr.) o 36 (360 cr.); debe defenderse en acto público."},
-{"q":"Una mención en un título de Grado (art. 13.3) supone como mínimo:","o":["El 10% de los créditos","El 20% de la carga total de créditos del Grado","El 50% de los créditos","6 créditos"],"c":1,"ref":"Art. 13.3 RD 822/2021","exp":"Una mención supone una intensificación curricular y tendrá como mínimo el equivalente al 20 por ciento de la carga de créditos total del Grado."},
-{"q":"Los títulos oficiales de Grado tienen un nivel equivalente a (art. 13.5):","o":["MECES 1","MECES 2","MECES 3","MECES 4"],"c":1,"ref":"Art. 13.5 RD 822/2021","exp":"Los títulos de Grado tienen nivel MECES 2; ciertos Grados de al menos 300 ECTS con directrices europeas pueden equivaler a MECES 3."},
-{"q":"Los planes de estudios de Máster Universitario (art. 17.1) contarán con:","o":["Solo 60 créditos","60, 90 o 120 créditos ECTS","240 créditos","30 créditos"],"c":1,"ref":"Art. 17.1 RD 822/2021","exp":"Los planes de estudios de Máster Universitario contarán con 60, 90 o 120 créditos ECTS."},
-{"q":"Los títulos oficiales de Máster Universitario tienen un nivel equivalente a (art. 16.5):","o":["MECES 2","MECES 3","MECES 4","MECES 1"],"c":1,"ref":"Art. 16.5 RD 822/2021","exp":"Los títulos de Máster Universitario tienen un nivel equivalente al MECES 3."},
-{"q":"El Trabajo de Fin de Máster (art. 17.4) tendrá un mínimo de 6 créditos y un máximo de:","o":["12 créditos","24 créditos","30 créditos","36 créditos"],"c":2,"ref":"Art. 17.4 RD 822/2021","exp":"Todos los planes de Máster incluirán un TFM con un mínimo de 6 y un máximo de 30 créditos ECTS, cuya superación es imprescindible y debe defenderse en acto público."},
-{"q":"Una Especialidad de un Máster (art. 16.4) no podrá superar:","o":["El 20% de los créditos","El 50% del total de créditos del plan de estudios","El 75% de los créditos","Un tercio de los créditos"],"c":1,"ref":"Art. 16.4 RD 822/2021","exp":"El número de créditos de una especialidad no podrá superar el cincuenta por ciento del número total de créditos del plan de estudios de Máster."},
-{"q":"El título oficial de Doctor (art. 19.3) tiene un nivel equivalente a:","o":["MECES 2","MECES 3","MECES 4","MECES 1"],"c":2,"ref":"Art. 19.3 RD 822/2021","exp":"La superación del programa de Doctorado y la aprobación de la tesis dan derecho al título de Doctor, cuyo nivel equivale al MECES 4."},
-{"q":"Los programas de Doctorado se rigen por (art. 6):","o":["El RD 822/2021 exclusivamente","El Real Decreto 99/2011","La LOSU","El RD 1393/2007"],"c":1,"ref":"Art. 6 RD 822/2021","exp":"Los programas de Doctorado se rigen por lo dispuesto en el Real Decreto 99/2011, de 28 de enero."},
-{"q":"Para que un plan de estudios sea título oficial debe ser verificado por (art. 5.4):","o":["La ANECA","El Consejo de Universidades","La Comunidad Autónoma","El Ministerio de Hacienda"],"c":1,"ref":"Art. 5.4 RD 822/2021","exp":"Para producir plenos efectos y tener carácter de título oficial, la memoria del plan de estudios deberá ser verificada por el Consejo de Universidades."},
-{"q":"Los precios públicos de los títulos oficiales en universidades públicas (art. 12) los fijan:","o":["Las propias universidades","Las Comunidades Autónomas, dentro de los límites de la Conferencia General de Política Universitaria","El Ministerio de Universidades","El Consejo de Universidades"],"c":1,"ref":"Art. 12 RD 822/2021","exp":"Las Comunidades Autónomas fijan los precios públicos dentro de los límites máximos establecidos por la Conferencia General de Política Universitaria."},
-{"q":"El reconocimiento de créditos por experiencia profesional o estudios no oficiales (art. 10.5) no podrá superar, globalmente:","o":["El 10% del plan de estudios","El 15% del total de créditos del plan de estudios","El 25% del plan de estudios","El 50% del plan de estudios"],"c":1,"ref":"Art. 10.5 RD 822/2021","exp":"El volumen de créditos reconocibles por experiencia profesional o estudios no oficiales no podrá superar, globalmente, el 15% del total de créditos del título."},
-{"q":"Con un convenio entre un centro de FP de grado superior y la universidad (art. 10.7), la proporción de créditos reconocibles en un Grado puede llegar hasta el:","o":["15%","20%","25%","30%"],"c":2,"ref":"Art. 10.7 RD 822/2021","exp":"Con convenio entre un centro de FP de grado superior y un centro universitario, la proporción de créditos reconocibles en un Grado podrá ser de hasta el 25% de la carga total."},
-{"q":"No podrán reconocerse, con carácter general (art. 10.3), los créditos correspondientes a:","o":["Las prácticas externas","Los trabajos de fin de Grado o de Máster, salvo programas de movilidad","Las asignaturas optativas","La formación básica"],"c":1,"ref":"Art. 10.3 RD 822/2021","exp":"En el reconocimiento de créditos no podrán reconocerse los correspondientes a TFG o TFM, salvo los desarrollados específicamente en un programa de movilidad."},
-{"q":"Las prácticas académicas externas (art. 11) son una actividad de naturaleza:","o":["Laboral, con contrato","Formativa, supervisada por la universidad, sin obligaciones de relación laboral","Voluntaria sin tutela","Mercantil"],"c":1,"ref":"Art. 11.1 y 11.3 RD 822/2021","exp":"Son una actividad formativa supervisada por la universidad; dado su carácter formativo, de su realización no se derivan obligaciones propias de una relación laboral."},
-{"q":"Las prácticas externas curriculares en un Grado (art. 14.5) tendrán una extensión máxima equivalente al:","o":["10% de los créditos","25% del total de créditos del título","50% de los créditos","Un tercio de los créditos"],"c":1,"ref":"Art. 14.5 RD 822/2021","exp":"Las prácticas académicas externas curriculares tendrán una extensión máxima equivalente al 25% del total de los créditos del título, ofreciéndose preferentemente en la segunda mitad."},
-{"q":"Las universidades reservarán, al menos, para estudiantes con discapacidad ≥33% (art. 15.3), un porcentaje de plazas de Grado del:","o":["3%","5%","7%","10%"],"c":1,"ref":"Art. 15.3 RD 822/2021","exp":"Las universidades reservarán al menos un 5% de las plazas ofertadas en los títulos de Grado para estudiantes con grado de discapacidad igual o superior al 33%."},
-{"q":"La modalidad docente virtual de un Grado (art. 14.7) requiere que se imparta en dicha modalidad al menos el:","o":["50% de créditos","60% de créditos","80% de créditos","100% de créditos"],"c":2,"ref":"Art. 14.7 RD 822/2021","exp":"Un Grado se define como virtual cuando al menos un 80% de los créditos ECTS se imparten en esa modalidad; la híbrida se sitúa entre el 40 y el 60% de créditos no presenciales."},
-{"q":"La expedición de los títulos universitarios oficiales (art. 8.2) se efectúa:","o":["En nombre del Ministro","En nombre del Rey, por el Rector de la universidad","En nombre de la Comunidad Autónoma","En nombre del Consejo de Universidades"],"c":1,"ref":"Art. 8.2 RD 822/2021","exp":"La expedición de los títulos se efectúa en nombre del Rey por el Rector de la universidad en que se hubieran finalizado los estudios."},
-{"q":"La matrícula condicionada en un Máster (art. 18.4) permite acceder a un estudiante de Grado al que le reste el TFG y como máximo:","o":["6 créditos","9 créditos ECTS","18 créditos","30 créditos"],"c":1,"ref":"Art. 18.4 RD 822/2021","exp":"La matrícula condicionada permite acceder a un Máster a un estudiante de Grado al que le reste el TFG y como máximo 9 créditos ECTS, sin poder obtener el título de Máster sin el de Grado."},
-{"q":"Los complementos formativos exigibles en la admisión a un Máster (art. 18.5) no podrán superar:","o":["El 10% de la carga del título","El 20% de la carga crediticia del título","El 30% del título","El 50% del título"],"c":1,"ref":"Art. 18.5 RD 822/2021","exp":"Los complementos formativos exigibles en la admisión a un Máster no podrán superar el equivalente al 20% de la carga crediticia del título."},
-{"q":"La condición para acceder a un Máster Universitario (art. 18.1) es:","o":["Tener experiencia laboral","Poseer un título oficial de Grado español o equivalente","Tener 25 años","Aprobar una oposición"],"c":1,"ref":"Art. 18.1 RD 822/2021","exp":"Es condición de acceso poseer un título universitario oficial de Grado español o equivalente, o títulos del mismo nivel del EEES que permitan acceder a estudios de Máster."},
-{"q":"Las prácticas externas en un Máster (art. 17.3) no podrán superar:","o":["El 25% de los créditos","Un tercio de la carga crediticia total del plan de estudios","El 50% de los créditos","El 20% de los créditos"],"c":1,"ref":"Art. 17.3 RD 822/2021","exp":"Las prácticas académicas externas en un Máster no podrán superar un tercio de la carga crediticia total que conforma el plan de estudios."},
-{"q":"Los planes de estudios deben tener como referente (art. 4.2), entre otros:","o":["La rentabilidad económica","Los principios y valores democráticos y los Objetivos de Desarrollo Sostenible","La competitividad empresarial","La reducción de costes"],"c":1,"ref":"Art. 4.2 RD 822/2021","exp":"Los planes de estudios deberán tener como referente los principios y valores democráticos y los ODS, incluyendo derechos humanos, igualdad de género, accesibilidad universal y sostenibilidad."}
+  {
+    "q": "Según el art. 1 del RD 822/2021 por el que se establece la organización de las enseñanzas universitarias, ¿Qué tiene por objeto la mencionada norma?",
+    "o": [
+      "El establecimiento de la organización y la estructura de las enseñanzas universitarias, a partir de los principios generales que definen el Espacio Europeo de Educación Superior (EEES)",
+      "El establecimiento de la organización y la estructura de las enseñanzas superiores y universitaria, a partir de los principios generales que definen el Espacio Europeo de Educación Superior (EEES)",
+      "El seguimiento de la organización y la estructura de las enseñanzas universitarias, a partir de los principios generales que definen el Espacio Europeo de Educación Superior (EEES)",
+      "El establecimiento de la organización y la estructura de los principios generales que definen el Espacio Europeo de Educación Superior (EEES) en las enseñanzas Universitaria"
+    ],
+    "c": 0,
+    "ref": "Real Decreto 822/2021, art. 1.1 (redacción vigente al 12/01/2026)",
+    "exp": "El objeto principal es establecer la organización y la estructura de las enseñanzas universitarias a partir de los principios del EEES."
+  },
+  {
+    "q": "Según el art. 1 del RD 822/2021 por el que se establece la organización de las enseñanzas universitarias, la mencionada norma al mismo tiempo:",
+    "o": [
+      "Regula las estructuras extracurriculares",
+      "Regula las prácticas académicas externas que las universidades deberán incorporar a sus planes de estudios",
+      "Establece específicamente la formación permanente",
+      "Ordena la oferta académica oficial"
+    ],
+    "c": 3,
+    "ref": "Real Decreto 822/2021, art. 1.1 (redacción vigente al 12/01/2026)",
+    "exp": "El artículo 1 dispone expresamente que el real decreto ordena la oferta académica oficial."
+  },
+  {
+    "q": "Según el art. 1 del RD 822/2021 por el que se establece la organización de las enseñanzas universitarias, ¿la mencionada norma, ¿qué fija?:",
+    "o": [
+      "Los planes de estudio",
+      "Los procedimientos de aseguramiento de la calidad de los planes de estudio",
+      "Las condiciones de funcionamiento del Registro de Universidades, Centros y Títulos",
+      "La acreditación final del título"
+    ],
+    "c": 1,
+    "ref": "Real Decreto 822/2021, art. 1.2 (redacción vigente al 12/01/2026)",
+    "exp": "La norma fija las directrices, condiciones y procedimientos de aseguramiento de la calidad de los planes de estudios."
+  },
+  {
+    "q": "Según el art. 2 del RD 822/2021 por el que se establece la organización de las enseñanzas universitarias, tiene como ámbito de aplicación otras enseñanzas universitarias, específicamente, ¿Cuál?",
+    "o": [
+      "La formación profesional",
+      "Las que no se definan como títulos propios",
+      "La formación permanente",
+      "Los Grados."
+    ],
+    "c": 2,
+    "ref": "Real Decreto 822/2021, art. 2 (redacción vigente al 12/01/2026)",
+    "exp": "Entre las otras enseñanzas universitarias comprendidas en su ámbito figura específicamente la formación permanente."
+  },
+  {
+    "q": "Según el art. 2 del RD 822/2021 por el que se establece la organización de las enseñanzas universitarias, tiene como ámbito de aplicación las enseñanzas universitarias oficiales de:",
+    "o": [
+      "Grado, Master Universitario y Doctorado",
+      "Grado, Master Universitario, Doctorado y formación permanente",
+      "Grado, Master Universitario y la formación permanente",
+      "Solo grado y Master Universitario"
+    ],
+    "c": 0,
+    "ref": "Real Decreto 822/2021, art. 2 (redacción vigente al 12/01/2026)",
+    "exp": "Las enseñanzas universitarias oficiales incluidas son Grado, Máster Universitario y Doctorado; la formación permanente es una enseñanza propia."
+  },
+  {
+    "q": "Según el art. 3 del RD 822/2021 por el que se establece la organización de las enseñanzas universitarias, ¿Cómo se estructuran los estudios universitarios que conducen a la obtención de títulos oficiales impartidos por las universidades?",
+    "o": [
+      "Ciclos formativos",
+      "Etapas",
+      "Niveles",
+      "Ciclos"
+    ],
+    "c": 3,
+    "ref": "Real Decreto 822/2021, art. 3.1 (redacción vigente al 12/01/2026)",
+    "exp": "Los estudios conducentes a títulos oficiales se estructuran en ciclos."
+  },
+  {
+    "q": "Según el art. 3 del RD 822/2021 por el que se establece la organización de las enseñanzas universitarias, ¿En cuántos ciclos se estructuran los estudios universitarios que conducen a la obtención de títulos oficiales impartidos por las universidades?",
+    "o": [
+      "Uno",
+      "Dos",
+      "Tres",
+      "Nada de lo anterior es correcto, porque no existen ciclos"
+    ],
+    "c": 2,
+    "ref": "Real Decreto 822/2021, art. 3.1 (redacción vigente al 12/01/2026)",
+    "exp": "La estructura comprende tres ciclos."
+  },
+  {
+    "q": "Según el art. 3 del RD 822/2021 por el que se establece la organización de las enseñanzas universitarias, respectivamente, ¿Cómo se denominan los ciclos de los estudios que conducen a la obtención de títulos oficiales impartidos por las universidades?",
+    "o": [
+      "Grado, Máster y Doctorado",
+      "Grado, Master Universitario y Doctorado",
+      "Master, Grados y Doctorado",
+      "Grado, Master y Doctorado Universitario"
+    ],
+    "c": 0,
+    "ref": "Real Decreto 822/2021, art. 3.1 (redacción vigente al 12/01/2026)",
+    "exp": "Los tres ciclos se denominan, respectivamente, Grado, Máster y Doctorado."
+  },
+  {
+    "q": "Según el art. 3 del RD 822/2021 por el que se establece la organización de las enseñanzas universitarias, la superación del plan de estudio de Master dará lugar a la obtención del título Universitario de:",
+    "o": [
+      "Grado",
+      "Master Universitario",
+      "Master",
+      "Master o grado, según los créditos que contenga el plan de estudio"
+    ],
+    "c": 1,
+    "ref": "Real Decreto 822/2021, art. 3.1 (redacción vigente al 12/01/2026)",
+    "exp": "La superación del plan de estudios de Máster da lugar al título oficial de Máster Universitario."
+  },
+  {
+    "q": "Según el art. 3 del RD 822/2021 por el que se establece la organización de las enseñanzas universitarias, los títulos universitario oficiales, ¿Dónde deberán inscribirse?",
+    "o": [
+      "En el registro de Meces",
+      "En el registro del Espacio Europeo de Educación superior",
+      "En el RUCT del Ministerio de Universidades",
+      "En el RUCT de la correspondiente comunidad Autónoma"
+    ],
+    "c": 2,
+    "ref": "Real Decreto 822/2021, art. 3.2 (redacción vigente al 12/01/2026)",
+    "exp": "Los títulos universitarios oficiales deben inscribirse en el RUCT del Ministerio de Universidades, conforme al texto reglamentario."
+  },
+  {
+    "q": "Según el art. 3 del RD 822/2021 por el que se establece la organización de las enseñanzas universitarias, todos los títulos universitarios oficiales de Grado y de Máster Universitario deberán adscribirse a:",
+    "o": [
+      "A un campo del conocimiento",
+      "A un ámbito de estudio",
+      "A un área del saber",
+      "A un campo de estudio"
+    ],
+    "c": 3,
+    "ref": "Real Decreto 822/2021, art. 3.3 (redacción vigente al 12/01/2026)",
+    "exp": "Desde el 28/10/2025, los títulos de Grado y Máster Universitario se adscriben a un campo de estudio."
+  },
+  {
+    "q": "Según el art. 4 del RD 822/2021 por el que se establece la organización de las enseñanzas universitarias, indique, cuál entre los que se menciona a continuación, es un principio deberán inspirar el diseño de los planes de estudios de los títulos universitarios oficiales:",
+    "o": [
+      "El cumplimiento del procedimiento administrativo que implica el diseño de una enseñanza universitaria.",
+      "La concordancia con el cariz generalista o especializado de los ciclos en los que se inscribe la enseñanza;",
+      "La coherencia entre los objetivos formativos del plan de estudios, y las necesidades de los distintos sectores que componen la sociedad con los que se relaciona la Universidad",
+      "La aceptación social"
+    ],
+    "c": 1,
+    "ref": "Real Decreto 822/2021, art. 4.1.b (redacción vigente al 12/01/2026)",
+    "exp": "Es principio rector la concordancia con el carácter generalista o especializado del ciclo en que se inscribe la enseñanza."
+  },
+  {
+    "q": "Según el art. 4 del RD 822/2021 por el que se establece la organización de las enseñanzas universitarias, los planes de estudios, ¿Qué tendrán como referente?",
+    "o": [
+      "Las necesidades de una sociedad democrática",
+      "Los principios del procedimiento administrativo",
+      "Los principios y valores democráticos y los Objetivos de Desarrollo Sostenible.",
+      "Las demandas de los distintos sectores económico y las carencias del mercado de trabajo"
+    ],
+    "c": 2,
+    "ref": "Real Decreto 822/2021, art. 4.2 (redacción vigente al 12/01/2026)",
+    "exp": "Los planes de estudios deben tener como referente los principios y valores democráticos y los Objetivos de Desarrollo Sostenible."
+  },
+  {
+    "q": "Según el art. 4 del RD 822/2021 por el que se establece la organización de las enseñanzas universitarias, siguiendo con la pregunta anterior, ¿En particular que tendrán cómo referente?",
+    "o": [
+      "La coherencia entre los objetivos formativos del plan de estudios, las competencias fundamentales que se persiguen y los sistemas de evaluación del aprendizaje del estudiantado establecidos",
+      "El respeto a los principios de accesibilidad universal y diseño para todas las personas.",
+      "Las demandas formativas del entorno social de la Universidad",
+      "El no respeto a la igualdad de género atendiendo a lo establecido en la Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y de hombres, y al principio de igualdad de trato"
+    ],
+    "c": 1,
+    "ref": "Real Decreto 822/2021, art. 4.2.c (redacción vigente al 12/01/2026)",
+    "exp": "Entre los referentes particulares figura la accesibilidad universal y el diseño para todas las personas."
+  },
+  {
+    "q": "Según el art. 4 del RD 822/2021 por el que se establece la organización de las enseñanzas universitarias, los valores y objetivos que inspiran el diseño de los planes de estudio, deberán incorporarse como contenidos o competencias:",
+    "o": [
+      "De carácter multidisciplinar",
+      "De carácter cultural",
+      "De carácter integral",
+      "De carácter transversal"
+    ],
+    "c": 3,
+    "ref": "Real Decreto 822/2021, art. 4.3 (redacción vigente al 12/01/2026)",
+    "exp": "Estos valores y objetivos deben incorporarse como contenidos o competencias de carácter transversal."
+  },
+  {
+    "q": "Según el art. 5 del RD 822/2021 por el que se establece la organización de las enseñanzas universitarias, ¿Qué estructuran los planes de estudio?",
+    "o": [
+      "Las demandas de las Universidades",
+      "Los conocimientos y contenidos que se pretenden transmitir",
+      "Las competencias y habilidades de los docentes",
+      "El sistema disciplinario del estudiantado matriculado"
+    ],
+    "c": 1,
+    "ref": "Real Decreto 822/2021, art. 5.1 (redacción vigente al 12/01/2026)",
+    "exp": "Los planes de estudios estructuran, entre otros elementos, los conocimientos y contenidos que se pretenden transmitir."
+  },
+  {
+    "q": "Según el art. 5 del RD 822/2021 que establece la organización de las enseñanzas, el plan de estudio en las enseñanzas de Grado y Máster Universitario se estructura en cursos de:",
+    "o": [
+      "90 créditos",
+      "60 créditos",
+      "50 créditos",
+      "30 en todo caso"
+    ],
+    "c": 1,
+    "ref": "Real Decreto 822/2021, art. 5.2 (redacción vigente al 12/01/2026)",
+    "exp": "Los cursos de Grado y Máster Universitario se estructuran, con la excepción prevista para ciertos Másteres, en 60 créditos ECTS."
+  },
+  {
+    "q": "Según el art. 5 del RD 822/2021 que establece la organización de las enseñanzas, siguiendo con la pregunta anterior, y en el Plan de las Enseñanzas de doctorado, ¿Cuál sería la estructura del curso?",
+    "o": [
+      "90 o 30 créditos según los casos",
+      "60 créditos",
+      "30 en todo caso",
+      "Nada es correcto"
+    ],
+    "c": 3,
+    "ref": "Real Decreto 822/2021, art. 5.2 y 6 (redacción vigente al 12/01/2026)",
+    "exp": "El artículo 5 no fija cursos de 30, 60 o 90 créditos para Doctorado; sus programas se rigen por el Real Decreto 99/2011."
+  },
+  {
+    "q": "Según el art. 5 del RD 822/2021 que establece la organización de las enseñanzas, ¿Por quién serán elaborados los planes de estudios de las enseñanzas universitarias oficiales?",
+    "o": [
+      "Por las Universidades",
+      "Por el Gobierno",
+      "Por las Comunidades Autónoma",
+      "Por las Universidades con la participación de la sociedad"
+    ],
+    "c": 0,
+    "ref": "Real Decreto 822/2021, art. 5.3 (redacción vigente al 12/01/2026)",
+    "exp": "Los planes de estudios de las enseñanzas oficiales son elaborados por las universidades."
+  },
+  {
+    "q": "Según el art. 5 del RD 822/2021 que establece la organización de las enseñanzas, para producir plenos efectos, y contar con el carácter de título Universitario oficial, la memoria del plan de estudio deberá ser verificada por:",
+    "o": [
+      "Los órganos de gobiernos de las Comunidades autónoma",
+      "Los órganos de gobiernos de las Universidades",
+      "El Consejo de Universidades",
+      "El Ministerio de Universidades"
+    ],
+    "c": 2,
+    "ref": "Real Decreto 822/2021, art. 5.4 (redacción vigente al 12/01/2026)",
+    "exp": "La memoria del plan de estudios debe ser verificada por el Consejo de Universidades."
+  },
+  {
+    "q": "Según el art. 5 del RD 822/2021 que establece la organización de las enseñanzas, las universidades españolas, o con otra u otras extranjeras, podrán proponer un plan de estudios conjunto conducente a un título universitario oficial:",
+    "o": [
+      "De Grado, Master Universitario y Doctorado",
+      "Solo de Grado y Master Universitario",
+      "Solo de Doctorado",
+      "Solo de Master Universitario"
+    ],
+    "c": 0,
+    "ref": "Real Decreto 822/2021, art. 5.5 (redacción vigente al 12/01/2026)",
+    "exp": "Un plan conjunto puede conducir a un título oficial de Grado, Máster Universitario o Doctorado."
+  },
+  {
+    "q": "Según el art. 5 del RD 822/2021 que establece la organización de las enseñanzas, el plan de estudio conjunto se podrá proponer mediante:",
+    "o": [
+      "La elaboración de una memoria",
+      "La celebración de un convenio",
+      "La firma de un programa",
+      "Mecanismos de coordinación"
+    ],
+    "c": 1,
+    "ref": "Real Decreto 822/2021, art. 5.5 (redacción vigente al 12/01/2026)",
+    "exp": "La propuesta del plan conjunto se articula mediante la celebración de un convenio."
+  },
+  {
+    "q": "Según el art. 5 del RD 822/2021 que establece la organización de las enseñanzas, En el caso de planes de estudios conjuntos de títulos universitarios oficiales en los que participen universidades españolas y extranjeras, si la institución coordinadora es una universidad extranjera, la universidad española participante:",
+    "o": [
+      "Podrá disponer de una copia de los expedientes del estudiantado que curse dicho título.",
+      "Deberá disponer de los expedientes del estudiantado que curse dicho título.",
+      "Deberá disponer de una copia de los expedientes del estudiantado que curse dicho título",
+      "Deberá disponer de una copia de los expedientes del estudiantado que vayan a cursar dicho título"
+    ],
+    "c": 2,
+    "ref": "Real Decreto 822/2021, art. 5.6 (redacción vigente al 12/01/2026)",
+    "exp": "Si coordina una universidad extranjera, la universidad española participante debe conservar una copia de los expedientes."
+  },
+  {
+    "q": "Según el art. 5 del RD 822/2021 que establece la organización de las enseñanzas, las universidades asegurarán la participación del estudiantado en las comisiones creadas específicamente para la:",
+    "o": [
+      "La aprobación de la memoria del título de Grado o de Máster universitario.",
+      "La elaboración de la memoria del título de Grado, Máster Universitario y Doctorado.",
+      "La implantación de la memoria del título de Grado o de Máster Universitario.",
+      "La elaboración de la memoria del título de Grado o de Máster Universitario"
+    ],
+    "c": 3,
+    "ref": "Real Decreto 822/2021, art. 5.7 (redacción vigente al 12/01/2026)",
+    "exp": "La participación estudiantil debe asegurarse en las comisiones que elaboran la memoria del título de Grado o Máster Universitario."
+  },
+  {
+    "q": "Según el art. 6 del RD 822/2021 que establece la organización de las enseñanzas, Los programas de Doctorado se regirán por lo dispuesto en el:",
+    "o": [
+      "Real Decreto 99/2011, de 28 de enero",
+      "Real Decreto 822/2021, de 28 de septiembre",
+      "Real Decreto Ley 99/2011, de 28 de enero",
+      "Real Decreto 99/2021, de 28 de septiembre"
+    ],
+    "c": 0,
+    "ref": "Real Decreto 822/2021, art. 6 (redacción vigente al 12/01/2026)",
+    "exp": "Los programas de Doctorado se rigen por el Real Decreto 99/2011, de 28 de enero."
+  },
+  {
+    "q": "Según el art. 7 del RD 822, que establece la organización de las enseñanzas, las Universidades podrán implantar los planes de estudios de las titulaciones universitarias oficiales:",
+    "o": [
+      "De forma progresiva para todos los cursos",
+      "De forma simultánea para varios cursos",
+      "De forma progresiva para varios cursos",
+      "De forma sucesiva para todos los cursos"
+    ],
+    "c": 1,
+    "ref": "Real Decreto 822/2021, art. 7 (redacción vigente al 12/01/2026)",
+    "exp": "La implantación puede ser simultánea para todos los cursos o para varios, según los casos."
+  },
+  {
+    "q": "Según el art. 7 del RD 822, que establece la organización de las enseñanzas, en la implantación de los planes de estudio de nuevas enseñanzas, se llevará de acuerdo con la temporalidad prevista en:",
+    "o": [
+      "En la memoria presentada en el proceso de verificación.",
+      "En el convenio suscrito",
+      "En los propios planes de estudio",
+      "En la memoria presentada para verificación por el RUCT"
+    ],
+    "c": 0,
+    "ref": "Real Decreto 822/2021, art. 7 (redacción vigente al 12/01/2026)",
+    "exp": "La temporalidad de la implantación es la prevista en la memoria presentada en el proceso de verificación."
+  },
+  {
+    "q": "Según el art. 8 del RD 822/2021 que establece la organización de las enseñanzas, los títulos universitarios de Grado, de Master Universitario y de Doctorado, cuentan con efectos:",
+    "o": [
+      "Académicos y administrativos",
+      "Con los que le otorgue la normativa aplicable al título",
+      "Académicos y profesionales",
+      "Académicos o profesionales, según la normativa aplicable"
+    ],
+    "c": 0,
+    "ref": "Real Decreto 822/2021, art. 8.1 (redacción vigente al 12/01/2026)",
+    "exp": "Los títulos oficiales cuentan con efectos académicos y administrativos."
+  },
+  {
+    "q": "Según el art. 8 del RD 822/2021 que establece la organización de las enseñanzas, ¿qué es correcto afirmar?",
+    "o": [
+      "Los títulos universitarios de Grado, de Máster Universitario tienen carácter oficial y en el caso de que así resulte de su normativa aplicable, también los programas de Doctorados",
+      "El Doctorado son validos en España, salvo que cuente con efecto académicos o administrativo en el espacio europeo de educación superior",
+      "El título de Máster Universitario, es valido en España, y habilita en todo caso para el ejercicio de profesiones reguladas",
+      "Los títulos universitarios de grado, tienen carácter oficial, son validos en España, y en el caso de que así resulte de la normativa aplicable, habilitan para el ejercicio de determinadas profesiones reguladas"
+    ],
+    "c": 3,
+    "ref": "Real Decreto 822/2021, art. 8.1 (redacción vigente al 12/01/2026)",
+    "exp": "Los títulos de Grado son oficiales, válidos en España y, cuando lo establezca la normativa, habilitan para profesiones reguladas."
+  },
+  {
+    "q": "Según el art. 8 del RD 822/2021 que establece la organización de las enseñanzas, la expedición de los títulos de Graduada o Graduado, de Máster Universitario y de Doctora o Doctor a que conducen la superación de los créditos de los respectivos planes de estudios y la superación del programa de Doctorado, se efectuará:",
+    "o": [
+      "En nombre de la Rectora o el Rector de la Universidad en que se hubiere finalizado los estudios por el Rey",
+      "En nombre del Rey por la Rectora o el Rector de la universidad en que se hubieren finalizado los estudios",
+      "En nombre del Rey por la Rectora o el Rector de la universidad en que se hubieren comenzado los estudios",
+      "En nombre del Rey, de la Rectora o el Rector de la universidad en que se hubieren finalizado los estudios, por el órgano competente de la Comunidad Autónoma"
+    ],
+    "c": 1,
+    "ref": "Real Decreto 822/2021, art. 8.2 (redacción vigente al 12/01/2026)",
+    "exp": "Los títulos se expiden en nombre del Rey por la Rectora o el Rector de la universidad donde se finalizaron los estudios."
+  },
+  {
+    "q": "Según el art. 9 del RD 822/2021 que establece la organización de las enseñanzas, el conjunto de actividades académicas que desarrolla el o la estudiante en las enseñanzas de Grado y Máster se medirá:",
+    "o": [
+      "Por calificaciones numéricas",
+      "Por créditos que sigue el formato MECES",
+      "Por actividades académicas",
+      "En créditos que siguen el formato del Sistema ECTS"
+    ],
+    "c": 3,
+    "ref": "Real Decreto 822/2021, art. 9.1 (redacción vigente al 12/01/2026)",
+    "exp": "La actividad académica de Grado y Máster se mide en créditos con formato ECTS."
+  },
+  {
+    "q": "Según el art. 9 del RD 822/2021 que establece la organización de las enseñanzas, el conjunto de actividades académicas que desarrolla el o la estudiante en las enseñanzas de Grado y Máster podrán tener lugar en:",
+    "o": [
+      "Espacios no lectivos presenciales",
+      "Espacios lectivos virtuales",
+      "Espacios docentes autónomos",
+      "En Espacios de transferencia"
+    ],
+    "c": 1,
+    "ref": "Real Decreto 822/2021, art. 9.1 (redacción vigente al 12/01/2026)",
+    "exp": "Las actividades pueden desarrollarse en espacios lectivos virtuales, además de otros espacios y modalidades previstos por la norma."
+  },
+  {
+    "q": "Según el art. 9 del RD 822/2021 que establece la organización de las enseñanzas, las actividades académicas de cada materia o asignatura deberán ser calificadas:",
+    "o": [
+      "De acuerdo con la guía docente.",
+      "De acuerdo con el nivel alcanzado en las actividades teóricas y prácticas realizada por el o la estudiante.",
+      "A tenor del nivel de aprendizaje de los conocimientos, competencias y habilidades que la o el estudiante haya alcanzado.",
+      "De acuerdo con cualquiera de los criterios anteriores"
+    ],
+    "c": 2,
+    "ref": "Real Decreto 822/2021, art. 9.2 (redacción vigente al 12/01/2026)",
+    "exp": "La calificación atiende al nivel de aprendizaje alcanzado en conocimientos, competencias y habilidades."
+  },
+  {
+    "q": "Según el art. 9 del RD 822/2021 que establece la organización de las enseñanzas, las actividades académicas de cada materia o asignatura deberán ser expresada de:",
+    "o": [
+      "De forma autónoma",
+      "De forma numérica",
+      "De forma nominal",
+      "De forma aproximada"
+    ],
+    "c": 1,
+    "ref": "Real Decreto 822/2021, art. 9.2 (redacción vigente al 12/01/2026)",
+    "exp": "La calificación debe expresarse de forma numérica."
+  },
+  {
+    "q": "Según el art. 10 del RD 822/2021 que establece la organización de las enseñanzas, ¿Qué procedimientos tiene por objeto facilitar la movilidad del estudiantado entre títulos universitarios oficiales españoles, así como entre estos y los títulos universitarios extranjeros?",
+    "o": [
+      "Los de homologación de estudio y Convalidación de créditos",
+      "Los de suplementos al título europeo",
+      "Los de reconocimiento y de transferencia de créditos académicos en los títulos universitarios oficiales",
+      "Los de reconocimiento y de transferencia de créditos académicos en los títulos universitarios no oficiales"
+    ],
+    "c": 2,
+    "ref": "Real Decreto 822/2021, art. 10.1 (redacción vigente al 12/01/2026)",
+    "exp": "Los procedimientos de reconocimiento y transferencia de créditos facilitan la movilidad entre títulos oficiales españoles y extranjeros."
+  },
+  {
+    "q": "Según el art. 10 del RD 822/2021 que establece la organización de las enseñanzas, ¿Dónde se deberán reflejar el volumen de créditos susceptibles de ser utilizado en los procedimientos de reconocimiento y transferencia de créditos?",
+    "o": [
+      "En el expediente del o la estudiante",
+      "En los planes de estudio",
+      "En la guía docente",
+      "En la memoria del título"
+    ],
+    "c": 1,
+    "ref": "Real Decreto 822/2021, art. 10.2 (redacción vigente al 12/01/2026)",
+    "exp": "Cada plan de estudios debe reflejar el volumen de créditos susceptible de utilizarse en estos procedimientos."
+  },
+  {
+    "q": "Según el art. 10 del RD 822/2021 que establece la organización de las enseñanzas, ¿A qué hace referencia el reconocimiento de créditos académicos?",
+    "o": [
+      "Al procedimiento de aceptación por parte de una universidad de créditos obtenidos en otros estudios oficiales, en la misma u otra universidad, para que formen parte del expediente del o de la estudiante a efecto de obtener un título universitario oficial diferente del que proceden.",
+      "A la acreditación de la experiencia profesional y a las prácticas externas realizada mediante la suscripción de un convenio",
+      "A la inclusión, en el expediente académico y en el Suplemento Europeo al Título, de la totalidad de los créditos obtenidos en enseñanzas oficiales cursadas previamente, indistintamente de la universidad, que no hayan conducido a la obtención de un título universitario oficial-",
+      "A la aceptación por parte de una universidad de un expediente académico para el inicio o continuación de estudios oficiales"
+    ],
+    "c": 0,
+    "ref": "Real Decreto 822/2021, art. 10.3 (redacción vigente al 12/01/2026)",
+    "exp": "El reconocimiento consiste en aceptar créditos de otros estudios oficiales para incorporarlos a un título oficial diferente."
+  },
+  {
+    "q": "Según el art. 10 del RD 822/2021 que establece la organización de las enseñanzas, los créditos reconocibles a partir de la experiencia profesional o laboral no podrán superar:",
+    "o": [
+      "Globalmente el 15 por ciento del total de crédito de un curso académico",
+      "Globalmente 15 créditos del total de crédito que configura el plan de estudio que pretende obtener",
+      "Globalmente 15 por ciento del total de crédito que configura el plan de estudio que pretende obtener",
+      "Globalmente 15 por ciento del total de crédito que configura el plan de estudio que se ha obtenido"
+    ],
+    "c": 2,
+    "ref": "Real Decreto 822/2021, art. 10.5 (redacción vigente al 12/01/2026)",
+    "exp": "La experiencia profesional o laboral y los estudios universitarios no oficiales no pueden superar globalmente el 15 % del plan del título que se pretende obtener."
+  },
+  {
+    "q": "Según el art. 10 del RD 822/2021 que establece la organización de las enseñanzas, la transferencia de crédito hace referencia:",
+    "o": [
+      "A la exclusión, en el expediente académico y en el Suplemento Europeo al Título, de la totalidad de los créditos obtenidos en enseñanzas oficiales cursadas previamente, indistintamente de la universidad, que no hayan conducido a la obtención de un título universitario oficial",
+      "A la inclusión, en el expediente académico y en el Suplemento Europeo al Título, de la totalidad de los créditos obtenidos en enseñanzas oficiales cursadas previamente, indistintamente de la universidad, que hayan conducido a la obtención de un título universitario oficial",
+      "A la aceptación del expediente académico y del Suplemento Europeo al título indistintamente por cualquier Universidad donde se pretenda obtener un título universitario oficial",
+      "A nada de lo anterior hace referencia"
+    ],
+    "c": 3,
+    "ref": "Real Decreto 822/2021, art. 10.8 (redacción vigente al 12/01/2026)",
+    "exp": "La respuesta es D: la A dice «exclusión», la B omite el «no» de «no hayan conducido» y la C no reproduce la definición de transferencia."
+  },
+  {
+    "q": "Según el art. 10 del RD 822/2021 que establece la organización de las enseñanzas, en todo caso y específicamente para los títulos de grados, ¿Qué créditos será objeto de los procedimientos de reconocimiento y transferencia hasta la totalidad, entre títulos del mismo campo de estudio?",
+    "o": [
+      "Los pertenecientes a asignaturas obligatorias.",
+      "Los de asignaturas optativas.",
+      "Los de formación básica",
+      "Los de formación troncal"
+    ],
+    "c": 2,
+    "ref": "Real Decreto 822/2021, art. 10.9.a (redacción vigente al 12/01/2026)",
+    "exp": "En los Grados pueden reconocerse hasta la totalidad de los créditos de formación básica entre títulos del mismo campo de estudio."
+  },
+  {
+    "q": "Según el art. 11 del RD 822/2021 que establece la organización de las enseñanzas, ¿Quién garantizará el carácter plenamente formativo de las prácticas académicas externa y que las condiciones de realización de las prácticas por parte del estudiantado sean adecuadas y sujetas a su interés formativo primordial?",
+    "o": [
+      "La Universidad",
+      "Las entidades, empresas, organizaciones sindicales, etc.., donde se realicen las prácticas",
+      "La inspección de trabajo",
+      "La Comunidad autónoma"
+    ],
+    "c": 0,
+    "ref": "Real Decreto 822/2021, art. 11.3 (redacción vigente al 12/01/2026)",
+    "exp": "La universidad debe garantizar el carácter plenamente formativo y las condiciones adecuadas de las prácticas externas."
+  },
+  {
+    "q": "Según el art. 11 del RD 822/2021 que establece la organización de las enseñanzas, la realización de las prácticas académicas externas exigirá la:",
+    "o": [
+      "Formalización de un contrato entre las Universidad y las entidades, empresas, organizaciones sociales y sindicales o la administración",
+      "La elaboración de una normativa conjunta que regule las condiciones de las prácticas externa",
+      "La adhesión de la Universidad a la normativa laboral o administrativa, según el caso de las entidades, empresas, organizaciones sociales y sindicales o la administración",
+      "La suscripción de un Convenio de Cooperación Educativa entre la universidad, o sus centros propios y adscritos, y las entidades, empresas, organizaciones sociales y sindicales o la administración"
+    ],
+    "c": 3,
+    "ref": "Real Decreto 822/2021, art. 11.4 (redacción vigente al 12/01/2026)",
+    "exp": "Las prácticas externas exigen un Convenio de Cooperación Educativa."
+  },
+  {
+    "q": "Según el art. 12 del RD 822/2021 que establece la organización de las enseñanzas, ¿Quién establece los límites máximos de los precios públicos de los títulos universitarios?",
+    "o": [
+      "La Conferencia General de Política Universitaria",
+      "El Consejo de Universidades",
+      "La Comunidad autónoma",
+      "La Conferencia General de Rectores/as de Universidades"
+    ],
+    "c": 0,
+    "ref": "Real Decreto 822/2021, art. 12 (redacción vigente al 12/01/2026)",
+    "exp": "Los límites máximos de los precios públicos los establece la Conferencia General de Política Universitaria."
+  }
 ]
