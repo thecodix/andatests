@@ -370,5 +370,1085 @@
     "c": 2,
     "ref": "UHU > SACU: Voluntariado (consulta 28/06/2026)",
     "exp": "El Servicio de Atención a la Comunidad Universitaria (SACU) gestiona y ofrece información sobre el voluntariado universitario."
+  },
+  {
+    "q": "¿Cuál de los siguientes NO es un órgano colegiado de la estructura central de la Universidad de Huelva?",
+    "o": [
+      "El Consejo de Gobierno",
+      "El Claustro Universitario",
+      "La Junta de Centro",
+      "El Consejo Social"
+    ],
+    "c": 2,
+    "ref": "UHU > Estructura organizativa (situación examinable a 12/01/2026)",
+    "exp": "Los órganos colegiados de la estructura central son el Consejo de Gobierno, el Claustro Universitario y el Consejo Social. La Junta de Centro es el órgano colegiado de una Facultad o Escuela."
+  },
+  {
+    "q": "Según la información oficial de la Universidad de Huelva a fecha de 12/01/2026, ¿cuál de las siguientes afirmaciones sobre el Consejo de Gobierno es correcta?",
+    "o": [
+      "Se reúne en sesión ordinaria al menos dos veces cada mes",
+      "Además del Rector o Rectora, el Secretario o Secretaria General y el o la Gerente, está constituido por un máximo de 50 miembros",
+      "Lo preside una persona elegida por la Comunidad Autónoma",
+      "No es un órgano de gobierno de la Universidad"
+    ],
+    "c": 1,
+    "ref": "UHU > Estructura organizativa: Consejo de Gobierno (situación examinable a 12/01/2026)",
+    "exp": "El Consejo de Gobierno está integrado por el Rector o Rectora, el Secretario o Secretaria General, el o la Gerente y un máximo de 50 miembros. Esta formulación se conserva como refuerzo aunque el dato también aparezca en otro test."
+  },
+  {
+    "q": "Según la información oficial de la Universidad de Huelva a fecha de 12/01/2026, ¿quién preside el Claustro Universitario?",
+    "o": [
+      "Una persona elegida por la Comunidad Autónoma",
+      "El Rector o Rectora, solo cuando no presida el Consejo de Gobierno",
+      "El Rector o Rectora, solo cuando presida el Consejo Social",
+      "El Rector o Rectora"
+    ],
+    "c": 3,
+    "ref": "UHU > Estructura organizativa: Claustro Universitario (situación examinable a 12/01/2026)",
+    "exp": "El Rector o Rectora preside el Claustro Universitario. La pregunta se conserva porque presenta distractores diferentes y refuerza la recuperación del dato."
+  },
+  {
+    "q": "Según la información oficial de la Universidad de Huelva a fecha de 12/01/2026, ¿cómo está compuesto el Claustro Universitario?",
+    "o": [
+      "Por el Rector o Rectora, el Secretario o Secretaria General, el o la Gerente y 250 representantes de los distintos sectores de la comunidad universitaria",
+      "Por el Rector o Rectora, el Secretario o Secretaria General, el o la Gerente y, como mínimo, 252 representantes",
+      "Por el Rector o Rectora, el Secretario o Secretaria General, el o la Gerente, los Vicerrectores y Vicerrectoras y 252 representantes",
+      "Por el Rector o Rectora, que lo preside, el Secretario o Secretaria General, el o la Gerente y 252 representantes de los distintos sectores de la comunidad universitaria"
+    ],
+    "c": 3,
+    "ref": "UHU > Estructura organizativa: Claustro Universitario (situación examinable a 12/01/2026)",
+    "exp": "El Claustro está formado por el Rector o Rectora, el Secretario o Secretaria General, el o la Gerente y 252 representantes de los distintos sectores de la comunidad universitaria."
+  },
+  {
+    "q": "Según la información oficial de la Universidad de Huelva, ¿con qué frecuencia se reúne ordinariamente el Claustro Universitario?",
+    "o": [
+      "Al menos una vez al año",
+      "Al menos dos veces al año",
+      "Al menos cuatro veces al año",
+      "Al menos dos veces cada mes"
+    ],
+    "c": 1,
+    "ref": "UHU > Estructura organizativa (situación examinable a 12/01/2026)",
+    "exp": "El Claustro Universitario se reúne en sesión ordinaria al menos dos veces al año."
+  },
+  {
+    "q": "¿Qué norma regula la composición y las funciones del Consejo Social de la Universidad de Huelva?",
+    "o": [
+      "La ley de la Comunidad Autónoma",
+      "Los órganos de gobierno de la Comunidad Autónoma",
+      "La propia Universidad",
+      "La sociedad"
+    ],
+    "c": 0,
+    "ref": "UHU > Consejo Social y Estructura organizativa (situación examinable a 12/01/2026)",
+    "exp": "La composición y las funciones del Consejo Social se regulan por ley de la Comunidad Autónoma."
+  },
+  {
+    "q": "¿Cuál de las siguientes afirmaciones sobre el Consejo Social de la Universidad de Huelva es correcta?",
+    "o": [
+      "Garantiza la participación de la sociedad en la Universidad y en la Comunidad Autónoma",
+      "No es un órgano colegiado de la Universidad",
+      "Está compuesto por 252 representantes de la comunidad universitaria",
+      "La persona que lo preside es nombrada por la Comunidad Autónoma"
+    ],
+    "c": 3,
+    "ref": "UHU > Consejo Social y Estructura organizativa (situación examinable a 12/01/2026)",
+    "exp": "La persona que preside el Consejo Social es nombrada por la Comunidad Autónoma. El Consejo Social sí es un órgano colegiado y no está formado por 252 representantes."
+  },
+  {
+    "q": "¿Cuál de las siguientes personas es miembro del Consejo Social de la Universidad de Huelva?",
+    "o": [
+      "Dos estudiantes",
+      "Un representante del PTGAS elegido por el Claustro Universitario",
+      "El Secretario o Secretaria General",
+      "Representantes de la vida cultural y social que pertenezcan a la comunidad universitaria"
+    ],
+    "c": 2,
+    "ref": "UHU > Consejo Social y Estructura organizativa (situación examinable a 12/01/2026)",
+    "exp": "El Secretario o Secretaria General forma parte del Consejo Social. La opción sobre representantes externos es falsa porque estos no deben pertenecer a la comunidad universitaria."
+  },
+  {
+    "q": "¿Quién elige al representante del profesorado en el Consejo Social de la Universidad de Huelva?",
+    "o": [
+      "El Consejo de Gobierno",
+      "El Claustro Universitario",
+      "El Rector/a",
+      "La Comunidad Autónoma"
+    ],
+    "c": 0,
+    "ref": "UHU > Consejo Social y Estructura organizativa (situación examinable a 12/01/2026)",
+    "exp": "El representante del profesorado en el Consejo Social es elegido por el Consejo de Gobierno."
+  },
+  {
+    "q": "¿Cuál de los siguientes es un objetivo del Consejo Social de la Universidad de Huelva?",
+    "o": [
+      "Establecer las líneas estratégicas y programáticas de la Universidad",
+      "Representar a la comunidad Universitaria",
+      "Promover espacios de colaboración e intercambio",
+      "Supervisar las actividades de la sociedad donde se inserta"
+    ],
+    "c": 2,
+    "ref": "UHU > Consejo Social y Estructura organizativa (situación examinable a 12/01/2026)",
+    "exp": "Entre los objetivos publicados del Consejo Social figura promover espacios de colaboración e intercambio entre la Universidad y la sociedad."
+  },
+  {
+    "q": "¿Cuál de los siguientes NO es un órgano unipersonal de la estructura central de la Universidad de Huelva?",
+    "o": [
+      "El Decano o Decana de la Facultad de Ciencias Experimentales",
+      "El Secretario o Secretaria General",
+      "La persona titular del Vicerrectorado de Doctorado, Política Lingüística y Biblioteca",
+      "El Rector o Rectora"
+    ],
+    "c": 0,
+    "ref": "UHU > Estructura organizativa (situación examinable a 12/01/2026)",
+    "exp": "Un Decano o Decana es un órgano unipersonal de un centro, no de la estructura central de la Universidad."
+  },
+  {
+    "q": "¿Qué órgano unipersonal ejecuta los acuerdos de los órganos colegiados de la Universidad de Huelva?",
+    "o": [
+      "Los Decanos/as",
+      "El Gerente",
+      "El Rector",
+      "La Secretaria General"
+    ],
+    "c": 2,
+    "ref": "UHU > Estructura organizativa (situación examinable a 12/01/2026)",
+    "exp": "Corresponde al Rector o Rectora ejecutar los acuerdos de los órganos colegiados de la Universidad."
+  },
+  {
+    "q": "¿Cuál de los siguientes cargos NO forma parte del equipo de gobierno de la Universidad de Huelva a fecha de 12/01/2026?",
+    "o": [
+      "El Rector o Rectora",
+      "La persona titular del Vicerrectorado de Calidad y Concursos Docentes",
+      "La Vicerrectora de Transferencia de la Investigación",
+      "El Secretario o Secretaria General"
+    ],
+    "c": 2,
+    "ref": "UHU > Equipo de Gobierno (situación examinable a 12/01/2026)",
+    "exp": "No existe a fecha de 12/01/2026 un cargo denominado Vicerrectora de Transferencia de la Investigación. El equipo incluye, entre otros, Rectorado, Secretaría General y Vicerrectorado de Calidad y Concursos Docentes."
+  },
+  {
+    "q": "¿Cuál de los siguientes cargos forma parte del equipo de gobierno de la Universidad de Huelva a fecha de 12/01/2026?",
+    "o": [
+      "El Decano o Decana de la Facultad de Ciencias del Trabajo",
+      "El Secretario o Secretaria General",
+      "El Vicerrector de Informática y Telecomunicaciones",
+      "Las opciones B y C son correctas"
+    ],
+    "c": 1,
+    "ref": "UHU > Equipo de Gobierno (situación examinable a 12/01/2026)",
+    "exp": "El Secretario o Secretaria General forma parte del equipo de gobierno. No existe a fecha de 12/01/2026 un Vicerrectorado de Informática y Telecomunicaciones."
+  },
+  {
+    "q": "En el siguiente grupo de denominaciones, ¿cuál NO correspondía a un Vicerrectorado de la Universidad de Huelva a fecha de 12/01/2026?",
+    "o": [
+      "Vicerrectorado de Doctorado, Política Lingüística y Biblioteca",
+      "Vicerrectorado de Cooperación Internacional",
+      "Vicerrectorado de Campus Sostenible y Transformación Digital",
+      "Las opciones B y C son correctas"
+    ],
+    "c": 1,
+    "ref": "UHU > Equipo de Gobierno (situación examinable a 12/01/2026)",
+    "exp": "La denominación vigente al 12/01/2026 es Vicerrectorado de Alianzas Internacionales, no Vicerrectorado de Cooperación Internacional."
+  },
+  {
+    "q": "¿Cuál de las siguientes afirmaciones sobre la estructura organizativa de la Universidad de Huelva a fecha de 12/01/2026 es correcta?",
+    "o": [
+      "El Gerente es un órgano unipersonal de la estructura central, pero no forma parte del equipo de gobierno",
+      "La Secretaria General no forma parte del equipo de gobierno ni de la estructura central",
+      "La Vicerrectora de Proyección Universitaria forma parte del equipo de gobierno",
+      "El Rector, la Secretaria General y el Gerente son los únicos integrantes del equipo de gobierno"
+    ],
+    "c": 2,
+    "ref": "UHU > Equipo de Gobierno (situación examinable a 12/01/2026)",
+    "exp": "El Vicerrectorado de Proyección Universitaria forma parte del equipo de gobierno de la UHU a fecha de 12/01/2026."
+  },
+  {
+    "q": "¿Cuál de las siguientes denominaciones corresponde a un Vicerrectorado existente en la Universidad de Huelva a fecha de 12/01/2026?",
+    "o": [
+      "Vicerrectorado de Alumnos",
+      "Vicerrectorado de Proyección Académica",
+      "Vicerrectorado de Investigación y Planificación Económica",
+      "Vicerrectorado de Ordenación Académica y Profesorado"
+    ],
+    "c": 3,
+    "ref": "UHU > Equipo de Gobierno (situación examinable a 12/01/2026)",
+    "exp": "Vicerrectorado de Ordenación Académica y Profesorado es una denominación oficial vigente a fecha de 12/01/2026."
+  },
+  {
+    "q": "Señale la denominación que NO correspondía a un Vicerrectorado de la Universidad de Huelva a fecha de 12/01/2026.",
+    "o": [
+      "Vicerrectorado de Igualdad, Campus Saludable y Justicia Social",
+      "Vicerrectorado de Formación y Desarrollo Profesional",
+      "Vicerrectorado de Transformación Sostenible y Digital",
+      "Vicerrectorado de Transferencia y Desarrollo Territorial"
+    ],
+    "c": 2,
+    "ref": "UHU > Equipo de Gobierno (situación examinable a 12/01/2026)",
+    "exp": "La denominación oficial es Vicerrectorado de Campus Sostenible y Transformación Digital, no Vicerrectorado de Transformación Sostenible y Digital."
+  },
+  {
+    "q": "Complete la denominación oficial: «Vicerrectorado de Calidad y...»",
+    "o": [
+      "Concursos Docentes",
+      "Planificación Estratégica",
+      "Desarrollo Profesional",
+      "Transformación Digital"
+    ],
+    "c": 0,
+    "ref": "UHU > Equipo de Gobierno (situación examinable a 12/01/2026)",
+    "exp": "La denominación completa es Vicerrectorado de Calidad y Concursos Docentes."
+  },
+  {
+    "q": "A fecha de 12/01/2026, ¿qué afirmación es correcta sobre la persona titular del Vicerrectorado de Doctorado, Política Lingüística y Biblioteca?",
+    "o": [
+      "No pertenece a la estructura organizativa de la UHU",
+      "La máxima responsable es una Vicerrectora",
+      "El máximo responsable es un Vicerrector",
+      "La persona responsable no forma parte del equipo de gobierno"
+    ],
+    "c": 1,
+    "ref": "UHU > Equipo de Gobierno y documentación oficial de diciembre de 2025 (situación examinable a 12/01/2026)",
+    "exp": "M.ª Carmen Fonseca Mora figuraba como Vicerrectora de Doctorado, Política Lingüística y Biblioteca en documentación oficial de diciembre de 2025, anterior al corte de 12/01/2026."
+  },
+  {
+    "q": "¿A qué Vicerrectorado está vinculada la Oficina de Gestión de la Investigación?",
+    "o": [
+      "Vicerrectorado de Calidad y Concursos Docentes",
+      "Vicerrectorado de Campus Sostenible y Transformación Digital",
+      "Vicerrectorado de Investigación y Planificación Estratégica",
+      "Vicerrectorado de Investigación y transferencia"
+    ],
+    "c": 2,
+    "ref": "UHU > Vicerrectorado de Investigación y Planificación Estratégica (situación examinable a 12/01/2026)",
+    "exp": "La Oficina de Gestión de la Investigación está vinculada al Vicerrectorado de Investigación y Planificación Estratégica."
+  },
+  {
+    "q": "¿Cuál de los siguientes servicios o unidades está vinculado al Vicerrectorado de Doctorado, Política Lingüística y Biblioteca?",
+    "o": [
+      "Servicio de Lenguas Modernas",
+      "Escuela de Doctorado",
+      "Cátedras Externas",
+      "Las opciones B y C son correctas"
+    ],
+    "c": 1,
+    "ref": "UHU > Vicerrectorado de Doctorado, Política Lingüística y Biblioteca (situación examinable a 12/01/2026)",
+    "exp": "La Escuela de Doctorado está vinculada al Vicerrectorado de Doctorado, Política Lingüística y Biblioteca. Las Cátedras Externas dependen del área de Transferencia."
+  },
+  {
+    "q": "¿A qué Vicerrectorado estaba vinculada la Biblioteca Universitaria de la UHU a fecha de 12/01/2026?",
+    "o": [
+      "A la Gerencia",
+      "Al Vicerrectorado de Doctorado, Política Lingüística y Biblioteca",
+      "Al Vicerrectorado de Estudiantes",
+      "Al Vicerrectorado de Investigación y Transferencia"
+    ],
+    "c": 1,
+    "ref": "UHU > Vicerrectorado de Doctorado, Política Lingüística y Biblioteca (situación examinable a 12/01/2026)",
+    "exp": "La Biblioteca Universitaria figuraba entre los servicios vinculados al Vicerrectorado de Doctorado, Política Lingüística y Biblioteca."
+  },
+  {
+    "q": "¿A qué Vicerrectorado está adscrita la coordinación del Aula de Sostenibilidad?",
+    "o": [
+      "Vicerrectorado de Igualdad, Campus Saludable y Justicia Social",
+      "Vicerrectorado de Igualdad, Campus Sostenible y Justicia Social",
+      "Vicerrectorado de Transferencia y Desarrollo Territorial",
+      "Vicerrectorado de Investigación y Desarrollo Sostenible"
+    ],
+    "c": 0,
+    "ref": "UHU > Vicerrectorado de Igualdad, Campus Saludable y Justicia Social (situación examinable a 12/01/2026)",
+    "exp": "El Aula de Sostenibilidad está adscrita al Vicerrectorado de Igualdad, Campus Saludable y Justicia Social."
+  },
+  {
+    "q": "¿A qué Vicerrectorado está vinculada la Oficina de Transferencia de Conocimiento (OTC)?",
+    "o": [
+      "Vicerrectorado de Transferencia y Desarrollo Sostenible",
+      "Vicerrectorado de Transferencia y Desarrollo Territorial",
+      "Vicerrectorado de Investigación y Transferencia",
+      "Vicerrectorado de Calidad y Transferencia"
+    ],
+    "c": 1,
+    "ref": "UHU > Vicerrectorado de Transferencia y Desarrollo Territorial (situación examinable a 12/01/2026)",
+    "exp": "La estructura de la UHU a fecha de 12/01/2026 incluye la OTC entre los servicios vinculados al Vicerrectorado de Transferencia y Desarrollo Territorial."
+  },
+  {
+    "q": "¿En qué campus se encuentra la Oficina de Transferencia de Conocimiento (OTC)?",
+    "o": [
+      "En la Rábida",
+      "En Cantero Cuadrado",
+      "En El Carmen",
+      "En ninguno de los anteriores"
+    ],
+    "c": 2,
+    "ref": "UHU > Oficina de Transferencia de Conocimiento: contacto (situación examinable a 12/01/2026)",
+    "exp": "La Oficina de Transferencia de Conocimiento se encuentra en el Campus de El Carmen."
+  },
+  {
+    "q": "¿En qué edificio se encuentra la Oficina de Transferencia de Conocimiento (OTC)?",
+    "o": [
+      "Jacobo del Barco",
+      "Juan Agustín de Mora",
+      "Hedy Lamar",
+      "Marie Curie"
+    ],
+    "c": 3,
+    "ref": "UHU > Oficina de Transferencia de Conocimiento: contacto (situación examinable a 12/01/2026)",
+    "exp": "La OTC está situada en la primera planta del edificio Marie Curie."
+  },
+  {
+    "q": "¿A qué Vicerrectorado está vinculada la Unidad de Orientación y Atención al Estudiante?",
+    "o": [
+      "Vicerrectorado de Estudiantes",
+      "Vicerrectorado de Alumnos",
+      "Vicerrectorado de Alumni",
+      "Vicerrectorado de Gestión Académica"
+    ],
+    "c": 0,
+    "ref": "UHU > Vicerrectorado de Estudiantes (situación examinable a 12/01/2026)",
+    "exp": "La Unidad de Orientación y Atención al Estudiante está vinculada al Vicerrectorado de Estudiantes."
+  },
+  {
+    "q": "¿En qué edificio se encuentra el Servicio de Gestión Académica?",
+    "o": [
+      "Juan Isidoro Morales",
+      "Juan Agustín de Mora",
+      "Pérez Quintero",
+      "Marie Curie"
+    ],
+    "c": 1,
+    "ref": "UHU > Edificio Juan Agustín de Mora (situación examinable a 12/01/2026)",
+    "exp": "El Servicio de Gestión Académica se encuentra en el edificio Juan Agustín de Mora Negro y Garrocho."
+  },
+  {
+    "q": "¿Qué programa está vinculado al Vicerrectorado de Calidad y Concursos Docentes?",
+    "o": [
+      "Erasmus",
+      "DOCENTIA",
+      "SICUE",
+      "Ese Vicerrectorado no existe en la UHU"
+    ],
+    "c": 1,
+    "ref": "UHU > Vicerrectorado de Calidad y Concursos Docentes (situación examinable a 12/01/2026)",
+    "exp": "El programa DOCENTIA está vinculado al Vicerrectorado de Calidad y Concursos Docentes."
+  },
+  {
+    "q": "¿A qué órgano aparece vinculado administrativamente el Servicio de Lenguas Modernas en la estructura de la UHU a fecha de 12/01/2026?",
+    "o": [
+      "La Secretaría General",
+      "El Vicerrectorado de Doctorado, Política Lingüística y Biblioteca",
+      "La Gerencia",
+      "El Vicerrectorado de Relaciones Internacionales"
+    ],
+    "c": 2,
+    "ref": "UHU > Gerencia: servicios vinculados (situación examinable a 12/01/2026)",
+    "exp": "En la estructura administrativa vigente a fecha de 12/01/2026, el Servicio de Lenguas Modernas figura entre los servicios vinculados a la Gerencia. La política lingüística corresponde al Vicerrectorado competente."
+  },
+  {
+    "q": "¿Cuál de las siguientes actuaciones gestiona el Servicio de Innovación Docente de la Universidad de Huelva?",
+    "o": [
+      "El programa DOCENTIA",
+      "Los Premios a la Excelencia Docente",
+      "La ordenación académica",
+      "Las opciones B y C son correctas"
+    ],
+    "c": 1,
+    "ref": "UHU > Servicio de Innovación Docente: Premios a la Excelencia Docente (situación examinable a 12/01/2026); Notes, corrección del Test 69, pregunta 32",
+    "exp": "El Servicio de Innovación Docente gestiona las convocatorias de Premios a la Excelencia Docente. DOCENTIA corresponde al ámbito de Calidad y la ordenación académica pertenece a otro ámbito."
+  },
+  {
+    "q": "¿A qué Vicerrectorado estaba vinculado el Servicio de Relaciones Internacionales de la UHU a fecha de 12/01/2026?",
+    "o": [
+      "A ninguno, porque estaba vinculado a la Gerencia",
+      "Al Vicerrectorado de Cooperación Internacional",
+      "Al Vicerrectorado de Alianzas Internacionales",
+      "Al Vicerrectorado de Proyección Internacional"
+    ],
+    "c": 2,
+    "ref": "UHU > Vicerrectorado de Alianzas Internacionales (situación examinable a 12/01/2026)",
+    "exp": "El Servicio de Relaciones Internacionales estaba vinculado al Vicerrectorado de Alianzas Internacionales. Se mantiene esta segunda formulación para consolidar la adscripción."
+  },
+  {
+    "q": "¿A qué Vicerrectorado está adscrita la Dirección de Infraestructura y Sostenibilidad de la UHU?",
+    "o": [
+      "A la Gerencia",
+      "Al Vicerrectorado de Infraestructura y Sostenibilidad",
+      "Al Vicerrectorado de Campus Sostenible y Transformación Digital",
+      "A ninguno de los anteriores"
+    ],
+    "c": 2,
+    "ref": "UHU > Vicerrectorado de Campus Sostenible y Transformación Digital (situación examinable a 12/01/2026)",
+    "exp": "La Dirección de Infraestructura y Sostenibilidad está adscrita al Vicerrectorado de Campus Sostenible y Transformación Digital. Se ha corregido la denominación defectuosa del test original."
+  },
+  {
+    "q": "¿Cuál de los siguientes servicios está vinculado a la Gerencia?",
+    "o": [
+      "Ordenación Académica",
+      "Prevención de Riesgos Laborales",
+      "Relaciones Internacionales",
+      "Tienda Universitaria"
+    ],
+    "c": 1,
+    "ref": "UHU > Gerencia: servicios vinculados (situación examinable a 12/01/2026)",
+    "exp": "El Servicio de Prevención de Riesgos Laborales figura entre los servicios vinculados a la Gerencia."
+  },
+  {
+    "q": "¿A qué órgano estaba vinculado el Archivo Universitario de la UHU a fecha de 12/01/2026?",
+    "o": [
+      "A la Secretaría General",
+      "A la Gerencia",
+      "A la Asesoría Jurídica",
+      "Al Vicerrectorado de Doctorado, Política Lingüística y Biblioteca"
+    ],
+    "c": 0,
+    "ref": "UHU > Secretaría General: Archivo Universitario (situación examinable a 12/01/2026)",
+    "exp": "El Archivo Universitario estaba adscrito a la Secretaría General. Se conserva aunque el mismo dato se pregunte con otra estructura en el Test 107."
+  },
+  {
+    "q": "¿A qué Vicerrectorado está adscrita la Dirección de Másteres?",
+    "o": [
+      "Vicerrectorado de Ordenación Académica y Profesorado",
+      "Vicerrectorado de Estudiantes",
+      "Vicerrectorado de Proyección Universitaria",
+      "Vicerrectorado de Extensión Universitaria"
+    ],
+    "c": 0,
+    "ref": "UHU > Vicerrectorado de Ordenación Académica y Profesorado (situación examinable a 12/01/2026)",
+    "exp": "La Dirección de Másteres está adscrita al Vicerrectorado de Ordenación Académica y Profesorado."
+  },
+  {
+    "q": "¿Cuál de las siguientes afirmaciones sobre el Servicio de Empleo y Emprendimiento (SOIPEA) es correcta?",
+    "o": [
+      "Está vinculado al Vicerrectorado de Estudiantes",
+      "Se encuentra fuera del Campus de El Carmen",
+      "Está ubicado en el edificio Juan Agustín de Mora",
+      "No es un servicio de la Universidad de Huelva"
+    ],
+    "c": 2,
+    "ref": "UHU > Servicio de Empleo y Emprendimiento (SOIPEA): contacto (situación examinable a 12/01/2026)",
+    "exp": "El Servicio de Empleo y Emprendimiento (SOIPEA) está ubicado en el edificio Juan Agustín de Mora, primera planta, Campus de El Carmen."
+  },
+  {
+    "q": "¿A qué Vicerrectorado estaba vinculada el Aula de la Experiencia de la UHU a fecha de 12/01/2026?",
+    "o": [
+      "Al Vicerrectorado de Estudiantes",
+      "Al Vicerrectorado de Proyección Universitaria",
+      "Al Vicerrectorado de Extensión Universitaria",
+      "Al Vicerrectorado de Igualdad, Campus Saludable y Justicia Social"
+    ],
+    "c": 1,
+    "ref": "UHU > Vicerrectorado de Proyección Universitaria (situación examinable a 12/01/2026)",
+    "exp": "El Aula de la Experiencia estaba vinculada al Vicerrectorado de Proyección Universitaria."
+  },
+  {
+    "q": "¿Cuál de los siguientes servicios está vinculado al Vicerrectorado de Proyección Universitaria?",
+    "o": [
+      "Museo Tecnológico",
+      "Relaciones Internacionales",
+      "Aula de Sostenibilidad",
+      "Editorial"
+    ],
+    "c": 3,
+    "ref": "UHU > Vicerrectorado de Proyección Universitaria (situación examinable a 12/01/2026)",
+    "exp": "La Editorial figura entre los servicios vinculados al Vicerrectorado de Proyección Universitaria."
+  },
+  {
+    "q": "¿Cuál es el órgano colegiado de gobierno de una Facultad o Escuela de la Universidad de Huelva?",
+    "o": [
+      "El Consejo de Centro",
+      "El Consejo de Departamento",
+      "La Junta de Centro",
+      "La Junta de Decanos"
+    ],
+    "c": 2,
+    "ref": "UHU > Estructura organizativa: Centros y departamentos (situación examinable a 12/01/2026)",
+    "exp": "La Junta de Centro es el órgano colegiado de gobierno de las Facultades y Escuelas."
+  },
+  {
+    "q": "¿Quién elige al Director o Directora de un Departamento?",
+    "o": [
+      "El Consejo de Departamento",
+      "El Decano o Decana de la Facultad correspondiente",
+      "Todos los miembros de la comunidad universitaria",
+      "El Rector o Rectora"
+    ],
+    "c": 0,
+    "ref": "UHU > Estructura organizativa (situación examinable a 12/01/2026)",
+    "exp": "El Director o Directora de un Departamento es elegido por el Consejo de Departamento."
+  },
+  {
+    "q": "¿Qué centros de la UHU organizan las enseñanzas y los procesos académicos, administrativos y de gestión conducentes a títulos oficiales?",
+    "o": [
+      "Las Facultades, la Escuela Técnica Superior de Ingeniería y los Departamentos",
+      "Las Facultades y la Escuela Técnica Superior de Ingeniería",
+      "Solo las Facultades",
+      "Las Facultades, la Escuela Técnica Superior de Ingeniería, los Departamentos y los Institutos Universitarios de Investigación"
+    ],
+    "c": 1,
+    "ref": "UHU > Estructura organizativa (situación examinable a 12/01/2026)",
+    "exp": "En la UHU, los centros son las Facultades y la Escuela Técnica Superior de Ingeniería. Los Departamentos y los Institutos de Investigación tienen naturaleza distinta."
+  },
+  {
+    "q": "¿Cuál de los siguientes NO es una Facultad de la Universidad de Huelva?",
+    "o": [
+      "Facultad de Humanidades",
+      "Facultad de Ciencias Ambientales",
+      "Facultad de Trabajo Social",
+      "Facultad de Educación, Psicología y Ciencias del Deporte"
+    ],
+    "c": 1,
+    "ref": "UHU > Centros y campus (situación examinable a 12/01/2026)",
+    "exp": "Ciencias Ambientales es una titulación y un ámbito académico, pero no la denominación de una Facultad de la UHU."
+  },
+  {
+    "q": "¿Cuál de los siguientes es un centro de la Universidad de Huelva encargado de organizar enseñanzas y procesos académicos?",
+    "o": [
+      "Escuela Politécnica",
+      "Facultad de Ingeniería",
+      "Facultad de Ciencias de la Educación, Deporte y Psicología",
+      "Escuela Técnica Superior de Ingeniería"
+    ],
+    "c": 3,
+    "ref": "UHU > Centros y campus (situación examinable a 12/01/2026)",
+    "exp": "La Escuela Técnica Superior de Ingeniería es uno de los centros de la Universidad de Huelva."
+  },
+  {
+    "q": "¿Cuál de las siguientes es una Facultad de la Universidad de Huelva?",
+    "o": [
+      "Facultad de Ingeniería",
+      "Facultad de Administración de Empresas y Turismo",
+      "Facultad de Ciencias del Trabajo",
+      "Facultad de Filosofía"
+    ],
+    "c": 2,
+    "ref": "UHU > Centros y campus (situación examinable a 12/01/2026)",
+    "exp": "Ciencias del Trabajo es la denominación oficial de una Facultad de la UHU."
+  },
+  {
+    "q": "¿Qué dos Facultades de la Universidad de Huelva están ubicadas en el Campus de El Carmen?",
+    "o": [
+      "Filosofía y Humanidades",
+      "Ciencias Empresariales y Turismo y Derecho",
+      "Ciencias Experimentales y Trabajo Social",
+      "Ciencias Experimentales y Ciencias Ambientales"
+    ],
+    "c": 2,
+    "ref": "UHU > Centros y campus (situación examinable a 12/01/2026)",
+    "exp": "Las Facultades de Ciencias Experimentales y de Trabajo Social están ubicadas en el Campus de El Carmen."
+  },
+  {
+    "q": "¿En qué campus se encuentra la Facultad de Ciencias Empresariales y Turismo?",
+    "o": [
+      "En el Campus de El Carmen",
+      "En el Campus de La Merced",
+      "En el Campus de Cantero Cuadrado",
+      "En el Campus de La Rábida"
+    ],
+    "c": 1,
+    "ref": "UHU > Centros y campus (situación examinable a 12/01/2026)",
+    "exp": "La Facultad de Ciencias Empresariales y Turismo se encuentra en el Campus de La Merced."
+  },
+  {
+    "q": "¿En qué campus se encuentra la sede del Rectorado de la Universidad de Huelva?",
+    "o": [
+      "En el Campus de Cantero Cuadrado",
+      "En el Campus de El Carmen",
+      "En el Campus de La Merced",
+      "En el Campus de La Rábida"
+    ],
+    "c": 0,
+    "ref": "UHU > Centros y campus (situación examinable a 12/01/2026)",
+    "exp": "La sede del Rectorado está en el Campus de Cantero Cuadrado."
+  },
+  {
+    "q": "¿Qué titulación se imparte en la Facultad de Ciencias Experimentales?",
+    "o": [
+      "Grado en Biología",
+      "Grado en Química Industrial",
+      "Grado en Ciencias de la Tierra",
+      "Grado en Ciencias Ambientales"
+    ],
+    "c": 3,
+    "ref": "UHU > Oferta oficial de Grados y Dobles Grados (situación examinable a 12/01/2026)",
+    "exp": "La Facultad de Ciencias Experimentales imparte el Grado en Ciencias Ambientales."
+  },
+  {
+    "q": "¿Qué titulación NO se imparte en la Facultad de Humanidades?",
+    "o": [
+      "Grado en Geografía e Historia",
+      "Grado en Humanidades",
+      "Grado en Gestión Cultural",
+      "Todas las titulaciones anteriores se imparten"
+    ],
+    "c": 0,
+    "ref": "UHU > Oferta oficial de Grados y Dobles Grados (situación examinable a 12/01/2026)",
+    "exp": "La UHU oferta el Grado en Historia, pero no un Grado denominado Geografía e Historia."
+  },
+  {
+    "q": "¿Qué doble grado se imparte en la Facultad de Humanidades?",
+    "o": [
+      "Doble Grado en Filología Hispánica y Filología Clásica",
+      "Doble Grado en Humanidades y Gestión Cultural",
+      "Doble Grado en Historia y Filología",
+      "Doble Grado en Estudios Ingleses y Filología Hispánica"
+    ],
+    "c": 3,
+    "ref": "UHU > Oferta oficial de Grados y Dobles Grados (situación examinable a 12/01/2026)",
+    "exp": "La Facultad de Humanidades imparte el Doble Grado en Estudios Ingleses y Filología Hispánica."
+  },
+  {
+    "q": "¿Qué titulación se imparte en la Facultad de Educación, Psicología y Ciencias del Deporte?",
+    "o": [
+      "Doble Grado en Ciencias de la Actividad Física y del Deporte",
+      "Grado en Ciencias de la Educación",
+      "Grado en Educación Social",
+      "Grado en Psicología Infantil"
+    ],
+    "c": 2,
+    "ref": "UHU > Oferta oficial de Grados y Dobles Grados (situación examinable a 12/01/2026)",
+    "exp": "El Grado en Educación Social se imparte en la Facultad de Educación, Psicología y Ciencias del Deporte."
+  },
+  {
+    "q": "¿En qué Facultad se imparte el Grado en Psicología?",
+    "o": [
+      "Facultad de Educación, Psicología y Ciencias del Deporte",
+      "Facultad de Psicología",
+      "Facultad de Ciencias de la Educación, Deporte y Psicología",
+      "Facultad de Humanidades"
+    ],
+    "c": 0,
+    "ref": "UHU > Oferta oficial de Grados y Dobles Grados (situación examinable a 12/01/2026)",
+    "exp": "El Grado en Psicología se imparte en la Facultad de Educación, Psicología y Ciencias del Deporte."
+  },
+  {
+    "q": "¿Qué titulación se imparte en la Facultad de Ciencias Empresariales y Turismo?",
+    "o": [
+      "Grado en Economía",
+      "Grado en Finanzas y Contabilidad",
+      "Grado en Empresas Turísticas",
+      "Grado en Administración Financiera"
+    ],
+    "c": 1,
+    "ref": "UHU > Oferta oficial de Grados y Dobles Grados (situación examinable a 12/01/2026)",
+    "exp": "El Grado en Finanzas y Contabilidad forma parte de la oferta de la Facultad de Ciencias Empresariales y Turismo."
+  },
+  {
+    "q": "¿Qué titulación NO se imparte en la Facultad de Ciencias Empresariales y Turismo?",
+    "o": [
+      "Grado en Finanzas y Contabilidad",
+      "Doble Grado en Administración y Dirección de Empresas y Economía",
+      "Doble Grado en Administración y Dirección de Empresas y Derecho",
+      "Grado en Turismo"
+    ],
+    "c": 1,
+    "ref": "UHU > Oferta oficial de Grados y Dobles Grados (situación examinable a 12/01/2026)",
+    "exp": "No se oferta un Doble Grado en Administración y Dirección de Empresas y Economía. Sí se ofertan Finanzas y Contabilidad, Turismo y el Doble Grado en ADE y Derecho."
+  },
+  {
+    "q": "¿Cuál de las siguientes afirmaciones sobre la Facultad de Derecho es correcta?",
+    "o": [
+      "No se imparte el Grado en Ciencias Jurídicas",
+      "No se imparte el Doble Grado en Administración y Dirección de Empresas y Derecho",
+      "Se imparte el Grado en Asesoría Jurídica",
+      "No se imparte el Grado en Derecho"
+    ],
+    "c": 0,
+    "ref": "UHU > Oferta oficial de Grados y Dobles Grados (situación examinable a 12/01/2026)",
+    "exp": "La Facultad de Derecho imparte el Grado en Derecho y el Doble Grado en ADE y Derecho, pero no un Grado denominado Ciencias Jurídicas."
+  },
+  {
+    "q": "¿En qué Facultad se imparte el Grado en Trabajo Social?",
+    "o": [
+      "Facultad de Trabajo Social",
+      "Escuela de Trabajo Social",
+      "Facultad de Sociología",
+      "Ninguna de las anteriores"
+    ],
+    "c": 0,
+    "ref": "UHU > Oferta oficial de Grados y Dobles Grados (situación examinable a 12/01/2026)",
+    "exp": "El Grado en Trabajo Social se imparte en la Facultad de Trabajo Social. La opción original no recogía correctamente el nombre del centro y se ha reparado."
+  },
+  {
+    "q": "¿Cuál de las siguientes titulaciones o modalidades se imparte en la Facultad de Ciencias del Trabajo?",
+    "o": [
+      "Solo el Grado en Relaciones Laborales y Recursos Humanos en modalidad presencial",
+      "El Doble Grado en Relaciones Laborales y Recursos Humanos",
+      "El Grado en Relaciones Laborales y Recursos Humanos en modalidad virtual",
+      "El Grado en Prevención de Riesgos Laborales"
+    ],
+    "c": 2,
+    "ref": "UHU > Oferta oficial de Grados y Dobles Grados (situación examinable a 12/01/2026)",
+    "exp": "La UHU oferta el Grado en Relaciones Laborales y Recursos Humanos tanto en modalidad presencial como virtual. Por ello, la opción que afirma su modalidad virtual es correcta y la que dice «solo presencial» es falsa."
+  },
+  {
+    "q": "¿En qué Facultad se imparte el Grado en Medicina?",
+    "o": [
+      "Facultad de Ciencias Experimentales",
+      "Facultad de Ciencias de la Salud",
+      "Facultad de Medicina",
+      "Facultad de Enfermería"
+    ],
+    "c": 3,
+    "ref": "UHU > Oferta oficial de Grados y Dobles Grados (situación examinable a 12/01/2026)",
+    "exp": "El Grado en Medicina se imparte en la Facultad de Enfermería de la Universidad de Huelva."
+  },
+  {
+    "q": "¿Qué titulación se imparte en la Escuela Técnica Superior de Ingeniería?",
+    "o": [
+      "Grado en Informática Superior",
+      "Grado en Ingeniería Mecánica Industrial",
+      "Grado en Ingeniería Agrícola",
+      "Grado en Ingeniería Forestal y del Medio Agrícola"
+    ],
+    "c": 2,
+    "ref": "UHU > Oferta oficial de Grados y Dobles Grados (situación examinable a 12/01/2026)",
+    "exp": "El Grado en Ingeniería Agrícola se imparte en la Escuela Técnica Superior de Ingeniería."
+  },
+  {
+    "q": "¿Qué titulación NO se imparte en la Escuela Técnica Superior de Ingeniería de la Universidad de Huelva?",
+    "o": [
+      "Doble Grado en Ingeniería Eléctrica e Ingeniería de Energías Renovables y Tecnologías del Hidrógeno",
+      "Grado en Ingeniería Forestal y del Medio Natural",
+      "Doble Grado en Ingeniería Eléctrica e Ingeniería Industrial",
+      "Todas las titulaciones anteriores se imparten"
+    ],
+    "c": 2,
+    "ref": "UHU > Oferta oficial de Grados y Dobles Grados (situación examinable a 12/01/2026)",
+    "exp": "No figura un Doble Grado en Ingeniería Eléctrica e Ingeniería Industrial. Sí se ofertan el Grado en Ingeniería Forestal y del Medio Natural y el Doble Grado en Ingeniería Eléctrica e Ingeniería de Energías Renovables y Tecnologías del Hidrógeno."
+  },
+  {
+    "q": "¿Cuál era la denominación oficial de la titulación minera de grado ofertada por la UHU a fecha de 12/01/2026?",
+    "o": [
+      "Grado en Ingeniería de Minas",
+      "Grado en Ingeniería Minera",
+      "Grado en Explotación de Minas y Recursos Energéticos",
+      "Grado en Ingeniería de Recursos Mineros"
+    ],
+    "c": 1,
+    "ref": "UHU > Oferta académica oficial de Grados, curso 2025-2026 (situación examinable a 12/01/2026)",
+    "exp": "En la oferta académica vigente al cierre del plazo de solicitudes la denominación era Grado en Ingeniería Minera. La denominación anterior sobre explotación de minas y recursos energéticos no es la que debe tomarse para este proceso."
+  },
+  {
+    "q": "¿Qué titulación de grado NO figura en la oferta oficial de la Universidad de Huelva?",
+    "o": [
+      "Grado en Ciencias de la Comunicación",
+      "Grado en Física",
+      "Grado en Educación Infantil",
+      "Grado en Historia"
+    ],
+    "c": 0,
+    "ref": "UHU > Oferta oficial de Grados y Dobles Grados (situación examinable a 12/01/2026)",
+    "exp": "La Universidad de Huelva no oferta un Grado en Ciencias de la Comunicación; las otras tres titulaciones sí figuran en su catálogo."
+  },
+  {
+    "q": "¿Qué titulación de grado figura en la oferta oficial de la Universidad de Huelva?",
+    "o": [
+      "Grado en Biología",
+      "Grado en Filosofía y Letras",
+      "Grado en Ciencias de la Actividad Física y del Deporte",
+      "Grado en Sociología"
+    ],
+    "c": 2,
+    "ref": "UHU > Oferta oficial de Grados y Dobles Grados (situación examinable a 12/01/2026)",
+    "exp": "El Grado en Ciencias de la Actividad Física y del Deporte forma parte de la oferta oficial de la UHU."
+  },
+  {
+    "q": "¿Qué titulación figura en la oferta de la Universidad de Huelva dentro del ámbito de Humanidades?",
+    "o": [
+      "Grado en Filosofía y Letras",
+      "Grado en Estudios Ingleses",
+      "Grado en Geografía e Historia",
+      "Grado en Educación Social"
+    ],
+    "c": 1,
+    "ref": "UHU > Oferta oficial de Grados y Dobles Grados (situación examinable a 12/01/2026)",
+    "exp": "El Grado en Estudios Ingleses está incluido en el ámbito de Humanidades."
+  },
+  {
+    "q": "¿Qué titulación NO pertenece al ámbito de Ciencias Sociales y Jurídicas en la oferta de la Universidad de Huelva?",
+    "o": [
+      "Grado en Humanidades",
+      "Grado en Turismo",
+      "Grado en Educación Infantil",
+      "Grado en Relaciones Laborales y Recursos Humanos"
+    ],
+    "c": 0,
+    "ref": "UHU > Oferta oficial de Grados y Dobles Grados (situación examinable a 12/01/2026)",
+    "exp": "El Grado en Humanidades pertenece al ámbito de Humanidades, no al de Ciencias Sociales y Jurídicas."
+  },
+  {
+    "q": "¿Qué titulación pertenece al ámbito de Ciencias y Ciencias de la Salud en la oferta de la Universidad de Huelva?",
+    "o": [
+      "Grado en Sociología",
+      "Grado en Trabajo Social",
+      "Grado en Psicología",
+      "Grado en Química Industrial"
+    ],
+    "c": 2,
+    "ref": "UHU > Oferta oficial de Grados y Dobles Grados (situación examinable a 12/01/2026)",
+    "exp": "El Grado en Psicología figura en el ámbito de Ciencias y Ciencias de la Salud de la oferta de la UHU."
+  },
+  {
+    "q": "¿Cuál de las siguientes denominaciones NO coincide con el nombre oficial de un grado de ingeniería ofertado por la Universidad de Huelva?",
+    "o": [
+      "Grado en Ingeniería Minera",
+      "Grado en Ingeniería Química",
+      "Grado en Ingeniería Informática",
+      "Grado en Ingeniería Eléctrica"
+    ],
+    "c": 1,
+    "ref": "UHU > Oferta oficial de Grados y Dobles Grados (situación examinable a 12/01/2026)",
+    "exp": "La denominación oficial es Grado en Ingeniería Química Industrial. «Grado en Ingeniería Química» no coincide con el nombre oficial completo."
+  },
+  {
+    "q": "¿En qué ámbito se encuadra el Grado en Educación Social en la oferta de la Universidad de Huelva?",
+    "o": [
+      "Humanidades",
+      "Ciencias y Ciencias de la Salud",
+      "No figura en la oferta de la UHU",
+      "Ciencias Sociales y Jurídicas"
+    ],
+    "c": 3,
+    "ref": "UHU > Oferta oficial de Grados y Dobles Grados (situación examinable a 12/01/2026)",
+    "exp": "El Grado en Educación Social se encuadra en el ámbito de Ciencias Sociales y Jurídicas."
+  },
+  {
+    "q": "Señale la denominación que corresponde a un Departamento de la Universidad de Huelva.",
+    "o": [
+      "Dirección Estratégica",
+      "Ciencias del Planeta",
+      "Derecho Público y del Trabajo",
+      "Tecnologías Avanzadas"
+    ],
+    "c": 2,
+    "ref": "UHU > Departamentos (situación examinable a 12/01/2026)",
+    "exp": "Derecho Público y del Trabajo es la denominación oficial de un Departamento de la UHU."
+  },
+  {
+    "q": "Señale la denominación que NO corresponde a un Departamento de la Universidad de Huelva.",
+    "o": [
+      "Ciencias Integradas",
+      "Ciencias Agroforestales",
+      "Ciencias de la Tierra",
+      "Ciencias Sostenibles"
+    ],
+    "c": 3,
+    "ref": "UHU > Departamentos (situación examinable a 12/01/2026)",
+    "exp": "No existe un Departamento denominado Ciencias Sostenibles. Sí existen Ciencias Integradas, Ciencias Agroforestales y Ciencias de la Tierra."
+  },
+  {
+    "q": "Identifique cuál de las siguientes es la denominación oficial de un Departamento de la Universidad de Huelva.",
+    "o": [
+      "Theodor Mommsen",
+      "Alan Turing",
+      "Historia, Geografía y Filosofía",
+      "Psicología Clínica y de la Salud"
+    ],
+    "c": 0,
+    "ref": "UHU > Departamentos (situación examinable a 12/01/2026)",
+    "exp": "Theodor Mommsen es la denominación oficial de un Departamento de la Universidad de Huelva."
+  },
+  {
+    "q": "¿Qué opción reproduce correctamente la denominación de un Departamento de la Universidad de Huelva?",
+    "o": [
+      "Estudios Ingleses",
+      "Ingeniería Eléctrica, de Diseño y Experimental",
+      "Ingeniería Electrónica, Energética y Automática",
+      "Economía Financiera, Contabilidad y Dirección de Operaciones"
+    ],
+    "c": 3,
+    "ref": "UHU > Departamentos (situación examinable a 12/01/2026)",
+    "exp": "Economía Financiera, Contabilidad y Dirección de Operaciones es un Departamento de la UHU."
+  },
+  {
+    "q": "Identifique cuál de las siguientes NO es la denominación de un Departamento de la Universidad de Huelva.",
+    "o": [
+      "Didácticas Integradas",
+      "Ciencias Forestales",
+      "Psicología Social, Evolutiva y de la Educación",
+      "Economía"
+    ],
+    "c": 1,
+    "ref": "UHU > Departamentos (situación examinable a 12/01/2026)",
+    "exp": "La denominación oficial es Ciencias Agroforestales, no Ciencias Forestales."
+  },
+  {
+    "q": "Complete la denominación oficial del Departamento: «Ingeniería Química, Química Física y...»",
+    "o": [
+      "Ciencias de la Tierra",
+      "Experimental",
+      "Ciencias de los Materiales",
+      "Ciencias Energéticas"
+    ],
+    "c": 2,
+    "ref": "UHU > Departamentos (situación examinable a 12/01/2026)",
+    "exp": "La denominación completa es Ingeniería Química, Química Física y Ciencias de los Materiales."
+  },
+  {
+    "q": "¿Qué opción NO reproduce la denominación de un Departamento de la Universidad de Huelva?",
+    "o": [
+      "Filología Hispánica",
+      "Dirección de Empresas y Marketing",
+      "Pedagogía",
+      "Sociología, Trabajo Social y Salud Pública"
+    ],
+    "c": 0,
+    "ref": "UHU > Departamentos (situación examinable a 12/01/2026)",
+    "exp": "El Departamento se denomina Filología, no Filología Hispánica. Las otras tres denominaciones sí figuran en la relación oficial."
+  },
+  {
+    "q": "Entre las siguientes opciones, ¿cuál nombra un Departamento de la Universidad de Huelva?",
+    "o": [
+      "Enfermería",
+      "Física - Profesor José Carlos Vílchez Martín",
+      "Ingeniería Minera, Térmica, de Diseño y Proyectos",
+      "Todos los anteriores"
+    ],
+    "c": 0,
+    "ref": "UHU > Departamentos (situación examinable a 12/01/2026)",
+    "exp": "Enfermería es un Departamento de la UHU. La denominación vinculada al profesor José Carlos Vílchez Martín es Química, no Física."
+  },
+  {
+    "q": "¿En qué edificio del Campus de El Carmen se encuentra la Defensoría Universitaria?",
+    "o": [
+      "Juan Agustín de Mora Negro y Garrocho",
+      "Príncipe de Asturias",
+      "Zenobia Camprubí",
+      "Cantero Cuadrado"
+    ],
+    "c": 2,
+    "ref": "UHU > Defensoría Universitaria: contacto (situación examinable a 12/01/2026)",
+    "exp": "La Defensoría Universitaria se encuentra en el edificio Zenobia Camprubí, en el Campus de El Carmen."
+  },
+  {
+    "q": "Según la página oficial de contacto, ¿dónde se encuentra la sede administrativa principal de la Escuela de Doctorado de la Universidad de Huelva?",
+    "o": [
+      "En la Facultad de Trabajo Social",
+      "En el Rectorado, Campus de Cantero Cuadrado",
+      "En el edificio Juan Agustín de Mora",
+      "En el Campus de La Merced"
+    ],
+    "c": 1,
+    "ref": "UHU > Escuela de Doctorado: contacto (situación examinable a 12/01/2026)",
+    "exp": "La página oficial de contacto sitúa la sede administrativa principal de la Escuela de Doctorado en el edificio del Rectorado, calle Doctor Cantero Cuadrado, tercera planta."
+  },
+  {
+    "q": "¿En qué campus se encuentra el Registro General Auxiliar de la Universidad de Huelva?",
+    "o": [
+      "Campus de El Carmen",
+      "Campus de La Merced",
+      "Campus de Cantero Cuadrado",
+      "Campus de La Rábida"
+    ],
+    "c": 0,
+    "ref": "Convocatoria UHU, base 3.5; UHU > Registro General Auxiliar (situación examinable a 12/01/2026)",
+    "exp": "El Registro General Auxiliar se encuentra en el Campus de El Carmen."
+  },
+  {
+    "q": "¿En qué edificio se encuentra el Registro General Auxiliar de la Universidad de Huelva?",
+    "o": [
+      "José Isidoro Morales",
+      "Zenobia Camprubí",
+      "Juan Agustín de Mora Negro y Garrocho",
+      "Antonio Jacobo del Barco y Gasca"
+    ],
+    "c": 2,
+    "ref": "Convocatoria UHU, base 3.5; UHU > Registro General Auxiliar (situación examinable a 12/01/2026)",
+    "exp": "El Registro General Auxiliar está en el edificio Juan Agustín de Mora Negro y Garrocho."
+  },
+  {
+    "q": "¿Entre qué edificios se encuentra el Comedor Universitario?",
+    "o": [
+      "Entre Antonio Jacobo del Barco y Juan Agustín de Mora",
+      "Entre el Pabellón Sur y Juan Agustín de Mora Negro y Garrocho",
+      "Entre Pérez Quintero y la Facultad de Ciencias Experimentales",
+      "Entre Alan Turing y la Residencia Universitaria"
+    ],
+    "c": 1,
+    "ref": "UHU > Infraestructura: Comedor Universitario (situación examinable a 12/01/2026)",
+    "exp": "El Comedor Universitario se encuentra entre el Pabellón Sur y el pabellón administrativo Juan Agustín de Mora Negro y Garrocho."
+  },
+  {
+    "q": "¿En qué edificio se encuentra el Servicio de Atención a la Comunidad Universitaria (SACU)?",
+    "o": [
+      "José Isidoro Morales",
+      "Zenobia Camprubí",
+      "Juan Agustín de Mora Negro y Garrocho",
+      "Antonio Jacobo del Barco y Gasca"
+    ],
+    "c": 2,
+    "ref": "UHU > SACU (situación examinable a 12/01/2026)",
+    "exp": "El SACU está situado en el edificio Juan Agustín de Mora Negro y Garrocho, en el Campus de El Carmen."
+  },
+  {
+    "q": "¿Cuál de las siguientes es un área o actividad del SACU?",
+    "o": [
+      "Alojamiento",
+      "Internacionalización",
+      "Cultura",
+      "Formación Permanente"
+    ],
+    "c": 0,
+    "ref": "UHU > SACU (situación examinable a 12/01/2026)",
+    "exp": "Alojamiento es una de las áreas y actividades del SACU."
+  },
+  {
+    "q": "¿En qué campus se encuentra la Biblioteca Central Ibn Hazm?",
+    "o": [
+      "Campus de El Carmen",
+      "Campus de La Merced",
+      "Campus de Cantero Cuadrado",
+      "Campus de La Rábida"
+    ],
+    "c": 0,
+    "ref": "UHU > Biblioteca Central Ibn Hazm (situación examinable a 12/01/2026)",
+    "exp": "La Biblioteca Central Ibn Hazm está ubicada en el Campus de El Carmen."
+  },
+  {
+    "q": "¿Dónde se encuentra la Unidad para la Calidad?",
+    "o": [
+      "Juan Agustín de Mora, Campus de Cantero Cuadrado",
+      "Rectorado, Campus de Cantero Cuadrado",
+      "Juan Agustín de Mora, Campus de El Carmen",
+      "Vicente Rodríguez Casado, Campus de La Rábida"
+    ],
+    "c": 2,
+    "ref": "UHU > Unidad para la Calidad: contacto (situación examinable a 12/01/2026)",
+    "exp": "La Unidad para la Calidad se encuentra en el edificio Juan Agustín de Mora Negro y Garrocho, Campus de El Carmen."
+  },
+  {
+    "q": "¿En qué edificio se ubicaba la Unidad de Igualdad de la Universidad de Huelva?",
+    "o": [
+      "José Isidoro Morales",
+      "Juan Agustín de Mora Negro y Garrocho",
+      "Zenobia Camprubí",
+      "Antonio Jacobo del Barco y Gasca"
+    ],
+    "c": 1,
+    "ref": "UHU > Unidad de Igualdad: contacto (situación examinable a 12/01/2026)",
+    "exp": "La Unidad de Igualdad se ubicaba en el edificio Juan Agustín de Mora, primera planta, Campus de El Carmen."
+  },
+  {
+    "q": "¿Qué unidad universitaria se ocupa del mantenimiento físico y de las instalaciones de la Universidad de Huelva?",
+    "o": [
+      "Gerencia",
+      "Asuntos Económicos",
+      "Infraestructura",
+      "Patrimonio e Inventario"
+    ],
+    "c": 2,
+    "ref": "UHU > Vicerrectorado de Campus Sostenible y Transformación Digital / Infraestructura (situación examinable a 12/01/2026)",
+    "exp": "El ámbito de Infraestructura coordina y supervisa el estado y mantenimiento de las infraestructuras, instalaciones y espacios universitarios."
+  },
+  {
+    "q": "¿En qué edificio se encuentra el Área de Cultura de la Universidad de Huelva?",
+    "o": [
+      "José Isidoro Morales",
+      "Juan Agustín de Mora Negro y Garrocho",
+      "Antonio Jacobo del Barco y Gasca",
+      "Zenobia Camprubí"
+    ],
+    "c": 3,
+    "ref": "UHU > Área de Cultura: contacto (situación examinable a 12/01/2026)",
+    "exp": "El Área de Cultura se encuentra en el edificio Zenobia Camprubí, en el Campus de El Carmen."
   }
 ]
