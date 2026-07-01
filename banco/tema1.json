@@ -8,8 +8,8 @@
    "9"
   ],
   "c": 2,
-  "ref": "Título IV CE",
-  "exp": "Según Título IV CE de la Constitución Española."
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "En la Constitución, es cierto qué:",
@@ -36,7 +36,7 @@
   "exp": "Según la estructura de la Constitución Española."
  },
  {
-  "q": "En la Constitución, \"de los principios rectores de la política social y económica\", es:",
+  "q": "En la Constitución, “de los principios rectores de la política social y económica”, es:",
   "o": [
    "Una sección de un capítulo",
    "Es un título",
@@ -44,8 +44,8 @@
    "Es un capítulo de un título"
   ],
   "c": 3,
-  "ref": "Cap. III, Título I CE",
-  "exp": "Según Cap. III, Título I CE de la Constitución Española."
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "En la Constitución, “De las Cortes Generales”",
@@ -56,8 +56,8 @@
    "Es el título V que comprende los artículos del 66 al 96"
   ],
   "c": 1,
-  "ref": "Título III CE",
-  "exp": "Según Título III CE de la Constitución Española."
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "En la Constitución, el capítulo “De las cámaras”, tiene como primer artículo:",
@@ -68,8 +68,8 @@
    "No es un capítulo"
   ],
   "c": 0,
-  "ref": "Art. 66 CE",
-  "exp": "Según el Art. 66 de la Constitución Española."
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "Respecto al último Título de la Constitución:",
@@ -80,20 +80,20 @@
    "No es cierto, que termine en el artículo 169"
   ],
   "c": 1,
-  "ref": "Título X CE",
-  "exp": "Según Título X CE de la Constitución Española."
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
-  "q": "\"De los tratados internacionales\":",
+  "q": "“De los tratados internacionales”:",
   "o": [
    "Es la sección III, de capitulo III, del Título III",
-   "Es el capítulo III del título que se denomina, \"De las relaciones del Gobierno y la Administración\"",
+   "Es el capítulo III del título que se denomina, “De las relaciones del Gobierno y la Administración”",
    "Es un capítulo que comprende los artículos del 93 al 96",
    "Es el capitulo III del Título VIII"
   ],
   "c": 2,
-  "ref": "Art. 93-96 CE (Cap. III, Título III)",
-  "exp": "Según el Art. 93 de la Constitución Española."
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "Respecto a las Disposiciones Transitorias de la Constitución:",
@@ -104,8 +104,8 @@
    "Están formuladas en la Constitución antes que las Disposiciones Derogatorias"
   ],
   "c": 3,
-  "ref": "Disposición Transitoria CE",
-  "exp": "Según Disposición Transitoria CE."
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "El capítulo I del Título I de la Constitución se denomina:",
@@ -116,8 +116,8 @@
    "De los extranjeros y los españoles"
   ],
   "c": 0,
-  "ref": "Art. 11-13 CE",
-  "exp": "Según el Art. 11 de la Constitución Española: \"1. La nacionalidad española se adquiere, se conserva y se pierde de acuerdo con lo establecido por la ley. 2. Ningún español de origen podrá ser privado de su nacionalidad. 3.\""
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "Según el art. 107 de la Constitución Española, ¿Cuál es el supremo órgano consultivo del Gobierno?",
@@ -170,7 +170,7 @@
  {
   "q": "Según el art. 19 de la Constitución Española, respecto al derecho de entrar y salir libremente de España, señale que afirmación es correcta:",
   "o": [
-   "Es un derecho que no podrá ser limitado por motivos políticos o ideológicos, salvo en caso de flagrante delito",
+   "Es un derecho que no podrá ser limitado por motivos políticos o ideológicos, salvo en caso de flagrantes delito",
    "Podrá ser limitado mediante resolución judicial",
    "En los términos que la ley lo establezca podrá ser limitado por motivos políticos e ideológicos",
    "No podrá ser limitado por motivos políticos o ideológicos."
@@ -182,7 +182,7 @@
  {
   "q": "Según el art. 22 de la Constitución Española, respecto a las asociaciones:",
   "o": [
-   "Las constituidas al amparo de este artículo deberán inscribirse en un registro a los solos efectos de publicidad",
+   "Las constituidas al amparo de este articulo deberán inscribirse en un registro a los solos efectos de publicidad",
    "Se reconocen las secretas y las de carácter militar si son pacíficas y sin armas.",
    "Se garantizan sin autorización previa",
    "Todo lo anterior es correcto."
@@ -192,7 +192,19 @@
   "exp": "Según el Art. 22 de la Constitución Española: \"1. Se reconoce el derecho de asociación. 2. Las asociaciones que persigan fines o utilicen medios tipificados como delito son ilegales. 3.\""
  },
  {
-  "q": "Según el art. 28 de la Constitución, la ley que regule el ejercicio del derecho de huelga, establecerá:",
+  "q": "Según el art. 24 de la Constitución Española, de la Constitución Española, todas las personas tienen derecho a obtener la tutela efectiva de:",
+  "o": [
+   "Jueces y tribunales",
+   "juzgado y tribunales",
+   "Jueces y magistrados",
+   "Jueces y tribunales cuando se produzca indefensión"
+  ],
+  "c": 0,
+  "ref": "Art. 24 CE",
+  "exp": "Según el Art. 24 de la Constitución Española: \"1. Todas las personas tienen derecho a obtener la tutela efectiva de los jueces y tribunales en el ejercicio de sus derechos e intereses legítimos, sin que, en ningún caso, pueda producirse indefensió\""
+ },
+ {
+  "q": "Según el art. 28 de la Constitución, la ley que regule el ejercicio del derecho de Huelga, establecerá:",
   "o": [
    "El mantenimiento esencial de la Comunidad",
    "Las garantías para asegurar el cumplimiento de fines de interés general",
@@ -228,7 +240,7 @@
   "exp": "Según el Art. 40 de la Constitución Española: \"1. Los poderes públicos promoverán las condiciones favorables para el progreso social y económico y para una distribución de la renta regional y personal más equitativa, en el marco de una política de\""
  },
  {
-  "q": "Según el art. 51 de la Constitución, los poderes públicos garantizarán la defensa de los consumidores y usuarios, protegiendo la seguridad, la salud y los legítimos intereses económicos de los mismos:",
+  "q": "Según el art. 51 de la Constitución, los poderes públicos garantizarán la defensa de los consumidores y usuarios protegiendo la seguridad, la salud y los legítimos intereses económicos de los mismos:",
   "o": [
    "Mediante procedimientos eficientes",
    "Mediante las prestaciones eficaces",
@@ -271,12 +283,12 @@
    "No se suspenderá para el supuesto de declaración de Estado de Sitio",
    "Se podrá suspender en la declaración de Estado de Excepción,"
   ],
-  "c": 2,
+  "c": 1,
   "ref": "Art. 55 CE",
-  "exp": "Según el Art. 54 de la Constitución Española: \"Una ley orgánica regulará la institución del Defensor del Pueblo, como alto comisionado de las Cortes Generales, designado por éstas para la defensa de los derechos comprendidos en este Título, a cuyo\""
+  "exp": "Según el Art. 55 de la Constitución Española: \"1. Los derechos reconocidos en los artículos 17, 18, apartados 2 y 3, artículos 19, 20, apartados 1, a) y d), y 5, artículos 21, 28, apartado 2, y artículo 37, apartado 2, podrán ser suspendidos cuand\""
  },
  {
-  "q": "Según el art. 97 de la Constitución, la función ejecutiva corresponde a:",
+  "q": "Según la Constitución Española, ¿Quién dirige la política interior y exterior?",
   "o": [
    "El Rey",
    "Las Cortes Generales",
@@ -284,8 +296,8 @@
    "Los ministros respectivos"
   ],
   "c": 2,
-  "ref": "Art. 97 CE",
-  "exp": "Según el Art. 55 de la Constitución Española: \"1. Los derechos reconocidos en los artículos 17, 18, apartados 2 y 3, artículos 19, 20, apartados 1, a) y d), y 5, artículos 21, 28, apartado 2, y artículo 37, apartado 2, podrán ser suspendidos cuand\""
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "Según la Constitución Española, ¿Quién ejerce la función legislativa?",
@@ -296,8 +308,8 @@
    "A y B son correctas"
   ],
   "c": 2,
-  "ref": "Art. 66 CE",
-  "exp": "Según el Art. 66 de la Constitución Española."
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "Según la Constitución Española, la Constitución se fundamenta:",
@@ -308,20 +320,20 @@
    "En las leyes y en el resto del ordenamiento jurídico."
   ],
   "c": 1,
-  "ref": "Art. 2 CE",
-  "exp": "Según el Art. 2 de la Constitución Española: \"La Constitución se fundamenta en la indisoluble unidad de la Nación española, patria común e indivisible de todos los españoles, y reconoce y garantiza el derecho a la autonomía de las nacionalidades \""
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
-  "q": "Según el art. 103 de la Constitución, la ley regulará:",
+  "q": "Según la Constitución Española, España, se constituye:",
   "o": [
    "En una monarquía parlamentaria",
    "En un estado superior y democrático de Derecho",
    "En un estado social y democrático de Derechos y obligaciones",
-   "Las garantías para la imparcialidad de los funcionarios públicos en el ejercicio de sus funciones."
+   "Nada de lo anterior es correcto"
   ],
   "c": 3,
-  "ref": "Art. 1.1 CE",
-  "exp": "Según el Art. 103 de la Constitución Española."
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "Según la Constitución Española, “La libertad”, es:",
@@ -332,11 +344,11 @@
    "Todo lo anterior es correcto"
   ],
   "c": 2,
-  "ref": "Art. 1.1 CE",
-  "exp": "Según el Art. 1 de la Constitución Española: \"1. España se constituye en un Estado social y democrático de Derecho, que propugna como valores superiores de su ordenamiento jurídico la libertad, la justicia, la igualdad y el pluralismo político.\""
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
-  "q": "Según el art. 100 de la Constitución, ¿Quién propone la separación de un ministro del Gobierno?",
+  "q": "Según la Constitución Española, “la villa de Madrid”:",
   "o": [
    "Se regula en el art. 6 de la Constitución",
    "Es la capital del Estado",
@@ -344,8 +356,8 @@
    "A y B son incorrectas"
   ],
   "c": 1,
-  "ref": "Art. 5 CE",
-  "exp": "Según el Art. 100 de la Constitución Española."
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "Según el art. 103 de la Constitución, ¿Qué regulará la ley?",
@@ -353,14 +365,26 @@
    "Los organismos de la Administración del Estado",
    "La objetividad de la Administración",
    "El procedimiento de audiencia al interesado",
-   "Las garantías para la imparcialidad de los funcionarios públicos en el ejercicio de sus"
+   "Las garantías para la imparcialidad de los funcionarios públicos en el ejercicio de sus funciones."
   ],
   "c": 3,
   "ref": "Art. 103 CE",
   "exp": "Según el Art. 103 de la Constitución Española."
  },
  {
-  "q": "Según el art. 101 de la Constitución, ¿Qué gobierno continuará en funciones hasta la toma de posesión del nuevo gobierno?",
+  "q": "Según el art. 103 de la Constitución, ¿Qué procedimiento regulará la ley?",
+  "o": [
+   "A través del que debe producirse los actos administrativos",
+   "El de incompatibilidades de los funcionarios públicos",
+   "El que protege los derechos y libertades de las fuerzas y cuerpo de seguridad",
+   "El del acceso a los ciudadanos a los archivos y registro administrativo que afecte a la seguridad y defensa del Estado"
+  ],
+  "c": 0,
+  "ref": "Art. 103 CE",
+  "exp": "Según el Art. 103 de la Constitución Española."
+ },
+ {
+  "q": "Según el art. 101 de la Constitución, ¿Qué gobierno, continuará en funciones hasta la toma de posesión del nuevo gobierno?",
   "o": [
    "El cedente",
    "El que cesará",
@@ -384,7 +408,7 @@
   "exp": "Según el Art. 100 de la Constitución Española."
  },
  {
-  "q": "Según el art. 10 de la Constitución Española, las normas relativas a los derechos fundamentales y a las libertades que la Constitución reconoce, de conformidad con la Declaración Universal de Derechos Humanos y los tratados y acuerdos internacionales sobre las mismas materias ratificados por España:",
+  "q": "Según el art. 10 de la Constitución Española, las normas relativas a los derechos fundamentales y a las libertades que la Constitución reconoce, de conformidad con la Declaración Universal de Derechos humanos y los tratados y acuerdos internacionales sobre las mismas materias ratificadas por España:",
   "o": [
    "Se garantizarán",
    "Se interpretarán",
@@ -396,7 +420,7 @@
   "exp": "Según el Art. 10 de la Constitución Española: \"1. La dignidad de la persona, los derechos inviolables que le son inherentes, el libre desarrollo de la personalidad, el respeto a la ley y a los derechos de los demás son fundamento del orden polític\""
  },
  {
-  "q": "Según el art. 16 de la Constitución, ¿Quién tendrán en cuenta las creencias",
+  "q": "Según el art. 16 de la Constitución, ¿Quién tendrán en cuenta las creencias religiosas de la sociedad Española?",
   "o": [
    "Los Poderes Públicos",
    "El Gobierno",
@@ -420,7 +444,7 @@
   "exp": "Según el Art. 25 de la Constitución Española: \"1. Nadie puede ser condenado o sancionado por acciones u omisiones que en el momento de producirse no constituyan delito, falta o infracción administrativa, según la legislación vigente en aquel momen\""
  },
  {
-  "q": "Según el art. 39 de la Constitución, los poderes públicos deben de prestar",
+  "q": "Según el art. 39 de la Constitución, los poderes públicos deben de prestar asistencia de todo orden a los hijos:",
   "o": [
    "Solo durante su minoría de edad",
    "Únicamente a los habidos dentro del matrimonio",
@@ -432,7 +456,7 @@
   "exp": "Según el Art. 39 de la Constitución Española: \"1. Los poderes públicos aseguran la protección social, económica y jurídica de la familia. 2.\""
  },
  {
-  "q": "Según el art. 47 de la Constitución, ¿Quién participará en la plusvalía que genere",
+  "q": "Según el art. 47 de la Constitución, ¿Quién participará en la plusvalía que genere la acción urbanística de los entes públicos?",
   "o": [
    "La Comunidad",
    "La Sociedad",
@@ -444,9 +468,9 @@
   "exp": "Según el Art. 47 de la Constitución Española: \"Todos los españoles tienen derecho a disfrutar de una vivienda digna y adecuada.\""
  },
  {
-  "q": "Según el art. 99 de la Constitución, el Rey ¿a través de quién propondrá candidato?",
+  "q": "Según el art. 99 de la Constitución, el Rey ¿a través de quién propondrá candidato a la presidencia del Gobierno?",
   "o": [
-   "De los representantes designados por los grupos políticos con representación",
+   "De los representantes designados por los grupos políticos con representación parlamentaria.",
    "Del presidente del Consejo de ministro",
    "Del presidente del Consejo de Estado",
    "Del presidente del Congreso."
@@ -464,8 +488,8 @@
    "Los ciudadanos y los poderes públicos."
   ],
   "c": 1,
-  "ref": "Art. 6 CE",
-  "exp": "Según el Art. 6 de la Constitución Española: \"Los partidos políticos expresan el pluralismo político, concurren a la formación y manifestación de la voluntad popular y son instrumento fundamental para la participación política.\""
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "Según el art. 30 de la Constitución, ¿Quién podrá imponer en su caso, una prestación social sustitutoria?",
@@ -480,7 +504,7 @@
   "exp": "Según el Art. 30 de la Constitución Española: \"1. Los españoles tienen el derecho y el deber de defender a España. 2.\""
  },
  {
-  "q": "Según el art. 30 de la Constitución, “el derecho de fundación para fines de interés",
+  "q": "Según el art. 30 de la Constitución, “el derecho de fundación para fines de interés profesional”:",
   "o": [
    "Se reconoce con arreglo a la ley",
    "Se prohíbe con arreglo a la ley",
@@ -492,7 +516,7 @@
   "exp": "Según el Art. 30 de la Constitución Española: \"1. Los españoles tienen el derecho y el deber de defender a España. 2.\""
  },
  {
-  "q": "Según el art. 43 de la Constitución Española. ¿A quién compete organizar y tutelar la salud pública?",
+  "q": "Según el art. 43 de la Constitución española. ¿A quién compete organizar y tutelar la salud pública?",
   "o": [
    "Al gobierno",
    "A las Administraciones",
@@ -516,7 +540,31 @@
   "exp": "Según el Art. 101 de la Constitución Española."
  },
  {
-  "q": "Según el art. 4 de la Constitución Española, los Estatutos de las Comunidades Autónomas:",
+  "q": "Según el art. 1 de la Constitución Española, la libertad es:",
+  "o": [
+   "Un poder del Estado.",
+   "Un valor superior del ordenamiento jurídico",
+   "Es junto al pluralismo político un valor superior del ordenamiento político",
+   "Es un valor superior de su ordenamiento constitucional"
+  ],
+  "c": 1,
+  "ref": "Art. 1 CE",
+  "exp": "Según el Art. 1 de la Constitución Española: \"1. España se constituye en un Estado social y democrático de Derecho, que propugna como valores superiores de su ordenamiento jurídico la libertad, la justicia, la igualdad y el pluralismo político.\""
+ },
+ {
+  "q": "Según el art. 2 de la Constitución Española, La Constitución se fundamenta:",
+  "o": [
+   "En el pueblo español",
+   "En la indisoluble unidad de la Nación Española",
+   "En las nacionalidades y regiones que integran la nación española",
+   "En la monarquía parlamentaria"
+  ],
+  "c": 1,
+  "ref": "Art. 2 CE",
+  "exp": "Según el Art. 2 de la Constitución Española: \"La Constitución se fundamenta en la indisoluble unidad de la Nación española, patria común e indivisible de todos los españoles, y reconoce y garantiza el derecho a la autonomía de las nacionalidades \""
+ },
+ {
+  "q": "Según el art. 4 de la Constitución Española, los Estatutos de las Comunidades autónomas:",
   "o": [
    "Reconocerán banderas y enseñas propias",
    "Protegerán especialmente las distintas modalidades lingüísticas de España",
@@ -528,7 +576,7 @@
   "exp": "Según el Art. 4 de la Constitución Española: \"1. La bandera de España está formada por tres franjas horizontales, roja, amarilla y roja, siendo la amarilla de doble anchura que cada una de las rojas. 2.\""
  },
  {
-  "q": "Según la Constitución Española, ¿Quiénes concurren a la formación y",
+  "q": "Según la Constitución Española, ¿Quiénes concurren a la formación y manifestación popular?",
   "o": [
    "Los partidos políticos",
    "Los sindicatos y las asociaciones de trabajadores",
@@ -536,8 +584,8 @@
    "Los poderes públicos."
   ],
   "c": 0,
-  "ref": "Art. 6 CE",
-  "exp": "Según el Art. 6 de la Constitución Española: \"Los partidos políticos expresan el pluralismo político, concurren a la formación y manifestación de la voluntad popular y son instrumento fundamental para la participación política.\""
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "Según el art. 8 de la Constitución Española, las Fuerzas Armadas tienen como misión:",
@@ -552,12 +600,12 @@
   "exp": "Según el Art. 8 de la Constitución Española: \"1. Las Fuerzas Armadas, constituidas por el Ejército de Tierra, la Armada y el Ejército del Aire, tienen como misión garantizar la soberanía e independencia de España, defender su integridad territori\""
  },
  {
-  "q": "Según el art. 10 de la Constitución Española, son el fundamento del",
+  "q": "Según el art. 10 de la Constitución Española, son el fundamento del orden político y la paz social:",
   "o": [
-   "La dignidad de la persona, los derechos inviolables que le son inherentes,",
-   "Las normas relativas a los derechos fundamentales y a las libertades",
-   "La protección de La dignidad de la persona, los derechos inviolables que",
-   "La dignidad de la persona, los derechos inviolables que le son inherentes,"
+   "La dignidad de la persona, los derechos inviolables que le son inherentes, el libre desarrollo de la personalidad, el respeto a la ley y a los derechos de los demás",
+   "Las normas relativas a los derechos fundamentales y a las libertades que la Constitución reconoce",
+   "La protección de La dignidad de la persona, los derechos inviolables que le son inherentes, el libre desarrollo de la personalidad, el respeto a la ley y a los derechos de los demás",
+   "La dignidad de la persona, los derechos inviolables que le son inherentes, el libre desarrollo de la personalidad, el respeto a la ley y a los derechos de los demás, reconocidos por los tratados y acuerdos internacionales ratificado por España."
   ],
   "c": 0,
   "ref": "Art. 10 CE",
@@ -588,7 +636,7 @@
   "exp": "Según el Art. 13 de la Constitución Española: \"1. Los extranjeros gozarán en España de las libertades públicas que garantiza el presente Título en los términos que establezcan los tratados y la ley. 2.\""
  },
  {
-  "q": "Según el art. 15 de la Constitución Española, exactamente, ¿Cuál sería",
+  "q": "Según el art. 15 de la Constitución Española, exactamente, ¿Cuál sería la respuesta más correcta?",
   "o": [
    "Todas las personas",
    "Todos los españoles",
@@ -604,7 +652,7 @@
   "o": [
    "Dice que todas las personas son iguales ante la ley sin que pueda prevalecer discriminación alguna por razón de nacimiento",
    "No se encuentra en la sección primera del capítulo segundo del Título Primero",
-   "Protege la discriminación según la condición o circunstancia social, de acuerdo con los supuestos contemplados en las leyes penales y militares",
+   "Protege la discriminación según la condición o circunstancia social, de acuerdo con los supuestos contemplado en las leyes penales y militares",
    "Todo lo anterior es incierto"
   ],
   "c": 1,
@@ -612,12 +660,12 @@
   "exp": "Según el Art. 14 de la Constitución Española: \"Los españoles son iguales ante la ley, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o socia\""
  },
  {
-  "q": "Según el art. 16 de la Constitución Española, ¿tiene la libertad ideológica, religiosa y de culto alguna limitación en sus manifestaciones?",
+  "q": "Según el art. 16 de la Constitución Española, ¿tiene la libertad ideológica, de religiosa y de culto, alguna limitación en sus manifestaciones?",
   "o": [
    "Ninguna",
    "Las establecidas por los poderes públicos",
    "Las necesarias para el mantenimiento del orden público protegido por la ley",
-   "Las precisas para asegurar el funcionamiento de los servicios esenciales"
+   "Las precisas para asegurar el funcionamiento de los servicios esenciales de la comunidad"
   ],
   "c": 2,
   "ref": "Art. 16 CE",
@@ -629,17 +677,17 @@
    "El plazo mínimo de setenta y dos horas",
    "El estrictamente necesario para la realización de las averiguaciones tendentes al esclarecimiento de los hechos",
    "Hasta que el detenido este puesto a disposición judicial",
-   "El estrictamente necesario para la realización de las averiguaciones"
+   "El estrictamente necesario para la realización de las averiguaciones tendentes al esclarecimiento de los derechos"
   ],
   "c": 1,
   "ref": "Art. 17 CE",
   "exp": "Según el Art. 17 de la Constitución Española: \"1. Toda persona tiene derecho a la libertad y a la seguridad.\""
  },
  {
-  "q": "Según el art. 19 de la Constitución Española, los españoles tienen",
+  "q": "Según el art. 19 de la Constitución Española, los españoles tienen derechos",
   "o": [
    "A las garantías en el uso de la informática",
-   "Al secreto de las comunicaciones sin más limitaciones que motivos",
+   "Al secreto de las comunicaciones sin más limitaciones que motivos políticos o ideológicos",
    "A elegir libremente su residencia",
    "Tienen derecho a todo lo anterior"
   ],
@@ -650,7 +698,7 @@
  {
   "q": "Según el art. 20 de la Constitución Española, la libertad de cátedra:",
   "o": [
-   "Se expresa y se difunde mediante escrito o cualquier medio de",
+   "Se expresa y se difunde mediante escrito o cualquier medio de reproducción",
    "Puede restringirse mediante censura previa",
    "Solo se reconoce",
    "Se reconoce y protege"
@@ -660,19 +708,7 @@
   "exp": "Según el Art. 20 de la Constitución Española: \"1. Se reconocen y protegen los derechos: a) A expresar y difundir libremente los pensamientos, ideas y opiniones mediante la palabra, el escrito o cualquier otro medio de reproducción.\""
  },
  {
-  "q": "Según el art. 55 de la Constitución, los derechos reconocidos en el art. 17.3 de la Constitución:",
-  "o": [
-   "Se suspenderán para los supuestos de declaración de Estado de Excepción y Sitio",
-   "No se suspenderá para el supuesto de declaración de Estado de Excepción",
-   "No se suspenderá para el supuesto de declaración de Estado de Sitio",
-   "Se podrá suspender en la declaración de Estado de Excepción, a"
-  ],
-  "c": 2,
-  "ref": "Art. 55 CE",
-  "exp": "Según el Art. 55 de la Constitución Española: \"1. Los derechos reconocidos en los artículos 17, 18, apartados 2 y 3, artículos 19, 20, apartados 1, a) y d), y 5, artículos 21, 28, apartado 2, y artículo 37, apartado 2, podrán ser suspendidos cuand\""
- },
- {
-  "q": "Según el art. 26 de la Constitución Española, los Tribunales de Honor en el ámbito de la Administración civil y militar:",
+  "q": "Según el art. 26 de la Constitución Española, los Tribunales de Honor en el ámbito de la Administración Civil y Militar:",
   "o": [
    "Se prohíben",
    "Se suspenden o disuelve mediante resolución judicial motivada",
@@ -688,7 +724,7 @@
   "o": [
    "Se reconoce y protege",
    "Los poderes públicos la garantiza y protege",
-   "Se reconoce de acuerdo con las propias convicciones de los padres y de",
+   "Se reconoce de acuerdo con las propias convicciones de los padres y de los hijos",
    "Nada de lo anterior es correcta"
   ],
   "c": 3,
@@ -696,7 +732,7 @@
   "exp": "Según el Art. 27 de la Constitución Española: \"1. Todos tienen el derecho a la educación. Se reconoce la libertad de enseñanza. 2.\""
  },
  {
-  "q": "Según el art. 27 de la Constitución, ¿Quién garantiza el derecho de todos a la educación mediante una programación general de la enseñanza?",
+  "q": "Según el art. 27 de la Constitución, ¿Quién garantiza el derecho de todos a la Educación mediante una programación general de la enseñanza?",
   "o": [
    "El gobierno",
    "Los poderes públicos",
@@ -716,16 +752,16 @@
    "Se reconoce en los términos que la ley establezca"
   ],
   "c": 3,
-  "ref": "Art. 27.10 CE",
+  "ref": "Art. 27 CE",
   "exp": "Según el Art. 27 de la Constitución Española: \"1. Todos tienen el derecho a la educación. Se reconoce la libertad de enseñanza. 2.\""
  },
  {
   "q": "Según el art. 28 de la Constitución, señale que respuesta es incorrecta respecto al derecho Huelga:",
   "o": [
-   "Que no se reconoce para la defensa de los derechos de los trabajadores",
+   "Que no se reconoce para la defensa de los derechos de los trabajadores y empresarios",
    "Que se reconoce a los trabajadores para la defensa de sus intereses",
    "Que se reconoce a los sindicatos para la defensa de sus intereses",
-   "Que no se reconoce a los trabajadores para la defensa de los intereses"
+   "Que no se reconoce a los trabajadores para la defensa de los intereses de los sindicatos"
   ],
   "c": 2,
   "ref": "Art. 28 CE",
@@ -756,7 +792,7 @@
   "exp": "Según el Art. 30 de la Constitución Española: \"1. Los españoles tienen el derecho y el deber de defender a España. 2.\""
  },
  {
-  "q": "Según el art. 35 de la Constitución, de las que se mencionan a continuación, ¿qué afirmación es correcta en relación con el trabajo?:",
+  "q": "Según el art. 35 de la Constitución, de las que se mencionan a continuación ¿qué afirmación es correcta en relación con el trabajo?:",
   "o": [
    "Todos los españoles tienen el derecho a trabajar y el deber al trabajo",
    "Todos los españoles tienen la obligación de promocionar a través del trabajo",
@@ -772,15 +808,15 @@
   "o": [
    "Se reconoce el derecho a la negociación colectiva",
    "La ley garantiza la fuerza vinculante de los convenios",
-   "Se reconoce el derecho de los trabajadores y empresarios a adoptar medidas de conflicto colectivo",
-   "La ley que regule el ejercicio a adoptar medida de conflicto colectivo, sin"
+   "Se reconoce el derecho de los trabajadores y empresarios a adoptar medida de conflicto colectivo",
+   "La ley que regule el ejercicio a adoptar medida de conflicto colectivo, sin perjuicio de las limitaciones que pueda establecerse incluirá garantías"
   ],
   "c": 0,
   "ref": "Art. 37 CE",
   "exp": "Según el Art. 37 de la Constitución Española: \"1. La ley garantizará el derecho a la negociación colectiva laboral entre los representantes de los trabajadores y empresarios, así como la fuerza vinculante de los convenios. 2.\""
  },
  {
-  "q": "Según el art. 44 de la Constitución, ¿Quién promoverá y tutelará el acceso a la cultura a la que todos tienen derecho?",
+  "q": "Según el art. 44 de la Constitución, ¿Quién promoverá y tutelara el acceso a la cultura a la que todos tienen derecho?",
   "o": [
    "El Gobierno",
    "Los poderes públicos",
@@ -790,18 +826,6 @@
   "c": 1,
   "ref": "Art. 44 CE",
   "exp": "Según el Art. 44 de la Constitución Española: \"1. Los poderes públicos promoverán y tutelarán el acceso a la cultura, a la que todos tienen derecho. 2.\""
- },
- {
-  "q": "Según el art. 53 de la Constitución, el procedimiento ante los",
-  "o": [
-   "Concentración y celeridad",
-   "Transparencia y oralidad",
-   "Preferencia y sumariedad",
-   "Prudencia y parcialidad"
-  ],
-  "c": 2,
-  "ref": "Art. 53 CE",
-  "exp": "Según el Art. 53 de la Constitución Española: \"1. Los derechos y libertades reconocidos en el Capítulo segundo del presente Título vinculan a todos los poderes públicos.\""
  },
  {
   "q": "Según el art. 54 de la Constitución, el Defensor del Pueblo, podrá supervisar la actividad de la Administración, dando cuenta a:",
@@ -816,6 +840,18 @@
   "exp": "Según el Art. 54 de la Constitución Española: \"Una ley orgánica regulará la institución del Defensor del Pueblo, como alto comisionado de las Cortes Generales, designado por éstas para la defensa de los derechos comprendidos en este Título, a cuyo\""
  },
  {
+  "q": "3 de la Constitución:",
+  "o": [
+   "Se suspenderán para los supuestos de declaración de Estado de Excepción y Sitio",
+   "No se suspenderá para el supuesto de declaración de Estado de Excepción",
+   "No se suspenderá para el supuesto de declaración de Estado de Sitio",
+   "Se podrá suspender en la declaración de Estado de Excepción, a propuesta de la Administración de Justicia."
+  ],
+  "c": 2,
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
+ },
+ {
   "q": "¿Cómo se denomina el Titulo VII de la Constitución Española?",
   "o": [
    "Economía y Hacienda",
@@ -824,8 +860,8 @@
    "Economía y Administración"
   ],
   "c": 0,
-  "ref": "Título VI CE",
-  "exp": "Según Título VI CE de la Constitución Española."
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "¿Cuántas disposiciones derogatorias tiene la Constitución Española?",
@@ -836,20 +872,20 @@
    "Cuatro"
   ],
   "c": 2,
-  "ref": "Disposición Derogatoria CE",
-  "exp": "Según Disposición Derogatoria CE."
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "¿Qué título de la constitución se denomina \"Del Gobierno y la Administración\"?",
   "o": [
    "El que va inmediatamente después del título de “Economía y Hacienda”",
-   "El que va  inmediatamente antes del título “Del poder judicial”",
+   "El que va inmediatamente antes del título “Del poder judicial”",
    "El título V",
    "Ninguna de las anteriores respuestas son correctas"
   ],
   "c": 3,
-  "ref": "Título IV CE",
-  "exp": "Según Título IV CE de la Constitución Española."
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "¿Cuántos capitulo tiene el Titulo VIII?",
@@ -860,11 +896,11 @@
    "Nada es correcto"
   ],
   "c": 1,
-  "ref": "Título VI CE",
-  "exp": "Según Título VI CE de la Constitución Española."
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
-  "q": "¿En qué título de la Constitución se encuentra el capítulo denominado \"De los tratados internacionales\"?",
+  "q": "¿En qué título de la Constitución se encuentra el capítulo denominado “De los tratados internacionales?",
   "o": [
    "III",
    "IV",
@@ -896,11 +932,11 @@
    "Del 15 al 38"
   ],
   "c": 2,
-  "ref": "Art. 14-29 CE (Sección 1ª, Cap. II, Título I)",
-  "exp": "Según el Art. 14 de la Constitución Española: \"Los españoles son iguales ante la ley, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o socia\""
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
-  "q": "La denominación de la sección primera, del capítulo segundo, del título primero de la Constitución es:",
+  "q": "La denominación de la sección primera, del capítulo segundo, del título primero de la constitución es:",
   "o": [
    "De los derechos fundamentales y de las libertades públicas",
    "De los derechos y de las libertades públicas",
@@ -908,8 +944,8 @@
    "De los derechos fundamentales y de las obligaciones públicas"
   ],
   "c": 0,
-  "ref": "Art. 14-29 CE (Sección 1ª, Cap. II, Título I)",
-  "exp": "Según el Art. 14 de la Constitución Española: \"Los españoles son iguales ante la ley, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o socia\""
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "El título preliminar de la constitución, ¿Qué contiene?",
@@ -920,8 +956,8 @@
    "Los artículos del 1 al 10"
   ],
   "c": 2,
-  "ref": "Título Preliminar CE",
-  "exp": "Según Título Preliminar CE de la Constitución Española."
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "La libertad de cátedra, ¿En qué artículo de la Constitución se recoge?",
@@ -932,8 +968,8 @@
    "En el 27.6 c)"
   ],
   "c": 1,
-  "ref": "Art. 20.1 CE",
-  "exp": "Según el Art. 20 de la Constitución Española: \"1. Se reconocen y protegen los derechos: a) A expresar y difundir libremente los pensamientos, ideas y opiniones mediante la palabra, el escrito o cualquier otro medio de reproducción.\""
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "El Título VIII de la Constitución se denomina:",
@@ -944,11 +980,11 @@
    "De la organización territorial del Estado"
   ],
   "c": 3,
-  "ref": "Título VIII CE",
-  "exp": "Según Título VIII CE de la Constitución Española."
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
-  "q": "Según el art. 3 de la Constitución Española, complete la frase: \"las demás lenguas españolas serán también oficiales en las respectivas Comunidades Autónomas:",
+  "q": "Según el art. 3 de la Constitución Española, complete la frase: “las demás lenguas españolas serán también oficiales en las respectivas Comunidades Autónomas:",
   "o": [
    "y será objeto de especial respeto",
    "todos los españoles tienen el deber de conocerla y el derecho a usarla",
@@ -984,7 +1020,19 @@
   "exp": "Según el Art. 12 de la Constitución Española: \"Los españoles son mayores de edad a los dieciocho años.\""
  },
  {
-  "q": "Según el art. 18 de la Constitución Española, de las que se enuncian a continuación, especialmente ¿De qué se garantiza el secreto de las comunicaciones?",
+  "q": "Según el art. 18 de la Constitución Española, de las que se enuncia a continuación, especialmente ¿De qué se garantiza el secreto de las comunicaciones?",
+  "o": [
+   "Las informáticas",
+   "Las verbales",
+   "Las gráficas",
+   "Las postales"
+  ],
+  "c": 3,
+  "ref": "Art. 18 CE",
+  "exp": "Según el Art. 18 de la Constitución Española: \"1. Se garantiza el derecho al honor, a la intimidad personal y familiar y a la propia imagen. 2. El domicilio es inviolable.\""
+ },
+ {
+  "q": "Según el art. 20 de la Constitución Española, ¿A quién se garantizará el acceso a los medios de comunicación social dependiente del Estado o de cualquier ente público?",
   "o": [
    "A la juventud y la infancia",
    "A los poderes público",
@@ -993,7 +1041,7 @@
   ],
   "c": 3,
   "ref": "Art. 20 CE",
-  "exp": "Según el Art. 18 de la Constitución Española: \"1. Se garantiza el derecho al honor, a la intimidad personal y familiar y a la propia imagen. 2. El domicilio es inviolable.\""
+  "exp": "Según el Art. 20 de la Constitución Española: \"1. Se reconocen y protegen los derechos: a) A expresar y difundir libremente los pensamientos, ideas y opiniones mediante la palabra, el escrito o cualquier otro medio de reproducción.\""
  },
  {
   "q": "La violación del derecho de reunión:",
@@ -1004,15 +1052,15 @@
    "Todo lo anterior es correcto"
   ],
   "c": 2,
-  "ref": "Art. 21 CE",
-  "exp": "Según el Art. 21 de la Constitución Española: \"1. Se reconoce el derecho de reunión pacífica y sin armas. El ejercicio de este derecho no necesitará autorización previa. 2.\""
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "El derecho a que se refiere la pregunta anterior, ¿En qué artículo de la Constitución se regula?",
   "o": [
    "En el 21",
    "En el 22",
-   "En ninguno, porque lo que regula la Constitución, es el derecho de",
+   "En ninguno, porque lo que regula la Constitución, es el derecho de protección de la reunión",
    "En el 25."
   ],
   "c": 0,
@@ -1020,7 +1068,7 @@
   "exp": "Según la estructura de la Constitución Española."
  },
  {
-  "q": "Según el art. 23 de la Constitución Española, ¿En qué condiciones los",
+  "q": "Según el art. 23 de la Constitución Española, ¿En qué condiciones los ciudadanos tienen derecho a acceder a las funciones y cargos públicos?",
   "o": [
    "Libremente",
    "De igualdad",
@@ -1032,10 +1080,10 @@
   "exp": "Según el Art. 23 de la Constitución Española: \"1. Los ciudadanos tienen el derecho a participar en los asuntos públicos, directamente o por medio de representantes, libremente elegidos en elecciones periódicas por sufragio universal. 2.\""
  },
  {
-  "q": "Según el art. 23 de la Constitución Española, El condenado a pena de",
+  "q": "Según el art. 23 de la Constitución Española, El condenado a pena de prisión que estuviere cumpliendo la misma gozará de los derechos fundamentales, a excepción de:",
   "o": [
-   "De los que se vean expresamente limitados por la doctrina de los",
-   "De los que se vean expresamente o tácitamente limitados por el",
+   "De los que se vean expresamente limitados por la doctrina de los Tribunales",
+   "De los que se vean expresamente o tácitamente limitados por el contenido del fallo condenatorio",
    "De los que se vean expresamente limitados por el sentido de la condena",
    "Ninguna de las anteriores es correcta"
   ],
@@ -1056,7 +1104,7 @@
   "exp": "Según el Art. 31 de la Constitución Española: \"1. Todos contribuirán al sostenimiento de los gastos públicos de acuerdo con su capacidad económica mediante un sistema tributario justo inspirado en los principios de igualdad y progresividad que, en\""
  },
  {
-  "q": "Según el art. 32 de la Constitución, respecto al matrimonio, ¿Qué",
+  "q": "Según el art. 31 de la Constitución, respecto al matrimonio, ¿Qué regulara la ley?",
   "o": [
    "Los derechos de los hijos habido durante el matrimonio",
    "Los efectos del régimen económico",
@@ -1064,11 +1112,11 @@
    "Las formas de matrimonio"
   ],
   "c": 3,
-  "ref": "Art. 32 CE",
-  "exp": "Según el Art. 32 de la Constitución Española: \"1. El hombre y la mujer tienen derecho a contraer matrimonio con plena igualdad jurídica. 2.\""
+  "ref": "Art. 31 CE",
+  "exp": "Según el Art. 31 de la Constitución Española: \"1. Todos contribuirán al sostenimiento de los gastos públicos de acuerdo con su capacidad económica mediante un sistema tributario justo inspirado en los principios de igualdad y progresividad que, en\""
  },
  {
-  "q": "Según el art. 31 de la Constitución, el hombre y la mujer tienen el",
+  "q": "Según el art. 31 de la Constitución, el hombre y la mujer tienen el deber de contraer matrimonio con igualdad jurídica:",
   "o": [
    "Propia",
    "Plena",
@@ -1092,7 +1140,7 @@
   "exp": "Según el Art. 34 de la Constitución Española: \"1. Se reconoce el derecho de fundación para fines de interés general, con arreglo a la ley. 2. Regirá también para las fundaciones lo dispuesto en los apartados 2 y 4 del artículo 22.\""
  },
  {
-  "q": "Según el art. 36 de la Constitución, respecto a los colegios profesionales, la ley regulará:",
+  "q": "Según el art. 36 de la Constitución, respecto a los colegios profesionales que regulará la ley:",
   "o": [
    "Las peculiaridades propias de su régimen económico",
    "Su estructura interna",
@@ -1104,7 +1152,7 @@
   "exp": "Según el Art. 36 de la Constitución Española: \"La ley regulará las peculiaridades propias del régimen jurídico de los Colegios Profesionales y el ejercicio de las profesiones tituladas.\""
  },
  {
-  "q": "Según el art. 38 de la Constitución, ¿Quiénes garantizan y protegen el ejercicio de la libertad de empresa y la defensa de la productividad?",
+  "q": "Según el art. 38 de la Constitución, ¿Quié/nes garantizan y protegen su ejercicio y la defensa de la productividad?",
   "o": [
    "Los poderes públicos",
    "El Estado",
@@ -1116,7 +1164,7 @@
   "exp": "Según el Art. 38 de la Constitución Española: \"Se reconoce la libertad de empresa en el marco de la economía de mercado.\""
  },
  {
-  "q": "Según el art. 39 de la Constitución, ¿De quién aseguran los poderes públicos la protección social, económica y jurídica?",
+  "q": "Según el art. 39 de la Constitución, ¿De quién asegura los poderes públicos la protección social, económica y jurídica?",
   "o": [
    "Del matrimonio",
    "Del medio ambiente",
@@ -1128,7 +1176,7 @@
   "exp": "Según el Art. 39 de la Constitución Española: \"1. Los poderes públicos aseguran la protección social, económica y jurídica de la familia. 2.\""
  },
  {
-  "q": "Según el art. 39 de la Constitución, ¿Qué tipo de protección aseguran los poderes públicos respecto de los hijos, iguales estos ante la ley con independencia de su filiación?",
+  "q": "Según el art. 39 de la Constitución, ¿Qué tipo de protección aseguran los poderes públicos respecto de los hijos, iguales éstos ante la ley con independencia de su filiación?",
   "o": [
    "Plena",
    "Integral",
@@ -1140,7 +1188,7 @@
   "exp": "Según el Art. 39 de la Constitución Española: \"1. Los poderes públicos aseguran la protección social, económica y jurídica de la familia. 2.\""
  },
  {
-  "q": "Según el art. 41 de la Constitución, ¿Quién mantendrá un régimen público de Seguridad Social?",
+  "q": "Según el art. 41 de la Constitución, ¿Quién mantendrá un régimen público de seguridad social?",
   "o": [
    "Todos los ciudadanos",
    "El Estado",
@@ -1152,7 +1200,7 @@
   "exp": "Según el Art. 41 de la Constitución Española: \"Los poderes públicos mantendrán un régimen público de Seguridad Social para todos los ciudadanos, que garantice la asistencia y prestaciones sociales suficientes ante situaciones de necesidad, especia\""
  },
  {
-  "q": "Según el art. 41 de la Constitución, la asistencia y prestaciones",
+  "q": "Según el art. 41 de la Constitución, la asistencia y prestaciones complementarias será:",
   "o": [
    "Suficientes",
    "Justas",
@@ -1164,7 +1212,7 @@
   "exp": "Según el Art. 41 de la Constitución Española: \"Los poderes públicos mantendrán un régimen público de Seguridad Social para todos los ciudadanos, que garantice la asistencia y prestaciones sociales suficientes ante situaciones de necesidad, especia\""
  },
  {
-  "q": "Según el art. 42 de la Constitución, ¿Quién velara especialmente por",
+  "q": "Según el art. 42 de la Constitución, ¿Quién velara especialmente por la salvaguardia de los derechos económicos y sociales de los trabajadores españoles en el extranjero?",
   "o": [
    "El Gobierno",
    "El Estado",
@@ -1176,7 +1224,19 @@
   "exp": "Según el Art. 42 de la Constitución Española: \"El Estado velará especialmente por la salvaguardia de los derechos económicos y sociales de los trabajadores españoles en el extranjero y orientará su política hacia su retorno.\""
  },
  {
-  "q": "Según el art. 45 de la Constitución, los poderes públicos velarán por",
+  "q": "Según el art. 43 de la Constitución, ¿Qué fomentarán los poderes públicos?",
+  "o": [
+   "La protección de la salud",
+   "La educación física",
+   "La utilización del ocio",
+   "Fomentarán todo lo anterior"
+  ],
+  "c": 1,
+  "ref": "Art. 43 CE",
+  "exp": "Según el Art. 43 de la Constitución Española: \"1. Se reconoce el derecho a la protección de la salud. 2.\""
+ },
+ {
+  "q": "Según el art. 45 de la Constitución, los poderes públicos velarán por la utilización racional de:",
   "o": [
    "Las medidas preventivas y prestaciones asistenciales",
    "De todos los recursos naturales",
@@ -1188,7 +1248,7 @@
   "exp": "Según el Art. 45 de la Constitución Española: \"1. Todos tienen el derecho a disfrutar de un medio ambiente adecuado para el desarrollo de la persona, así como el deber de conservarlo. 2.\""
  },
  {
-  "q": "Según el art. 45 de la Constitución, con el fin de proteger y mejorar la calidad de la vida y defender y restaurar el medio ambiente, ¿En qué se apoyarán los poderes públicos?",
+  "q": "Según el art. 45 de la Constitución, con el fin de proteger y mejorar la calidad de la vida y defender y restaurar el medio ambiente, ¿En que se apoyarán los poderes públicos?",
   "o": [
    "En la indispensable solidaridad colectiva",
    "En la imprescindible participación colectiva",
@@ -1200,7 +1260,7 @@
   "exp": "Según el Art. 45 de la Constitución Española: \"1. Todos tienen el derecho a disfrutar de un medio ambiente adecuado para el desarrollo de la persona, así como el deber de conservarlo. 2.\""
  },
  {
-  "q": "Según el art. 46 de la Constitución, ¿Qué ley sancionará los atentados contra el patrimonio histórico, cultural y artístico de los pueblos de España?",
+  "q": "Según el art. 46 de la Constitución, ¿Qué ley sancionará los atentados contra el patrimonio urbanístico?",
   "o": [
    "La Penal",
    "Las procesales",
@@ -1212,7 +1272,31 @@
   "exp": "Según el Art. 46 de la Constitución Española: \"Los poderes públicos garantizarán la conservación y promoverán el enriquecimiento del patrimonio histórico, cultural y artístico de los pueblos de España y de los bienes que lo integran, cualquiera qu\""
  },
  {
-  "q": "Según el art. 48 de la Constitución, las personas con discapacidad",
+  "q": "Según el art. 47 de la Constitución, todos los españoles tienen derecho a disfrutar de una vivienda:",
+  "o": [
+   "De forma libre y eficaz",
+   "En condiciones de igualdad",
+   "Digna y adecuada",
+   "Integra y protegida"
+  ],
+  "c": 2,
+  "ref": "Art. 47 CE",
+  "exp": "Según el Art. 47 de la Constitución Española: \"Todos los españoles tienen derecho a disfrutar de una vivienda digna y adecuada.\""
+ },
+ {
+  "q": "Según el art. 48 de la Constitución, los poderes públicos promoverán las condiciones para la participación libre y eficaz de la juventud en el desarrollo:",
+  "o": [
+   "De su personalidad",
+   "Integral",
+   "Político",
+   "Tecnológico y científico"
+  ],
+  "c": 2,
+  "ref": "Art. 48 CE",
+  "exp": "Según el Art. 48 de la Constitución Española: \"Los poderes públicos promoverán las condiciones para la participación libre y eficaz de la juventud en el desarrollo político, social, económico y cultural.\""
+ },
+ {
+  "q": "Según el art. 48 de la Constitución, las personas con discapacidad ejercen los derechos previstos en el Título I en condiciones:",
   "o": [
    "De libertad e igualdad reales y efectivas",
    "Específicas, reales y efectivas",
@@ -1224,12 +1308,12 @@
   "exp": "Según el Art. 48 de la Constitución Española: \"Los poderes públicos promoverán las condiciones para la participación libre y eficaz de la juventud en el desarrollo político, social, económico y cultural.\""
  },
  {
-  "q": "Según el art. 49 de la Constitución, respecto a las personas con",
+  "q": "Según el art. 49 de la Constitución, respecto a las personas con discapacidad, ¿Qué impulsarán los poderes públicos?",
   "o": [
    "Su participación en organizaciones sociales",
    "Entornos universalmente accesibles y medidas específicas",
-   "Las políticas que garanticen la plena autonomía personal y la inclusión",
-   "Pensiones adecuadas y periódicamente actualizadas y la suficiencia"
+   "Las políticas que garanticen la plena autonomía personal y la inclusión social",
+   "Pensiones adecuadas y periódicamente actualizadas y la suficiencia económica"
   ],
   "c": 2,
   "ref": "Art. 49 CE",
@@ -1260,7 +1344,7 @@
   "exp": "Según el Art. 52 de la Constitución Española: \"La ley regulará las organizaciones profesionales que contribuyan a la defensa de los intereses económicos que les sean propios. Su estructura interna y funcionamiento deberán ser democráticos.\""
  },
  {
-  "q": "Según el art. 53 de la Constitución, ¿A quién vincula los derechos y",
+  "q": "Según el art. 53 de la Constitución, ¿A quién vincula los derechos y libertades reconocidos en el Capítulo segundo del Título I de la Constitución?",
   "o": [
    "A todos los poderes públicos",
    "A parte de los poderes públicos",
@@ -1272,7 +1356,7 @@
   "exp": "Según el Art. 53 de la Constitución Española: \"1. Los derechos y libertades reconocidos en el Capítulo segundo del presente Título vinculan a todos los poderes públicos.\""
  },
  {
-  "q": "Según el art. 53 de la Constitución, ¿Quién/es podrá recabar la tutela",
+  "q": "Según el art. 53 de la Constitución, ¿Quién/es podrá recabar la tutela de las libertades y derechos reconocidos en el artículo 14 de la Constitución?",
   "o": [
    "Los Tribunales",
    "Cualquier ciudadano",
@@ -1289,7 +1373,7 @@
    "Informara la práctica judicial",
    "En su caso se podrá recabar su tutela mediante el recurso de amparo",
    "Solo por ley podrá regularse",
-   "Su defensa, seguirá un procedimiento, basado en los principios de"
+   "Su defensa, seguirá un procedimiento, basado en los principios de preferencia y sumariedad"
   ],
   "c": 2,
   "ref": "Art. 53 CE",
@@ -1308,7 +1392,7 @@
   "exp": "Según el Art. 54 de la Constitución Española: \"Una ley orgánica regulará la institución del Defensor del Pueblo, como alto comisionado de las Cortes Generales, designado por éstas para la defensa de los derechos comprendidos en este Título, a cuyo\""
  },
  {
-  "q": "Según el art. 54 de la Constitución, es cierto que la institución del Defensor del Pueblo es designado por las Cortes Generales para:",
+  "q": "Según el art. 54 de la Constitución, es cierto que la institución del Defensor del pueblo es designado por las Cortes generales para:",
   "o": [
    "La defensa de los derechos y deberes comprendidos en el Título I",
    "La defensa de los derechos comprendidos en el Título II",
@@ -1334,20 +1418,20 @@
  {
   "q": "Según el art. 55 de la Constitución, el derecho a la huelga:",
   "o": [
-   "Podrá ser suspendido solo en el supuesto de declaración de estado de",
+   "Podrá ser suspendido solo en el supuesto de declaración de estado de sitio",
    "No podrá ser suspendido en ningún caso",
-   "Podrá ser suspendido en el supuesto de declaración del estado de",
-   "Deberá ser suspendido en los supuestos de declaración de estado o de"
+   "Podrá ser suspendido en el supuesto de declaración del estado de excepción",
+   "Deberá ser suspendido en los supuestos de declaración de estado o de sitio."
   ],
   "c": 2,
   "ref": "Art. 55 CE",
   "exp": "Según el Art. 55 de la Constitución Española: \"1. Los derechos reconocidos en los artículos 17, 18, apartados 2 y 3, artículos 19, 20, apartados 1, a) y d), y 5, artículos 21, 28, apartado 2, y artículo 37, apartado 2, podrán ser suspendidos cuand\""
  },
  {
-  "q": "Según el art. 53 de la Constitución, el derecho al que se refiere la",
+  "q": "Según el art. 53 de la Constitución, el derecho al que se refiere la pregunta anterior:",
   "o": [
    "No vincula a los poderes públicos",
-   "Podrá recabarse por cualquier ciudadano, en su caso, a través del recurso",
+   "Podrá recabarse por cualquier ciudadano, en su caso, a través del recurso de amparo",
    "Vinculará a la legislación positiva",
    "Todo lo anterior es correcto"
   ],
@@ -1356,7 +1440,7 @@
   "exp": "Según el Art. 53 de la Constitución Española: \"1. Los derechos y libertades reconocidos en el Capítulo segundo del presente Título vinculan a todos los poderes públicos.\""
  },
  {
-  "q": "Según el art. 55 de la Constitución, ¿qué derecho está exceptuado de ser suspendido en el supuesto de declaración de estado de sitio?",
+  "q": "Según el art. 55 que derecho está exceptuado de ser suspendido en el supuesto de declaración de estado de sitio:",
   "o": [
    "Los recogidos en el artículo 17.3",
    "Los recogidos en todo el artículo. 17",
@@ -1368,7 +1452,7 @@
   "exp": "Según el Art. 55 de la Constitución Española: \"1. Los derechos reconocidos en los artículos 17, 18, apartados 2 y 3, artículos 19, 20, apartados 1, a) y d), y 5, artículos 21, 28, apartado 2, y artículo 37, apartado 2, podrán ser suspendidos cuand\""
  },
  {
-  "q": "Siguiendo con la pregunta anterior, y si se declarase el estado de",
+  "q": "Siguiendo con la pregunta anterior, y si se declarase el estado de alarma:",
   "o": [
    "Los recogidos en el artículo 17.3",
    "Los recogidos en todo el artículo. 17",
@@ -1376,47 +1460,71 @@
    "Ninguna respuesta anterior es correcta"
   ],
   "c": 3,
-  "ref": "Art. 55 CE",
-  "exp": "Según el Art. 55 de la Constitución Española: \"1. Los derechos reconocidos en los artículos 17, 18, apartados 2 y 3, artículos 19, 20, apartados 1, a) y d), y 5, artículos 21, 28, apartado 2, y artículo 37, apartado 2, podrán ser suspendidos cuand\""
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
-  "q": "Según el art. 55 de la Constitución, en relación con las investigaciones",
+  "q": "Siguiendo con las preguntas anteriores, y si se declarase el estado de excepción:",
   "o": [
-   "Solo podrá ser suspendido en los supuestos de declaración de estados de",
-   "Podrá ser suspendido en los casos y en la forma que determine una ley",
-   "Deberá ser suspendido en los supuestos de declaración de estados de",
-   "Se exceptúa de suspensión en el supuesto de declaración de estado de"
+   "Los recogidos en el artículo 17.3",
+   "Los recogidos en todo el artículo. 17",
+   "Los recogidos en el artículo 18. 2 y 3",
+   "Ninguno de los anteriores"
+  ],
+  "c": 0,
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
+ },
+ {
+  "q": "Según el art. 55 de la Constitución, en relación con las investigaciones correspondientes a la actuación de bandas armadas o elementos terroristas para determinadas personas, el tiempo máximo de duración de la detención preventiva:",
+  "o": [
+   "Solo podrá ser suspendido en los supuestos de declaración de estados de excepción o sitio",
+   "Podrá ser suspendido en los casos y en la forma que determine una ley orgánica",
+   "Deberá ser suspendido en los supuestos de declaración de estados de excepción o sitio",
+   "Se exceptúa de suspensión en el supuesto de declaración de estado de excepción"
   ],
   "c": 1,
   "ref": "Art. 55 CE",
   "exp": "Según el Art. 55 de la Constitución Española: \"1. Los derechos reconocidos en los artículos 17, 18, apartados 2 y 3, artículos 19, 20, apartados 1, a) y d), y 5, artículos 21, 28, apartado 2, y artículo 37, apartado 2, podrán ser suspendidos cuand\""
  },
  {
-  "q": "Según el art. 54 de la Constitución, y siguiendo con las preguntas anteriores, el citado derecho:",
+  "q": "Según el art. 53 de la Constitución, el derecho a que se refiere la pregunta anterior, podrá recabarse por cualquier ciudadano:",
   "o": [
-   "Podrá ser defendido por el Defensor del Pueblo, como alto comisionado del Gobierno",
-   "Podrá ser defendido por el Defensor del Pueblo, si la ley ordinaria que lo regula así lo indica",
-   "Podrá ser defendido por el Defensor del Pueblo, al tratarse de un derecho recogido en el Título I de la Constitución",
-   "Podrá ser defendido por el defensor del pueblo, sin supervisar la"
+   "Solo en amparo ante el tribunal Constitucional",
+   "No podrá tutelarse de acuerdo con lo previsto en el 161.1 a de la constitución",
+   "Ante los Tribunales ordinarios por un procedimiento basado en los principios de preferencia y sumariedad",
+   "Informando a la práctica judicial"
+  ],
+  "c": 2,
+  "ref": "Art. 53 CE",
+  "exp": "Según el Art. 53 de la Constitución Española: \"1. Los derechos y libertades reconocidos en el Capítulo segundo del presente Título vinculan a todos los poderes públicos.\""
+ },
+ {
+  "q": "Según el art. 54, y siguiendo con las preguntas anterior, el citado derecho:",
+  "o": [
+   "Podrá ser defendido por el defensor del pueblo, como alto comisionado del gobierno",
+   "Podrá ser defendido por el defensor del pueblo, si la ley ordinaria que lo regula, así lo indica",
+   "Podrá ser defendido por el defensor del pueblo, al tratarse de un derecho recogido en el Título I de la Constitución",
+   "Podrá ser defendido por el defensor del pueblo, sin supervisar la actividad de la administración"
   ],
   "c": 2,
   "ref": "Art. 54 CE",
   "exp": "Según el Art. 54 de la Constitución Española: \"Una ley orgánica regulará la institución del Defensor del Pueblo, como alto comisionado de las Cortes Generales, designado por éstas para la defensa de los derechos comprendidos en este Título, a cuyo\""
  },
  {
-  "q": "Según el art. 55 de la Constitución, si se hiciera una utilización",
+  "q": "Según el art. 55 de la Constitución, si se hiciera una utilización injustificada o abusiva de las facultades reconocidas en la ley orgánica a la que se refiere la pregunta anterior, ¿Qué responsabilidad producirá?",
   "o": [
-   "Penal, como violación de los derechos y libertades reconocidos por las",
-   "Parlamentaria, como violación de los derechos y libertades reconocidos",
-   "Penal, como violación de los derechos y libertades reconocidos por la",
-   "Ninguna, al estar relacionado con las investigaciones correspondientes a"
+   "Penal, como violación de los derechos y libertades reconocidos por las leyes",
+   "Parlamentaria, como violación de los derechos y libertades reconocidos por las leyes",
+   "Penal, como violación de los derechos y libertades reconocidos por la intervención judicial",
+   "Ninguna, al estar relacionado con las investigaciones correspondientes a la actuación de bandas armadas o elementos terroristas"
   ],
   "c": 0,
   "ref": "Art. 55 CE",
   "exp": "Según el Art. 55 de la Constitución Española: \"1. Los derechos reconocidos en los artículos 17, 18, apartados 2 y 3, artículos 19, 20, apartados 1, a) y d), y 5, artículos 21, 28, apartado 2, y artículo 37, apartado 2, podrán ser suspendidos cuand\""
  },
  {
-  "q": "Según el art. 97 de la Constitución, señale la afirmación incorrecta,",
+  "q": "Según el art. 97 de la Constitución, señale la afirmación incorrecta, respecto al Gobierno:",
   "o": [
    "No ejerce la potestad legislativa",
    "Dirige la política interior y exterior",
@@ -1452,7 +1560,7 @@
   "exp": "Según el Art. 98 de la Constitución Española."
  },
  {
-  "q": "Según el art. 99 de la Constitución, en la investidura y nombramiento",
+  "q": "Según el art. 99 de la Constitución, en la investidura y nombramiento del Presidente del Gobierno, el candidato propuesto, ¿Ante quien expondrá el programa político del Gobierno que pretenda forma?",
   "o": [
    "Ante el presidente del Congreso",
    "Ante el Senado",
@@ -1464,7 +1572,7 @@
   "exp": "Según el Art. 99 de la Constitución Española."
  },
  {
-  "q": "Según el art. 99 de la Constitución, ¿Qué mayoría tiene que otorgar",
+  "q": "Según el art. 99 de la Constitución, ¿Qué mayoría tiene que otorgar en primera votación el Congreso al Candidato propuesto, para que Rey le nombre Presidente?",
   "o": [
    "Mayoría Absoluta",
    "Mayoría Simple",
@@ -1476,16 +1584,100 @@
   "exp": "Según el Art. 99 de la Constitución Española."
  },
  {
+  "q": "Según el art. 101 de la Constitución, el Gobierno cesa:",
+  "o": [
+   "Por la convocatoria de elecciones generales",
+   "Por el planteamiento de una moción de Censura",
+   "Tras la celebración de elecciones generales",
+   "Cesa por todo lo anterior"
+  ],
+  "c": 2,
+  "ref": "Art. 101 CE",
+  "exp": "Según el Art. 101 de la Constitución Española."
+ },
+ {
+  "q": "Según el art. 102 de la Constitución, la responsabilidad criminal del Presidente y de los demás miembros del Gobierno, será exigible en su caso ante:",
+  "o": [
+   "Ante cualquier sala del Tribunal Supremo",
+   "Ante el Tribunal Constitucional",
+   "Ante la Sala de lo Penal del Tribunal Supremo",
+   "Ante el Defensor del Pueblo"
+  ],
+  "c": null,
+  "ref": "Art. 102 CE",
+  "exp": "Según el Art. 102 de la Constitución Española."
+ },
+ {
+  "q": "Según el art. 103 de la Constitución, señale la respuesta incorrecta, la Administración sirve con objetividad los intereses generales y actúa de acuerdo con los principios de:",
+  "o": [
+   "Eficacia",
+   "Concentración",
+   "Jerarquía",
+   "Coordinación"
+  ],
+  "c": null,
+  "ref": "Art. 103 CE",
+  "exp": "Según el Art. 103 de la Constitución Española."
+ },
+ {
+  "q": "Según el art. 104 de la Constitución, las Fuerzas y Cuerpos de seguridad, tendrán como misión proteger el libre ejercicio de los derechos y libertades y garantizar la seguridad ciudadana, bajo la dependencia de:",
+  "o": [
+   "El Gobierno",
+   "Los Poderes Públicos",
+   "La Administración Pública",
+   "El Rey"
+  ],
+  "c": null,
+  "ref": "Art. 104 CE",
+  "exp": "Según el Art. 104 de la Constitución Española."
+ },
+ {
+  "q": "Según el art. 106 de la Constitución, los Tribunales:",
+  "o": [
+   "Controlan la Potestad Ejecutiva",
+   "Controlan la Potestad Reglamentaría",
+   "Controlan la Potestad legislativa",
+   "Controlan todo lo anterior."
+  ],
+  "c": null,
+  "ref": "Art. 106 CE",
+  "exp": "Según el Art. 106 de la Constitución Española."
+ },
+ {
+  "q": "Según el art. 105 de la Constitución, ¿qué es correcto? la ley regulará:",
+  "o": [
+   "El procedimiento a través del cual deben producirse los actos administrativos, garantizando, en todo caso, la audiencia del interesado.",
+   "El acceso de los ciudadanos a los archivos y registros administrativos, salvo en lo que afecte a la seguridad y defensa del Estado, la averiguación de los delitos y al procedimiento administrativo",
+   "La audiencia de los ciudadanos, directamente o a través de las organizaciones y asociaciones reconocidas por la ley, en el procedimiento de elaboración de las disposiciones administrativas que les afecten",
+   "Es correcto todo lo anterior"
+  ],
+  "c": null,
+  "ref": "Art. 105 CE",
+  "exp": "Según el Art. 105 de la Constitución Española."
+ },
+ {
+  "q": "Según el art. 107 de la Constitución, el Consejo de Estado:",
+  "o": [
+   "Su composición y funcionamiento se regulará por ley ordinaria",
+   "Es un órgano consultivo de las Cortes Generales",
+   "Es el supremo órgano consultivo del Gobierno",
+   "Es el supremo órgano ejecutivo del Gobierno"
+  ],
+  "c": null,
+  "ref": "Art. 107 CE",
+  "exp": "Según el Art. 107 de la Constitución Española."
+ },
+ {
   "q": "Según la Constitución, constituye el fundamento del orden político y de la paz social:",
   "o": [
    "Los tratados internacionales",
    "La declaración universal de Derechos humanos.",
-   "La dignidad de la persona, los derechos inviolables que le son inherentes, el libre desarrollo de la personalidad y el respeto a la ley y a los derechos de los demás.",
+   "La dignidad de la persona, los derechos inviolables que le son inherentes, el libre desarrollo de la personalidad y el respecto a la ley y a los derechos de los demás.",
    "Los valores superiores y el estado social y democrático de derecho."
   ],
   "c": 2,
-  "ref": "Art. 10.1 CE",
-  "exp": "Según el Art. 10 de la Constitución Española: \"1. La dignidad de la persona, los derechos inviolables que le son inherentes, el libre desarrollo de la personalidad, el respeto a la ley y a los derechos de los demás son fundamento del orden polític\""
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "Según la Constitución, los colegios profesionales:",
@@ -1496,11 +1688,11 @@
    "A y C son correctas"
   ],
   "c": 3,
-  "ref": "Art. 36 CE",
-  "exp": "Según el Art. 36 de la Constitución Española: \"La ley regulará las peculiaridades propias del régimen jurídico de los Colegios Profesionales y el ejercicio de las profesiones tituladas.\""
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
-  "q": "Según la Constitución, ¿quién promoverá y tutelará el acceso a la",
+  "q": "Según la Constitución, ¿quién promoverá y tutelará el acceso a la cultura a la que todos tienen derecho?",
   "o": [
    "Los poderes públicos.",
    "El Gobierno",
@@ -1508,8 +1700,8 @@
    "Los Tribunales"
   ],
   "c": 0,
-  "ref": "Art. 44 CE",
-  "exp": "Según el Art. 44 de la Constitución Española: \"1. Los poderes públicos promoverán y tutelarán el acceso a la cultura, a la que todos tienen derecho. 2.\""
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "Según la Constitución, la responsabilidad criminal del Presidente del Gobierno, será exigible en su caso:",
@@ -1520,11 +1712,11 @@
    "Ante la Sala de lo Penal de la Audiencia Nacional."
   ],
   "c": 1,
-  "ref": "Art. 102 CE",
-  "exp": "Según el Art. 102 de la Constitución Española."
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
-  "q": "Según la Constitución, se podrá recabar la tutela a través del recurso de amparo del derecho de:",
+  "q": "Según Constitución se podrá recabar la tutela a través del recurso de amparo el derecho de:",
   "o": [
    "Acceso a la cultura.",
    "A la investigación científica",
@@ -1532,8 +1724,8 @@
    "De ninguno de ellos."
   ],
   "c": 3,
-  "ref": "Art. 53.2 CE",
-  "exp": "Según el Art. 53 de la Constitución Española: \"1. Los derechos y libertades reconocidos en el Capítulo segundo del presente Título vinculan a todos los poderes públicos.\""
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "Según la Constitución, la Administración sirve a los intereses generales:",
@@ -1544,8 +1736,8 @@
    "Con capacidad."
   ],
   "c": 2,
-  "ref": "Art. 103.1 CE",
-  "exp": "Según el Art. 103 de la Constitución Española."
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "Según la Constitución, salvo resolución judicial, ¿respecto de qué comunicaciones, en especial, se garantiza el secreto de las mismas?",
@@ -1560,7 +1752,7 @@
   "exp": "Según la estructura de la Constitución Española."
  },
  {
-  "q": "Según la Constitución, las fuerzas y cuerpos de seguridad tendrán como misión:",
+  "q": "Según la Constitución, las fuerzas y cuerpo de seguridad tendrán como misión:",
   "o": [
    "Defender la integridad de España.",
    "Proteger el libre ejercicio de los derechos y libertades",
@@ -1568,8 +1760,8 @@
    "Garantizar la seguridad nacional."
   ],
   "c": 1,
-  "ref": "Art. 104 CE",
-  "exp": "Según el Art. 104 de la Constitución Española."
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "Según la Constitución, ¿Quién controla la Potestad reglamentaria?",
@@ -1580,8 +1772,8 @@
    "Los Poderes Públicos."
   ],
   "c": 2,
-  "ref": "Art. 106 CE",
-  "exp": "Según el Art. 106 de la Constitución Española."
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "Según la Constitución, se reconoce la libertad de creación de centros docentes:",
@@ -1592,8 +1784,8 @@
    "Sólo a las personas jurídicas."
   ],
   "c": 2,
-  "ref": "Art. 1.1 CE",
-  "exp": "Según el Art. 1 de la Constitución Española: \"1. España se constituye en un Estado social y democrático de Derecho, que propugna como valores superiores de su ordenamiento jurídico la libertad, la justicia, la igualdad y el pluralismo político.\""
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "Según la Constitución, ¿Quién velará por la salvaguardia de los derechos económicos y sociales de los trabajadores españoles en el extranjero?",
@@ -1604,11 +1796,11 @@
    "El Gobierno."
   ],
   "c": 0,
-  "ref": "Art. 42 CE",
-  "exp": "Según el Art. 42 de la Constitución Española: \"El Estado velará especialmente por la salvaguardia de los derechos económicos y sociales de los trabajadores españoles en el extranjero y orientará su política hacia su retorno.\""
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
-  "q": "Según la Constitución, ¿Quién es un alto comisionado de las Cortes",
+  "q": "Según la Constitución, ¿Quién es un alto comisionado de las Cortes Generales?",
   "o": [
    "Nadie",
    "El presidente del Gobierno",
@@ -1616,16 +1808,28 @@
    "Cualquier ministro"
   ],
   "c": 2,
-  "ref": "Art. 54 CE",
-  "exp": "Según el Art. 54 de la Constitución Española: \"Una ley orgánica regulará la institución del Defensor del Pueblo, como alto comisionado de las Cortes Generales, designado por éstas para la defensa de los derechos comprendidos en este Título, a cuyo\""
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
-  "q": "Según la Constitución, los poderes públicos promoverán las condiciones para la participación libre y eficaz de:",
+  "q": "Según la Constitución, los poderes públicos promoverán las condiciones para la participación libre y eficaz de la juventud",
   "o": [
    "De los disminuidos físico, sensoriales y psíquicos.",
    "De la juventud",
    "De los pensionistas.",
    "De los emigrantes."
+  ],
+  "c": 1,
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
+ },
+ {
+  "q": "Según la Constitución, los poderes públicos promoverán:",
+  "o": [
+   "El ocio",
+   "La investigación científica.",
+   "La investigación política",
+   "Promoverán todo lo anterior."
   ],
   "c": 1,
   "ref": "Estructura CE",
@@ -1640,8 +1844,8 @@
    "con su capacidad tributaria"
   ],
   "c": 2,
-  "ref": "Art. 31.1 CE",
-  "exp": "Según el Art. 31 de la Constitución Española: \"1. Todos contribuirán al sostenimiento de los gastos públicos de acuerdo con su capacidad económica mediante un sistema tributario justo inspirado en los principios de igualdad y progresividad que, en\""
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "Según la Constitución, ¿Qué confesión tendrá carácter estatal?",
@@ -1652,8 +1856,8 @@
    "Todas."
   ],
   "c": 0,
-  "ref": "Art. 16.3 CE",
-  "exp": "Según el Art. 16 de la Constitución Española: \"1. Se garantiza la libertad ideológica, religiosa y de culto de los individuos y las comunidades sin más limitación, en sus manifestaciones, que la necesaria para el mantenimiento del orden público pr\""
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "Según la Constitución, ¿el derecho a la herencia?",
@@ -1664,11 +1868,11 @@
    "Se reconoce."
   ],
   "c": 3,
-  "ref": "Art. 33 CE",
-  "exp": "Según el Art. 33 de la Constitución Española: \"1. Se reconoce el derecho a la propiedad privada y a la herencia. 2. La función social de estos derechos delimitará su contenido, de acuerdo con las leyes. 3.\""
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
-  "q": "Según el art. 55 de la Constitución, ¿qué derecho no podrá ser",
+  "q": "Según el art. 55 de la Constitución, ¿qué derecho no podrá ser suspendido cuando se acuerde la declaración de estado de excepción?",
   "o": [
    "La inviolabilidad del domicilio",
    "El secreto de las comunicaciones",
@@ -1680,9 +1884,33 @@
   "exp": "Según el Art. 55 de la Constitución Española: \"1. Los derechos reconocidos en los artículos 17, 18, apartados 2 y 3, artículos 19, 20, apartados 1, a) y d), y 5, artículos 21, 28, apartado 2, y artículo 37, apartado 2, podrán ser suspendidos cuand\""
  },
  {
-  "q": "Según el art. 27 de la Constitución, ¿Cómo garantizan los poderes",
+  "q": "¿Cuántas Disposiciones Derogatorias tiene la Constitución?",
   "o": [
-   "Con el control y gestión de todos los Centros sostenido por la",
+   "Ninguna",
+   "9",
+   "1",
+   "4"
+  ],
+  "c": 2,
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
+ },
+ {
+  "q": "Según el art. 9 de la Constitución, la Constitución garantiza:",
+  "o": [
+   "La seguridad jurídica",
+   "La arbitrariedad de los poderes públicos",
+   "La discrecionalidad de los poderes públicos",
+   "Las disposiciones sancionadoras favorables."
+  ],
+  "c": 0,
+  "ref": "Art. 9 CE",
+  "exp": "Según el Art. 9 de la Constitución Española: \"1. Los ciudadanos y los poderes públicos están sujetos a la Constitución y al resto del ordenamiento jurídico. 2.\""
+ },
+ {
+  "q": "Según el art. 27 de la Constitución, ¿Cómo garantizan los poderes públicos el derecho de todos a la educación?",
+  "o": [
+   "Con el control y gestión de todos los Centros sostenido por la Administración.",
    "Con la inspección y homologación del sistema educativo",
    "Mediante una programación general de la enseñanza",
    "Con una enseñanza básica obligatoria."
@@ -1692,7 +1920,7 @@
   "exp": "Según el Art. 27 de la Constitución Española: \"1. Todos tienen el derecho a la educación. Se reconoce la libertad de enseñanza. 2.\""
  },
  {
-  "q": "¿Qué título de la Constitución es \"De la organización territorial del Estado\"?",
+  "q": "¿Qué titulo de la Constitución es “De la organización territorial del Estado?",
   "o": [
    "Titulo VII",
    "Título VIII",
@@ -1700,11 +1928,23 @@
    "Título IX"
   ],
   "c": 1,
-  "ref": "Título VIII CE",
-  "exp": "Según Título VIII CE de la Constitución Española."
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
-  "q": "Según el art. 22 de la Constitución, las asociaciones solo podrán ser disueltas o suspendidas en sus actividades:",
+  "q": "Según el art. 20 de la Constitución, la libertad de Cátedra:",
+  "o": [
+   "Solo se reconoce",
+   "Se garantiza",
+   "Se reconoce y protege",
+   "Se expresa y se difunde."
+  ],
+  "c": 2,
+  "ref": "Art. 20 CE",
+  "exp": "Según el Art. 20 de la Constitución Española: \"1. Se reconocen y protegen los derechos: a) A expresar y difundir libremente los pensamientos, ideas y opiniones mediante la palabra, el escrito o cualquier otro medio de reproducción.\""
+ },
+ {
+  "q": "Según el art. 22, las asociaciones solo podrán ser disueltas o suspendidas en sus actividades:",
   "o": [
    "Mediante resolución judicial firme",
    "Mediante resolución judicial definitiva",
@@ -1716,19 +1956,19 @@
   "exp": "Según el Art. 22 de la Constitución Española: \"1. Se reconoce el derecho de asociación. 2. Las asociaciones que persigan fines o utilicen medios tipificados como delito son ilegales. 3.\""
  },
  {
-  "q": "Según el art. 99 de la Constitución, si transcurrido dos meses a partir de la primera votación ningún candidato hubiere obtenido la confianza del Congreso:",
+  "q": "Según el art. 99, si transcurrido dos meses a partir de la primera votación ningún candidato hubiere obtenido la confianza del congreso:",
   "o": [
-   "El Rey disolverá el Senado y convocará nuevas elecciones con el refrendo del Presidente del Senado.",
-   "El Rey disolverá ambas Cámaras y convocará nuevas elecciones con el refrendo del Presidente de las Cortes",
-   "El Rey disolverá el Congreso y convocará nuevas elecciones con el refrendo del Presidente del Congreso.",
-   "El Rey disolverá ambas cámaras y convocará nuevas elecciones con el"
+   "El Rey disolverá el senado y convocará nuevas elecciones con el refrendo del presidente del senado.",
+   "El Rey disolverá ambas cámaras y convocará nuevas elecciones con el Refrendo del presidente de las Cortes",
+   "El Rey disolverá el congreso y convocará nuevas elecciones con el refrendo del presidente del congreso.",
+   "El Rey disolverá ambas cámaras y convocará nuevas elecciones con el refrendo del presidente del congreso."
   ],
   "c": 3,
   "ref": "Art. 99 CE",
   "exp": "Según el Art. 99 de la Constitución Española."
  },
  {
-  "q": "Según el art. 102 de la Constitución si la acusación contra el presidente",
+  "q": "Según el art. 102 de la Constitución si la acusación contra el presidente del Gobierno fuere por traición en el ejercicio de sus funciones solo podrá ser planteada:",
   "o": [
    "Por iniciativa de la tercera parte de los miembros del congreso.",
    "Por iniciativa de la cuarta partes de los miembros de las Cortes.",
@@ -1748,8 +1988,8 @@
    "1"
   ],
   "c": 1,
-  "ref": "Disposición Adicional CE",
-  "exp": "Según Disposición Adicional CE."
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "¿Qué título es, el que se llama “Del poder Judicial?",
@@ -1760,8 +2000,8 @@
    "Título VIII"
   ],
   "c": 2,
-  "ref": "Título VI CE",
-  "exp": "Según Título VI CE de la Constitución Española."
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "Según el art. 2 de la Constitución, la Constitución se fundamenta:",
@@ -1784,8 +2024,8 @@
    "De la Reforma"
   ],
   "c": 2,
-  "ref": "Título X CE",
-  "exp": "Según Título X CE de la Constitución Española."
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "Según el art. 6 de la Constitución, ¿Quiénes concurren a la formación y manifestación de la voluntad popular?",
@@ -1800,7 +2040,7 @@
   "exp": "Según el Art. 6 de la Constitución Española: \"Los partidos políticos expresan el pluralismo político, concurren a la formación y manifestación de la voluntad popular y son instrumento fundamental para la participación política.\""
  },
  {
-  "q": "Según el art. 11 de la Constitución ¿Quiénes no podrán ser privado de",
+  "q": "Según el art. 11 de la Constitución ¿Quiénes no podrán ser privado de su nacionalidad?",
   "o": [
    "Ningún español",
    "Ningún ciudadano.",
@@ -1812,7 +2052,7 @@
   "exp": "Según el Art. 11 de la Constitución Española: \"1. La nacionalidad española se adquiere, se conserva y se pierde de acuerdo con lo establecido por la ley. 2. Ningún español de origen podrá ser privado de su nacionalidad. 3.\""
  },
  {
-  "q": "Según el art. 17 de la Constitución, toda persona detenida debe ser informada, de modo que le sea comprensible, de sus derechos y de las razones de su detención:",
+  "q": "Según el art. 17 de la Constitución, toda persona detenida debe ser informado y de modo que le sea comprensible de sus derechos y de las razones de su detención:",
   "o": [
    "En el tiempo estrictamente necesario.",
    "En el plazo máximo de 72 horas.",
@@ -1824,7 +2064,7 @@
   "exp": "Según el Art. 17 de la Constitución Española: \"1. Toda persona tiene derecho a la libertad y a la seguridad.\""
  },
  {
-  "q": "Según el art. 7 de la Constitución, la estructura interna y",
+  "q": "Según el art. 7 de la Constitución, la estructura interna y funcionamiento de los sindicatos",
   "o": [
    "Deberán ser libres",
    "Podrán ser democráticos",
@@ -1836,12 +2076,12 @@
   "exp": "Según el Art. 7 de la Constitución Española: \"Los sindicatos de trabajadores y las asociaciones empresariales contribuyen a la defensa y promoción de los intereses económicos y sociales que les son propios.\""
  },
  {
-  "q": "Según el art. 39 de la Constitución, ¿De qué protección gozaran los",
+  "q": "Según el art. 39 de la Constitución, ¿De qué protección gozaran los niños?",
   "o": [
-   "De las previstas por las instituciones internacionales de acuerdo con el",
-   "De las previstas en los acuerdos internacionales que velan por sus",
-   "De las previstas en los acuerdos internacionales que velan por sus",
-   "De las previstas y no previstas en los acuerdos internacionales que velan"
+   "De las previstas por las instituciones internacionales de acuerdo con el principio de reciprocidad",
+   "De las previstas en los acuerdos internacionales que velan por sus derechos",
+   "De las previstas en los acuerdos internacionales que velan por sus derechos y deberes",
+   "De las previstas y no previstas en los acuerdos internacionales que velan por sus derechos"
   ],
   "c": 1,
   "ref": "Art. 39 CE",
@@ -1868,11 +2108,11 @@
    "Nada de lo anterior es correcto"
   ],
   "c": 3,
-  "ref": "Art. 1.3 CE",
-  "exp": "Según el Art. 1 de la Constitución Española: \"1. España se constituye en un Estado social y democrático de Derecho, que propugna como valores superiores de su ordenamiento jurídico la libertad, la justicia, la igualdad y el pluralismo político.\""
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
-  "q": "Según la Constitución Española, ¿Quiénes expresan el pluralismo",
+  "q": "Según la Constitución Española, ¿Quiénes expresan el pluralismo político?",
   "o": [
    "Los partidos políticos",
    "Los partidos políticos y las asociaciones",
@@ -1880,23 +2120,47 @@
    "Los poderes públicos."
   ],
   "c": 0,
-  "ref": "Art. 6 CE",
-  "exp": "Según el Art. 6 de la Constitución Española: \"Los partidos políticos expresan el pluralismo político, concurren a la formación y manifestación de la voluntad popular y son instrumento fundamental para la participación política.\""
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
-  "q": "Según la Constitución Española, ¿A qué contribuyen los sindicatos de trabajadores y las asociaciones empresariales?",
+  "q": "Según la Constitución Española, ¿A que contribuyen, los sindicatos de trabajadores y las asociaciones empresariales?",
   "o": [
    "A la formación y manifestación de la voluntad popular",
    "A la estructura democrática de la nación Española",
    "A la defensa y promoción de los intereses económicos y sociales que les son propios",
-   "A promover las condiciones para que la libertad y la igualdad del"
+   "A promover las condiciones para que la libertad y la igualdad del individuo y de los grupos en que se integra sean reales y efectivas"
   ],
   "c": 2,
-  "ref": "Art. 7 CE",
-  "exp": "Según el Art. 7 de la Constitución Española: \"Los sindicatos de trabajadores y las asociaciones empresariales contribuyen a la defensa y promoción de los intereses económicos y sociales que les son propios.\""
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
-  "q": "Según la Constitución española, ¿de qué emanan los poderes del",
+  "q": "El título I de la Constitución, se denomina:",
+  "o": [
+   "De los derechos, deberes y libertades",
+   "De los derechos y libertades fundamentales",
+   "De los derechos y deberes fundamentales",
+   "De los derechos y deberes de los ciudadanos"
+  ],
+  "c": 2,
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
+ },
+ {
+  "q": "¿Cuántas disposiciones adicionales tiene la Constitución Española?",
+  "o": [
+   "Nueve",
+   "Una",
+   "Ninguna",
+   "Cuatro"
+  ],
+  "c": 3,
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
+ },
+ {
+  "q": "Según la Constitución española, ¿de qué emanan los poderes del estado?",
   "o": [
    "De la soberanía Nacional",
    "Del Rey",
@@ -1904,15 +2168,15 @@
    "De los poderes públicos"
   ],
   "c": 2,
-  "ref": "Art. 1.2 CE",
-  "exp": "Según el Art. 1 de la Constitución Española: \"1. España se constituye en un Estado social y democrático de Derecho, que propugna como valores superiores de su ordenamiento jurídico la libertad, la justicia, la igualdad y el pluralismo político.\""
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "Según el art. 9 de la Constitución Española, los ciudadanos y los poderes públicos:",
   "o": [
-   "Están sometido a la Constitución Española y al resto del ordenamiento",
-   "Están sujeto a la Constitución Española y al resto del ordenamiento",
-   "Están sujeto a la Constitución Española y al resto del ordenamiento",
+   "Están sometido a la Constitución Española y al resto del ordenamiento jurídico",
+   "Están sujeto a la Constitución Española y al resto del ordenamiento político",
+   "Están sujeto a la Constitución Española y al resto del ordenamiento constitucional",
    "Nada de lo anterior es correcto"
   ],
   "c": 3,
@@ -1932,7 +2196,7 @@
   "exp": "Según el Art. 11 de la Constitución Española: \"1. La nacionalidad española se adquiere, se conserva y se pierde de acuerdo con lo establecido por la ley. 2. Ningún español de origen podrá ser privado de su nacionalidad. 3.\""
  },
  {
-  "q": "Según el art. 10 de la Constitución Española, “la dignidad de la",
+  "q": "Según el art. 10 de la Constitución Española, “la dignidad de la persona, los derechos inviolables que le son inherentes, el libre desarrollo de la personalidad, el respeto a la ley y a los derechos de los demás”:",
   "o": [
    "Son el fundamento de la nación española",
    "Son el fundamento del orden político y de la paz social",
@@ -1944,7 +2208,31 @@
   "exp": "Según el Art. 10 de la Constitución Española: \"1. La dignidad de la persona, los derechos inviolables que le son inherentes, el libre desarrollo de la personalidad, el respeto a la ley y a los derechos de los demás son fundamento del orden polític\""
  },
  {
-  "q": "Según el art. 13 de la Constitución Española, la ley establecerá los",
+  "q": "Según el art. 13 de la Constitución Española, ¿Quiénes serán titulares de los derechos reconocidos en el art. 23 de la Constitución?",
+  "o": [
+   "Solamente los españoles.",
+   "Solamente los extranjeros",
+   "Solamente los que sean titulares de un derecho reciproco",
+   "Solamente los españoles de origen"
+  ],
+  "c": 0,
+  "ref": "Art. 13 CE",
+  "exp": "Según el Art. 13 de la Constitución Española: \"1. Los extranjeros gozarán en España de las libertades públicas que garantiza el presente Título en los términos que establezcan los tratados y la ley. 2.\""
+ },
+ {
+  "q": "Según el art. 16 de la Constitución Española, ¿Quiénes podrán ser obligado a declarar sobre su ideología, religión o creencias?",
+  "o": [
+   "Todos",
+   "Nadie",
+   "Solamente los españoles",
+   "Toda persona"
+  ],
+  "c": 1,
+  "ref": "Art. 16 CE",
+  "exp": "Según el Art. 16 de la Constitución Española: \"1. Se garantiza la libertad ideológica, religiosa y de culto de los individuos y las comunidades sin más limitación, en sus manifestaciones, que la necesaria para el mantenimiento del orden público pr\""
+ },
+ {
+  "q": "Según el art. 13 de la Constitución Española, la ley establecerá los términos en que podrán gozar del derecho de asilo en España:",
   "o": [
    "Los extranjeros de otros países",
    "Los apátridas, según criterio de reciprocidad",
@@ -1956,12 +2244,24 @@
   "exp": "Según el Art. 13 de la Constitución Española: \"1. Los extranjeros gozarán en España de las libertades públicas que garantiza el presente Título en los términos que establezcan los tratados y la ley. 2.\""
  },
  {
-  "q": "Según el art. 17 de la Constitución Española, en todo caso, el detenido",
+  "q": "Según el art. 17 de la Constitución Española, en todo caso, el detenido deberá ser puesto en libertad o a disposición de la autoridad judicial:",
   "o": [
    "En plazo mínimo de setenta y dos horas",
    "En el plazo máximo de sesenta y dos horas",
    "En el plazo máximo de setenta y dos horas",
    "En el plazo mínimo de cuarenta y ocho horas"
+  ],
+  "c": 2,
+  "ref": "Art. 17 CE",
+  "exp": "Según el Art. 17 de la Constitución Española: \"1. Toda persona tiene derecho a la libertad y a la seguridad.\""
+ },
+ {
+  "q": "Según el art. 17 de la Constitución Española, ¿Por quién, se determinará el plazo máximo de duración de la prisión provisional?",
+  "o": [
+   "Por ley, no pudiendo éste exceder de setenta y dos horas",
+   "Por los tribunales, para el esclarecimiento de los hechos",
+   "Por ley",
+   "Por el Gobierno"
   ],
   "c": 2,
   "ref": "Art. 17 CE",
@@ -1980,6 +2280,30 @@
   "exp": "Según el Art. 18 de la Constitución Española: \"1. Se garantiza el derecho al honor, a la intimidad personal y familiar y a la propia imagen. 2. El domicilio es inviolable.\""
  },
  {
+  "q": "Según el art. 18 de la Constitución Española, ¿Qué se garantiza?",
+  "o": [
+   "El domicilio",
+   "Las entrada o registro en el caso de flagrante delito",
+   "El Secreto profesional",
+   "La intimidad personal"
+  ],
+  "c": 3,
+  "ref": "Art. 18 CE",
+  "exp": "Según el Art. 18 de la Constitución Española: \"1. Se garantiza el derecho al honor, a la intimidad personal y familiar y a la propia imagen. 2. El domicilio es inviolable.\""
+ },
+ {
+  "q": "Según el art. 20 de la Constitución Española, La ley regulará la organización y el control parlamentario de los medios de comunicación social dependientes del Estado o de cualquier ente público y garantizará el acceso a dichos medios de:",
+  "o": [
+   "Los partidos políticos mayoritarios",
+   "Los grupos y organizaciones participativas",
+   "Los grupos sociales y políticos significativos",
+   "La sociedad y de otros medios de información"
+  ],
+  "c": 2,
+  "ref": "Art. 20 CE",
+  "exp": "Según el Art. 20 de la Constitución Española: \"1. Se reconocen y protegen los derechos: a) A expresar y difundir libremente los pensamientos, ideas y opiniones mediante la palabra, el escrito o cualquier otro medio de reproducción.\""
+ },
+ {
   "q": "Según el art. 21 de la Constitución Española, el derecho de reunión:",
   "o": [
    "Necesitará autorización previa",
@@ -1992,7 +2316,7 @@
   "exp": "Según el Art. 21 de la Constitución Española: \"1. Se reconoce el derecho de reunión pacífica y sin armas. El ejercicio de este derecho no necesitará autorización previa. 2.\""
  },
  {
-  "q": "De la Constitución Española, ¿Qué capítulo del título I, cuenta con",
+  "q": "De la Constitución Española, ¿Qué capítulo del título I, cuenta con secciones?",
   "o": [
    "Ninguno",
    "El primero",
@@ -2000,11 +2324,23 @@
    "El tercero"
   ],
   "c": 2,
-  "ref": "Cap. II, Título I CE",
-  "exp": "Según Cap. II, Título I CE de la Constitución Española."
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
-  "q": "Según el art. 24 de la Constitución Española, todas las personas tienen",
+  "q": "Según el art. 23 de la Constitución Española, ¿Quiénes tienen el derecho a participar en los asuntos públicos, directamente o por medio de representantes, libremente elegidos en elecciones periódicas por sufragio universal?",
+  "o": [
+   "Los ciudadanos",
+   "Todos",
+   "Solamente los españoles",
+   "Todas las personas"
+  ],
+  "c": 0,
+  "ref": "Art. 23 CE",
+  "exp": "Según el Art. 23 de la Constitución Española: \"1. Los ciudadanos tienen el derecho a participar en los asuntos públicos, directamente o por medio de representantes, libremente elegidos en elecciones periódicas por sufragio universal. 2.\""
+ },
+ {
+  "q": "Según el art. 24 de la Constitución Española, todas las personas tienen derecho a obtener la tutela efectiva de:",
   "o": [
    "Jueces y tribunales",
    "juzgado y tribunales",
@@ -2016,7 +2352,7 @@
   "exp": "Según el Art. 24 de la Constitución Española: \"1. Todas las personas tienen derecho a obtener la tutela efectiva de los jueces y tribunales en el ejercicio de sus derechos e intereses legítimos, sin que, en ningún caso, pueda producirse indefensió\""
  },
  {
-  "q": "Según el art. 24 de la Constitución Española, ¿A que tienen derecho",
+  "q": "Según el art. 24 de la Constitución Española, ¿A que tienen derecho todas las personas?",
   "o": [
    "A ser informado de las penas formuladas contra ella",
    "Aun proceso secreto sin dilaciones indebidas",
@@ -2028,7 +2364,7 @@
   "exp": "Según el Art. 24 de la Constitución Española: \"1. Todas las personas tienen derecho a obtener la tutela efectiva de los jueces y tribunales en el ejercicio de sus derechos e intereses legítimos, sin que, en ningún caso, pueda producirse indefensió\""
  },
  {
-  "q": "Según el art. 25 de la Constitución Española, las penas privativas de libertad y las medidas de seguridad, ¿A qué estarán orientadas?",
+  "q": "Según el art. 25 de la Constitución Española, las penas privativas de libertad y las medidas de seguridad, ¿A que estarán orientadas?",
   "o": [
    "A obtener los beneficios de la seguridad social",
    "Hacia la reorientación laboral",
@@ -2040,7 +2376,19 @@
   "exp": "Según el Art. 25 de la Constitución Española: \"1. Nadie puede ser condenado o sancionado por acciones u omisiones que en el momento de producirse no constituyan delito, falta o infracción administrativa, según la legislación vigente en aquel momen\""
  },
  {
-  "q": "Según el art. 28 de la Constitución Española, ¿Qué no comprende la",
+  "q": "Según el art. 27 de la Constitución Española, la autonomía de las Universidades:",
+  "o": [
+   "Se reconoce en los términos que los poderes públicos establezcan",
+   "Se reconoce y protege en los términos que la ley establezca",
+   "Se reconoce en los términos que la ley establezca",
+   "Se protege en los términos que la ley establezca"
+  ],
+  "c": 2,
+  "ref": "Art. 27 CE",
+  "exp": "Según el Art. 27 de la Constitución Española: \"1. Todos tienen el derecho a la educación. Se reconoce la libertad de enseñanza. 2.\""
+ },
+ {
+  "q": "Según el art. 28 de la Constitución Española, ¿Qué no comprende la libertad sindical?",
   "o": [
    "El derecho a fundar sindicatos",
    "El derecho a fundar organizaciones sindicales internacionales",
@@ -2052,7 +2400,19 @@
   "exp": "Según el Art. 28 de la Constitución Española: \"1. Todos tienen derecho a sindicarse libremente.\""
  },
  {
-  "q": "Según el art. 29 de la Constitución, ¿Quién tiene el derecho y el deber",
+  "q": "Según el art. 29 de la Constitución, ¿Quiénes tendrán derecho de petición individual y colectiva?",
+  "o": [
+   "Los miembros de las fuerzas o institutos armados",
+   "Todas las personas",
+   "Los españoles que determine la legislación específica reguladora del derecho de Petición",
+   "Todos los españoles."
+  ],
+  "c": 3,
+  "ref": "Art. 29 CE",
+  "exp": "Según el Art. 29 de la Constitución Española: \"1. Todos los españoles tendrán el derecho de petición individual y colectiva, por escrito, en la forma y con los efectos que determine la ley. 2.\""
+ },
+ {
+  "q": "Según el art. 29 de la Constitución, ¿Quién tiene el derecho y el deber de defender a España?",
   "o": [
    "Los ciudadanos",
    "Los españoles",
@@ -2064,7 +2424,7 @@
   "exp": "Según el Art. 29 de la Constitución Española: \"1. Todos los españoles tendrán el derecho de petición individual y colectiva, por escrito, en la forma y con los efectos que determine la ley. 2.\""
  },
  {
-  "q": "Según el art. 31 de la Constitución Española, la programación y",
+  "q": "Según el art. 31 de la Constitución Española, la programación y ejecución del gasto público ¿a qué criterios responderá?:",
   "o": [
    "A los de igualdad y progresividad",
    "A los de eficacia y economía",
@@ -2096,11 +2456,71 @@
    "Nada de lo anterior es correcto"
   ],
   "c": 3,
-  "ref": "Art. 33 CE",
-  "exp": "Según el Art. 33 de la Constitución Española: \"1. Se reconoce el derecho a la propiedad privada y a la herencia. 2. La función social de estos derechos delimitará su contenido, de acuerdo con las leyes. 3.\""
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
-  "q": "Según el art. 49 de la Constitución, ¿Quién impulsará las políticas que garanticen la plena autonomía personal y la inclusión social de las personas con discapacidad, en entornos universalmente accesibles?",
+  "q": "Según el art. 43 de la Constitución, la asistencia y prestaciones complementarias serán:",
+  "o": [
+   "Suficientes",
+   "Obligatorias",
+   "Públicas",
+   "libres."
+  ],
+  "c": 3,
+  "ref": "Art. 43 CE",
+  "exp": "Según el Art. 43 de la Constitución Española: \"1. Se reconoce el derecho a la protección de la salud. 2.\""
+ },
+ {
+  "q": "Según el art. 42 de la Constitución, ¿Quién velará especialmente por la salvaguardia de los derechos económicos y sociales de los trabajadores españoles en el extranjero y orientará su política hacia su retorno?",
+  "o": [
+   "El Gobierno",
+   "Los poderes públicos",
+   "El Estado",
+   "Las Administraciones públicas"
+  ],
+  "c": 2,
+  "ref": "Art. 42 CE",
+  "exp": "Según el Art. 42 de la Constitución Española: \"El Estado velará especialmente por la salvaguardia de los derechos económicos y sociales de los trabajadores españoles en el extranjero y orientará su política hacia su retorno.\""
+ },
+ {
+  "q": "Según el art. 43 de la Constitución, ¿qué fomentará los poderes públicos?",
+  "o": [
+   "El ocio",
+   "La educación sanitaria",
+   "La protección de la salud",
+   "Las prestaciones sociales"
+  ],
+  "c": 1,
+  "ref": "Art. 43 CE",
+  "exp": "Según el Art. 43 de la Constitución Española: \"1. Se reconoce el derecho a la protección de la salud. 2.\""
+ },
+ {
+  "q": "¿Qué título de la Constitución es “De la organización territorial del Estado?",
+  "o": [
+   "Titulo VII",
+   "Título VIII",
+   "Título X",
+   "Título IX"
+  ],
+  "c": 1,
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
+ },
+ {
+  "q": "Según el art. 49 de la Constitución, las personas con discapacidad ejercen los derechos previstos en el título I de la Constitución, ¿En qué condiciones?",
+  "o": [
+   "Económicas y justas, previstas en las leyes correspondientes",
+   "De protección especial",
+   "De libertad e igualdad reales y efectivas",
+   "Que atenderán a sus condiciones específicas"
+  ],
+  "c": 2,
+  "ref": "Art. 49 CE",
+  "exp": "Según el Art. 49 de la Constitución Española: \"1. Las personas con discapacidad ejercen los derechos previstos en este Título en condiciones de libertad e igualdad reales y efectivas.\""
+ },
+ {
+  "q": "Según el art. 49 de la Constitución, ¿Quién impulsarán las políticas que garanticen la plena autonomía personal y la inclusión social de las personas con discapacidad, en entornos universalmente accesibles?",
   "o": [
    "Los grupos políticos y sociales significativos",
    "Los poderes públicos",
@@ -2128,15 +2548,15 @@
   "o": [
    "Las que contribuyan a la formación de la voluntad",
    "Las que contribuyan a la defensa de los intereses económicos que les sean propios",
-   "Las que contribuyan a la defensa de los intereses económicos y sociales",
-   "Las que contribuyan a la defensa de los intereses económicos de los"
+   "Las que contribuyan a la defensa de los intereses económicos y sociales que les sean propios",
+   "Las que contribuyan a la defensa de los intereses económicos de los consumidores y usuarios"
   ],
   "c": 1,
   "ref": "Art. 52 CE",
   "exp": "Según el Art. 52 de la Constitución Española: \"La ley regulará las organizaciones profesionales que contribuyan a la defensa de los intereses económicos que les sean propios. Su estructura interna y funcionamiento deberán ser democráticos.\""
  },
  {
-  "q": "Según el art. 53 de la Constitución, el ejercicio de los derechos y",
+  "q": "Según el art. 53 de la Constitución, el ejercicio de los derechos y libertades reconocido en el capítulo segundo del título primero podrá regularse solo:",
   "o": [
    "Por ley",
    "Por ley orgánica",
@@ -2148,7 +2568,19 @@
   "exp": "Según el Art. 53 de la Constitución Española: \"1. Los derechos y libertades reconocidos en el Capítulo segundo del presente Título vinculan a todos los poderes públicos.\""
  },
  {
-  "q": "Según el art. 53 de la Constitución, el reconocimiento, el respeto y la",
+  "q": "Según el art. 53 de la Constitución, ¿Quién podrá recabar la tutela de las libertades y derechos reconocidos en el artículo 14?",
+  "o": [
+   "El Tribunal Constitucional",
+   "Cualquier ciudadano",
+   "Los poderes públicos",
+   "B y C son correctas"
+  ],
+  "c": 1,
+  "ref": "Art. 53 CE",
+  "exp": "Según el Art. 53 de la Constitución Española: \"1. Los derechos y libertades reconocidos en el Capítulo segundo del presente Título vinculan a todos los poderes públicos.\""
+ },
+ {
+  "q": "Según el art. 53 de la Constitución, el reconocimiento, el respeto y la protección de los principios reconocidos en el Capítulo tercero del título I, ¿A qué informará?",
   "o": [
    "A los procedimientos administrativo",
    "A la organización judicial",
@@ -2160,12 +2592,12 @@
   "exp": "Según el Art. 53 de la Constitución Española: \"1. Los derechos y libertades reconocidos en el Capítulo segundo del presente Título vinculan a todos los poderes públicos.\""
  },
  {
-  "q": "Según el art. 55 de la Constitución, el derecho a la inviolabilidad del",
+  "q": "Según el art. 55 de la Constitución, el derecho a la inviolabilidad del domicilio:",
   "o": [
    "No se suspenderá",
-   "Podrán suspenderse en el supuesto de acordarse la declaración de",
+   "Podrán suspenderse en el supuesto de acordarse la declaración de Estado de Excepción",
    "Se suspenderá solo en el supuesto de declaración de Estado de Sitio",
-   "Se suspenderá en relación con las investigaciones correspondientes a la"
+   "Se suspenderá en relación con las investigaciones correspondientes a la actuación de bandas armadas o elementos terroristas para determinadas personas"
   ],
   "c": 1,
   "ref": "Art. 55 CE",
@@ -2177,26 +2609,26 @@
    "No se suspenderá en el supuesto de declaración de estado de Excepción",
    "Se suspenderá en el supuesto de declaración de Estado de Excepción",
    "Se suspenderá solo en el supuesto de declaración de Estado de Sitio",
-   "Se suspenderá en relación con las investigaciones correspondientes a la"
+   "Se suspenderá en relación con las investigaciones correspondientes a la actuación de bandas armadas o elementos terroristas para determinadas personas"
   ],
   "c": 0,
   "ref": "Art. 55 CE",
   "exp": "Según el Art. 55 de la Constitución Española: \"1. Los derechos reconocidos en los artículos 17, 18, apartados 2 y 3, artículos 19, 20, apartados 1, a) y d), y 5, artículos 21, 28, apartado 2, y artículo 37, apartado 2, podrán ser suspendidos cuand\""
  },
  {
-  "q": "Según el art. 55 de la Constitución, el derecho a adoptar medidas de",
+  "q": "Según el art. 55 de la Constitución, el derecho a adoptar medidas de conflicto colectivo podrá:",
   "o": [
-   "Suspenderse en el supuesto de acordarse la de declaración de Estado de",
-   "Suspenderse en relación con las investigaciones correspondientes a la",
+   "Suspenderse en el supuesto de acordarse la de declaración de Estado de Excepción",
+   "Suspenderse en relación con las investigaciones correspondientes a la actuación de bandas armadas o elementos terroristas para determinadas personas",
    "A y B son incorrectas",
-   "No suspenderse en el supuesto de acordarse la declaración de estado de"
+   "No suspenderse en el supuesto de acordarse la declaración de estado de sitio"
   ],
   "c": 0,
   "ref": "Art. 55 CE",
   "exp": "Según el Art. 55 de la Constitución Española: \"1. Los derechos reconocidos en los artículos 17, 18, apartados 2 y 3, artículos 19, 20, apartados 1, a) y d), y 5, artículos 21, 28, apartado 2, y artículo 37, apartado 2, podrán ser suspendidos cuand\""
  },
  {
-  "q": "Según el art. 55 de la Constitución, una ley orgánica podrá determinar la forma y los casos en los que, de forma individual, los derechos reconocidos en el art. 18, apartados 2 y 3, pueden ser suspendidos para personas determinadas, en relación con las investigaciones correspondientes a la actuación de bandas armadas o elementos terroristas. ¿Qué requisitos son necesarios?",
+  "q": "Según el art. 55 de la Constitución, una ley orgánica podrá determinar la forma y los casos en los que, de forma individual los derechos reconocidos en el art. 18 apartados 2 y 3, pueden ser suspendidos para personas determinadas, en relación con las investigaciones correspondientes a la actuación de bandas armadas o elementos terrorista, ¿Qué requisitos son necesarios?",
   "o": [
    "La necesaria intervención judicial y el adecuado control parlamentario",
    "De acuerdo con la legislación positiva y practica judicial",
@@ -2208,7 +2640,7 @@
   "exp": "Según el Art. 55 de la Constitución Española: \"1. Los derechos reconocidos en los artículos 17, 18, apartados 2 y 3, artículos 19, 20, apartados 1, a) y d), y 5, artículos 21, 28, apartado 2, y artículo 37, apartado 2, podrán ser suspendidos cuand\""
  },
  {
-  "q": "¿Qué título de la Constitución recibe el nombre de \"Suspensión de los derechos y libertades\"?",
+  "q": "¿Qué título de la Constitución recibe el nombre de “suspensión de los derechos y libertades”:",
   "o": [
    "El primero",
    "Ninguno",
@@ -2216,11 +2648,47 @@
    "El tercero"
   ],
   "c": 1,
-  "ref": "Cap. V, Título I CE",
-  "exp": "Según Cap. V, Título I CE de la Constitución Española."
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
-  "q": "Según el art. 104 de la Constitución, ¿Quién garantiza la seguridad",
+  "q": "¿Cuántos artículos tiene la Constitución?",
+  "o": [
+   "168",
+   "179",
+   "169",
+   "165"
+  ],
+  "c": 2,
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
+ },
+ {
+  "q": "Según el art. 98 de la Constitución, el Presidente:",
+  "o": [
+   "Dirige la Administración Civil.",
+   "Coordina la función militar",
+   "Ejerce la función ejecutiva",
+   "Ninguna es correcta."
+  ],
+  "c": 3,
+  "ref": "Art. 98 CE",
+  "exp": "Según el Art. 98 de la Constitución Española."
+ },
+ {
+  "q": "Según la Constitución Española, ¿Cuál es el supremo órgano consultivo del Gobierno?",
+  "o": [
+   "Las comisiones legislativas Permanente",
+   "El Consejo de Estado",
+   "El Consejo de ministros",
+   "La Diputación Permanente."
+  ],
+  "c": 1,
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
+ },
+ {
+  "q": "Según el art. 104 de la Constitución, ¿Quién garantiza la seguridad ciudadana?",
   "o": [
    "El Gobierno",
    "Las Fuerzas Armadas",
@@ -2232,7 +2700,19 @@
   "exp": "Según el Art. 104 de la Constitución Española."
  },
  {
-  "q": "Según el art. 102 de la Constitución, siguiendo con la pregunta",
+  "q": "Según el art. 102 de la Constitución, si la acusación contra el presidente del Gobierno fuere por traición en el ejercicio de sus funciones solo podrá ser planteada:",
+  "o": [
+   "Por iniciativa de la tercera parte de los miembros del congreso.",
+   "Por iniciativa de la cuarta parte de los miembros de las Cortes.",
+   "Por iniciativa de la cuarta parte de los miembros del Senado.",
+   "Por iniciativa de la cuarta parte de los miembros del congreso."
+  ],
+  "c": 3,
+  "ref": "Art. 102 CE",
+  "exp": "Según el Art. 102 de la Constitución Española."
+ },
+ {
+  "q": "Según el art. 102 de la Constitución, siguiendo con la pregunta anterior, la iniciativa deberá aprobarse por:",
   "o": [
    "Por la cuarta parte de los miembros del congreso",
    "Por la mayoría absoluta de los miembros del congreso",
@@ -2244,7 +2724,7 @@
   "exp": "Según el Art. 102 de la Constitución Española."
  },
  {
-  "q": "Según el art. 99 de la Constitución, ¿Cuándo propondrá el Rey un",
+  "q": "Según el art. 99 de la Constitución, ¿Cuándo propondrá el Rey un candidato a presidente del Gobierno?",
   "o": [
    "Después de cada renovación de las Cortes Generales",
    "Después de cada renovación del Congreso y del Senado.",
@@ -2256,19 +2736,31 @@
   "exp": "Según el Art. 99 de la Constitución Española."
  },
  {
-  "q": "Según el art. 99 de la Constitución, si el Congreso de los Diputados, no",
+  "q": "Según el art. 99 de la Constitución, si el Congreso de los Diputados, no otorgare la confianza en primera votación al candidato propuesto, se someterá:",
   "o": [
-   "Distinta propuesta a nueva votación cuarenta y ocho horas después de la",
-   "La misma propuesta a nueva votación veinticuatro horas después de la",
-   "Distinta propuesta a nueva votación veinticuatro horas después de la",
-   "La misma propuesta a nueva votación cuarenta y ocho horas después de"
+   "Distinta propuesta a nueva votación cuarenta y ocho horas después de la anterior.",
+   "La misma propuesta a nueva votación veinticuatro horas después de la anterior.",
+   "Distinta propuesta a nueva votación veinticuatro horas después de la anterior.",
+   "La misma propuesta a nueva votación cuarenta y ocho horas después de la anterior."
   ],
   "c": 3,
   "ref": "Art. 99 CE",
   "exp": "Según el Art. 99 de la Constitución Española."
  },
  {
-  "q": "Según el art. 99 de la Constitución, de no alcanzase la mayoría",
+  "q": "Según el art. 99 de la Constitución, siguiendo con la pregunta anterior, en primera votación el candidato propuesto, para ser nombrado presidente del gobierno, necesitará que se otorgue la confianza:",
+  "o": [
+   "La mayoría absoluta de los miembros de las cortes generales",
+   "La mayoría simple del congreso de los diputados",
+   "La mayoría de un cuarto de los miembros del congreso",
+   "Ninguna de las anteriores respuestas son correctas"
+  ],
+  "c": 3,
+  "ref": "Art. 99 CE",
+  "exp": "Según el Art. 99 de la Constitución Española."
+ },
+ {
+  "q": "Según el art. 99 de la Constitución, de no alcanzase la mayoría necesaria en la primera votación, en las sucesivas votaciones, se entenderá otorgada la confianza, si obtuviere la mayoría:",
   "o": [
    "Absoluta de los miembros del congreso",
    "Simple de los miembros de las cortes",
@@ -2280,7 +2772,7 @@
   "exp": "Según el Art. 99 de la Constitución Española."
  },
  {
-  "q": "Según el art. 103 de la Constitución, los órganos de la Administración",
+  "q": "Según el art. 103 de la Constitución, los órganos de la Administración del Estado son creados, regidos y coordinados de acuerdo:",
   "o": [
    "Con los reglamentos.",
    "Con la Ley.",
@@ -2295,7 +2787,7 @@
   "q": "Según el art. 105 de la Constitución, la ley regulará:",
   "o": [
    "El secreto de los archivos y registros administrativos.",
-   "El procedimiento a través del cual deben producirse los actos",
+   "El procedimiento a través del cual deben producirse los actos administrativos.",
    "La audiencia del interesado",
    "La averiguación de los delitos."
   ],
@@ -2304,7 +2796,7 @@
   "exp": "Según el Art. 105 de la Constitución Española."
  },
  {
-  "q": "Según la Constitución Española, ¿Quién controla la potestad",
+  "q": "Según la Constitución Española, ¿Quién controla la potestad reglamentaria?",
   "o": [
    "El Gobierno",
    "Las Cortes Generales",
@@ -2312,8 +2804,8 @@
    "Los Tribunales"
   ],
   "c": 3,
-  "ref": "Art. 106 CE",
-  "exp": "Según el Art. 106 de la Constitución Española."
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  },
  {
   "q": "Según el art. 107 de la Constitución, la composición y competencia del Consejo de Estado se regulará por:",
@@ -2352,7 +2844,19 @@
   "exp": "Según el Art. 97 de la Constitución Española."
  },
  {
-  "q": "Según el art. 106 de la Constitución, salvo en los casos de fuerza mayor, los particulares tendrán derecho a ser indemnizados por toda lesión que sufran en cualquiera de sus bienes y derechos, siempre que la lesión:",
+  "q": "Según el art. 105 de la Constitución, la ley regulará el acceso de los ciudadanos a los archivos y registros administrativos, salvo en lo que afecte a:",
+  "o": [
+   "La averiguación de los delitos",
+   "La responsabilidad de las personas",
+   "La seguridad y defensa del Gobierno",
+   "La eficacia de los procedimientos."
+  ],
+  "c": 0,
+  "ref": "Art. 105 CE",
+  "exp": "Según el Art. 105 de la Constitución Española."
+ },
+ {
+  "q": "Según el art. 106 de la Constitución, salvo en los casos de fuerza mayor, los particulares tendrán derecho a ser indemnizado por toda lesión que sufran en cualquiera de sus bienes y derechos, siempre que la lesión:",
   "o": [
    "No sea consecuencia del funcionamiento de los servicios públicos",
    "Sea consecuencia del funcionamiento de los servicios jurídicos",
@@ -2364,7 +2868,7 @@
   "exp": "Según el Art. 106 de la Constitución Española."
  },
  {
-  "q": "Pregunta de Examen. Auxiliar Administrativo. Uhu. 2009, ¿En qué",
+  "q": "Pregunta de Examen. Auxiliar Administrativo. Uhu. 2009, ¿En qué parte de la Constitución se encuentra la sección denominada “De los Derechos fundamentales y de las libertades públicas”?",
   "o": [
    "Sección segunda del Capítulo II del Título II",
    "Sección segunda del Capítulo II del Título I",
@@ -2372,7 +2876,7 @@
    "Sección primera del Capítulo II del Título I"
   ],
   "c": 3,
-  "ref": "Sección 1ª, Cap. II, Título I CE",
-  "exp": "Según Sección 1ª, Cap. II, Título I CE de la Constitución Española."
+  "ref": "Estructura CE",
+  "exp": "Según la estructura de la Constitución Española."
  }
 ]
