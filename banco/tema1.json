@@ -1603,7 +1603,7 @@
    "Ante la Sala de lo Penal del Tribunal Supremo",
    "Ante el Defensor del Pueblo"
   ],
-  "c": null,
+  "c": 2,
   "ref": "Art. 102 CE",
   "exp": "Según el Art. 102 de la Constitución Española."
  },
@@ -1615,7 +1615,7 @@
    "Jerarquía",
    "Coordinación"
   ],
-  "c": null,
+  "c": 1,
   "ref": "Art. 103 CE",
   "exp": "Según el Art. 103 de la Constitución Española."
  },
@@ -1627,7 +1627,7 @@
    "La Administración Pública",
    "El Rey"
   ],
-  "c": null,
+  "c": 0,
   "ref": "Art. 104 CE",
   "exp": "Según el Art. 104 de la Constitución Española."
  },
@@ -1639,7 +1639,7 @@
    "Controlan la Potestad legislativa",
    "Controlan todo lo anterior."
   ],
-  "c": null,
+  "c": 1,
   "ref": "Art. 106 CE",
   "exp": "Según el Art. 106 de la Constitución Española."
  },
@@ -1651,7 +1651,7 @@
    "La audiencia de los ciudadanos, directamente o a través de las organizaciones y asociaciones reconocidas por la ley, en el procedimiento de elaboración de las disposiciones administrativas que les afecten",
    "Es correcto todo lo anterior"
   ],
-  "c": null,
+  "c": 2,
   "ref": "Art. 105 CE",
   "exp": "Según el Art. 105 de la Constitución Española."
  },
@@ -1663,7 +1663,7 @@
    "Es el supremo órgano consultivo del Gobierno",
    "Es el supremo órgano ejecutivo del Gobierno"
   ],
-  "c": null,
+  "c": 2,
   "ref": "Art. 107 CE",
   "exp": "Según el Art. 107 de la Constitución Española."
  },
