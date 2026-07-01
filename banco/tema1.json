@@ -240,7 +240,7 @@
   "exp": "Según el Art. 51 de la Constitución Española: \"1. Los poderes públicos garantizarán la defensa de los consumidores y usuarios, protegiendo, mediante procedimientos eficaces, la seguridad, la salud y los legítimos intereses económicos de los mismos\""
  },
  {
-  "q": "Según el art. 53 de la Constitución, el procedimiento ante los tribunales ordinarios,",
+  "q": "Según el art. 53 de la Constitución, el procedimiento ante los tribunales ordinarios, que cualquier ciudadano puede recabar la tutela de las libertades y derechos reconocidos en el art. 14 y sección primera del Capítulo segundo, estará basado en los principios de:",
   "o": [
    "Concentración y celeridad",
    "Preferencia y sumariedad",
@@ -264,19 +264,19 @@
   "exp": "Según el Art. 54 de la Constitución Española: \"Una ley orgánica regulará la institución del Defensor del Pueblo, como alto comisionado de las Cortes Generales, designado por éstas para la defensa de los derechos comprendidos en este Título, a cuyo\""
  },
  {
-  "q": "Según el art. 54 de la Constitución, el defensor del pueblo podrá supervisar:",
+  "q": "Según el art. 55 de la Constitución, los derechos reconocidos en el art. 17.3 de la Constitución:",
   "o": [
    "Se suspenderán para los supuestos de declaración de Estado de Excepción y Sitio",
    "No se suspenderá para el supuesto de declaración de Estado de Excepción",
    "No se suspenderá para el supuesto de declaración de Estado de Sitio",
    "Se podrá suspender en la declaración de Estado de Excepción,"
   ],
-  "c": 1,
-  "ref": "Art. 17.3 CE",
+  "c": 2,
+  "ref": "Art. 55 CE",
   "exp": "Según el Art. 54 de la Constitución Española: \"Una ley orgánica regulará la institución del Defensor del Pueblo, como alto comisionado de las Cortes Generales, designado por éstas para la defensa de los derechos comprendidos en este Título, a cuyo\""
  },
  {
-  "q": "Según el art. 55 de la Constitución, los derechos reconocidos en el art. 17.3 de la Constitución:",
+  "q": "Según el art. 97 de la Constitución, la función ejecutiva corresponde a:",
   "o": [
    "El Rey",
    "Las Cortes Generales",
@@ -444,7 +444,7 @@
   "exp": "Según el Art. 47 de la Constitución Española: \"Todos los españoles tienen derecho a disfrutar de una vivienda digna y adecuada.\""
  },
  {
-  "q": "Según el art. 99 de la Constitución, el Rey ¿a través de quién propondrá candidato",
+  "q": "Según el art. 99 de la Constitución, el Rey ¿a través de quién propondrá candidato?",
   "o": [
    "De los representantes designados por los grupos políticos con representación",
    "Del presidente del Consejo de ministro",
@@ -468,7 +468,7 @@
   "exp": "Según el Art. 6 de la Constitución Española: \"Los partidos políticos expresan el pluralismo político, concurren a la formación y manifestación de la voluntad popular y son instrumento fundamental para la participación política.\""
  },
  {
-  "q": "Según el art. 30 de la Constitución, ¿Quién podrá imponer en su caso, una",
+  "q": "Según el art. 30 de la Constitución, ¿Quién podrá imponer en su caso, una prestación social sustitutoria?",
   "o": [
    "Los poderes públicos",
    "La Ley",
@@ -662,8 +662,8 @@
  {
   "q": "Según el art. 55 de la Constitución, los derechos reconocidos en el art. 17.3 de la Constitución:",
   "o": [
-   "Se suspenderán para los supuestos de declaración de Estado de",
-   "No se suspenderá para el supuesto de declaración de Estado de",
+   "Se suspenderán para los supuestos de declaración de Estado de Excepción y Sitio",
+   "No se suspenderá para el supuesto de declaración de Estado de Excepción",
    "No se suspenderá para el supuesto de declaración de Estado de Sitio",
    "Se podrá suspender en la declaración de Estado de Excepción, a"
   ],
@@ -720,7 +720,7 @@
   "exp": "Según el Art. 27 de la Constitución Española: \"1. Todos tienen el derecho a la educación. Se reconoce la libertad de enseñanza. 2.\""
  },
  {
-  "q": "Según el art. 28 de la Constitución, señale que respuesta es incorrecta",
+  "q": "Según el art. 28 de la Constitución, señale que respuesta es incorrecta respecto al derecho Huelga:",
   "o": [
    "Que no se reconoce para la defensa de los derechos de los trabajadores",
    "Que se reconoce a los trabajadores para la defensa de sus intereses",
@@ -804,7 +804,7 @@
   "exp": "Según el Art. 53 de la Constitución Española: \"1. Los derechos y libertades reconocidos en el Capítulo segundo del presente Título vinculan a todos los poderes públicos.\""
  },
  {
-  "q": "Según el art. 54 de la Constitución, el Defensor del Pueblo, podrá",
+  "q": "Según el art. 54 de la Constitución, el Defensor del Pueblo, podrá supervisar la actividad de la Administración, dando cuenta a:",
   "o": [
    "Al Gobierno",
    "A los Tribunales",
@@ -840,7 +840,7 @@
   "exp": "Según Disposición Derogatoria CE."
  },
  {
-  "q": "¿Qué título de la constitución se denomina “Del Gobierno y la",
+  "q": "¿Qué título de la constitución se denomina \"Del Gobierno y la Administración\"?",
   "o": [
    "El que va inmediatamente después del título de “Economía y Hacienda”",
    "El que va  inmediatamente antes del título “Del poder judicial”",
@@ -1296,7 +1296,7 @@
   "exp": "Según el Art. 53 de la Constitución Española: \"1. Los derechos y libertades reconocidos en el Capítulo segundo del presente Título vinculan a todos los poderes públicos.\""
  },
  {
-  "q": "Según el art. 54 de la Constitución, la institución del defensor del",
+  "q": "Según el art. 54 de la Constitución, la institución del defensor del pueblo se regulará:",
   "o": [
    "Ley ordinaria",
    "Ley orgánica",
@@ -1320,7 +1320,7 @@
   "exp": "Según el Art. 54 de la Constitución Española: \"Una ley orgánica regulará la institución del Defensor del Pueblo, como alto comisionado de las Cortes Generales, designado por éstas para la defensa de los derechos comprendidos en este Título, a cuyo\""
  },
  {
-  "q": "Según el art. 54 de la Constitución, ¿A quién no dará cuenta el",
+  "q": "Según el art. 54 de la Constitución, ¿A quién no dará cuenta el defensor del pueblo?",
   "o": [
    "Al Gobierno",
    "Al Congreso de los Diputados",
