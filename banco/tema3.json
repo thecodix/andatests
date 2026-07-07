@@ -91,9 +91,9 @@
       "Periodos de tiempos en que los hechos se produjeron",
       "No expresará nada de lo anterior"
     ],
-    "c": 3,
+    "c": 2,
     "ref": "Art. 60.2 Ley 39/2015",
-    "exp": "Según la clave del examen la respuesta es D; no obstante el art. 60.2 indica que la orden expresará el lugar, fecha o periodo de tiempo en que los hechos se produjeron (opción C) — revisar en validación."
+    "exp": "El art. 60.2 indica que la orden expresará, en la medida de lo posible, el lugar, la fecha o período de tiempo continuado en que los hechos se produjeron (opción C)."
   },
   {
     "q": "Según el art. 61 de la Ley de Procedimiento Administrativo, en la iniciación del procedimiento por petición razonada de otros órganos, en caso de responsabilidad patrimonial, ¿Qué no deberá individualizar la petición?",
@@ -345,7 +345,7 @@
     ],
     "c": 3,
     "ref": "Art. 71.2 Ley 39/2015",
-    "exp": "Según la clave del examen la respuesta es D; no obstante el art. 71.2 hace a esos titulares responsables directos de la tramitación y, en especial, del cumplimiento de los plazos — revisar en validación."
+    "exp": "El art. 71.3 hace responsables directos de la tramitación y del cumplimiento de los plazos a los titulares con función de INSTRUIR (órgano instructor), no de resolver; como el enunciado se refiere a la función de resolver, ninguna de las opciones es correcta (D)."
   },
   {
     "q": "Según el art. 72 de la Ley de Procedimiento Administrativo, de acuerdo con el principio de simplificación administrativa, ¿Cómo se acordará todos los trámites que por su naturaleza admitan un impulso simultaneo y no sea obligado su cumplimiento sucesivo?",
@@ -523,9 +523,9 @@
       "No inferior a diez días ni superior a veinte",
       "Nada de lo anterior es correcto"
     ],
-    "c": 3,
+    "c": 0,
     "ref": "Art. 82.2 Ley 39/2015",
-    "exp": "Según la clave del examen la respuesta es D; no obstante el art. 82.2 fija un plazo no inferior a diez días ni superior a quince (opción A) — revisar en validación."
+    "exp": "El art. 82.2 fija en el trámite de audiencia un plazo no inferior a diez días ni superior a quince (opción A)."
   },
   {
     "q": "Según el art. 83 de la Ley de Procedimiento Administrativo, ¿Qué órgano administrativo podrá acordar un periodo de información pública?",
@@ -1063,9 +1063,9 @@
       "Obligatorio para determinados colectivos",
       "A y b según los casos."
     ],
-    "c": 0,
-    "ref": "Art. 66.6 Ley 39/2015",
-    "exp": "Los modelos y sistemas de presentación masiva serán de uso obligatorio."
+    "c": 1,
+    "ref": "Art. 66.4 Ley 39/2015",
+    "exp": "El art. 66.4 dispone que los modelos y sistemas de presentación masiva que permiten presentar simultáneamente varias solicitudes son de uso voluntario."
   },
   {
     "q": "Según el art. 66 de la Ley de Procedimiento Administrativo, los sistemas normalizados de solicitud, ¿Qué podrán incluir?",
@@ -1509,7 +1509,7 @@
     ],
     "c": 3,
     "ref": "Art. 78.2 Ley 39/2015",
-    "exp": "Según la clave del examen la respuesta es D; el art. 78.2 advierte del lugar, fecha y hora y de que puede nombrar técnicos que le asistan — revisar en validación."
+    "exp": "El art. 78.2 advierte de que el interesado PUEDE nombrar técnicos que le asistan (la opción B dice lo contrario) y consigna lugar, fecha y hora; ninguna de las opciones A-C recoge correctamente la advertencia."
   },
   {
     "q": "Según el art. 79 de la Ley 39/2015 de Procedimiento Administrativo, a efecto de la resolución del procedimiento, ¿Qué tipo de informe se solicitarán?",
