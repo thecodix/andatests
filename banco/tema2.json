@@ -1,32 +1,2138 @@
 [
-{"q":"¿Cuál es el objeto principal de la Ley 39/2015?","o":["El régimen jurídico del sector público","Regular el procedimiento administrativo común y los requisitos de validez y eficacia de los actos","La organización de la Administración del Estado","El estatuto del empleado público"],"c":1,"ref":"Art. 1 Ley 39/2015","exp":"Regula los requisitos de validez y eficacia de los actos administrativos y el procedimiento administrativo común a todas las Administraciones."},
-{"q":"Según el artículo 2, las Universidades públicas:","o":["Quedan excluidas del ámbito de la Ley","Se rigen por su normativa específica y supletoriamente por esta Ley","Se rigen exclusivamente por la Ley 39/2015","Tienen la consideración de Administración General del Estado"],"c":1,"ref":"Art. 2.2.c) Ley 39/2015","exp":"Las Universidades públicas se regirán por su normativa específica y supletoriamente por las previsiones de esta Ley."},
-{"q":"¿Cuál de estas entidades NO integra el sector público a efectos del artículo 2?","o":["La Administración General del Estado","Las Entidades que integran la Administración Local","Los partidos políticos","El sector público institucional"],"c":2,"ref":"Art. 2.1 Ley 39/2015","exp":"El sector público comprende la AGE, las Administraciones autonómicas, la Administración Local y el sector público institucional."},
-{"q":"¿Quién tiene capacidad de obrar ante las Administraciones según el artículo 3?","o":["Solo las personas físicas mayores de edad","Las personas físicas o jurídicas con capacidad conforme a las normas civiles, y los menores en ciertos casos","Únicamente las personas jurídicas","Solo quienes actúen mediante representante"],"c":1,"ref":"Art. 3 Ley 39/2015","exp":"Tienen capacidad de obrar las personas físicas o jurídicas con arreglo a las normas civiles y los menores para el ejercicio de derechos permitidos sin asistencia."},
-{"q":"NO se considera interesado en el procedimiento, según el artículo 4:","o":["Quien lo promueve como titular de derechos o intereses legítimos","Quien tenga derechos que puedan resultar afectados por la decisión","Cualquier ciudadano sin interés legítimo en el asunto","Quien tenga intereses legítimos y se persone antes de la resolución definitiva"],"c":2,"ref":"Art. 4 Ley 39/2015","exp":"La condición de interesado exige ser titular de derechos o intereses legítimos afectados; no basta la mera condición de ciudadano."},
-{"q":"Cuando en una solicitud figuran varios interesados sin señalar representante, las actuaciones se efectúan con:","o":["Todos ellos simultáneamente","El que figure en primer término","El de mayor edad","El que designe la Administración"],"c":1,"ref":"Art. 7 Ley 39/2015","exp":"En defecto de representante o interesado señalado, las actuaciones se efectúan con el que figure en primer término."},
-{"q":"¿Cuál de los siguientes sujetos está obligado a relacionarse electrónicamente con la Administración?","o":["Las personas físicas en todo caso","Las personas jurídicas","Únicamente los mayores de 65 años","Solo los residentes en el extranjero"],"c":1,"ref":"Art. 14.2 Ley 39/2015","exp":"Están obligadas, entre otros, las personas jurídicas, las entidades sin personalidad jurídica y quienes ejerzan profesión de colegiación obligatoria."},
-{"q":"Respecto a las personas físicas y los medios electrónicos, el artículo 14 establece que:","o":["Están siempre obligadas a relacionarse electrónicamente","Podrán elegir en todo momento si se comunican o no por medios electrónicos, salvo que estén obligadas","Nunca pueden usar medios electrónicos","Solo pueden elegir una vez al año"],"c":1,"ref":"Art. 14.1 Ley 39/2015","exp":"Las personas físicas pueden elegir el medio de comunicación y modificarlo en cualquier momento, salvo que estén obligadas a relacionarse electrónicamente."},
-{"q":"¿Qué debe disponer cada Administración conforme al artículo 16?","o":["Un Boletín Oficial propio","Un Registro Electrónico General","Una sede física en cada provincia","Un archivo en papel centralizado"],"c":1,"ref":"Art. 16.1 Ley 39/2015","exp":"Cada Administración dispondrá de un Registro Electrónico General donde se asentará todo documento presentado o recibido."},
-{"q":"¿En cuál de estos lugares NO pueden presentar los interesados sus documentos según el artículo 16.4?","o":["En las oficinas de Correos","En las representaciones diplomáticas u oficinas consulares de España","En el registro electrónico de cualquier Administración del artículo 2.1","En el domicilio particular de un funcionario"],"c":3,"ref":"Art. 16.4 Ley 39/2015","exp":"Los documentos pueden presentarse en registros electrónicos, oficinas de Correos, representaciones diplomáticas, oficinas de asistencia en materia de registros, etc."},
-{"q":"El archivo electrónico único, según el artículo 17, contiene los documentos correspondientes a:","o":["Procedimientos en tramitación","Procedimientos finalizados","Solo documentos sancionadores","Documentos meramente informativos"],"c":1,"ref":"Art. 17.1 Ley 39/2015","exp":"Cada Administración mantendrá un archivo electrónico único de los documentos que correspondan a procedimientos finalizados."},
-{"q":"La comparecencia de las personas ante las oficinas públicas (art. 19) solo será obligatoria cuando:","o":["Lo solicite cualquier funcionario","Esté prevista en una norma con rango de ley","Lo acuerde el instructor","El interesado lo consienta"],"c":1,"ref":"Art. 19.1 Ley 39/2015","exp":"La comparecencia solo será obligatoria cuando así esté previsto en una norma con rango de ley."},
-{"q":"La Administración está obligada a dictar resolución expresa y a notificarla (art. 21):","o":["Solo en procedimientos iniciados de oficio","Solo a solicitud del interesado","En todos los procedimientos, cualquiera que sea su forma de iniciación","Únicamente en procedimientos sancionadores"],"c":2,"ref":"Art. 21.1 Ley 39/2015","exp":"Existe obligación de resolver expresamente y notificar en todos los procedimientos, salvo las excepciones legales (pacto/convenio, declaración responsable)."},
-{"q":"Si la norma reguladora no fija plazo máximo para resolver, este será de:","o":["1 mes","3 meses","6 meses","1 año"],"c":1,"ref":"Art. 21.3 Ley 39/2015","exp":"A falta de plazo en la norma reguladora, el plazo máximo para notificar la resolución es de tres meses."},
-{"q":"Con carácter general, el plazo máximo para notificar la resolución expresa no podrá exceder de:","o":["3 meses","6 meses, salvo norma con rango de ley o Derecho de la UE","1 año","9 meses"],"c":1,"ref":"Art. 21.2 Ley 39/2015","exp":"El plazo fijado por la norma reguladora no podrá exceder de seis meses salvo que una ley o el Derecho de la UE establezcan uno mayor."},
-{"q":"En un procedimiento iniciado de oficio, ¿desde cuándo se cuenta el plazo máximo para resolver?","o":["Desde la solicitud del interesado","Desde la fecha del acuerdo de iniciación","Desde la publicación en el diario oficial","Desde la primera notificación"],"c":1,"ref":"Art. 21.3.a) Ley 39/2015","exp":"En los procedimientos iniciados de oficio, el plazo se cuenta desde la fecha del acuerdo de iniciación."},
-{"q":"Como regla general, el silencio administrativo en procedimientos iniciados a solicitud del interesado es:","o":["Desestimatorio","Estimatorio (positivo), salvo excepciones legales","Siempre inexistente","Estimatorio solo en materia tributaria"],"c":1,"ref":"Art. 24.1 Ley 39/2015","exp":"El vencimiento del plazo sin resolución expresa legitima a entender estimada la solicitud por silencio, salvo que una ley o el Derecho de la UE dispongan lo contrario."},
-{"q":"¿En cuál de estos casos el silencio tiene sentido desestimatorio según el artículo 24?","o":["Solicitud de una subvención reglada","Ejercicio del derecho de petición del artículo 29 CE","Autorización de apertura de un comercio","Solicitud de una licencia ordinaria"],"c":1,"ref":"Art. 24.1 Ley 39/2015","exp":"El silencio es desestimatorio, entre otros, en el derecho de petición, transferencia de facultades sobre dominio o servicio público, daño al medio ambiente y responsabilidad patrimonial."},
-{"q":"La estimación por silencio administrativo tiene la consideración de:","o":["Un acto de trámite","Un acto administrativo finalizador del procedimiento","Una mera expectativa","Una resolución provisional"],"c":1,"ref":"Art. 24.2 Ley 39/2015","exp":"La estimación por silencio tiene a todos los efectos la consideración de acto administrativo finalizador del procedimiento."},
-{"q":"En procedimientos iniciados de oficio susceptibles de producir efectos desfavorables o de gravamen, el vencimiento del plazo produce:","o":["El silencio positivo","La caducidad","La nulidad de pleno derecho","La prórroga automática"],"c":1,"ref":"Art. 25.1.b) Ley 39/2015","exp":"En procedimientos de intervención o sancionadores iniciados de oficio, el vencimiento del plazo sin resolución produce la caducidad y el archivo."},
-{"q":"Las copias auténticas realizadas por una Administración Pública (art. 27):","o":["Solo tienen validez en la Administración que las expide","Tendrán validez en las restantes Administraciones","No tienen valor jurídico","Requieren intervención notarial"],"c":1,"ref":"Art. 27.1 Ley 39/2015","exp":"Las copias auténticas realizadas por una Administración tendrán validez en las restantes Administraciones."},
-{"q":"Una copia auténtica de un documento, conforme al artículo 27:","o":["Tiene menor valor que el original","Tiene la misma validez y eficacia que el documento original","Solo sirve para uso interno","Caduca a los seis meses"],"c":1,"ref":"Art. 27.2 Ley 39/2015","exp":"Las copias auténticas tendrán la misma validez y eficacia que los documentos originales."},
-{"q":"Según el artículo 28, los interesados tienen derecho a:","o":["No aportar documentos que ya estén en poder de cualquier Administración","Aportar siempre documentos originales","Que la Administración les facilite copias gratuitas de todo","No identificarse en el procedimiento"],"c":0,"ref":"Art. 28.2 Ley 39/2015","exp":"Los interesados no están obligados a aportar documentos ya en poder de la Administración actuante o elaborados por otra Administración, salvo oposición."},
-{"q":"Salvo que se exprese otro cómputo, cuando los plazos se señalan por días se entiende que son:","o":["Naturales","Hábiles, excluyendo sábados, domingos y festivos","Hábiles, excluyendo solo los domingos","Laborables incluido el sábado"],"c":1,"ref":"Art. 30.2 Ley 39/2015","exp":"Salvo disposición en contra, los plazos por días son hábiles, excluyéndose sábados, domingos y declarados festivos."},
-{"q":"Conforme al artículo 30, los plazos expresados en días se cuentan a partir:","o":["Del mismo día de la notificación","Del día siguiente a la notificación o publicación del acto","Del primer día del mes siguiente","Desde la fecha de la solicitud"],"c":1,"ref":"Art. 30.3 Ley 39/2015","exp":"Los plazos en días se cuentan a partir del día siguiente a aquel en que tenga lugar la notificación o publicación."},
-{"q":"Si el último día del plazo es inhábil, según el artículo 30.5:","o":["El plazo se considera vencido","Se entiende prorrogado al primer día hábil siguiente","Se prorroga 5 días","Se retrotrae al día hábil anterior"],"c":1,"ref":"Art. 30.5 Ley 39/2015","exp":"Cuando el último día del plazo sea inhábil, se entenderá prorrogado al primer día hábil siguiente."},
-{"q":"Cuando los plazos se fijan en meses o años y en el mes de vencimiento no existe día equivalente:","o":["El plazo se anula","El plazo expira el último día del mes","Se prorroga al mes siguiente","Se cuenta el primer día del mes"],"c":1,"ref":"Art. 30.4 Ley 39/2015","exp":"Si en el mes de vencimiento no hay día equivalente al de inicio, el plazo expira el último día del mes."},
-{"q":"La ampliación de los plazos prevista en el artículo 32 no podrá exceder de:","o":["La mitad de los mismos","El doble de los mismos","Un tercio de los mismos","Tres meses en todo caso"],"c":0,"ref":"Art. 32.1 Ley 39/2015","exp":"La Administración podrá conceder una ampliación que no exceda de la mitad de los plazos, si las circunstancias lo aconsejan y no se perjudican derechos de tercero."},
-{"q":"¿Puede ampliarse un plazo ya vencido?","o":["Sí, siempre","En ningún caso podrá ampliarse un plazo ya vencido","Sí, con autorización judicial","Sí, hasta 10 días después"],"c":1,"ref":"Art. 32.3 Ley 39/2015","exp":"La petición y la decisión deben producirse antes del vencimiento; en ningún caso podrá ampliarse un plazo ya vencido."},
-{"q":"La tramitación de urgencia (art. 33) supone que los plazos del procedimiento ordinario:","o":["Se duplican","Se reducen a la mitad, salvo los de presentación de solicitudes y recursos","Quedan suspendidos","Se eliminan"],"c":1,"ref":"Art. 33.1 Ley 39/2015","exp":"Por razones de interés público se reducen a la mitad los plazos del procedimiento ordinario, salvo los relativos a la presentación de solicitudes y recursos."}
+  {
+    "q": "Según el art. 1 de la Ley 39/2015, ¿pueden incluirse trámites adicionales o distintos a los contemplados en esta Ley?",
+    "o": [
+      "Sí, reglamentariamente",
+      "Solo mediante ley, cuando resulte eficaz, proporcionado y necesario para la consecución de los fines de la Administración",
+      "Sí, sin necesidad de motivación, cuando resulte eficaz y proporcionado",
+      "Todas las respuestas anteriores son incorrectas"
+    ],
+    "c": 3,
+    "ref": "Art. 1.2 Ley 39/2015",
+    "exp": "El art. 1.2 exige que sea mediante ley, para los fines propios del procedimiento y de forma motivada; la opción B lo tergiversa, por lo que se considera que ninguna es correcta tal cual."
+  },
+  {
+    "q": "Según el art. 1 de la Ley 39/2015, ¿qué requisitos tiene por objeto regular la citada ley?",
+    "o": [
+      "Los de validez y eficacia de la potestad sancionadora",
+      "Los que deben cumplir el ejercicio de la iniciativa legislativa",
+      "Los de validez y eficacia de los actos administrativos",
+      "Los adicionales que se establezcan para los reglamentos"
+    ],
+    "c": 2,
+    "ref": "Art. 1.1 Ley 39/2015",
+    "exp": "El art. 1.1 regula los requisitos de validez y eficacia de los actos administrativos."
+  },
+  {
+    "q": "Según el art. 1 de la Ley 39/2015, la ley tiene por objeto regular el procedimiento administrativo común, incluyendo:",
+    "o": [
+      "El sancionador y el de reclamación de responsabilidad de las Administraciones Públicas",
+      "El sancionador, el de reclamación de responsabilidad de las Administraciones Públicas y legislativo",
+      "El sancionador y el de reclamación de responsabilidad a los particulares",
+      "El recaudador, el de reclamación de responsabilidad de las Administraciones Públicas y el reglamentario"
+    ],
+    "c": 0,
+    "ref": "Art. 1.1 Ley 39/2015",
+    "exp": "Incluye el sancionador y el de reclamación de responsabilidad de las Administraciones Públicas."
+  },
+  {
+    "q": "Según el art. 2 de la Ley 39/2015, comprende el sector público:",
+    "o": [
+      "La Administración General del Estado",
+      "Las Administraciones de las Comunidades Autónomas",
+      "Las Entidades que integran la Administración Local",
+      "Todas las anteriores"
+    ],
+    "c": 3,
+    "ref": "Art. 2.1 Ley 39/2015",
+    "exp": "El art. 2.1 comprende la AGE, las CCAA, la Administración Local y el sector público institucional."
+  },
+  {
+    "q": "Según el art. 2 de la Ley 39/2015, respecto a las Universidades Públicas:",
+    "o": [
+      "Las que se rijan por su normativa específica no se integran en el sector público institucional",
+      "Se integran en el sector público institucional y se regirán por su normativa específica y supletoriamente por las previsiones de la Ley 39/2015",
+      "Se integran en el sector público institucional solo cuando apliquen íntegramente la Ley 39/2015",
+      "Se les aplicará la Ley 39/2015 solo cuando esta se refiera específicamente a las mismas"
+    ],
+    "c": 1,
+    "ref": "Art. 2.2.c) Ley 39/2015",
+    "exp": "Se integran en el sector público institucional, rigiéndose por su normativa específica y supletoriamente por esta Ley."
+  },
+  {
+    "q": "Según el art. 3 de la Ley 39/2015, ¿tendrán capacidad de obrar ante las Administraciones Públicas?",
+    "o": [
+      "Todas las personas físicas",
+      "Un menor de edad, cuya actuación esté permitida por el ordenamiento jurídico sin la asistencia de la persona que ejerza la tutela",
+      "Los grupos de afectados cuando la ley lo declare expresa o tácitamente",
+      "Las personas jurídicas con arreglo a las normas privadas"
+    ],
+    "c": 1,
+    "ref": "Art. 3.b) Ley 39/2015",
+    "exp": "Los menores tienen capacidad de obrar para el ejercicio de derechos permitidos sin asistencia."
+  },
+  {
+    "q": "Según el art. 4 de la Ley 39/2015, se considera interesado en el procedimiento administrativo:",
+    "o": [
+      "Quienes lo promuevan como titulares de derechos o intereses legítimos individuales o colectivos",
+      "Quienes lo promuevan como afectados y se personen en el procedimiento una vez dictada la resolución definitiva",
+      "Los que sin haber iniciado el procedimiento tuvieran derechos que resulten afectados por la decisión que se dicte",
+      "Aquellos cuyos intereses legítimos, individuales o colectivos, puedan resultar afectados por la resolución y se personen o no en el procedimiento en tanto no haya recaído resolución definitiva"
+    ],
+    "c": 0,
+    "ref": "Art. 4.1.a) Ley 39/2015",
+    "exp": "Son interesados quienes promuevan el procedimiento como titulares de derechos o intereses legítimos."
+  },
+  {
+    "q": "Según el art. 4 de la Ley 39/2015, las asociaciones y organizaciones representativas de intereses económicos y sociales serán titulares de intereses legítimos colectivos:",
+    "o": [
+      "Cuando la Administración lo declare expresamente",
+      "En los términos previstos en un reglamento",
+      "En los términos que la Ley reconozca",
+      "En función del tipo de procedimiento"
+    ],
+    "c": 2,
+    "ref": "Art. 4.2 Ley 39/2015",
+    "exp": "Serán titulares de intereses legítimos colectivos en los términos que la Ley reconozca."
+  },
+  {
+    "q": "Según el art. 7 de la Ley 39/2015, en defecto de representante o interesado expresamente señalado, cuando en una solicitud figuren varios interesados, las actuaciones se efectuarán:",
+    "o": [
+      "Con cualquiera de los interesados",
+      "Con el que figure en primer término",
+      "Con el que figure en último término",
+      "Con el que conste que la haya presentado"
+    ],
+    "c": 1,
+    "ref": "Art. 7 Ley 39/2015",
+    "exp": "Se efectuarán con el que figure en primer término."
+  },
+  {
+    "q": "Según el art. 8 de la Ley 39/2015, si durante la instrucción de un procedimiento sin publicidad se advierte la existencia de personas titulares de derechos o intereses legítimos y directos que puedan resultar afectadas por la resolución:",
+    "o": [
+      "Se comunicará a dichas personas la tramitación del procedimiento",
+      "Se comunicará a dichas personas solo la finalización del procedimiento",
+      "Se notificará a dichas personas la resolución del procedimiento",
+      "Se comunicará a dichas personas la paralización del procedimiento"
+    ],
+    "c": 0,
+    "ref": "Art. 8 Ley 39/2015",
+    "exp": "Se comunicará a dichas personas la tramitación del procedimiento."
+  },
+  {
+    "q": "Según el art. 13 de la Ley 39/2015, los ciudadanos, en sus relaciones con las Administraciones públicas, tienen derecho:",
+    "o": [
+      "A ser asistidos en el uso de medios electrónicos en sus relaciones con las Administraciones Públicas",
+      "Al acceso a la información privada, a los registros y archivos de las Administraciones públicas en los términos previstos en la Constitución y en ésta u otras leyes",
+      "A exigir el cumplimiento de las obligaciones de la Administración y de las autoridades a su servicio",
+      "Todos son derechos de los ciudadanos en sus relaciones con las Administraciones Públicas"
+    ],
+    "c": 0,
+    "ref": "Art. 13.b) Ley 39/2015",
+    "exp": "Entre los derechos del art. 13 está el de ser asistido en el uso de medios electrónicos."
+  },
+  {
+    "q": "Según el art. 13 de la Ley 39/2015, los ciudadanos tienen derecho a comunicarse con las Administraciones Públicas a través de:",
+    "o": [
+      "Sistemas seguros de interconexión",
+      "Plataformas de intermediación",
+      "Un Punto de Acceso General electrónico de la Administración",
+      "Puntos de Acceso General a la Administración"
+    ],
+    "c": 2,
+    "ref": "Art. 13.a) Ley 39/2015",
+    "exp": "A comunicarse a través de un Punto de Acceso General electrónico de la Administración."
+  },
+  {
+    "q": "Según el art. 14 de la Ley 39/2015, ¿en qué momento pueden modificar las personas físicas la forma de comunicarse con las Administraciones Públicas?",
+    "o": [
+      "Nunca, antes de la finalización de la instrucción",
+      "En cualquier momento",
+      "En ningún momento",
+      "Solo durante la fase de instrucción del procedimiento"
+    ],
+    "c": 1,
+    "ref": "Art. 14.1 Ley 39/2015",
+    "exp": "Pueden modificar el medio elegido en cualquier momento."
+  },
+  {
+    "q": "Según el art. 14 de la Ley 39/2015, ¿quién NO se encuentra obligado en todo caso a relacionarse por medios electrónicos con las Administraciones Públicas?",
+    "o": [
+      "Las entidades sin personalidad jurídica",
+      "Quienes ejerzan una actividad profesional con colegiación obligatoria, para los trámites de dicha actividad",
+      "Las personas jurídicas",
+      "Quienes representen a un interesado que NO esté obligado a relacionarse electrónicamente con la Administración"
+    ],
+    "c": 3,
+    "ref": "Art. 14.2 Ley 39/2015",
+    "exp": "Quien representa a alguien no obligado no está, por ello, obligado él mismo."
+  },
+  {
+    "q": "Según el art. 14 de la Ley 39/2015, en el colectivo de colegiación obligatoria se entienden incluidos:",
+    "o": [
+      "Solo los notarios",
+      "Un miembro de la junta vecinal",
+      "El registrador mercantil",
+      "El Registrador civil"
+    ],
+    "c": 2,
+    "ref": "Art. 14.2.c) Ley 39/2015",
+    "exp": "Se incluyen expresamente los notarios y registradores de la propiedad y mercantiles."
+  },
+  {
+    "q": "Según el art. 14 de la Ley 39/2015, ¿pueden las Administraciones establecer la obligación de relacionarse electrónicamente para determinados procedimientos y colectivos de personas físicas?",
+    "o": [
+      "En ningún caso",
+      "Sí, solo por ley",
+      "Reglamentariamente, cuando quede acreditado que por su capacidad económica, técnica, dedicación profesional u otros motivos tienen acceso y disponibilidad de los medios electrónicos necesarios",
+      "Reglamentariamente, aunque no quede acreditado que tienen acceso y disponibilidad de los medios electrónicos necesarios, en procedimientos de tramitación de urgencia"
+    ],
+    "c": 2,
+    "ref": "Art. 14.3 Ley 39/2015",
+    "exp": "Reglamentariamente, cuando quede acreditado el acceso y disponibilidad de medios electrónicos."
+  },
+  {
+    "q": "Según el art. 15 de la Ley 39/2015, si concurrieran varios interesados y existiera discrepancia en cuanto a la lengua, ¿en qué lengua se tramitará el procedimiento?",
+    "o": [
+      "En cada lengua oficial de cada uno de los interesados",
+      "En castellano",
+      "En la lengua oficial que corresponda según el domicilio de la Administración",
+      "En la lengua que el instructor determine más conveniente"
+    ],
+    "c": 1,
+    "ref": "Art. 15.1 Ley 39/2015",
+    "exp": "Si hay discrepancia entre varios interesados, el procedimiento se tramita en castellano."
+  },
+  {
+    "q": "Según el art. 15 de la Ley 39/2015, los interesados que se dirijan a órganos de la AGE con sede en una Comunidad Autónoma:",
+    "o": [
+      "Usarán el castellano",
+      "Podrán usar el castellano",
+      "Deberán utilizar la lengua que sea cooficial en ella",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 1,
+    "ref": "Art. 15.1 Ley 39/2015",
+    "exp": "Podrán utilizar también la lengua cooficial de la Comunidad Autónoma."
+  },
+  {
+    "q": "Según el art. 15 de la Ley 39/2015, en los procedimientos tramitados por CCAA y Entidades Locales, el uso de la lengua se ajustará a lo previsto:",
+    "o": [
+      "En el correspondiente convenio suscrito entre las Administraciones",
+      "Para la Administración General del Estado",
+      "En la legislación autonómica correspondiente",
+      "En la ley de Bases de Régimen Local"
+    ],
+    "c": 2,
+    "ref": "Art. 15.2 Ley 39/2015",
+    "exp": "Se ajustará a lo previsto en la legislación autonómica correspondiente."
+  },
+  {
+    "q": "Según el art. 16 de la Ley 39/2015, concluido el trámite de registro, los documentos serán cursados a sus destinatarios sin dilación, desde:",
+    "o": [
+      "El registro en que hubieran sido recibidas",
+      "La unidad administrativa correspondiente",
+      "La oficina de asistencia en materia de registro",
+      "El órgano de instrucción en el que hubiera tenido entrada"
+    ],
+    "c": 0,
+    "ref": "Art. 16.2 Ley 39/2015",
+    "exp": "Se cursan desde el registro en que hubieran sido recibidos."
+  },
+  {
+    "q": "Según el art. 16 de la Ley 39/2015, ¿qué NO es cierto respecto a los registros electrónicos?",
+    "o": [
+      "Los organismos públicos vinculados o dependientes podrán disponer de su propio registro electrónico",
+      "El registro electrónico general de cada Administración funcionará como un portal que facilitará el acceso a los registros de cada organismo",
+      "En el registro electrónico general se anotará la salida de todo tipo de documentos dirigidos a otros órganos o particulares",
+      "Las disposiciones de creación de registros electrónicos se publicarán en el diario oficial correspondiente"
+    ],
+    "c": 2,
+    "ref": "Art. 16.1 Ley 39/2015",
+    "exp": "Se anota la salida de documentos oficiales, no de 'todo tipo' de documentos."
+  },
+  {
+    "q": "Según el art. 16 de la Ley 39/2015, los documentos que los interesados dirijan a los órganos de las Administraciones Públicas podrán presentarse:",
+    "o": [
+      "En las oficinas de Correos, en la forma que reglamentariamente se establezca",
+      "En las representaciones diplomáticas u oficinas consulares de España en el extranjero",
+      "En las oficinas de asistencia en materia de registros",
+      "En cualquiera de las anteriores"
+    ],
+    "c": 3,
+    "ref": "Art. 16.4 Ley 39/2015",
+    "exp": "Todas esas vías están previstas en el art. 16.4."
+  },
+  {
+    "q": "Según el art. 16 de la Ley 39/2015, para garantizar la constancia de cada asiento del registro electrónico, se emitirá:",
+    "o": [
+      "A petición del interesado, un recibo consistente en una copia simple del documento",
+      "Automáticamente, un recibo consistente en una copia autenticada del documento",
+      "A petición del interesado, certificado con fecha y hora de presentación",
+      "Automáticamente, un recibo autenticado del documento (sin más precisión)"
+    ],
+    "c": 1,
+    "ref": "Art. 16.3 Ley 39/2015",
+    "exp": "Se emite automáticamente un recibo consistente en copia autenticada del documento."
+  },
+  {
+    "q": "Según el art. 16 de la Ley 39/2015, los registros electrónicos de todas y cada una de las Administraciones:",
+    "o": [
+      "Podrán ser plenamente interoperables",
+      "Deberán ser mínimamente interoperables",
+      "Deberán ser plenamente interoperables",
+      "Deberán ser plenamente accesibles"
+    ],
+    "c": 2,
+    "ref": "Art. 16.4 Ley 39/2015",
+    "exp": "Deberán ser plenamente interoperables."
+  },
+  {
+    "q": "Según el art. 16 de la Ley 39/2015, las cantidades a satisfacer en el momento de presentar documentos:",
+    "o": [
+      "Deberá hacerse mediante transferencia dirigida a la oficina pública correspondiente",
+      "Podrán hacerse efectivos mediante transferencia dirigida al titular de la oficina pública correspondiente",
+      "Podrán hacerse efectivos mediante transferencia dirigida a la oficina pública correspondiente",
+      "Podrán posponerse a expensas de la resolución del procedimiento"
+    ],
+    "c": 2,
+    "ref": "Art. 16.6 Ley 39/2015",
+    "exp": "Podrán hacerse efectivos mediante transferencia a la oficina pública correspondiente."
+  },
+  {
+    "q": "Según el art. 17 de la Ley 39/2015, los documentos electrónicos archivados deberán conservarse en un formato que permita garantizar:",
+    "o": [
+      "La confidencialidad, la calidad y la unidad del documento",
+      "La autenticidad, integridad y conservación del documento",
+      "La portabilidad, accesibilidad y permutación del documento",
+      "La perdurabilidad, veracidad y transformación del documento"
+    ],
+    "c": 1,
+    "ref": "Art. 17.2 Ley 39/2015",
+    "exp": "Deben garantizar autenticidad, integridad y conservación."
+  },
+  {
+    "q": "Según el art. 17 de la Ley 39/2015, los soportes donde se almacenen documentos deberán contar con medidas de seguridad de acuerdo con lo previsto en:",
+    "o": [
+      "El Esquema Nacional de Seguridad",
+      "Las normas que dicten las Comunidades Autónomas",
+      "El Esquema Nacional de Interoperabilidad",
+      "A y C son correctas"
+    ],
+    "c": 0,
+    "ref": "Art. 17.3 Ley 39/2015",
+    "exp": "Se remite al Esquema Nacional de Seguridad."
+  },
+  {
+    "q": "Según el art. 17 de la Ley 39/2015, los medios o soportes de almacenamiento NO garantizarán:",
+    "o": [
+      "La autenticidad",
+      "La calidad",
+      "La transparencia",
+      "La protección y conservación de los documentos almacenados"
+    ],
+    "c": 2,
+    "ref": "Art. 17.3 Ley 39/2015",
+    "exp": "La 'transparencia' no figura entre las garantías exigidas por el art. 17.3 (sí integridad, autenticidad, confidencialidad, calidad, protección y conservación)."
+  },
+  {
+    "q": "Según el art. 18 de la Ley 39/2015, los interesados que conozcan datos que permitan identificar a otros interesados que NO hayan comparecido:",
+    "o": [
+      "Tienen el derecho de proporcionárselo a la Administración actuante",
+      "Tienen el deber de proporcionárselo a la Administración actuante",
+      "Tienen el deber de proporcionárselo solo si han comparecido",
+      "Tienen el derecho de proporcionárselo solo si han comparecido"
+    ],
+    "c": 1,
+    "ref": "Art. 18.2 Ley 39/2015",
+    "exp": "Tienen el deber de proporcionar esos datos a la Administración actuante."
+  },
+  {
+    "q": "Según el art. 18 de la Ley 39/2015, ¿en qué términos las personas colaborarán con la Administración?",
+    "o": [
+      "En los requeridos por la Administración actuante",
+      "En lo acordado por las partes interesadas en el procedimiento",
+      "En los previstos en la Ley que en cada caso resulte aplicable",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 2,
+    "ref": "Art. 18.1 Ley 39/2015",
+    "exp": "Colaborarán en los términos previstos en la Ley que resulte aplicable en cada caso."
+  },
+  {
+    "q": "Según el art. 19 de la Ley 39/2015, cuando proceda la comparecencia de las personas, la citación hará constar expresamente:",
+    "o": [
+      "La unidad actuante y el objeto de la prueba",
+      "El lugar, fecha y hora",
+      "Los efectos de no atenderla y los medios disponibles",
+      "Todo lo anterior (lugar, fecha, hora, medios y efectos)"
+    ],
+    "c": 3,
+    "ref": "Art. 19.2 Ley 39/2015",
+    "exp": "La citación hará constar lugar, fecha, hora, medios disponibles y efectos de no atenderla."
+  },
+  {
+    "q": "Según el art. 19 de la Ley 39/2015, ¿las Administraciones Públicas entregarán al interesado certificación acreditativa de la comparecencia?",
+    "o": [
+      "En todo caso",
+      "Sí, y no solo al interesado",
+      "Sí, cuando así lo solicite",
+      "Sí, según los casos aplicables"
+    ],
+    "c": 2,
+    "ref": "Art. 19.3 Ley 39/2015",
+    "exp": "Se entrega cuando el interesado lo solicite."
+  },
+  {
+    "q": "Según el art. 20 de la Ley 39/2015, ¿quiénes serán responsables directos de la tramitación de los asuntos?",
+    "o": [
+      "Los superiores jerárquicos de las unidades administrativas y el personal a su servicio",
+      "Las Administraciones Públicas",
+      "Los empleados públicos",
+      "Los titulares de las unidades administrativas y el personal al servicio de las Administraciones Públicas que tuviesen a su cargo la resolución o el despacho de los asuntos"
+    ],
+    "c": 3,
+    "ref": "Art. 20.1 Ley 39/2015",
+    "exp": "Los titulares de las unidades administrativas y el personal a cargo de la resolución/despacho son responsables directos."
+  },
+  {
+    "q": "Según el art. 21 de la Ley 39/2015, la Administración está obligada:",
+    "o": [
+      "A dictar resolución expresa en todos los procedimientos cualquiera que sea su forma de iniciación",
+      "A notificar la resolución expresa en todos los procedimientos cualquiera que sea su forma de iniciación",
+      "Está obligada a dictar resolución expresa pero no a notificar",
+      "A y B son correctas"
+    ],
+    "c": 3,
+    "ref": "Art. 21.1 Ley 39/2015",
+    "exp": "Está obligada tanto a dictar como a notificar la resolución expresa."
+  },
+  {
+    "q": "Según el art. 21 de la Ley 39/2015, en los casos de prescripción, ¿en qué consistirá la resolución?",
+    "o": [
+      "En la declaración general prevista para esta circunstancia",
+      "En la declaración de que ha existido renuncia por una de las partes",
+      "En la declaración de la circunstancia que concurra",
+      "Se exceptúa la obligación de dictar y notificar resolución"
+    ],
+    "c": 2,
+    "ref": "Art. 21.1 Ley 39/2015",
+    "exp": "La resolución consistirá en la declaración de la circunstancia que concurra en cada caso."
+  },
+  {
+    "q": "Según el art. 21 de la Ley 39/2015, en caso de desaparición sobrevenida del objeto del procedimiento, la resolución indicará:",
+    "o": [
+      "Los hechos producidos y las normas aplicables",
+      "Los derechos afectados y las normas aplicables",
+      "Los efectos producidos y el procedimiento aplicado",
+      "Las responsabilidades producidas y el procedimiento aplicable"
+    ],
+    "c": 0,
+    "ref": "Art. 21.1 Ley 39/2015",
+    "exp": "Indicará los hechos producidos y las normas aplicables."
+  },
+  {
+    "q": "Según el art. 21 de la Ley 39/2015, se exceptúan de la obligación de resolver:",
+    "o": [
+      "Los supuestos de iniciación del procedimiento por pacto o convenio",
+      "Los procedimientos relativos al ejercicio de derechos fundamentales",
+      "Los procedimientos relativos al ejercicio de derechos sometidos únicamente al deber de declaración responsable o comunicación",
+      "Los supuestos en que se haya producido la caducidad o desistimiento de la solicitud"
+    ],
+    "c": 2,
+    "ref": "Art. 21.1 Ley 39/2015",
+    "exp": "Se exceptúan la terminación por pacto/convenio y los procedimientos de mera declaración responsable o comunicación (la opción C recoge este segundo supuesto)."
+  },
+  {
+    "q": "Según el art. 21 de la Ley 39/2015, el plazo máximo en el que debe notificarse la resolución expresa:",
+    "o": [
+      "Seis meses en todo caso",
+      "El fijado por la norma reguladora del correspondiente procedimiento",
+      "El fijado por la correspondiente Administración",
+      "Tres meses"
+    ],
+    "c": 1,
+    "ref": "Art. 21.2 Ley 39/2015",
+    "exp": "Será el fijado por la norma reguladora del procedimiento (con tope de 6 meses salvo excepción legal)."
+  },
+  {
+    "q": "Según el art. 21 de la Ley 39/2015, cuando las normas reguladoras del procedimiento no fijen plazo máximo, este será de:",
+    "o": [
+      "Seis meses",
+      "Tres meses",
+      "Cuatro meses",
+      "Doce meses"
+    ],
+    "c": 1,
+    "ref": "Art. 21.3 Ley 39/2015",
+    "exp": "A falta de plazo específico, el plazo supletorio es de tres meses."
+  },
+  {
+    "q": "Según el art. 21 de la Ley 39/2015, en los procedimientos iniciados a solicitud del interesado, el plazo se contará:",
+    "o": [
+      "Desde la fecha que fije la norma reguladora del procedimiento",
+      "Desde la fecha del acuerdo de iniciación",
+      "Desde la fecha en que la solicitud haya tenido entrada en el registro electrónico de la Administración u Organismo competente para su tramitación",
+      "Desde la fecha en que la solicitud haya tenido salida en el registro electrónico de la Administración"
+    ],
+    "c": 2,
+    "ref": "Art. 21.3.b) Ley 39/2015",
+    "exp": "Se cuenta desde la entrada de la solicitud en el registro electrónico competente."
+  },
+  {
+    "q": "Según el art. 21 de la Ley 39/2015, en los procedimientos iniciados de oficio, el plazo para notificar se contará desde:",
+    "o": [
+      "Que la solicitud haya tenido entrada en el registro electrónico de la Administración competente",
+      "La fecha de publicación del acuerdo de iniciación",
+      "El día siguiente en que la solicitud haya tenido entrada en el registro electrónico",
+      "La fecha del acuerdo de iniciación"
+    ],
+    "c": 3,
+    "ref": "Art. 21.3.a) Ley 39/2015",
+    "exp": "En procedimientos de oficio, se cuenta desde la fecha del acuerdo de iniciación."
+  },
+  {
+    "q": "Según el art. 21 de la Ley 39/2015, señale qué afirmación es correcta:",
+    "o": [
+      "Las Administraciones Públicas podrán publicar y mantener actualizadas en el portal web, a efectos informativos, las relaciones de procedimientos de su competencia",
+      "Las Administraciones Públicas deben publicar y mantener actualizadas en su sede electrónica, a efectos informativos, las relaciones de procedimientos de su competencia",
+      "Las Administraciones Públicas deben publicar y mantener actualizadas en el portal web, a efectos identificativos, las relaciones de procedimientos de su competencia",
+      "Las Administraciones Públicas deben publicar y mantener actualizadas en el portal web, a efectos informativos, las relaciones de procedimientos de su competencia"
+    ],
+    "c": 3,
+    "ref": "Art. 21.4 Ley 39/2015",
+    "exp": "Deben publicar en el portal web, a efectos informativos, las relaciones de procedimientos de su competencia."
+  },
+  {
+    "q": "Según el art. 22 de la Ley 39/2015, ¿por cuánto tiempo podrá suspenderse el procedimiento cuando deba requerirse a un interesado para subsanar deficiencias o aportar documentos?",
+    "o": [
+      "Tres meses",
+      "Durante el tiempo necesario para la incorporación de los documentos al expediente",
+      "Por el tiempo que medie entre la notificación del requerimiento y su efectivo cumplimiento",
+      "Por el tiempo que medie entre la petición de subsanación y la incorporación de los documentos al expediente"
+    ],
+    "c": 2,
+    "ref": "Art. 22.1.a) Ley 39/2015",
+    "exp": "Se suspende por el tiempo entre la notificación del requerimiento y su cumplimiento efectivo (o el plazo concedido)."
+  },
+  {
+    "q": "Según el art. 22 de la Ley 39/2015, en el supuesto anterior, ¿podría suspenderse por un plazo de diez días?",
+    "o": [
+      "No",
+      "Sí, en defecto de otro plazo, si es el plazo concedido",
+      "Sí, como máximo",
+      "No, salvo que se trate de aportar un informe preceptivo"
+    ],
+    "c": 1,
+    "ref": "Art. 22.1.a) Ley 39/2015",
+    "exp": "Sí, en defecto de otro plazo, si es el concedido para la subsanación."
+  },
+  {
+    "q": "Según el art. 22 de la Ley 39/2015, ¿por cuánto tiempo podrá suspenderse cuando sea indispensable un previo pronunciamiento de un órgano jurisdiccional?",
+    "o": [
+      "No es correcto el enunciado, pues el procedimiento se suspenderá en estos casos",
+      "Desde el momento en que se solicita, hasta que la Administración tenga constancia del mismo",
+      "Durante el tiempo necesario para la incorporación del pronunciamiento al expediente",
+      "Desde el momento en que se solicita hasta el dictado del pronunciamiento"
+    ],
+    "c": 1,
+    "ref": "Art. 22.1.g) Ley 39/2015",
+    "exp": "Se suspende desde que se solicita hasta que la Administración tenga constancia del pronunciamiento."
+  },
+  {
+    "q": "Según el art. 22 de la Ley 39/2015, cuando exista un procedimiento no finalizado en el ámbito de la UE que condicione el contenido de la resolución, ¿se suspenderá o se podrá suspender?",
+    "o": [
+      "Se podrá suspender",
+      "Se suspenderá",
+      "Se suspenderá o se podrá suspender según la ley aplicable",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 0,
+    "ref": "Art. 22.1.c) Ley 39/2015",
+    "exp": "Es un supuesto de suspensión potestativa (apartado 1), no automática."
+  },
+  {
+    "q": "Según el art. 22 de la Ley 39/2015, cuando se soliciten informes preceptivos a otro órgano, el plazo de suspensión:",
+    "o": [
+      "Podrá exceder de tres meses",
+      "Será de tres meses",
+      "No podrá exceder en ningún caso de tres meses",
+      "En ningún caso tres meses"
+    ],
+    "c": 2,
+    "ref": "Art. 22.1.d) Ley 39/2015",
+    "exp": "El plazo de suspensión por informes preceptivos no podrá exceder de tres meses."
+  },
+  {
+    "q": "Según el art. 22 de la Ley 39/2015, ¿cuándo se suspenderá (con carácter obligatorio) el plazo máximo para resolver y notificar?",
+    "o": [
+      "Cuando los interesados promuevan la recusación en cualquier momento de la tramitación",
+      "Cuando los interesados promuevan la abstención en cualquier momento de la tramitación",
+      "Cuando una Administración requiera a otra para que revise una decisión que entienda tiene base legal",
+      "En los tres supuestos anteriores"
+    ],
+    "c": 0,
+    "ref": "Art. 22.2.c) Ley 39/2015",
+    "exp": "La recusación de los interesados suspende obligatoriamente el plazo (apartado 2)."
+  },
+  {
+    "q": "Según el art. 23 de la Ley 39/2015, cuando se hayan agotado los medios personales y materiales disponibles, ¿se podrá acordar la ampliación del plazo máximo?",
+    "o": [
+      "Sí, por el órgano competente para resolver",
+      "A propuesta, en su caso, del órgano instructor",
+      "Excepcionalmente",
+      "Todo lo anterior es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 23.1 Ley 39/2015",
+    "exp": "Excepcionalmente, el órgano competente para resolver, a propuesta del instructor, puede acordar la ampliación."
+  },
+  {
+    "q": "Según el art. 23 de la Ley 39/2015, contra el acuerdo de ampliación, ¿qué es incorrecto afirmar?",
+    "o": [
+      "Que podrá ser notificado a los interesados",
+      "Que no cabrá recurso alguno",
+      "Que deberá ser notificado a los interesados",
+      "Que la B y la C son ciertas"
+    ],
+    "c": 0,
+    "ref": "Art. 23.2 Ley 39/2015",
+    "exp": "El acuerdo DEBERÁ (no 'podrá') ser notificado, y no cabe recurso alguno."
+  },
+  {
+    "q": "Según el art. 24 de la Ley 39/2015, la estimación por silencio administrativo tiene a todos los efectos la consideración de:",
+    "o": [
+      "Acto administrativo irrecurrible",
+      "Acto administrativo finalizador del procedimiento",
+      "Acto administrativo firme",
+      "Acto administrativo de trámite"
+    ],
+    "c": 1,
+    "ref": "Art. 24.2 Ley 39/2015",
+    "exp": "Tiene la consideración de acto administrativo finalizador del procedimiento."
+  },
+  {
+    "q": "Según el art. 24 de la Ley 39/2015, cuando el procedimiento tenga por objeto el acceso a actividades o su ejercicio, la ley que disponga el carácter desestimatorio del silencio deberá fundarse:",
+    "o": [
+      "En la concurrencia de razones imperiosas de interés general",
+      "En la concurrencia de resoluciones definitivas de interés general",
+      "En la concurrencia de interés para una pluralidad de interesados",
+      "En la concurrencia de razones de interés general"
+    ],
+    "c": 0,
+    "ref": "Art. 24.1 Ley 39/2015",
+    "exp": "Debe fundarse en razones imperiosas de interés general."
+  },
+  {
+    "q": "Según el art. 24 de la Ley 39/2015, ¿en qué procedimientos el silencio tendrá carácter desestimatorio?",
+    "o": [
+      "Aquellos cuya estimación tuviera como consecuencia que se transfirieran al solicitante o a terceros facultades relativas al dominio público o al servicio público",
+      "Aquellos que no impliquen el ejercicio de actividades que puedan dañar el medio ambiente",
+      "El silencio tendrá efecto desestimatorio en los procedimientos relativos al ejercicio del derecho de petición, a que se refiere el art. 29 de la Constitución",
+      "En ninguno de los casos anteriores"
+    ],
+    "c": 2,
+    "ref": "Art. 24.1 Ley 39/2015",
+    "exp": "El silencio es desestimatorio en el ejercicio del derecho de petición del art. 29 CE."
+  },
+  {
+    "q": "Según el art. 24 de la Ley 39/2015, ¿desde cuándo producen efectos los actos administrativos producidos por silencio administrativo?",
+    "o": [
+      "Desde que se hagan valer ante cualquier persona física",
+      "Desde el vencimiento del plazo máximo en el que debe dictarse y notificarse la resolución expresa sin que la misma se haya expedido",
+      "Desde el día siguiente al vencimiento de dicho plazo",
+      "Desde que se expida de oficio el certificado que acredite la existencia de silencio administrativo"
+    ],
+    "c": 1,
+    "ref": "Art. 24.4 Ley 39/2015",
+    "exp": "Producen efectos desde el vencimiento del plazo máximo sin resolución expresa."
+  },
+  {
+    "q": "Según el art. 25 de la Ley 39/2015, en procedimientos iniciados de oficio que se hubieran paralizado por causa imputable al interesado:",
+    "o": [
+      "Se suspenderá el cómputo del plazo para resolver y notificar la resolución",
+      "Se podrá interrumpir el cómputo del plazo para resolver y notificar la resolución",
+      "Se interrumpirá la resolución y la notificación",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 25.2 Ley 39/2015",
+    "exp": "El art. 25.2 dice que 'se interrumpirá el cómputo del plazo', no que 'se suspenderá' ni que se interrumpa 'la resolución y la notificación', por lo que ninguna opción reproduce exactamente el texto."
+  },
+  {
+    "q": "Según el art. 26 de la Ley 39/2015, es cierto que:",
+    "o": [
+      "Se considera válido un documento electrónico que, cumpliendo los requisitos, sea trasladado a un tercero por escrito",
+      "Requerirá firma electrónica los documentos electrónicos que no formen parte de un expediente administrativo",
+      "Para ser considerados válidos, los documentos electrónicos administrativos deberán disponer de datos de identificación que NO permitan su individualización",
+      "Para ser considerados válidos, los documentos electrónicos administrativos deberán incorporar una referencia temporal del momento en que han sido emitidos"
+    ],
+    "c": 3,
+    "ref": "Art. 26.2.c) Ley 39/2015",
+    "exp": "Deben incorporar una referencia temporal del momento de emisión."
+  },
+  {
+    "q": "Según el art. 27 de la Ley 39/2015, la expedición de copias auténticas de los Diarios Oficiales se regirá:",
+    "o": [
+      "Por su legislación específica",
+      "Por las normas generales de la Ley de Procedimiento Administrativo",
+      "No se pueden expedir copias auténticas de los Diarios Oficiales",
+      "Por las instrucciones de los órganos técnicos de la Administración encargada de la publicación"
+    ],
+    "c": 0,
+    "ref": "Art. 27.6 Ley 39/2015",
+    "exp": "Se rige por su legislación específica."
+  },
+  {
+    "q": "Según el art. 27 de la Ley 39/2015, los interesados podrán solicitar la expedición de copias auténticas de documentos públicos administrativos:",
+    "o": [
+      "En cualquier momento",
+      "En el plazo máximo de quince días",
+      "En ningún caso",
+      "En un plazo entre cinco y veinte días"
+    ],
+    "c": 0,
+    "ref": "Art. 27.4 Ley 39/2015",
+    "exp": "Podrán solicitarlas en cualquier momento (la Administración debe expedirlas en 15 días desde la solicitud)."
+  },
+  {
+    "q": "Según el art. 28 de la Ley 39/2015, ¿quién se responsabilizará de la veracidad de los documentos que presenten?",
+    "o": [
+      "El expedidor del documento",
+      "La Administración que lo reciba",
+      "Los interesados",
+      "El registro que acepte la entrada"
+    ],
+    "c": 2,
+    "ref": "Art. 28.7 Ley 39/2015",
+    "exp": "Los interesados se responsabilizan de la veracidad de los documentos presentados."
+  },
+  {
+    "q": "Según el art. 28 de la Ley 39/2015, cuando la relevancia del documento lo exija o existan dudas sobre la calidad de la copia, ¿qué podrán solicitar las Administraciones?",
+    "o": [
+      "Una nueva copia",
+      "El cotejo de las copias aportadas por el interesado",
+      "El cotejo de los originales en poder de la Administración",
+      "La aportación al procedimiento del original del documento"
+    ],
+    "c": 1,
+    "ref": "Art. 28.5 Ley 39/2015",
+    "exp": "Podrán solicitar de forma motivada el cotejo de las copias aportadas."
+  },
+  {
+    "q": "Según el art. 29 de la Ley 39/2015, los términos y plazos establecidos en esta u otras leyes obligan:",
+    "o": [
+      "Entre otros, a las autoridades y personal al servicio de las Administraciones públicas competente para la tramitación del procedimiento",
+      "Entre otros, a los interesados en el procedimiento",
+      "A y B son correctas",
+      "A y B son incorrectas"
+    ],
+    "c": 2,
+    "ref": "Art. 29 Ley 39/2015",
+    "exp": "Obligan tanto a las autoridades/personal como a los interesados."
+  },
+  {
+    "q": "Según el art. 30 de la Ley 39/2015, ¿cómo se entienden las horas a efectos de cómputo de plazos?",
+    "o": [
+      "Como hábiles",
+      "Como hábiles, solo entre las 8:00 y las 15:00 horas de un día hábil",
+      "Como hábiles, solo entre las 8:00 y las 20:00 horas de un día hábil",
+      "Como naturales"
+    ],
+    "c": 0,
+    "ref": "Art. 30.1 Ley 39/2015",
+    "exp": "Son hábiles todas las horas del día que formen parte de un día hábil."
+  },
+  {
+    "q": "Según el art. 30 de la Ley 39/2015, los plazos expresados por días se contarán:",
+    "o": [
+      "A partir del mismo día en que tenga lugar la notificación o publicación del acto",
+      "Desde el mismo día en que se produzca la estimación por silencio administrativo",
+      "Desde el siguiente a aquel en que se produzca la desestimación por silencio administrativo",
+      "Desde el día en que se produzca la publicación de la estimación por silencio administrativo"
+    ],
+    "c": 2,
+    "ref": "Art. 30.3 Ley 39/2015",
+    "exp": "Se cuentan desde el día siguiente a la notificación, publicación o desestimación/estimación por silencio."
+  },
+  {
+    "q": "Según el art. 30 de la Ley 39/2015, ¿qué ocurre cuando el último día del plazo es inhábil?",
+    "o": [
+      "Ese día es el plazo máximo de vencimiento",
+      "El vencimiento expira el último día del mes",
+      "Se entenderá prorrogado al primer día hábil siguiente",
+      "El plazo expira el día anterior"
+    ],
+    "c": 2,
+    "ref": "Art. 30.5 Ley 39/2015",
+    "exp": "Se entiende prorrogado al primer día hábil siguiente."
+  },
+  {
+    "q": "Según el art. 31 de la Ley 39/2015, respecto al cómputo de plazos en los registros, el registro electrónico:",
+    "o": [
+      "Permitirá la presentación de documentos todos los días del año durante las 24 horas",
+      "Permitirá la presentación de documentos todos los días del año durante las 24 horas, siempre que sean hábiles",
+      "No permitirá la presentación de documentos los días inhábiles",
+      "No permitirá la presentación de documentos los días naturales"
+    ],
+    "c": 0,
+    "ref": "Art. 31.2.a) Ley 39/2015",
+    "exp": "Permite la presentación todos los días del año, las 24 horas."
+  },
+  {
+    "q": "Según el art. 31 de la Ley 39/2015, en el registro electrónico, los documentos presentados en día inhábil:",
+    "o": [
+      "Se reputarán posteriores, según el mismo orden, a los que lo fueran el primer día hábil posterior",
+      "Se reputarán anteriores, según el mismo orden, a los que lo fueran el primer día hábil anterior",
+      "Se reputarán anteriores, según el mismo orden, a los que lo fueran el primer día inhábil posterior",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 31.2.b) Ley 39/2015",
+    "exp": "Se reputan anteriores a los del primer día HÁBIL posterior (no inhábil, ni anteriores a los del día hábil anterior), por lo que ninguna opción es exacta."
+  },
+  {
+    "q": "Según el art. 32 de la Ley 39/2015, la Administración, salvo precepto en contrario, podrá conceder de oficio o a petición del interesado una ampliación de los plazos establecidos:",
+    "o": [
+      "Que exceda de la mitad de los mismos",
+      "Que no exceda de la mitad de los mismos",
+      "Que exceda o no exceda de la mitad, según las circunstancias",
+      "Que exceda o no exceda de la mitad, según perjudiquen o no derechos de terceros"
+    ],
+    "c": 1,
+    "ref": "Art. 32.1 Ley 39/2015",
+    "exp": "La ampliación no podrá exceder de la mitad de los plazos establecidos."
+  },
+  {
+    "q": "Según el art. 32 de la Ley 39/2015, cuando una incidencia técnica haya imposibilitado el funcionamiento ordinario del sistema, la Administración:",
+    "o": [
+      "No podrá determinar tal ampliación",
+      "Podrá determinar una ampliación de los plazos no vencidos, debiendo publicar la ampliación concreta",
+      "Podrá determinar una ampliación de los plazos vencidos, debiendo publicar la ampliación concreta",
+      "Deberá ampliar los plazos no vencidos, pudiendo o no publicar la ampliación"
+    ],
+    "c": 1,
+    "ref": "Art. 32.4 Ley 39/2015",
+    "exp": "Podrá ampliar los plazos NO vencidos, publicando la incidencia y la ampliación concreta."
+  },
+  {
+    "q": "Según el art. 32 de la Ley 39/2015, ¿la ampliación de plazos por el tiempo máximo permitido se aplicará a los procedimientos de misiones diplomáticas y oficinas consulares?",
+    "o": [
+      "No, salvo que intervengan interesados residentes fuera de España",
+      "Según la legislación aplicable al caso",
+      "En todo caso",
+      "Sí, solo si le corresponde la resolución del procedimiento"
+    ],
+    "c": 2,
+    "ref": "Art. 32.2 Ley 39/2015",
+    "exp": "Se aplica en todo caso a los procedimientos tramitados por misiones diplomáticas y oficinas consulares."
+  },
+  {
+    "q": "Según el art. 33 de la Ley 39/2015, ¿qué es cierto respecto a la tramitación de urgencia?",
+    "o": [
+      "Que se podrá acordar a petición de los interesados",
+      "Que solo se podrá acordar de oficio cuando razones de interés público lo aconsejen",
+      "Que se reducirán a la mitad todos los plazos establecidos para el procedimiento ordinario",
+      "Que cabrá recurso administrativo contra el acuerdo que declare la aplicación de la tramitación de urgencia"
+    ],
+    "c": 0,
+    "ref": "Art. 33.1 Ley 39/2015",
+    "exp": "Se podrá acordar de oficio o a petición del interesado (no solo de oficio, y no cabe recurso contra el acuerdo)."
+  },
+  {
+    "q": "La Ley 39/2015 del Procedimiento Administrativo Común de las Administraciones Públicas es de fecha:",
+    "o": [
+      "1 de octubre de 2015",
+      "2 de octubre de 2015",
+      "29 de diciembre de 2014",
+      "1 de enero de 2015"
+    ],
+    "c": 0,
+    "ref": "Ley 39/2015",
+    "exp": "La Ley 39/2015 es de 1 de octubre de 2015."
+  },
+  {
+    "q": "Según el art. 2 de la Ley 39/2015, ¿cómo se aplica a las Universidades Públicas?",
+    "o": [
+      "No es de aplicación a las Universidades Públicas",
+      "De la misma forma que a la Administración General del Estado",
+      "Supletoriamente",
+      "Directamente"
+    ],
+    "c": 2,
+    "ref": "Art. 2.2.c) Ley 39/2015",
+    "exp": "Se aplica supletoriamente, rigiéndose primero por su normativa específica."
+  },
+  {
+    "q": "Según el art. 3 de la Ley 39/2015, ¿quién tiene capacidad de obrar?",
+    "o": [
+      "Los patrimonios dependientes cuando así la ley lo declare expresamente",
+      "Los menores de edad para el ejercicio y defensa de aquellos de sus derechos e intereses cuya actuación esté permitida por el ordenamiento jurídico sin la asistencia de la persona que ejerza la patria potestad, tutela o curatela",
+      "Los incapacitados cuando la extensión de la incapacitación afecte al ejercicio y defensa de los derechos o intereses de que se trate",
+      "Todos los anteriores tienen capacidad de obrar"
+    ],
+    "c": 1,
+    "ref": "Art. 3.b) Ley 39/2015",
+    "exp": "Los menores tienen capacidad de obrar para derechos cuya actuación esté permitida sin asistencia de quien ejerza la patria potestad/tutela."
+  },
+  {
+    "q": "Según el art. 4 de la Ley 39/2015, los que sin haber iniciado el procedimiento se considerarán interesados:",
+    "o": [
+      "Cuando tengan derechos que NO resulten afectados por la decisión que en el mismo se adopte",
+      "Cuando NO tengan derechos afectados por la decisión que en el mismo se adopte",
+      "Cuando resulten afectados sus derechos por la iniciación del mismo",
+      "Cuando tengan derechos que puedan resultar afectados por la decisión que en el mismo se adopte"
+    ],
+    "c": 3,
+    "ref": "Art. 4.1.b) Ley 39/2015",
+    "exp": "Son interesados quienes tengan derechos que puedan resultar afectados por la decisión que se adopte."
+  },
+  {
+    "q": "Según el art. 7 de la Ley 39/2015, cuando en una solicitud figuren varios interesados, ¿con quién se efectuarán las actuaciones?",
+    "o": [
+      "Con el representante que expresamente se haya señalado",
+      "Con cualquiera de los interesados",
+      "En todo caso, con quien figure en primer término",
+      "Solo con quien presentó la solicitud"
+    ],
+    "c": 0,
+    "ref": "Art. 7 Ley 39/2015",
+    "exp": "Se efectuarán con el representante o interesado expresamente señalado, y en su defecto con el que figure en primer término."
+  },
+  {
+    "q": "Según el art. 8 de la Ley 39/2015, si durante la instrucción de un procedimiento sin publicidad se advierten personas titulares de derechos o intereses legítimos afectados, ¿qué se les comunicará?",
+    "o": [
+      "Los plazos para interponer los recursos correspondientes",
+      "La tramitación del procedimiento",
+      "La identidad del órgano competente para la resolución",
+      "La sede electrónica de acceso"
+    ],
+    "c": 1,
+    "ref": "Art. 8 Ley 39/2015",
+    "exp": "Se les comunicará la tramitación del procedimiento."
+  },
+  {
+    "q": "Según el art. 13 de la Ley 39/2015, ¿a qué tienen derecho las personas que se relacionan con la Administración Pública?",
+    "o": [
+      "A ser asistido jurídicamente cuando exijan responsabilidad a la Administración pública",
+      "A la obtención y utilización de los expedientes electrónicos",
+      "A la protección de datos de carácter personal",
+      "Tienen derecho a todo lo anterior"
+    ],
+    "c": 2,
+    "ref": "Art. 13.h) Ley 39/2015",
+    "exp": "Entre los derechos del art. 13 está la protección de datos de carácter personal."
+  },
+  {
+    "q": "Según el art. 14 de la Ley 39/2015, señale la afirmación correcta:",
+    "o": [
+      "Las personas físicas para el ejercicio de sus derechos y obligaciones no podrán elegir medios electrónicos",
+      "Las personas jurídicas están obligadas a relacionarse por medios electrónicos, salvo para el trámite de alegaciones complementarias",
+      "Los notarios y registradores quedan excluidos de la obligatoriedad del uso de medios electrónicos",
+      "Las entidades sin personalidad jurídica no podrán elegir en todo momento si se comunican o no por medios electrónicos"
+    ],
+    "c": 3,
+    "ref": "Art. 14.2 Ley 39/2015",
+    "exp": "Las entidades sin personalidad jurídica están entre los sujetos obligados a relacionarse electrónicamente, por lo que no pueden elegir libremente."
+  },
+  {
+    "q": "Según el art. 14 de la Ley 39/2015, estarán obligados a relacionarse por medios electrónicos con las Administraciones Públicas:",
+    "o": [
+      "Cualquier persona",
+      "Quienes ejerzan una actividad profesional para la que se requiera colegiación obligatoria, para los trámites de dicha actividad",
+      "Las entidades sin personalidad jurídica",
+      "Quienes representen a un interesado que no esté obligado a relacionarse electrónicamente"
+    ],
+    "c": 2,
+    "ref": "Art. 14.2.b) Ley 39/2015",
+    "exp": "Las entidades sin personalidad jurídica están obligadas a relacionarse electrónicamente."
+  },
+  {
+    "q": "Según el art. 15 de la Ley 39/2015, en los procedimientos tramitados por CCAA y Entidades Locales, el uso de la lengua se ajustará a:",
+    "o": [
+      "Lo previsto en la legislación de la Administración correspondiente",
+      "Lo previsto en la legislación autonómica correspondiente",
+      "Lo previsto en la legislación local correspondiente",
+      "Lo previsto en la legislación de la AGE"
+    ],
+    "c": 1,
+    "ref": "Art. 15.2 Ley 39/2015",
+    "exp": "Se ajustará a la legislación autonómica correspondiente."
+  },
+  {
+    "q": "Según el art. 16 de la Ley 39/2015, ¿quién dispondrá de un Registro Electrónico General?",
+    "o": [
+      "Los organismos públicos",
+      "Únicamente la Administración General del Estado",
+      "Cada Administración, salvo la Administración Local",
+      "Cada Administración"
+    ],
+    "c": 3,
+    "ref": "Art. 16.1 Ley 39/2015",
+    "exp": "Cada Administración dispondrá de un Registro Electrónico General."
+  },
+  {
+    "q": "Según el art. 16 de la Ley 39/2015, concluido el trámite de registro, los documentos se cursarán a sus destinatarios y unidades correspondientes:",
+    "o": [
+      "A partir del día siguiente",
+      "Sin dilación",
+      "En las primeras veinticuatro horas",
+      "En cualquier momento"
+    ],
+    "c": 1,
+    "ref": "Art. 16.2 Ley 39/2015",
+    "exp": "Se cursan sin dilación."
+  },
+  {
+    "q": "Según el art. 16 de la Ley 39/2015, los documentos presentados de manera presencial, ¿por quién deberán ser digitalizados?",
+    "o": [
+      "Por el interesado antes de su presentación",
+      "Por la Administración a la que se dirija el documento",
+      "Por la oficina de asistencia en materia de registros en la que hayan sido presentados",
+      "No existe obligación de digitalizar"
+    ],
+    "c": 2,
+    "ref": "Art. 16.5 Ley 39/2015",
+    "exp": "Los digitaliza la oficina de asistencia en materia de registros donde se presentaron."
+  },
+  {
+    "q": "Según el art. 16 de la Ley 39/2015, el Registro Electrónico General de cada Administración, ¿cómo funcionará?",
+    "o": [
+      "Como un portal de los registros electrónicos de cada organismo",
+      "Como un portal que facilitará el acceso a los registros electrónicos de cada Organismo",
+      "Como página web de cada uno de los organismos vinculados a ella",
+      "Como registro electrónico de los Organismos vinculados o dependientes de la Administración correspondiente"
+    ],
+    "c": 1,
+    "ref": "Art. 16.1 Ley 39/2015",
+    "exp": "Funcionará como un portal que facilita el acceso a los registros electrónicos de cada Organismo."
+  },
+  {
+    "q": "Según el art. 17 de la Ley 39/2015, los documentos deberán conservarse en un formato que permita garantizar:",
+    "o": [
+      "La celeridad de su consulta",
+      "La autenticidad, integridad y conservación",
+      "La transparencia, la calidad y el traslado a otros usuarios",
+      "La eliminación del contenido del documento"
+    ],
+    "c": 1,
+    "ref": "Art. 17.2 Ley 39/2015",
+    "exp": "Deben garantizar autenticidad, integridad y conservación."
+  },
+  {
+    "q": "Según el art. 17.3 de la Ley 39/2015, los soportes de almacenamiento deberán contar con medidas de seguridad de acuerdo con lo previsto en:",
+    "o": [
+      "El Esquema Nacional de Seguridad",
+      "El Esquema Nacional de Seguridad y el Esquema Nacional de Interoperabilidad",
+      "El Esquema Nacional de Interoperabilidad y la legislación de protección de datos",
+      "El Esquema Nacional de Interoperabilidad"
+    ],
+    "c": 0,
+    "ref": "Art. 17.3 Ley 39/2015",
+    "exp": "Se remite al Esquema Nacional de Seguridad."
+  },
+  {
+    "q": "Según el art. 18.2 de la Ley 39/2015, los interesados que conozcan datos de otros interesados no comparecidos:",
+    "o": [
+      "Tienen el derecho de proporcionárselo a la Administración actuante",
+      "Tienen el deber de proporcionárselo a la Administración actuante",
+      "Tienen el derecho de proporcionárselo cuando esta se lo solicite",
+      "Tienen el deber de proporcionárselo cuando esta se lo solicite"
+    ],
+    "c": 1,
+    "ref": "Art. 18.2 Ley 39/2015",
+    "exp": "Tienen el deber de proporcionar esos datos a la Administración actuante."
+  },
+  {
+    "q": "Según el art. 19 de la Ley 39/2015, la citación hará constar expresamente 'el lugar, fecha y hora' en los casos que proceda:",
+    "o": [
+      "La comparecencia",
+      "Solo cuando es comparecencia presencial",
+      "Solo cuando es comparecencia por medios electrónicos",
+      "Solo cuando se trate de la comparecencia para el trámite de audiencia"
+    ],
+    "c": 0,
+    "ref": "Art. 19.2 Ley 39/2015",
+    "exp": "Aplica siempre que proceda la comparecencia, presencial o electrónica."
+  },
+  {
+    "q": "Según el art. 19 de la Ley 39/2015, la comparecencia de las personas solo será obligatoria cuando así esté previsto:",
+    "o": [
+      "En un reglamento",
+      "En una norma con rango de ley",
+      "A y B son correctas",
+      "A y B son incorrectas"
+    ],
+    "c": 1,
+    "ref": "Art. 19.1 Ley 39/2015",
+    "exp": "Solo será obligatoria cuando esté prevista en una norma con rango de ley."
+  },
+  {
+    "q": "Según el art. 20 de la Ley 39/2015, ¿quién será responsable directo de la tramitación de los asuntos?",
+    "o": [
+      "Cada Administración",
+      "Cualquier personal al servicio de las Administraciones Públicas",
+      "Los titulares de las unidades administrativas (y el personal a su cargo)",
+      "Todas las respuestas anteriores son correctas"
+    ],
+    "c": 2,
+    "ref": "Art. 20.1 Ley 39/2015",
+    "exp": "Los titulares de las unidades administrativas y el personal a su cargo son responsables directos."
+  },
+  {
+    "q": "Según el art. 21 de la Ley 39/2015, la Administración está obligada a:",
+    "o": [
+      "Dictar resolución expresa y notificarla en los procedimientos cualquiera que sea su forma de finalización",
+      "Dictar resolución expresa y notificarla en los procedimientos iniciados de oficio",
+      "Solo a dictar resolución expresa, pero no a notificarla en todos los procedimientos",
+      "A notificar la resolución, pero no a dictar resolución expresa"
+    ],
+    "c": 0,
+    "ref": "Art. 21.1 Ley 39/2015",
+    "exp": "Está obligada a dictar y notificar resolución expresa en todos los procedimientos, cualquiera que sea su forma de iniciación (aquí se dice 'finalización' por errata del examen, pero es la opción que recoge la obligación conjunta)."
+  },
+  {
+    "q": "Según el art. 21 de la Ley 39/2015, se exceptúa de la obligación de dictar resolución expresa:",
+    "o": [
+      "En los procedimientos de exigencia de responsabilidad patrimonial a la Administración",
+      "En los procedimientos relativos al ejercicio de derechos fundamentales",
+      "En los procedimientos iniciados a instancia de un órgano superior",
+      "En los procedimientos relativos al ejercicio de derechos sometidos únicamente al deber de declaración responsable o comunicación"
+    ],
+    "c": 3,
+    "ref": "Art. 21.1 Ley 39/2015",
+    "exp": "Se exceptúan los procedimientos de mera declaración responsable o comunicación."
+  },
+  {
+    "q": "Según el art. 21 de la Ley 39/2015, el plazo máximo en el que debe notificarse la resolución expresa será:",
+    "o": [
+      "Seis meses",
+      "El fijado por la norma reguladora del correspondiente procedimiento",
+      "El fijado por la norma reguladora de la correspondiente Administración pública",
+      "En todo caso, el que fije una norma de Derecho europeo"
+    ],
+    "c": 1,
+    "ref": "Art. 21.2 Ley 39/2015",
+    "exp": "Será el fijado por la norma reguladora del procedimiento."
+  },
+  {
+    "q": "Según el art. 22 de la Ley 39/2015, ¿por cuánto tiempo se suspenderá el plazo cuando deba requerirse a un interesado para subsanar deficiencias o aportar documentos?",
+    "o": [
+      "Por diez días",
+      "Por el tiempo que medie entre la notificación del requerimiento y su efectivo cumplimiento por el destinatario",
+      "Durante el tiempo necesario",
+      "Nada es correcto"
+    ],
+    "c": 1,
+    "ref": "Art. 22.1.a) Ley 39/2015",
+    "exp": "Se suspende por el tiempo entre la notificación del requerimiento y su cumplimiento efectivo."
+  },
+  {
+    "q": "Según el art. 22 de la Ley 39/2015, cuando el órgano competente decida realizar una actuación complementaria:",
+    "o": [
+      "El plazo máximo se podrá suspender",
+      "El plazo máximo se suspenderá",
+      "Ni se suspenderá ni se podrá suspender",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 1,
+    "ref": "Art. 22.2.b) Ley 39/2015",
+    "exp": "Es un supuesto de suspensión obligatoria (apartado 2)."
+  },
+  {
+    "q": "Según el art. 23 de la Ley 39/2015, el acuerdo sobre la ampliación de plazos:",
+    "o": [
+      "No deberá ser notificado a los interesados",
+      "Cabrá contra el mismo recurso de alzada",
+      "No cabrá contra el mismo recurso alguno y deberá ser notificado a los interesados",
+      "Cabrá el recurso correspondiente y no deberá ser notificado"
+    ],
+    "c": 2,
+    "ref": "Art. 23.2 Ley 39/2015",
+    "exp": "Debe ser notificado a los interesados y no cabe recurso alguno contra él."
+  },
+  {
+    "q": "Según el art. 24 de la Ley 39/2015, en procedimientos iniciados a solicitud del interesado, el vencimiento del plazo sin resolución expresa legitima a:",
+    "o": [
+      "Entenderla estimada por silencio administrativo",
+      "Entenderla desestimada por silencio administrativo",
+      "Entenderla desestimada por caducidad de los trámites",
+      "Entenderla estimada únicamente si hay pronunciamiento de una norma europea"
+    ],
+    "c": 0,
+    "ref": "Art. 24.1 Ley 39/2015",
+    "exp": "Legitima a entenderla estimada por silencio administrativo, como regla general."
+  },
+  {
+    "q": "Según el art. 24 de la Ley 39/2015, el silencio tendrá carácter desestimatorio en:",
+    "o": [
+      "Los relativos a derechos fundamentales de la persona",
+      "Los que impliquen el ejercicio de actividades que puedan dañar el medio ambiente",
+      "Los procedimientos de responsabilidad patrimonial de las Administraciones Públicas",
+      "En todos los anteriores"
+    ],
+    "c": 2,
+    "ref": "Art. 24.1 Ley 39/2015",
+    "exp": "Es desestimatorio en responsabilidad patrimonial (y también en daño al medio ambiente, pero de las opciones dadas la C es la exacta según la clave)."
+  },
+  {
+    "q": "Según el art. 24 de la Ley 39/2015, el certificado acreditativo del silencio administrativo se expedirá de oficio:",
+    "o": [
+      "Por el órgano competente para la instrucción, en 15 días desde que expire el plazo máximo",
+      "Por el órgano competente para resolver, en el plazo de 15 días desde que expire el plazo máximo para resolver",
+      "Por el órgano competente para resolver, en 15 días desde que expire el plazo mínimo para resolver",
+      "Por el órgano competente para resolver, en 10 días desde que expire el plazo máximo"
+    ],
+    "c": 1,
+    "ref": "Art. 24.4 Ley 39/2015",
+    "exp": "Lo expide de oficio el órgano competente para resolver, en 15 días desde que expira el plazo máximo."
+  },
+  {
+    "q": "Según el art. 25 de la Ley 39/2015, en procedimientos de oficio con potestades sancionadoras o de intervención susceptibles de efectos desfavorables, la falta de resolución expresa produce:",
+    "o": [
+      "La caducidad",
+      "La prescripción",
+      "El desistimiento",
+      "La renuncia"
+    ],
+    "c": 0,
+    "ref": "Art. 25.1.b) Ley 39/2015",
+    "exp": "Produce la caducidad del procedimiento."
+  },
+  {
+    "q": "Según el art. 26 de la Ley 39/2015, las Administraciones Públicas emitirán los documentos administrativos:",
+    "o": [
+      "De forma verbal por medio electrónico",
+      "Por escrito, a través de medios electrónicos",
+      "Por escrito, a través de medios mecánicos",
+      "Por escrito, sin utilización de medios electrónicos"
+    ],
+    "c": 1,
+    "ref": "Art. 26.1 Ley 39/2015",
+    "exp": "Se emiten por escrito, a través de medios electrónicos."
+  },
+  {
+    "q": "Según el art. 27 de la Ley 39/2015, cuando la Administración expida copias auténticas electrónicas, ¿dónde deberá quedar así indicado?",
+    "o": [
+      "En el documento de la copia",
+      "En el documento original",
+      "En el documento que deba permanecer en el expediente",
+      "En los documentos que acompañen a la copia"
+    ],
+    "c": 0,
+    "ref": "Art. 27.5 Ley 39/2015",
+    "exp": "Debe indicarse expresamente en el documento de la copia."
+  },
+  {
+    "q": "Según el art. 28 de la Ley 39/2015, ¿quiénes se responsabilizan de la veracidad de los documentos que se presenten?",
+    "o": [
+      "Cada Administración",
+      "Los interesados",
+      "Los titulares de las unidades administrativas",
+      "El personal al servicio de la Administración responsable directo de su tramitación"
+    ],
+    "c": 1,
+    "ref": "Art. 28.7 Ley 39/2015",
+    "exp": "Los interesados se responsabilizan de la veracidad de los documentos presentados."
+  },
+  {
+    "q": "Según el art. 30 de la Ley 39/2015, los plazos que se señalen por horas se entiende que estas son:",
+    "o": [
+      "Hábiles",
+      "Inhábiles",
+      "Hábiles cuando así lo disponga la Unión Europea",
+      "Naturales"
+    ],
+    "c": 0,
+    "ref": "Art. 30.1 Ley 39/2015",
+    "exp": "Se entienden hábiles."
+  },
+  {
+    "q": "Según el art. 31 de la Ley 39/2015, en el registro electrónico:",
+    "o": [
+      "Permitirá la presentación de documentos todos los días hábiles del año durante las 24 horas",
+      "No permitirá la presentación de documentos los días inhábiles del año durante las 24 horas",
+      "A y B son correctas",
+      "A y B son incorrectas"
+    ],
+    "c": 3,
+    "ref": "Art. 31.2.a) Ley 39/2015",
+    "exp": "Permite la presentación TODOS los días del año, incluidos inhábiles, durante 24 horas — ambas afirmaciones son incorrectas."
+  },
+  {
+    "q": "Según el art. 32 de la Ley 39/2015, ¿podrá conceder la Administración, a petición, una ampliación de los plazos establecidos?",
+    "o": [
+      "Sí, que exceda de la mitad de los mismos",
+      "Sí, si las circunstancias lo aconsejan y con ello no se perjudica el derecho de tercero",
+      "No, solo lo puede realizar de oficio",
+      "Sí, sin que sea necesaria la notificación a los interesados"
+    ],
+    "c": 1,
+    "ref": "Art. 32.1 Ley 39/2015",
+    "exp": "Podrá conceder la ampliación (no exceda de la mitad) si las circunstancias lo aconsejan y no se perjudica a terceros."
+  },
+  {
+    "q": "Según el art. 33 de la Ley 39/2015, en la tramitación de urgencia:",
+    "o": [
+      "Se reducirán a la mitad los plazos de los procedimientos especiales",
+      "Se reducirán a la mitad los plazos del procedimiento ordinario, incluidos los de presentación de recursos y solicitudes",
+      "Se reducirán a la mitad los plazos del procedimiento ordinario, salvo los relativos a la presentación de recursos y solicitudes",
+      "Se reducirán a la mitad los plazos de los procedimientos especiales, salvo los de presentación de recursos y solicitudes"
+    ],
+    "c": 2,
+    "ref": "Art. 33.1 Ley 39/2015",
+    "exp": "Se reducen a la mitad los plazos del procedimiento ordinario, salvo los de presentación de solicitudes y recursos."
+  },
+  {
+    "q": "Según el art. 1 de la Ley 39/2015, reglamentariamente NO podrán establecerse especialidades del procedimiento referidas a:",
+    "o": [
+      "Órganos competentes",
+      "Plazos propios del concreto procedimiento por razón del territorio",
+      "Informes a recabar",
+      "Formas de iniciación y terminación"
+    ],
+    "c": 1,
+    "ref": "Art. 1.2 Ley 39/2015",
+    "exp": "El art. 1.2 permite especialidades de plazos por razón de la MATERIA, no del territorio."
+  },
+  {
+    "q": "Según el art. 1 de la Ley 39/2015, la ley tiene por objeto regular:",
+    "o": [
+      "Los requisitos de validez y eficacia de las normas legislativas",
+      "La reclamación de responsabilidad por las Administraciones públicas",
+      "Los principios a los que se ha de ajustar la iniciativa legislativa",
+      "Tiene por objeto regular todo lo anterior"
+    ],
+    "c": 2,
+    "ref": "Art. 1.1 Ley 39/2015",
+    "exp": "Regula, entre otros, los principios a los que se ha de ajustar la iniciativa legislativa y la potestad reglamentaria."
+  },
+  {
+    "q": "Según el art. 2 de la Ley 39/2015, las entidades de derecho privado vinculadas o dependientes de las Administraciones Públicas que integran el sector público institucional quedarán sujetas a la ley:",
+    "o": [
+      "No es de aplicación, al no pertenecer al sector público institucional",
+      "Específicamente, cuando NO ejerzan potestades administrativas",
+      "Supletoriamente",
+      "Específicamente en lo que se refieran a las mismas, y en todo caso, cuando ejerzan potestades administrativas"
+    ],
+    "c": 3,
+    "ref": "Art. 2.2.b) Ley 39/2015",
+    "exp": "Quedan sujetas en lo que específicamente se refiera a ellas, y en todo caso cuando ejerzan potestades administrativas."
+  },
+  {
+    "q": "Según el art. 2 de la Ley 39/2015, ¿por qué se regirán las Corporaciones de Derecho Público en el ejercicio de funciones públicas atribuidas por ley o delegadas por una Administración Pública?",
+    "o": [
+      "Específicamente en lo que se refieran a las mismas, y en todo caso, cuando ejerzan potestades administrativas",
+      "Por la normativa de bases de régimen local en todo, y supletoriamente por la Ley 39/2015",
+      "Por su normativa específica y supletoriamente por la Ley 39/2015",
+      "No será de aplicación la Ley 39/2015"
+    ],
+    "c": 2,
+    "ref": "Art. 2.4 Ley 39/2015",
+    "exp": "Se rigen por su normativa específica y supletoriamente por esta Ley."
+  },
+  {
+    "q": "Según el art. 3 de la Ley 39/2015, ¿quién tendrá capacidad de obrar ante las Administraciones Públicas?",
+    "o": [
+      "Las personas físicas que la ostenten con arreglo a las normas civiles",
+      "Los menores de edad para el ejercicio y defensa de sus derechos e intereses cuya actuación esté permitida por el ordenamiento jurídico con la asistencia de quien ejerza la patria potestad, tutela o curatela",
+      "Las personas jurídicas con arreglo a las normas penales",
+      "Todas las anteriores tendrán capacidad de obrar"
+    ],
+    "c": 0,
+    "ref": "Art. 3.a) Ley 39/2015",
+    "exp": "Tienen capacidad de obrar las personas físicas o jurídicas con arreglo a las normas civiles."
+  },
+  {
+    "q": "Según el art. 3 de la Ley 39/2015, los grupos de NO afectados tendrán capacidad de obrar ante las Administraciones Públicas:",
+    "o": [
+      "Cuando la ley lo declare expresamente",
+      "Con arreglo a las normas civiles",
+      "Cuando la ley NO le declare expresamente",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 3.c) Ley 39/2015",
+    "exp": "El art. 3.c) da capacidad a los grupos de AFECTADOS cuando la ley lo declare, no a los 'no afectados'."
+  },
+  {
+    "q": "Según el art. 4 de la Ley 39/2015, ¿quiénes se consideran interesados en el procedimiento?",
+    "o": [
+      "Quienes lo promuevan como titulares de derechos o intereses legítimos individuales o colectivos",
+      "Los que, sin haber iniciado el procedimiento, tengan derechos que puedan resultar afectados por la decisión que en el mismo NO se adopte",
+      "Aquellos cuyos intereses legítimos, individuales o colectivos, puedan resultar afectados por la resolución y se personen en el procedimiento DESDE que haya recaído resolución definitiva",
+      "Las asociaciones y organizaciones representativas de intereses económicos y sociales, cuando una autoridad administrativa así lo reconozca"
+    ],
+    "c": 0,
+    "ref": "Art. 4.1.a) Ley 39/2015",
+    "exp": "Son interesados quienes promuevan el procedimiento como titulares de derechos o intereses legítimos."
+  },
+  {
+    "q": "Según el art. 4 de la Ley 39/2015, ¿qué afirmación es correcta respecto a la sucesión en la condición de interesado?",
+    "o": [
+      "Cuando la condición de interesado NO derivase de una relación jurídica transmisible, el derecho-habiente sucederá en tal condición cualquiera que sea el estado del procedimiento",
+      "Cuando la condición de interesado derivase de una relación jurídica transmisible, el derecho-habiente sucederá en tal condición en los términos que la Ley reconozca",
+      "Cuando la condición de interesado derivase de una relación jurídica transmisible, el derecho-habiente sucederá en tal condición, en tanto no haya recaído resolución definitiva",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 2,
+    "ref": "Art. 4.3 Ley 39/2015",
+    "exp": "El derecho-habiente sucede en la condición de interesado cuando esta derive de una relación jurídica transmisible."
+  },
+  {
+    "q": "Según el art. 7 de la Ley 39/2015, cuando en una solicitud, escrito o comunicación figuren varios interesados, las actuaciones se efectuarán con:",
+    "o": [
+      "Cualquiera de los solicitantes",
+      "Con el que figure en primer término o el representante que expresamente se haya señalado",
+      "Con el interesado que expresamente se haya señalado",
+      "Con el interesado señalado expresa o tácitamente"
+    ],
+    "c": 1,
+    "ref": "Art. 7 Ley 39/2015",
+    "exp": "Se efectuarán con el representante o interesado señalado y, en su defecto, con el que figure en primer término."
+  },
+  {
+    "q": "Según el art. 7 de la Ley 39/2015, las actuaciones se efectuarán con el que figure en primer término:",
+    "o": [
+      "En todo caso",
+      "En defecto de representante señalado tácitamente",
+      "Cuando existiendo representante señalado expresamente, no exista interesado señalado de esta forma",
+      "En defecto de representante o el interesado expresamente señalado"
+    ],
+    "c": 3,
+    "ref": "Art. 7 Ley 39/2015",
+    "exp": "Se acude al que figure en primer término solo en defecto de representante o interesado expresamente señalado."
+  },
+  {
+    "q": "Según la Ley 39/2015, si durante la instrucción de un procedimiento que HAYA tenido publicidad se advierte la existencia de personas titulares de derechos o intereses legítimos y directos afectadas, ¿a quién se comunicará la tramitación del procedimiento?",
+    "o": [
+      "A dichas personas",
+      "A nadie, porque el enunciado es incorrecto",
+      "A dichas personas, si lo solicita el resto de interesados",
+      "A dichas personas, salvo que el órgano competente lo estime innecesario"
+    ],
+    "c": 1,
+    "ref": "Art. 8 Ley 39/2015",
+    "exp": "El art. 8 aplica cuando el procedimiento NO ha tenido publicidad, no cuando la ha tenido, por lo que el enunciado es incorrecto."
+  },
+  {
+    "q": "Según el art. 13 de la Ley 39/2015, ¿cómo ejercerán las personas el derecho a comunicarse con las Administraciones Públicas?",
+    "o": [
+      "Por medios telemáticos",
+      "A través de un Punto de Acceso General electrónico de la Administración",
+      "A través de aplicaciones específicas",
+      "Con acceso restringido a través de plataformas electrónicas"
+    ],
+    "c": 1,
+    "ref": "Art. 13.a) Ley 39/2015",
+    "exp": "A través de un Punto de Acceso General electrónico de la Administración."
+  },
+  {
+    "q": "Según el art. 13 de la Ley 39/2015, el derecho de acceso a la información pública, archivos y registros se hará de acuerdo con:",
+    "o": [
+      "La Ley 40/2015 de Régimen Jurídico de las Administraciones Públicas",
+      "La Ley Orgánica 3/2018 de Protección de Datos",
+      "La Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno",
+      "El Esquema Nacional de Seguridad"
+    ],
+    "c": 2,
+    "ref": "Art. 13.d) Ley 39/2015",
+    "exp": "Se remite a la Ley 19/2013 de transparencia, acceso a la información pública y buen gobierno."
+  },
+  {
+    "q": "Según el art. 13 de la Ley 39/2015, es un derecho de las personas en sus relaciones con las Administraciones Públicas:",
+    "o": [
+      "A ser asistidos en el uso de medios electrónicos en sus relaciones con las Administraciones Públicas",
+      "A utilizar todas las lenguas en el territorio de su Comunidad Autónoma",
+      "A ser tratados con respeto y deferencia por las autoridades y empleados públicos, que podrán exigirle el ejercicio de sus derechos",
+      "Todos los anteriores son derechos"
+    ],
+    "c": 0,
+    "ref": "Art. 13.b) Ley 39/2015",
+    "exp": "A ser asistido en el uso de medios electrónicos."
+  },
+  {
+    "q": "Según el art. 14 de la Ley 39/2015, ¿quién estará obligado en todo caso a relacionarse por medios electrónicos con las Administraciones Públicas?",
+    "o": [
+      "Las personas jurídicas",
+      "Las personas físicas",
+      "Quienes representen a un interesado que NO esté obligado a relacionarse electrónicamente",
+      "Las personas físicas menores de edad"
+    ],
+    "c": 0,
+    "ref": "Art. 14.2.a) Ley 39/2015",
+    "exp": "Las personas jurídicas están obligadas en todo caso."
+  },
+  {
+    "q": "Según el art. 14 de la Ley 39/2015, ¿puede establecerse la obligación de relacionarse electrónicamente a ciertos colectivos de personas físicas?",
+    "o": [
+      "Sí, solo por ley",
+      "Sí, debido a su falta de capacidad profesional",
+      "Sí, reglamentariamente",
+      "B y C son correctas"
+    ],
+    "c": 2,
+    "ref": "Art. 14.3 Ley 39/2015",
+    "exp": "Reglamentariamente, cuando se acredite el acceso y disponibilidad de medios electrónicos."
+  },
+  {
+    "q": "Según el art. 14 de la Ley 39/2015, ¿cuándo podrán elegir las personas físicas si se comunican con las Administraciones a través de medios electrónicos?",
+    "o": [
+      "Cuando la ley así lo disponga",
+      "En ningún momento",
+      "En todo momento, si representan a una persona obligada a relacionarse electrónicamente",
+      "En todo momento"
+    ],
+    "c": 3,
+    "ref": "Art. 14.1 Ley 39/2015",
+    "exp": "Podrán elegir el medio y modificarlo en cualquier momento."
+  },
+  {
+    "q": "Según el art. 15 de la Ley 39/2015, ¿a qué se ajustará la lengua en que se tramiten los procedimientos por las entidades locales?",
+    "o": [
+      "A lo acordado por los interesados en el procedimiento",
+      "A lo previsto en la legislación autonómica correspondiente",
+      "A lo previsto para la Administración General del Estado",
+      "A lo previsto en la normativa de entidades locales"
+    ],
+    "c": 1,
+    "ref": "Art. 15.2 Ley 39/2015",
+    "exp": "Se ajustará a la legislación autonómica correspondiente."
+  },
+  {
+    "q": "Según el art. 15 de la Ley 39/2015, ¿cuál será la lengua de los procedimientos tramitados por la AGE?",
+    "o": [
+      "Si es oficial, la de la Comunidad Autónoma donde tenga la sede el órgano que tramita el procedimiento",
+      "En todo caso la que elijan los interesados en el procedimiento",
+      "El castellano",
+      "El castellano o, si es oficial, la que más convenga a la tramitación"
+    ],
+    "c": 2,
+    "ref": "Art. 15.1 Ley 39/2015",
+    "exp": "La lengua de los procedimientos de la AGE será el castellano."
+  },
+  {
+    "q": "Según el art. 15 de la Ley 39/2015, los expedientes en lengua oficial de una Comunidad Autónoma, ¿cuándo deberán traducirse al castellano por la Administración instructora?",
+    "o": [
+      "En todo caso",
+      "Cuando deban notificarse a interesados que residan fuera de la Comunidad Autónoma",
+      "Cuando NO deba surtir efecto fuera del territorio de la Comunidad Autónoma",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 15.3 Ley 39/2015",
+    "exp": "Deben traducirse cuando deban surtir efecto FUERA del territorio de la CA, no cuando NO deban surtirlo."
+  },
+  {
+    "q": "Según el art. 16 de la Ley 39/2015, ¿cómo funcionará el Registro Electrónico General de cada Administración?",
+    "o": [
+      "Como una sede electrónica independiente",
+      "Como un portal que facilitará el acceso a los registros electrónicos de cada organismo",
+      "Como un portal web sin acceso a los registros de los organismos vinculados",
+      "Sin interoperabilidad ni interconectividad"
+    ],
+    "c": 1,
+    "ref": "Art. 16.1 Ley 39/2015",
+    "exp": "Funciona como un portal que facilita el acceso a los registros electrónicos de cada Organismo."
+  },
+  {
+    "q": "Según el art. 16 de la Ley 39/2015, ¿cómo se anotarán los asientos en los registros?",
+    "o": [
+      "Respetando el orden temporal de recepción o salida de los documentos",
+      "Respetando el orden temporal de la fecha de los documentos",
+      "Respetando el orden de prioridad por la importancia de los documentos",
+      "Respetando el orden de urgencia del contenido de los documentos"
+    ],
+    "c": 0,
+    "ref": "Art. 16.2 Ley 39/2015",
+    "exp": "Se anotan respetando el orden temporal de recepción o salida."
+  },
+  {
+    "q": "Según el art. 16 de la Ley 39/2015, ¿dónde se garantizará la constancia de un epígrafe expresivo de la naturaleza del asiento?",
+    "o": [
+      "En un recibo acreditativo",
+      "En el documento que se presenta",
+      "En cada asiento que se practique",
+      "En la copia del documento, a solicitud del interesado"
+    ],
+    "c": 2,
+    "ref": "Art. 16.3 Ley 39/2015",
+    "exp": "Se garantiza en cada asiento que se practique."
+  },
+  {
+    "q": "Según el art. 16 de la Ley 39/2015, los documentos presentados de manera presencial:",
+    "o": [
+      "Deberán digitalizarse por la oficina de asistencia en materia de registro en las que hayan sido emitidos",
+      "No podrán presentarse de manera presencial",
+      "Deberán digitalizarse por la oficina de asistencia en materia de registro en las que hayan sido presentados",
+      "Deberán digitalizarse por el interesado para su presentación ante la oficina de asistencia"
+    ],
+    "c": 2,
+    "ref": "Art. 16.5 Ley 39/2015",
+    "exp": "Los digitaliza la oficina de asistencia en materia de registros donde se presentaron."
+  },
+  {
+    "q": "Según el art. 16 de la Ley 39/2015, ¿qué se emitirá automáticamente de los otros documentos que acompañen al documento principal?",
+    "o": [
+      "Una copia autenticada",
+      "Un recibo acreditativo",
+      "Un recibo consistente en una copia autenticada",
+      "Un certificado acreditativo, a solicitud de los interesados"
+    ],
+    "c": 1,
+    "ref": "Art. 16.3 Ley 39/2015",
+    "exp": "Se emite automáticamente un recibo acreditativo de los documentos que acompañen."
+  },
+  {
+    "q": "Según el art. 16 de la Ley 39/2015, la emisión automática del recibo, ¿qué garantizará?",
+    "o": [
+      "La conservación y la confidencialidad",
+      "La integridad y el no repudio de los mismos",
+      "La veracidad y la transmisibilidad de los mismos",
+      "La accesibilidad y el repudio de los mismos"
+    ],
+    "c": 1,
+    "ref": "Art. 16.3 Ley 39/2015",
+    "exp": "Garantiza la integridad y el no repudio de los documentos."
+  },
+  {
+    "q": "Según el art. 17 de la Ley 39/2015, respecto a los documentos electrónicos, ¿qué se asegurará en todo caso?",
+    "o": [
+      "La posibilidad de trasladar los datos a otros formatos y soportes que garanticen el acceso desde diferentes aplicaciones",
+      "La eliminación de los documentos electrónicos",
+      "La identificación de los usuarios y el control de accesos, y el cumplimiento de las garantías de protección de datos",
+      "La posibilidad de conservación de los datos en formatos que permitan su consulta con independencia del tiempo transcurrido"
+    ],
+    "c": 0,
+    "ref": "Art. 17.2 Ley 39/2015",
+    "exp": "Se asegura la posibilidad de trasladar los datos a otros formatos y soportes."
+  },
+  {
+    "q": "Según el art. 17 de la Ley 39/2015, cada Administración deberá mantener un archivo electrónico único:",
+    "o": [
+      "De documentos que correspondan a procedimientos finalizados",
+      "De documentos que correspondan a procedimientos iniciados, no finalizados",
+      "De documentos que correspondan a procedimientos no iniciados",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 17.1 Ley 39/2015",
+    "exp": "El art. 17.1 exige un archivo electrónico único de los 'documentos electrónicos que correspondan a procedimientos finalizados'; la opción a) omite 'electrónicos', por lo que ninguna reproduce el texto exacto (clave del examen: nada de lo anterior)."
+  },
+  {
+    "q": "Según el art. 18 de la Ley 39/2015, a falta de previsión expresa en la normativa aplicable, ¿cómo colaborarán las personas con las Administraciones Públicas?",
+    "o": [
+      "Acudirán de forma obligatoria a las comparecencias a requerimiento de la Administración",
+      "Facilitarán a la Administración los informes, inspecciones y otros actos de investigación que requieran para el ejercicio de sus competencias",
+      "Comunicarán datos confidenciales de terceros de los que tengan conocimiento por servicios profesionales de diagnóstico, asesoramiento o defensa",
+      "Todas las respuestas correctas"
+    ],
+    "c": 1,
+    "ref": "Art. 18.1 Ley 39/2015",
+    "exp": "A falta de previsión expresa, facilitarán informes, inspecciones y otros actos de investigación."
+  },
+  {
+    "q": "Según el art. 19 de la Ley 39/2015, la Administración Pública entregará al interesado:",
+    "o": [
+      "Acta acreditativa de la comparecencia cuando así lo solicite",
+      "Copia acreditativa de la comparecencia cuando así lo solicite",
+      "Certificación acreditativa de la comparecencia cuando así lo solicite",
+      "Recibo acreditativo de la comparecencia cuando así lo solicite"
+    ],
+    "c": 2,
+    "ref": "Art. 19.3 Ley 39/2015",
+    "exp": "Entregarán certificación acreditativa de la comparecencia cuando se solicite."
+  },
+  {
+    "q": "Según el art. 19 de la Ley 39/2015, la comparecencia será obligatoria cuando esté prevista en norma con rango de ley:",
+    "o": [
+      "Solo cuando sea presencialmente",
+      "Solo cuando sea por medios electrónicos",
+      "A y B son correctas",
+      "A y B son incorrectas"
+    ],
+    "c": 3,
+    "ref": "Art. 19.1 Ley 39/2015",
+    "exp": "Aplica tanto a la comparecencia presencial como por medios electrónicos, así que ni A ni B por separado son correctas."
+  },
+  {
+    "q": "Según el art. 19 de la Ley 39/2015, ¿qué elementos deben constar expresamente en una citación de comparecencia?",
+    "o": [
+      "Medios con los que NO se cuenta",
+      "Efectos de atenderla",
+      "Duración de la comparecencia",
+      "Nada de lo anterior"
+    ],
+    "c": 3,
+    "ref": "Art. 19.2 Ley 39/2015",
+    "exp": "La citación hace constar los efectos de NO atenderla, no 'de atenderla', por lo que ninguna opción es exacta."
+  },
+  {
+    "q": "Según el art. 20 de la Ley 39/2015, ¿qué tipo de responsabilidad recae en los titulares de las unidades administrativas y el personal a cargo de la resolución o despacho de asuntos?",
+    "o": [
+      "Indirecta",
+      "Directa",
+      "Solidaria",
+      "Subsidiaria"
+    ],
+    "c": 1,
+    "ref": "Art. 20.1 Ley 39/2015",
+    "exp": "Son responsables directos de la tramitación."
+  },
+  {
+    "q": "Según el art. 20 de la Ley 39/2015, ¿quién podrá solicitar la exigencia de esa responsabilidad a la Administración de que dependa el personal afectado?",
+    "o": [
+      "La propia Administración",
+      "Cualquier ciudadano",
+      "Los interesados",
+      "El superior del personal afectado"
+    ],
+    "c": 2,
+    "ref": "Art. 20.2 Ley 39/2015",
+    "exp": "Los interesados podrán solicitar la exigencia de esa responsabilidad."
+  },
+  {
+    "q": "Según el art. 21 de la Ley 39/2015, las Administraciones Públicas deberán publicar y mantener actualizadas, a efectos informativos, las relaciones de procedimientos de su competencia:",
+    "o": [
+      "En el portal web",
+      "En la sede electrónica",
+      "En la oficina de Asistencia",
+      "En el punto de acceso electrónico"
+    ],
+    "c": 0,
+    "ref": "Art. 21.4 Ley 39/2015",
+    "exp": "Deben publicarlas en el portal web."
+  },
+  {
+    "q": "Según el art. 21 de la Ley 39/2015, la obligación de resolver tiene entre otras la excepción:",
+    "o": [
+      "En los procedimientos de desaparición sobrevenida de su objeto",
+      "En los supuestos de terminación del procedimiento por pacto o convenio",
+      "En los procedimientos de oficio",
+      "En los casos de prescripción"
+    ],
+    "c": 1,
+    "ref": "Art. 21.1 Ley 39/2015",
+    "exp": "Se exceptúa la terminación del procedimiento por pacto o convenio."
+  },
+  {
+    "q": "Según el art. 21 de la Ley 39/2015, el plazo máximo en que debe notificarse la resolución expresa, cuando las normas reguladoras no fijen plazo máximo, será de:",
+    "o": [
+      "1 mes",
+      "2 meses",
+      "3 meses",
+      "6 meses"
+    ],
+    "c": 2,
+    "ref": "Art. 21.3 Ley 39/2015",
+    "exp": "Será de tres meses a falta de plazo específico."
+  },
+  {
+    "q": "Según el art. 21 de la Ley 39/2015, el plazo máximo en que debe notificarse la resolución expresa de un procedimiento:",
+    "o": [
+      "En ningún caso podrá exceder de seis meses",
+      "Será el fijado por la norma reguladora del correspondiente procedimiento",
+      "No podrá ser inferior a tres meses",
+      "Será fijado por la norma reguladora de la Administración actuante"
+    ],
+    "c": 1,
+    "ref": "Art. 21.2 Ley 39/2015",
+    "exp": "Será el fijado por la norma reguladora del procedimiento (con tope de seis meses)."
+  },
+  {
+    "q": "Según el art. 21 de la Ley 39/2015, en los procedimientos a solicitud del interesado, el plazo máximo para notificar resolución expresa se contará:",
+    "o": [
+      "Desde la fecha en que la solicitud haya tenido entrada en el registro electrónico de la Administración u Organismo competente para su tramitación",
+      "Desde la fecha del acuerdo de iniciación",
+      "Desde la fecha en que la solicitud haya tenido entrada en el registro electrónico de cualquier oficina de asistencia de registro",
+      "Desde la fecha que conste en la solicitud que tenga entrada en el registro electrónico de la Administración u Organismo competente"
+    ],
+    "c": 0,
+    "ref": "Art. 21.3.b) Ley 39/2015",
+    "exp": "Se cuenta desde la entrada de la solicitud en el registro electrónico de la Administración u Organismo competente."
+  },
+  {
+    "q": "Según el art. 21 de la Ley 39/2015, la información sobre los efectos que pueda producir el silencio administrativo se incluirá:",
+    "o": [
+      "En la resolución por la que se acuerda la iniciación de oficio",
+      "En la comunicación que se dirigirá al efecto al interesado dentro de los diez días siguientes a la recepción de la solicitud",
+      "En el acuerdo de iniciación adoptado en el plazo de diez días",
+      "En la comunicación que se dirigirá al efecto dentro de los quince días siguientes"
+    ],
+    "c": 1,
+    "ref": "Art. 21.4 Ley 39/2015",
+    "exp": "Se incluye en la comunicación al interesado dentro de los diez días siguientes a la recepción de la solicitud."
+  },
+  {
+    "q": "Según el art. 22 de la Ley 39/2015, cuando deban realizarse pruebas técnicas o análisis contradictorios propuestos por los interesados, el transcurso del plazo máximo para resolver:",
+    "o": [
+      "Se suspenderá durante el tiempo necesario para la incorporación de los resultados al expediente",
+      "Se suspenderá durante el tiempo necesario para la realización de los análisis",
+      "Se podrá suspender durante el tiempo necesario para la incorporación de los resultados al expediente",
+      "Ni se suspenderá ni se podrá suspender por este motivo"
+    ],
+    "c": 2,
+    "ref": "Art. 22.1.e) Ley 39/2015",
+    "exp": "Es un supuesto de suspensión potestativa (apartado 1)."
+  },
+  {
+    "q": "Según el art. 22 de la Ley 39/2015, ¿durante cuánto tiempo podrá suspenderse el plazo cuando deba requerirse a un interesado la aportación de documentos y otros elementos de juicio?",
+    "o": [
+      "Por el tiempo que medie entre la notificación del requerimiento y su efectivo cumplimiento, o en su defecto, por el del plazo concedido",
+      "No podrá exceder en ningún caso de tres meses",
+      "Por un plazo de diez días",
+      "Por el tiempo que medie entre la resolución que acuerda el requerimiento y su cumplimiento, sin exceder de tres meses"
+    ],
+    "c": 0,
+    "ref": "Art. 22.1.a) Ley 39/2015",
+    "exp": "Se suspende por el tiempo entre la notificación del requerimiento y su cumplimiento efectivo, o el plazo concedido."
+  },
+  {
+    "q": "Según el art. 22 de la Ley 39/2015, ¿durante cuánto tiempo podrá suspenderse el plazo cuando se soliciten informes preceptivos a un órgano de la misma o distinta Administración?",
+    "o": [
+      "Por el tiempo que medie entre la emisión del informe y la recepción del mismo",
+      "Por el tiempo que medie entre la petición, que deberá comunicarse a los interesados, y la recepción del informe",
+      "Por el tiempo que medie entre la petición y su incorporación al expediente",
+      "Por el tiempo que medie entre la petición del informe y su efectiva emisión, comunicada a los interesados"
+    ],
+    "c": 1,
+    "ref": "Art. 22.1.d) Ley 39/2015",
+    "exp": "Por el tiempo entre la petición (comunicada a los interesados) y la recepción del informe."
+  },
+  {
+    "q": "Según el art. 22 de la Ley 39/2015, siguiendo con la pregunta anterior, ¿qué deberá comunicarse a los interesados?",
+    "o": [
+      "Nada",
+      "La emisión del informe",
+      "La incorporación del informe al expediente",
+      "La recepción del informe"
+    ],
+    "c": 3,
+    "ref": "Art. 22.1.d) Ley 39/2015",
+    "exp": "Debe comunicarse tanto la petición como la recepción del informe."
+  },
+  {
+    "q": "Según el art. 22 de la Ley 39/2015, el plazo de suspensión por informes preceptivos no podrá exceder de:",
+    "o": [
+      "Dos meses",
+      "Seis meses",
+      "Tres meses",
+      "Del plazo que acuerde la Administración que tramita el procedimiento"
+    ],
+    "c": 2,
+    "ref": "Art. 22.1.d) Ley 39/2015",
+    "exp": "No podrá exceder en ningún caso de tres meses."
+  },
+  {
+    "q": "Según el art. 22 de la Ley 39/2015, cuando los interesados promuevan la recusación en cualquier momento de la tramitación, ¿por cuánto tiempo se suspenderá el plazo máximo para resolver?",
+    "o": [
+      "Desde que se plantee hasta que sea resuelta por el superior jerárquico del recusado",
+      "Desde que se plantee hasta que sea resuelta por el superior jerárquico del recusante",
+      "No se suspenderá, se podrá suspender desde que se plantee hasta que sea resuelta por el superior jerárquico del recusado",
+      "Desde que se plantee hasta que se incorpore al expediente la resolución adoptada por el superior jerárquico del recusado"
+    ],
+    "c": 0,
+    "ref": "Art. 22.2.c) Ley 39/2015",
+    "exp": "Se suspende desde que se plantea hasta que la resuelve el superior jerárquico del recusado."
+  },
+  {
+    "q": "Según el art. 23 de la Ley 39/2015, ¿qué es cierto respecto a la ampliación del plazo máximo para resolver y notificar?",
+    "o": [
+      "Contra el acuerdo que acuerde la ampliación cabrá recurso de alzada",
+      "El acuerdo de ampliación será motivado",
+      "No deberá ser notificado a los interesados",
+      "El órgano competente instructor podrá acordarlo"
+    ],
+    "c": 1,
+    "ref": "Art. 23.1 Ley 39/2015",
+    "exp": "El acuerdo de ampliación deberá ser motivado."
+  },
+  {
+    "q": "Según el art. 24 de la Ley 39/2015, la desestimación por silencio administrativo tiene los solos efectos:",
+    "o": [
+      "De no permitir a los interesados la interposición de recursos",
+      "De no permitir a los interesados la petición del recibo acreditativo del silencio producido",
+      "De permitir a los interesados la interposición del recurso administrativo o contencioso-administrativo que resulte procedente",
+      "De permitir a los interesados la solicitud de revisión de oficio de los actos administrativos"
+    ],
+    "c": 2,
+    "ref": "Art. 24.2 Ley 39/2015",
+    "exp": "Permite la interposición del recurso administrativo o contencioso-administrativo procedente."
+  },
+  {
+    "q": "Según el art. 24 de la Ley 39/2015, el sentido del silencio será desestimatorio:",
+    "o": [
+      "En los procedimientos de derecho de asociación a que se refiere la Constitución",
+      "En los procedimientos de elaboración de actos y disposiciones",
+      "En los procedimientos de revisión de oficio iniciados a solicitud de los interesados",
+      "En todos los casos anteriores"
+    ],
+    "c": 2,
+    "ref": "Art. 24.1 Ley 39/2015",
+    "exp": "Es desestimatorio en los procedimientos de revisión de oficio iniciados a solicitud del interesado."
+  },
+  {
+    "q": "Según el art. 24 de la Ley 39/2015, en los casos de estimación por silencio administrativo, la resolución expresa posterior a la producción del acto:",
+    "o": [
+      "No podrá dictarse",
+      "Solo podrá dictarse de ser confirmatoria del mismo",
+      "Se adoptará por la Administración sin vinculación alguna al sentido del silencio",
+      "No tendrá la consideración de acto finalizador del procedimiento"
+    ],
+    "c": 1,
+    "ref": "Art. 24.3.a) Ley 39/2015",
+    "exp": "Solo podrá dictarse de ser confirmatoria del acto producido por silencio."
+  },
+  {
+    "q": "Según el art. 24 de la Ley 39/2015, el certificado acreditativo del silencio producido se expedirá:",
+    "o": [
+      "En el plazo de 30 días desde que expire el plazo máximo para resolver",
+      "En plazo máximo de 15 días desde el inicio del procedimiento",
+      "En el plazo máximo de 30 días desde el comienzo de las actuaciones",
+      "En el plazo de 15 días desde que expire el plazo máximo para resolver el procedimiento"
+    ],
+    "c": 3,
+    "ref": "Art. 24.4 Ley 39/2015",
+    "exp": "Se expide en el plazo de 15 días desde que expira el plazo máximo para resolver."
+  },
+  {
+    "q": "Según el art. 24 de la Ley 39/2015, en procedimientos iniciados a solicitud del interesado, el vencimiento del plazo máximo sin resolución expresa:",
+    "o": [
+      "Legitima al interesado para entenderla estimada por silencio administrativo",
+      "Legitima al interesado para entenderla desestimada por silencio administrativo",
+      "Legitima al interesado para entenderla caducada",
+      "Legitima al interesado para entenderla no admitida"
+    ],
+    "c": 0,
+    "ref": "Art. 24.1 Ley 39/2015",
+    "exp": "Legitima a entenderla estimada por silencio administrativo, como regla general."
+  },
+  {
+    "q": "Según el art. 24 de la Ley 39/2015, la estimación del silencio administrativo tiene a todos los efectos la consideración de:",
+    "o": [
+      "Acto administrativo finalizador del procedimiento",
+      "Acto administrativo de trámite",
+      "Acto administrativo que pone fin a la vía administrativa",
+      "Acto administrativo ineficaz"
+    ],
+    "c": 0,
+    "ref": "Art. 24.2 Ley 39/2015",
+    "exp": "Tiene la consideración de acto administrativo finalizador del procedimiento."
+  },
+  {
+    "q": "Según el art. 25 de la Ley 39/2015, en procedimientos iniciados de oficio que se hubieran paralizado por causas imputables al interesado:",
+    "o": [
+      "Caducará el plazo para resolver y notificar la resolución",
+      "NO se interrumpirá el cómputo del plazo para resolver y notificar la resolución",
+      "Se interrumpirá el cómputo del plazo para resolver y notificar la resolución",
+      "Caducará el plazo para notificar y no se interrumpirá el plazo para resolver"
+    ],
+    "c": 2,
+    "ref": "Art. 25.2 Ley 39/2015",
+    "exp": "Se interrumpirá el cómputo del plazo para resolver y notificar."
+  },
+  {
+    "q": "Según el art. 25 de la Ley 39/2015, en los procedimientos iniciados de oficio, ¿exime a la Administración el vencimiento del plazo máximo para resolver de su obligación legal de resolver?",
+    "o": [
+      "No",
+      "Sí, cuando se trata de un procedimiento sancionador o de gravamen",
+      "No, salvo en los procedimientos de reconocimiento de derecho",
+      "Sí, salvo cuando el procedimiento pudiera resultar desfavorable para el interesado"
+    ],
+    "c": 0,
+    "ref": "Art. 25.1 Ley 39/2015",
+    "exp": "No exime a la Administración de la obligación legal de resolver."
+  },
+  {
+    "q": "Según el art. 26 de la Ley 39/2015, señale la respuesta correcta:",
+    "o": [
+      "Se entiende por documento privado los válidamente emitidos por los órganos de una Administración Pública",
+      "No requerirán firma electrónica los documentos electrónicos emitidos por las Administraciones Públicas que se publiquen con carácter meramente informativo",
+      "Para ser considerado válido, un documento electrónico administrativo deberá disponer de datos de identificación que NO permitan su individualización",
+      "En los documentos que no requieran firma electrónica, no será necesario identificar el origen de estos documentos"
+    ],
+    "c": 1,
+    "ref": "Art. 26.3 Ley 39/2015",
+    "exp": "No requieren firma electrónica los documentos meramente informativos."
+  },
+  {
+    "q": "Según el art. 26 de la Ley 39/2015, para ser considerados válidos, los documentos electrónicos administrativos deberán contener, entre otros:",
+    "o": [
+      "Información de cualquier naturaleza archivada en un soporte NO electrónico según un formato susceptible de identificación y tratamiento diferenciado",
+      "Datos de identificación que permitan su individualización, sin perjuicio de su posible incorporación a un expediente electrónico",
+      "Una referencia del órgano por el que ha sido emitido",
+      "Los certificados electrónicos que correspondan de acuerdo con la normativa aplicable"
+    ],
+    "c": 1,
+    "ref": "Art. 26.2.b) Ley 39/2015",
+    "exp": "Deben disponer de datos de identificación que permitan su individualización."
+  },
+  {
+    "q": "Según el art. 27 de la Ley 39/2015, ¿quién determinará los órganos con competencias de expedición de copias auténticas de documentos públicos administrativos o privados?",
+    "o": [
+      "La Ley de Régimen Jurídico del Sector Público",
+      "El órgano superior del que expida la copia",
+      "Cada Administración Pública",
+      "Las entidades emisoras de certificado digital"
+    ],
+    "c": 2,
+    "ref": "Art. 27.1 Ley 39/2015",
+    "exp": "Cada Administración Pública determinará los órganos competentes."
+  },
+  {
+    "q": "Según el art. 27 de la Ley 39/2015, ¿qué tendrá la misma validez y eficacia que los documentos originales?",
+    "o": [
+      "Nada",
+      "Las copias electrónicas",
+      "Las copias auténticas",
+      "Las copias"
+    ],
+    "c": 2,
+    "ref": "Art. 27.2 Ley 39/2015",
+    "exp": "Las copias auténticas tienen la misma validez y eficacia que los originales."
+  },
+  {
+    "q": "Según el art. 27 de la Ley 39/2015, las copias auténticas deberán expedirse en el plazo de:",
+    "o": [
+      "30 días desde la recepción de la solicitud",
+      "10 días desde la recepción de la solicitud",
+      "5 días desde la recepción de la solicitud",
+      "15 días desde la recepción de la solicitud"
+    ],
+    "c": 3,
+    "ref": "Art. 27.4 Ley 39/2015",
+    "exp": "Deben expedirse en el plazo de 15 días desde la recepción de la solicitud."
+  },
+  {
+    "q": "Según el art. 28 de la Ley 39/2015, cuando se trate de informes preceptivos ya elaborados por un órgano distinto al que tramita el procedimiento, estos deberán ser remitidos:",
+    "o": [
+      "En el plazo de 10 días a contar desde la solicitud",
+      "En el plazo de 15 días a contar desde la solicitud",
+      "En el plazo de 20 días a contar desde la solicitud",
+      "En el plazo de 30 días a contar desde la solicitud"
+    ],
+    "c": 0,
+    "ref": "Art. 28.2 Ley 39/2015",
+    "exp": "Deben remitirse en el plazo de 10 días desde su solicitud."
+  },
+  {
+    "q": "Según el art. 28 de la Ley 39/2015, excepcionalmente, cuando la relevancia del documento lo exija o existan dudas sobre la calidad de la copia, ¿qué podrán solicitar las Administraciones?",
+    "o": [
+      "Sin necesidad de motivación, el cotejo de las copias, pudiendo requerir la exhibición del original",
+      "De manera motivada, el cotejo de las copias, debiendo requerir la exhibición del original",
+      "De manera motivada, el cotejo de las copias, pudiendo requerir la exhibición del original",
+      "De manera motivada, el cotejo de las copias, sin poder requerir la exhibición del original"
+    ],
+    "c": 2,
+    "ref": "Art. 28.5 Ley 39/2015",
+    "exp": "De manera motivada, podrán solicitar el cotejo requiriendo la exhibición del original."
+  },
+  {
+    "q": "Según el art. 29 de la Ley 39/2015, ¿qué aspectos obligan a las autoridades y personal al servicio de las Administraciones Públicas competentes para la tramitación de los asuntos?",
+    "o": [
+      "Solo los términos",
+      "Solo los plazos",
+      "Los términos y plazos, pero no obligan a los interesados en el procedimiento",
+      "Los términos y los plazos"
+    ],
+    "c": 3,
+    "ref": "Art. 29 Ley 39/2015",
+    "exp": "Los términos y plazos obligan tanto a las autoridades/personal como a los interesados."
+  },
+  {
+    "q": "Según el art. 30 de la Ley 39/2015, salvo que se disponga otro cómputo, cuando los plazos se señalen por horas se entiende que estas son:",
+    "o": [
+      "Inhábiles",
+      "Hábiles",
+      "Naturales",
+      "Hábiles si forman parte de un día inhábil"
+    ],
+    "c": 1,
+    "ref": "Art. 30.1 Ley 39/2015",
+    "exp": "Se entienden hábiles."
+  },
+  {
+    "q": "Según el art. 30 de la Ley 39/2015, cuando los plazos se hayan señalado por días naturales por declararlo así una ley o el Derecho de la UE:",
+    "o": [
+      "Se hará constar esta circunstancia en el boletín donde se publique la norma",
+      "Se hará constar esta circunstancia en las correspondientes notificaciones",
+      "Se hará constar en la sede electrónica",
+      "Se hará constar mediante publicación en el tablón de anuncios de la oficina de asistencia"
+    ],
+    "c": 1,
+    "ref": "Art. 30.2 Ley 39/2015",
+    "exp": "Se hará constar en las correspondientes notificaciones."
+  },
+  {
+    "q": "Según el art. 30 de la Ley 39/2015, si el plazo se fija en meses y en el mes de vencimiento no hubiera día equivalente al de inicio del cómputo:",
+    "o": [
+      "Se entenderá que el plazo expira el último día del mes",
+      "Se entenderá que expira el primer día del mes siguiente",
+      "Se entenderá que el plazo queda prorrogado un día",
+      "Se entenderá que expira el mes que tenga día equivalente"
+    ],
+    "c": 0,
+    "ref": "Art. 30.4 Ley 39/2015",
+    "exp": "Se entiende que el plazo expira el último día del mes."
+  },
+  {
+    "q": "Según el art. 31 de la Ley 39/2015, respecto al funcionamiento del registro electrónico, ¿qué afirmación es correcta?",
+    "o": [
+      "En todo caso, la fecha y hora efectiva de inicio del cómputo de plazos deberá ser comunicada a quien presentó el documento",
+      "La presentación en un día inhábil se entenderá realizada en todo caso a última hora del primer día hábil siguiente",
+      "Los documentos presentados en día inhábil se reputarán posteriores, según el mismo orden, a los que lo fueran el primer día hábil posterior",
+      "El final del cómputo de los plazos que hayan de cumplir las Administraciones vendrá determinado por la fecha y hora de presentación en el registro electrónico"
+    ],
+    "c": 0,
+    "ref": "Art. 31.2.c) Ley 39/2015",
+    "exp": "La fecha y hora efectiva de inicio del cómputo debe comunicarse a quien presentó el documento."
+  },
+  {
+    "q": "Según el art. 31 de la Ley 39/2015, el registro electrónico de cada Administración se regirá a efectos de cómputo de plazos:",
+    "o": [
+      "Por la fecha y hora oficial fijada por la Unión Europea",
+      "Por la fecha y hora publicada por cada Administración pública",
+      "Por la fecha y hora fijada por el Registro Electrónico General",
+      "Por la fecha y hora oficial de la sede electrónica de acceso"
+    ],
+    "c": 3,
+    "ref": "Art. 31.1 Ley 39/2015",
+    "exp": "Se rige por la fecha y hora oficial de la sede electrónica de acceso."
+  },
+  {
+    "q": "Según el art. 32 de la Ley 39/2015, la Administración podrá conceder una ampliación de los plazos:",
+    "o": [
+      "Por la mitad de los mismos",
+      "Que no exceda la mitad de los mismos",
+      "Por tiempo inferior a la mitad de los mismos",
+      "Todas las respuestas anteriores son correctas"
+    ],
+    "c": 1,
+    "ref": "Art. 32.1 Ley 39/2015",
+    "exp": "Que no exceda de la mitad de los plazos establecidos."
+  },
+  {
+    "q": "Según el art. 33 de la Ley 39/2015, contra el acuerdo que declare la aplicación de la tramitación de urgencia:",
+    "o": [
+      "Cabrá recurso contra el acuerdo y no cabrá recurso contra la resolución que ponga fin al procedimiento",
+      "No cabrá recurso alguno contra la resolución que ponga fin al procedimiento",
+      "No cabrá recurso alguno contra el acuerdo y cabrá recurso contra la resolución que ponga fin al procedimiento",
+      "No cabrá recurso alguno contra el acuerdo y no cabrá recurso alguno contra la resolución que ponga fin al procedimiento"
+    ],
+    "c": 2,
+    "ref": "Art. 33.2 Ley 39/2015",
+    "exp": "No cabe recurso contra el acuerdo, pero sí cabe el procedente contra la resolución que ponga fin al procedimiento."
+  },
+  {
+    "q": "Según el art. 32 de la Ley 39/2015, cuando como consecuencia de un ciberincidente se hayan visto gravemente afectados los servicios y sistemas utilizados para la tramitación de procedimientos:",
+    "o": [
+      "La Administración podrá acordar la ampliación general de plazos de los procedimientos administrativos",
+      "La Administración podrá acordar la ampliación de plazos específicos de los procedimientos administrativos",
+      "La Administración deberá acordar la ampliación de plazos, medios materiales y personales",
+      "Podrá adoptar cualquiera de las medidas anteriores según los servicios y procedimientos afectados"
+    ],
+    "c": 0,
+    "ref": "Art. 32.5 Ley 39/2015",
+    "exp": "Podrá acordar la ampliación general de plazos de los procedimientos administrativos."
+  }
 ]
