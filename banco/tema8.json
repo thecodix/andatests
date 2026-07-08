@@ -1,32 +1,974 @@
 [
-{"q":"¿En qué precepto constitucional se fundamenta el derecho de acceso a la información pública (art. 12)?","o":["Artículo 103.b) CE","Artículo 105.b) CE","Artículo 23 CE","Artículo 20 CE"],"c":1,"ref":"Art. 12 Ley 19/2013","exp":"Todas las personas tienen derecho a acceder a la información pública en los términos previstos en el artículo 105.b) de la Constitución, desarrollados por esta Ley."},
-{"q":"¿Quién tiene derecho a acceder a la información pública según el artículo 12?","o":["Solo los interesados","Todas las personas","Solo los ciudadanos españoles","Solo quienes acrediten interés legítimo"],"c":1,"ref":"Art. 12 Ley 19/2013","exp":"Todas las personas tienen derecho a acceder a la información pública, sin necesidad de acreditar interés."},
-{"q":"Se entiende por información pública (art. 13):","o":["Solo los documentos publicados en el BOE","Los contenidos o documentos que obren en poder de los sujetos obligados y hayan sido elaborados o adquiridos en el ejercicio de sus funciones","Únicamente datos estadísticos","Las leyes y reglamentos"],"c":1,"ref":"Art. 13 Ley 19/2013","exp":"Es información pública los contenidos o documentos, cualquiera que sea su formato o soporte, que obren en poder de los sujetos obligados y hayan sido elaborados o adquiridos en el ejercicio de sus funciones."},
-{"q":"¿Está obligado el solicitante a motivar su solicitud de acceso (art. 17.3)?","o":["Sí, siempre","No está obligado a motivarla, aunque puede exponer los motivos","Solo si es funcionario","Sí, por escrito notarial"],"c":1,"ref":"Art. 17.3 Ley 19/2013","exp":"El solicitante no está obligado a motivar su solicitud; la ausencia de motivación no será por sí sola causa de rechazo."},
-{"q":"El plazo máximo para resolver y notificar una solicitud de acceso a la información es de (art. 20.1):","o":["10 días","15 días","Un mes, ampliable por otro mes","Tres meses"],"c":2,"ref":"Art. 20.1 Ley 19/2013","exp":"La resolución debe notificarse en el plazo máximo de un mes desde la recepción de la solicitud, ampliable por otro mes en caso de volumen o complejidad."},
-{"q":"Transcurrido el plazo máximo sin resolución expresa, la solicitud de acceso se entiende (art. 20.4):","o":["Estimada","Desestimada","Caducada","Pendiente"],"c":1,"ref":"Art. 20.4 Ley 19/2013","exp":"Transcurrido el plazo máximo sin resolución expresa, se entenderá que la solicitud ha sido desestimada (silencio negativo)."},
-{"q":"¿Cuál de los siguientes es un límite al derecho de acceso (art. 14)?","o":["El color político del solicitante","La seguridad nacional","La nacionalidad del solicitante","La hora de la solicitud"],"c":1,"ref":"Art. 14.1 Ley 19/2013","exp":"Entre los límites figuran la seguridad nacional, la defensa, las relaciones exteriores, la seguridad pública, los intereses económicos y comerciales, etc."},
-{"q":"La aplicación de los límites al derecho de acceso (art. 14.2) debe ser:","o":["Automática","Justificada y proporcionada a su objeto y finalidad de protección","Discrecional","Secreta"],"c":1,"ref":"Art. 14.2 Ley 19/2013","exp":"La aplicación de los límites será justificada y proporcionada a su objeto y finalidad de protección, atendiendo a las circunstancias del caso concreto."},
-{"q":"Si la información contiene datos que revelan la ideología o afiliación sindical (art. 15.1), el acceso:","o":["Está siempre prohibido","Solo se autoriza con consentimiento expreso y por escrito del afectado, salvo que los hubiera hecho públicos","Es libre","Se concede previa tasa"],"c":1,"ref":"Art. 15.1 Ley 19/2013","exp":"Si los datos revelan ideología, afiliación sindical, religión o creencias, el acceso solo se autoriza con consentimiento expreso y por escrito del afectado, salvo que los hubiese hecho públicos."},
-{"q":"El acceso parcial (art. 16) procede cuando:","o":["El solicitante lo pide","Un límite no afecta a la totalidad de la información, omitiéndose la parte afectada","Hay varios solicitantes","Lo decide el tercero afectado"],"c":1,"ref":"Art. 16 Ley 19/2013","exp":"Cuando el límite no afecte a la totalidad de la información, se concederá acceso parcial omitiendo la parte afectada, salvo que resulte distorsionada, indicándolo al solicitante."},
-{"q":"¿Cuál es una causa de inadmisión de la solicitud de acceso (art. 18)?","o":["Que el solicitante sea extranjero","Que se refiera a información en curso de elaboración o de carácter auxiliar o de apoyo","Que no pague tasa","Que la pida por escrito"],"c":1,"ref":"Art. 18.1 Ley 19/2013","exp":"Se inadmiten, entre otras, las solicitudes sobre información en curso de elaboración, de carácter auxiliar o de apoyo, que requiera reelaboración, o manifiestamente repetitivas o abusivas."},
-{"q":"Si la solicitud no identifica suficientemente la información, se pide al solicitante que la concrete en un plazo de (art. 19.2):","o":["5 días","10 días","15 días","1 mes"],"c":1,"ref":"Art. 19.2 Ley 19/2013","exp":"Se pedirá al solicitante que concrete la información en un plazo de diez días, con suspensión del plazo para resolver y advertencia de tenerle por desistido."},
-{"q":"Si la información afecta a derechos o intereses de terceros, se les concede un plazo de alegaciones de (art. 19.3):","o":["10 días","15 días","20 días","1 mes"],"c":1,"ref":"Art. 19.3 Ley 19/2013","exp":"A los terceros afectados se les concede un plazo de quince días para alegaciones, suspendiéndose el plazo para resolver."},
-{"q":"Con carácter general, el acceso a la información es (art. 22.4):","o":["De pago","Gratuito, sin perjuicio de exacciones por expedición de copias","Cobrado por tasa fija","Gratuito solo para investigadores"],"c":1,"ref":"Art. 22.4 Ley 19/2013","exp":"El acceso a la información será gratuito, aunque la expedición de copias o el cambio de formato pueden dar lugar a exacciones conforme a la normativa de tasas."},
-{"q":"El acceso a la información se realizará preferentemente (art. 22.1):","o":["En papel","Por vía electrónica","Mediante comparecencia personal","Por correo postal"],"c":1,"ref":"Art. 22.1 Ley 19/2013","exp":"El acceso se realizará preferentemente por vía electrónica, salvo cuando no sea posible o el solicitante señale expresamente otro medio."},
-{"q":"El órgano de control del cumplimiento de la Ley de Transparencia estatal es:","o":["El Tribunal de Cuentas","El Consejo de Transparencia y Buen Gobierno","La AEPD","El Defensor del Pueblo"],"c":1,"ref":"Art. 23 y 24 Ley 19/2013","exp":"El Consejo de Transparencia y Buen Gobierno (CTBG) conoce de las reclamaciones y vela por el cumplimiento de las obligaciones de transparencia."},
-{"q":"La reclamación ante el Consejo de Transparencia y Buen Gobierno (art. 24) tiene carácter:","o":["Obligatorio","Potestativo y previo a la impugnación contencioso-administrativa","Judicial","Definitivo sin recurso"],"c":1,"ref":"Art. 24.1 Ley 19/2013","exp":"Frente a toda resolución en materia de acceso puede interponerse reclamación ante el CTBG, con carácter potestativo y previo a la vía contencioso-administrativa."},
-{"q":"El plazo para interponer la reclamación ante el Consejo de Transparencia es de (art. 24.2):","o":["15 días","1 mes","2 meses","3 meses"],"c":1,"ref":"Art. 24.2 Ley 19/2013","exp":"La reclamación se interpone en el plazo de un mes desde la notificación del acto impugnado o desde que se produzcan los efectos del silencio."},
-{"q":"El plazo máximo para resolver la reclamación ante el Consejo de Transparencia es de (art. 24.4):","o":["1 mes","2 meses","3 meses, entendiéndose desestimada","6 meses"],"c":2,"ref":"Art. 24.4 Ley 19/2013","exp":"El plazo máximo para resolver y notificar es de tres meses, transcurrido el cual la reclamación se entiende desestimada."},
-{"q":"La reclamación ante el Consejo de Transparencia (art. 23.1) tiene la consideración de:","o":["Recurso de alzada","Sustitutiva de los recursos administrativos","Recurso de reposición","Recurso de revisión"],"c":1,"ref":"Art. 23.1 Ley 19/2013","exp":"La reclamación tiene la consideración de sustitutiva de los recursos administrativos."},
-{"q":"Las resoluciones en materia de acceso a la información son recurribles (art. 20.5):","o":["Solo en alzada","Directamente ante la Jurisdicción Contencioso-administrativa, sin perjuicio de la reclamación potestativa","Ante el Tribunal Constitucional","Ante el Defensor del Pueblo"],"c":1,"ref":"Art. 20.5 Ley 19/2013","exp":"Son recurribles directamente ante la Jurisdicción Contencioso-administrativa, sin perjuicio de la reclamación potestativa ante el CTBG."},
-{"q":"El incumplimiento reiterado de la obligación de resolver en plazo las solicitudes de acceso (art. 20.6) se considera:","o":["Falta leve","Infracción grave a efectos disciplinarios","Delito","Irregularidad no sancionable"],"c":1,"ref":"Art. 20.6 Ley 19/2013","exp":"El incumplimiento reiterado de la obligación de resolver en plazo tendrá la consideración de infracción grave a efectos del régimen disciplinario."},
-{"q":"Cuando una resolución deniega el acceso, debe ser (art. 20.2):","o":["Verbal","Motivada","Anónima","Publicada en el BOE"],"c":1,"ref":"Art. 20.2 Ley 19/2013","exp":"Serán motivadas las resoluciones que denieguen el acceso, las que concedan acceso parcial o por modalidad distinta, y las que lo permitan pese a la oposición de un tercero."},
-{"q":"Si la información ya ha sido publicada, la resolución (art. 22.3):","o":["Deniega el acceso","Podrá limitarse a indicar al solicitante cómo acceder a ella","Obliga a reelaborarla","Exige nueva solicitud"],"c":1,"ref":"Art. 22.3 Ley 19/2013","exp":"Si la información ya ha sido publicada, la resolución podrá limitarse a indicar al solicitante el modo de acceder a ella."},
-{"q":"La Ley 19/2013 se estructura en torno a tres ejes. ¿Cuál de estos lo es?","o":["Publicidad activa, derecho de acceso y buen gobierno","Sanciones, recursos y multas","Contratación, personal y presupuesto","Registro, archivo y sede electrónica"],"c":0,"ref":"Ley 19/2013","exp":"La Ley se asienta en tres ejes: el incremento de la transparencia mediante publicidad activa, el reconocimiento del derecho de acceso a la información, y las obligaciones de buen gobierno."},
-{"q":"Cuando se inadmite una solicitud porque el órgano no posee la información pero se desconoce el competente (art. 18.2), el órgano debe:","o":["Archivar sin más","Indicar en la resolución el órgano que, a su juicio, es competente","Remitir al BOE","Denegar definitivamente"],"c":1,"ref":"Art. 18.2 Ley 19/2013","exp":"En ese caso, el órgano que acuerde la inadmisión deberá indicar en la resolución el órgano que, a su juicio, es competente para conocer de la solicitud."},
-{"q":"En el ámbito de la AGE, las unidades de información (art. 21) tienen, entre otras funciones:","o":["Sancionar a los solicitantes","Recibir y tramitar las solicitudes de acceso y llevar su registro","Elaborar los presupuestos","Nombrar funcionarios"],"c":1,"ref":"Art. 21.2 Ley 19/2013","exp":"Las unidades especializadas reciben y tramitan las solicitudes, realizan los trámites internos, hacen seguimiento y llevan un registro de las solicitudes de acceso."},
-{"q":"El acceso a información que contenga datos meramente identificativos relacionados con la organización o actividad pública del órgano (art. 15.2):","o":["Se deniega siempre","Se concederá con carácter general, salvo que prevalezca otra protección","Requiere consentimiento","Solo se da a investigadores"],"c":1,"ref":"Art. 15.2 Ley 19/2013","exp":"Con carácter general se concederá el acceso a información con datos meramente identificativos relacionados con la organización, funcionamiento o actividad pública, salvo que prevalezca la protección de datos u otros derechos."},
-{"q":"Si el acceso se efectúa previa disociación de los datos personales (art. 15.4):","o":["No será aplicable el régimen de protección de datos de los apartados anteriores","Se deniega igualmente","Requiere consentimiento del afectado","Se cobra una tasa"],"c":0,"ref":"Art. 15.4 Ley 19/2013","exp":"No será aplicable el régimen de los apartados anteriores si el acceso se efectúa previa disociación de los datos personales de modo que se impida la identificación de las personas."},
-{"q":"La competencia para conocer de las reclamaciones puede atribuirse a un órgano autonómico específico (art. 24.6) en virtud de:","o":["Un reglamento estatal","La disposición adicional cuarta de la Ley y la decisión de la Comunidad Autónoma","Una orden ministerial","El CTBG"],"c":1,"ref":"Art. 24.6 Ley 19/2013","exp":"La competencia corresponde al CTBG salvo que las Comunidades Autónomas la atribuyan a un órgano específico, conforme a la disposición adicional cuarta."}
+  {
+    "q": "Según el art. 12 de la Ley de Transparencia, ¿a qué tienen derecho todas las personas?",
+    "o": [
+      "A la modificación de la información pública, en los términos previstos en el artículo 105.b) de la Constitución Española",
+      "A la eliminación de su información pública, en los términos previstos en el artículo 105.b) de la Constitución Española",
+      "A acceder a la información pública, en los términos previstos en el artículo 105.b) de la Constitución Española",
+      "A acceder a la información privada, en los términos previstos en el artículo 105.b) de la Constitución Española"
+    ],
+    "c": 2,
+    "ref": "Art. 12 Ley 19/2013",
+    "exp": "El art. 12 reconoce el derecho de todas las personas a acceder a la información pública en los términos del art. 105.b) CE."
+  },
+  {
+    "q": "Según el art. 13 de la Ley de Transparencia, ¿qué se entiende por información pública?",
+    "o": [
+      "Los contenidos o documentos, cualquiera que sea su formato o soporte, que obren en poder de alguno de los sujetos incluidos en el ámbito de aplicación de la mencionada ley y que hayan sido elaborados o adquiridos en el ejercicio de sus funciones",
+      "Los contenidos, documentos y soportes, cualquiera que sea su formato, que obren en poder de alguno de los sujetos incluidos en el ámbito de aplicación de este título y que hayan sido elaborados o adquiridos en el ejercicio de sus funciones",
+      "Los contenidos o documentos, salvo los que sean formato electrónico, que obren en poder de alguno de los sujetos incluidos en el ámbito de aplicación de la mencionada ley y que hayan sido elaborados o adquiridos en el ejercicio de sus funciones",
+      "Los contenidos o documentos, cualquiera que sea su formato o soporte, que obren en poder de alguno de los sujetos incluidos en el ámbito de aplicación de la mencionada ley y que hayan sido sometido a un proceso de elaboración por un tercero"
+    ],
+    "c": 0,
+    "ref": "Art. 13 Ley 19/2013",
+    "exp": "Información pública son los contenidos o documentos, cualquiera que sea su formato o soporte, en poder de los sujetos incluidos y elaborados o adquiridos en el ejercicio de sus funciones."
+  },
+  {
+    "q": "Según el art. 14 de la Ley de Transparencia, el derecho de acceso podrá ser limitado cuando acceder a la información suponga un perjuicio para:",
+    "o": [
+      "El procedimiento administrativo",
+      "La seguridad privada",
+      "La política social y asistencial",
+      "El secreto profesional y la propiedad intelectual e industrial"
+    ],
+    "c": 3,
+    "ref": "Art. 14 Ley 19/2013",
+    "exp": "El art. 14 incluye entre los límites el perjuicio para el secreto profesional y la propiedad intelectual e industrial."
+  },
+  {
+    "q": "Según el art. 14 de la Ley de Transparencia, la aplicación de los límites a que se refiere las preguntas anteriores será:",
+    "o": [
+      "Segura y confidencial",
+      "Imparcial y profesional",
+      "Justificada y proporcionada",
+      "Mínima y concreta"
+    ],
+    "c": 2,
+    "ref": "Art. 14.2 Ley 19/2013",
+    "exp": "La aplicación de los límites será justificada y proporcionada a su objeto y finalidad de protección."
+  },
+  {
+    "q": "Según el art. 15 de la Ley de Transparencia, si la información solicitada contuviera datos personales que revelen la ideología, el acceso únicamente se podrá autorizar en caso de que se contase con:",
+    "o": [
+      "El consentimiento expreso previsto en una ley",
+      "El consentimiento expreso y por escrito del afectado",
+      "El consentimiento expreso o tácito y por escrito del afectado",
+      "La aceptación expresa o tácita del afectado"
+    ],
+    "c": 1,
+    "ref": "Art. 15.1 Ley 19/2013",
+    "exp": "Para datos especialmente protegidos como la ideología se requiere el consentimiento expreso y por escrito del afectado."
+  },
+  {
+    "q": "Según el art. 15 de la Ley de Transparencia, si la información incluyese datos genéticos o biométricos el acceso solo se podrá autorizar:",
+    "o": [
+      "En caso de que se cuente con el consentimiento expreso o tácito del afectado",
+      "Estuviera amparado por una norma con rango de ley",
+      "A y B son correctas",
+      "A y B son incorrectas"
+    ],
+    "c": 1,
+    "ref": "Art. 15.1 Ley 19/2013",
+    "exp": "Para datos genéticos o biométricos el acceso solo se autoriza con consentimiento expreso o si está amparado por una norma con rango de ley."
+  },
+  {
+    "q": "Según el art. 15 de la Ley de Transparencia, cuando la información solicitada no contuviera datos especialmente protegidos, el órgano al que se dirija la solicitud concederá el acceso previa ponderación suficientemente razonada. ¿Qué tomará particularmente en consideración para realizar la ponderación?",
+    "o": [
+      "La justificación por los solicitantes de su petición en el ejercicio de un derecho o el hecho de que tengan la condición de investigadores y motiven el acceso para fines lucrativos o comerciales",
+      "El menor perjuicio de los derechos de los afectados en caso de que los documentos únicamente contuviesen datos de carácter especiales contemplado en el reglamento de protección de datos",
+      "La mayor garantía de los derechos de los afectados en caso de que los datos contenidos en el documento puedan afectar a su intimidad o a su seguridad, o se refieran a menores de edad",
+      "El mayor perjuicio a los afectados derivado del transcurso de los plazos establecidos en el artículo 57 de la Ley 16/1985, de 25 de junio, del Patrimonio Histórico Español"
+    ],
+    "c": 2,
+    "ref": "Art. 15.3 Ley 19/2013",
+    "exp": "Se tomará en consideración la mayor garantía de los derechos de los afectados cuando los datos puedan afectar a su intimidad, seguridad o se refieran a menores."
+  },
+  {
+    "q": "Según el art. 16 de la Ley de Transparencia, en los casos en que la aplicación de alguno de los límites previstos en el artículo 14 de la mencionada ley no afecte a la totalidad de la información:",
+    "o": [
+      "Se concederá el acceso total a la información",
+      "No se concederá ningún acceso",
+      "Se podrá conceder el acceso parcial a la información, previa omisión de la información afectada por el límite",
+      "Se concederá el acceso parcial previa omisión de la información afectada por el límite salvo que de ello resulte una información distorsionada o que carezca de sentido"
+    ],
+    "c": 3,
+    "ref": "Art. 16 Ley 19/2013",
+    "exp": "Según la clave original del examen era C, corregida por el PDF de correcciones a D: se concederá el acceso parcial salvo que resulte información distorsionada o sin sentido (art. 16)."
+  },
+  {
+    "q": "Según el art. 16 de la Ley de Transparencia, en el caso de que se conceda el acceso parcial, ¿qué deberá indicarse al solicitante?",
+    "o": [
+      "Que parte de la información hay que solicitarla a través de mandato judicial",
+      "Que parte de la información ha sido omitida",
+      "Que parte de la información carece de sentido",
+      "Que parte de la solicitud está distorsionada"
+    ],
+    "c": 1,
+    "ref": "Art. 16 Ley 19/2013",
+    "exp": "En el acceso parcial deberá indicarse al solicitante qué parte de la información ha sido omitida."
+  },
+  {
+    "q": "Según el art. 17 de la Ley de Transparencia, el procedimiento para el ejercicio del derecho de acceso:",
+    "o": [
+      "Se iniciará de oficio con la presentación de la correspondiente solicitud",
+      "Se iniciará con la aceptación de la correspondiente solicitud",
+      "Se iniciará con la presentación y aceptación de la correspondiente solicitud",
+      "Se iniciará con la presentación de la correspondiente solicitud"
+    ],
+    "c": 3,
+    "ref": "Art. 17.1 Ley 19/2013",
+    "exp": "El procedimiento se inicia con la presentación de la correspondiente solicitud."
+  },
+  {
+    "q": "Según el art. 17 de la Ley de Transparencia, la solicitud a la que se refiere la pregunta anterior, ¿a quién deberá dirigirse?",
+    "o": [
+      "Al titular del órgano administrativo o entidad que posea la información",
+      "Al órgano administrativo o entidad que posea la información",
+      "A un órgano de cualquier administración",
+      "Al titular del órgano administrativo o entidad en la que se presente"
+    ],
+    "c": 0,
+    "ref": "Art. 17.1 Ley 19/2013",
+    "exp": "La solicitud deberá dirigirse al titular del órgano administrativo o entidad que posea la información."
+  },
+  {
+    "q": "Según el art. 17 de la Ley de Transparencia, la solicitud podrá presentarse por cualquier medio que permita tener constancia ¿de qué aspecto de los que se relacionan a continuación?",
+    "o": [
+      "La identidad del solicitante y siempre de un representante",
+      "La información que se solicita",
+      "Una dirección de contacto, preferentemente física, a efectos de comunicaciones",
+      "En su caso, la lengua que se prefiera, para acceder a la información solicitada"
+    ],
+    "c": 1,
+    "ref": "Art. 17.2 Ley 19/2013",
+    "exp": "Entre los extremos figura la información que se solicita (la dirección es preferentemente electrónica, no física)."
+  },
+  {
+    "q": "Según el art. 17 de la Ley de Transparencia, ¿qué es cierto?",
+    "o": [
+      "Que el solicitante no está obligado a motivar su solicitud",
+      "Que el solicitante deberá exponer los motivos por los que solicita la información",
+      "Que los motivos expuestos por el solicitante podrán ser tenidos en cuenta para iniciar el procedimiento",
+      "Que la ausencia de motivación será por sí sola causa de rechazo de la solicitud"
+    ],
+    "c": 0,
+    "ref": "Art. 17.3 Ley 19/2013",
+    "exp": "El solicitante no está obligado a motivar su solicitud de acceso a la información."
+  },
+  {
+    "q": "Según el art. 18 de la Ley de Transparencia, se inadmitirán a trámite, mediante resolución motivada, las solicitudes:",
+    "o": [
+      "Que se refieran a información de contenido general",
+      "Referidas a información que tenga carácter de apoyo o asesoramiento como la contenida en dictámenes, estudios e informes externos de entidades administrativas",
+      "Relativas a información para cuya divulgación sea necesaria una acción previa de reelaboración",
+      "Se inadmitirá las solicitudes por todos los motivos anteriores"
+    ],
+    "c": 2,
+    "ref": "Art. 18.1 Ley 19/2013",
+    "exp": "Se inadmiten las solicitudes relativas a información para cuya divulgación sea necesaria una acción previa de reelaboración."
+  },
+  {
+    "q": "Según el art. 19 de la Ley de Transparencia, si la solicitud se refiere a información que no obre en poder del sujeto al que se dirige, ¿cómo actuará este?",
+    "o": [
+      "Archivará la solicitud",
+      "Remitirá la solicitud al competente, si lo conociera, e informará de esta circunstancia al solicitante",
+      "Si no conociera al órgano competente, resolverá la solicitud dentro de los plazos previstos en la ley",
+      "Remitirá la solicitud al competente, si lo conociera, informará a éste de su obligación de información al solicitante"
+    ],
+    "c": 1,
+    "ref": "Art. 19.1 Ley 19/2013",
+    "exp": "Remitirá la solicitud al competente, si lo conociera, e informará de esta circunstancia al solicitante."
+  },
+  {
+    "q": "Según el art. 19 de la Ley de Transparencia, cuando la solicitud no identifique de forma suficiente la información, se pedirá al solicitante que la concrete en un plazo de:",
+    "o": [
+      "Tres días",
+      "Cinco días",
+      "Siete días",
+      "Diez días"
+    ],
+    "c": 3,
+    "ref": "Art. 19.2 Ley 19/2013",
+    "exp": "Se pedirá al solicitante que concrete la información en un plazo de diez días."
+  },
+  {
+    "q": "Según el art. 19 de la Ley de Transparencia, si la información solicitada pudiera afectar a derechos o intereses de terceros, debidamente identificados, ¿qué plazo se les concederá para que puedan realizar las alegaciones que estimen oportunas?",
+    "o": [
+      "Quince días",
+      "Cinco días",
+      "Siete días",
+      "Diez días"
+    ],
+    "c": 0,
+    "ref": "Art. 19.3 Ley 19/2013",
+    "exp": "Se concederá a los terceros un plazo de quince días para realizar alegaciones."
+  },
+  {
+    "q": "Según el art. 20 de la Ley de Transparencia, ¿en qué plazo máximo deberá notificarse al solicitante y a los terceros afectados que así lo hayan solicitado, la resolución en la que se conceda o deniegue el acceso a la información?",
+    "o": [
+      "Quince días",
+      "Un mes",
+      "Dos meses",
+      "Diez días"
+    ],
+    "c": 1,
+    "ref": "Art. 20.1 Ley 19/2013",
+    "exp": "La resolución deberá notificarse en el plazo máximo de un mes."
+  },
+  {
+    "q": "Según el art. 20 de la Ley de Transparencia, el plazo a que se refiere la pregunta anterior, ¿podrá ampliarse?",
+    "o": [
+      "No",
+      "Sí, por otro mes",
+      "Sí, sin necesidad de notificarlo al solicitante",
+      "Sí, por otros dos meses, notificándolo al solicitante"
+    ],
+    "c": 1,
+    "ref": "Art. 20.1 Ley 19/2013",
+    "exp": "El plazo podrá ampliarse por otro mes en caso de volumen o complejidad de la información."
+  },
+  {
+    "q": "Según el art. 20 de la Ley de Transparencia, siguiendo con la pregunta anterior, ¿por qué motivo podrá ampliarse?",
+    "o": [
+      "A petición del solicitante",
+      "De oficio, cuando la información supusiera la vulneración de alguno de los límites",
+      "En el caso de que el volumen o la complejidad de la información que se solicita así lo hagan necesario",
+      "No podrá ampliarse por motivo alguno"
+    ],
+    "c": 2,
+    "ref": "Art. 20.1 Ley 19/2013",
+    "exp": "La ampliación procede cuando el volumen o la complejidad de la información lo hagan necesario, previa notificación."
+  },
+  {
+    "q": "Según el art. 20 de la Ley de Transparencia, transcurrido el plazo máximo para resolver sin que se haya dictado y notificado resolución expresa se entenderá que la solicitud ha sido:",
+    "o": [
+      "Estimada",
+      "Inadmitida",
+      "Archivada",
+      "Desestimada"
+    ],
+    "c": 3,
+    "ref": "Art. 20.4 Ley 19/2013",
+    "exp": "Transcurrido el plazo máximo sin resolución expresa, la solicitud se entiende desestimada (silencio negativo)."
+  },
+  {
+    "q": "Según el art. 21 de la Ley de Transparencia, en el ámbito de la Administración General del Estado existirán unidades especializadas, ¿qué función tendrán?",
+    "o": [
+      "Recabar y almacenar la información a la que se refiere la mencionada ley",
+      "Recibir y dar tramitación a las solicitudes de acceso a la información",
+      "Realizar los trámites externos necesarios para dar acceso a la información solicitada",
+      "Realizar el seguimiento y control de los titulares de las Unidades en el desarrollo de sus funciones"
+    ],
+    "c": 1,
+    "ref": "Art. 21 Ley 19/2013",
+    "exp": "Las unidades especializadas recibirán y darán tramitación a las solicitudes de acceso a la información."
+  },
+  {
+    "q": "Según el art. 21 de la Ley de Transparencia, las Administraciones Públicas incluidas en el ámbito de aplicación de este título establecerán sistemas para integrar la gestión de solicitudes de información de los ciudadanos:",
+    "o": [
+      "En su mapa de contenidos",
+      "En su plan estratégico",
+      "En el funcionamiento de su organización interna",
+      "En el desarrollo de su plan de igualdad"
+    ],
+    "c": 2,
+    "ref": "Art. 21.1 Ley 19/2013",
+    "exp": "Integrarán la gestión de solicitudes en el funcionamiento de su organización interna."
+  },
+  {
+    "q": "Según el art. 22 de la Ley de Transparencia, ¿cómo se realizará el acceso a la información?",
+    "o": [
+      "Cuando sea posible, siempre por vía electrónica",
+      "Siempre que no sea posible por otro medio, por vía electrónica",
+      "Por el medio que haya señalado expresamente el solicitante",
+      "Por el medio que sea posible para el órgano competente para resolver"
+    ],
+    "c": 2,
+    "ref": "Art. 22.1 Ley 19/2013",
+    "exp": "El acceso se realizará preferentemente por vía electrónica, salvo cuando no sea posible o el solicitante haya señalado otro medio."
+  },
+  {
+    "q": "Según el art. 24 de la Ley de Transparencia, la reclamación frente a toda resolución expresa o presunta en materia de acceso, ¿en qué plazo se interpondrá?",
+    "o": [
+      "En un mes",
+      "En ningún momento si es frente a una resolución presunta",
+      "En tres meses",
+      "A y B son correctas"
+    ],
+    "c": 0,
+    "ref": "Art. 24.2 Ley 19/2013",
+    "exp": "La reclamación se interpondrá en el plazo de un mes ante el Consejo de Transparencia y Buen Gobierno."
+  },
+  {
+    "q": "Según el art. 12 de la Ley 19/2013, de 9 de diciembre, de transparencia, de los que se mencionan a continuación, ¿qué derecho tienen todas las personas?",
+    "o": [
+      "A disponer de información pública, en los términos previstos en el artículo 105.b) de la Constitución Española",
+      "A acceder a la información pública, en los términos previstos en el artículo 105.b) de la Constitución Española",
+      "A proteger su información pública, en los términos previstos en el artículo 105 de la Ley de Protección de datos",
+      "Al secreto de su información pública en los términos previstos en el artículo 105 de la Ley de Protección de datos"
+    ],
+    "c": 1,
+    "ref": "Art. 12 Ley 19/2013",
+    "exp": "Todas las personas tienen derecho a acceder a la información pública en los términos del art. 105.b) CE."
+  },
+  {
+    "q": "Según el art. 13 de la Ley 19/2013, de 9 de diciembre, de transparencia, ¿qué se entiende por información pública?",
+    "o": [
+      "Los contenidos o documentos, cualquiera que sea su formato o soporte, que obren en poder de alguno de los sujetos incluidos en el ámbito de aplicación de la citada ley y que hayan sido elaborados o adquiridos en el ejercicio de sus funciones",
+      "Los contenidos o documentos, cualquiera que sea su formato o soporte, que obren en poder de cualquier sujeto público o privado y que hayan sido elaborados o adquiridos en el ejercicio de sus funciones",
+      "Los contenidos o documentos, cualquiera que sea su formato o soporte, que obren en poder de cualquier sujeto público o privado y que hayan sido elaborados, adquiridos, o enajenados en el ejercicio de sus funciones",
+      "Los contenidos o documentos, cualquiera que sea su formato o soporte, que obren en poder de alguno de los sujetos incluidos en el ámbito de aplicación de la citada ley y que hayan sido elaborados o adquiridos en el ejercicio o no de sus funciones"
+    ],
+    "c": 0,
+    "ref": "Art. 13 Ley 19/2013",
+    "exp": "Información pública son los contenidos o documentos, cualquiera que sea su formato, en poder de los sujetos incluidos y elaborados o adquiridos en el ejercicio de sus funciones."
+  },
+  {
+    "q": "Según el art. 14 de la Ley 19/2013, de 9 de diciembre, de transparencia, el derecho de acceso podrá ser limitado cuando acceder a la información suponga un perjuicio para:",
+    "o": [
+      "Las relaciones interiores",
+      "El procedimiento administrativo",
+      "El secreto profesional y la propiedad intelectual e industrial",
+      "El mercado de valores"
+    ],
+    "c": 2,
+    "ref": "Art. 14 Ley 19/2013",
+    "exp": "El secreto profesional y la propiedad intelectual e industrial son límites del art. 14."
+  },
+  {
+    "q": "Según el art. 14 de la Ley 19/2013, de 9 de diciembre, de transparencia, el derecho de acceso NO podrá ser limitado cuando acceder a la información suponga un perjuicio para:",
+    "o": [
+      "Los derechos de los interesados en un procedimiento administrativo",
+      "La defensa",
+      "Las relaciones exteriores",
+      "La seguridad pública"
+    ],
+    "c": 0,
+    "ref": "Art. 14 Ley 19/2013",
+    "exp": "Los derechos de los interesados en un procedimiento administrativo no figuran entre los límites del art. 14 (defensa, relaciones exteriores y seguridad pública sí lo son)."
+  },
+  {
+    "q": "Según el art. 14 de la Ley 19/2013, de 9 de diciembre, de transparencia, la aplicación de los límites al acceso a la información, ¿cómo será?",
+    "o": [
+      "Discrecional atendiendo a la autoridad competente en cada caso",
+      "Sin necesidad de motivación o justificación",
+      "En los términos que hayan acordados las partes intervinientes",
+      "Justificada y proporcionada a su objeto y finalidad de protección"
+    ],
+    "c": 3,
+    "ref": "Art. 14.2 Ley 19/2013",
+    "exp": "La aplicación de los límites será justificada y proporcionada a su objeto y finalidad de protección."
+  },
+  {
+    "q": "Según el art. 14 de la Ley 19/2013, de 9 de diciembre, de transparencia, la aplicación de los límites al acceso a la información, ¿a qué atenderá?",
+    "o": [
+      "De forma primordial, al interés de las partes",
+      "A las circunstancias del caso concreto",
+      "A las circunstancias por las que se hayan negado el acceso en peticiones análogas",
+      "A lo acordado por los Tribunales"
+    ],
+    "c": 1,
+    "ref": "Art. 14.2 Ley 19/2013",
+    "exp": "La aplicación de los límites atenderá a las circunstancias del caso concreto."
+  },
+  {
+    "q": "Según el art. 15 de la Ley 19/2013 de Transparencia, de los datos personales que se mencionan a continuación, ¿cuál de ellos únicamente se podrá autorizar con el consentimiento expreso y por escrito del afectado?",
+    "o": [
+      "Los que revelen su filiación",
+      "Los que revelen su ideología",
+      "Los que revelen actividades empresariales",
+      "Los que aporten información sobre la nacionalidad"
+    ],
+    "c": 1,
+    "ref": "Art. 15.1 Ley 19/2013",
+    "exp": "Los datos que revelen la ideología solo pueden autorizarse con el consentimiento expreso y por escrito del afectado."
+  },
+  {
+    "q": "Según el art. 15 de la Ley 19/2013 de Transparencia, si la información incluyese datos personales que hagan referencia al origen racial, el acceso solo se podrá autorizar en caso de que:",
+    "o": [
+      "Estuviese amparado por una autoridad",
+      "Se cuente con el consentimiento expreso del solicitante",
+      "Se cuente con el consentimiento expreso o tácito del afectado",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 15.1 Ley 19/2013",
+    "exp": "Para datos sobre origen racial se requiere consentimiento expreso del afectado o norma con rango de ley (el 'por escrito' solo se exige para ideología, afiliación sindical, religión o creencias); ninguna opción lo recoge correctamente: A cita una 'autoridad', B el consentimiento 'del solicitante' y C admite consentimiento 'tácito'."
+  },
+  {
+    "q": "Según el art. 15 de la Ley 19/2013 de Transparencia, siguiendo con la pregunta anterior, ¿y si la información solicitada incluyese datos genéticos o biométricos?",
+    "o": [
+      "Se podrá acceder sin necesidad de consentimiento alguno",
+      "Se podrá acceder si se cuenta con el consentimiento tácito o expreso del afectado",
+      "Se podrá acceder si el acceso estuviese amparado por una norma con rango de ley",
+      "Se podrá acceder si está amparado por decisión de autoridad administrativa, sin consentimiento del afectado"
+    ],
+    "c": 2,
+    "ref": "Art. 15.1 Ley 19/2013",
+    "exp": "Para datos genéticos o biométricos se podrá acceder si está amparado por una norma con rango de ley."
+  },
+  {
+    "q": "Según el art. 16 de la Ley 19/2013 de Transparencia, en los casos en que la aplicación de alguno de los límites previstos en el artículo 14 no afecte a la totalidad de la información, se concederá el acceso parcial previa omisión de la información afectada por el límite salvo que de ello resulte una información distorsionada o que carezca de sentido. ¿Qué deberá indicarse al solicitante en estos casos?",
+    "o": [
+      "La parte de la información que ha sido omitida",
+      "La información a la que podrá acceder",
+      "Los límites que se han aplicado",
+      "La autoridad que autoriza el acceso parcial"
+    ],
+    "c": 0,
+    "ref": "Art. 16 Ley 19/2013",
+    "exp": "Deberá indicarse al solicitante la parte de la información que ha sido omitida."
+  },
+  {
+    "q": "Según el art. 17 de la Ley 19/2013 de Transparencia, el procedimiento para el ejercicio del derecho de acceso se iniciará:",
+    "o": [
+      "Con la admisión de la solicitud",
+      "Con la aceptación de la petición de la autoridad correspondiente",
+      "Con la presentación de la correspondiente solicitud",
+      "Con el acceso a la información solicitada"
+    ],
+    "c": 2,
+    "ref": "Art. 17.1 Ley 19/2013",
+    "exp": "El procedimiento se inicia con la presentación de la correspondiente solicitud."
+  },
+  {
+    "q": "Según el art. 17 de la Ley 19/2013 de Transparencia, la solicitud podrá presentarse por cualquier medio que permita tener constancia de, entre otros extremos, de:",
+    "o": [
+      "La identidad del afectado",
+      "La información que se solicita",
+      "Una dirección de contacto, preferentemente postal, a efectos de comunicaciones",
+      "En su caso, la modalidad que se prefiera proteger la información solicitada"
+    ],
+    "c": 1,
+    "ref": "Art. 17.2 Ley 19/2013",
+    "exp": "Entre los extremos figura la información que se solicita (la dirección es preferentemente electrónica, y consta la identidad del solicitante, no del afectado)."
+  },
+  {
+    "q": "Según el art. 17 de la Ley 19/2013 de Transparencia, ¿qué es cierto?",
+    "o": [
+      "Que el solicitante está obligado a motivar su solicitud de acceso a la información",
+      "Que la ausencia de motivación será por sí sola causa de rechazo de la solicitud",
+      "Que el solicitante podrá exponer los motivos por los que solicita la información",
+      "Que los motivos expuestos por el solicitante deberán ser tenidos en cuenta cuando se dicte la resolución"
+    ],
+    "c": 2,
+    "ref": "Art. 17.3 Ley 19/2013",
+    "exp": "El solicitante no está obligado a motivar, pero podrá exponer los motivos por los que solicita la información."
+  },
+  {
+    "q": "Según el art. 18 de la Ley 19/2013 de Transparencia, se inadmitirá a trámite la solicitud mediante resolución motivada:",
+    "o": [
+      "La referida a información elaborada",
+      "La relativa a información para cuya divulgación sea necesaria una acción previa de reelaboración",
+      "La referida a información que no tenga carácter auxiliar",
+      "Cualquiera de las solicitudes referidas a las informaciones anteriores serán admitida a trámite por resolución motivada"
+    ],
+    "c": 1,
+    "ref": "Art. 18.1 Ley 19/2013",
+    "exp": "Se inadmite la solicitud relativa a información para cuya divulgación sea necesaria una acción previa de reelaboración."
+  },
+  {
+    "q": "Según el art. 18 de la Ley 19/2013 de Transparencia, en el caso en que se inadmita la solicitud por ser dirigidas a un órgano en cuyo poder no obre la información cuando se desconozca el competente, ¿qué deberá indicar en la resolución el órgano que acuerde la inadmisión?",
+    "o": [
+      "El archivo de la solicitud",
+      "Que remite la solicitud al órgano competente",
+      "Que desconoce el órgano competente para la admisión de la resolución",
+      "El órgano que, a su juicio, es competente para conocer de la solicitud"
+    ],
+    "c": 3,
+    "ref": "Art. 18.2 Ley 19/2013",
+    "exp": "El órgano que acuerde la inadmisión deberá indicar el órgano que, a su juicio, es competente para conocer de la solicitud."
+  },
+  {
+    "q": "Según el art. 19 de la Ley 19/2013 de Transparencia, cuando la solicitud no identifique de forma suficiente la información, se pedirá al solicitante que la concrete en un plazo de:",
+    "o": [
+      "Diez días",
+      "Cinco días",
+      "Tres días",
+      "En un mes"
+    ],
+    "c": 0,
+    "ref": "Art. 19.2 Ley 19/2013",
+    "exp": "Se pedirá al solicitante que concrete la información en un plazo de diez días."
+  },
+  {
+    "q": "Según el art. 19 de la Ley 19/2013 de Transparencia, si la información solicitada pudiera afectar a derechos o intereses de terceros, debidamente identificados, ¿qué plazo se les concederá a estos para que puedan realizar las alegaciones que estimen oportunas?",
+    "o": [
+      "Cinco días",
+      "Diez días",
+      "Quince días",
+      "Veinte días"
+    ],
+    "c": 2,
+    "ref": "Art. 19.3 Ley 19/2013",
+    "exp": "Se concederá a los terceros un plazo de quince días para realizar alegaciones."
+  },
+  {
+    "q": "Según el art. 19 de la Ley 19/2013 de Transparencia, cuando la información objeto de la solicitud, aun obrando en poder del sujeto al que se dirige, haya sido elaborada o generada en su integridad o parte principal por otro, se le remitirá la solicitud a este:",
+    "o": [
+      "Para que acepte el acceso",
+      "Para que decida sobre el acceso",
+      "Para que conozca el acceso decidido",
+      "Para que emita el informe antes del acceso"
+    ],
+    "c": 1,
+    "ref": "Art. 19.4 Ley 19/2013",
+    "exp": "Se remitirá la solicitud a quien elaboró la información en su integridad o parte principal para que decida sobre el acceso."
+  },
+  {
+    "q": "Según el art. 20 de la Ley 19/2013 de Transparencia, la resolución en la que se conceda o deniegue el acceso deberá notificarse al solicitante en el plazo máximo:",
+    "o": [
+      "Un mes",
+      "Diez días",
+      "Quince días",
+      "Dos meses"
+    ],
+    "c": 0,
+    "ref": "Art. 20.1 Ley 19/2013",
+    "exp": "La resolución deberá notificarse en el plazo máximo de un mes."
+  },
+  {
+    "q": "Según el art. 20 de la Ley 19/2013 de Transparencia, el plazo al que se refiere la pregunta anterior, ¿desde cuándo comenzará a contarse?",
+    "o": [
+      "Desde el conocimiento de la solicitud por los terceros interesados",
+      "Desde la recepción de la solicitud por el órgano competente para resolver",
+      "Desde la aceptación de la solicitud por el órgano competente para resolver",
+      "Desde el traslado de la solicitud por el órgano competente para resolver a los terceros interesados"
+    ],
+    "c": 1,
+    "ref": "Art. 20.1 Ley 19/2013",
+    "exp": "El plazo se cuenta desde la recepción de la solicitud por el órgano competente para resolver."
+  },
+  {
+    "q": "Según el art. 20 de la Ley 19/2013 de Transparencia, transcurrido el plazo máximo para resolver sin que se haya dictado y notificado resolución expresa se entenderá que la solicitud ha sido:",
+    "o": [
+      "Estimada",
+      "Inadmitida",
+      "Desestimada",
+      "Archivada"
+    ],
+    "c": 2,
+    "ref": "Art. 20.4 Ley 19/2013",
+    "exp": "Transcurrido el plazo máximo sin resolución expresa, la solicitud se entiende desestimada."
+  },
+  {
+    "q": "Según el art. 21 de la Ley 19/2013 de Transparencia, las Administraciones Públicas incluidas en el ámbito de aplicación de la mencionada ley establecerán sistemas, ¿para qué?",
+    "o": [
+      "Integrar la gestión de solicitudes de información de los ciudadanos en el funcionamiento de su organización interna",
+      "Integrar la información de los ciudadanos en el funcionamiento de su organización interna",
+      "Integrar el secreto de la información de los ciudadanos en el funcionamiento de su organización interna",
+      "Integrar la gestión de solicitudes de información de los ciudadanos y autoridades en el funcionamiento de su organización interna"
+    ],
+    "c": 0,
+    "ref": "Art. 21.1 Ley 19/2013",
+    "exp": "Establecerán sistemas para integrar la gestión de solicitudes de información de los ciudadanos en el funcionamiento de su organización interna."
+  },
+  {
+    "q": "Según el art. 22 de la Ley 19/2013 de Transparencia, el acceso a la información se realizará preferentemente:",
+    "o": [
+      "Por vía presencial",
+      "Por vía postal",
+      "Por vía telefónica",
+      "Por vía electrónica"
+    ],
+    "c": 3,
+    "ref": "Art. 22.1 Ley 19/2013",
+    "exp": "El acceso a la información se realizará preferentemente por vía electrónica."
+  },
+  {
+    "q": "Según el art. 22 de la Ley 19/2013 de Transparencia, respecto a la información solicitada, ¿qué será gratuito?",
+    "o": [
+      "En todo caso, la expedición de copia",
+      "El acceso",
+      "La trasposición de la información a un formato diferente al original únicamente",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 1,
+    "ref": "Art. 22.4 Ley 19/2013",
+    "exp": "El acceso a la información será gratuito (la expedición de copias o trasposición a otro formato puede dar lugar a una tasa)."
+  },
+  {
+    "q": "Según el art. 24 de la Ley 19/2013 de Transparencia, frente a toda resolución expresa o presunta en materia de acceso podrá interponerse una reclamación ante el:",
+    "o": [
+      "Gobierno",
+      "Los Tribunales Contencioso-Administrativo",
+      "Consejo de Transparencia y Buen Gobierno",
+      "Defensor del pueblo"
+    ],
+    "c": 2,
+    "ref": "Art. 24.1 Ley 19/2013",
+    "exp": "La reclamación se interpone ante el Consejo de Transparencia y Buen Gobierno."
+  },
+  {
+    "q": "Según el art. 24 de la Ley 19/2013 de Transparencia, la reclamación a la que se refiere la pregunta anterior, ¿en qué plazo se interpondrá?",
+    "o": [
+      "Un mes",
+      "Diez días",
+      "Quince días",
+      "Dos meses"
+    ],
+    "c": 0,
+    "ref": "Art. 24.2 Ley 19/2013",
+    "exp": "La reclamación se interpondrá en el plazo de un mes."
+  },
+  {
+    "q": "Según el art. 24 de la Ley 19/2013 de Transparencia, la reclamación a la que se refiere las preguntas anteriores, el plazo máximo para resolver y notificar la resolución será de:",
+    "o": [
+      "Un mes",
+      "Seis meses",
+      "Tres meses",
+      "Dos meses"
+    ],
+    "c": 2,
+    "ref": "Art. 24.4 Ley 19/2013",
+    "exp": "El plazo máximo para resolver y notificar la resolución será de tres meses."
+  },
+  {
+    "q": "La Ley de Transparencia, acceso a la información pública y buen gobierno es la:",
+    "o": [
+      "Ley 19/2013, de 9 de diciembre",
+      "Ley Orgánica 19/2013, de 9 de diciembre",
+      "Ley 9/2013, de 19 de diciembre",
+      "Ley 2/2005, de 2 de agosto"
+    ],
+    "c": 0,
+    "ref": "Ley 19/2013",
+    "exp": "La Ley de Transparencia, acceso a la información pública y buen gobierno es la Ley 19/2013, de 9 de diciembre."
+  },
+  {
+    "q": "Según el art. 12 de la Ley de Transparencia, acceso a la información pública y buen gobierno, ¿quién tiene derecho a acceder a la información pública, en los términos previstos en el art. 105 b) de la Constitución Española?",
+    "o": [
+      "Solo los que tengan la consideración de interesado en el procedimiento",
+      "Todas las personas",
+      "Los españoles",
+      "Únicamente los españoles y los ciudadanos pertenecientes a la Unión Europea"
+    ],
+    "c": 1,
+    "ref": "Art. 12 Ley 19/2013",
+    "exp": "Todas las personas tienen derecho a acceder a la información pública."
+  },
+  {
+    "q": "Según el art. 13 de la Ley de Transparencia, acceso a la información pública y buen gobierno, ¿qué se entiende por información pública?",
+    "o": [
+      "Cualquier contenidos o documentos, salvo los que tenga formato digital, que obren en poder de alguno de los sujetos incluidos en el ámbito de aplicación de la mencionada ley y que hayan sido elaborados o adquiridos en el ejercicio de sus funciones",
+      "Los soportes que contienen documentos, cualquiera que sea su formato, que obren en poder de alguno de los sujetos incluidos en el ámbito de aplicación de la mencionada ley y que hayan sido elaborados o adquiridos en el ejercicio de sus funciones",
+      "Los contenidos o documentos, cualquiera que sea su formato o soporte, que obren en poder de alguno de los sujetos incluidos en el ámbito de aplicación de la mencionada ley y que hayan sido elaborados o adquiridos en el ejercicio de sus funciones",
+      "Los contenidos o documentos, únicamente en formato o soporte digital, que obren en poder de alguno de los sujetos incluidos en el ámbito de aplicación de la mencionada ley y que hayan sido elaborados o adquiridos en el ejercicio de sus funciones"
+    ],
+    "c": 2,
+    "ref": "Art. 13 Ley 19/2013",
+    "exp": "Información pública son los contenidos o documentos, cualquiera que sea su formato o soporte, en poder de los sujetos incluidos y elaborados o adquiridos en el ejercicio de sus funciones."
+  },
+  {
+    "q": "Según el art. 14 de la Ley de Transparencia, el derecho de acceso NO podrá ser limitado cuando acceder a la información suponga un perjuicio para:",
+    "o": [
+      "La prevención, investigación y sanción de los ilícitos penales, administrativos o disciplinarios",
+      "La igualdad de las partes en los procesos judiciales y la tutela judicial efectiva",
+      "Las funciones administrativas de vigilancia, inspección y control",
+      "El procedimiento administrativo"
+    ],
+    "c": 3,
+    "ref": "Art. 14 Ley 19/2013",
+    "exp": "El procedimiento administrativo no figura entre los límites del art. 14; los otros tres sí lo son."
+  },
+  {
+    "q": "Según el art. 14 de la Ley de Transparencia, los límites de acceso a la información atenderán:",
+    "o": [
+      "A las circunstancias generales, especialmente a beneficio que supone o no el acceso",
+      "Al superior interés nacional, especialmente en las relaciones con las instituciones internacionales",
+      "Al interés particular, especialmente a los colectivos más vulnerables",
+      "A las circunstancias del caso concreto, especialmente a la concurrencia de un interés público o privado superior que justifique el acceso"
+    ],
+    "c": 3,
+    "ref": "Art. 14.2 Ley 19/2013",
+    "exp": "Atenderán a las circunstancias del caso concreto, especialmente a la concurrencia de un interés público o privado superior que justifique el acceso."
+  },
+  {
+    "q": "Según el art. 15 de la Ley de Transparencia, si la información solicitada contuviera datos personales sobre la ideología, ¿se podrá autorizar el acceso?",
+    "o": [
+      "Sí, si se contase con el consentimiento verbal del afectado",
+      "Sí, si se contase con el consentimiento expreso y por escrito del afectado",
+      "Sí, si el afectado hubiese manifestado en privado los datos con anterioridad a que se solicite el acceso",
+      "Sí, mediante consentimiento expreso o tácito del afectado"
+    ],
+    "c": 1,
+    "ref": "Art. 15.1 Ley 19/2013",
+    "exp": "Los datos sobre ideología requieren el consentimiento expreso y por escrito del afectado."
+  },
+  {
+    "q": "Según el art. 15 de la Ley de Transparencia, respecto a las infracciones penales o administrativas, el acceso a la información se podrá autorizar con el consentimiento expreso del afectado:",
+    "o": [
+      "En todo caso",
+      "Salvo que tuviera que estar amparado por una ley",
+      "De aquellas que no conllevasen la amonestación pública al infractor",
+      "Necesitando además que el consentimiento sea escrito"
+    ],
+    "c": 2,
+    "ref": "Art. 15.1 Ley 19/2013",
+    "exp": "Para datos relativos a infracciones penales o administrativas que no conllevasen la amonestación pública al infractor, el acceso se podrá autorizar con el consentimiento expreso del afectado o si estuviera amparado por una norma con rango de ley."
+  },
+  {
+    "q": "Según el art. 15 de la Ley de Transparencia, con carácter general, y salvo que en el caso concreto prevalezca la protección de datos personales u otros derechos constitucionalmente protegidos sobre el interés público en la divulgación que lo impida, se concederá el acceso a información que contengan:",
+    "o": [
+      "Datos identificativos de los titulares de los órganos administrativo",
+      "Datos meramente identificativos relacionados con la organización, funcionamiento o actividad pública del órgano",
+      "Datos relacionados con el seguimiento y aplicación de los procedimientos administrativos",
+      "Datos meramente identificativos relacionados con los componentes de los órganos administrativos y sus actividades privadas"
+    ],
+    "c": 1,
+    "ref": "Art. 15.2 Ley 19/2013",
+    "exp": "Con carácter general se concede el acceso a datos meramente identificativos relacionados con la organización, funcionamiento o actividad pública del órgano."
+  },
+  {
+    "q": "Según el art. 15 de la Ley de Transparencia, ¿qué normativa será de aplicación al tratamiento posterior de los datos obtenidos a través del ejercicio del derecho de acceso?",
+    "o": [
+      "La de protección de datos",
+      "La de secretos profesionales",
+      "La de seguridad nacional",
+      "La de secretos oficiales"
+    ],
+    "c": 0,
+    "ref": "Art. 15.5 Ley 19/2013",
+    "exp": "La normativa de protección de datos será de aplicación al tratamiento posterior de los datos obtenidos."
+  },
+  {
+    "q": "Según el art. 16 de la Ley de Transparencia, en los casos que se conceda el acceso parcial a la información solicitada, ¿qué deberá indicarse al solicitante?",
+    "o": [
+      "Los motivos por los que se deniega el acceso al resto de la información",
+      "Los medios de impugnación que cabe contra tal decisión",
+      "La parte de la información que ha sido omitida",
+      "El derecho a solicitar la restante información ante otra Administración"
+    ],
+    "c": 2,
+    "ref": "Art. 16 Ley 19/2013",
+    "exp": "En el acceso parcial deberá indicarse al solicitante la parte de la información que ha sido omitida."
+  },
+  {
+    "q": "Según el art. 17 de la Ley de Transparencia, señale la afirmación correcta:",
+    "o": [
+      "El solicitante no podrá motivar su solicitud de acceso a la información",
+      "Los motivos expuestos por el solicitante en la solicitud deberán ser tenidos en cuenta cuando se dicte la resolución",
+      "La ausencia de motivación no será por sí sola causa de rechazo de la solicitud",
+      "Todas las anteriores afirmaciones son correctas"
+    ],
+    "c": 2,
+    "ref": "Art. 17.3 Ley 19/2013",
+    "exp": "La ausencia de motivación no será por sí sola causa de rechazo de la solicitud."
+  },
+  {
+    "q": "Según el art. 17 de la Ley de Transparencia, la solicitud de acceso a la información podrá presentarse por cualquier medio que permita tener constancia de una serie de extremos, entre los que NO se encuentra:",
+    "o": [
+      "La identidad del solicitante",
+      "La información que se solicita",
+      "Una dirección de contacto, preferentemente electrónica, a efectos de comunicaciones",
+      "En su caso, la identificación de las normas que permite el acceso a la información"
+    ],
+    "c": 3,
+    "ref": "Art. 17.2 Ley 19/2013",
+    "exp": "La identificación de las normas que permiten el acceso no figura entre los extremos; sí lo hacen la identidad, la información solicitada, la dirección de contacto y la modalidad de acceso."
+  },
+  {
+    "q": "Según el art. 17 de la Ley de Transparencia, ¿qué es cierto respecto al solicitante de la información pública?",
+    "o": [
+      "Que está obligado a motivar su solicitud y estos motivos será tenido en cuenta en la resolución",
+      "Que podrá dirigirse a las Administraciones Públicas en cualquiera de las lenguas cooficiales del Estado en el territorio en el que radique la Administración en cuestión",
+      "Que deberá presentar su solicitud indicando un plazo para su contestación",
+      "Todas las afirmaciones anteriores son ciertas"
+    ],
+    "c": 1,
+    "ref": "Art. 17.4 Ley 19/2013",
+    "exp": "El solicitante podrá dirigirse a las Administraciones Públicas en cualquiera de las lenguas cooficiales del Estado en el territorio en el que radique la Administración."
+  },
+  {
+    "q": "Según la Ley de Transparencia, si la solicitud se refiere a información que no obre en poder del sujeto al que se dirige, ¿cómo actuará éste?",
+    "o": [
+      "Se inadmitirá mediante resolución motivada indicando en la resolución el órgano que, a su juicio, es competente para conocer de la solicitud",
+      "La remitirá al solicitante, informándole del órgano competente para su tramitación",
+      "La declarará nula de pleno derecho e informará de esta circunstancia al solicitante",
+      "A y B son correctas"
+    ],
+    "c": 0,
+    "ref": "Art. 18.1 Ley 19/2013",
+    "exp": "Se inadmitirá mediante resolución motivada indicando el órgano que, a su juicio, es competente para conocer de la solicitud."
+  },
+  {
+    "q": "Según el art. 18 de la Ley de Transparencia, indique cuál es una causa de inadmisión de solicitudes de información de datos:",
+    "o": [
+      "La solicitud no contenga los motivos por los que se solicitan los datos",
+      "La solicitud se refiera a datos referidos a las funciones administrativas de vigilancia, inspección y control",
+      "La solicitud se refiera a información que no tenga carácter auxiliar o de apoyo",
+      "La solicitud se refiera a información que esté en curso de elaboración o de publicación general"
+    ],
+    "c": 3,
+    "ref": "Art. 18.1 Ley 19/2013",
+    "exp": "Es causa de inadmisión que la solicitud se refiera a información que esté en curso de elaboración o de publicación general."
+  },
+  {
+    "q": "Según el art. 19 de la Ley de Transparencia, cuando la solicitud no identifique de forma suficiente la información:",
+    "o": [
+      "Se tendrá al solicitante por desistido",
+      "Se devolverá al solicitante la solicitud para que la complete en un plazo de quince días",
+      "Se pedirá al solicitante que la concrete en el plazo de diez días",
+      "Se declarará nula de pleno derecho, indicando al solicitante esta circunstancia"
+    ],
+    "c": 2,
+    "ref": "Art. 19.2 Ley 19/2013",
+    "exp": "Se pedirá al solicitante que concrete la información en el plazo de diez días."
+  },
+  {
+    "q": "Según el art. 19 de la Ley de Transparencia, en el supuesto de la pregunta anterior, ¿de qué deberá ser informado el solicitante?",
+    "o": [
+      "Del derecho a oponerse a la decisión",
+      "De la suspensión del plazo para dictar resolución hasta que se hayan recibido las alegaciones",
+      "Del plazo para contestar a las alegaciones desde que se reciban",
+      "De la suspensión del plazo para dictar resolución hasta que se hayan contestados las alegaciones recibidas"
+    ],
+    "c": 1,
+    "ref": "Art. 19.3 Ley 19/2013",
+    "exp": "El solicitante deberá ser informado de la suspensión del plazo para dictar resolución hasta que se hayan recibido las alegaciones."
+  },
+  {
+    "q": "Según el art. 20 de la Ley de Transparencia, a los efectos de la aplicación a sus responsables del régimen disciplinario previsto en la correspondiente normativa reguladora, el incumplimiento reiterado de la obligación de resolver en plazo tendrá la consideración de:",
+    "o": [
+      "Infracción grave",
+      "Infracción muy grave",
+      "Ilícito penal",
+      "Incumplimiento laboral"
+    ],
+    "c": 0,
+    "ref": "Art. 20.6 Ley 19/2013",
+    "exp": "El incumplimiento reiterado de la obligación de resolver en plazo tendrá la consideración de infracción grave."
+  },
+  {
+    "q": "Según el art. 20 de la Ley de Transparencia, la resolución en la que se conceda o deniegue el acceso, ¿deberá notificarse?",
+    "o": [
+      "En todo caso a los terceros afectados",
+      "Al solicitante",
+      "Solo a los terceros afectados",
+      "A y B son correctas"
+    ],
+    "c": 1,
+    "ref": "Art. 20.1 Ley 19/2013",
+    "exp": "La resolución se notificará al solicitante y a los terceros afectados que así lo hayan solicitado; la opción correcta según la clave es al solicitante."
+  },
+  {
+    "q": "Según el art. 20 de la Ley de Transparencia, la resolución en la que se conceda o deniegue el acceso, ¿en qué plazo debe notificarse al solicitante?",
+    "o": [
+      "En el plazo máximo de diez días",
+      "En el plazo máximo de un mes",
+      "En el plazo máximo de un año",
+      "En el plazo máximo de veinte días"
+    ],
+    "c": 1,
+    "ref": "Art. 20.1 Ley 19/2013",
+    "exp": "La resolución debe notificarse en el plazo máximo de un mes."
+  },
+  {
+    "q": "Según el art. 20 de la Ley de Transparencia, las resoluciones dictadas en materia de acceso a la información pública son recurribles directamente ante:",
+    "o": [
+      "La jurisdicción económico-administrativa",
+      "La jurisdicción tributaria",
+      "El Gobierno",
+      "La jurisdicción contencioso-administrativa"
+    ],
+    "c": 3,
+    "ref": "Art. 20.5 Ley 19/2013",
+    "exp": "Las resoluciones son recurribles directamente ante la jurisdicción contencioso-administrativa, sin perjuicio de la reclamación potestativa previa."
+  },
+  {
+    "q": "Según el art. 21 de la Ley 19/2013 de Transparencia, las Administraciones Públicas incluidas en el ámbito de aplicación de la citada ley establecerán sistemas para integrar la gestión de solicitudes de información de los ciudadanos en el funcionamiento:",
+    "o": [
+      "De su administración electrónica",
+      "De su organización interna",
+      "De sus servicios externos",
+      "De sus unidades de atención al usuario"
+    ],
+    "c": 1,
+    "ref": "Art. 21.1 Ley 19/2013",
+    "exp": "Integrarán la gestión de solicitudes en el funcionamiento de su organización interna."
+  },
+  {
+    "q": "Según el art. 22 de la Ley 19/2013 de Transparencia, el acceso a la información será:",
+    "o": [
+      "Gratuito",
+      "Oneroso, salvo para la expedición de copias",
+      "Oneroso, en todo caso",
+      "Oneroso, salvo que se haga la trasposición de la información a un formato diferente al original"
+    ],
+    "c": 0,
+    "ref": "Art. 22.4 Ley 19/2013",
+    "exp": "El acceso a la información será gratuito."
+  },
+  {
+    "q": "Según el art. 22 de la Ley 19/2013 de Transparencia, cuando no pueda darse el acceso a la información en el momento de la notificación de la resolución deberá otorgarse, en cualquier caso, en un plazo no superior a:",
+    "o": [
+      "Diez días",
+      "Veinte días",
+      "Quince días",
+      "Cinco días"
+    ],
+    "c": 0,
+    "ref": "Art. 22.1 Ley 19/2013",
+    "exp": "Cuando no pueda darse el acceso en el momento de la notificación, deberá otorgarse en un plazo no superior a diez días."
+  },
+  {
+    "q": "Según el art. 23 de la Ley 19/2013 de Transparencia, la reclamación ante el Consejo de Transparencia y Buen Gobierno tendrá la consideración:",
+    "o": [
+      "La reclamación prevista en el artículo siguiente tendrá la consideración de sustitutiva de los recursos contencioso-administrativos de conformidad con lo dispuesto en el artículo 107.2 de la Ley 30/1992, de 26 de noviembre",
+      "La reclamación prevista en el artículo siguiente tendrá la consideración de complementaria de los recursos administrativos de conformidad con lo dispuesto en el artículo 107.2 de la Ley 30/1992, de 26 de noviembre",
+      "La reclamación prevista en el artículo siguiente tendrá la consideración de supletoria de los recursos administrativos de conformidad con lo dispuesto en el artículo 107.2 de la Ley 30/1992, de 26 de noviembre",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 23 Ley 19/2013",
+    "exp": "La reclamación tiene la consideración de sustitutiva de los recursos administrativos (no de los contencioso-administrativos ni complementaria ni supletoria); por ello ninguna opción es correcta."
+  },
+  {
+    "q": "Según el art. 24 de la Ley 19/2013 de Transparencia, ¿en qué plazo se interpondrá la reclamación ante el Consejo de Transparencia y Buen Gobierno?",
+    "o": [
+      "Un año",
+      "Seis meses",
+      "Un mes",
+      "Diez días"
+    ],
+    "c": 2,
+    "ref": "Art. 24.2 Ley 19/2013",
+    "exp": "La reclamación se interpondrá en el plazo de un mes."
+  },
+  {
+    "q": "Según el art. 24 de la Ley 19/2013 de Transparencia, ¿en qué plazo máximo se resolverá la reclamación ante el Consejo de Transparencia y Buen Gobierno y se notificará la resolución?",
+    "o": [
+      "En el plazo máximo de diez días",
+      "En el plazo máximo de un mes",
+      "En el plazo máximo de tres meses",
+      "En el plazo máximo de veinte días"
+    ],
+    "c": 2,
+    "ref": "Art. 24.4 Ley 19/2013",
+    "exp": "El plazo máximo para resolver y notificar la reclamación será de tres meses."
+  },
+  {
+    "q": "Según el art. 24 de la Ley 19/2013 de Transparencia, transcurrido el plazo a que se refiere la pregunta anterior, la reclamación se entenderá:",
+    "o": [
+      "Archivada",
+      "Estimada",
+      "Inadmitida",
+      "Desestimada"
+    ],
+    "c": 3,
+    "ref": "Art. 24.4 Ley 19/2013",
+    "exp": "Transcurrido el plazo máximo sin resolución, la reclamación se entiende desestimada."
+  },
+  {
+    "q": "Según el art. 24 de la Ley 19/2013 de Transparencia, en la reclamación ante el Consejo de Transparencia y Buen Gobierno, cuando la denegación del acceso a la información se fundamente en la protección de derechos o intereses de terceros se otorgará, previamente a la resolución de la reclamación:",
+    "o": [
+      "Un periodo de información pública para que cualquier interesado alegue lo que convenga",
+      "Un periodo extraordinario de proposición de pruebas",
+      "Trámite de audiencia a las personas que pudieran resultar afectadas para que aleguen lo que a su derecho convenga",
+      "Un plazo complementario para petición de informe"
+    ],
+    "c": 2,
+    "ref": "Art. 24.3 Ley 19/2013",
+    "exp": "Se otorgará trámite de audiencia a las personas que pudieran resultar afectadas para que aleguen lo que a su derecho convenga."
+  }
 ]

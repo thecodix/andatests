@@ -1,32 +1,2390 @@
 [
-{"q":"¿Cuál es el objeto principal del TREBEP (RDL 5/2015)?","o":["Regular el procedimiento administrativo","Establecer las bases del régimen estatutario de los funcionarios públicos y normas del personal laboral","Regular los contratos públicos","Organizar la Administración del Estado"],"c":1,"ref":"Art. 1 TREBEP","exp":"Tiene por objeto establecer las bases del régimen estatutario de los funcionarios públicos y determinar las normas aplicables al personal laboral."},
-{"q":"¿Cuál de estas Administraciones está incluida en el ámbito de aplicación del TREBEP (art. 2)?","o":["Las Fuerzas Armadas","Las Universidades Públicas","La Administración de Justicia (jueces y fiscales)","El Centro Nacional de Inteligencia"],"c":1,"ref":"Art. 2.1 TREBEP","exp":"El Estatuto se aplica, entre otras, a las Universidades Públicas. Jueces, militares y CNI tienen legislación específica propia."},
-{"q":"Según el artículo 8, ¿cómo se clasifican los empleados públicos?","o":["Funcionarios y contratados","Funcionarios de carrera, funcionarios interinos, personal laboral y personal eventual","Fijos y temporales","Funcionarios y autónomos"],"c":1,"ref":"Art. 8.2 TREBEP","exp":"Se clasifican en funcionarios de carrera, funcionarios interinos, personal laboral (fijo, indefinido o temporal) y personal eventual."},
-{"q":"Los funcionarios de carrera (art. 9) están vinculados a la Administración por:","o":["Un contrato laboral","Una relación estatutaria regulada por el Derecho Administrativo, de carácter permanente","Un nombramiento temporal","Una relación mercantil"],"c":1,"ref":"Art. 9.1 TREBEP","exp":"Están vinculados por una relación estatutaria regulada por el Derecho Administrativo para el desempeño de servicios profesionales retribuidos de carácter permanente."},
-{"q":"El ejercicio de funciones que impliquen participación en potestades públicas corresponde (art. 9.2):","o":["A cualquier empleado público","Exclusivamente a los funcionarios públicos","Solo al personal laboral","Al personal eventual"],"c":1,"ref":"Art. 9.2 TREBEP","exp":"El ejercicio de funciones que impliquen participación directa o indirecta en potestades públicas o salvaguardia de intereses generales corresponde exclusivamente a los funcionarios públicos."},
-{"q":"Los funcionarios interinos por vacante (art. 10) se nombran por un máximo de:","o":["1 año","2 años","3 años","5 años"],"c":2,"ref":"Art. 10.1.a) TREBEP","exp":"Para plazas vacantes que no puedan cubrirse por funcionarios de carrera, el nombramiento es por un máximo de tres años."},
-{"q":"El personal eventual (art. 12) realiza funciones:","o":["Permanentes de gestión","Expresamente calificadas de confianza o asesoramiento especial","De control financiero","De inspección"],"c":1,"ref":"Art. 12.1 TREBEP","exp":"El personal eventual solo realiza funciones expresamente calificadas como de confianza o asesoramiento especial, con nombramiento y cese libres."},
-{"q":"La condición de personal eventual (art. 12.4):","o":["Es mérito para acceder a la función pública","No podrá constituir mérito para el acceso a la función pública o la promoción interna","Da preferencia en concursos","Equivale a funcionario interino"],"c":1,"ref":"Art. 12.4 TREBEP","exp":"La condición de personal eventual no podrá constituir mérito para el acceso a la función pública ni para la promoción interna."},
-{"q":"¿Cuál es un derecho individual del empleado público según el artículo 14?","o":["La huelga","La inamovilidad en la condición de funcionario de carrera","La negociación colectiva","El conflicto colectivo"],"c":1,"ref":"Art. 14.a) TREBEP","exp":"La inamovilidad en la condición de funcionario de carrera es un derecho individual; la huelga y la negociación colectiva son derechos individuales ejercidos colectivamente (art. 15)."},
-{"q":"¿Cuál de estos es un derecho individual ejercido de forma colectiva (art. 15)?","o":["La formación continua","La libertad sindical","La defensa jurídica","La intimidad"],"c":1,"ref":"Art. 15.a) TREBEP","exp":"Son derechos ejercidos colectivamente la libertad sindical, la negociación colectiva, la huelga, el planteamiento de conflictos colectivos y la reunión."},
-{"q":"El derecho a la huelga de los empleados públicos (art. 15) se ejerce:","o":["Sin límite alguno","Con garantía del mantenimiento de los servicios esenciales de la comunidad","Solo con autorización judicial","Únicamente fuera de la jornada"],"c":1,"ref":"Art. 15.c) TREBEP","exp":"El derecho al ejercicio de la huelga se reconoce con la garantía del mantenimiento de los servicios esenciales de la comunidad."},
-{"q":"El teletrabajo en la Administración (art. 47 bis) tiene carácter:","o":["Obligatorio","Voluntario y reversible, salvo supuestos excepcionales justificados","Permanente","Indefinido sin reversión"],"c":1,"ref":"Art. 47 bis TREBEP","exp":"El teletrabajo es expresamente autorizado, compatible con la modalidad presencial y, en todo caso, voluntario y reversible salvo supuestos excepcionales justificados."},
-{"q":"El permiso por asuntos particulares (art. 48.k) es de:","o":["3 días al año","5 días al año","6 días al año","10 días al año"],"c":2,"ref":"Art. 48.k) TREBEP","exp":"Los funcionarios tienen derecho a un permiso por asuntos particulares de seis días al año."},
-{"q":"El permiso por matrimonio o constitución de pareja de hecho (art. 48.l) es de:","o":["7 días","10 días","15 días","20 días"],"c":2,"ref":"Art. 48.l) TREBEP","exp":"El permiso por matrimonio o registro/constitución formalizada de pareja de hecho es de quince días."},
-{"q":"El permiso por traslado de domicilio sin cambio de residencia (art. 48.b) es de:","o":["1 día","2 días","3 días","Medio día"],"c":0,"ref":"Art. 48.b) TREBEP","exp":"El permiso por traslado de domicilio sin cambio de residencia es de un día."},
-{"q":"El permiso por lactancia de un hijo menor de doce meses (art. 48.f) da derecho a:","o":["Dos horas de ausencia","Una hora de ausencia, divisible en dos fracciones","Media jornada","Tres horas de ausencia"],"c":1,"ref":"Art. 48.f) TREBEP","exp":"Da derecho a una hora de ausencia del trabajo, que puede dividirse en dos fracciones, siendo un derecho individual no transferible al otro progenitor."},
-{"q":"El permiso por nacimiento para la madre biológica (art. 49.a) tiene una duración de:","o":["16 semanas","19 semanas","22 semanas","32 semanas"],"c":1,"ref":"Art. 49.a) TREBEP","exp":"Tras la reforma del RDL 9/2025, el permiso por nacimiento para la madre biológica tiene una duración de diecinueve semanas (32 en monoparentalidad)."},
-{"q":"De las semanas del permiso por nacimiento, ¿cuántas son obligatorias e ininterrumpidas tras el parto?","o":["Cuatro semanas","Seis semanas","Diez semanas","Dos semanas"],"c":1,"ref":"Art. 49.a) TREBEP","exp":"Las seis semanas inmediatamente posteriores al parto son obligatorias y han de disfrutarse a jornada completa."},
-{"q":"Los funcionarios públicos tienen derecho a unas vacaciones anuales de (art. 50):","o":["20 días hábiles","22 días hábiles","25 días hábiles","30 días naturales"],"c":1,"ref":"Art. 50.1 TREBEP","exp":"Tienen derecho a vacaciones retribuidas de veintidós días hábiles, sin considerar hábiles los sábados."},
-{"q":"A efectos de vacaciones, ¿se consideran hábiles los sábados?","o":["Sí","No se consideran días hábiles los sábados","Solo en enero y agosto","Depende de la Administración"],"c":1,"ref":"Art. 50.1 TREBEP","exp":"El artículo 50 establece expresamente que no se considerarán días hábiles los sábados a efectos de vacaciones."},
-{"q":"El período de vacaciones anuales (art. 50.3):","o":["Puede sustituirse por una cuantía económica","No puede ser sustituido por una cuantía económica, salvo excepciones tasadas","Se compensa siempre en metálico","Caduca si no se disfruta"],"c":1,"ref":"Art. 50.3 TREBEP","exp":"No puede sustituirse por compensación económica, salvo en supuestos de conclusión de la relación de servicio por causas ajenas a la voluntad del funcionario."},
-{"q":"El acceso al empleo público se rige por los principios constitucionales de (art. 55):","o":["Antigüedad y experiencia","Igualdad, mérito y capacidad","Jerarquía y coordinación","Eficacia y economía"],"c":1,"ref":"Art. 55.1 TREBEP","exp":"Todos los ciudadanos tienen derecho al acceso al empleo público de acuerdo con los principios constitucionales de igualdad, mérito y capacidad."},
-{"q":"Para participar en procesos selectivos se requiere tener cumplidos (art. 56):","o":["18 años","16 años","21 años","La mayoría de edad civil"],"c":1,"ref":"Art. 56.1.c) TREBEP","exp":"Es requisito tener cumplidos dieciséis años y no exceder de la edad máxima de jubilación forzosa."},
-{"q":"En las ofertas de empleo público se reserva para personas con discapacidad un cupo no inferior al (art. 59):","o":["3%","5%","7%","10%"],"c":2,"ref":"Art. 59.1 TREBEP","exp":"Se reservará un cupo no inferior al siete por ciento de las vacantes para personas con discapacidad, de modo que progresivamente se alcance el 2% de los efectivos."},
-{"q":"¿Quién NO puede formar parte de los órganos de selección (art. 60)?","o":["Los funcionarios de carrera","El personal de elección o designación política, los interinos y el personal eventual","Los técnicos especialistas","Los profesores universitarios"],"c":1,"ref":"Art. 60.2 TREBEP","exp":"El personal de elección o designación política, los funcionarios interinos y el personal eventual no podrán formar parte de los órganos de selección."},
-{"q":"Los sistemas selectivos de funcionarios de carrera (art. 61) son, con carácter general:","o":["Solo oposición","Oposición y concurso-oposición","Solo concurso","Entrevista personal"],"c":1,"ref":"Art. 61.6 TREBEP","exp":"Los sistemas selectivos serán los de oposición y concurso-oposición; el concurso (solo méritos) únicamente cabe con carácter excepcional y en virtud de ley."},
-{"q":"¿Cuál NO es un requisito para adquirir la condición de funcionario de carrera (art. 62)?","o":["Superación del proceso selectivo","Nombramiento publicado en el diario oficial","Acatamiento de la Constitución","Diez años de antigüedad previa"],"c":3,"ref":"Art. 62.1 TREBEP","exp":"Se adquiere por superación del proceso selectivo, nombramiento publicado, acto de acatamiento de la Constitución y toma de posesión."},
-{"q":"¿Cuál de las siguientes es causa de pérdida de la condición de funcionario de carrera (art. 63)?","o":["El traslado forzoso","La sanción disciplinaria de separación del servicio firme","La excedencia","La comisión de servicios"],"c":1,"ref":"Art. 63.d) TREBEP","exp":"Son causas de pérdida: la renuncia, la pérdida de la nacionalidad, la jubilación total, la separación del servicio firme y la inhabilitación absoluta o especial firme."},
-{"q":"La jubilación forzosa se declara de oficio al cumplir el funcionario (art. 67):","o":["Sesenta años","Sesenta y cinco años","Setenta años","La edad que fije el Gobierno"],"c":1,"ref":"Art. 67.3 TREBEP","exp":"La jubilación forzosa se declara de oficio al cumplir los sesenta y cinco años, pudiendo solicitarse la prolongación hasta los setenta."},
-{"q":"Los empleados públicos deberán actuar conforme a los principios del Código de Conducta (art. 52), entre los que se incluye:","o":["La rentabilidad económica","La objetividad, integridad, neutralidad e imparcialidad","La fidelidad partidista","La discrecionalidad absoluta"],"c":1,"ref":"Art. 52 TREBEP","exp":"Deben actuar con objetividad, integridad, neutralidad, responsabilidad, imparcialidad, confidencialidad, dedicación al servicio público, transparencia, ejemplaridad y austeridad, entre otros."}
+  {
+    "q": "Según el art. 1 del TREBEP, la citada norma, ¿de quién establece las bases del régimen estatutario?",
+    "o": [
+      "Del personal laboral al servicio de las Administraciones Públicas",
+      "De todo el personal al servicio de las Administraciones Públicas",
+      "De los funcionarios públicos incluidos en su ámbito de aplicación",
+      "De los empleados públicos incluidos en su ámbito de aplicación"
+    ],
+    "c": 2,
+    "ref": "Art. 1 TREBEP",
+    "exp": "El TREBEP establece las bases del régimen estatutario de los funcionarios públicos incluidos en su ámbito de aplicación."
+  },
+  {
+    "q": "Según el art. 1 del TREBEP, la citada norma tendrá por objeto:",
+    "o": [
+      "Desarrollar las bases del régimen estatutario de los funcionarios públicos incluidos en su ámbito de aplicación",
+      "Adaptar las normas del estatuto de los trabajadores aplicables al personal laboral incluido en su ámbito de aplicación",
+      "Determinar las normas aplicables al personal laboral al servicio de las Administraciones públicas",
+      "Todo lo anterior es objeto del TREBEP"
+    ],
+    "c": 2,
+    "ref": "Art. 1 TREBEP",
+    "exp": "El TREBEP tiene por objeto determinar las normas aplicables al personal laboral al servicio de las Administraciones públicas."
+  },
+  {
+    "q": "Según el art. 1 del TREBEP, ¿qué fundamento de actuación refleja?",
+    "o": [
+      "Publicidad en el acceso y en la promoción profesional",
+      "Celeridad en la evaluación",
+      "Eficacia en la planificación y gestión de los recursos materiales y técnicos",
+      "Transparencia"
+    ],
+    "c": 3,
+    "ref": "Art. 1 TREBEP",
+    "exp": "La transparencia es uno de los fundamentos de actuación del art. 1."
+  },
+  {
+    "q": "Según el art. 1 del TREBEP, un fundamento que refleja es: \"Igualdad, mérito y capacidad en…\"",
+    "o": [
+      "El acceso y la selección",
+      "La formación y en la atribución de tareas",
+      "La promoción y cualificación profesional",
+      "El acceso y la promoción profesional"
+    ],
+    "c": 3,
+    "ref": "Art. 1 TREBEP",
+    "exp": "El fundamento es \"igualdad, mérito y capacidad en el acceso y en la promoción profesional\"."
+  },
+  {
+    "q": "Según el art. 2 del TREBEP, señale la respuesta correcta respecto al ámbito de aplicación:",
+    "o": [
+      "El personal funcionario de las Universidades Públicas se regirá por la normativa específica de la Universidad y supletoriamente por el TREBEP",
+      "Al personal laboral de las Universidades Públicas se regirá por el TREBEP en lo que proceda",
+      "Al personal funcionario de las Universidades Públicas se regirá por el TREBEP cuando específicamente lo disponga la normativa de la Universidad",
+      "No será de aplicación las disposiciones del TREBEP al personal laboral de las Universidades Públicas"
+    ],
+    "c": 1,
+    "ref": "Art. 2 TREBEP",
+    "exp": "Al personal laboral de las Universidades Públicas se le aplica el TREBEP en lo que proceda."
+  },
+  {
+    "q": "Según el art. 3 del TREBEP, los cuerpos de Policía Local se rigen por el TREBEP y por la legislación de las comunidades autónomas, excepto en lo establecido para ellos en:",
+    "o": [
+      "En la Ley Orgánica 2/1986, de 13 de marzo, de Fuerzas y Cuerpos de Seguridad",
+      "En la legislación de Bases del Régimen Local",
+      "En la normativa militar",
+      "En la Ley 5/2014, de 4 de abril, de Seguridad Privada"
+    ],
+    "c": 0,
+    "ref": "Art. 3 TREBEP",
+    "exp": "La excepción se establece en la Ley Orgánica 2/1986, de Fuerzas y Cuerpos de Seguridad."
+  },
+  {
+    "q": "Según el art. 4 del TREBEP, al personal funcionario de las Cortes Generales:",
+    "o": [
+      "Se aplicará el TREBEP directamente",
+      "Se le podrán dictar normas singulares",
+      "Se aplicará el TREBEP directamente cuando así lo disponga su legislación específica",
+      "En ningún caso se les aplicará el TREBEP"
+    ],
+    "c": 2,
+    "ref": "Art. 4 TREBEP",
+    "exp": "Al personal funcionario de las Cortes Generales se le aplica el TREBEP directamente cuando así lo disponga su legislación específica."
+  },
+  {
+    "q": "Según el art. 4 del TREBEP, las disposiciones del TREBEP se aplicarán al personal retribuido por arancel:",
+    "o": [
+      "Directamente",
+      "Supletoriamente cuando así lo disponga su legislación específica",
+      "Indirectamente, cuando así lo disponga su legislación específica",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 4 TREBEP",
+    "exp": "Al personal retribuido por arancel se le aplica directamente cuando lo disponga su legislación específica, por lo que ninguna opción es correcta."
+  },
+  {
+    "q": "Según el art. 5 del TREBEP, el personal funcionario de la Sociedad Estatal de Correos y Telégrafos:",
+    "o": [
+      "Se regirá por la legislación laboral y supletoriamente por el TREBEP",
+      "Supletoriamente se aplicará lo dispuesto en el TREBEP",
+      "Se aplicará directamente el TREBEP",
+      "Se regirá por sus normas específicas y supletoriamente por la legislación laboral"
+    ],
+    "c": 1,
+    "ref": "Art. 5 TREBEP",
+    "exp": "Al personal funcionario de Correos se le aplica supletoriamente el TREBEP."
+  },
+  {
+    "q": "Según el art. 7 del TREBEP, el personal laboral al servicio de las Administraciones Públicas, ¿se regirá por los preceptos del TREBEP?",
+    "o": [
+      "Por los preceptos que así lo dispongan",
+      "En todo caso en materia de excedencias",
+      "Cuando así lo dispongan las normas convencionalmente aplicables",
+      "Directamente en todas las materias, salvo en materia de permisos, que se regirá por los preceptos del Estatuto de los Trabajadores"
+    ],
+    "c": 0,
+    "ref": "Art. 7 TREBEP",
+    "exp": "El personal laboral se rige por el TREBEP en los preceptos que así lo dispongan, además de por la legislación laboral y los convenios."
+  },
+  {
+    "q": "Según el art. 7 del TREBEP, el personal laboral al servicio de las Administraciones Públicas, ¿por qué se regirá en materia de permiso de lactancia?",
+    "o": [
+      "Por el Estatuto de los Trabajadores",
+      "Por el TREBEP",
+      "Por el contrato de Trabajo",
+      "Por el TREBEP, excepto en la duración del tiempo de suspensión, que se regirá por el convenio aplicable"
+    ],
+    "c": 1,
+    "ref": "Art. 7 TREBEP",
+    "exp": "En materia de permiso de lactancia el personal laboral se rige por el TREBEP."
+  },
+  {
+    "q": "Según el art. 8 del TREBEP, los empleados públicos se clasifican en:",
+    "o": [
+      "Funcionarios de carrera y funcionarios interinos",
+      "Personal laboral, ya sea fijo, interino o temporal",
+      "Personal eventual y directivo",
+      "Todo lo anterior es correcto"
+    ],
+    "c": 0,
+    "ref": "Art. 8 TREBEP",
+    "exp": "El art. 8 clasifica a los empleados públicos en funcionarios de carrera, funcionarios interinos, personal laboral y personal eventual."
+  },
+  {
+    "q": "Según el art. 8 del TREBEP, ¿quiénes son empleados públicos?",
+    "o": [
+      "Quienes desempeñen funciones profesionales en las Administraciones Públicas al servicio de intereses generales",
+      "Quienes desempeñen funciones generales al servicio de las Administraciones Públicas",
+      "Quienes desempeñen funciones retribuidas en las Administraciones Públicas al servicio de intereses generales",
+      "Quienes desempeñen funciones profesionales retribuidas al servicio de las Administraciones Públicas"
+    ],
+    "c": 2,
+    "ref": "Art. 8 TREBEP",
+    "exp": "Son empleados públicos quienes desempeñan funciones retribuidas en las Administraciones Públicas al servicio de los intereses generales."
+  },
+  {
+    "q": "Según el art. 9 del TREBEP, son funcionarios de carrera:",
+    "o": [
+      "Quienes en virtud de contrato de trabajo están vinculados a una Administración Pública por una relación estatutaria regulada por el Derecho Administrativo para el desempeño de servicios profesionales retribuidos con carácter permanente",
+      "Quienes en virtud de nombramiento legal están vinculados a una Administración Pública por una relación estatutaria regulada por la legislación laboral para el desempeño de servicios profesionales retribuidos con carácter permanente",
+      "Quienes en virtud de contrato de trabajo están vinculados a una Administración Pública por una relación estatutaria regulada por el Derecho Administrativo para el desempeño de servicios profesionales retribuidos con carácter no permanente",
+      "Quienes en virtud de nombramiento legal están vinculados a una Administración Pública por una relación estatutaria regulada por el Derecho Administrativo para el desempeño de servicios profesionales retribuidos con carácter permanente"
+    ],
+    "c": 3,
+    "ref": "Art. 9 TREBEP",
+    "exp": "Los funcionarios de carrera están vinculados en virtud de nombramiento legal por una relación estatutaria de Derecho Administrativo, con carácter permanente."
+  },
+  {
+    "q": "Según el art. 9 del TREBEP, ¿a quién corresponde exclusivamente el ejercicio de las funciones que impliquen la participación directa o indirecta en el ejercicio de las potestades públicas o en la salvaguardia de los intereses generales del Estado y de las Administraciones Públicas?",
+    "o": [
+      "A cualquier empleado público",
+      "Al personal directivo al servicio de las Administraciones Públicas",
+      "Exclusivamente, a los funcionarios públicos",
+      "Exclusivamente, al personal eventual"
+    ],
+    "c": 2,
+    "ref": "Art. 9 TREBEP",
+    "exp": "El ejercicio de las funciones que impliquen potestades públicas corresponde exclusivamente a los funcionarios públicos."
+  },
+  {
+    "q": "Según el TREBEP, \"los que por razones expresamente justificadas de organización y urgencia son nombrados con carácter temporal para el desempeño de funciones propias de funcionarios de carrera\" son:",
+    "o": [
+      "Personal laboral",
+      "Personal eventual",
+      "Funcionarios interinos",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 10 TREBEP",
+    "exp": "Los funcionarios interinos se nombran por razones de necesidad y urgencia (no de \"organización\"), por lo que la definición está alterada y ninguna opción es correcta."
+  },
+  {
+    "q": "Según el art. 10 del TREBEP, de las que se señalan a continuación, ¿cuál es una circunstancia para nombrar a un funcionario interino?",
+    "o": [
+      "La ejecución de programas de carácter temporal que no podrán tener una duración inferior a tres años",
+      "El exceso o acumulación de tareas por plazo máximo de nueve meses, dentro de un periodo de dieciocho meses",
+      "La sustitución transitoria de los titulares de las plazas, hasta la cobertura de la misma por los procedimientos previstos en las leyes de la función pública",
+      "La previsión de plazas vacantes, cuando no sea posible su cobertura por funcionarios de carrera, por un máximo de tres años"
+    ],
+    "c": 1,
+    "ref": "Art. 10 TREBEP",
+    "exp": "El exceso o acumulación de tareas por plazo máximo de nueve meses dentro de dieciocho es una circunstancia para nombrar funcionario interino."
+  },
+  {
+    "q": "Según el art. 10 del TREBEP, el nombramiento como funcionario interino:",
+    "o": [
+      "Dará lugar en algunos casos al reconocimiento de la condición de funcionario de carrera",
+      "Dará en todo caso derecho a compensación",
+      "En ningún caso dará lugar al reconocimiento de la condición de funcionario de carrera",
+      "En ningún caso dará lugar al reconocimiento de la condición de funcionario o empleado público"
+    ],
+    "c": 2,
+    "ref": "Art. 10 TREBEP",
+    "exp": "El nombramiento como funcionario interino en ningún caso da lugar al reconocimiento de la condición de funcionario de carrera."
+  },
+  {
+    "q": "Según el art. 10 del TREBEP, los procedimientos de selección del personal funcionario interino serán públicos, rigiéndose por los principios de \"igualdad, mérito, capacidad, publicidad y seguridad\":",
+    "o": [
+      "En todo caso",
+      "Según los casos",
+      "En ningún caso",
+      "Salvo en algunos casos"
+    ],
+    "c": 2,
+    "ref": "Art. 10 TREBEP",
+    "exp": "Los principios son igualdad, mérito, capacidad, publicidad y celeridad (no \"seguridad\"), por lo que el enunciado no es correcto en ningún caso."
+  },
+  {
+    "q": "Según el art. 10 del TREBEP, ¿por qué causa la Administración formalizará de oficio la finalización de la relación de interinidad?",
+    "o": [
+      "Por la cobertura reglada del puesto por personal laboral a través de cualquiera de los procedimientos legalmente establecidos",
+      "Por razones de necesidad y urgencia que den lugar a la supresión o a la amortización de los puestos asignados",
+      "Por la finalización del plazo autorizado expresamente recogido en su contrato de trabajo",
+      "Por ninguna de las anteriores"
+    ],
+    "c": 3,
+    "ref": "Art. 10 TREBEP",
+    "exp": "Ninguna opción está bien formulada (la cobertura es reglada, no por personal laboral, y el interino no tiene contrato de trabajo), por lo que la correcta es la D."
+  },
+  {
+    "q": "Según el art. 10 del TREBEP, si transcurridos tres años desde el nombramiento del personal funcionario interino se producirá el fin de la relación de interinidad y la vacante:",
+    "o": [
+      "Solo podrá ser ocupada por personal funcionario de carrera en todo caso",
+      "En ningún caso se podrá efectuar otro nombramiento de personal funcionario interino",
+      "A y B son incorrectas",
+      "A y B son correctas"
+    ],
+    "c": 2,
+    "ref": "Art. 10 TREBEP",
+    "exp": "Ambas afirmaciones son demasiado absolutas y por ello incorrectas."
+  },
+  {
+    "q": "Según el art. 10 del TREBEP, excepcionalmente, el personal funcionario interino podrá permanecer en la plaza que ocupe temporalmente siempre que:",
+    "o": [
+      "Se haya publicado la correspondiente convocatoria dentro del plazo de los tres años, a contar desde la fecha del nombramiento del funcionario interino, y sea resuelta conforme a los plazos establecidos en el artículo 70 del TREBEP",
+      "Se haya negociado la correspondiente convocatoria dentro del plazo de los tres años, a contar desde la fecha del nombramiento del funcionario interino, y sea resuelta conforme al artículo 70",
+      "Se haya negociado la correspondiente convocatoria dentro del plazo de los tres años, a contar desde la fecha del llamamiento del funcionario interino, y sea resuelta conforme al artículo 70",
+      "Se haya publicado la correspondiente convocatoria dentro del plazo de los tres meses, a contar desde la fecha del nombramiento del funcionario interino, y sea resuelta conforme al artículo 70"
+    ],
+    "c": 0,
+    "ref": "Art. 10 TREBEP",
+    "exp": "El interino podrá permanecer si se ha publicado la convocatoria dentro del plazo de tres años desde el nombramiento y se resuelve conforme al art. 70."
+  },
+  {
+    "q": "Según el art. 10 del TREBEP, en el supuesto anterior, ¿hasta cuándo podrá permanecer el interino en su puesto de trabajo?",
+    "o": [
+      "Hasta la publicación de la convocatoria",
+      "Hasta la resolución de la convocatoria",
+      "Hasta un año después de la publicación de la convocatoria",
+      "Hasta la toma de posesión del funcionario de carrera correspondiente"
+    ],
+    "c": 1,
+    "ref": "Art. 10 TREBEP",
+    "exp": "El interino podrá permanecer hasta la resolución de la convocatoria."
+  },
+  {
+    "q": "Según el art. 11 del TREBEP, ¿quién establecerá los criterios para la determinación de los puestos de trabajo que pueden ser desempeñados por personal laboral?",
+    "o": [
+      "Cada Administración Pública",
+      "El Estatuto de los Trabajadores",
+      "Las leyes de Función Pública que se dicten en desarrollo del TREBEP",
+      "Los órganos de Gobierno de la Administración Pública"
+    ],
+    "c": 2,
+    "ref": "Art. 11 TREBEP",
+    "exp": "Los criterios los establecen las leyes de Función Pública que se dicten en desarrollo del TREBEP."
+  },
+  {
+    "q": "Según el art. 11 del TREBEP, el personal laboral es el:",
+    "o": [
+      "Que, en virtud de nombramiento formalizado por escrito, en cualquiera de las modalidades de contratación previstas en la legislación laboral, presta servicios retribuidos por las Administraciones Públicas",
+      "Que, en virtud de contrato de trabajo formalizado por escrito, en cualquiera de las modalidades de contratación previstas en la legislación laboral, presta servicios retribuidos por las Administraciones Públicas",
+      "Que, en virtud de contrato de trabajo formalizado por escrito, en cualquiera de las modalidades de contratación previstas en la legislación administrativa, presta servicios retribuidos por las Administraciones Públicas",
+      "Que, en virtud de contrato de trabajo formalizado por escrito, presta solamente funciones calificadas de asesoramiento o confianza en las Administraciones Públicas"
+    ],
+    "c": 1,
+    "ref": "Art. 11 TREBEP",
+    "exp": "El personal laboral presta servicios en virtud de contrato de trabajo formalizado por escrito según la legislación laboral."
+  },
+  {
+    "q": "Según el art. 11 del TREBEP, los procedimientos de selección del personal laboral serán:",
+    "o": [
+      "Públicos, rigiéndose en todo caso por los principios de igualdad, mérito y necesidad",
+      "Públicos, rigiéndose en todo caso por los principios de igualdad, capacidad y publicidad",
+      "Públicos, rigiéndose en todo caso por los principios de igualdad, mérito y capacidad",
+      "Públicos, rigiéndose en todo caso por los principios de igualdad, urgencia y necesidad"
+    ],
+    "c": 2,
+    "ref": "Art. 11 TREBEP",
+    "exp": "La selección del personal laboral se rige por los principios de igualdad, mérito y capacidad."
+  },
+  {
+    "q": "Según el art. 12 del TREBEP, en relación con el personal eventual, señale la respuesta correcta:",
+    "o": [
+      "El nombramiento y cese serán libres",
+      "La condición de personal eventual constituirá mérito para la promoción interna",
+      "Solo realiza funciones de necesidad y urgencia",
+      "El número máximo se establecerá por las leyes de Función Pública"
+    ],
+    "c": 0,
+    "ref": "Art. 12 TREBEP",
+    "exp": "El nombramiento y cese del personal eventual son libres."
+  },
+  {
+    "q": "Según el art. 12 del TREBEP, respecto al personal eventual, ¿qué serán públicas?",
+    "o": [
+      "Sus funciones",
+      "Sus méritos",
+      "Su nombramiento y cese",
+      "Sus condiciones retributivas"
+    ],
+    "c": 3,
+    "ref": "Art. 12 TREBEP",
+    "exp": "Las condiciones retributivas del personal eventual serán públicas."
+  },
+  {
+    "q": "Según el art. 12 del TREBEP, ¿con cargo a qué será retribuido el personal eventual?",
+    "o": [
+      "A las consignaciones previstas en los convenios aplicables",
+      "A los presupuestos aprobados por los órganos de gobierno",
+      "A los créditos presupuestarios consignados para este fin",
+      "A las consignaciones previstas por la Autoridad que los nombró"
+    ],
+    "c": 2,
+    "ref": "Art. 12 TREBEP",
+    "exp": "El personal eventual se retribuye con cargo a los créditos presupuestarios consignados para este fin."
+  },
+  {
+    "q": "Según el art. 13 del TREBEP, en relación con el personal directivo profesional, señale la respuesta incorrecta:",
+    "o": [
+      "Su designación atenderá a principios de mérito y capacidad",
+      "Las funciones directivas profesionales estarán definidas como tales en las normas específicas de cada Administración",
+      "El personal directivo estará sujeto a evaluación",
+      "La determinación de las condiciones de empleo del personal directivo tendrá la consideración de materia objeto de negociación colectiva"
+    ],
+    "c": 3,
+    "ref": "Art. 13 TREBEP",
+    "exp": "Las condiciones de empleo del personal directivo NO tendrán la consideración de materia objeto de negociación colectiva, por lo que esa opción es la incorrecta."
+  },
+  {
+    "q": "Según el art. 14 del TREBEP, ¿cuál es un derecho de carácter individual de los empleados públicos?",
+    "o": [
+      "A la defensa jurídica y protección de la Administración en cualquier proceso jurídico en los que sea parte",
+      "A la movilidad en la condición de funcionario de carrera",
+      "A la libertad de expresión sin límites",
+      "A percibir las retribuciones y las indemnizaciones por razón del servicio"
+    ],
+    "c": 3,
+    "ref": "Art. 14 TREBEP",
+    "exp": "Percibir las retribuciones e indemnizaciones por razón del servicio es un derecho individual del art. 14."
+  },
+  {
+    "q": "Según el art. 14 del TREBEP, es un derecho de carácter individual de los empleados públicos \"a la formación continua y a la actualización permanente de sus conocimientos y capacidades profesionales\":",
+    "o": [
+      "Preferentemente en horario no laboral",
+      "Siempre en horario laboral",
+      "Preferentemente en horario laboral",
+      "Nunca en horario laboral"
+    ],
+    "c": 2,
+    "ref": "Art. 14 TREBEP",
+    "exp": "La formación continua se realiza preferentemente en horario laboral."
+  },
+  {
+    "q": "Según el art. 47 del TREBEP, el teletrabajo deberá contribuir a una mejor organización del trabajo a través:",
+    "o": [
+      "De la identificación de objetivos y evaluación de su cumplimiento",
+      "De la consecución de objetivos en el menor tiempo posible",
+      "De la utilización de medios tecnológicos adecuados a la actividad que se desarrolle",
+      "De la evaluación continua de los riesgos laborales"
+    ],
+    "c": 0,
+    "ref": "Art. 47 TREBEP",
+    "exp": "El teletrabajo debe contribuir a una mejor organización mediante la identificación de objetivos y la evaluación de su cumplimiento."
+  },
+  {
+    "q": "Según el art. 47 del TREBEP, las Administraciones Públicas adoptarán medidas de flexibilización horaria para garantizar la conciliación de la vida familiar y laboral de los empleados públicos que tengan a su cargo a hijos e hijas:",
+    "o": [
+      "Menores de dieciocho años",
+      "Menores de seis años",
+      "Mayores de doce años, en cualquier caso",
+      "Ninguna de las anteriores respuestas son correctas"
+    ],
+    "c": 3,
+    "ref": "Art. 47 TREBEP",
+    "exp": "El art. 47.2 fija la flexibilización horaria para hijos menores de doce años; ninguna opción recoge \"doce años\" (B dice \"seis\"), por lo que la correcta es la D."
+  },
+  {
+    "q": "Según el art. 47 del TREBEP, las Administraciones Públicas adoptarán medidas de flexibilización horaria para garantizar la conciliación de la vida familiar y laboral de los empleados públicos:",
+    "o": [
+      "Que tengan necesidades de cuidado respecto del cónyuge o pareja de hecho, familiares por consanguinidad hasta el cuarto grado",
+      "Respecto de otras personas que por razones de edad, accidente o enfermedad no puedan valerse por sí mismos",
+      "Que tengan necesidades de cuidado por los hijos e hijas mayores de doce años que por razón de accidente o enfermedad no puedan valerse por sí mismos",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 47 TREBEP",
+    "exp": "Ninguna de las opciones reproduce correctamente los supuestos legales, por lo que la correcta es la D."
+  },
+  {
+    "q": "Según el art. 47 bis del TREBEP, ¿qué afirmación es correcta respecto al teletrabajo?",
+    "o": [
+      "La Administración proporcionará y mantendrá personas que trabajen en esta modalidad",
+      "Se realizará en los términos de las normas que se dicten en este Estatuto",
+      "El personal que preste sus servicios mediante teletrabajo tendrá los mismos deberes y derechos, individuales y colectivos, recogidos en el presente Estatuto que el resto del personal que preste sus servicios en modalidad a distancia",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 47 bis TREBEP",
+    "exp": "Las opciones están mal formuladas (el teletrabajador tiene los mismos derechos que el personal presencial, no \"a distancia\"), por lo que la correcta es la D."
+  },
+  {
+    "q": "Según el art. 48 del TREBEP, por la intervención quirúrgica sin hospitalización de un familiar dentro del segundo grado que precise de reposo domiciliario, el funcionario público ¿tendrá algún permiso?",
+    "o": [
+      "No, es hasta un familiar de primer grado en estos casos",
+      "Cinco días hábiles cuando se produzca en distinta localidad",
+      "Sí, cuatro días hábiles",
+      "Sí, dos días hábiles cuando se produzca en distinta localidad"
+    ],
+    "c": 2,
+    "ref": "Art. 48 TREBEP",
+    "exp": "El art. 48.a) concede cuatro días hábiles por intervención quirúrgica sin hospitalización con reposo domiciliario de familiar de segundo grado (opción C)."
+  },
+  {
+    "q": "Según el art. 48 del TREBEP, cuando se trate de fallecimiento del cónyuge y el suceso se produzca en la misma localidad, los funcionarios públicos tendrán derecho a un permiso de:",
+    "o": [
+      "Tres días hábiles",
+      "Cinco días hábiles",
+      "Tres días naturales",
+      "Seis días hábiles"
+    ],
+    "c": 0,
+    "ref": "Art. 48 TREBEP",
+    "exp": "El fallecimiento del cónyuge en la misma localidad da derecho a tres días hábiles."
+  },
+  {
+    "q": "Según el art. 48 del TREBEP, cuando se trate de fallecimiento de un hermano o hermana y el suceso se produzca en distinta localidad, los funcionarios tendrán un permiso de:",
+    "o": [
+      "Tres días hábiles",
+      "Cuatro días hábiles",
+      "Cuatro días naturales",
+      "Cinco días hábiles"
+    ],
+    "c": 1,
+    "ref": "Art. 48 TREBEP",
+    "exp": "El fallecimiento de familiar de segundo grado (hermano) en distinta localidad da derecho a cuatro días hábiles."
+  },
+  {
+    "q": "Según el art. 48 del TREBEP, por enfermedad grave de parientes hasta el primer grado por consanguinidad, los funcionarios tendrán un permiso de:",
+    "o": [
+      "Cinco días hábiles",
+      "Tres días hábiles",
+      "Cuatro días hábiles",
+      "No tendrán derecho a ningún permiso"
+    ],
+    "c": 0,
+    "ref": "Art. 48 TREBEP",
+    "exp": "Por enfermedad grave de familiar de primer grado se tiene derecho a cinco días hábiles (en distinta localidad)."
+  },
+  {
+    "q": "Según el art. 48 del TREBEP, siguiendo con la pregunta anterior, ¿y si fuera hasta el primer grado de afinidad?",
+    "o": [
+      "Cinco días hábiles",
+      "Tres días hábiles",
+      "Cuatro días hábiles",
+      "No tendrán derecho a ningún permiso"
+    ],
+    "c": 0,
+    "ref": "Art. 48 TREBEP",
+    "exp": "Por enfermedad grave de familiar de primer grado de afinidad se tiene derecho a cinco días hábiles."
+  },
+  {
+    "q": "Según el art. 48 del TREBEP, siguiendo con las preguntas anteriores, ¿y si se tratara de un familiar dentro del segundo grado?",
+    "o": [
+      "Tres días hábiles en todo caso",
+      "Cinco días hábiles, si convive con el funcionario/a en el mismo domicilio y que requiera el cuidado efectivo de aquel",
+      "Cinco días hábiles, si el suceso se produce en distinta localidad",
+      "Dos días hábiles, si el suceso se produce en la misma localidad"
+    ],
+    "c": 1,
+    "ref": "Art. 48 TREBEP",
+    "exp": "Para el segundo grado se tienen cinco días hábiles si convive en el mismo domicilio y requiere el cuidado efectivo."
+  },
+  {
+    "q": "Según el art. 48 del TREBEP, los funcionarios públicos, ¿qué permiso tendrán por traslado al domicilio, sin cambio de residencia?",
+    "o": [
+      "Un día",
+      "Los días necesarios",
+      "En los términos que se determine",
+      "Nada es correcto"
+    ],
+    "c": 0,
+    "ref": "Art. 48 TREBEP",
+    "exp": "El art. 48.b) fija un día por traslado de domicilio sin cambio de residencia (opción A)."
+  },
+  {
+    "q": "Según el art. 48 del TREBEP, los funcionarios públicos tendrán un permiso, en los \"términos que se determine\":",
+    "o": [
+      "Para concurrir a exámenes finales y demás pruebas definitivas de aptitud",
+      "Para el cumplimiento de un deber inexcusable de carácter público o personal y por deberes relacionados con la conciliación de la vida familiar y laboral",
+      "Por haber realizado funciones sindicales o de representación del personal",
+      "Nada es correcto"
+    ],
+    "c": 2,
+    "ref": "Art. 48 TREBEP",
+    "exp": "El art. 48.c) concede el permiso para funciones sindicales o de representación del personal \"en los términos que se determine\" (opción C)."
+  },
+  {
+    "q": "Según el art. 48 del TREBEP, los funcionarios públicos, ¿qué permiso tendrán para la realización de exámenes prenatales y técnicas de preparación al parto por las funcionarias embarazadas, que deban realizarse fuera de la jornada de trabajo?",
+    "o": [
+      "Ninguno",
+      "Por el tiempo indispensable",
+      "Al menos una hora de ausencia",
+      "En los términos que se determine"
+    ],
+    "c": 0,
+    "ref": "Art. 48 TREBEP",
+    "exp": "El permiso solo procede cuando deban realizarse dentro de la jornada; si es fuera, no hay permiso."
+  },
+  {
+    "q": "Según el art. 48 del TREBEP, los funcionarios públicos, ¿qué permiso NO tendrán por lactancia de un hijo menor de doce meses?",
+    "o": [
+      "Una hora de ausencia del trabajo",
+      "Media hora de ausencia en el trabajo",
+      "Una reducción de una hora al inicio de la jornada",
+      "Tendrá derecho a cualquiera de las modalidades anteriores"
+    ],
+    "c": 1,
+    "ref": "Art. 48 TREBEP",
+    "exp": "La ausencia por lactancia es de una hora (divisible o como reducción), no de media hora."
+  },
+  {
+    "q": "Según el art. 48 del TREBEP, los funcionarios públicos, ¿podrán solicitar la sustitución del tiempo de lactancia por un permiso que acumule en jornadas completas el tiempo correspondiente?",
+    "o": [
+      "Sí, si se transfiere al otro progenitor",
+      "Solo en caso de parto múltiple",
+      "Sí, y es retribuido",
+      "Sí, salvo que sea retribuido"
+    ],
+    "c": 2,
+    "ref": "Art. 48 TREBEP",
+    "exp": "Puede sustituirse por un permiso retribuido que acumule en jornadas completas el tiempo de lactancia."
+  },
+  {
+    "q": "Según el art. 48 del TREBEP, por nacimiento de hijos prematuros o que deban permanecer hospitalizados a continuación del parto, la funcionaria o el funcionario tendrá derecho a ausentarse del trabajo durante:",
+    "o": [
+      "Un máximo de una hora diaria percibiendo las retribuciones íntegras",
+      "Un máximo de dos horas diarias percibiendo solo las retribuciones básicas",
+      "Un máximo de dos horas diarias sin carácter retribuido",
+      "Un máximo de dos horas diarias percibiendo las retribuciones íntegras"
+    ],
+    "c": 3,
+    "ref": "Art. 48 TREBEP",
+    "exp": "Se tiene derecho a ausentarse un máximo de dos horas diarias percibiendo las retribuciones íntegras."
+  },
+  {
+    "q": "Según el art. 48 del TREBEP, ¿qué permiso tendrán por razones de guarda legal los funcionarios públicos que precisen encargarse del cuidado directo de un familiar dentro del primer grado de consanguinidad o afinidad que por razones de edad, accidente o enfermedad no pueda valerse por sí mismo y que no desempeñe actividad retribuida?",
+    "o": [
+      "A la reducción de su jornada de trabajo sin carácter retribuido",
+      "No tendrán permiso alguno",
+      "Una reducción de hasta el cincuenta por ciento de la jornada con carácter retribuido y por plazo máximo de un mes",
+      "A la reducción de su jornada de trabajo, con la disminución de sus retribuciones que corresponda"
+    ],
+    "c": 3,
+    "ref": "Art. 48 TREBEP",
+    "exp": "Por guarda legal se tiene derecho a la reducción de la jornada con la disminución proporcional de retribuciones."
+  },
+  {
+    "q": "Según el art. 48 del TREBEP, los funcionarios públicos, ¿qué permiso tendrán para la constitución formalizada por documento público de pareja de hecho?",
+    "o": [
+      "15 días",
+      "15 días naturales",
+      "Ninguno",
+      "15 días al año"
+    ],
+    "c": 0,
+    "ref": "Art. 48 TREBEP",
+    "exp": "El art. 48.l) concede quince días por constitución formalizada por documento público de pareja de hecho (opción A)."
+  },
+  {
+    "q": "Según el art. 48 del TREBEP, siempre que deban tener lugar dentro de la jornada de trabajo, ¿qué permiso tendrán los funcionarios públicos para la realización de los actos preparatorios de la donación de órganos o tejidos?",
+    "o": [
+      "En los términos que se determine",
+      "Ninguno",
+      "Por el tiempo indispensable",
+      "Los días de su celebración"
+    ],
+    "c": 2,
+    "ref": "Art. 48 TREBEP",
+    "exp": "Para los actos preparatorios de la donación de órganos dentro de la jornada se tiene el permiso por el tiempo indispensable."
+  },
+  {
+    "q": "Según el art. 49 del TREBEP, el permiso del progenitor diferente de la madre biológica por nacimiento, guarda con fines de adopción, acogimiento o adopción de un hijo o hija, en el supuesto de monoparentalidad, tendrá una duración de:",
+    "o": [
+      "No existe en este caso",
+      "Dieciséis semanas",
+      "Diecinueve semanas",
+      "Treinta y dos semanas"
+    ],
+    "c": 3,
+    "ref": "Art. 49 TREBEP",
+    "exp": "En el supuesto de monoparentalidad el permiso del progenitor diferente de la madre biológica es de treinta y dos semanas."
+  },
+  {
+    "q": "Según el art. 49 del TREBEP, la distribución del permiso por adopción contempla:",
+    "o": [
+      "Seis semanas interrumpidas inmediatamente posteriores a la resolución judicial por la que se constituye la adopción",
+      "Cuatro semanas en el caso de monoparentalidad, para el cuidado del menor, que podrán distribuirse a voluntad en períodos semanales de forma acumulada o interrumpida hasta que el hijo o la hija cumpla los ocho años",
+      "Doce semanas en el caso de monoparentalidad, ininterrumpidas inmediatamente posteriores a la resolución judicial por la que se constituye la adopción",
+      "No contempla nada de lo anterior"
+    ],
+    "c": 1,
+    "ref": "Art. 49 TREBEP",
+    "exp": "La distribución contempla cuatro semanas en monoparentalidad para el cuidado del menor, disfrutables hasta que cumpla ocho años."
+  },
+  {
+    "q": "Según el art. 49 del TREBEP, en el permiso por nacimiento para la madre biológica, ¿cuántas semanas serán obligatorias y a disfrutar a jornada completa?",
+    "o": [
+      "Seis semanas ininterrumpidas inmediatamente posteriores al parto",
+      "Siete semanas ininterrumpidas inmediatamente posteriores al parto, en caso de partos múltiples",
+      "Once semanas ininterrumpidas inmediatas posteriores al parto, en caso de monoparentalidad",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 0,
+    "ref": "Art. 49 TREBEP",
+    "exp": "Serán obligatorias seis semanas ininterrumpidas inmediatamente posteriores al parto, a jornada completa."
+  },
+  {
+    "q": "Según el art. 49 del TREBEP, en el permiso por adopción, si fuera necesario el desplazamiento previo de los progenitores al país de origen del adoptado, en los casos de adopción o acogimiento internacional, se tendrá derecho además a un permiso:",
+    "o": [
+      "De hasta dos meses de duración",
+      "De hasta tres meses de duración",
+      "De hasta cuatro meses de duración",
+      "De hasta cinco meses de duración"
+    ],
+    "c": 0,
+    "ref": "Art. 49 TREBEP",
+    "exp": "El desplazamiento previo da derecho a un permiso de hasta dos meses de duración."
+  },
+  {
+    "q": "Según el art. 49 del TREBEP, para hacer efectivo su derecho a la protección y a la asistencia social integral, los funcionarios que hayan sufrido daños físicos o psíquicos como consecuencia de la actividad terrorista, ¿a qué tendrán derecho?",
+    "o": [
+      "A la reducción de la jornada sin disminución de la retribución, o a la reordenación del tiempo de trabajo",
+      "A la ausencia retribuida del puesto de trabajo o la reordenación del tiempo de trabajo",
+      "A la reducción de la jornada con disminución proporcional de la retribución, o a la reordenación del tiempo de trabajo",
+      "A la aplicación del horario flexible, en los términos que deberá especificar la víctima"
+    ],
+    "c": 2,
+    "ref": "Art. 49 TREBEP",
+    "exp": "Las víctimas de terrorismo tienen derecho a la reducción de la jornada con disminución proporcional de la retribución, o a la reordenación del tiempo de trabajo."
+  },
+  {
+    "q": "Según el art. 49 del TREBEP, señale qué afirmación es correcta respecto al permiso por razón de violencia de género o de violencia sexual sobre la mujer funcionaria:",
+    "o": [
+      "En todo caso tendrán derecho a la reducción de la jornada con disminución proporcional de la retribución",
+      "La funcionaria pública mantendrá sus retribuciones íntegras cuando reduzca su jornada en más de un tercio",
+      "Las faltas de asistencia totales tendrán la consideración de justificadas por el tiempo y en las condiciones en que así lo determinen el plan de igualdad de aplicación o, en su defecto, la Administración pública competente",
+      "Las faltas de asistencia parciales tendrán la consideración de justificadas por el tiempo y en las condiciones en que así lo determinen los servicios sociales de atención"
+    ],
+    "c": 3,
+    "ref": "Art. 49 TREBEP",
+    "exp": "El art. 49.d) considera justificadas las faltas totales y parciales según lo determinen los servicios sociales de atención o de salud; la opción D es la única coherente."
+  },
+  {
+    "q": "Según el art. 49 del TREBEP, en el caso del permiso de nacimiento para la madre, el tiempo transcurrido sin disfrute de este permiso se computará como:",
+    "o": [
+      "Situación de Servicios Especiales",
+      "Servicio efectivo a todos los efectos",
+      "Suspensión de servicio",
+      "Nada es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 49 TREBEP",
+    "exp": "El art. 49 computa como servicio efectivo el tiempo \"durante el disfrute\" del permiso; al preguntar por el tiempo \"sin disfrute\", ninguna opción es correcta (D)."
+  },
+  {
+    "q": "Según el art. 49 del TREBEP, en el permiso por cuidado de hijo menor afectado por cáncer u otra enfermedad grave, se mantendrá el derecho a la reducción de jornada hasta que la persona a su cargo cumpla 26 años:",
+    "o": [
+      "Si, antes de alcanzar los 24 años, acreditara además un grado de discapacidad igual o superior al 65 por ciento",
+      "Si, antes de alcanzar los 23 años, acreditara además un grado de discapacidad igual o superior al 65 por ciento",
+      "Si, antes de alcanzar los 26 años, acreditara además un grado de discapacidad igual o superior al 65 por ciento",
+      "Si, antes de alcanzar los 23 años, acreditara además un grado de discapacidad igual o superior al 3 por ciento"
+    ],
+    "c": 1,
+    "ref": "Art. 49 TREBEP",
+    "exp": "Se mantiene hasta los 26 años si antes de cumplir 23 acredita un grado de discapacidad igual o superior al 65 por ciento."
+  },
+  {
+    "q": "Según el art. 49 del TREBEP, en el permiso por nacimiento, en la distribución de las distintas semanas, el periodo de once semanas:",
+    "o": [
+      "Se podrá ejercitar desde la finalización del periodo de descanso obligatorio posterior al hecho causante dentro de los doce meses a contar bien desde el nacimiento del hijo o hija, o bien desde la resolución judicial por la que se constituye la adopción",
+      "Se distribuirá exclusivamente a voluntad de la progenitora",
+      "Podrá distribuirse hasta que el hijo cumpla ocho años",
+      "Habrá de distribuirse de forma ininterrumpida dentro de los doce meses a contar bien desde el nacimiento del hijo o hija, o bien desde la resolución judicial de adopción"
+    ],
+    "c": 0,
+    "ref": "Art. 49 TREBEP",
+    "exp": "El periodo restante puede ejercitarse desde la finalización del descanso obligatorio dentro de los doce meses posteriores al nacimiento o resolución judicial."
+  },
+  {
+    "q": "Según el art. 49 del TREBEP, en el permiso por nacimiento para la madre biológica, en el caso del disfrute interrumpido del permiso se requerirá, para cada período de disfrute, un preaviso de:",
+    "o": [
+      "Al menos quince días en el caso de monoparentalidad",
+      "Al menos veintidós días, en el caso de monoparentalidad",
+      "Al menos diez días",
+      "B y C son correctas"
+    ],
+    "c": 0,
+    "ref": "Art. 49 TREBEP",
+    "exp": "El disfrute interrumpido requiere un preaviso de al menos quince días."
+  },
+  {
+    "q": "Según el art. 49 del TREBEP, el permiso parental es:",
+    "o": [
+      "Para el cuidado de todos los hijos",
+      "Para el cuidado de un menor acogido por tiempo inferior a un año",
+      "Para el cuidado de hijo, hija o menor acogido por tiempo superior a un año",
+      "Para el cuidado de hijo o hija mayores de ocho años y menores de doce"
+    ],
+    "c": 2,
+    "ref": "Art. 49 TREBEP",
+    "exp": "El permiso parental es para el cuidado de hijo, hija o menor acogido por tiempo superior a un año."
+  },
+  {
+    "q": "Según el art. 49 del TREBEP, los funcionarios públicos tendrán derecho al permiso parental hasta el momento en que el menor cumpla:",
+    "o": [
+      "Doce años",
+      "Ocho años",
+      "Ocho semanas",
+      "Seis años"
+    ],
+    "c": 1,
+    "ref": "Art. 49 TREBEP",
+    "exp": "El permiso parental se disfruta hasta que el menor cumpla ocho años."
+  },
+  {
+    "q": "Según el art. 49 del TREBEP, la duración del permiso parental tendrá una duración no superior a:",
+    "o": [
+      "1 año",
+      "Ocho meses",
+      "Ocho semanas",
+      "Diez semanas"
+    ],
+    "c": 2,
+    "ref": "Art. 49 TREBEP",
+    "exp": "El permiso parental tendrá una duración no superior a ocho semanas."
+  },
+  {
+    "q": "Según el art. 49 del TREBEP, el permiso parental:",
+    "o": [
+      "No tendrá carácter retribuido",
+      "Tendrá carácter retribuido",
+      "Tendrá carácter retribuido o no según la duración del permiso",
+      "Tendrá carácter retribuido cuando las necesidades del servicio lo permitan"
+    ],
+    "c": 0,
+    "ref": "Art. 49 TREBEP",
+    "exp": "El permiso parental no tiene carácter retribuido."
+  },
+  {
+    "q": "Según el art. 49 del TREBEP, en el permiso parental, cuando las necesidades del servicio lo permitan, ¿a quién corresponderá especificar la fecha de inicio y fin del disfrute del permiso?",
+    "o": [
+      "Solo al progenitor",
+      "A la administración",
+      "Al cuidador",
+      "A la persona acogedora"
+    ],
+    "c": 3,
+    "ref": "Art. 49 TREBEP",
+    "exp": "El art. 49.g) atribuye a la persona progenitora, adoptante o acogedora especificar el inicio y fin del permiso parental; la opción D (persona acogedora) es válida, mientras que A (\"solo al progenitor\") es incorrecta."
+  },
+  {
+    "q": "Según el art. 49 del TREBEP, en el permiso parental, en el caso de especificar periodos de disfrute, se deberá comunicar a la administración con una antelación:",
+    "o": [
+      "Ocho días",
+      "Diez días",
+      "Siete días",
+      "Quince días"
+    ],
+    "c": 3,
+    "ref": "Art. 49 TREBEP",
+    "exp": "Los periodos de disfrute deben comunicarse con una antelación de quince días."
+  },
+  {
+    "q": "Según el art. 49 del TREBEP, ¿cómo se realizará el disfrute del permiso parental?",
+    "o": [
+      "Por meses completos",
+      "Por semanas completas",
+      "Por jornadas completas",
+      "A elección del solicitante"
+    ],
+    "c": 1,
+    "ref": "Art. 49 TREBEP",
+    "exp": "El art. 49.g) establece que el disfrute del permiso parental se realiza por semanas completas (opción B)."
+  },
+  {
+    "q": "Según el art. 50 del TREBEP, los funcionarios públicos tendrán derecho a disfrutar, durante cada año natural, de unas vacaciones:",
+    "o": [
+      "Retribuidas de veintidós días hábiles",
+      "No retribuidas de veintidós días hábiles",
+      "Retribuidas de veintidós días naturales",
+      "Retribuidas de un mes hábil"
+    ],
+    "c": 0,
+    "ref": "Art. 50 TREBEP",
+    "exp": "Las vacaciones anuales son retribuidas y de veintidós días hábiles."
+  },
+  {
+    "q": "Según el art. 50 del TREBEP, no se consideran como días hábiles, sin perjuicio de las adaptaciones para horarios especiales:",
+    "o": [
+      "Los lunes",
+      "Los días del disfrute de vacaciones",
+      "Los sábados",
+      "Todo lo anterior se considera días hábiles"
+    ],
+    "c": 2,
+    "ref": "Art. 50 TREBEP",
+    "exp": "A efectos de vacaciones, los sábados no se consideran días hábiles."
+  },
+  {
+    "q": "Según el art. 50 del TREBEP, cuando la situación de permiso de maternidad impida iniciar el disfrute de las vacaciones dentro del año natural al que correspondan, ¿se podrán disfrutar las vacaciones aunque haya terminado el año natural?",
+    "o": [
+      "No",
+      "No, si ha transcurrido nueve meses a partir del final del año en que se hayan originado",
+      "Sí, y siempre que no hayan transcurrido más de dieciocho meses a partir del final del año en que se hayan originado",
+      "Sí, y siempre que no hayan transcurrido más de dieciocho meses a partir del comienzo del año en que se hayan originado"
+    ],
+    "c": 2,
+    "ref": "Art. 50 TREBEP",
+    "exp": "Podrán disfrutarse siempre que no hayan transcurrido más de dieciocho meses a partir del final del año en que se hayan originado."
+  },
+  {
+    "q": "Según el art. 50 del TREBEP, ¿qué afirmación es correcta?",
+    "o": [
+      "El período de vacaciones anuales retribuidas puede ser sustituido por una cuantía económica",
+      "En los casos de renuncia voluntaria deberá garantizarse en todo caso la compensación económica de las vacaciones devengadas",
+      "En los casos de conclusión de la relación de servicios por causas ajenas a la voluntad de los funcionarios, tendrán derecho a solicitar el abono de una compensación económica por las vacaciones no devengadas y no disfrutadas",
+      "En los casos de conclusión de la relación de servicios por jubilación por incapacidad permanente o por fallecimiento, tendrán derecho a solicitar el abono de una compensación económica por las vacaciones devengadas y no disfrutadas, hasta un máximo de dieciocho meses"
+    ],
+    "c": 3,
+    "ref": "Art. 50 TREBEP",
+    "exp": "En caso de jubilación por incapacidad permanente o fallecimiento procede la compensación económica por las vacaciones devengadas y no disfrutadas."
+  },
+  {
+    "q": "Según el art. 52 del TREBEP, los empleados públicos deberán actuar con arreglo a una serie de principios, no encontrándose entre los mismos:",
+    "o": [
+      "Integridad",
+      "Promoción de la calidad en el servicio",
+      "Respeto a la igualdad entre mujeres y hombres",
+      "Honradez"
+    ],
+    "c": 1,
+    "ref": "Art. 52 TREBEP",
+    "exp": "La \"promoción de la calidad en el servicio\" no figura entre los principios del art. 52."
+  },
+  {
+    "q": "Según el art. 52 del TREBEP, los principios a los que se refiere la pregunta anterior inspiran:",
+    "o": [
+      "El Código de conducta de los empleados públicos",
+      "El Código ético de los empleados públicos",
+      "El comportamiento de los empleados públicos",
+      "Reglas de comportamiento"
+    ],
+    "c": 0,
+    "ref": "Art. 52 TREBEP",
+    "exp": "Los principios éticos y de conducta inspiran e informan el Código de conducta de los empleados públicos."
+  },
+  {
+    "q": "Según el art. 52 del TREBEP, ¿qué está configurado por los principios éticos y de conducta de los empleados públicos?",
+    "o": [
+      "El Código ético de los empleados públicos",
+      "El código de los funcionarios públicos",
+      "El código de comportamiento de las Administraciones Públicas",
+      "El Código de conducta de los empleados públicos"
+    ],
+    "c": 3,
+    "ref": "Art. 52 TREBEP",
+    "exp": "El Código de conducta de los empleados públicos está configurado por los principios éticos y de conducta."
+  },
+  {
+    "q": "Según el art. 53 del TREBEP, ¿cuál es un principio ético de los empleados públicos?",
+    "o": [
+      "Tratarán con atención y respeto a los ciudadanos, a sus superiores y a los restantes empleados públicos",
+      "Garantizarán la constancia y permanencia de los documentos para su transmisión y entrega a sus posteriores responsables",
+      "Cumplirán con diligencia las tareas que les correspondan o se les encomienden y, en su caso, resolverán dentro de plazo los procedimientos o expedientes de su competencia",
+      "Observarán las normas sobre seguridad y salud laboral"
+    ],
+    "c": 2,
+    "ref": "Art. 53 TREBEP",
+    "exp": "Cumplir con diligencia las tareas y resolver dentro de plazo es un principio ético del art. 53."
+  },
+  {
+    "q": "Según el art. 54 del TREBEP, es un principio de conducta de los empleados públicos:",
+    "o": [
+      "Guardarán secreto de las materias clasificadas u otras cuya difusión esté prohibida",
+      "Mantendrán actualizada su formación y cualificación",
+      "No influirán en la agilización de trámites o procedimientos administrativos sin justa causa",
+      "Su actuación perseguirá la satisfacción de los intereses generales de los ciudadanos"
+    ],
+    "c": 1,
+    "ref": "Art. 54 TREBEP",
+    "exp": "Mantener actualizada la formación y cualificación es un principio de conducta del art. 54."
+  },
+  {
+    "q": "Según el art. 54 del TREBEP, NO es un principio de conducta de los empleados públicos:",
+    "o": [
+      "El desempeño de las tareas correspondientes a su puesto de trabajo se realizará de forma diligente y cumpliendo la jornada y el horario establecidos",
+      "Obedecerán las instrucciones y órdenes profesionales de los superiores, salvo que constituyan una infracción manifiesta del ordenamiento jurídico, en cuyo caso las pondrán inmediatamente en conocimiento de los órganos de inspección procedentes",
+      "Ejercerán sus atribuciones según el principio de dedicación al servicio público absteniéndose no solo de conductas contrarias al mismo, sino también de cualesquiera otras que comprometan la neutralidad en el ejercicio de los servicios públicos",
+      "Todos los anteriores son principios de conducta"
+    ],
+    "c": 2,
+    "ref": "Art. 53 y 54 TREBEP",
+    "exp": "La dedicación al servicio público y la neutralidad son principios éticos (art. 53), no de conducta."
+  },
+  {
+    "q": "Según el art. 54 del TREBEP, un principio de conducta es \"pondrán en conocimiento de sus superiores o de los órganos competentes las propuestas\". ¿Qué propuestas?",
+    "o": [
+      "Las que consideren adecuadas para mejorar el desarrollo de las funciones de la unidad en la que estén destinados",
+      "Las que garanticen la atención al ciudadano en la lengua que solicite siempre que sea oficial en el territorio",
+      "Las que cumplan con los principios de eficacia, economía y eficiencia y mejoren la consecución del interés general",
+      "Las que no constituyan una infracción manifiesta del ordenamiento jurídico y persigan la satisfacción del interés general"
+    ],
+    "c": 0,
+    "ref": "Art. 54 TREBEP",
+    "exp": "Deben poner en conocimiento las propuestas que consideren adecuadas para mejorar el desarrollo de las funciones de su unidad."
+  },
+  {
+    "q": "Según el TREBEP, sobre los empleados públicos, \"su conducta se basará en el respeto de los derechos fundamentales y libertades públicas, evitando toda actuación que pueda producir discriminación alguna por razón de nacimiento, origen racial o étnico, género, sexo, orientación e identidad sexual…\":",
+    "o": [
+      "Es un principio de conducta",
+      "Es un principio ético",
+      "Es un principio aplicable solo por los funcionarios públicos",
+      "Es un principio que inspira y no configura el Código de Conducta"
+    ],
+    "c": 1,
+    "ref": "Art. 53 TREBEP",
+    "exp": "El respeto de los derechos fundamentales evitando la discriminación es un principio ético del art. 53."
+  },
+  {
+    "q": "Según el art. 55 del TREBEP, todos los ciudadanos tienen derecho al acceso al empleo público de acuerdo con los principios constitucionales:",
+    "o": [
+      "Igualdad, mérito e imparcialidad",
+      "Igualdad, mérito y profesionalidad",
+      "Igualdad, mérito y capacidad",
+      "Igualdad, mérito y objetividad"
+    ],
+    "c": 2,
+    "ref": "Art. 55 TREBEP",
+    "exp": "Los principios constitucionales son igualdad, mérito y capacidad."
+  },
+  {
+    "q": "Según el art. 55 del TREBEP, además de los principios constitucionales, se seleccionará al personal con la garantía de una serie de principios, entre otros, uno de ellos es:",
+    "o": [
+      "Imparcialidad y profesionalidad de los participantes",
+      "Discrecionalidad técnica en la selección de los miembros de los órganos de selección",
+      "Agilidad",
+      "Neutralidad"
+    ],
+    "c": 2,
+    "ref": "Art. 55 TREBEP",
+    "exp": "La agilidad, sin perjuicio de la objetividad, es uno de los principios que garantizan la selección (art. 55.2)."
+  },
+  {
+    "q": "Según el art. 56 del TREBEP, para poder participar en los procesos selectivos será necesario reunir determinados requisitos, no siendo necesario:",
+    "o": [
+      "Poseer capacidad funcional para el desempeño de las tareas",
+      "Haber sido separado mediante expediente disciplinario del servicio de cualquiera de las Administraciones Públicas",
+      "Poseer la titulación exigida",
+      "Son necesario reunir todos los requisitos anteriores"
+    ],
+    "c": 1,
+    "ref": "Art. 56 TREBEP",
+    "exp": "Haber sido separado mediante expediente disciplinario es causa de exclusión, no un requisito de participación."
+  },
+  {
+    "q": "Según el art. 56 del TREBEP, ¿cuál deberán prever las Administraciones Públicas?",
+    "o": [
+      "Un proceso de selección con requisitos específicos",
+      "La selección de empleados públicos debidamente capacitados para cubrir los puestos de trabajo en las Comunidades Autónomas que gocen de dos lenguas oficiales",
+      "La selección de empleados públicos que cumplan requisitos específicos que guarden relación objetiva y proporcionada con las funciones asumidas y las tareas a desempeñar",
+      "Órganos colegiados de selección con requisitos específicos, en las Comunidades Autónomas que gocen de dos lenguas oficiales"
+    ],
+    "c": 1,
+    "ref": "Art. 56 TREBEP",
+    "exp": "Las AAPP preverán la selección de empleados capacitados para cubrir los puestos en las CCAA con dos lenguas oficiales."
+  },
+  {
+    "q": "Según el art. 57 del TREBEP, los nacionales de los Estados miembros de la Unión Europea podrán acceder como personal funcionario en igualdad de condiciones que los españoles. ¿Es extensible a miembros de su familia?",
+    "o": [
+      "Al cónyuge de los españoles, siempre que no estén separados de derecho",
+      "Al cónyuge de otros estados miembros de la Unión Europea pero no a sus descendientes",
+      "Al cónyuge de cualquier residente legal y a sus descendientes menores de veintiún años",
+      "A cualquiera de los anteriores"
+    ],
+    "c": 0,
+    "ref": "Art. 57 TREBEP",
+    "exp": "Es extensible al cónyuge de los españoles y nacionales de otros Estados de la UE, siempre que no estén separados de derecho."
+  },
+  {
+    "q": "Según el art. 57 del TREBEP, podrá eximirse del requisito de la nacionalidad por razones de interés general para el acceso a la condición de personal funcionario:",
+    "o": [
+      "Reglamentariamente",
+      "Por acuerdo del gobierno",
+      "Por Ley de la Unión Europea",
+      "Por ley de las Cortes Generales o de las asambleas legislativas de las comunidades autónomas"
+    ],
+    "c": 3,
+    "ref": "Art. 57 TREBEP",
+    "exp": "La exención del requisito de nacionalidad solo puede establecerse por ley de las Cortes Generales o de las Asambleas legislativas autonómicas."
+  },
+  {
+    "q": "Según el art. 58 del TREBEP, los funcionarios de nacionalidad española de Organismos Internacionales:",
+    "o": [
+      "Podrán quedar exentos de la exigencia de posesión de titulación requerida",
+      "Deberán quedar exentos de la superación del proceso selectivo para acceder a cargo público en la Administración española",
+      "Podrán quedar exentos de la realización de aquellas pruebas que tengan por objeto acreditar conocimientos ya exigidos para el desempeño de su puesto en el organismo internacional correspondiente",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 2,
+    "ref": "Art. 58 TREBEP",
+    "exp": "Pueden quedar exentos de las pruebas que acrediten conocimientos ya exigidos en el organismo internacional."
+  },
+  {
+    "q": "Según el art. 59 del TREBEP, en las ofertas de empleo público se reservará un cupo para ser cubiertas entre personas con discapacidad:",
+    "o": [
+      "No inferior al siete por ciento de las vacantes",
+      "No inferior al cinco por ciento de las vacantes",
+      "No inferior al dos por ciento de las vacantes",
+      "No inferior al diez por ciento de las vacantes"
+    ],
+    "c": 0,
+    "ref": "Art. 59 TREBEP",
+    "exp": "Se reservará un cupo no inferior al siete por ciento de las vacantes para personas con discapacidad."
+  },
+  {
+    "q": "Según el art. 59 del TREBEP, la reserva del mínimo de vacantes para personas con discapacidad se realizará de manera que:",
+    "o": [
+      "Al menos el uno por ciento de las plazas ofertadas lo sea para ser cubiertas por personas que acrediten discapacidad intelectual",
+      "Al menos el dos por ciento de las plazas ofertadas lo sea para ser cubiertas por personas que acrediten discapacidad intelectual",
+      "Al menos el tres por ciento de las plazas ofertadas lo sea para ser cubiertas por personas que acrediten discapacidad intelectual",
+      "Al menos el cinco por ciento de las plazas ofertadas lo sea para ser cubiertas por personas que acrediten discapacidad intelectual"
+    ],
+    "c": 1,
+    "ref": "Art. 59 TREBEP",
+    "exp": "Al menos el dos por ciento de las plazas debe reservarse para personas con discapacidad intelectual."
+  },
+  {
+    "q": "Según el art. 60 del TREBEP, podrán formar parte de los órganos de selección:",
+    "o": [
+      "El personal de elección política",
+      "Los funcionarios interinos",
+      "El personal eventual",
+      "Los funcionarios de carrera, que directa o indirectamente impliquen una participación en el ejercicio del poder público o en las funciones que tienen por objeto la salvaguardia de los intereses del Estado o de las Administraciones Públicas"
+    ],
+    "c": 3,
+    "ref": "Art. 60 TREBEP",
+    "exp": "Solo los funcionarios de carrera pueden formar parte de los órganos de selección; no el personal de elección política, interinos ni eventual."
+  },
+  {
+    "q": "Según el art. 60 del TREBEP, respecto a los órganos de selección, ¿qué afirmación es correcta?",
+    "o": [
+      "Serán colegiados y su composición deberá ajustarse a los principios de mérito y capacidad de sus miembros",
+      "La pertenencia a un órgano de selección podrá ostentarse por representación",
+      "Se tenderá en el órgano de selección a la paridad entre mujer y hombre",
+      "La pertenencia al órgano de selección nunca será a título individual"
+    ],
+    "c": 2,
+    "ref": "Art. 60 TREBEP",
+    "exp": "Se tenderá a la paridad entre mujer y hombre en la composición de los órganos de selección."
+  },
+  {
+    "q": "Según el art. 61 del TREBEP, las Administraciones Públicas podrán crear para la organización de los procesos selectivos:",
+    "o": [
+      "Tribunales especializados",
+      "Grupos de trabajo",
+      "Órganos especializados y permanentes",
+      "Jurados dependientes"
+    ],
+    "c": 2,
+    "ref": "Art. 61 TREBEP",
+    "exp": "Podrán crearse órganos especializados y permanentes para la organización de los procesos selectivos."
+  },
+  {
+    "q": "Según el art. 61 del TREBEP, ¿cuál es un sistema selectivo de funcionarios de carrera?",
+    "o": [
+      "Oposición",
+      "Concurso",
+      "Concurso de traslado",
+      "Concurso de méritos"
+    ],
+    "c": 0,
+    "ref": "Art. 61 TREBEP",
+    "exp": "La oposición es uno de los sistemas selectivos de funcionarios de carrera."
+  },
+  {
+    "q": "Según el art. 61 del TREBEP, el sistema de concurso:",
+    "o": [
+      "Consiste únicamente en la valoración de la capacidad de los aspirantes",
+      "Consiste únicamente en la valoración de méritos",
+      "Consiste en la medición de la capacidad de los aspirantes y en la valoración de méritos",
+      "Consiste en la superación de pruebas objetivas y en la valoración de los méritos de los aspirantes"
+    ],
+    "c": 1,
+    "ref": "Art. 61 TREBEP",
+    "exp": "El sistema de concurso consiste únicamente en la valoración de méritos."
+  },
+  {
+    "q": "Según el art. 61 del TREBEP, ¿cuándo podrá aplicarse el sistema de concurso?",
+    "o": [
+      "Solo por ley, de forma ordinaria",
+      "Reglamentariamente, excepcionalmente",
+      "Solo en virtud de ley, con carácter excepcional",
+      "Solo por medio de Ley orgánica, de forma excepcional"
+    ],
+    "c": 2,
+    "ref": "Art. 61 TREBEP",
+    "exp": "El concurso solo puede aplicarse en virtud de ley y con carácter excepcional."
+  },
+  {
+    "q": "Según el art. 61 del TREBEP, para asegurar la objetividad y la racionalidad de los procesos selectivos, las pruebas podrán completarse con:",
+    "o": [
+      "La participación en curso",
+      "Realización de entrevista",
+      "La presentación de un trabajo práctico",
+      "Con cualquiera de las formas anteriores"
+    ],
+    "c": 1,
+    "ref": "Art. 61 TREBEP",
+    "exp": "Las pruebas podrán completarse, entre otras, con la realización de entrevistas."
+  },
+  {
+    "q": "Según el art. 61 del TREBEP, NO es un sistema selectivo de personal laboral fijo:",
+    "o": [
+      "Concurso de traslado",
+      "Concurso-oposición",
+      "Concurso de valoración de méritos",
+      "Ninguno de los anteriores"
+    ],
+    "c": 0,
+    "ref": "Art. 61 TREBEP",
+    "exp": "El concurso de traslado no es un sistema selectivo de personal laboral fijo (que son oposición, concurso-oposición y concurso de valoración de méritos)."
+  },
+  {
+    "q": "Según el art. 61 del TREBEP, los procesos de selección cuidarán especialmente:",
+    "o": [
+      "La conexión entre el tipo de pruebas a superar y la adecuación al desempeño de las tareas de los puestos de trabajo convocados",
+      "La comprobación de la capacidad analítica de los aspirantes",
+      "La conexión entre la objetividad y la racionalidad de los órganos de selección",
+      "Las pruebas para determinar la capacidad de los aspirantes y el orden de prelación para la elección de los puestos de trabajo convocados"
+    ],
+    "c": 0,
+    "ref": "Art. 61 TREBEP",
+    "exp": "Los procesos cuidarán especialmente la conexión entre el tipo de pruebas y la adecuación al desempeño de las tareas."
+  },
+  {
+    "q": "Según el art. 61 del TREBEP, los procesos selectivos tendrán carácter:",
+    "o": [
+      "Restringido",
+      "Público",
+      "Abierto",
+      "Positivo"
+    ],
+    "c": 2,
+    "ref": "Art. 61 TREBEP",
+    "exp": "Los procesos selectivos tendrán carácter abierto y garantizarán la libre concurrencia."
+  },
+  {
+    "q": "Según el art. 61 del TREBEP, en los procesos selectivos, ¿quién velará por el cumplimiento del principio de igualdad de oportunidades entre sexos?",
+    "o": [
+      "Los órganos de gobierno",
+      "Cada Administración Pública",
+      "La autoridad convocante",
+      "Los órganos de selección"
+    ],
+    "c": 3,
+    "ref": "Art. 61 TREBEP",
+    "exp": "Los órganos de selección velarán por el cumplimiento del principio de igualdad de oportunidades entre sexos."
+  },
+  {
+    "q": "Según el art. 62 del TREBEP, la condición de funcionario se adquiere por el cumplimiento de unos requisitos, no siendo uno de ellos:",
+    "o": [
+      "Superación del proceso selectivo",
+      "Acto de acatamiento de la Constitución",
+      "Aceptación del nombramiento",
+      "Todos los anteriores son requisitos de cumplimiento sucesivo para adquirir la condición de funcionario"
+    ],
+    "c": 2,
+    "ref": "Art. 62 TREBEP",
+    "exp": "La \"aceptación del nombramiento\" no es requisito; sí lo son el nombramiento por el órgano competente y la toma de posesión."
+  },
+  {
+    "q": "Según el art. 63 del TREBEP, es causa de pérdida de la condición de funcionario de carrera:",
+    "o": [
+      "La rehabilitación",
+      "La jubilación parcial del funcionario",
+      "La sanción disciplinaria de separación del servicio que tuviere carácter firme",
+      "La concesión de una nacionalidad distinta a la española"
+    ],
+    "c": 2,
+    "ref": "Art. 63 TREBEP",
+    "exp": "La sanción disciplinaria de separación del servicio con carácter firme es causa de pérdida de la condición de funcionario."
+  },
+  {
+    "q": "Según el art. 64 del TREBEP, respecto a la renuncia voluntaria a la condición de funcionario, es cierto:",
+    "o": [
+      "No será necesario que sea manifestada por escrito",
+      "No se podrá renunciar cuando se haya dictado en contra del funcionario auto de procesamiento",
+      "La renuncia inhabilita para ingresar de nuevo en la Administración Pública",
+      "Se podrá renunciar cuando el funcionario esté sujeto a expediente disciplinario"
+    ],
+    "c": 1,
+    "ref": "Art. 64 TREBEP",
+    "exp": "No podrá aceptarse la renuncia cuando se haya dictado en contra del funcionario auto de procesamiento."
+  },
+  {
+    "q": "Según el art. 64 del TREBEP, ¿cuándo no podrá ser aceptada la renuncia voluntaria de la condición de funcionario?",
+    "o": [
+      "Cuando se haya dictado en contra del funcionario auto de apertura de juicio oral",
+      "Cuando haya sido sancionado por infracción leve",
+      "Cuando haya estado sujeto a un expediente disciplinario",
+      "Cuando se haya dictado a su favor un auto procesal penal"
+    ],
+    "c": 0,
+    "ref": "Art. 64 TREBEP",
+    "exp": "No podrá aceptarse la renuncia cuando se haya dictado auto de apertura de juicio oral (o de procesamiento)."
+  },
+  {
+    "q": "Según el art. 65 del TREBEP, determina la pérdida de la condición de funcionario:",
+    "o": [
+      "La pérdida de nacionalidad de aquellos estados que, en virtud de tratados internacionales celebrados por la Unión Europea, no hayan sido ratificados por España",
+      "La pérdida de la nacionalidad española en todo caso",
+      "La pérdida de la nacionalidad de cualquier otro Estado miembro de la Unión Europea, cuando simultáneamente adquiera la nacionalidad de algún otro estado miembro de la Unión Europea",
+      "Ninguna de las respuestas anteriores son correctas"
+    ],
+    "c": 3,
+    "ref": "Art. 65 TREBEP",
+    "exp": "Las opciones están mal formuladas (la pérdida de nacionalidad determina la pérdida salvo que se adquiera otra que dé derecho al acceso), por lo que la correcta es la D."
+  },
+  {
+    "q": "Según el art. 66 del TREBEP, la pena principal o accesoria de inhabilitación absoluta produce la pérdida de la condición de funcionario:",
+    "o": [
+      "Cuando no hubiere adquirido firmeza la sentencia que la imponga",
+      "Cuando contra la resolución administrativa que la declara no quepa recurso alguno",
+      "Cuando hubiere adquirido firmeza la sentencia que la imponga",
+      "Cuando el gobierno lo declare, mediante acuerdo del Consejo de Ministros"
+    ],
+    "c": 2,
+    "ref": "Art. 66 TREBEP",
+    "exp": "La inhabilitación absoluta produce la pérdida cuando la sentencia adquiere firmeza."
+  },
+  {
+    "q": "Según el art. 66 del TREBEP, la inhabilitación absoluta, ¿respecto a qué empleo o cargo produce la pérdida de la condición de funcionario?",
+    "o": [
+      "Respecto a todos los empleos o cargos que tuviere",
+      "Respecto de aquellos empleos o cargos especificados en la sentencia",
+      "Respecto a ninguno",
+      "Respecto a todos los empleos o cargos que tuviere o pudiera tener"
+    ],
+    "c": 0,
+    "ref": "Art. 66 TREBEP",
+    "exp": "La inhabilitación absoluta produce la pérdida respecto a todos los empleos o cargos que tuviere."
+  },
+  {
+    "q": "Según el art. 66 del TREBEP, la pena principal o accesoria de inhabilitación especial produce la pérdida de la condición de funcionario:",
+    "o": [
+      "Cuando hubiere adquirido firmeza la sentencia que la imponga",
+      "Cuando contra la resolución administrativa que la declara no quepa recurso alguno",
+      "Cuando no hubiere adquirido firmeza la sentencia que la imponga",
+      "Cuando el gobierno lo declare, mediante acuerdo del Consejo de Ministros"
+    ],
+    "c": 0,
+    "ref": "Art. 66 TREBEP",
+    "exp": "La inhabilitación especial produce la pérdida cuando la sentencia adquiere firmeza."
+  },
+  {
+    "q": "Según el art. 66 del TREBEP, la inhabilitación especial, ¿respecto a qué empleo o cargo produce la pérdida de la condición de funcionario?",
+    "o": [
+      "Respecto a todos los empleos o cargos que tuviere",
+      "Respecto de aquellos empleos o cargos no especificados en la sentencia",
+      "Respecto de aquellos empleos o cargos especificados en la sentencia",
+      "Respecto a todos los empleos o cargos que tuviere o pudiera tener"
+    ],
+    "c": 2,
+    "ref": "Art. 66 TREBEP",
+    "exp": "La inhabilitación especial produce la pérdida respecto de aquellos empleos o cargos especificados en la sentencia."
+  },
+  {
+    "q": "Según el art. 67 del TREBEP, una vez que el funcionario haya cumplido sesenta y cinco años, se podrá solicitar la prolongación de la permanencia en el servicio activo como máximo hasta que se cumpla:",
+    "o": [
+      "Sesenta y siete años",
+      "Setenta años",
+      "Setenta y dos años",
+      "Setenta y cinco años"
+    ],
+    "c": 1,
+    "ref": "Art. 67 TREBEP",
+    "exp": "La prolongación en el servicio activo puede solicitarse como máximo hasta los setenta años."
+  },
+  {
+    "q": "Según el art. 67 del TREBEP, la jubilación de los funcionarios podrá ser:",
+    "o": [
+      "Voluntaria, a solicitud de la administración",
+      "Forzosa, al cumplir la edad reglamentariamente establecida",
+      "Por solicitud de incapacidad permanente para el ejercicio de las funciones propias de su cuerpo o escala",
+      "Por el reconocimiento de una pensión de incapacidad permanente absoluta"
+    ],
+    "c": 3,
+    "ref": "Art. 67 TREBEP",
+    "exp": "La jubilación puede ser por el reconocimiento de una pensión de incapacidad permanente; las demás opciones están mal formuladas."
+  },
+  {
+    "q": "Según el art. 67 del TREBEP, la jubilación forzosa se declarará de oficio al cumplir el funcionario:",
+    "o": [
+      "Los sesenta años",
+      "Los setenta años",
+      "Los sesenta y cinco años",
+      "Los setenta y cinco años"
+    ],
+    "c": 2,
+    "ref": "Art. 67 TREBEP",
+    "exp": "La jubilación forzosa se declara de oficio al cumplir los sesenta y cinco años."
+  },
+  {
+    "q": "Según el art. 67 del TREBEP, ¿en qué casos, una vez que el funcionario haya solicitado la rehabilitación, le será concedida?",
+    "o": [
+      "Cuando la condición de funcionario la hubiera perdido por haber sido condenado a pena accesoria de inhabilitación",
+      "Cuando la condición de funcionario la hubiera perdido por haber sido condenado a pena principal de inhabilitación",
+      "Cuando la extinción de la relación de servicios sea como consecuencia de pérdida de nacionalidad",
+      "En todos los casos anteriores le será concedida"
+    ],
+    "c": 2,
+    "ref": "Art. 68 TREBEP",
+    "exp": "La rehabilitación será concedida cuando la extinción se produjo por pérdida de nacionalidad o jubilación por incapacidad, desaparecida la causa objetiva."
+  },
+  {
+    "q": "Según el art. 68 del TREBEP, el funcionario que hubiera perdido la condición de tal por haber sido condenado a la pena principal o accesoria de inhabilitación, y de oficio se hubiera solicitado la rehabilitación, si transcurrido el plazo para dictar resolución ésta no se hubiera producido de forma expresa, se entenderá:",
+    "o": [
+      "Concedida",
+      "Que el procedimiento se encuentra paralizado",
+      "Desestimada",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 68 TREBEP",
+    "exp": "La rehabilitación por inhabilitación se solicita a petición del interesado, no de oficio, por lo que la premisa es incorrecta y la correcta es la D."
+  },
+  {
+    "q": "Según el art. 68 del TREBEP, en caso de extinción de la relación de servicios como consecuencia de pérdida de la nacionalidad o jubilación por incapacidad permanente para el servicio, ¿cuándo podrá solicitar la rehabilitación de su condición de funcionario?",
+    "o": [
+      "Desde que se dictó la resolución de la extinción",
+      "Una vez desaparecida la causa objetiva que la motivó",
+      "No tendrá que solicitarla",
+      "De forma excepcional, antes de la pérdida de la condición de funcionario"
+    ],
+    "c": 1,
+    "ref": "Art. 68 TREBEP",
+    "exp": "Podrá solicitar la rehabilitación una vez desaparecida la causa objetiva que motivó la extinción."
+  },
+  {
+    "q": "Según el art. 68 del TREBEP, los órganos de gobierno de las Administraciones Públicas podrán conceder, con carácter excepcional, la rehabilitación a petición del interesado de quien hubiera perdido la condición de funcionario por haber sido condenado a la pena principal o accesoria de inhabilitación:",
+    "o": [
+      "Atendiendo a las circunstancias y entidad del delito cometido",
+      "Atendiendo a las circunstancias y entidad de la infracción cometida",
+      "Atendiendo a las circunstancias y entidad declarada en la sentencia",
+      "Atendiendo a las circunstancias y entidad de lo declarado por el interesado"
+    ],
+    "c": 0,
+    "ref": "Art. 68 TREBEP",
+    "exp": "La rehabilitación se concede atendiendo a las circunstancias y entidad del delito cometido."
+  },
+  {
+    "q": "Según el art. 1 del TREBEP, ¿qué fundamentos de actuación refleja el TREBEP?",
+    "o": [
+      "El régimen estatutario de los funcionarios y de los intereses generales",
+      "Evaluación y responsabilidad en la gestión",
+      "Jerarquía en la competencia, instrucción y dependencia en las funciones y tareas",
+      "Sometimiento pleno a la ley y al gobierno"
+    ],
+    "c": 1,
+    "ref": "Art. 1 TREBEP",
+    "exp": "La evaluación y responsabilidad en la gestión es uno de los fundamentos de actuación del art. 1.3 TREBEP."
+  },
+  {
+    "q": "Según el art. 1 del TREBEP, complete la frase sobre el siguiente fundamento de actuación: \"objetividad, profesionalidad e imparcialidad en el servicio garantizadas con…\"",
+    "o": [
+      "La igualdad de trato de mujeres y hombres",
+      "El desarrollo y cualificación profesional permanente de los empleados públicos",
+      "La inamovilidad en la condición de funcionario de carrera",
+      "La cooperación entre las Administraciones Públicas en la regulación y gestión del empleo público"
+    ],
+    "c": 2,
+    "ref": "Art. 1.3 TREBEP",
+    "exp": "El fundamento se garantiza con la inamovilidad en la condición de funcionario de carrera."
+  },
+  {
+    "q": "Según el art. 4 del TREBEP, ¿a quién se aplicarán las disposiciones del TREBEP directamente cuando así lo disponga su legislación específica?",
+    "o": [
+      "Al personal de los consejos ejecutivos de las Comunidades Autónomas",
+      "A los funcionarios de la Sociedad Estatal de Correos",
+      "Al personal civil de las fuerzas armadas",
+      "Al personal retribuido por arancel"
+    ],
+    "c": 3,
+    "ref": "Art. 4 TREBEP",
+    "exp": "El art. 4 dispone la aplicación directa al personal retribuido por arancel cuando así lo disponga su legislación específica."
+  },
+  {
+    "q": "Según el art. 7 del TREBEP, en materia de permiso de nacimiento, al personal laboral al servicio de las Administraciones Públicas se regirá:",
+    "o": [
+      "Por el TREBEP",
+      "Por el estatuto de los trabajadores",
+      "Supletoriamente por el TREBEP",
+      "Por los convenios aplicables"
+    ],
+    "c": 0,
+    "ref": "Art. 7 TREBEP",
+    "exp": "El personal laboral se rige por la legislación laboral y el TREBEP en materias como permisos de nacimiento (art. 7)."
+  },
+  {
+    "q": "Según el art. 9 del TREBEP, es cierto respecto a los funcionarios de carrera que:",
+    "o": [
+      "Están vinculados a una Administración Pública por una relación estatutaria regulada por el Derecho Administrativo",
+      "Al igual que el resto de empleados públicos se encargan de la salvaguardia de los intereses generales del Estado",
+      "El número máximo de los mismos se establecerá por los respectivos órganos de gobierno",
+      "Son expresamente nombrados por razones justificadas de necesidad y urgencia"
+    ],
+    "c": 0,
+    "ref": "Art. 9 TREBEP",
+    "exp": "Los funcionarios de carrera están vinculados por una relación estatutaria regulada por el Derecho Administrativo."
+  },
+  {
+    "q": "Según el art. 10 del TREBEP, si se contrata un funcionario interino para sustituir transitoriamente al titular de la plaza, ¿por qué tiempo se hará la contratación?",
+    "o": [
+      "Por un máximo de dieciocho meses",
+      "Por el tiempo estrictamente necesario",
+      "Hasta que desaparezca la necesidad",
+      "En principio por nueve meses"
+    ],
+    "c": 1,
+    "ref": "Art. 10 TREBEP",
+    "exp": "En la sustitución transitoria del titular, el nombramiento se hace por el tiempo estrictamente necesario."
+  },
+  {
+    "q": "Según el art. 10 del TREBEP, es cierto respecto a los procedimientos de selección del personal funcionario interino:",
+    "o": [
+      "Que darán lugar al reconocimiento de la condición de funcionario de carrera",
+      "Que se regirán, entre otros principios, por los de concentración y celeridad",
+      "Que tendrán por finalidad la cobertura inmediata del puesto",
+      "Que serán públicos, sin que se rijan por el principio de publicidad"
+    ],
+    "c": 2,
+    "ref": "Art. 10 TREBEP",
+    "exp": "Los procedimientos de selección del funcionario interino tienen por finalidad la cobertura inmediata del puesto."
+  },
+  {
+    "q": "Según el art. 10 del TREBEP, se podrán nombrar funcionarios interinos por la ejecución de programas de carácter temporal, que no podrán tener una duración superior a:",
+    "o": [
+      "Dieciocho meses",
+      "Dos años",
+      "Tres años",
+      "Un año"
+    ],
+    "c": 2,
+    "ref": "Art. 10 TREBEP",
+    "exp": "Los programas de carácter temporal no podrán tener una duración superior a tres años."
+  },
+  {
+    "q": "Según el art. 10 del TREBEP, ¿se podrá ampliar la duración de la ejecución de los programas de carácter temporal?",
+    "o": [
+      "Hasta doce meses",
+      "Hasta nueve meses",
+      "Hasta dieciocho meses",
+      "Hasta seis meses"
+    ],
+    "c": 0,
+    "ref": "Art. 10 TREBEP",
+    "exp": "La duración de tres años podrá ampliarse hasta doce meses más por las leyes de Función Pública."
+  },
+  {
+    "q": "Según el art. 10 del TREBEP, si la contratación del personal interino fuese por el exceso o acumulación de tareas, ¿por qué plazo se podrá realizar?",
+    "o": [
+      "Por plazo máximo de nueve meses, dentro de un periodo de dieciocho meses",
+      "Por plazo máximo de doce meses, dentro de un periodo de dieciocho meses",
+      "Por plazo máximo de nueve meses, dentro de un periodo de dieciocho meses",
+      "Por plazo mínimo de nueve meses, dentro de un periodo de dieciocho meses"
+    ],
+    "c": 0,
+    "ref": "Art. 10 TREBEP",
+    "exp": "El exceso o acumulación de tareas permite el nombramiento por plazo máximo de nueve meses dentro de un periodo de dieciocho meses."
+  },
+  {
+    "q": "Según el art. 12 del TREBEP, es personal eventual el que en virtud de nombramiento y con carácter no permanente:",
+    "o": [
+      "Entre otras, realiza funciones expresamente calificadas como de confianza o asesoramiento especial",
+      "Solo realiza funciones cuando sean calificadas como urgentes de confianza o asesoramiento especial",
+      "Solo realiza funciones que no sean calificadas como de confianza o asesoramiento especial",
+      "Solo realiza funciones expresamente calificadas como de confianza o asesoramiento especial"
+    ],
+    "c": 3,
+    "ref": "Art. 12 TREBEP",
+    "exp": "El personal eventual solo realiza funciones expresamente calificadas como de confianza o asesoramiento especial."
+  },
+  {
+    "q": "Según el art. 12 del TREBEP, es cierto respecto al personal eventual que:",
+    "o": [
+      "La condición de personal eventual podrá constituir mérito para el acceso a la función pública o para la promoción interna",
+      "El nombramiento y cese serán libres",
+      "En lo que sea adecuado a la naturaleza de su condición, no le será aplicable el régimen de funcionario de carrera",
+      "Las leyes de Función Pública determinarán los órganos de gobierno que deberán disponer de este tipo de personal"
+    ],
+    "c": 1,
+    "ref": "Art. 12 TREBEP",
+    "exp": "El nombramiento y cese del personal eventual son libres y corresponden a la autoridad correspondiente."
+  },
+  {
+    "q": "Según el TREBEP, ¿a qué personal se refiere la citada norma cuando expresa \"su designación atenderá a principios de mérito y capacidad y a criterios de idoneidad\"?",
+    "o": [
+      "A funcionarios de carrera",
+      "Al personal laboral",
+      "Al personal eventual",
+      "Al personal directivo"
+    ],
+    "c": 3,
+    "ref": "Art. 13 TREBEP",
+    "exp": "La designación del personal directivo atiende a principios de mérito y capacidad y a criterios de idoneidad."
+  },
+  {
+    "q": "Según el art. 13 del TREBEP, el personal directivo desarrolla funciones:",
+    "o": [
+      "De confianza y asesoramiento",
+      "De necesidad y urgencia",
+      "Específicas de cada administración",
+      "Directivas profesionales"
+    ],
+    "c": 3,
+    "ref": "Art. 13 TREBEP",
+    "exp": "El personal directivo desarrolla funciones directivas profesionales."
+  },
+  {
+    "q": "Según el TREBEP, ¿dónde se determinarán los criterios para la determinación de los puestos de trabajo que pueden ser desempeñados por personal laboral?",
+    "o": [
+      "En los reglamentos de Función Pública que se dicten en desarrollo del TREBEP",
+      "En las leyes de la función pública que se dicten en desarrollo del TREBEP",
+      "En los respectivos Estatutos de Autonomía",
+      "Todas las anteriores son correctas"
+    ],
+    "c": 1,
+    "ref": "Art. 11 TREBEP",
+    "exp": "Los criterios se determinan en las leyes de la Función Pública que se dicten en desarrollo del TREBEP."
+  },
+  {
+    "q": "Según el art. 14 del TREBEP, los empleados públicos tienen como derecho individual la progresión en la carrera profesional y promoción interna según los principios de igualdad, mérito y capacidad mediante la implantación de:",
+    "o": [
+      "Sistemas ágiles de evaluación",
+      "Sistemas eficaces y eficientes de evaluación",
+      "Sistemas objetivos y transparentes de evaluación",
+      "Sistemas seguros y compatibles de evaluación"
+    ],
+    "c": 2,
+    "ref": "Art. 14 TREBEP",
+    "exp": "La progresión en la carrera se realiza mediante sistemas objetivos y transparentes de evaluación."
+  },
+  {
+    "q": "Según el art. 14 del TREBEP, los empleados públicos NO tienen el siguiente derecho individual:",
+    "o": [
+      "A la evaluación de medidas que favorezcan la conciliación de la vida personal, familiar y laboral",
+      "A la defensa jurídica y protección de la Administración Pública en los procedimientos que se sigan ante el orden jurisdiccional social como consecuencia del ejercicio legítimo de sus funciones o cargos públicos",
+      "Al desempeño de las tareas propias de su condición profesional y de acuerdo con la progresión alcanzada en su carrera profesional",
+      "A la desconexión digital en los términos previstos en la legislación de protección de datos"
+    ],
+    "c": 0,
+    "ref": "Art. 14 TREBEP",
+    "exp": "El derecho es a la adopción (no evaluación) de medidas que favorezcan la conciliación, por lo que la opción está mal formulada."
+  },
+  {
+    "q": "Según el art. 15 del TREBEP, los empleados públicos tienen derechos individuales que se ejercen colectivamente, no siendo uno de ellos:",
+    "o": [
+      "A la libertad sindical",
+      "A la negociación colectiva y a la imposición de las condiciones de trabajo",
+      "Al ejercicio de la huelga, con la garantía del mantenimiento de los servicios esenciales de la comunidad",
+      "Al planteamiento de conflictos colectivos"
+    ],
+    "c": 1,
+    "ref": "Art. 15 TREBEP",
+    "exp": "El derecho es a la negociación y participación en las condiciones de trabajo, no a su \"imposición\"."
+  },
+  {
+    "q": "Según el art. 15 del TREBEP, los empleados públicos tienen derecho a la reunión:",
+    "o": [
+      "Siendo este un derecho colectivo",
+      "En los términos establecidos en el art. 46 del TREBEP",
+      "Siendo un derecho individual que no se podrá ejercitar colectivamente",
+      "Siendo un derecho individual que se ejerce colectivamente en los términos establecidos en el art. 46 del Estatuto de los Trabajadores"
+    ],
+    "c": 1,
+    "ref": "Art. 15 TREBEP",
+    "exp": "El derecho de reunión se ejerce en los términos establecidos en el art. 46 del TREBEP."
+  },
+  {
+    "q": "Según el art. 47 del TREBEP, ¿quién establece la jornada general y las especiales de trabajo de los funcionarios públicos?",
+    "o": [
+      "Los representantes de los trabajadores",
+      "El Gobierno",
+      "Los poderes públicos",
+      "Las Administraciones Públicas"
+    ],
+    "c": 3,
+    "ref": "Art. 47 TREBEP",
+    "exp": "Las Administraciones Públicas establecen la jornada general y las especiales de trabajo de sus funcionarios."
+  },
+  {
+    "q": "Según el art. 47 bis del TREBEP, ¿qué se considera teletrabajo?",
+    "o": [
+      "Aquella modalidad de prestación de servicio a distancia en la que el contenido competencial del puesto puede desarrollarse, siempre que las necesidades del servicio lo permitan, fuera de las dependencias de la Administración, mediante el uso de tecnologías de la información y comunicación",
+      "Aquella modalidad de prestación de servicio a distancia en la que el contenido competencial puede desarrollarse siempre fuera de las dependencias de la Administración, mediante el uso de tecnologías de la información y comunicación",
+      "Aquella modalidad de prestación de servicio a distancia o presencial en la que el contenido competencial puede desarrollarse, siempre que las necesidades del servicio lo permitan, fuera de las dependencias de la Administración",
+      "Aquella modalidad de prestación de servicio a distancia en la que el contenido competencial puede desarrollarse, siempre que las necesidades del servicio lo permitan, dentro de las dependencias de la Administración"
+    ],
+    "c": 0,
+    "ref": "Art. 47 bis TREBEP",
+    "exp": "Teletrabajo es la prestación a distancia fuera de las dependencias de la Administración cuando las necesidades del servicio lo permitan, mediante TIC."
+  },
+  {
+    "q": "Según el art. 48 del TREBEP, ¿qué permiso tendrá el funcionario público para concurrir a pruebas definitivas de aptitud?",
+    "o": [
+      "Durante los días de su celebración",
+      "El tiempo que dure su celebración",
+      "Durante el tiempo de permanencia en su celebración",
+      "El tiempo indispensable si se presenta a su celebración"
+    ],
+    "c": 0,
+    "ref": "Art. 48 TREBEP",
+    "exp": "El art. 48.d) concede el permiso para concurrir a pruebas definitivas de aptitud durante los días de su celebración (opción A)."
+  },
+  {
+    "q": "Según el art. 48 del TREBEP, el funcionario, por lactancia de un hijo menor de doce meses, tendrá derecho a:",
+    "o": [
+      "Dos horas de ausencia en el trabajo",
+      "Una hora de ausencia en el trabajo",
+      "Media hora de ausencia en el trabajo",
+      "Según los casos podrá tener derecho a todo lo anterior"
+    ],
+    "c": 1,
+    "ref": "Art. 48 TREBEP",
+    "exp": "Por lactancia de un hijo menor de doce meses se tiene derecho a una hora de ausencia del trabajo."
+  },
+  {
+    "q": "Según el art. 48 del TREBEP, por asuntos propios el funcionario tendrá un permiso de:",
+    "o": [
+      "Seis días al año",
+      "Cinco días al año",
+      "Once días al año",
+      "Quince días al año"
+    ],
+    "c": 0,
+    "ref": "Art. 48 TREBEP",
+    "exp": "El permiso por asuntos particulares es de seis días al año."
+  },
+  {
+    "q": "Según el art. 49 del TREBEP, en el permiso por razón de violencia de género, las faltas de asistencia de las funcionarias víctimas de violencia de género ¿qué consideración tendrán?",
+    "o": [
+      "Solo las totales tendrán la consideración de justificadas por el tiempo y en las condiciones que determinen los servicios sociales de atención o de salud según proceda",
+      "Las totales y parciales tendrán la consideración de injustificadas por el tiempo y en las condiciones que determinen los servicios sociales de atención o de salud según proceda",
+      "Las totales y parciales tendrán la consideración de justificadas por el tiempo y en las condiciones que determinen los órganos directivos de la correspondiente Administración pública donde la funcionaria preste su servicio",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 49 TREBEP",
+    "exp": "Las faltas totales y parciales son justificadas según lo determinen los servicios sociales de atención o de salud, no los órganos directivos, por lo que ninguna opción es correcta."
+  },
+  {
+    "q": "Según el art. 49 del TREBEP, ¿qué duración tiene el permiso por nacimiento para la madre biológica?",
+    "o": [
+      "Diez semanas",
+      "Diecinueve semanas",
+      "Dieciséis semanas",
+      "Catorce semanas"
+    ],
+    "c": 1,
+    "ref": "Art. 49 TREBEP",
+    "exp": "El art. 49.a) fija el permiso por nacimiento para la madre biológica en diecinueve semanas."
+  },
+  {
+    "q": "Según el art. 49 del TREBEP, respecto a la distribución del permiso por cuidado del menor, ¿cuántas semanas podrán disfrutarse a voluntad de la madre, en períodos semanales de forma acumulada o interrumpida, desde la finalización del descanso obligatorio posterior al parto hasta que el hijo o la hija cumpla doce meses?",
+    "o": [
+      "Solo dos",
+      "Doce como máximo",
+      "Once",
+      "Veinticuatro según el caso"
+    ],
+    "c": 2,
+    "ref": "Art. 49 TREBEP",
+    "exp": "El art. 49.a).2.º fija once semanas (veintidós en monoparentalidad) a distribuir a voluntad de la madre hasta que el hijo cumpla doce meses (opción C)."
+  },
+  {
+    "q": "Según el art. 49 del TREBEP, en el permiso por nacimiento, en el caso del disfrute interrumpido del permiso se requerirá, para cada período de disfrute, un preaviso de:",
+    "o": [
+      "Al menos quince días",
+      "Al menos veintidós días, en el caso de monoparentalidad",
+      "Al menos diez días",
+      "A y B son correctas"
+    ],
+    "c": 0,
+    "ref": "Art. 49 TREBEP",
+    "exp": "El disfrute interrumpido requiere un preaviso de al menos quince días."
+  },
+  {
+    "q": "Según el art. 49 del TREBEP, ¿qué duración tendrá el permiso por adopción?",
+    "o": [
+      "Dieciséis semanas",
+      "Quince semanas",
+      "Diecinueve semanas",
+      "Veinte semanas"
+    ],
+    "c": 2,
+    "ref": "Art. 49 TREBEP",
+    "exp": "El art. 49.b) fija el permiso por adopción en diecinueve semanas para cada adoptante."
+  },
+  {
+    "q": "Según el TREBEP, en el permiso de adopción, si fuera necesario el desplazamiento previo de los progenitores al país de origen del adoptado en los casos de adopción o acogimiento internacional, se tendrá derecho:",
+    "o": [
+      "A un permiso de hasta dos meses de duración percibiendo durante este periodo las retribuciones íntegras",
+      "A un permiso de hasta cuatro meses de duración percibiendo durante este periodo exclusivamente las retribuciones básicas",
+      "A un permiso de hasta dos meses de duración sin carácter retribuido",
+      "A un permiso de hasta dos meses de duración percibiendo durante este período exclusivamente las retribuciones básicas"
+    ],
+    "c": 3,
+    "ref": "Art. 49 TREBEP",
+    "exp": "El desplazamiento previo da derecho a un permiso de hasta dos meses percibiendo exclusivamente las retribuciones básicas."
+  },
+  {
+    "q": "Según el art. 49 del TREBEP, el permiso del progenitor diferente de la madre biológica por nacimiento, guarda con fines de adopción, acogimiento o adopción de un hijo o hija, ¿qué duración tendrá?",
+    "o": [
+      "Dieciséis semanas",
+      "Treinta y dos semanas en el supuesto de monoparentalidad, por existir una única persona progenitora",
+      "Dieciocho semanas en el supuesto del nacimiento de dos hijos/as",
+      "A y B son correctas"
+    ],
+    "c": 1,
+    "ref": "Art. 49 TREBEP",
+    "exp": "El art. 49.c) fija el permiso del progenitor diferente de la madre biológica en diecinueve semanas y en treinta y dos en monoparentalidad (opción B); la opción A (dieciséis) es incorrecta."
+  },
+  {
+    "q": "Según el TREBEP, el permiso por cuidado de un hijo menor afectado por cáncer u otra enfermedad grave se tendrá derecho como máximo:",
+    "o": [
+      "Hasta que el hijo o persona objeto de acogimiento permanente o de guarda con fines de adopción cumpla los 23 años",
+      "Hasta que cumpla los 18 años",
+      "Hasta que cumpla los 21 años",
+      "Hasta que cumpla los 25 años"
+    ],
+    "c": 0,
+    "ref": "Art. 49 TREBEP",
+    "exp": "El derecho se mantiene como máximo hasta que el hijo cumpla los 23 años."
+  },
+  {
+    "q": "Según el art. 49 del TREBEP, el permiso parental para el cuidado de hijo, hija o menor acogido por tiempo superior a un año se podrá disfrutar hasta que el menor cumpla:",
+    "o": [
+      "Doce años",
+      "Diez años",
+      "Ocho años",
+      "Seis años"
+    ],
+    "c": 2,
+    "ref": "Art. 49 TREBEP",
+    "exp": "El permiso parental se puede disfrutar hasta que el menor cumpla ocho años."
+  },
+  {
+    "q": "Según el art. 49 del TREBEP, el permiso parental para el cuidado de hijo, hija o menor acogido tendrá una duración:",
+    "o": [
+      "No superior a ocho semanas",
+      "No superior a ocho meses",
+      "No superior a seis semanas",
+      "No superior a dos semanas"
+    ],
+    "c": 0,
+    "ref": "Art. 49 TREBEP",
+    "exp": "El permiso parental tendrá una duración no superior a ocho semanas."
+  },
+  {
+    "q": "Según el art. 50 del TREBEP, los funcionarios públicos tendrán derecho a disfrutar, durante cada año natural, de unas vacaciones retribuidas de:",
+    "o": [
+      "Veintidós días hábiles",
+      "Veintidós días naturales",
+      "Un mes hábil",
+      "Veinticuatro días hábiles"
+    ],
+    "c": 0,
+    "ref": "Art. 50 TREBEP",
+    "exp": "Las vacaciones anuales retribuidas son de veintidós días hábiles."
+  },
+  {
+    "q": "Según el TREBEP, \"ajustar su actuación a los principios de lealtad y buena fe con la Administración en la que preste sus servicios\":",
+    "o": [
+      "Es un principio que inspira al ordenamiento jurídico",
+      "Es un principio ético",
+      "Es un principio de conducta",
+      "Es un principio constitucional"
+    ],
+    "c": 1,
+    "ref": "Art. 53 TREBEP",
+    "exp": "Ajustar la actuación a los principios de lealtad y buena fe es un principio ético (art. 53)."
+  },
+  {
+    "q": "Según el art. 52 del TREBEP, los empleados públicos deberán actuar con arreglo a una serie de principios, entre los que NO se encuentra:",
+    "o": [
+      "Integridad",
+      "Confidencialidad",
+      "Eficiencia",
+      "Ejemplaridad"
+    ],
+    "c": 2,
+    "ref": "Art. 52 TREBEP",
+    "exp": "El art. 52 recoge la eficacia, no la \"eficiencia\", como principio."
+  },
+  {
+    "q": "Según el EBEP, es un principio de conducta:",
+    "o": [
+      "Respetar la Constitución y el resto de las normas que integran el ordenamiento jurídico",
+      "Contraer obligaciones económicas y asumir compromisos financieros",
+      "Promover el entorno cultural y medioambiental",
+      "Tratar con atención y respeto a los ciudadanos"
+    ],
+    "c": 3,
+    "ref": "Art. 54 TREBEP",
+    "exp": "Tratar con atención y respeto a los ciudadanos es un principio de conducta (art. 54)."
+  },
+  {
+    "q": "Según el TREBEP, ¿qué regalos o favores deberán rechazar los empleados públicos?",
+    "o": [
+      "Cualesquiera, porque es un principio de conducta",
+      "Ninguno, porque aceptar regalos no afecta a los principios de conducta",
+      "Aquellos que vayan más allá de los usos habituales, sociales y de cortesía, sin perjuicio de lo establecido en el código penal, porque es un principio de conducta recogido en el TREBEP",
+      "Aquellos que vayan más allá de los usos habituales, sociales y de cortesía, sin perjuicio de lo establecido en el código penal, porque es un principio ético recogido en el TREBEP"
+    ],
+    "c": 2,
+    "ref": "Art. 54 TREBEP",
+    "exp": "Rechazar regalos que vayan más allá de los usos habituales, sociales y de cortesía es un principio de conducta (art. 54)."
+  },
+  {
+    "q": "Según el art. 63 del TREBEP, ¿cuál de las siguientes causas NO produce la pérdida de la condición de funcionario de carrera?",
+    "o": [
+      "El desistimiento a la condición de funcionario",
+      "La pérdida de la nacionalidad",
+      "La jubilación total del funcionario",
+      "La sanción disciplinaria de separación del servicio que tuviere carácter firme"
+    ],
+    "c": 0,
+    "ref": "Art. 63 TREBEP",
+    "exp": "La causa es la renuncia, no el \"desistimiento\"; por ello esa opción no produce la pérdida."
+  },
+  {
+    "q": "Según el art. 60 del TREBEP, ¿qué personal NO podrá formar parte de un órgano de selección?",
+    "o": [
+      "El de elección o de designación política",
+      "El funcionario interino",
+      "El personal eventual",
+      "Ninguno de los anteriores podrá formar parte"
+    ],
+    "c": 3,
+    "ref": "Art. 60 TREBEP",
+    "exp": "No pueden formar parte de los órganos de selección el personal de elección o designación política, los funcionarios interinos ni el personal eventual."
+  },
+  {
+    "q": "Según el art. 55 del TREBEP, ¿quién tiene derecho al acceso al empleo público de acuerdo con los principios constitucionales de igualdad, mérito y capacidad?",
+    "o": [
+      "Todas las personas",
+      "Los interesados",
+      "Todos los ciudadanos",
+      "Todos los españoles"
+    ],
+    "c": 2,
+    "ref": "Art. 55 TREBEP",
+    "exp": "Todos los ciudadanos tienen derecho al acceso al empleo público según el art. 55."
+  },
+  {
+    "q": "Según el art. 56 del TREBEP, para poder participar en los procesos selectivos podrán exigirse otros requisitos específicos que guarden relación objetiva y proporcionada con las funciones. ¿Cómo habrán de establecerse?",
+    "o": [
+      "De manera abstracta y general",
+      "De manera concreta e individualizada",
+      "De manera especial y selectiva",
+      "De manera anónima y colectiva"
+    ],
+    "c": 0,
+    "ref": "Art. 56 TREBEP",
+    "exp": "Los requisitos específicos habrán de establecerse de manera abstracta y general."
+  },
+  {
+    "q": "Según el art. 59 del TREBEP, ¿qué cupo de vacantes en las ofertas de empleo público se reservará para ser cubiertas entre personas con discapacidad?",
+    "o": [
+      "No inferior a un cinco por ciento",
+      "No inferior al siete por ciento",
+      "No inferior al dos por ciento",
+      "Inferior al siete por ciento"
+    ],
+    "c": 1,
+    "ref": "Art. 59 TREBEP",
+    "exp": "Se reservará un cupo no inferior al siete por ciento de las vacantes para personas con discapacidad."
+  },
+  {
+    "q": "Según el art. 62 del TREBEP, NO es un requisito por el que se adquiere la condición de funcionario de carrera el cumplimiento de:",
+    "o": [
+      "Toma de posesión dentro del plazo que se establezca",
+      "Superación del proceso selectivo",
+      "Acto de acatamiento a la autoridad, en su caso al órgano competente",
+      "Todos los anteriores son requisitos de cumplimiento sucesivo"
+    ],
+    "c": 2,
+    "ref": "Art. 62 TREBEP",
+    "exp": "El requisito es el acatamiento de la Constitución y del ordenamiento jurídico, no \"a la autoridad\"."
+  },
+  {
+    "q": "Según el art. 61 del TREBEP, ¿cuáles serán los sistemas selectivos de los funcionarios de carrera?",
+    "o": [
+      "Solo oposición libre",
+      "Oposición o concurso-oposición",
+      "Concurso, con carácter excepcional, cuando así lo establezca el gobierno",
+      "B y C son correctas"
+    ],
+    "c": 1,
+    "ref": "Art. 61 TREBEP",
+    "exp": "Los sistemas selectivos son la oposición o el concurso-oposición; el concurso solo por ley con carácter excepcional, por lo que la opción C está mal formulada."
+  },
+  {
+    "q": "Según el art. 64 del TREBEP, la renuncia del funcionario de carrera no podrá ser aceptada:",
+    "o": [
+      "Cuando la formule por escrito",
+      "Cuando se haya iniciado un expediente de regulación de empleo",
+      "Cuando se haya dictado en su contra auto de procesamiento",
+      "Cuando se esté tramitando una denuncia contra él"
+    ],
+    "c": 2,
+    "ref": "Art. 64 TREBEP",
+    "exp": "No podrá aceptarse la renuncia cuando se haya dictado en su contra auto de procesamiento o esté sujeto a expediente disciplinario."
+  },
+  {
+    "q": "Según el art. 68 del TREBEP, el funcionario que hubiera perdido la condición de tal por haber sido condenado a la pena principal o accesoria de inhabilitación, y a petición suya hubiera solicitado la rehabilitación, si transcurrido el plazo para dictar resolución ésta no se hubiera producido de forma expresa, se entenderá:",
+    "o": [
+      "Concedida",
+      "Que la solicitud le será concedida",
+      "Desestimada la solicitud",
+      "De forma excepcional, estimada la solicitud"
+    ],
+    "c": 2,
+    "ref": "Art. 68 TREBEP",
+    "exp": "El silencio en la solicitud de rehabilitación se entiende desestimatorio (art. 68)."
+  },
+  {
+    "q": "Según el art. 68 del TREBEP, en caso de extinción de la relación de servicios como consecuencia de pérdida de la nacionalidad o jubilación por incapacidad permanente para el servicio, una vez desaparecida la causa objetiva que la motivó:",
+    "o": [
+      "La administración de oficio concederá la rehabilitación",
+      "El funcionario deberá solicitar la rehabilitación, que le podrá ser concedida",
+      "El interesado, en estos supuestos, no podrá solicitar la rehabilitación",
+      "Podrá solicitar la rehabilitación de su condición de funcionario, que le será concedida"
+    ],
+    "c": 3,
+    "ref": "Art. 68 TREBEP",
+    "exp": "Desaparecida la causa objetiva, el interesado podrá solicitar la rehabilitación de su condición de funcionario, que le será concedida."
+  },
+  {
+    "q": "Según el art. 68 del TREBEP, ¿quién podrá conceder, con carácter excepcional, la rehabilitación a petición del interesado que hubiera perdido la condición de funcionario por haber sido condenado a la pena principal o accesoria de inhabilitación?",
+    "o": [
+      "El Gobierno",
+      "Los órganos de gobierno de las Administraciones Públicas",
+      "Los Tribunales",
+      "En este caso no se podrá conceder la rehabilitación"
+    ],
+    "c": 1,
+    "ref": "Art. 68 TREBEP",
+    "exp": "Los órganos de gobierno de las Administraciones Públicas pueden conceder la rehabilitación con carácter excepcional."
+  },
+  {
+    "q": "Según el art. 68 del TREBEP, si transcurrido el plazo para dictar la resolución de rehabilitación no se hubiera producido de forma expresa, ¿cómo se entenderá la solicitud?",
+    "o": [
+      "Desestimada",
+      "Estimada",
+      "Estimada o desestimada, según la normativa de aplicación",
+      "Inadmitida"
+    ],
+    "c": 0,
+    "ref": "Art. 68 TREBEP",
+    "exp": "El silencio en la solicitud de rehabilitación se entiende desestimatorio."
+  },
+  {
+    "q": "Según el art. 67 del TREBEP, la jubilación de los funcionarios NO podrá ser:",
+    "o": [
+      "Voluntaria, a solicitud del funcionario",
+      "Forzosa, al cumplir la edad legalmente establecida",
+      "Por el reconocimiento de una pensión de incapacidad permanente parcial en relación con el ejercicio de las funciones de su cuerpo o escala",
+      "Por la declaración de incapacidad permanente para el ejercicio de las funciones propias de su cuerpo o escala"
+    ],
+    "c": 2,
+    "ref": "Art. 67 TREBEP",
+    "exp": "La jubilación por incapacidad no procede por incapacidad permanente parcial, sino por total o absoluta."
+  },
+  {
+    "q": "Según el art. 67 del TREBEP, se podrá solicitar la prolongación de la permanencia en el servicio activo como máximo hasta que se cumpla:",
+    "o": [
+      "Los sesenta y siete años de edad",
+      "Los sesenta y cinco años de edad",
+      "Los setenta años de edad",
+      "Los sesenta y tres años de edad"
+    ],
+    "c": 2,
+    "ref": "Art. 67 TREBEP",
+    "exp": "La prolongación en el servicio activo puede solicitarse como máximo hasta los setenta años."
+  },
+  {
+    "q": "Según el art. 66 del TREBEP, la pena principal o accesoria de inhabilitación especial produce la pérdida de la condición de funcionario respecto de aquellos empleos o cargos especificados en la sentencia, cuando:",
+    "o": [
+      "Cuando se hubiere dictado la sentencia",
+      "Antes de la firmeza de la sentencia",
+      "Cuando la sentencia hubiere adquirido firmeza",
+      "Antes del dictado de la sentencia"
+    ],
+    "c": 2,
+    "ref": "Art. 66 TREBEP",
+    "exp": "La inhabilitación especial produce la pérdida cuando la sentencia adquiere firmeza."
+  },
+  {
+    "q": "Según el art. 65 del TREBEP, la pérdida de la nacionalidad española o la de cualquier otro Estado miembro de la Unión Europea que le sea de aplicación, ¿determina la pérdida de la condición de funcionario?",
+    "o": [
+      "En todo caso",
+      "Sí, si se ha tenido en cuenta para el nombramiento",
+      "Sí, salvo que los órganos de gobierno de las Administraciones determinen reglamentariamente el mantenimiento de la condición de funcionario",
+      "Sí, salvo que simultáneamente se adquiera la nacionalidad de cualquier otro Estado"
+    ],
+    "c": 1,
+    "ref": "Art. 65 TREBEP",
+    "exp": "La pérdida de la nacionalidad que hubiera sido tenida en cuenta para el nombramiento determina la pérdida de la condición de funcionario."
+  },
+  {
+    "q": "Según el art. 64 del TREBEP, no podrá ser aceptada la renuncia cuando el funcionario:",
+    "o": [
+      "Esté tramitando un expediente administrativo",
+      "Haya sido notificado de la apertura de juicio por falta administrativa",
+      "Actúe como testigo en juicio oral",
+      "En todos los casos podrá ser aceptada la renuncia como funcionario"
+    ],
+    "c": 3,
+    "ref": "Art. 64 TREBEP",
+    "exp": "El art. 64.2 impide aceptar la renuncia por expediente disciplinario, auto de procesamiento o de apertura de juicio oral por delito; las opciones A-C describen supuestos distintos (expediente administrativo, falta administrativa, testigo), por lo que la correcta es la D."
+  },
+  {
+    "q": "Según el art. 63 del TREBEP, NO es causa de pérdida de la condición de funcionario de carrera:",
+    "o": [
+      "La renuncia a la condición de funcionario",
+      "La pérdida de la nacionalidad",
+      "La sanción disciplinaria de suspensión de funciones que tuviere carácter firme",
+      "La jubilación total del funcionario"
+    ],
+    "c": 2,
+    "ref": "Art. 63 TREBEP",
+    "exp": "La causa es la sanción disciplinaria de separación del servicio, no la de suspensión de funciones."
+  },
+  {
+    "q": "Según el art. 62 del TREBEP, respecto al acto de acatamiento como requisito para adquirir la condición de funcionario de carrera, será a:",
+    "o": [
+      "La autoridad competente",
+      "El pluralismo jurídico",
+      "A la Constitución o, en su caso, del Estatuto de Autonomía correspondiente y del resto del Ordenamiento Jurídico",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 62 TREBEP",
+    "exp": "El art. 62.1.c) exige el acatamiento de la Constitución \"y\", en su caso, del Estatuto de Autonomía; la opción C sustituye la conjunción \"y\" por \"o\", por lo que la clave marca la D como correcta."
+  },
+  {
+    "q": "Según el art. 61 del TREBEP, los procesos selectivos que incluyan la valoración de méritos de los aspirantes solo podrán otorgar a dicha valoración:",
+    "o": [
+      "Una puntuación proporcionada que no determinará, en ningún caso, por sí misma el resultado del proceso selectivo",
+      "Una puntuación específica que podrá determinar el resultado del proceso selectivo",
+      "Una puntuación proporcionada que no determinará, según las pruebas realizadas, el resultado del proceso selectivo",
+      "Una puntuación proporcionada que podrá determinar, según los casos, por sí misma el resultado del proceso selectivo"
+    ],
+    "c": 0,
+    "ref": "Art. 61 TREBEP",
+    "exp": "La valoración de méritos solo puede otorgar una puntuación proporcionada que no determine por sí misma el resultado."
+  },
+  {
+    "q": "Según el art. 61 del TREBEP, en los procesos selectivos las pruebas podrán completarse con la superación de cursos, prácticas, exposición curricular, pruebas psicotécnicas o entrevistas, para:",
+    "o": [
+      "Asegurar la transparencia de los procesos selectivos",
+      "Asegurar la objetividad y la racionalidad de los procesos selectivos",
+      "Asegurar la publicidad y eficacia de los procesos selectivos",
+      "Asegurar la participación e imparcialidad de los procesos selectivos"
+    ],
+    "c": 1,
+    "ref": "Art. 61 TREBEP",
+    "exp": "Estas pruebas complementarias buscan asegurar la objetividad y la racionalidad de los procesos selectivos."
+  },
+  {
+    "q": "Según el art. 61 del TREBEP, ¿podrá aplicarse, con carácter excepcional, el sistema de concurso que consiste únicamente en la valoración de méritos?",
+    "o": [
+      "Solo en situaciones extraordinarias",
+      "Solo en ausencia de ley que regule el proceso",
+      "Solo en virtud de ley",
+      "Solo por medio de la potestad reglamentaria de la administración convocante"
+    ],
+    "c": 2,
+    "ref": "Art. 61 TREBEP",
+    "exp": "El sistema de concurso solo puede aplicarse, con carácter excepcional, en virtud de ley."
+  },
+  {
+    "q": "Según el art. 60 del TREBEP, ¿qué es cierto respecto a los órganos de selección?",
+    "o": [
+      "Que no tenderán a la paridad de hombres y mujeres",
+      "Que no podrá formar parte de los mismos el personal de designación política",
+      "Que no se pertenecerá siempre a título individual",
+      "Que no serán colegiados"
+    ],
+    "c": 1,
+    "ref": "Art. 60 TREBEP",
+    "exp": "El personal de elección o designación política no puede formar parte de los órganos de selección."
+  },
+  {
+    "q": "Según el art. 59 del TREBEP, de la reserva mínima prevista para personas con discapacidad, ¿qué porcentaje deberá ser cubierto por quienes acrediten discapacidad intelectual?",
+    "o": [
+      "Al menos el dos por ciento de las plazas ofertadas",
+      "Al menos el siete por ciento de las plazas ofertadas",
+      "Al menos el tres por ciento de las plazas ofertadas",
+      "Al menos el cinco por ciento de las plazas ofertadas"
+    ],
+    "c": 0,
+    "ref": "Art. 59 TREBEP",
+    "exp": "Al menos el dos por ciento de las plazas debe reservarse para personas con discapacidad intelectual."
+  },
+  {
+    "q": "Según el art. 58 del TREBEP, en relación con el acceso al empleo público de funcionarios españoles de Organismos Internacionales, ¿de qué podrán quedar exentos?",
+    "o": [
+      "De la titulación exigida",
+      "De la superación de los correspondientes procesos selectivos",
+      "De la realización de aquellas pruebas que tengan por objeto acreditar conocimientos ya exigidos para el desempeño de su puesto en el organismo internacional correspondiente",
+      "De todo lo anterior"
+    ],
+    "c": 2,
+    "ref": "Art. 58 TREBEP",
+    "exp": "Pueden quedar exentos de las pruebas que acrediten conocimientos ya exigidos en el organismo internacional."
+  },
+  {
+    "q": "Según el art. 57 del TREBEP, los nacionales de los Estados miembros de la Unión Europea podrán acceder como personal funcionario en igualdad de condiciones que los españoles, ¿con qué excepción?",
+    "o": [
+      "Solo de aquellos empleos que directamente impliquen una participación en el ejercicio del poder público",
+      "Aquellos que indirectamente impliquen una participación en el ejercicio de las funciones con fines públicos",
+      "Aquellos que tienen por objeto el cumplimiento de los intereses del Estado o de las Administraciones públicas",
+      "Ninguna son respuestas correctas"
+    ],
+    "c": 3,
+    "ref": "Art. 57 TREBEP",
+    "exp": "El art. 57.1 exceptúa los empleos que directa o indirectamente impliquen participación en el poder público; las opciones A-C alteran ese texto (\"solo directamente\", \"con fines públicos\", \"cumplimiento\"), por lo que la correcta es la D."
+  },
+  {
+    "q": "Según el art. 56 del TREBEP, NO es un requisito para poder participar en los procesos selectivos:",
+    "o": [
+      "Tener la nacionalidad española, sin perjuicio de lo dispuesto en el artículo siguiente",
+      "Poseer la capacidad funcional para el desempeño de las tareas",
+      "Haber sido separado mediante expediente disciplinario del servicio de cualquiera de las Administraciones Públicas o de los órganos constitucionales o estatutarios de las Comunidades Autónomas",
+      "Todos los anteriores son requisitos que serán necesarios reunir"
+    ],
+    "c": 2,
+    "ref": "Art. 56 TREBEP",
+    "exp": "Haber sido separado mediante expediente disciplinario es causa de exclusión, no un requisito de participación."
+  },
+  {
+    "q": "Según el art. 55 del TREBEP, literalmente, ¿quién tiene derecho al acceso al empleo público de acuerdo con los principios constitucionales de igualdad, mérito y capacidad?",
+    "o": [
+      "Todos los españoles",
+      "Todos los ciudadanos",
+      "Todas las personas",
+      "Todos"
+    ],
+    "c": 1,
+    "ref": "Art. 55 TREBEP",
+    "exp": "El art. 55 reconoce a todos los ciudadanos el derecho al acceso al empleo público."
+  },
+  {
+    "q": "Según el TREBEP, indique de los que se mencionan a continuación cuál NO es un principio de conducta:",
+    "o": [
+      "Obedecerán las instrucciones y órdenes profesionales de los superiores, incluso que constituyan una infracción manifiesta del ordenamiento jurídico, en cuyo caso las pondrán inmediatamente en conocimiento de los órganos de inspección procedentes",
+      "Informarán a los ciudadanos sobre aquellas materias o asuntos que tengan derecho a conocer, y facilitarán el ejercicio de sus derechos y el cumplimiento de sus obligaciones",
+      "Administrarán los recursos y bienes públicos con austeridad, y no utilizarán los mismos en provecho propio o de personas allegadas",
+      "Se rechazará cualquier regalo, favor o servicio en condiciones ventajosas que vaya más allá de los usos habituales, sociales y de cortesía, sin perjuicio de lo establecido en el Código Penal"
+    ],
+    "c": 0,
+    "ref": "Art. 54 TREBEP",
+    "exp": "El principio de conducta ordena obedecer las órdenes salvo que constituyan infracción manifiesta; la opción dice \"incluso\", por lo que está mal formulada."
+  },
+  {
+    "q": "Según el art. 53 del TREBEP, de los que se mencionan a continuación indique cuál es un principio ético:",
+    "o": [
+      "Su actuación perseguirá la satisfacción de los intereses individuales de los ciudadanos y se fundamentará en consideraciones objetivas orientadas hacia la imparcialidad y el interés común",
+      "Ajustarán su actuación a los principios de lealtad y buena fe con la Administración en la que presten sus servicios, y con sus superiores, compañeros, subordinados y con los ciudadanos",
+      "Se abstendrán en aquellos asuntos en los que exista un interés general, así como de toda actividad privada o interés que pueda suponer de resolver conflictos de intereses entre las mismas",
+      "Todos los anteriores son principios éticos"
+    ],
+    "c": 1,
+    "ref": "Art. 53 TREBEP",
+    "exp": "Ajustar la actuación a los principios de lealtad y buena fe es un principio ético del art. 53."
+  },
+  {
+    "q": "Según el art. 52 del TREBEP, señale la respuesta incorrecta. Los empleados públicos deberán actuar con arreglo a los principios:",
+    "o": [
+      "Integridad",
+      "Imparcialidad",
+      "Profesionalidad",
+      "Honradez"
+    ],
+    "c": 2,
+    "ref": "Art. 52 TREBEP",
+    "exp": "La \"profesionalidad\" no figura entre los principios enumerados en el art. 52."
+  },
+  {
+    "q": "Según el art. 48 del TREBEP, ¿qué permiso tienen los funcionarios públicos por traslado sin cambio de residencia?",
+    "o": [
+      "Dos días",
+      "El tiempo necesario",
+      "Un día",
+      "Tres días"
+    ],
+    "c": 2,
+    "ref": "Art. 48 TREBEP",
+    "exp": "Por traslado de domicilio sin cambio de residencia el permiso es de un día."
+  },
+  {
+    "q": "Según el art. 48 del TREBEP, ¿a cuántas horas de ausencia tendrá derecho un funcionario por lactancia de un hijo menor de doce meses?",
+    "o": [
+      "Hasta dos horas",
+      "Un mínimo de una hora",
+      "No tendrá derecho a ausencia, sino a reducción de jornada",
+      "Una hora"
+    ],
+    "c": 3,
+    "ref": "Art. 48 TREBEP",
+    "exp": "Por lactancia de un hijo menor de doce meses se tiene derecho a una hora de ausencia."
+  },
+  {
+    "q": "Según el art. 48 del TREBEP, cuando se trate de fallecimiento del cónyuge, pareja de hecho o familiar dentro del primer grado de consanguinidad, cuando el suceso se produzca en distinta localidad, ¿qué permiso tendrá el funcionario público?",
+    "o": [
+      "Cinco días hábiles",
+      "Tres días hábiles",
+      "Dos días hábiles",
+      "Cuatro días hábiles"
+    ],
+    "c": 0,
+    "ref": "Art. 48 TREBEP",
+    "exp": "El fallecimiento de familiar de primer grado en distinta localidad da derecho a cinco días hábiles."
+  },
+  {
+    "q": "Según el art. 48 del TREBEP, por ser preciso atender el cuidado de un familiar de primer grado, el funcionario tendrá derecho a solicitar una reducción de hasta el cincuenta por ciento de la jornada laboral:",
+    "o": [
+      "Sin retribución, por plazo máximo de dos meses, por razón de enfermedad muy grave",
+      "Retribuido, por plazo máximo de dos meses, por razón de enfermedad muy grave",
+      "Retribuido, por plazo máximo de un mes, por razón de enfermedad muy grave",
+      "Sin retribución, por plazo máximo de un mes, por razón de enfermedad muy grave"
+    ],
+    "c": 2,
+    "ref": "Art. 48 TREBEP",
+    "exp": "La reducción es retribuida, por plazo máximo de un mes, por razón de enfermedad muy grave del familiar de primer grado."
+  },
+  {
+    "q": "Según el art. 48 del TREBEP, ¿qué permiso tendrá el funcionario para la realización de los actos preparatorios de la donación de órganos o tejidos siempre que deban tener lugar dentro de la jornada de trabajo?",
+    "o": [
+      "En los términos que la ley determine",
+      "El día en que tenga lugar el acto preparatorio",
+      "El tiempo indispensable",
+      "Dos días"
+    ],
+    "c": 2,
+    "ref": "Art. 48 TREBEP",
+    "exp": "Para los actos preparatorios de la donación se tiene el permiso por el tiempo indispensable."
+  },
+  {
+    "q": "Según el art. 47 bis del TREBEP, a las personas que trabajen en modalidad de teletrabajo, ¿qué proporcionará la Administración?",
+    "o": [
+      "La administración, nada",
+      "Los medios tecnológicos necesarios para su actividad",
+      "Una retribución adicional para adquirir medios tecnológicos necesarios para su actividad",
+      "El mantenimiento de los medios tecnológicos adquiridos por el trabajador"
+    ],
+    "c": 1,
+    "ref": "Art. 47 bis TREBEP",
+    "exp": "La Administración proporcionará y mantendrá los medios tecnológicos necesarios para la actividad del teletrabajo."
+  },
+  {
+    "q": "Según el art. 47 bis del TREBEP, en materia de teletrabajo, ¿por qué se regirá el personal laboral?",
+    "o": [
+      "Por el TREBEP y sus normas de desarrollo",
+      "Por la normativa laboral y supletoriamente por el TREBEP",
+      "Por el contrato de trabajo",
+      "Por el TREBEP y supletoriamente por la normativa laboral"
+    ],
+    "c": 0,
+    "ref": "Art. 47 bis TREBEP",
+    "exp": "El teletrabajo del personal laboral se rige por el TREBEP y sus normas de desarrollo."
+  },
+  {
+    "q": "Según el art. 47 bis del TREBEP, ¿qué es cierto respecto a la modalidad de teletrabajo?",
+    "o": [
+      "De forma general tendrá carácter obligatorio e irreversible",
+      "Contribuirá a mejorar las condiciones laborales del trabajador",
+      "Será incompatible con la modalidad presencial",
+      "Habrá de ser expresamente autorizada"
+    ],
+    "c": 3,
+    "ref": "Art. 47 bis TREBEP",
+    "exp": "El teletrabajo habrá de ser expresamente autorizado, es voluntario y reversible."
+  },
+  {
+    "q": "Según el art. 8 del TREBEP, son empleados públicos:",
+    "o": [
+      "Quienes desempeñan funciones profesionales en las Administraciones Públicas",
+      "Quienes desempeñan funciones retribuidas en las Administraciones Públicas al servicio de intereses generales",
+      "Quienes desempeñan servicios profesionales retribuidos en las Administraciones Públicas en interés propio",
+      "Quienes desempeñan funciones generales al servicio del interés común"
+    ],
+    "c": 1,
+    "ref": "Art. 8 TREBEP",
+    "exp": "Son empleados públicos quienes desempeñan funciones retribuidas en las Administraciones Públicas al servicio de los intereses generales."
+  },
+  {
+    "q": "Según el art. 15 del TREBEP, es un derecho individual de los empleados públicos que se ejerce colectivamente:",
+    "o": [
+      "La libertad de expresión",
+      "La prestación de los servicios esenciales de la comunidad",
+      "El planteamiento de conflictos colectivos",
+      "La libre asociación profesional"
+    ],
+    "c": 2,
+    "ref": "Art. 15 TREBEP",
+    "exp": "El planteamiento de conflictos colectivos es un derecho individual que se ejerce colectivamente."
+  },
+  {
+    "q": "Según el art. 2 del TREBEP, ¿este Estatuto se aplica al personal funcionario de los organismos públicos, agencias y demás entidades de derecho público con personalidad jurídica propia, vinculadas o dependientes de las Administraciones Públicas?",
+    "o": [
+      "En lo que proceda",
+      "En la misma forma que a los funcionarios de la Administración General del Estado",
+      "Supletoriamente",
+      "Adaptándolo a sus peculiaridades"
+    ],
+    "c": 1,
+    "ref": "Art. 2 TREBEP",
+    "exp": "El TREBEP se aplica al personal funcionario de dichos organismos en la misma forma que a los funcionarios de la Administración General del Estado."
+  },
+  {
+    "q": "Según el art. 1 del TREBEP, ¿qué fundamento de actuación refleja el TREBEP?",
+    "o": [
+      "Objetividad y publicidad en el acceso a la formación permanente de los empleados públicos",
+      "Control de la planificación y gestión",
+      "Racionalización de los recursos públicos",
+      "Jerarquía en la atribución, ordenación y desempeño de las funciones y tareas"
+    ],
+    "c": 3,
+    "ref": "Art. 1 TREBEP",
+    "exp": "La jerarquía en la atribución, ordenación y desempeño de las funciones y tareas es un fundamento de actuación del art. 1."
+  },
+  {
+    "q": "Según el art. 1 del TREBEP, ¿qué fundamento de actuación NO refleja el TREBEP?",
+    "o": [
+      "Transparencia",
+      "Evaluación y responsabilidad en la gestión",
+      "Eficiencia de los servicios",
+      "Servicio a los ciudadanos y a los intereses generales"
+    ],
+    "c": 2,
+    "ref": "Art. 1 TREBEP",
+    "exp": "El art. 1 recoge la eficacia (no la \"eficiencia de los servicios\") como fundamento; la clave del examen fue corregida a la opción C."
+  }
 ]

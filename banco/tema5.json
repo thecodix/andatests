@@ -1,32 +1,2726 @@
 [
-{"q":"¿Cuál es el objeto de la Ley 40/2015?","o":["Regular el procedimiento administrativo común","Establecer las bases del régimen jurídico del sector público y la organización de la AGE","Regular el empleo público","Regular los contratos del sector público"],"c":1,"ref":"Art. 1 Ley 40/2015","exp":"Regula las bases del régimen jurídico de las Administraciones, la responsabilidad y la potestad sancionadora, y la organización y funcionamiento de la AGE y su sector público institucional."},
-{"q":"Según el artículo 3, las Administraciones Públicas sirven con objetividad los intereses generales y actúan conforme a los principios de:","o":["Legalidad, igualdad y publicidad","Eficacia, jerarquía, descentralización, desconcentración y coordinación","Mérito, capacidad y publicidad","Celeridad, economía y oficialidad"],"c":1,"ref":"Art. 3.1 Ley 40/2015","exp":"Reproduce el art. 103.1 CE: actúan con eficacia, jerarquía, descentralización, desconcentración y coordinación, con sometimiento pleno a la Constitución, la Ley y el Derecho."},
-{"q":"Cada Administración Pública actúa para el cumplimiento de sus fines con:","o":["Varias personalidades jurídicas","Personalidad jurídica única","Personalidad jurídica de Derecho privado","Sin personalidad propia"],"c":1,"ref":"Art. 3.4 Ley 40/2015","exp":"Cada una de las Administraciones Públicas actúa para el cumplimiento de sus fines con personalidad jurídica única."},
-{"q":"La competencia administrativa (art. 8) es:","o":["Renunciable","Irrenunciable, y se ejerce por los órganos que la tengan atribuida como propia","Delegable sin límites","Transferible al interesado"],"c":1,"ref":"Art. 8.1 Ley 40/2015","exp":"La competencia es irrenunciable y se ejercerá por los órganos que la tengan atribuida como propia, salvo delegación o avocación."},
-{"q":"¿Cuál de estas competencias NO puede ser objeto de delegación (art. 9.2)?","o":["La tramitación de expedientes ordinarios","La resolución de recursos por el órgano que dictó el acto recurrido","La firma de actos","Las actividades de gestión"],"c":1,"ref":"Art. 9.2 Ley 40/2015","exp":"No pueden delegarse, entre otras, la adopción de disposiciones generales y la resolución de recursos en los órganos que dictaron los actos recurridos."},
-{"q":"Las resoluciones adoptadas por delegación (art. 9.4):","o":["Se consideran dictadas por el órgano delegado","Indicarán esta circunstancia y se consideran dictadas por el órgano delegante","No requieren mención alguna","Deben ser ratificadas por el superior"],"c":1,"ref":"Art. 9.4 Ley 40/2015","exp":"Las resoluciones dictadas por delegación indicarán expresamente esta circunstancia y se considerarán dictadas por el órgano delegante."},
-{"q":"La avocación (art. 10) consiste en que:","o":["Un órgano inferior asume competencias del superior","Los órganos superiores avocan para sí asuntos que corresponden a órganos dependientes","Se transfiere la titularidad de la competencia","Se renuncia a una competencia"],"c":1,"ref":"Art. 10.1 Ley 40/2015","exp":"Los órganos superiores podrán avocar para sí el conocimiento de asuntos cuya resolución corresponda ordinariamente o por delegación a sus órganos dependientes, mediante acuerdo motivado."},
-{"q":"La delegación de firma (art. 12):","o":["Altera la competencia del órgano delegante","No altera la competencia del órgano delegante y no requiere publicación","Debe publicarse en el BOE","Transfiere la titularidad de la competencia"],"c":1,"ref":"Art. 12.2 Ley 40/2015","exp":"La delegación de firma no altera la competencia del órgano delegante y para su validez no es necesaria su publicación."},
-{"q":"Para la válida constitución de un órgano colegiado se requiere la asistencia de (art. 17.2):","o":["Todos los miembros","El Presidente, el Secretario y la mitad, al menos, de sus miembros","Un tercio de los miembros","Solo el Presidente"],"c":1,"ref":"Art. 17.2 Ley 40/2015","exp":"Se requiere la asistencia, presencial o a distancia, del Presidente y Secretario (o quienes les suplan) y de la mitad, al menos, de sus miembros."},
-{"q":"En un órgano colegiado, ¿puede deliberarse sobre un asunto no incluido en el orden del día?","o":["Nunca","Sí, si asisten todos los miembros y se declara la urgencia por mayoría","Sí, siempre","Solo si lo decide el Presidente"],"c":1,"ref":"Art. 17.4 Ley 40/2015","exp":"No podrá ser objeto de acuerdo ningún asunto fuera del orden del día, salvo que asistan todos los miembros y se declare la urgencia por el voto favorable de la mayoría."},
-{"q":"Los miembros de un órgano colegiado que voten en contra o se abstengan (art. 17.6):","o":["Pierden su condición de miembros","Quedan exentos de la responsabilidad derivada de los acuerdos","Deben justificar su voto por escrito siempre","No pueden volver a votar"],"c":1,"ref":"Art. 17.6 Ley 40/2015","exp":"Quienes voten en contra o se abstengan quedarán exentos de la responsabilidad que pudiera derivarse de los acuerdos."},
-{"q":"Son órganos colegiados, según el artículo 20, los integrados por:","o":["Dos o más personas","Tres o más personas con funciones de decisión, propuesta, asesoramiento, seguimiento o control","Cinco o más personas","Cualquier número de empleados"],"c":1,"ref":"Art. 20.1 Ley 40/2015","exp":"Son órganos colegiados los creados formalmente e integrados por tres o más personas a los que se atribuyan funciones administrativas de decisión, propuesta, asesoramiento, seguimiento o control."},
-{"q":"¿Cuál es un motivo de abstención según el artículo 23?","o":["Vivir en la misma localidad que el interesado","Tener interés personal en el asunto o parentesco dentro de ciertos grados con un interesado","Pertenecer al mismo partido político","Tener más de 60 años"],"c":1,"ref":"Art. 23.2 Ley 40/2015","exp":"Son motivos de abstención, entre otros, el interés personal, el vínculo matrimonial o parentesco con interesados, la amistad íntima o enemistad manifiesta, o haber intervenido como perito o testigo."},
-{"q":"La actuación de una autoridad en quien concurra motivo de abstención (art. 23.4):","o":["Implica siempre la nulidad de los actos","No implica necesariamente y en todo caso la invalidez de los actos","Convierte el acto en anulable automáticamente","Obliga a repetir el procedimiento"],"c":1,"ref":"Art. 23.4 Ley 40/2015","exp":"La actuación de quien concurra motivo de abstención no implicará, necesariamente y en todo caso, la invalidez de los actos en que haya intervenido."},
-{"q":"La recusación (art. 24) puede promoverse por los interesados:","o":["Solo al inicio del procedimiento","En cualquier momento de la tramitación del procedimiento","Solo tras la resolución","Únicamente por escrito notarial"],"c":1,"ref":"Art. 24.1 Ley 40/2015","exp":"La recusación podrá promoverse por los interesados en cualquier momento de la tramitación del procedimiento, planteándose por escrito con expresión de la causa."},
-{"q":"La potestad sancionadora de las Administraciones (art. 25) se ejercerá cuando:","o":["Lo decida el órgano competente","Haya sido expresamente reconocida por una norma con rango de Ley","Exista un reglamento","Lo solicite un interesado"],"c":1,"ref":"Art. 25.1 Ley 40/2015","exp":"La potestad sancionadora se ejercerá cuando haya sido expresamente reconocida por una norma con rango de Ley (principio de legalidad)."},
-{"q":"En materia sancionadora, las disposiciones producirán efecto retroactivo (art. 26):","o":["Nunca","En cuanto favorezcan al presunto infractor o infractor","Siempre","Solo respecto de la tipificación"],"c":1,"ref":"Art. 26.2 Ley 40/2015","exp":"Las disposiciones sancionadoras producen efecto retroactivo en cuanto favorezcan al presunto infractor o infractor, incluso en sanciones pendientes de cumplimiento."},
-{"q":"Conforme al principio de tipicidad (art. 27), las infracciones administrativas se clasifican en:","o":["Leves y graves","Leves, graves y muy graves","Menores y mayores","Simples y cualificadas"],"c":1,"ref":"Art. 27.1 Ley 40/2015","exp":"Las infracciones administrativas se clasificarán por la Ley en leves, graves y muy graves."},
-{"q":"Las normas definidoras de infracciones y sanciones (art. 27.4):","o":["Admiten aplicación analógica","No serán susceptibles de aplicación analógica","Se interpretan extensivamente","Pueden crearse por reglamento"],"c":1,"ref":"Art. 27.4 Ley 40/2015","exp":"Las normas definidoras de infracciones y sanciones no serán susceptibles de aplicación analógica."},
-{"q":"Solo pueden ser sancionadas las personas que resulten responsables de la infracción a título de (art. 28):","o":["Riesgo objetivo","Dolo o culpa","Mera causalidad","Responsabilidad solidaria automática"],"c":1,"ref":"Art. 28.1 Ley 40/2015","exp":"Solo podrán ser sancionadas las personas físicas y jurídicas (y otros entes con capacidad) que resulten responsables a título de dolo o culpa."},
-{"q":"Las sanciones administrativas (art. 29.1) en ningún caso podrán implicar:","o":["Multas elevadas","Privación de libertad, directa o subsidiaria","Inhabilitación","Cierre de establecimientos"],"c":1,"ref":"Art. 29.1 Ley 40/2015","exp":"Las sanciones administrativas, sean o no pecuniarias, en ningún caso podrán implicar, directa o subsidiariamente, privación de libertad."},
-{"q":"Si las leyes no fijan plazo, las infracciones muy graves prescriben a los (art. 30):","o":["1 año","2 años","3 años","5 años"],"c":2,"ref":"Art. 30.1 Ley 40/2015","exp":"A falta de plazo legal, las infracciones muy graves prescriben a los tres años, las graves a los dos años y las leves a los seis meses."},
-{"q":"Si las leyes no fijan plazo, las infracciones leves prescriben a los:","o":["6 meses","1 año","2 años","3 años"],"c":0,"ref":"Art. 30.1 Ley 40/2015","exp":"A falta de plazo legal, las infracciones leves prescriben a los seis meses."},
-{"q":"El principio 'non bis in idem' (art. 31) impide sancionar hechos ya sancionados penal o administrativamente cuando exista identidad de:","o":["Lugar, tiempo y forma","Sujeto, hecho y fundamento","Órgano, norma y sanción","Sujeto y norma"],"c":1,"ref":"Art. 31.1 Ley 40/2015","exp":"No podrán sancionarse los hechos ya sancionados penal o administrativamente cuando se aprecie identidad de sujeto, hecho y fundamento."},
-{"q":"Los particulares tienen derecho a ser indemnizados por toda lesión consecuencia del (art. 32):","o":["Solo funcionamiento anormal de los servicios públicos","Funcionamiento normal o anormal de los servicios públicos, salvo fuerza mayor","Cualquier actuación, sin excepciones","Funcionamiento que el particular deba soportar"],"c":1,"ref":"Art. 32.1 Ley 40/2015","exp":"Procede indemnización por toda lesión consecuencia del funcionamiento normal o anormal de los servicios públicos, salvo fuerza mayor o daños que el particular tenga el deber jurídico de soportar."},
-{"q":"Para que proceda la responsabilidad patrimonial, el daño (art. 32.2) debe ser:","o":["Hipotético y futuro","Efectivo, evaluable económicamente e individualizado","Moral exclusivamente","De cuantía superior a 50.000 €"],"c":1,"ref":"Art. 32.2 Ley 40/2015","exp":"El daño alegado ha de ser efectivo, evaluable económicamente e individualizado con relación a una persona o grupo de personas."},
-{"q":"¿La anulación de un acto administrativo presupone, por sí misma, derecho a indemnización?","o":["Sí, siempre","No, no presupone por sí misma derecho a la indemnización","Sí, si el acto era expreso","Solo si lo pide el interesado"],"c":1,"ref":"Art. 32.1 Ley 40/2015","exp":"La anulación en vía administrativa o contenciosa de actos o disposiciones no presupone, por sí misma, derecho a la indemnización."},
-{"q":"Cuando varias Administraciones responden por fórmulas conjuntas de actuación (art. 33.1), responden frente al particular:","o":["De forma mancomunada","De forma solidaria","Solo la de mayor tamaño","Por partes iguales en todo caso"],"c":1,"ref":"Art. 33.1 Ley 40/2015","exp":"En la gestión dimanante de fórmulas conjuntas de actuación, las Administraciones intervinientes responden frente al particular, en todo caso, de forma solidaria."},
-{"q":"La sede electrónica (art. 38) es:","o":["Una página web cualquiera","Una dirección electrónica, disponible a través de redes, cuya titularidad corresponde a una Administración","Un registro en papel","Una aplicación móvil privada"],"c":1,"ref":"Art. 38.1 Ley 40/2015","exp":"La sede electrónica es la dirección electrónica disponible para los ciudadanos a través de redes de telecomunicaciones, cuya titularidad corresponde a una Administración Pública."},
-{"q":"Con carácter general, los convenios (art. 49) tendrán una duración determinada no superior a:","o":["2 años","4 años, prorrogables hasta 4 años adicionales","6 años","10 años"],"c":1,"ref":"Art. 49.h) Ley 40/2015","exp":"Los convenios deben tener duración determinada no superior a cuatro años, salvo previsión normativa de plazo superior, pudiendo prorrogarse hasta cuatro años adicionales."}
+  {
+    "q": "Según el art. 48 de la Ley 40/2015 de Régimen Jurídico, en relación con los requisitos de validez y eficacia de los convenios:",
+    "o": [
+      "Las aportaciones financieras que se comprometan a realizar los firmantes podrán ser superiores a los gastos derivados de la ejecución del convenio.",
+      "La suscripción de un convenio deberá contribuir a la realización de actividades de utilidad privada.",
+      "Los convenios se perfeccionan por la prestación del consentimiento de las partes.",
+      "Las normas relativas a los convenios contempladas en la Ley 40/2015 son aplicables a la encomienda de gestión."
+    ],
+    "c": 2,
+    "ref": "Art. 48 Ley 40/2015",
+    "exp": "Los convenios se perfeccionan por la prestación del consentimiento de las partes."
+  },
+  {
+    "q": "Según el art. 47 de la Ley 40/2015 de Régimen Jurídico, ¿Qué son los convenios?",
+    "o": [
+      "Acuerdos con efectos jurídicos adoptados por las Administraciones Públicas, los órganos y entidades de derecho público vinculados o dependientes o las Universidades públicas entre sí o con sujetos de derecho privado para un fin común",
+      "Acuerdos con efectos jurídicos adoptados por las Administraciones Públicas, los organismos públicos y entidades de derecho público vinculados o dependientes o las Universidades públicas entre sí o con sujetos de derecho privado para un fin común",
+      "Acuerdos con efectos jurídicos adoptados por las Administraciones Públicas, los organismos públicos y entidades de derecho público vinculados o dependientes o las Universidades públicas entre sí o con sujetos de derecho privado para la obtención de un beneficio por cada participante",
+      "Acuerdos sin efectos jurídicos adoptados por las Administraciones Públicas, los organismos públicos y entidades de derecho público vinculados o dependientes o las Universidades públicas entre sí o con sujetos de derecho privado para un fin común"
+    ],
+    "c": 1,
+    "ref": "Art. 47 Ley 40/2015",
+    "exp": "Son acuerdos con efectos jurídicos entre AAPP, organismos y entidades de derecho público o Universidades para un fin común."
+  },
+  {
+    "q": "Según el art. 47 de la Ley 40/2015 de Régimen Jurídico, ¿Qué queda excluido de los convenios interadministrativos?",
+    "o": [
+      "Los firmados entre dos o más organismos públicos vinculados o dependientes de distintas administraciones públicas",
+      "El firmado entre dos o más entidades de derecho público vinculados o dependientes de distintas administraciones públicas.",
+      "El firmado entre la Comunidad Autónoma de Andalucía y la Comunidad autónoma de Extremadura, para la gestión y prestación de servicios propios de las mismas",
+      "Los firmados entre tres Administraciones Públicas"
+    ],
+    "c": 2,
+    "ref": "Art. 47 Ley 40/2015",
+    "exp": "Según la clave del examen es C; los convenios entre CCAA para gestión de servicios se rigen por regímenes específicos y quedan excluidos de los interadministrativos generales — revisar en validación."
+  },
+  {
+    "q": "Según el art. 47 de la Ley 40/2015 de Régimen Jurídico, ¿A qué tipo de convenio corresponde los firmados entre organismos públicos y entidades de derecho público vinculados o dependientes de una misma Administración Pública?",
+    "o": [
+      "Interadministrativos",
+      "Intradministrativos",
+      "Internacionales",
+      "Normativos"
+    ],
+    "c": 1,
+    "ref": "Art. 47 Ley 40/2015",
+    "exp": "Son convenios intradministrativos los firmados entre organismos y entidades de derecho público de una misma Administración (art. 47.2.b)."
+  },
+  {
+    "q": "Según el art. 47 de la Ley 40/2015 de Régimen Jurídico, no es un tipo de convenio:",
+    "o": [
+      "El que consiste en un acuerdo internacional no normativo firmado entre las Administraciones Públicas y los órganos, organismos públicos o entes de un sujeto de Derecho internacional",
+      "Los firmados entre una Administración Pública u organismo o entidad de derecho público y un sujeto de Derecho privado",
+      "Convenios no constitutivos de Tratado internacional firmados entre las Administraciones Públicas y los órganos, organismos públicos o entes de un sujeto de Derecho internacional",
+      "A y C no son tipos de convenios"
+    ],
+    "c": 0,
+    "ref": "Art. 47 Ley 40/2015",
+    "exp": "Según la clave del examen es A; los convenios se clasifican en interadministrativos, intradministrativos, con sujetos de derecho privado y no constitutivos de tratado internacional — revisar en validación."
+  },
+  {
+    "q": "Según el art. 47 de la Ley 40/2015 de Régimen Jurídico, no tiene la consideración de convenio:",
+    "o": [
+      "Un acuerdo con efectos jurídicos adoptado por dos Universidades Públicas para un fin común",
+      "Acuerdos con efectos jurídicos entre organismos públicos con sujetos de derecho privado para un fin común",
+      "Acuerdos no constitutivos de tratado internacional firmados entre las Administraciones Públicas y los órganos, organismos públicos o entes de un sujeto de Derecho internacional para un fin común",
+      "Los Protocolos Generales de Actuación o instrumentos similares que comporten meras declaraciones de intención de contenido general"
+    ],
+    "c": 3,
+    "ref": "Art. 47 Ley 40/2015",
+    "exp": "Los Protocolos Generales de Actuación con meras declaraciones de intención no son convenios."
+  },
+  {
+    "q": "Según el art. 47 de la Ley 40/2015 de Régimen Jurídico, no podrán tener por objeto los convenios:",
+    "o": [
+      "La consecución de un fin común",
+      "La mejora de las prestaciones de dos o más Administraciones Públicas",
+      "Las prestaciones propias de los contratos",
+      "La utilización conjunta de medios y servicios públicos"
+    ],
+    "c": 2,
+    "ref": "Art. 47 Ley 40/2015",
+    "exp": "Los convenios no pueden tener por objeto prestaciones propias de los contratos."
+  },
+  {
+    "q": "Según el art. 47 de la Ley 40/2015 de Régimen Jurídico, los Convenios interadministrativos, ¿Qué podrán incluir?",
+    "o": [
+      "Prestaciones propias de los contratos",
+      "Prestación de servicios propios de las Comunidades Autónomas",
+      "La utilización de medios, servicios y recursos de entidad de derecho privado vinculada o dependiente, para el ejercicio de competencias propias o delegadas.",
+      "La utilización de medios, servicios y recursos de otra Administración Pública, organismo público o entidad de derecho público vinculado o dependiente, para el ejercicio de competencias propias o delegadas"
+    ],
+    "c": 3,
+    "ref": "Art. 47 Ley 40/2015",
+    "exp": "Pueden incluir la utilización de medios, servicios y recursos de otra Administración o entidad de derecho público."
+  },
+  {
+    "q": "Según el art. 48 de la Ley 40/2015 de Régimen Jurídico, la suscripción de convenio, ¿Qué deberá mejorar?",
+    "o": [
+      "La utilidad pública",
+      "El dominio público",
+      "La eficiencia de la gestión pública",
+      "La estabilidad presupuestaria"
+    ],
+    "c": 2,
+    "ref": "Art. 48 Ley 40/2015",
+    "exp": "La suscripción del convenio debe mejorar la eficiencia de la gestión pública."
+  },
+  {
+    "q": "Según el art. 48 de la Ley 40/2015 de Régimen Jurídico, los convenios que incluyan compromisos financieros:",
+    "o": [
+      "Deberán ser fiscalmente rentable",
+      "Deberán ser asumidos por quienes tengan capacidad para sostenerlo, antes y durante la vigencia del convenio",
+      "Deberán ser firmados por quienes se comprometan a financiar gastos superiores a los derivados de la ejecución del convenio",
+      "Deberán ser financieramente sostenible"
+    ],
+    "c": 3,
+    "ref": "Art. 48 Ley 40/2015",
+    "exp": "Los compromisos financieros deben ser financieramente sostenibles."
+  },
+  {
+    "q": "Según el art. 48 de la Ley 40/2015 de Régimen Jurídico, en el ámbito de la Administración General del Estado, ¿Quién podrá celebrar convenio?",
+    "o": [
+      "Los titulares de los órganos administrativos",
+      "Los titulares de los departamentos Ministeriales",
+      "Los presidentes de las entidades de derecho privado",
+      "Cualquiera de los anteriores"
+    ],
+    "c": 1,
+    "ref": "Art. 48 Ley 40/2015",
+    "exp": "En la AGE pueden celebrar convenios los titulares de los departamentos ministeriales."
+  },
+  {
+    "q": "Según el art. 48 de la Ley 40/2015 de Régimen Jurídico, la suscripción de un convenio, ¿Qué legislación deberá cumplir?",
+    "o": [
+      "La de estabilidad presupuestaria y sostenibilidad financiera",
+      "La fiscal y financiera",
+      "En todo caso, la prevista en la ley de subvenciones",
+      "La de contrato del sector público"
+    ],
+    "c": 0,
+    "ref": "Art. 48 Ley 40/2015",
+    "exp": "Debe cumplir la legislación de estabilidad presupuestaria y sostenibilidad financiera."
+  },
+  {
+    "q": "Según el art. 48 de la Ley 40/2015 de Régimen Jurídico, quienes suscriban un convenio deberán:",
+    "o": [
+      "Contar con las garantías financieras previstas en la legislación presupuestaria",
+      "Capacidad para financiar los compromisos asumidos durante la vigencia del convenio",
+      "Contar con la autorización del Tribunal de Cuentas u órgano equivalente de la comunidad autónoma",
+      "Capacidad para financiar los compromisos asumidos, antes, durante y posteriormente a la vigencia del convenio"
+    ],
+    "c": 1,
+    "ref": "Art. 48 Ley 40/2015",
+    "exp": "Deben tener capacidad para financiar los compromisos asumidos durante la vigencia del convenio."
+  },
+  {
+    "q": "Según el art. 48 de la Ley 40/2015 de Régimen Jurídico, cuando el convenio tenga por objeto la delegación de competencias en una Entidad Local, deberá cumplir con lo dispuesto:",
+    "o": [
+      "En los presupuestos de las entidades locales",
+      "En la ley de Subvenciones, en todo caso",
+      "En la Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen jurídico",
+      "En la Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local."
+    ],
+    "c": 3,
+    "ref": "Art. 48 Ley 40/2015",
+    "exp": "Debe cumplir la Ley 7/1985, Reguladora de las Bases del Régimen Local."
+  },
+  {
+    "q": "Según el art. 48 de la Ley 40/2015 de Régimen Jurídico, los convenios suscritos por la Administración General del Estado o sus organismos públicos o entidades vinculados o dependientes resultarán eficaces una vez inscritos, en el plazo:",
+    "o": [
+      "10 días hábiles desde su formalización en el Registro Electrónico estatal de Órganos e Instrumentos de Cooperación del sector público estatal",
+      "7 días hábiles desde su formalización en el Registro Electrónico estatal de Órganos e Instrumentos de Cooperación del sector público estatal",
+      "5 días hábiles desde su formalización en el Registro Electrónico estatal de Órganos e Instrumentos de Cooperación del sector público estatal",
+      "1 mes desde su formalización en el Registro Electrónico estatal de Órganos e Instrumentos de Cooperación del sector público estatal"
+    ],
+    "c": 2,
+    "ref": "Art. 48 Ley 40/2015",
+    "exp": "Resultan eficaces una vez inscritos en el plazo de 5 días hábiles desde su formalización."
+  },
+  {
+    "q": "Según el art. 48 de la Ley 40/2015 de Régimen Jurídico, los convenios suscritos por la Administración General del Estado o sus organismos públicos o entidades vinculados o dependientes:",
+    "o": [
+      "Serán publicados en el plazo de 10 días hábiles desde su formalización en el «Boletín Oficial del Estado», sin perjuicio de su publicación facultativa en el boletín oficial de la comunidad autónoma o de la provincia que corresponda a la otra administración firmante",
+      "Podrán ser publicados en el plazo de 10 días hábiles desde su formalización en el «Boletín Oficial del Estado»...",
+      "Serán publicados en el plazo de 10 días hábiles desde su eficacia, en el «Boletín Oficial del Estado»...",
+      "Serán publicados en el plazo de 5 días hábiles desde su formalización en el «Boletín Oficial del Estado»..."
+    ],
+    "c": 0,
+    "ref": "Art. 48 Ley 40/2015",
+    "exp": "Serán publicados en el plazo de 10 días hábiles desde su formalización en el BOE."
+  },
+  {
+    "q": "Según el art. 49 de la Ley 40/2015 de Régimen Jurídico, entre las materias que debe incluir el contenido de un convenio, no se encuentra:",
+    "o": [
+      "Sujetos que suscriben el convenio y la capacidad jurídica con que actúa cada una de las partes",
+      "Plazo de vigencia del convenio",
+      "Consecuencias aplicables en caso de cumplimiento de las obligaciones y compromisos asumidos",
+      "Deberá incluir todos los puntos anteriores"
+    ],
+    "c": 2,
+    "ref": "Art. 49 Ley 40/2015",
+    "exp": "Debe incluir las consecuencias del incumplimiento (no del cumplimiento), por lo que esa opción no se encuentra entre las exigidas."
+  },
+  {
+    "q": "Según el art. 49 de la Ley 40/2015 de Régimen Jurídico, ¿Cuál de las siguientes materias deberán incluir los convenios?",
+    "o": [
+      "La finalidad en la que se fundamenta la actuación de la Administración Pública, de los organismos públicos y entidades vinculados o dependientes o de las Universidades públicas.",
+      "La titularidad de los beneficios financieros obtenidos.",
+      "Obligaciones y compromisos económicos no asumidos por cada una de las partes, indicando su distribución temporal por anualidades...",
+      "No deberán incluir ninguna de las anteriores materias"
+    ],
+    "c": 3,
+    "ref": "Art. 49 Ley 40/2015",
+    "exp": "Según la clave del examen es D; las opciones están redactadas con errores respecto al contenido del art. 49 — revisar en validación."
+  },
+  {
+    "q": "Según el art. 49 de la Ley 40/2015 de Régimen Jurídico, los convenios deberán tener una duración determinada, que no podrá ser superior a:",
+    "o": [
+      "Cinco años",
+      "Cuatro años",
+      "Tres años",
+      "Un año"
+    ],
+    "c": 1,
+    "ref": "Art. 49 Ley 40/2015",
+    "exp": "La duración máxima es de cuatro años, salvo prórroga."
+  },
+  {
+    "q": "Según el art. 49 de la Ley 40/2015 de Régimen Jurídico, en los convenios, es cierto que:",
+    "o": [
+      "El régimen de modificación es una materia que no debe incluir los convenios",
+      "Que normativamente se podrá prever un plazo superior a cuatro años",
+      "Los firmantes podrán acordar mayoritariamente su prórroga",
+      "En el caso de convenios suscritos por la Administración General del Estado podrán ser comunicados al Registro Electrónico estatal de Órganos e Instrumentos de Cooperación"
+    ],
+    "c": 1,
+    "ref": "Art. 49 Ley 40/2015",
+    "exp": "Cuando resulte necesario, normativamente puede preverse un plazo de vigencia superior a cuatro años."
+  },
+  {
+    "q": "Según el art. 49 de la Ley 40/2015 de Régimen Jurídico, a falta de regulación expresa la modificación del contenido del convenio requerirá:",
+    "o": [
+      "Acuerdo unánime de los firmantes",
+      "Acuerdo unánime de los firmantes presente en la sesión",
+      "Acuerdo mayoritario de los firmantes",
+      "Acuerdo por una minoría de los firmantes"
+    ],
+    "c": 0,
+    "ref": "Art. 49 Ley 40/2015",
+    "exp": "A falta de regulación expresa, la modificación requiere acuerdo unánime de los firmantes."
+  },
+  {
+    "q": "Según el art. 49 de la Ley 40/2015 de Régimen Jurídico, ¿Quién resolverá los problemas de interpretación y cumplimiento que puedan plantearse respecto de los convenios?",
+    "o": [
+      "El Mecanismo de seguimiento, vigilancia y control de la ejecución del convenio y de los compromisos adquiridos",
+      "Cualquiera de los firmantes de convenio",
+      "El Tribunal de Cuentas",
+      "La parte suscribiente que haya asumido más compromisos financieros"
+    ],
+    "c": 0,
+    "ref": "Art. 49 Ley 40/2015",
+    "exp": "Los resuelve el mecanismo de seguimiento, vigilancia y control de la ejecución del convenio."
+  },
+  {
+    "q": "Según el art. 50 de la Ley 40/2015 de Régimen Jurídico, sin perjuicio de las especialidades que la legislación autonómica pueda prever, será necesario que el convenio se acompañe:",
+    "o": [
+      "De un informe de impacto de género",
+      "De una memoria justificativa donde se analice el carácter contractual y su impacto económico",
+      "De una memoria justificativa donde se analice su necesidad y oportunidad",
+      "De un informe previo del Tribunal de Cuentas"
+    ],
+    "c": 2,
+    "ref": "Art. 50 Ley 40/2015",
+    "exp": "Se acompaña de una memoria justificativa que analice su necesidad y oportunidad, impacto económico y carácter no contractual."
+  },
+  {
+    "q": "Según el art. 50 de la Ley 40/2015 de Régimen Jurídico, los convenios que suscriba la Administración General del Estado o sus organismos públicos y entidades vinculados o dependientes se acompañarán:",
+    "o": [
+      "Del informe de su servicio jurídico, que deberá emitirse en un plazo máximo de siete días hábiles desde su solicitud",
+      "Del informe de su servicio económico, que deberá emitirse en un plazo máximo de siete días hábiles desde su solicitud",
+      "Del informe de su servicio jurídico, que deberá emitirse en un plazo máximo de diez días hábiles desde su solicitud",
+      "Del informe de su servicio jurídico, que deberá emitirse en un plazo máximo de siete días naturales desde su solicitud"
+    ],
+    "c": 0,
+    "ref": "Art. 50 Ley 40/2015",
+    "exp": "El informe del servicio jurídico se emite en un plazo máximo de siete días hábiles."
+  },
+  {
+    "q": "Según el art. 50 de la Ley 40/2015 de Régimen Jurídico, transcurrido el plazo del informe del servicio jurídico:",
+    "o": [
+      "No procederá la tramitación del convenio",
+      "Se continuará la tramitación",
+      "Se paralizará la tramitación",
+      "Se podrá continuar o no la tramitación a juicio del órgano competente"
+    ],
+    "c": 1,
+    "ref": "Art. 50 Ley 40/2015",
+    "exp": "Transcurrido el plazo se continuará la tramitación."
+  },
+  {
+    "q": "Según el art. 50 de la Ley 40/2015 de Régimen Jurídico, ¿Cuándo no será necesario solicitar el informe del servicio jurídico?",
+    "o": [
+      "Cuando el convenio necesite autorización previa del Ministerio de Hacienda y Función Pública",
+      "Cuando sea preceptivo el informe del Ministerio de Política Territorial",
+      "Cuando el convenio se ajuste a un modelo normalizado informado previamente por el servicio jurídico que corresponda",
+      "Cuando se haya emitido un informe en ocasiones anteriores con el mismo objeto del convenio que se va a suscribir"
+    ],
+    "c": 2,
+    "ref": "Art. 50 Ley 40/2015",
+    "exp": "No es necesario cuando el convenio se ajuste a un modelo normalizado informado previamente por el servicio jurídico."
+  },
+  {
+    "q": "Según el art. 50 de la Ley 40/2015 de Régimen Jurídico, deberá acompañarse a los convenios de la AGE de cualquier otro informe preceptivo que establezca la normativa aplicable, que deberá emitirse:",
+    "o": [
+      "En un plazo máximo de cinco días hábiles",
+      "En un plazo máximo de diez días hábiles",
+      "En un plazo mínimo de siete días hábiles",
+      "En un plazo máximo de diez días hábiles"
+    ],
+    "c": 2,
+    "ref": "Art. 50 Ley 40/2015",
+    "exp": "El art. 50.2.b fija un plazo MÁXIMO de siete días hábiles para cualquier otro informe preceptivo; ninguna opción lo recoge con exactitud (la C dice 'mínimo de siete días'), por lo que la pregunta es defectuosa."
+  },
+  {
+    "q": "Según el art. 50 de la Ley 40/2015 de Régimen Jurídico, deberá acompañarse a los convenios de la AGE la autorización previa del Ministerio de Hacienda y Función Pública, para:",
+    "o": [
+      "La anulación de oficio del convenio",
+      "Cumplir con la legislación fiscal",
+      "La resolución por mutuo acuerdo entre las partes",
+      "Para todas las cuestiones anteriores"
+    ],
+    "c": 2,
+    "ref": "Art. 50 Ley 40/2015",
+    "exp": "Se requiere autorización previa del Ministerio de Hacienda para la resolución por mutuo acuerdo entre las partes."
+  },
+  {
+    "q": "Según el art. 50 de la Ley 40/2015 de Régimen Jurídico, ¿En qué plazo máximo deberá emitirse la citada autorización del Ministerio de Hacienda?",
+    "o": [
+      "No existe plazo máximo",
+      "Siete días hábiles",
+      "Diez días hábiles",
+      "Un mes"
+    ],
+    "c": 1,
+    "ref": "Art. 50 Ley 40/2015",
+    "exp": "La autorización debe emitirse en un plazo máximo de siete días hábiles."
+  },
+  {
+    "q": "Según el art. 50 de la Ley 40/2015 de Régimen Jurídico, transcurrido el plazo de la autorización del Ministerio de Hacienda:",
+    "o": [
+      "Dicha autorización deberá emitirse e incorporarse al expediente antes de proceder al perfeccionamiento del convenio",
+      "Dicha autorización podrá emitirse e incorporarse al expediente antes de proceder al perfeccionamiento del convenio",
+      "Dicha autorización deberá emitirse y podrá incorporarse al expediente antes de proceder al perfeccionamiento del convenio",
+      "Dicha autorización deberá emitirse e incorporarse al expediente después de proceder al perfeccionamiento del convenio"
+    ],
+    "c": 0,
+    "ref": "Art. 50 Ley 40/2015",
+    "exp": "La autorización deberá emitirse e incorporarse al expediente antes del perfeccionamiento del convenio."
+  },
+  {
+    "q": "Según el art. 50 de la Ley 40/2015 de Régimen Jurídico, los convenios interadministrativos suscritos con las Comunidades Autónomas, ¿A dónde serán remitidos?",
+    "o": [
+      "Al Ministerio de Política Territorial",
+      "En todo caso, al Tribunal de Cuentas",
+      "Al Senado",
+      "Al Congreso de los Diputados"
+    ],
+    "c": 2,
+    "ref": "Art. 50 Ley 40/2015",
+    "exp": "Según la clave del examen es C; los convenios interadministrativos con CCAA se remiten al Senado — revisar en validación."
+  },
+  {
+    "q": "Según el art. 51 de la Ley 40/2015 de Régimen Jurídico del sector público, es una causa de resolución de los convenios:",
+    "o": [
+      "El cumplimiento de las actuaciones que constituye su objeto",
+      "La declaración de lesividad del convenio",
+      "Por cualquier acuerdo de los firmantes",
+      "Por decisión judicial declaratoria de la nulidad del convenio"
+    ],
+    "c": 3,
+    "ref": "Art. 51 Ley 40/2015",
+    "exp": "La decisión judicial declaratoria de la nulidad del convenio es causa de resolución."
+  },
+  {
+    "q": "Según el art. 51 de la Ley 40/2015 de Régimen Jurídico del sector público, ¿Por qué se extinguen los convenios?",
+    "o": [
+      "Por el incumplimiento de las actuaciones que no constituyen su objeto",
+      "Por incurrir en causa de resolución",
+      "A y B son correctas",
+      "A y B son incorrectas"
+    ],
+    "c": 1,
+    "ref": "Art. 51 Ley 40/2015",
+    "exp": "Los convenios se extinguen por el cumplimiento de su objeto o por incurrir en causa de resolución."
+  },
+  {
+    "q": "Según el art. 51 de la Ley 40/2015 de Régimen Jurídico del sector público, en caso de incumplimiento de las obligaciones y compromisos por alguno de los firmantes, ¿Quién podrá notificar a la parte incumplidora un requerimiento para que cumpla en un determinado plazo?",
+    "o": [
+      "Únicamente la parte afectada por el incumplimiento",
+      "El mecanismo de seguimiento y control del convenio",
+      "Cualquiera de las partes",
+      "El Tribunal de Cuentas"
+    ],
+    "c": 2,
+    "ref": "Art. 51 Ley 40/2015",
+    "exp": "Cualquiera de las partes puede notificar el requerimiento a la parte incumplidora."
+  },
+  {
+    "q": "Según el art. 51 de la Ley 40/2015 de Régimen Jurídico del sector público, el requerimiento por incumplimiento, ¿A quién será notificado?",
+    "o": [
+      "A los afectados por el incumplimiento, aunque no sean firmantes del convenio",
+      "Al responsable del mecanismo de seguimiento, vigilancia y control de la ejecución del convenio",
+      "Al Tribunal de Cuentas",
+      "A quien lo solicite"
+    ],
+    "c": 1,
+    "ref": "Art. 51 Ley 40/2015",
+    "exp": "El requerimiento se notifica al responsable del mecanismo de seguimiento, vigilancia y control del convenio."
+  },
+  {
+    "q": "Según el art. 51 de la Ley 40/2015 de Régimen Jurídico del sector público, si transcurrido el plazo indicado en el requerimiento persistiera el incumplimiento:",
+    "o": [
+      "Se podrá resolver el convenio",
+      "Se podrá entender resuelto el convenio",
+      "Se entenderá resuelto el convenio",
+      "No se entenderá resuelto el convenio"
+    ],
+    "c": 2,
+    "ref": "Art. 51 Ley 40/2015",
+    "exp": "Si persiste el incumplimiento se entenderá resuelto el convenio."
+  },
+  {
+    "q": "Según el art. 52 de la Ley 40/2015 de Régimen Jurídico del sector público, el cumplimiento y la resolución de los convenios, ¿A qué dará lugar?",
+    "o": [
+      "A la baja del convenio en el registro correspondiente",
+      "A la liquidación de los convenios con el objeto de determinar los derechos y obligaciones de cada una de las partes",
+      "A la baja de las obligaciones y compromisos de cada una de las partes",
+      "A la liquidación de los convenios con el objeto de determinar las obligaciones y compromisos de cada una de las partes"
+    ],
+    "c": 3,
+    "ref": "Art. 52 Ley 40/2015",
+    "exp": "Dará lugar a la liquidación del convenio para determinar las obligaciones y compromisos de cada parte."
+  },
+  {
+    "q": "Según el art. 52 de la Ley 40/2015 de Régimen Jurídico del sector público, si de la liquidación resultara que el importe de las actuaciones ejecutadas por una de las partes fuera inferior a los fondos que hubiera recibido del resto para financiar dicha ejecución:",
+    "o": [
+      "Aquella se quedará con el exceso resultante",
+      "Aquella entregará el exceso al responsable de vigilancia, seguimiento y control del convenio",
+      "Aquella deberá reintegrar a estas (al resto de partes firmantes) el exceso que corresponda a cada una",
+      "Estas requerirán a aquella el reintegro del exceso resultante, en el plazo de un mes."
+    ],
+    "c": 2,
+    "ref": "Art. 52 Ley 40/2015",
+    "exp": "Deberá reintegrar al resto de partes firmantes el exceso que corresponda a cada una."
+  },
+  {
+    "q": "Según el art. 52 de la Ley 40/2015 de Régimen Jurídico del sector público, si cuando concurra causa de resolución existen actuaciones en curso de ejecución, las partes podrán acordar la continuación y finalización de las actuaciones en curso, a propuesta de:",
+    "o": [
+      "La comisión de seguimiento, vigilancia y control del convenio",
+      "El Tribunal de Cuentas",
+      "De la parte que deba ejecutarla",
+      "En todo caso, del responsable del de seguimiento, vigilancia y control de la ejecución del convenio"
+    ],
+    "c": 0,
+    "ref": "Art. 52 Ley 40/2015",
+    "exp": "A propuesta de la comisión de seguimiento, vigilancia y control del convenio."
+  },
+  {
+    "q": "Según el art. 52 de la Ley 40/2015 de Régimen Jurídico del sector público, los convenios cuyos compromisos económicos asumidos superen los 600.000 euros, ¿En qué plazo deberán remitirse al Tribunal Constitucional?",
+    "o": [
+      "Dentro de los tres meses siguientes a la suscripción",
+      "Dentro de los tres meses siguientes a la inscripción",
+      "Dentro de los tres meses siguientes a la extinción",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 53 Ley 40/2015",
+    "exp": "El enunciado dice erróneamente Tribunal Constitucional (debe ser Tribunal de Cuentas), por lo que ninguna opción es correcta."
+  },
+  {
+    "q": "Según el art. 52 de la Ley 40/2015 de Régimen Jurídico del sector público, si los convenios debieran remitirse al órgano fiscalizador de la comunidad autónoma, ¿Cuál sería el plazo?",
+    "o": [
+      "Dentro de los tres meses siguientes a la suscripción",
+      "Dentro de los tres meses siguientes a la inscripción",
+      "Dentro de los tres meses siguientes a la extinción",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 0,
+    "ref": "Art. 53 Ley 40/2015",
+    "exp": "Dentro de los tres meses siguientes a la suscripción."
+  },
+  {
+    "q": "Según el art. 52 de la Ley 40/2015 de Régimen Jurídico del sector público, ¿Cómo habrán de remitirse los convenios al órgano fiscalizador?",
+    "o": [
+      "A través del Senado",
+      "Por cualquier medio en el que se tenga constancia de la adecuada recepción",
+      "Electrónicamente",
+      "Personalmente"
+    ],
+    "c": 2,
+    "ref": "Art. 53 Ley 40/2015",
+    "exp": "Se remiten electrónicamente."
+  },
+  {
+    "q": "Según el art. 3 de la Ley 40/2015 de Régimen Jurídico, las Administraciones Públicas deberán respetar en su actuación y relaciones los siguientes principios:",
+    "o": [
+      "Servicio efectivo al ciudadano.",
+      "Responsabilidad por la gestión pública.",
+      "Eficacia en el cumplimiento de los objetivos fijados.",
+      "Todos los principios anteriores debe respetarlos."
+    ],
+    "c": 3,
+    "ref": "Art. 3 Ley 40/2015",
+    "exp": "El art. 3 enumera todos estos como principios que deben respetarse."
+  },
+  {
+    "q": "Según el art. 8 de la Ley 40/2015 de Régimen Jurídico, si alguna disposición atribuye la competencia a una administración, sin especificar el órgano que debe ejercerla, se entenderá que la facultad de instruir y resolver los expedientes corresponde:",
+    "o": [
+      "a los órganos superiores competente por razón de la materia y del territorio.",
+      "a los órganos del mismo nivel jerárquico por razón de la materia y del territorio.",
+      "a los órganos inferiores competente por razón de la materia y del territorio.",
+      "a los órganos inferiores sin tener en cuenta la materia ni el territorio."
+    ],
+    "c": 2,
+    "ref": "Art. 8 Ley 40/2015",
+    "exp": "Corresponde a los órganos inferiores competentes por razón de la materia y del territorio."
+  },
+  {
+    "q": "Según el art. 9 de la Ley 40/2015 de Régimen Jurídico, respecto de la Delegación de competencia:",
+    "o": [
+      "Podrá ser delegada la adopción de disposiciones de carácter general.",
+      "Las resoluciones administrativas que se adopten por delegación se consideran dictadas por el órgano delegado.",
+      "Salvo autorización expresa de una Ley, no podrán delegarse las competencias que se ejerzan por delegación.",
+      "La delegación no será revocable por el órgano que la haya conferido."
+    ],
+    "c": 2,
+    "ref": "Art. 9 Ley 40/2015",
+    "exp": "Salvo autorización expresa de una Ley, no pueden delegarse competencias ejercidas por delegación."
+  },
+  {
+    "q": "Según el art. 2 de la Ley 40/2015 de Régimen Jurídico, las Universidades Públicas se regirán:",
+    "o": [
+      "Específicamente por la Ley 40/2015 y supletoriamente por su normativa específica",
+      "Por su normativa específica y supletoriamente por las previsiones de la Ley 40/2015",
+      "Solo por las previsiones de la Ley 40/2015",
+      "En ningún caso será de aplicación las previsiones de la Ley 40/2015"
+    ],
+    "c": 1,
+    "ref": "Art. 2 Ley 40/2015",
+    "exp": "Las Universidades públicas se rigen por su normativa específica y supletoriamente por la Ley 40/2015."
+  },
+  {
+    "q": "Según el art. 1 de la Ley 40/2015 de Régimen Jurídico, no es objeto de la ley:",
+    "o": [
+      "Las bases del régimen jurídico de las Administraciones Públicas.",
+      "Los principios de la potestad expropiatoria",
+      "La organización y funcionamiento de la Administración General del Estado.",
+      "Todos los anteriores son objeto de la ley."
+    ],
+    "c": 1,
+    "ref": "Art. 1 Ley 40/2015",
+    "exp": "La ley regula la potestad sancionadora, no la expropiatoria."
+  },
+  {
+    "q": "Según el art. 4 de la Ley 40/2015 de Régimen Jurídico, las Administraciones Públicas que establezcan medidas que limiten el ejercicio de derechos individuales o colectivos o exijan requisitos para el desarrollo de una actividad, deberán:",
+    "o": [
+      "Deberán aplicar el principio de proporcionalidad",
+      "No será necesaria justificar su adecuación para lograr los fines que se persigue",
+      "No Deberán evaluar los efectos y resultados obtenidos",
+      "Deberán elegir las medidas más restrictivas, motivando su necesidad"
+    ],
+    "c": 0,
+    "ref": "Art. 4 Ley 40/2015",
+    "exp": "Deben aplicar el principio de proporcionalidad (principio de intervención)."
+  },
+  {
+    "q": "Según el art. 5 de la Ley 40/2015 de Régimen Jurídico, ¿Qué tiene la consideración de órgano Administrativo?",
+    "o": [
+      "Las unidades administrativas y no administrativa a las que se les atribuya funciones que tenga efectos jurídicos frente a terceros.",
+      "Cada Administración Pública.",
+      "Aquellas unidades cuya actuación no tenga carácter preceptivo.",
+      "Las unidades administrativas a las que se les atribuya funciones que no tenga efectos jurídicos frente a terceros."
+    ],
+    "c": 0,
+    "ref": "Art. 5 Ley 40/2015",
+    "exp": "Según la clave del examen es A; el art. 5 define el órgano administrativo como las unidades administrativas con funciones de efectos jurídicos frente a terceros o de actuación preceptiva."
+  },
+  {
+    "q": "Según el art. 6 de la Ley 40/2015 de Régimen Jurídico, las instrucciones u órdenes de servicios, ¿Se publicarán?",
+    "o": [
+      "A petición de los interesados.",
+      "Cuando una disposición específica así lo establezca.",
+      "Siempre",
+      "Solo si afecta a la validez de los actos dictados por los órganos administrativo."
+    ],
+    "c": 1,
+    "ref": "Art. 6 Ley 40/2015",
+    "exp": "Se publican cuando una disposición específica así lo establezca."
+  },
+  {
+    "q": "Según el art. 6 de la Ley 40/2015 de Régimen Jurídico, los órganos administrativos podrán dirigir las actividades de sus órganos jerárquicamente dependientes mediante:",
+    "o": [
+      "leyes",
+      "Instrucciones, pero no órdenes de servicios",
+      "Instrucciones y ordenes de servicio",
+      "Publicaciones en un medio de difusión social"
+    ],
+    "c": 2,
+    "ref": "Art. 6 Ley 40/2015",
+    "exp": "Mediante instrucciones y órdenes de servicio."
+  },
+  {
+    "q": "Según el art. 7 de la Ley 40/2015 de Régimen Jurídico, los órganos consultivos:",
+    "o": [
+      "Podrán estar sujeto a dependencia jerárquica",
+      "Podrán articularse mediante órganos específicos dotado de dependencia orgánica y funcional con respecto a la Administración Pasiva",
+      "Podrán recibir cualquier clase de indicación de los órganos que hayan elaborados las disposiciones.",
+      "Actuarán para cumplir las garantías recogidas en la ley de forma colegiada."
+    ],
+    "c": 3,
+    "ref": "Art. 7 Ley 40/2015",
+    "exp": "La clave del examen marca D; la Administración consultiva actúa con autonomía orgánica y funcional respecto de la Administración activa."
+  },
+  {
+    "q": "Según el art. 8 de la Ley 40/2015 de Régimen Jurídico, la encomienda de gestión:",
+    "o": [
+      "Supone la alteración de la titularidad de la competencia.",
+      "Supone la alteración de la titularidad y del ejercicio.",
+      "Supone la alteración de los elementos determinantes de su ejercicio que en cada caso se prevén.",
+      "No supone ni la alteración de la titularidad, ni de los elementos determinantes de su ejercicio."
+    ],
+    "c": 2,
+    "ref": "Art. 8 Ley 40/2015",
+    "exp": "Según la clave del examen es C; el art. 8.3 dispone que la competencia es irrenunciable salvo delegación, avocación, etc."
+  },
+  {
+    "q": "Según el art. 9 de la Ley 40/2015 de Régimen Jurídico, en el ámbito de la Administración General del Estado, la competencia deberá ser aprobada:",
+    "o": [
+      "Previamente por el órgano ministerial de quien dependa el órgano delegante.",
+      "Posteriormente por el órgano ministerial de quien dependa el órgano delegante.",
+      "Previamente por el órgano ministerial de quien dependa el órgano delegado",
+      "Posteriormente por el órgano ministerial de quien dependa el órgano delegado."
+    ],
+    "c": 0,
+    "ref": "Art. 9 Ley 40/2015",
+    "exp": "La delegación se aprueba previamente por el órgano ministerial del que dependa el órgano delegante."
+  },
+  {
+    "q": "Según el art. 10 de la Ley 40/2015 de Régimen Jurídico, en el supuesto de delegación de competencia en órganos no dependientes jerárquicamente, el conocimiento de un asunto podrá ser avocado:",
+    "o": [
+      "indistintamente por el órgano delegante o el delegado",
+      "únicamente por el órgano delegante",
+      "únicamente por el superior del órgano delegante.",
+      "únicamente por el superior del órgano delegado."
+    ],
+    "c": 1,
+    "ref": "Art. 10 Ley 40/2015",
+    "exp": "En delegación en órganos no dependientes, la avocación corresponde únicamente al órgano delegante."
+  },
+  {
+    "q": "Según el art. 11 de la Ley 40/2015 de Régimen Jurídico, la encomienda de gestión:",
+    "o": [
+      "Podrá tener por objeto prestaciones propias de los contratos regulados en la legislación de contratos del sector público.",
+      "Supone la cesión de la titularidad de la competencia.",
+      "Supone la cesión de los elementos sustantivos de su ejercicio.",
+      "No supone la cesión de los elementos sustantivos de su ejercicio"
+    ],
+    "c": 3,
+    "ref": "Art. 11 Ley 40/2015",
+    "exp": "La encomienda de gestión no supone cesión de la titularidad ni de los elementos sustantivos del ejercicio."
+  },
+  {
+    "q": "Según el art. 12 de la Ley 40/2015 de Régimen Jurídico, en la delegación de firma:",
+    "o": [
+      "Se alterará la competencia del órgano delegante",
+      "Para su validez será necesaria su publicación.",
+      "En las resoluciones y actos que se firmen por delegación se hará constar la autoridad de procedencia.",
+      "No existe en la ley la figura de la delegación de firma"
+    ],
+    "c": 2,
+    "ref": "Art. 12 Ley 40/2015",
+    "exp": "En las resoluciones firmadas por delegación se hará constar la autoridad de procedencia."
+  },
+  {
+    "q": "Según el art. 13 de la Ley 40/2015 de Régimen Jurídico, en la suplencia:",
+    "o": [
+      "Los titulares de los órganos administrativos podrán ser suplidos permanentemente en los supuestos de vacante.",
+      "No implicará la alteración de la competencia.",
+      "Para su validez será necesaria su publicación.",
+      "En las resoluciones y actos que se dicten mediante suplencia no se hará constar esta circunstancia."
+    ],
+    "c": 1,
+    "ref": "Art. 13 Ley 40/2015",
+    "exp": "La suplencia no implica alteración de la competencia."
+  },
+  {
+    "q": "Según el art. 14 de la Ley 40/2015 de Régimen Jurídico, los interesados que sean parte en el procedimiento:",
+    "o": [
+      "Podrán dirigirse al órgano que se encuentre conociendo de un asunto para que decline su competencia y remita las actuaciones al órgano competente.",
+      "Podrán dirigirse al órgano que estimen competente para que requiera de inhibición al que esté conociendo del asunto",
+      "A y B son correctas",
+      "A y B son incorrectas"
+    ],
+    "c": 2,
+    "ref": "Art. 14 Ley 40/2015",
+    "exp": "Ambas opciones recogen las facultades del interesado en los conflictos de atribuciones."
+  },
+  {
+    "q": "Según el art. 15 de la Ley 40/2015 de Régimen Jurídico, ¿De qué órganos colegiados habrán de publicarse el acuerdo de creación y las normas de funcionamiento en un Boletín o Diario oficial?",
+    "o": [
+      "Los que dicten resoluciones que tengan efectos jurídicos frente a terceros",
+      "Los que dicten resoluciones que no tengan efectos jurídicos frente a terceros",
+      "De todos los órganos colegiados",
+      "Solo cuando se trate de órganos colegiado consultivo de la Administración General del Estado."
+    ],
+    "c": 0,
+    "ref": "Art. 15 Ley 40/2015",
+    "exp": "Se publican los de los órganos colegiados que dicten resoluciones con efectos jurídicos frente a terceros."
+  },
+  {
+    "q": "Según el art. 16 de la Ley 40/2015 de Régimen Jurídico, en los órganos colegiados, ¿A quién le corresponde velar por la legalidad formal y material de las actuaciones?",
+    "o": [
+      "Al Presidente",
+      "Al Secretario",
+      "A cualquier vocal",
+      "A vocal de mayor antigüedad"
+    ],
+    "c": 1,
+    "ref": "Art. 16 Ley 40/2015",
+    "exp": "Corresponde al Secretario velar por la legalidad formal y material."
+  },
+  {
+    "q": "Según el art. 17 de la Ley 40/2015 de Régimen Jurídico, para la válida constitución del órgano se requerirá la asistencia, presencial o a distancia, del Presidente y Secretario o de quienes les suplan:",
+    "o": [
+      "y todos los restantes miembros del órgano colegiado",
+      "y la de menos de la mitad de sus miembros",
+      "y la de la mitad, al menos, de sus miembros",
+      "Bastará la presencia del Presidente y el secretario"
+    ],
+    "c": 2,
+    "ref": "Art. 17 Ley 40/2015",
+    "exp": "Se requiere además la mitad, al menos, de sus miembros."
+  },
+  {
+    "q": "Según el art. 18 de la Ley 40/2015 de Régimen Jurídico, de cada sesión que celebre el órgano colegiado se levantará:",
+    "o": [
+      "Acta por el presidente",
+      "Acta por el portavoz",
+      "Acta por cualquiera de los vocales",
+      "Acta por el secretario"
+    ],
+    "c": 3,
+    "ref": "Art. 18 Ley 40/2015",
+    "exp": "El Secretario levanta acta de cada sesión."
+  },
+  {
+    "q": "Según el art. 18 de la Ley 40/2015 de Régimen Jurídico, ¿Cuándo podrá aprobarse el acta de cada sesión de la reunión de un órgano colegiado?",
+    "o": [
+      "En la inmediata reunión siguiente",
+      "Solo en la misma reunión",
+      "En cualquiera de las reuniones siguientes",
+      "Nunca en la misma reunión"
+    ],
+    "c": 0,
+    "ref": "Art. 18 Ley 40/2015",
+    "exp": "El acta puede aprobarse en la misma reunión o en la inmediata siguiente."
+  },
+  {
+    "q": "Según el art. 19 de la Ley 40/2015 del régimen jurídico del sector público, ¿Con qué antelación deberán recibir los miembros del órgano colegiado la convocatoria con el orden del día de las reuniones?",
+    "o": [
+      "Con una antelación máxima de dos días",
+      "Con una antelación mínima de dos días",
+      "Con una antelación máxima de tres días",
+      "Con una antelación mínima de un día"
+    ],
+    "c": 1,
+    "ref": "Art. 19 Ley 40/2015",
+    "exp": "La convocatoria se recibe con antelación mínima de dos días."
+  },
+  {
+    "q": "Según el art. 23 de la Ley 40/2015 del régimen jurídico del sector público, es motivo de abstención de las autoridades y el personal al servicio de las Administraciones Públicas:",
+    "o": [
+      "Haber tenido cuestión litigiosa con algún interesado",
+      "Tener parentesco de afinidad dentro del cuarto grado con cualquiera de los interesados",
+      "Tener enemistad manifiesta con representantes legales que intervengan en el procedimiento",
+      "Haber intervenido como perito en cualquier procedimiento."
+    ],
+    "c": 2,
+    "ref": "Art. 23 Ley 40/2015",
+    "exp": "La enemistad manifiesta con representantes o interesados es motivo de abstención."
+  },
+  {
+    "q": "Según el art. 24 de la Ley 40/2015 del régimen jurídico del sector público, señale la respuesta correcta:",
+    "o": [
+      "En los casos previstos en la ley podrá promoverse recusación por los interesados en cualquier momento de la tramitación del procedimiento",
+      "La recusación se planteará por escrito o verbalmente y se expresará la causa o causas en que se funda.",
+      "Si el recusado niega la causa de recusación, el superior resolverá en el plazo de dos días, previo los informes y comprobaciones que considere oportuno",
+      "Respecto a la recusación todo lo anterior es correcto."
+    ],
+    "c": 0,
+    "ref": "Art. 24 Ley 40/2015",
+    "exp": "La recusación puede promoverse en cualquier momento de la tramitación."
+  },
+  {
+    "q": "Según el art. 24 de la Ley 40/2015 del régimen jurídico del sector público, ¿En qué plazo resolverá el superior si el recusado niega la causa de recusación?",
+    "o": [
+      "En tres días",
+      "Al día siguiente",
+      "En el plazo imprescindible, para la averiguación de los hechos",
+      "De forma inmediata"
+    ],
+    "c": 0,
+    "ref": "Art. 24 Ley 40/2015",
+    "exp": "Si el recusado niega la causa, el superior resuelve en el plazo de tres días."
+  },
+  {
+    "q": "Según el art. 25 de la Ley 40/2015 del régimen jurídico del sector público, la potestad sancionadora de las Administraciones Públicas se ejercerá cuando haya sido expresamente reconocida por una norma con rango de:",
+    "o": [
+      "De reglamento",
+      "De ley",
+      "No es necesario que sea reconocida por ninguna norma",
+      "Norma Europea"
+    ],
+    "c": 1,
+    "ref": "Art. 25 Ley 40/2015",
+    "exp": "Debe estar reconocida por una norma con rango de ley."
+  },
+  {
+    "q": "Según el art. 26 de la Ley 40/2015 del régimen jurídico del sector público, las disposiciones sancionadoras, ¿Producirán efecto retroactivo?",
+    "o": [
+      "En ningún caso",
+      "Nunca respecto a sanciones pendiente de cumplimiento",
+      "En los casos en que no favorezca al presunto infractor",
+      "Nada de lo anterior es correcto."
+    ],
+    "c": 3,
+    "ref": "Art. 26 Ley 40/2015",
+    "exp": "Producen efecto retroactivo cuando favorecen al presunto infractor, por lo que las opciones anteriores son incorrectas."
+  },
+  {
+    "q": "Según el art. 27 de la Ley 40/2015, \"Solo constituyen infracciones administrativas las vulneraciones del ordenamiento jurídico previstas como tales infracciones por una ley\". ¿Con qué principio se corresponde el anterior enunciado?",
+    "o": [
+      "Con el principio de irretroactividad",
+      "Con el principio de tipicidad",
+      "Con el principio de legalidad",
+      "Con el principio de proporcionalidad."
+    ],
+    "c": 1,
+    "ref": "Art. 27 Ley 40/2015",
+    "exp": "Corresponde al principio de tipicidad."
+  },
+  {
+    "q": "Según el art. 27 de la Ley 40/2015 del régimen jurídico del sector público, señale la afirmación incorrecta:",
+    "o": [
+      "Las normas definidoras de infracciones y sanciones serán susceptible de aplicación analógica",
+      "Las infracciones administrativas no se clasifican en leves, graves y menos graves",
+      "Las disposiciones reglamentarias de desarrollo, podrán introducir especificaciones o graduaciones al cuadro de las infracciones o sanciones establecidas legalmente, sin constituir nuevas infracciones o sanciones.",
+      "Las infracciones se clasifican por ley"
+    ],
+    "c": 0,
+    "ref": "Art. 27 Ley 40/2015",
+    "exp": "Es incorrecta la opción A: el art. 27.4 establece que las normas definidoras de infracciones y sanciones NO serán susceptibles de aplicación analógica."
+  },
+  {
+    "q": "Según el art. 28 de la Ley 40/2015 del régimen jurídico del sector público, las leyes reguladoras de los distintos regímenes sancionadores podrán prever:",
+    "o": [
+      "Los sujetos sometidos a una relación de dependencia o vinculación",
+      "Los supuestos en que se aplicarán sanciones no pecuniarias a sujetos de características especiales.",
+      "Los supuestos en los que se podrá imponer la pena de privación de libertad",
+      "Los supuestos en que determinadas personas responderán del pago de las sanciones pecuniarias impuestas a quienes de ellas dependan o estén vinculados"
+    ],
+    "c": 3,
+    "ref": "Art. 28 Ley 40/2015",
+    "exp": "Las leyes pueden prever que determinadas personas respondan del pago de sanciones pecuniarias de quienes dependan de ellas."
+  },
+  {
+    "q": "Según el art. 29 de la Ley 40/2015 del régimen jurídico del sector público, las sanciones administrativas, sean o no de naturaleza pecuniaria, en ningún caso podrán implicar, directa o subsidiariamente:",
+    "o": [
+      "Privación de libertad",
+      "Inhabilitación",
+      "Pago de una cantidad económica",
+      "Pago de una multa pecuniaria"
+    ],
+    "c": 0,
+    "ref": "Art. 29 Ley 40/2015",
+    "exp": "Las sanciones administrativas nunca pueden implicar privación de libertad."
+  },
+  {
+    "q": "Según el art. 30 de la Ley 40/2015 del régimen jurídico del sector público, ¿En qué plazo prescribirá una infracción muy grave?",
+    "o": [
+      "Tres años",
+      "Según lo dispuestos en las leyes que la establezcan",
+      "Dos años",
+      "Seis meses"
+    ],
+    "c": 1,
+    "ref": "Art. 30 Ley 40/2015",
+    "exp": "Prescriben según lo dispuesto en las leyes que las establezcan, y en su defecto las muy graves a los tres años."
+  },
+  {
+    "q": "Según el art. 30 de la Ley 40/2015 del régimen jurídico del sector público, ¿En qué plazo prescribirán las sanciones impuestas por faltas graves si las leyes que las establecen no fijan plazo?",
+    "o": [
+      "Tres años",
+      "No prescriben",
+      "Dos años",
+      "Seis meses"
+    ],
+    "c": 2,
+    "ref": "Art. 30 Ley 40/2015",
+    "exp": "Las sanciones por faltas graves prescriben a los dos años en defecto de plazo legal."
+  },
+  {
+    "q": "Según el art. 33 de la Ley 40/2015 del régimen jurídico del sector público, los particulares tendrán derecho a ser indemnizados por las Administraciones Públicas en los casos:",
+    "o": [
+      "De lesión que sufran en sus bienes o derechos como consecuencia de fuerza mayor",
+      "Por daños que el particular tenga el deber jurídico de soportar.",
+      "De toda lesión que sufran en sus bienes y derechos como consecuencia de la aplicación de actos legislativos de naturaleza no expropiatoria de derechos que no tengan el deber jurídico de soportar cuando así se establezca en los propios actos legislativos.",
+      "Por la anulación en vía administrativa de disposiciones administrativa en todo caso."
+    ],
+    "c": 2,
+    "ref": "Art. 32 Ley 40/2015",
+    "exp": "Se indemnizan las lesiones derivadas de actos legislativos no expropiatorios que no se tenga el deber de soportar cuando así lo prevea el propio acto legislativo."
+  },
+  {
+    "q": "Según el art. 38 de la Ley 40/2015 de Régimen Jurídico, ¿Qué es la sede electrónica?",
+    "o": [
+      "Es aquella dirección electrónica disponible para los ciudadanos.",
+      "Es aquel punto de acceso electrónico disponible para los ciudadanos.",
+      "Portales electrónicos disponibles para los ciudadanos.",
+      "Es aquel entorno electrónico disponible para los ciudadanos."
+    ],
+    "c": 0,
+    "ref": "Art. 38 Ley 40/2015",
+    "exp": "La clave del examen marca A; la sede electrónica es la dirección electrónica disponible para los ciudadanos a través de redes de telecomunicaciones."
+  },
+  {
+    "q": "Según el art. 39 de la Ley 40/2015 de Régimen Jurídico, el Portal de Internet:",
+    "o": [
+      "Permite el acceso, a través de internet, a la información publicada.",
+      "No permite el acceso a la Sede electrónica correspondiente.",
+      "Permite el acceso, a través de internet, a la información no publicada.",
+      "Permite el acceso, a través de internet, a entornos cerrado de comunicación."
+    ],
+    "c": 0,
+    "ref": "Art. 39 Ley 40/2015",
+    "exp": "El portal de internet permite el acceso a través de internet a la información publicada."
+  },
+  {
+    "q": "Según el art. 48 de la Ley 40/2015 de Régimen Jurídico del sector público, los convenios se perfeccionan:",
+    "o": [
+      "Por la firma de los contratantes",
+      "Por un acuerdo expreso de voluntades",
+      "Por la aceptación tácita de las partes",
+      "Por la prestación del consentimiento de las partes"
+    ],
+    "c": 3,
+    "ref": "Art. 48 Ley 40/2015",
+    "exp": "Los convenios se perfeccionan por la prestación del consentimiento de las partes."
+  },
+  {
+    "q": "Según el art. 50 de la Ley 40/2015 de Régimen Jurídico del sector público, los convenios se acompañarán de cualquier otro informe preceptivo que establezca la normativa aplicable, ¿En qué plazo deberá emitirse?",
+    "o": [
+      "Mínimo de siete días hábiles",
+      "Máximo de siete días hábiles",
+      "Mínimo de quince días hábiles",
+      "Máximo de quince días hábiles"
+    ],
+    "c": 1,
+    "ref": "Art. 50 Ley 40/2015",
+    "exp": "El art. 50.2.b fija un plazo máximo de siete días hábiles para cualquier otro informe preceptivo, por lo que la opción B (máximo de siete días hábiles) es la correcta."
+  },
+  {
+    "q": "Según el art. 47 de la Ley 40/2015 de Régimen Jurídico, ¿A qué tipo de convenios corresponde los firmados entre organismos públicos y entidades de derecho público vinculados o dependientes de una misma Administración Pública?",
+    "o": [
+      "Interadministrativos",
+      "Intradministrativos",
+      "Internacionales",
+      "Constitutivos"
+    ],
+    "c": 1,
+    "ref": "Art. 47 Ley 40/2015",
+    "exp": "Son convenios intradministrativos los firmados entre entes de una misma Administración."
+  },
+  {
+    "q": "Según el art. 1 de la Ley 40/2015 de Régimen Jurídico, señale la respuesta incorrecta. No es objeto de la ley:",
+    "o": [
+      "Establece y regular los principios del sistema de responsabilidad de las Administraciones públicas.",
+      "Establece y regular los principios de la Potestad reglamentaria",
+      "Regular los requisitos de validez y eficacia de los actos Administrativo.",
+      "Establece y regular el régimen disciplinario de los empleados públicos."
+    ],
+    "c": 0,
+    "ref": "Art. 1 Ley 40/2015",
+    "exp": "Según la clave del examen es A; la Ley 40/2015 sí regula el sistema de responsabilidad, y no regula la validez de los actos (eso es la Ley 39/2015) ni el régimen disciplinario — revisar en validación."
+  },
+  {
+    "q": "Según el art. 2 de la Ley 40/2015 de Régimen Jurídico, ¿Quién integra el sector público institucional?",
+    "o": [
+      "La Administraciones de las Comunidades autónomas",
+      "Cualesquiera organismos y entidades de derecho público independiente de las administraciones Públicas",
+      "Las entidades de derecho privado vinculadas o dependientes de las Administraciones Públicas.",
+      "Todos los anteriores integran el sector público institucional"
+    ],
+    "c": 2,
+    "ref": "Art. 2 Ley 40/2015",
+    "exp": "Las entidades de derecho privado vinculadas o dependientes de las AAPP integran el sector público institucional."
+  },
+  {
+    "q": "Según el art. 2 de la Ley 40/2015 de Régimen Jurídico, la mencionada ley se aplicará a las Universidades públicas:",
+    "o": [
+      "En ningún caso",
+      "Supletoriamente",
+      "Directamente",
+      "Cuando la legislación específica de las Universidades así lo dispongan"
+    ],
+    "c": 1,
+    "ref": "Art. 2 Ley 40/2015",
+    "exp": "Las Universidades públicas se rigen por su normativa específica y supletoriamente por la Ley 40/2015."
+  },
+  {
+    "q": "Según el art. 3 de la Ley 40/2015 de Régimen Jurídico, bajo la dirección del Gobierno de la Nación, de los órganos de gobierno de las CCAA y de las Entidades Locales, la actuación de la Administración Pública respectiva se desarrolla para:",
+    "o": [
+      "Alcanzar el rendimiento y la eficacia de gestión que las distintas Administraciones públicas han establecido",
+      "Lograr una eficiente asignación y utilización de los recursos públicos",
+      "Acercar a los ciudadanos la Administración",
+      "Alcanzar los objetivos que establecen las leyes y el resto del ordenamiento jurídico"
+    ],
+    "c": 3,
+    "ref": "Art. 3 Ley 40/2015",
+    "exp": "La actuación se desarrolla para alcanzar los objetivos que establecen las leyes y el ordenamiento jurídico."
+  },
+  {
+    "q": "Según el art. 4 de la Ley 40/2015 de Régimen Jurídico, las Administraciones Públicas que establezcan medidas que limiten el ejercicio de derechos individuales o colectivos o exijan requisitos para el desarrollo de una actividad:",
+    "o": [
+      "Deberán motivar su necesidad para la protección del interés privado",
+      "No será necesaria justificar su adecuación para lograr los fines que se persigue",
+      "Deberán analizar las causas de no alcanzar el resultado previsto",
+      "Deberán aplicar el principio de proporcionalidad"
+    ],
+    "c": 3,
+    "ref": "Art. 4 Ley 40/2015",
+    "exp": "Deben aplicar el principio de proporcionalidad."
+  },
+  {
+    "q": "Según el art. 5 de la Ley 40/2015 de Régimen Jurídico, la creación de cualquier órgano administrativo exigirá el cumplimiento de unos requisitos, entre los que no se encuentra:",
+    "o": [
+      "Determinación de su forma de integración en la Administración Pública de que se trate y su dependencia jerárquica.",
+      "Delimitación de los resultados que se pretenden alcanzar",
+      "Dotación de los créditos necesarios para su puesta en marcha y funcionamiento.",
+      "Se exige el cumplimiento de todos los anteriores requisitos"
+    ],
+    "c": 1,
+    "ref": "Art. 5 Ley 40/2015",
+    "exp": "Según la clave del examen es B; el art. 5.3 exige determinar funciones y competencias, no 'resultados a alcanzar'."
+  },
+  {
+    "q": "Según el art. 5 de la Ley 40/2015 de Régimen Jurídico, ¿mediante qué los órganos administrativos podrán dirigir las actividades de sus órganos jerárquicamente dependientes?",
+    "o": [
+      "Órdenes directas",
+      "Mandatos",
+      "Instrucciones y órdenes de servicio",
+      "Leyes"
+    ],
+    "c": 2,
+    "ref": "Art. 6 Ley 40/2015",
+    "exp": "Mediante instrucciones y órdenes de servicio."
+  },
+  {
+    "q": "Según el art. 8 de la Ley 40/2015 de régimen jurídico, la titularidad y ejercicio de las competencias atribuidas ¿En quién pueden ser desconcentradas?",
+    "o": [
+      "En otros jerárquicamente dependientes de aquellos",
+      "En ningún órgano administrativo",
+      "En otros jerárquicamente independientes de aquellos",
+      "En cualquier órgano administrativo."
+    ],
+    "c": 0,
+    "ref": "Art. 8 Ley 40/2015",
+    "exp": "La desconcentración se hace en órganos jerárquicamente dependientes."
+  },
+  {
+    "q": "Según el art. 8 de la Ley 40/2015 de régimen jurídico, si alguna disposición atribuye la competencia a una Administración, sin especificar el órgano, se entenderá que corresponde a los órganos inferiores competentes por razón de la materia y del territorio:",
+    "o": [
+      "La facultad de inicial y finalizar el procedimiento",
+      "La facultad de Instruir y resolver los expedientes",
+      "La potestad de sancionar y ejecutar los expedientes",
+      "La facultad de tramitar y ordenar los expedientes"
+    ],
+    "c": 1,
+    "ref": "Art. 8 Ley 40/2015",
+    "exp": "Corresponde la facultad de instruir y resolver los expedientes."
+  },
+  {
+    "q": "Según el art. 9 de la Ley 40/2015 de régimen jurídico, ¿En quién podrán delegar los órganos de las diferentes administraciones públicas el ejercicio de las competencias que tengan atribuidas?",
+    "o": [
+      "En Organismos privados vinculados o dependientes de aquellas",
+      "En Entidades de Derecho público independientes de aquella",
+      "En otros órganos de la misma administración, aun cuando no sean jerárquicamente dependientes.",
+      "En todos los anteriores."
+    ],
+    "c": 2,
+    "ref": "Art. 9 Ley 40/2015",
+    "exp": "Pueden delegar en otros órganos de la misma administración aunque no sean jerárquicamente dependientes."
+  },
+  {
+    "q": "Según el art. 9 de la Ley 40/2015 de régimen jurídico, ¿cuál de las siguientes competencias podrá ser objeto de delegación?",
+    "o": [
+      "Los asuntos que se refieran a relaciones con la Jefatura del Estado, la Presidencia del Gobierno, las Cortes Generales, las Presidencias de los Consejos de Gobierno de las CCAA y las Asambleas Legislativas de las CCAA.",
+      "La resolución de los procedimientos administrativos",
+      "La resolución de recursos en los órganos administrativos que hayan dictado los actos objeto de recurso.",
+      "Las materias en que así se determine por norma con rango de Ley."
+    ],
+    "c": 1,
+    "ref": "Art. 9 Ley 40/2015",
+    "exp": "Según la clave del examen es B; la resolución de procedimientos sí es delegable, siendo las demás competencias no delegables."
+  },
+  {
+    "q": "Según el art. 11 de la Ley 40/2015 de régimen jurídico, cuando la encomienda de gestión se realice entre órganos administrativos o entidades de Derecho Público de la misma administración deberá formalizarse en los términos que establezca su normativa propia, y en su defecto ¿En qué deberá formalizarse?",
+    "o": [
+      "Por convenio de los órganos o entidades intervinientes",
+      "Por contrato entre la administración y la entidad de derecho público que hayan intervenido en la encomienda",
+      "Por acuerdo expreso de los órganos o Entidades de Derecho Público intervinientes.",
+      "Por publicación de un protocolo en el boletín correspondiente."
+    ],
+    "c": 2,
+    "ref": "Art. 11 Ley 40/2015",
+    "exp": "En defecto de normativa propia, se formaliza por acuerdo expreso de los órganos o entidades intervinientes."
+  },
+  {
+    "q": "Según el art. 12 de la Ley 40/2015 de Régimen Jurídico, respecto de la delegación de competencias:",
+    "o": [
+      "Para su validez será necesaria su publicación",
+      "No alterará la competencia del órgano delegante",
+      "En las resoluciones que se firme por delegación no se hará constar esta circunstancia",
+      "El titular del órgano administrativo no podrá delegar su competencia que ostente por atribución"
+    ],
+    "c": 1,
+    "ref": "Art. 12 Ley 40/2015",
+    "exp": "Según la clave del examen es B; la delegación no altera la competencia del órgano delegante."
+  },
+  {
+    "q": "Según el art. 13 de la Ley 40/2015 de Régimen Jurídico, ¿En qué forma los titulares de los órganos administrativos podrán ser suplidos temporalmente en los supuestos de vacante, ausencia o enfermedad?",
+    "o": [
+      "En todo caso, en la prevista para la Administración General del Estado",
+      "Únicamente, en la forma prevista por las leyes",
+      "En la forma que disponga cada Administración",
+      "En la forma prevista en la mencionada ley 40/2015 de Régimen Jurídico"
+    ],
+    "c": 2,
+    "ref": "Art. 13 Ley 40/2015",
+    "exp": "La suplencia se hace en la forma que disponga cada Administración."
+  },
+  {
+    "q": "Según el art. 13 de la Ley 40/2015 de Régimen Jurídico, ¿un titular de un órgano administrativo podrá ser suplido por abstención o recusación?",
+    "o": [
+      "Sí, desde que se exponen los motivos de la abstención o recusación",
+      "No por abstención, sí por recusación",
+      "Sí, a partir que se inicia la tramitación para conocer los hechos",
+      "Sí, cuando haya sido declarada"
+    ],
+    "c": 3,
+    "ref": "Art. 13 Ley 40/2015",
+    "exp": "Procede la suplencia cuando la abstención o recusación haya sido declarada."
+  },
+  {
+    "q": "Según el art. 14 de la Ley 40/2015 de Régimen Jurídico, los conflictos de atribuciones solo podrán suscitarse:",
+    "o": [
+      "Entre órganos de una misma administración no relacionado jerárquicamente y respecto a asuntos sobre los que no haya finalizado el procedimiento administrativo",
+      "Entre órgano de distintas administraciones y respecto a asuntos sobre los que no haya finalizado el procedimiento administrativo",
+      "Entre órganos de una misma administración relacionado jerárquicamente y respecto a asuntos sobre los que no haya finalizado el procedimiento administrativo",
+      "Entre órganos de una misma administración relacionado jerárquicamente y respecto a asuntos sobre los que haya finalizado el procedimiento administrativo"
+    ],
+    "c": 0,
+    "ref": "Art. 14 Ley 40/2015",
+    "exp": "Solo se suscitan entre órganos de una misma administración no relacionados jerárquicamente y sobre asuntos no finalizados."
+  },
+  {
+    "q": "Según el art. 15 de la Ley 40/2015 de Régimen Jurídico, el acuerdo de creación y las normas de funcionamiento de los órganos colegiados que dicten resoluciones con efectos jurídicos frente a terceros deberán ser publicados:",
+    "o": [
+      "Siempre en el boletín oficial del Estado",
+      "En el Boletín o Diario Oficial de la Administración Pública en que se integran",
+      "No deberán ser publicado. Adicionalmente, podrán ser publicado en el Boletín o Diario Oficial de la Administración Pública en que se integran",
+      "Deberán ser publicados, en el Boletín o Diario Oficial de la Administración Pública en que se integran y en otros medios de difusión que garanticen su conocimiento"
+    ],
+    "c": 1,
+    "ref": "Art. 15 Ley 40/2015",
+    "exp": "Se publican en el Boletín o Diario Oficial de la Administración en que se integran."
+  },
+  {
+    "q": "Según el art. 16 de la Ley 40/2015 de Régimen Jurídico, ¿Qué corresponde a los secretarios de los órganos colegiados?",
+    "o": [
+      "Convocar al órgano colegiado",
+      "Dirigir las votaciones del órgano colegiado",
+      "Certificar las actuaciones del órgano colegiado",
+      "Dar la palabra a los miembros del órgano colegiado"
+    ],
+    "c": 2,
+    "ref": "Art. 16 Ley 40/2015",
+    "exp": "Corresponde al Secretario certificar las actuaciones del órgano."
+  },
+  {
+    "q": "Según el art. 17 de la Ley 40/2015 de Régimen Jurídico, para la válida constitución del órgano se requerirá la asistencia del Presidente y Secretario o de quienes les suplan y:",
+    "o": [
+      "de al menos el veinticinco por ciento del resto de sus miembros",
+      "Como máximo de la mitad de sus miembros",
+      "De al menos el setenta y cinco por ciento de sus miembros",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 17 Ley 40/2015",
+    "exp": "Se requiere la mitad, al menos, de sus miembros, opción no recogida, por lo que la correcta es 'nada de lo anterior'."
+  },
+  {
+    "q": "Según el art. 18 de la Ley 40/2015 de Régimen Jurídico, ¿Cuándo podrá aprobarse el acta de cada sesión?",
+    "o": [
+      "En la misma reunión",
+      "Solo en la reunión inmediata siguiente",
+      "Siempre en la misma reunión",
+      "En cualquier reunión del órgano colegiado"
+    ],
+    "c": 0,
+    "ref": "Art. 18 Ley 40/2015",
+    "exp": "El acta puede aprobarse en la misma reunión o en la inmediata siguiente."
+  },
+  {
+    "q": "Según el art. 19 de la Ley 40/2015 de Régimen Jurídico, los miembros del órgano colegiado que discrepen del acuerdo mayoritario:",
+    "o": [
+      "Podrán formular voto particular por escrito en el plazo de dos días.",
+      "Podrán formular voto particular por escrito en el plazo de tres días.",
+      "Podrán formular voto particular por escrito en el plazo de cuatro días.",
+      "Podrán formular voto particular por escrito en el plazo de un día."
+    ],
+    "c": 0,
+    "ref": "Art. 19 Ley 40/2015",
+    "exp": "El voto particular puede formularse por escrito en el plazo de dos días."
+  },
+  {
+    "q": "Según el art. 19 de la Ley 40/2015 de Régimen Jurídico, el voto particular:",
+    "o": [
+      "Podrá ser incorporado al texto aprobado",
+      "Deberá ser incorporado al texto aprobado",
+      "No se incorporará en el texto aprobado",
+      "Deberá ser incorporado en el texto que no ha sido aprobado"
+    ],
+    "c": 1,
+    "ref": "Art. 19 Ley 40/2015",
+    "exp": "El voto particular se incorporará al texto aprobado."
+  },
+  {
+    "q": "Según el art. 19 de la Ley 40/2015 de Régimen Jurídico, con qué antelación mínima deberán recibir los miembros del órgano colegiado el orden del día de las reuniones:",
+    "o": [
+      "Tres días",
+      "dos días",
+      "Un día",
+      "Cuatro días."
+    ],
+    "c": 1,
+    "ref": "Art. 19 Ley 40/2015",
+    "exp": "Antelación mínima de dos días."
+  },
+  {
+    "q": "Según el art. 20 de la Ley 40/2015 de Régimen Jurídico, ¿Qué son órganos colegiados?",
+    "o": [
+      "Los integrados por tres o más personas, a los que se atribuyan entre otras, funciones de decisión o propuestas",
+      "Aquellos formado por dos o más personas",
+      "Aquellos integrado por tres o más personas sin que puedan actuar integrado en un organismo público de la administración general del Estado",
+      "Aquellos integrado por tres o más personas, sin que puedan desarrollar funciones administrativas de decisión."
+    ],
+    "c": 0,
+    "ref": "Art. 20 Ley 40/2015",
+    "exp": "Son los integrados por tres o más personas con funciones de decisión, propuesta, asesoramiento, seguimiento o control."
+  },
+  {
+    "q": "Según el art. 21 de la Ley 40/2015 de Régimen Jurídico, señale la respuesta correcta:",
+    "o": [
+      "En los órganos colegiados ministeriales no podrán participar representantes de otras administraciones públicas.",
+      "En los órganos colegiados deberán participar organizaciones representativas de intereses sociales",
+      "Son órganos colegiados interministeriales si sus miembros proceden de diferentes ministerios",
+      "Son órganos colegiados ministeriales si sus componentes proceden de diferentes ministerios."
+    ],
+    "c": 2,
+    "ref": "Art. 21 Ley 40/2015",
+    "exp": "Son interministeriales los órganos colegiados cuyos miembros proceden de diferentes ministerios."
+  },
+  {
+    "q": "Según el art. 23 de la Ley 40/2015 de Régimen Jurídico, no es motivo de Abstención:",
+    "o": [
+      "Tener interés personal en el asunto",
+      "Tener un vínculo matrimonial",
+      "Tener parentesco de afinidad dentro del cuarto grado, con cualquiera de los interesados.",
+      "Todos los supuestos anteriores son motivos de abstención."
+    ],
+    "c": 2,
+    "ref": "Art. 23 Ley 40/2015",
+    "exp": "Según la clave del examen es C; el parentesco de afinidad computa hasta el segundo grado (el de consanguinidad hasta el cuarto)."
+  },
+  {
+    "q": "Según el art. 24 de la Ley 40/2015 de Régimen Jurídico, ¿Cuándo podrá promoverse recusación por los interesados?",
+    "o": [
+      "En cualquier momento de la tramitación del procedimiento",
+      "En el día siguiente de haber finalizado el procedimiento",
+      "Una vez que se hayan recibido los informes",
+      "Cuando lo indique el órgano superior jerárquico"
+    ],
+    "c": 0,
+    "ref": "Art. 24 Ley 40/2015",
+    "exp": "La recusación puede promoverse en cualquier momento de la tramitación."
+  },
+  {
+    "q": "Según el art. 25 de la Ley 40/2015 de Régimen Jurídico, el ejercicio de la potestad sancionadora ¿A quién corresponde?",
+    "o": [
+      "A los órganos no administrativos que la tengan atribuida por disposición reglamentaria",
+      "A los órganos administrativos que la tengan expresamente atribuida por disposición de rango legal o reglamentario",
+      "A los órganos administrativos que la tengan atribuida tácitamente por cualquier tipo de disposición",
+      "A los órganos administrativo que no la tengan atribuida expresamente."
+    ],
+    "c": 1,
+    "ref": "Art. 25 Ley 40/2015",
+    "exp": "Corresponde a los órganos administrativos que la tengan expresamente atribuida por disposición de rango legal o reglamentario."
+  },
+  {
+    "q": "Según el art. 26 de la Ley 40/2015 de Régimen Jurídico, las disposiciones sancionadoras producirán efectos retroactivos:",
+    "o": [
+      "En cuanto favorezca al infractor solo en lo referido a la tipificación de la infracción",
+      "En cuanto favorezca al infractor siempre que las sanciones no estuvieren pendiente",
+      "En cuanto favorezca al infractor tanto en lo referido a la tipificación de la infracción como a la sanción y sus plazos de prescripción",
+      "En ningún caso producirá efectos retroactivos"
+    ],
+    "c": 2,
+    "ref": "Art. 26 Ley 40/2015",
+    "exp": "Tienen efecto retroactivo en cuanto favorezcan al infractor, tanto en tipificación como en sanción y plazos de prescripción."
+  },
+  {
+    "q": "Según el art. 27 de la Ley 40/2015 de Régimen Jurídico, las infracciones administrativas se clasifican en:",
+    "o": [
+      "Leves, graves y muy graves",
+      "Solo en graves y en muy graves",
+      "Leves, menos leves y graves",
+      "Menos graves, graves y muy graves."
+    ],
+    "c": 0,
+    "ref": "Art. 27 Ley 40/2015",
+    "exp": "Se clasifican en leves, graves y muy graves."
+  },
+  {
+    "q": "Según el art. 28 de la Ley 40/2015 de Régimen Jurídico, cuando el cumplimiento de una obligación establecida por norma con rango de Ley corresponda a varias personas conjuntamente, responderán:",
+    "o": [
+      "De forma solidaria de las infracciones que se cometan y de forma subsidiaria de las sanciones que se impongan.",
+      "De forma solidaria de las infracciones que se cometan y de las sanciones que se impongan.",
+      "De forma subsidiaria de las infracciones que se cometan y de las sanciones que se impongan.",
+      "Responderán solidariamente de las sanciones y mancomunadamente de las infracciones."
+    ],
+    "c": 1,
+    "ref": "Art. 28 Ley 40/2015",
+    "exp": "Responden solidariamente de las infracciones y de las sanciones que se impongan."
+  },
+  {
+    "q": "Según el art. 29 de la Ley 40/2015 de Régimen Jurídico, las sanciones administrativas, sean o no de naturaleza pecuniaria, ¿Podrán implicar privación de libertad?",
+    "o": [
+      "Sí, subsidiariamente",
+      "En ningún caso, sólo cuando se impongan directamente",
+      "En ningún caso, directa o subsidiariamente",
+      "En todo caso, directa o subsidiariamente"
+    ],
+    "c": 2,
+    "ref": "Art. 29 Ley 40/2015",
+    "exp": "En ningún caso, ni directa ni subsidiariamente, pueden implicar privación de libertad."
+  },
+  {
+    "q": "Según el art. 30 de la Ley 40/2015 de Régimen Jurídico, las infracciones muy graves prescribirán:",
+    "o": [
+      "A los tres años",
+      "Según lo dispuesto en las leyes que la establezcan",
+      "A los dos años",
+      "Al año"
+    ],
+    "c": 1,
+    "ref": "Art. 30 Ley 40/2015",
+    "exp": "Prescriben según lo dispuesto en las leyes que las establezcan, y en su defecto a los tres años."
+  },
+  {
+    "q": "Según el art. 30 de la Ley 40/2015 de Régimen Jurídico, cuando las leyes no fijen plazo, las sanciones impuestas por falta leve prescribirán:",
+    "o": [
+      "Al año",
+      "A los dos años",
+      "A los 6 meses",
+      "A los tres años"
+    ],
+    "c": 0,
+    "ref": "Art. 30 Ley 40/2015",
+    "exp": "Las sanciones por faltas leves prescriben al año en defecto de plazo legal."
+  },
+  {
+    "q": "Según el art. 32 de la Ley 40/2015 de Régimen Jurídico, ¿A quién corresponde fijar el importe de las indemnizaciones cuando el Tribunal Constitucional haya declarado, a instancia de parte, la existencia de funcionamiento anormal en la tramitación de recursos de amparo o cuestiones de inconstitucionalidad?",
+    "o": [
+      "Al propio Tribunal Constitucional",
+      "Al Consejo General del Poder Judicial",
+      "Al Consejo de Estado",
+      "Al Consejo de Ministros"
+    ],
+    "c": 3,
+    "ref": "Art. 32 Ley 40/2015",
+    "exp": "El importe lo fija el Consejo de Ministros."
+  },
+  {
+    "q": "Según el art. 34 de la Ley 40/2015 de Régimen Jurídico, la indemnización se calculará con arreglo a los criterios de valoración establecidos en:",
+    "o": [
+      "Legislación Civil",
+      "La legislación Fiscal",
+      "La Legislación Presupuestaria.",
+      "La Legislación Social."
+    ],
+    "c": 1,
+    "ref": "Art. 34 Ley 40/2015",
+    "exp": "Según la clave del examen es B; el art. 34.2 remite a los criterios de la legislación fiscal, de expropiación forzosa y demás normas aplicables."
+  },
+  {
+    "q": "Según el art. 38 de la Ley 40/2015 de Régimen Jurídico, ¿Qué es una sede electrónica?",
+    "o": [
+      "El punto de acceso electrónico cuya titularidad corresponda a una Administración Pública, organismo público o entidad de Derecho Público que permite el acceso a través de internet a la información publicada",
+      "Aquella dirección electrónica, disponible para los ciudadanos a través de redes de telecomunicaciones, cuya titularidad corresponde a una Administración Pública, o a uno o varios organismos públicos o entidades de Derecho Público en el ejercicio de sus competencias",
+      "Un entorno cerrado de comunicación, cuya titularidad corresponde a una Administración Pública, o a uno o varios organismos públicos o entidades de Derecho Público",
+      "Un sistema de identificación que favorece la interoperabilidad y posibilita la verificación automática de la firma electrónica de los documentos electrónicos."
+    ],
+    "c": 1,
+    "ref": "Art. 38 Ley 40/2015",
+    "exp": "La sede electrónica es la dirección electrónica disponible para los ciudadanos a través de redes de telecomunicaciones."
+  },
+  {
+    "q": "Según el art. 44 de la Ley 40/2015 de Régimen Jurídico, ¿cómo serán considerados los documentos electrónicos transmitidos en entornos cerrados de comunicaciones establecidos entre Administraciones Públicas, órganos, organismos públicos y entidades de derecho público?",
+    "o": [
+      "Eficaces, a efectos de autenticación e identificación de los emisores y receptores.",
+      "Válidos a efectos de autenticación e identificación de los emisores y receptores",
+      "Válidos a efectos de autenticación e identificación de prestadores de servicios de certificación",
+      "Accesibles a efectos de autenticación e identificación de los emisores y receptores"
+    ],
+    "c": 1,
+    "ref": "Art. 44 Ley 40/2015",
+    "exp": "Se consideran válidos a efectos de autenticación e identificación de los emisores y receptores."
+  },
+  {
+    "q": "Según el art. 46 de la Ley 40/2015 de Régimen Jurídico, los medios o soportes en que se almacenen software deberán contar con medidas de seguridad de acuerdo con:",
+    "o": [
+      "El Esquema nacional de seguridad",
+      "El Esquema nacional de interoperabilidad",
+      "El Esquema nacional de interoperabilidad y seguridad",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 46 Ley 40/2015",
+    "exp": "El art. 46 refiere las medidas del Esquema Nacional de Seguridad a los soportes en que se almacenen 'documentos', no 'software'; por eso ninguna opción es correcta."
+  },
+  {
+    "q": "Según el art. 47 de la Ley 40/2015 de Régimen Jurídico, en el caso de que los convenios tuvieran por objeto prestaciones propias de los contratos, su naturaleza y régimen jurídico, ¿A qué se ajustará?",
+    "o": [
+      "Al contrato firmado entre las partes",
+      "A la legislación de contratos del sector privado",
+      "A la legislación de contratos del sector público",
+      "A lo previsto en la legislación presupuestaria"
+    ],
+    "c": 2,
+    "ref": "Art. 47 Ley 40/2015",
+    "exp": "Se ajustará a la legislación de contratos del sector público."
+  },
+  {
+    "q": "Según el art. 48 de la Ley 40/2015 de Régimen Jurídico, los convenios se perfeccionan:",
+    "o": [
+      "Con la aceptación del consentimiento",
+      "Con consentimiento",
+      "Por la prestación del consentimiento por una de las partes",
+      "Por la prestación del consentimiento de las partes"
+    ],
+    "c": 3,
+    "ref": "Art. 48 Ley 40/2015",
+    "exp": "Se perfeccionan por la prestación del consentimiento de las partes."
+  },
+  {
+    "q": "Según el art. 49 de la Ley 40/2015 de Régimen Jurídico, los firmantes de un convenio podrán acordar su prórroga en cualquier momento antes de la finalización:",
+    "o": [
+      "Por mayoría",
+      "Por mayoría de tres cuartos",
+      "Unánimemente",
+      "Por mayoría cualificada"
+    ],
+    "c": 2,
+    "ref": "Art. 49 Ley 40/2015",
+    "exp": "La prórroga se acuerda unánimemente por los firmantes."
+  },
+  {
+    "q": "Según el art. 50 de la Ley 40/2015 de Régimen Jurídico, en los convenios que suscriba la Administración General del Estado o sus organismos públicos y entidades vinculados o dependientes, ¿En qué plazo deberá emitirse el informe de su servicio jurídico?",
+    "o": [
+      "No existe dicho informe",
+      "En un máximo de cinco días hábiles",
+      "En 1 mes",
+      "En un máximo de siete días hábiles"
+    ],
+    "c": 3,
+    "ref": "Art. 50 Ley 40/2015",
+    "exp": "El informe del servicio jurídico se emite en un plazo máximo de siete días hábiles."
+  },
+  {
+    "q": "Según el art. 53 de la Ley 40/2015 de Régimen Jurídico, ¿En qué plazo deberá remitirse electrónicamente al Tribunal de Cuentas cualquier convenio cuyos compromisos económicos superen los 600.000 euros?",
+    "o": [
+      "Dentro de los seis meses siguientes a la suscripción",
+      "Dentro de los tres meses siguientes a la suscripción",
+      "Dentro de los dos meses siguientes a la suscripción",
+      "En cualquier momento."
+    ],
+    "c": 1,
+    "ref": "Art. 53 Ley 40/2015",
+    "exp": "Se remiten dentro de los tres meses siguientes a la suscripción."
+  },
+  {
+    "q": "Según el art. 1 de la Ley 40/2015 del Régimen Jurídico del Sector Público, la citada ley establece y regula:",
+    "o": [
+      "Los principios a los que se ha de ajustar el ejercicio de la iniciativa ejecutiva",
+      "Las bases del procedimiento administrativo",
+      "Los principios del sistema de responsabilidad de las administraciones Públicas y de la potestad sancionadora",
+      "La organización y funcionamiento del sector privado institucional"
+    ],
+    "c": 2,
+    "ref": "Art. 1 Ley 40/2015",
+    "exp": "Regula los principios del sistema de responsabilidad de las AAPP y de la potestad sancionadora."
+  },
+  {
+    "q": "Según el art. 1 de la Ley 40/2015 del Régimen Jurídico del Sector Público, establece y regula el régimen jurídico:",
+    "o": [
+      "Del ordenamiento constitucional",
+      "De las Administraciones Públicas",
+      "Del Gobierno",
+      "Del Sector privado"
+    ],
+    "c": 1,
+    "ref": "Art. 1 Ley 40/2015",
+    "exp": "Regula el régimen jurídico de las Administraciones Públicas."
+  },
+  {
+    "q": "Según el art. 2 de la Ley 40/2015 del Régimen Jurídico del Sector Público, se aplica al sector público que comprende:",
+    "o": [
+      "La Administración General del Estado.",
+      "Las entidades de las Comunidades Autónomas.",
+      "Las Entidades que integran la Administración Local y periférica",
+      "Comprende todo lo anterior"
+    ],
+    "c": 0,
+    "ref": "Art. 2 Ley 40/2015",
+    "exp": "Según la clave del examen es A; el art. 2 incluye la AGE, las Administraciones de las CCAA y las Entidades Locales, pero las otras opciones contienen redacciones erróneas."
+  },
+  {
+    "q": "Según el art. 2 de la Ley 40/2015, las entidades de derecho privado vinculadas o dependientes de las Administraciones Públicas quedarán sujetas a lo dispuesto en las normas de esta ley que específicamente se refieran a las mismas, cuando ejerzan potestades:",
+    "o": [
+      "Legislativas",
+      "Ejecutivas",
+      "Gubernativas.",
+      "Administrativas"
+    ],
+    "c": 3,
+    "ref": "Art. 2 Ley 40/2015",
+    "exp": "Quedan sujetas cuando ejerzan potestades administrativas."
+  },
+  {
+    "q": "Según el art. 2 de la Ley 40/2015, las Universidades Públicas se regirán:",
+    "o": [
+      "Por la normativa general de las Administraciones Públicas y supletoriamente por su normativa específica",
+      "Por su normativa específica y supletoriamente por las previsiones de la ley 40/2015",
+      "Por su normativa específica o por la ley 40/2015, según los casos",
+      "Por la ley 40/2015 del régimen jurídico y supletoriamente por su normativa específica"
+    ],
+    "c": 1,
+    "ref": "Art. 2 Ley 40/2015",
+    "exp": "Se rigen por su normativa específica y supletoriamente por la Ley 40/2015."
+  },
+  {
+    "q": "Según el art. 3 de la Ley 40/2015, las Administraciones Públicas se relacionarán entre sí y con sus organismos públicos y entidades vinculadas o dependientes a través de medios electrónicos que aseguren:",
+    "o": [
+      "La accesibilidad a las soluciones tecnológicas adoptadas por cada una de ellas.",
+      "La eficacia y eficiencia de los sistemas adoptados por cada una de ellas",
+      "La interoperabilidad y seguridad de los sistemas y soluciones adoptadas por cada una de ellas.",
+      "La agilidad y operatividad del funcionamiento de los servicios electrónicos ofrecidos a los interesados."
+    ],
+    "c": 2,
+    "ref": "Art. 3 Ley 40/2015",
+    "exp": "Deben asegurar la interoperabilidad y seguridad de los sistemas y soluciones adoptadas."
+  },
+  {
+    "q": "Según el art. 3 de la Ley 40/2015, cada una de las Administraciones Públicas del artículo 2 actúa para el cumplimiento de sus fines:",
+    "o": [
+      "Con personalidad jurídica única",
+      "Con personalidad jurídica propia.",
+      "Con personalidad jurídica plena.",
+      "Con personalidad jurídica conjunta."
+    ],
+    "c": 0,
+    "ref": "Art. 3 Ley 40/2015",
+    "exp": "Cada Administración actúa con personalidad jurídica única."
+  },
+  {
+    "q": "Según el art. 3 de la Ley 40/2015, bajo la dirección del Gobierno de la Nación, de los órganos de gobierno de las CCAA y de las Entidades Locales, la actuación de la Administración Pública respectiva se desarrolla:",
+    "o": [
+      "Para alcanzar los objetivos fijados por el Gobierno y el resto de poderes públicos",
+      "Para alcanzar los objetivos que establecen las leyes y el resto del ordenamiento jurídico",
+      "Para lograr la plena satisfacción de los ciudadanos y sus intereses particulares",
+      "Para el beneficio del interés general, empleando para ello todos los instrumentos jurídicos a su alcance."
+    ],
+    "c": 1,
+    "ref": "Art. 3 Ley 40/2015",
+    "exp": "Se desarrolla para alcanzar los objetivos que establecen las leyes y el ordenamiento jurídico."
+  },
+  {
+    "q": "Según el art. 4 de la Ley 40/2015, las Administraciones Públicas que establezcan medidas que limiten el ejercicio de derechos individuales o colectivos o exijan requisitos para el desarrollo de una actividad, ¿Qué principio deberán aplicar?",
+    "o": [
+      "El de inmediatez",
+      "El de menor onerosidad",
+      "El de proporcionalidad",
+      "El de protección del bien común"
+    ],
+    "c": 2,
+    "ref": "Art. 4 Ley 40/2015",
+    "exp": "Deben aplicar el principio de proporcionalidad."
+  },
+  {
+    "q": "Según el art. 5 de la Ley 40/2015, la creación de un nuevo órgano solo tendrá lugar previa comprobación:",
+    "o": [
+      "De que no existe otro en la misma Administración Pública que desarrolle igual función sobre el mismo territorio y población",
+      "De que no existe otro en distinta Administración pública que desarrolle igual función sobre el mismo territorio y población",
+      "De que existe otro en la misma Administración Pública que desarrolle igual función sobre el mismo territorio y población",
+      "De que existe otro en distinta Administración Pública que desarrolle igual función sobre el mismo territorio y población."
+    ],
+    "c": 0,
+    "ref": "Art. 5 Ley 40/2015",
+    "exp": "Se comprueba que no existe otro órgano en la misma Administración con igual función sobre el mismo territorio y población."
+  },
+  {
+    "q": "Según el art. 5 de la Ley 40/2015, ¿Qué tendrá la consideración de órganos administrativos?",
+    "o": [
+      "Los organismos administrativos a las que se les atribuyan funciones que tengan efectos jurídicos frente a terceros, o cuya actuación tenga carácter preceptivo",
+      "Las unidades administrativas a las que se les atribuyan funciones que tengan efectos jurídicos frente a terceros, o cuya actuación tenga carácter preceptivo",
+      "Las unidades administrativas a las que se les atribuyan funciones que tengan efectos jurídicos frente a terceros, o cuya actuación tenga carácter consultivo",
+      "Los organismos administrativos a las que se les atribuyan funciones que tengan efectos jurídicos frente a terceros, o cuya actuación no tenga carácter preceptivo"
+    ],
+    "c": 1,
+    "ref": "Art. 5 Ley 40/2015",
+    "exp": "Son las unidades administrativas con funciones de efectos jurídicos frente a terceros o de actuación preceptiva."
+  },
+  {
+    "q": "Según el art. 5 de la Ley 40/2015, ¿A quién corresponde delimitar, en su respectivo ámbito competencial, las unidades administrativas que configuran los órganos administrativos propios de las especialidades derivadas de su organización?",
+    "o": [
+      "Al Gobierno",
+      "A los poderes públicos",
+      "A los titulares de los órganos administrativo",
+      "A la Administración General del Estado, en su caso."
+    ],
+    "c": 3,
+    "ref": "Art. 5 Ley 40/2015",
+    "exp": "Según la clave del examen es D; corresponde a cada Administración Pública (en su caso a la AGE) delimitar dichas unidades."
+  },
+  {
+    "q": "Según el art. 6 de la Ley 40/2015, señale la respuesta correcta en relación con las instrucciones y órdenes de servicio:",
+    "o": [
+      "Los órganos administrativos podrán dirigir mediante instrucciones y órdenes de servicio las actividades de sus órganos jerárquicamente dependientes.",
+      "El incumplimiento de las instrucciones u órdenes de servicio afecta por sí solo a la validez de los actos dictados por los órganos administrativos.",
+      "Cuando una disposición específica así lo establezca, las instrucciones u órdenes de servicio se publicará en la sede electrónica que corresponda",
+      "El incumplimiento de las instrucciones u órdenes de servicio, supone incurrir en responsabilidad, salvo la disciplinaria"
+    ],
+    "c": 0,
+    "ref": "Art. 6 Ley 40/2015",
+    "exp": "Los órganos administrativos pueden dirigir mediante instrucciones y órdenes de servicio las actividades de sus órganos dependientes."
+  },
+  {
+    "q": "Según el art. 7 de la Ley 40/2015, los órganos consultivos:",
+    "o": [
+      "Actuarán de forma colegiada para garantizar su dependencia jerárquica",
+      "Podrán estar sujeto a dependencia jerárquica",
+      "Podrán articularse mediante órganos específicos dotado de dependencia orgánica y funcional con respecto a la Administración Pasiva",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 7 Ley 40/2015",
+    "exp": "La Administración consultiva se articula con autonomía orgánica y funcional respecto de la activa, por lo que ninguna opción es correcta."
+  },
+  {
+    "q": "Según el art. 7 de la Ley 40/2015, la Administración Consultiva podrá articularse mediante órganos específicos dotados de:",
+    "o": [
+      "Autonomía orgánica y funcional con respecto a la Administración pasiva",
+      "Autonomía orgánica y territorial con respecto a la Administración activa",
+      "Autonomía orgánica y funcional con respecto a la Administración activa",
+      "Autonomía orgánica y territorial con respecto a la Administración pasiva"
+    ],
+    "c": 2,
+    "ref": "Art. 7 Ley 40/2015",
+    "exp": "Se articula con autonomía orgánica y funcional respecto de la Administración activa."
+  },
+  {
+    "q": "Según el art. 8 de la Ley 40/2015, la competencia:",
+    "o": [
+      "Es renunciable, salvo en los casos de delegación o avocación",
+      "Es irrenunciable, solo en los casos de delegación",
+      "Es irrenunciable, salvo en los casos de delegación o avocación",
+      "Es irrenunciable en todo caso"
+    ],
+    "c": 2,
+    "ref": "Art. 8 Ley 40/2015",
+    "exp": "La competencia es irrenunciable, salvo en los casos de delegación o avocación y demás previstos en la ley."
+  },
+  {
+    "q": "Según el art. 8 de la Ley 40/2015, la suplencia:",
+    "o": [
+      "Supone la alteración de la titularidad y del ejercicio.",
+      "Supone la alteración de los elementos determinantes de su ejercicio que en cada caso se prevén.",
+      "No supone ni la alteración de la titularidad, ni de los elementos determinantes de su ejercicio.",
+      "Supone la alteración de la titularidad de la competencia."
+    ],
+    "c": 1,
+    "ref": "Art. 8 Ley 40/2015",
+    "exp": "Según la clave del examen es B; conforme al art. 8.3 la delegación y avocación no suponen alteración de la titularidad — revisar en validación."
+  },
+  {
+    "q": "Según el art. 8 de la Ley 40/2015, la titularidad y el ejercicio de las competencias atribuidas a los órganos administrativos podrán ser:",
+    "o": [
+      "Descentralizadas en otros jerárquicamente dependientes de aquéllos en los términos que prevean las propias normas de atribución de competencias.",
+      "Desconcentradas en otros jerárquicamente no dependientes de aquéllos en los términos que prevean las propias normas de atribución de competencias.",
+      "Desconcentradas en otros jerárquicamente dependientes de aquéllos en los términos que prevean las propias instrucciones y órdenes de servicio cuando deban ser publicadas",
+      "Desconcentradas en otros jerárquicamente dependientes de aquéllos en los términos que prevean las propias normas de atribución de competencias."
+    ],
+    "c": 3,
+    "ref": "Art. 8 Ley 40/2015",
+    "exp": "Podrán ser desconcentradas en órganos jerárquicamente dependientes en los términos que prevean las normas de atribución."
+  },
+  {
+    "q": "Según el art. 8 de la Ley 40/2015, ¿qué supone la alteración de la titularidad de la competencia?",
+    "o": [
+      "La delegación de la competencia",
+      "Las encomiendas de gestión",
+      "La delegación de firma",
+      "Nada de lo anterior supone la alteración de la competencia."
+    ],
+    "c": 3,
+    "ref": "Art. 8 Ley 40/2015",
+    "exp": "Ninguno de estos supuestos supone alteración de la titularidad de la competencia."
+  },
+  {
+    "q": "Según el art. 8 de la Ley 40/2015, si existiera más de un órgano inferior competente por razón de la materia y territorio, ¿A quién corresponde la facultad para instruir y resolver los expedientes?",
+    "o": [
+      "A cualquiera de ellos.",
+      "Al superior jerárquico de cualquiera de ellos",
+      "Al superior jerárquico común de estos",
+      "A elección de los interesados a cualquiera de los órganos anteriores."
+    ],
+    "c": 2,
+    "ref": "Art. 8 Ley 40/2015",
+    "exp": "Corresponde al superior jerárquico común de estos."
+  },
+  {
+    "q": "Según el art. 9 de la Ley 40/2015, en la delegación de competencias, cuando se trate de órganos no relacionados jerárquicamente, si el órgano delegante y el delegado pertenecen a distintos ministerios, ¿Quién aprobará la delegación?",
+    "o": [
+      "El órgano superior de quien dependa el órgano delegado",
+      "El órgano superior de quien dependa el órgano delegante",
+      "El superior jerárquico común a estos",
+      "El órgano superior de cualquiera de ellos"
+    ],
+    "c": 0,
+    "ref": "Art. 9 Ley 40/2015",
+    "exp": "Cuando delegante y delegado pertenecen a distintos Ministerios, el art. 9.1 exige la aprobación del órgano superior de quien dependa el órgano DELEGADO, por lo que la opción A es la correcta."
+  },
+  {
+    "q": "Según el art. 9 de la Ley 40/2015, los órganos de la Administración General del Estado podrán delegar el ejercicio de sus competencias propias en sus Organismos públicos y Entidades vinculados o dependientes:",
+    "o": [
+      "Cuando resulten necesarios por razones de interés general",
+      "Cuando resulte conveniente para alcanzar los fines que tengan asignados y mejorar la eficacia de su gestión",
+      "Sin necesidad de aprobación previa, cuando existan razones justificadas de interés material o técnico",
+      "Cuando resulte conveniente por razones de eficacia, para alcanzar fines que previamente no han sido asignados"
+    ],
+    "c": 1,
+    "ref": "Art. 9 Ley 40/2015",
+    "exp": "Cuando resulte conveniente para alcanzar los fines asignados y mejorar la eficacia de la gestión."
+  },
+  {
+    "q": "Según el art. 9 de la Ley 40/2015, indique qué materia en ningún caso podrá ser objeto de delegación de competencia:",
+    "o": [
+      "Los asuntos que se refieran a relaciones con la Presidencia del Consejo General del Poder judicial y del Tribunal de Cuentas",
+      "La adopción de actos administrativo de carácter general.",
+      "La resolución de recursos en los órganos administrativos que hayan dictado los actos objeto de recurso.",
+      "En ninguno de los casos anteriores podrán ser objeto de delegación de competencias"
+    ],
+    "c": 2,
+    "ref": "Art. 9 Ley 40/2015",
+    "exp": "No es delegable la resolución de recursos en los órganos que hayan dictado los actos objeto de recurso."
+  },
+  {
+    "q": "Según el art. 9 de la Ley 40/2015, en el ámbito de la Administración General del Estado, la competencia deberá ser aprobada:",
+    "o": [
+      "Previamente por el órgano ministerial de quien dependa el órgano delegante.",
+      "Posteriormente por el órgano ministerial de quien dependa el órgano delegante.",
+      "Previamente por el órgano ministerial de quien dependa el órgano delegado",
+      "Posteriormente por el órgano ministerial de quien dependa el órgano delegado."
+    ],
+    "c": 0,
+    "ref": "Art. 9 Ley 40/2015",
+    "exp": "Se aprueba previamente por el órgano ministerial de quien dependa el órgano delegante."
+  },
+  {
+    "q": "Según el art. 9 de la Ley 40/2015, señale que afirmación es correcta:",
+    "o": [
+      "Si se trata de un órgano delegante perteneciente a la comunidad autónoma, la revocación de la delegación se publicará en el boletín oficial del estado",
+      "Salvo autorización expresa de una Ley, no podrán delegarse las competencias que se ejerzan por delegación",
+      "Solo será revocable la delegación por el órgano superior jerárquico que la haya conferido",
+      "Las resoluciones administrativas que se adopten por delegación indicarán expresamente esta circunstancia y se considerarán dictadas por el órgano delegado."
+    ],
+    "c": 1,
+    "ref": "Art. 9 Ley 40/2015",
+    "exp": "Salvo autorización expresa de una Ley, no podrán delegarse las competencias que se ejerzan por delegación."
+  },
+  {
+    "q": "Según el art. 10 de la Ley 40/2015, en el supuesto de delegación de competencia en órganos no dependientes jerárquicamente, el conocimiento de un asunto podrá ser avocado:",
+    "o": [
+      "indistintamente por el órgano delegante o el delegado",
+      "únicamente por el superior del órgano delegante.",
+      "únicamente por el órgano delegante",
+      "únicamente por el superior del órgano delegado."
+    ],
+    "c": 2,
+    "ref": "Art. 10 Ley 40/2015",
+    "exp": "La avocación corresponde únicamente al órgano delegante."
+  },
+  {
+    "q": "Según el art. 10 de la Ley 40/2015, los órganos superiores podrán avocar para sí el conocimiento de asuntos cuya resolución corresponda a sus órganos dependientes, no siendo una circunstancia que lo haga conveniente:",
+    "o": [
+      "Técnica",
+      "Social",
+      "Territorial",
+      "Jerárquica"
+    ],
+    "c": 3,
+    "ref": "Art. 10 Ley 40/2015",
+    "exp": "Las circunstancias que hacen conveniente la avocación son de índole técnica, económica, social, jurídica o territorial, no jerárquica."
+  },
+  {
+    "q": "Según el art. 10 de la Ley 40/2015, la avocación se realizará:",
+    "o": [
+      "En todo caso mediante acuerdo motivado que deberá ser notificado a los interesados en el procedimiento si los hubiere, con anterioridad o simultáneamente a la resolución final que se dicte",
+      "Únicamente mediante acuerdo motivado en los supuestos en los que previamente se haya delegado la competencia, con anterioridad o simultáneamente a la resolución final que se dicte",
+      "En algunos casos mediante acuerdo motivado sin necesidad de notificación a los interesados, con anterioridad o simultáneamente a la resolución final que se dicte",
+      "En todo caso mediante acuerdo sin necesidad de motivación, una vez finalizado el procedimiento"
+    ],
+    "c": 0,
+    "ref": "Art. 10 Ley 40/2015",
+    "exp": "Se realiza mediante acuerdo motivado notificado a los interesados antes o simultáneamente a la resolución final."
+  },
+  {
+    "q": "Según el art. 10 de la Ley 40/2015, en la avocación, contra el acuerdo de avocación:",
+    "o": [
+      "Podrá interponerse recurso contencioso-administrativo",
+      "Podrá impugnarse en el recurso que en su caso se interpongan contra la resolución del procedimiento",
+      "No podrá ser impugnado en ningún caso y en ningún momento",
+      "Podrá interponerse contra el mismo directamente recursos administrativos"
+    ],
+    "c": 1,
+    "ref": "Art. 10 Ley 40/2015",
+    "exp": "El acuerdo de avocación no es recurrible directamente; podrá impugnarse en el recurso contra la resolución del procedimiento."
+  },
+  {
+    "q": "Según el art. 11 de la Ley 40/2015, la realización de actividades de carácter material o técnico de la competencia de los órganos administrativos o de las Entidades de Derecho Público podrán ser encomendadas a otros órganos o Entidades de Derecho Público de la misma o distinta Administración, por razones de:",
+    "o": [
+      "Economía",
+      "Seguridad",
+      "Eficacia",
+      "Eficiencia."
+    ],
+    "c": 2,
+    "ref": "Art. 11 Ley 40/2015",
+    "exp": "Se encomiendan por razones de eficacia o cuando no se posean los medios técnicos idóneos."
+  },
+  {
+    "q": "Según el art. 11 de la Ley 40/2015, las encomiendas de gestión no podrán tener por objeto:",
+    "o": [
+      "Actividades de carácter material",
+      "Actos de las Administración general del Estado",
+      "Actividades comprendidas en la ley de protección de datos",
+      "Prestaciones propias de los contratos regulados en la legislación de contratos del sector público"
+    ],
+    "c": 3,
+    "ref": "Art. 11 Ley 40/2015",
+    "exp": "No pueden tener por objeto prestaciones propias de los contratos del sector público."
+  },
+  {
+    "q": "Según el art. 11 de la Ley 40/2015, la encomienda de gestión:",
+    "o": [
+      "Supone la cesión de la titularidad de la competencia",
+      "No supone la cesión de los elementos sustantivos de su ejercicio",
+      "Supone la cesión de los elementos sustantivos de su ejercicio",
+      "Supone la cesión de la titularidad de la competencia y de los elementos sustantivos de su ejercicio."
+    ],
+    "c": 1,
+    "ref": "Art. 11 Ley 40/2015",
+    "exp": "No supone cesión de la titularidad de la competencia ni de los elementos sustantivos de su ejercicio."
+  },
+  {
+    "q": "Según el art. 11 de la Ley 40/2015, ¿De quién es responsabilidad dictar cuantos actos o resoluciones de carácter jurídico den soporte o en los que se integre la concreta actividad material objeto de encomienda?",
+    "o": [
+      "Del titular encomendante",
+      "Siempre de quien tenga la condición de encargado del tratamiento de los datos",
+      "Del órgano o entidad encomendado",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 11 Ley 40/2015",
+    "exp": "Según la clave del examen es D, pero el art. 11.2 atribuye esa responsabilidad al órgano o entidad ENCOMENDANTE, por lo que la correcta parece ser A — revisar en validación."
+  },
+  {
+    "q": "Según el art. 11 de la Ley 40/2015, cuando la encomienda se realice entre órganos y entidades de Derecho Público de distintas Administraciones, ¿Mediante qué se formalizará?",
+    "o": [
+      "Mediante la firma de un acuerdo expreso",
+      "Mediante la publicación en un diario oficial",
+      "Mediante la firma del correspondiente convenio",
+      "Mediante elevación a escritura pública"
+    ],
+    "c": 2,
+    "ref": "Art. 11 Ley 40/2015",
+    "exp": "Entre distintas Administraciones se formaliza mediante la firma del correspondiente convenio."
+  },
+  {
+    "q": "Según el art. 11 de la Ley 40/2015, cuando la encomienda de gestión se realice entre órganos administrativos o Entidades de Derecho Público de la misma Administración, ¿Cómo deberá formalizarse?",
+    "o": [
+      "En los términos previstos en la normativa general",
+      "Mediante la firma de un convenio",
+      "Mediante acuerdo expreso",
+      "En los términos que establezca su normativa propia"
+    ],
+    "c": 3,
+    "ref": "Art. 11 Ley 40/2015",
+    "exp": "Se formaliza en los términos que establezca su normativa propia y, en su defecto, por acuerdo expreso."
+  },
+  {
+    "q": "Según el art. 11 de la Ley 40/2015, en la encomienda de gestión, ¿Quién tendrá la condición de encargado del tratamiento de los datos de carácter personal a los que pudiera tener acceso en ejecución de la encomienda?",
+    "o": [
+      "La entidad u órgano encomendado",
+      "La entidad u órgano encomendante",
+      "La entidad u organismo encomendado",
+      "La entidad u organismo encomendante"
+    ],
+    "c": 0,
+    "ref": "Art. 11 Ley 40/2015",
+    "exp": "El órgano o entidad encomendado tiene la condición de encargado del tratamiento de los datos."
+  },
+  {
+    "q": "Según el art. 11 de la Ley 40/2015, ¿A quién podrá ser encomendada la realización de actividades de carácter material o técnico de la competencia de los órganos administrativos o de las Entidades de Derecho Público?",
+    "o": [
+      "A Entidades de Derecho Privado de la misma o de distinta Administración.",
+      "A otros órganos o Entidades de Derecho Público de la misma o de distinta Administración",
+      "A otros organismos de Derecho Público de la misma o de distinta Administración",
+      "A otros órganos o Entidades de Derecho Público siempre de la misma Administración"
+    ],
+    "c": 1,
+    "ref": "Art. 11 Ley 40/2015",
+    "exp": "A otros órganos o Entidades de Derecho Público de la misma o de distinta Administración."
+  },
+  {
+    "q": "Según el art. 12 de la Ley 40/2015, en la delegación de firma:",
+    "o": [
+      "Se alterará la competencia del órgano delegante",
+      "Para su validez será necesaria su publicación.",
+      "En las resoluciones y actos que se firmen por delegación se hará constar la autoridad de procedencia.",
+      "Nada de los anterior es correcto en relación con la delegación de firma."
+    ],
+    "c": 2,
+    "ref": "Art. 12 Ley 40/2015",
+    "exp": "En las resoluciones firmadas por delegación se hará constar la autoridad de procedencia."
+  },
+  {
+    "q": "Según el art. 12 de la Ley 40/2015, los titulares de los órganos administrativos, ¿Podrán delegar la firma de sus resoluciones y actos administrativos?",
+    "o": [
+      "En materias que no sean de su competencia que ostenten por atribución expresa.",
+      "En los órganos o unidades administrativas que de ellos dependan",
+      "Solo de competencias que ostente por delegación",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 1,
+    "ref": "Art. 12 Ley 40/2015",
+    "exp": "Pueden delegar la firma en los órganos o unidades administrativas que de ellos dependan."
+  },
+  {
+    "q": "Según el art. 12 de la Ley 40/2015, ¿Quiénes podrán, en materias de su competencia que ostenten por atribución o por delegación, delegar la firma de sus resoluciones y actos administrativos en los titulares de los órganos o unidades que de ellos dependan?",
+    "o": [
+      "Nadie",
+      "Los órganos administrativos",
+      "Los titulares de los órganos administrativo",
+      "Los superiores de los órganos administrativo"
+    ],
+    "c": 2,
+    "ref": "Art. 12 Ley 40/2015",
+    "exp": "Los titulares de los órganos administrativos pueden delegar la firma."
+  },
+  {
+    "q": "Según el art. 13 de la Ley 40/2015, en el ámbito de la Administración General del Estado, la designación del suplente podrá efectuarse:",
+    "o": [
+      "Por el órgano competente para la sustitución del titular.",
+      "En los reales decretos de estructura orgánica básica de los Departamentos Ministeriales",
+      "En las leyes que regula los procedimientos de abstención y recusación",
+      "La designación del suplente podrá realizarse por cualquiera de los medios anteriores."
+    ],
+    "c": 1,
+    "ref": "Art. 13 Ley 40/2015",
+    "exp": "Puede efectuarse en los reales decretos de estructura orgánica básica de los Departamentos Ministeriales."
+  },
+  {
+    "q": "Según el art. 13 de la Ley 40/2015, en la suplencia:",
+    "o": [
+      "Los titulares de los órganos administrativos podrán ser suplidos permanentemente en los supuestos de vacante.",
+      "No implicará la alteración de la competencia.",
+      "Para su validez será necesaria su publicación.",
+      "En las resoluciones y actos que se dicten mediante suplencia no se hará constar esta circunstancia."
+    ],
+    "c": 1,
+    "ref": "Art. 13 Ley 40/2015",
+    "exp": "La suplencia no implica alteración de la competencia."
+  },
+  {
+    "q": "Según el art. 13 de la Ley 40/2015, ¿En qué supuesto los titulares de los órganos administrativos podrán ser suplidos temporalmente?",
+    "o": [
+      "Temporalmente, en ninguno",
+      "En circunstancias de fuerza mayor",
+      "Vacante",
+      "Cuando se tramite una solicitud de recusación que le afecte"
+    ],
+    "c": 2,
+    "ref": "Art. 13 Ley 40/2015",
+    "exp": "Pueden ser suplidos temporalmente en los supuestos de vacante, ausencia o enfermedad."
+  },
+  {
+    "q": "Según el art. 14 de la Ley 40/2015, ¿Qué hará el órgano administrativo que se estime incompetente para la resolución de un asunto?",
+    "o": [
+      "Remitirá las actuaciones al órgano que se consideré competente.",
+      "Archivará las actuaciones",
+      "Continuará con las actuaciones hasta la fase del trámite de audiencia",
+      "Planteará conflicto de atribuciones."
+    ],
+    "c": 0,
+    "ref": "Art. 14 Ley 40/2015",
+    "exp": "Remitirá directamente las actuaciones al órgano que considere competente."
+  },
+  {
+    "q": "Según el art. 14 de la Ley 40/2015, cuando los interesados que sean parte de un procedimiento entiendan que el órgano que conoce del asunto es incompetente, podrán dirigirse al órgano que estimen competente:",
+    "o": [
+      "Para que plantee conflicto de atribuciones al órgano que este conociendo",
+      "Para que solicite la recusación del órgano que este conociendo del asunto",
+      "Para que inicie un nuevo procedimiento",
+      "Para que requiera de inhibición al que este conociendo del asunto."
+    ],
+    "c": 3,
+    "ref": "Art. 14 Ley 40/2015",
+    "exp": "Para que requiera de inhibición al órgano que esté conociendo del asunto."
+  },
+  {
+    "q": "Según el art. 14 de la Ley 40/2015, los conflictos de atribuciones sólo podrán suscitarse:",
+    "o": [
+      "Entre órganos de una misma Administración relacionados jerárquicamente, y respecto a asuntos sobre los que no haya finalizado el procedimiento administrativo",
+      "Entre órganos de una misma Administración relacionados jerárquicamente, y respecto a asuntos sobre los que haya finalizado el procedimiento administrativo",
+      "Entre órganos de una misma Administración no relacionados jerárquicamente, y respecto a asuntos sobre los que no haya finalizado el procedimiento administrativo",
+      "Entre órganos de una misma Administración no relacionados jerárquicamente, y respecto a asuntos sobre los que haya finalizado el procedimiento administrativo"
+    ],
+    "c": 2,
+    "ref": "Art. 14 Ley 40/2015",
+    "exp": "Solo se suscitan entre órganos de una misma Administración no relacionados jerárquicamente y sobre asuntos no finalizados."
+  },
+  {
+    "q": "Según el art. 15 de la Ley 40/2015, ¿De qué órganos colegiados los acuerdos de creación deberán ser publicados en el Boletín o Diario Oficial de la Administración Pública en que se integran?",
+    "o": [
+      "En los que participe organizaciones representativas de intereses sociales",
+      "De los que dicten resoluciones que tengan efectos jurídicos frente a terceros",
+      "Los que estén participados por varias administraciones públicas",
+      "De todos los anteriores"
+    ],
+    "c": 1,
+    "ref": "Art. 15 Ley 40/2015",
+    "exp": "De los que dicten resoluciones con efectos jurídicos frente a terceros."
+  },
+  {
+    "q": "Según el art. 16 de la Ley 40/2015, en los órganos colegiados, ¿Quién garantiza que los procedimientos y reglas de constitución y adopción de acuerdos sean respetadas?",
+    "o": [
+      "El presidente",
+      "El Secretario",
+      "Cuando el secretario no sea miembro del órgano colegiado, el Presidente.",
+      "El miembro de mayor antigüedad"
+    ],
+    "c": 1,
+    "ref": "Art. 16 Ley 40/2015",
+    "exp": "El Secretario garantiza que se respeten los procedimientos y reglas de constitución y adopción de acuerdos."
+  },
+  {
+    "q": "Según el art. 17 de la Ley 40/2015, para la válida celebración de sesiones de un órgano colegiado a distancia, ¿Qué asistencia se requerirá?",
+    "o": [
+      "Distinta asistencia que se requiere para la sesión presencial",
+      "El presidente y Secretario o quienes le suplan y de al menos un tercio de sus miembros.",
+      "El presidente y Secretario o quienes le suplan y de menos de la mitad de sus miembros.",
+      "El presidente y Secretario o quienes le suplan y máxima de la mitad de sus miembros."
+    ],
+    "c": 2,
+    "ref": "Art. 17 Ley 40/2015",
+    "exp": "Según la clave del examen es C; el art. 17 exige la asistencia del Presidente, Secretario y de la mitad al menos de sus miembros — revisar en validación."
+  },
+  {
+    "q": "Según el art. 17 de la Ley 40/2015, ¿Qué es cierto respecto a los órganos colegiados?",
+    "o": [
+      "Solo se podrá remitir acta de forma presencial",
+      "No se podrá constituir a distancia si su reglamento interno lo recoge de forma expresa y excepcionalmente",
+      "En las sesiones a distancia sus miembros podrán encontrarse en distintos lugares siempre que se asegure por medios electrónicos, considerándose solo los telefónicos",
+      "Para la toma de acuerdos en las sesiones a distancia se requerirá la asistencia, presencial o a distancia, del Presidente y Secretario, sin posibilidad de que sean suplidos."
+    ],
+    "c": 1,
+    "ref": "Art. 17 Ley 40/2015",
+    "exp": "Según la clave del examen es B; los órganos colegiados podrán constituirse y adoptar acuerdos a distancia salvo que su reglamento interno lo excepcione — revisar en validación."
+  },
+  {
+    "q": "Según el art. 17 de la Ley 40/2015, en relación con los órganos colegiados:",
+    "o": [
+      "Cuando se asista a distancia, los acuerdos se entenderán adoptados en el lugar donde tenga la sede el órgano colegiado.",
+      "El régimen de convocatoria deberá prever una segunda convocatoria.",
+      "No podrá ser objeto de deliberación ningún asunto que figure en el orden del día.",
+      "Los miembros que voten en contra quedaran sujeto de la responsabilidad que pueda derivarse de los acuerdos."
+    ],
+    "c": 0,
+    "ref": "Art. 17 Ley 40/2015",
+    "exp": "En sesiones a distancia los acuerdos se entienden adoptados en el lugar donde tenga la sede el órgano colegiado."
+  },
+  {
+    "q": "Según el art. 17 de la Ley 40/2015, ¿Quiénes podrán dirigirse al Secretario de un órgano colegiado para que les sea expedida certificación de sus acuerdos?",
+    "o": [
+      "Únicamente sus miembros",
+      "Cualquier interesado",
+      "Quien alegue un interés legitimo",
+      "Quienes acrediten la titularidad de un interés legítimo"
+    ],
+    "c": 3,
+    "ref": "Art. 17 Ley 40/2015",
+    "exp": "Quienes acrediten la titularidad de un interés legítimo pueden solicitar certificación de los acuerdos."
+  },
+  {
+    "q": "Según el art. 18 de la Ley 40/2015, el fichero resultante de la grabación de la sesión de un órgano colegiado podrá acompañar al acta de las sesiones:",
+    "o": [
+      "Debiendo constar en el acta los puntos principales de las deliberaciones",
+      "Junto con la certificación expedida por el Secretario de la autenticidad e integridad del fichero",
+      "No pudiendo acompañarse ningún otro documento que hubiera dado soporte a la sesión",
+      "Necesitando el fichero el visto bueno del presidente"
+    ],
+    "c": 1,
+    "ref": "Art. 18 Ley 40/2015",
+    "exp": "El fichero se acompaña junto con la certificación del Secretario de su autenticidad e integridad."
+  },
+  {
+    "q": "Según el art. 18 de la Ley 40/2015, ¿Qué afirmación es incorrecta?",
+    "o": [
+      "El acta de cada sesión podrá aprobarse en la misma reunión o en la inmediata siguiente",
+      "Cuando se hubiese optado por la grabación de las sesiones o por documentos en soporte electrónico, deberán conservarse garantizando la integridad y autenticidad de los ficheros",
+      "El Secretario elaborará el acta sin el visto bueno del Presidente y lo remitirá a través de medios electrónicos a los miembros del órgano colegiado",
+      "Todas las anteriores afirmaciones son incorrectas"
+    ],
+    "c": 2,
+    "ref": "Art. 18 Ley 40/2015",
+    "exp": "Es incorrecta: el Secretario elabora el acta con el visto bueno del Presidente."
+  },
+  {
+    "q": "Según el art. 19 de la Ley 40/2015, ¿Con qué antelación deberán recibir los miembros del órgano colegiado la convocatoria conteniendo el orden del día de las reuniones?",
+    "o": [
+      "Con una antelación máxima de dos días",
+      "Con una antelación máxima de tres días",
+      "Con una antelación mínima de un día",
+      "Con una antelación mínima de dos días"
+    ],
+    "c": 3,
+    "ref": "Art. 19 Ley 40/2015",
+    "exp": "Con una antelación mínima de dos días."
+  },
+  {
+    "q": "Según el art. 19 de la Ley 40/2015, corresponde al presidente de un órgano colegiado:",
+    "o": [
+      "Acordar la mayoría necesaria para la adopción de acuerdos.",
+      "Efectuar las citaciones de los miembros de los órganos colegiados.",
+      "Visar las certificaciones de los acuerdos del órgano.",
+      "Velar por la legalidad formal y material de las actuaciones del órgano colegiado"
+    ],
+    "c": 2,
+    "ref": "Art. 19 Ley 40/2015",
+    "exp": "Corresponde al Presidente visar las actas y certificaciones de los acuerdos del órgano."
+  },
+  {
+    "q": "Según el art. 19 de la Ley 40/2015, los miembros del órgano colegiado que discrepen del acuerdo mayoritario:",
+    "o": [
+      "Podrán formular voto particular por escrito en el plazo de dos días.",
+      "Podrán formular voto particular por escrito en el plazo de tres días.",
+      "Podrán formular voto particular por escrito en el plazo de cuatro días.",
+      "Podrán formular voto particular por escrito en el plazo de un día."
+    ],
+    "c": 0,
+    "ref": "Art. 19 Ley 40/2015",
+    "exp": "El voto particular se formula por escrito en el plazo de dos días."
+  },
+  {
+    "q": "Según el art. 19 de la Ley 40/2015, ¿Qué figurará en el acta a solicitud de los respectivos miembros del órgano?",
+    "o": [
+      "El voto contrario al acuerdo adoptado",
+      "Los motivos de ausencia a la sesión",
+      "Las recusaciones formuladas",
+      "Figurará todo lo anterior"
+    ],
+    "c": 0,
+    "ref": "Art. 19 Ley 40/2015",
+    "exp": "A solicitud de los miembros figurará su voto contrario, abstención y motivos que la justifiquen."
+  },
+  {
+    "q": "Según el art. 20 de la Ley 40/2015, son órganos colegiados:",
+    "o": [
+      "Aquellos que se creen formalmente y estén integrados por dos o más personas, con funciones administrativas de decisión, propuesta, asesoramiento, seguimiento o control, que actúen integrados en la AGE o alguno de sus Organismos públicos",
+      "Aquellos que se creen formalmente y estén integrados por tres o más personas, con funciones administrativas de decisión, propuesta, asesoramiento, seguimiento o control, que actúen integrados en la AGE o alguno de sus Organismos públicos",
+      "Aquellos que se creen formalmente y estén integrados por tres o más personas, con funciones administrativas de decisión, propuesta, asesoramiento, seguimiento o control, y no actúen integrados en la AGE o alguno de sus Organismos públicos",
+      "Aquellos que se creen formalmente y estén integrados por tres o más personas, con funciones administrativas de decisión, propuesta, asesoramiento, seguimiento o control, que actúen integrados en la AGE o alguno de sus Organismos públicos o privados"
+    ],
+    "c": 1,
+    "ref": "Art. 20 Ley 40/2015",
+    "exp": "Son los creados formalmente e integrados por tres o más personas con esas funciones, integrados en la AGE o sus Organismos públicos."
+  },
+  {
+    "q": "Según el art. 21 de la Ley 40/2015, en los órganos colegiados interministeriales ¿podrá haber representantes de otras Administraciones Públicas?",
+    "o": [
+      "No",
+      "Solo, cuando exista convenio que así lo establezca",
+      "Cuando las administraciones lo acepten voluntariamente",
+      "Cuando una norma dictada por las Administraciones así lo determine"
+    ],
+    "c": 2,
+    "ref": "Art. 21 Ley 40/2015",
+    "exp": "Según la clave del examen es C; en los órganos interministeriales puede haber representantes de otras AAPP cuando estas lo acepten voluntariamente o conforme a convenio."
+  },
+  {
+    "q": "Según el art. 22 de la Ley 40/2015, la creación de órganos colegiados de la AGE y de sus Organismos públicos solo requerirá de norma específica, con publicación en el BOE, ¿En qué caso?",
+    "o": [
+      "Cuando se le atribuya competencias legislativas",
+      "Cuando se le atribuya competencia de propuesta o emisión de informes preceptivos que deban servir de base a decisiones de otros órganos administrativos",
+      "Cuando se le atribuya competencia de ejecución de las obligaciones de otros órganos de la Administración del Estado",
+      "En todos los casos anteriores"
+    ],
+    "c": 1,
+    "ref": "Art. 22 Ley 40/2015",
+    "exp": "Cuando se le atribuya competencia de propuesta o emisión de informes preceptivos base de decisiones de otros órganos, entre otros supuestos."
+  },
+  {
+    "q": "Según el art. 23 de la Ley 40/2015, es motivo de abstención de las autoridades y el personal al servicio de las Administraciones Públicas:",
+    "o": [
+      "Haber tenido cuestión litigiosa con algún interesado",
+      "Tener parentesco de afinidad dentro del cuarto grado con cualquiera de los interesados",
+      "Tener enemistad manifiesta con representantes legales que intervengan en el procedimiento",
+      "Haber intervenido como perito en cualquier procedimiento."
+    ],
+    "c": 2,
+    "ref": "Art. 23 Ley 40/2015",
+    "exp": "La enemistad manifiesta con interesados, representantes o peritos es motivo de abstención."
+  },
+  {
+    "q": "Según el art. 23 de la Ley 40/2015, si una autoridad tiene interés personal en el asunto de que se trate o en otro en cuya resolución pudiera influir la de aquél:",
+    "o": [
+      "Se abstendrán de intervenir en el procedimiento y lo comunicarán a su superior inmediato.",
+      "Lo comunicará al superior inmediato, continuando su intervención en el procedimiento",
+      "Se podrá abstener en el procedimiento, sin necesidad de comunicarlo a su superior inmediato",
+      "Lo comunicará a los interesados en el procedimiento, continuando su intervención en el mismo."
+    ],
+    "c": 0,
+    "ref": "Art. 23 Ley 40/2015",
+    "exp": "Se abstendrán de intervenir y lo comunicarán a su superior inmediato."
+  },
+  {
+    "q": "Según el art. 23 de la Ley 40/2015, ¿será motivo de abstención haber prestado servicio profesional a algún interesado directamente en el asunto en que esté interviniendo?",
+    "o": [
+      "Sí, si la relación profesional se mantuvo en los tres últimos años",
+      "No",
+      "Sí, si la relación profesional se mantuvo en los dos últimos años, en determinadas circunstancias previstas en la ley",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 23 Ley 40/2015",
+    "exp": "El art. 23 lo prevé para los dos últimos años en cualquier circunstancia, por lo que ninguna opción se ajusta exactamente."
+  },
+  {
+    "q": "Según el art. 24 de la Ley 40/2015, señale la respuesta correcta:",
+    "o": [
+      "En los casos previstos en la ley podrá promoverse recusación por los interesados en cualquier momento de la tramitación del procedimiento",
+      "La recusación se planteará por escrito o verbalmente y se expresará la causa o causas en que se funda.",
+      "Si el recusado niega la causa de recusación, el superior resolverá en el plazo de dos días, previo los informes y comprobaciones que considere oportuno",
+      "Contra las resoluciones adoptadas en materia de recusación, cabrá la interposición de los recursos administrativos correspondientes"
+    ],
+    "c": 0,
+    "ref": "Art. 24 Ley 40/2015",
+    "exp": "La recusación puede promoverse en cualquier momento de la tramitación; se plantea por escrito (no verbalmente) y no cabe recurso contra su resolución."
+  },
+  {
+    "q": "Según el art. 24 de la Ley 40/2015, si el recusado niega la causa de recusación, el superior resolverá en el plazo de:",
+    "o": [
+      "1 día",
+      "2 días",
+      "3 días",
+      "5 días"
+    ],
+    "c": 2,
+    "ref": "Art. 24 Ley 40/2015",
+    "exp": "El superior resuelve en el plazo de tres días."
+  },
+  {
+    "q": "Según el art. 24 de la Ley 40/2015, promovida la recusación, ¿En qué plazo el recusado manifestará a su inmediato superior si se da o no en él la causa alegada?",
+    "o": [
+      "Acto seguido",
+      "En los tres días siguientes",
+      "En el mismo día de promovida",
+      "En el día siguiente"
+    ],
+    "c": 3,
+    "ref": "Art. 24 Ley 40/2015",
+    "exp": "El recusado manifestará al día siguiente si se da o no la causa alegada."
+  },
+  {
+    "q": "Según el art. 24 de la Ley 40/2015, si el recusado manifiesta que se da causa de recusación, ¿Cómo actuará su superior?",
+    "o": [
+      "Si aprecia la concurrencia de la causa de recusación, acordará su sustitución en los tres días siguientes.",
+      "Si aprecia la concurrencia de la causa de recusación, acordará su sustitución acto seguido",
+      "Si aprecia la concurrencia de la causa de recusación, podrá acordar su sustitución acto seguido",
+      "Si aprecia la concurrencia de la causa de recusación, acordará su sustitución en el día siguiente"
+    ],
+    "c": 1,
+    "ref": "Art. 24 Ley 40/2015",
+    "exp": "El superior acordará su sustitución acto seguido si aprecia la concurrencia de la causa."
+  },
+  {
+    "q": "Según el art. 25 de la Ley 40/2015, ¿A quién corresponde el ejercicio de la potestad sancionadora?",
+    "o": [
+      "A los órganos administrativos que la tenga expresamente atribuida por disposición de rango legal",
+      "A los órganos administrativos que la tenga tácitamente atribuida por disposición de rango reglamentario",
+      "A y B son correctas",
+      "A y B son incorrectas."
+    ],
+    "c": 0,
+    "ref": "Art. 25 Ley 40/2015",
+    "exp": "Corresponde a los órganos administrativos que la tengan expresamente atribuida por disposición de rango legal o reglamentario."
+  },
+  {
+    "q": "Según el art. 25 de la Ley 40/2015, la potestad sancionadora de las Administraciones Públicas se ejercerá cuando haya sido expresamente reconocida:",
+    "o": [
+      "Por una autoridad gubernativa",
+      "Por cualquier norma del ordenamiento jurídico",
+      "Por una norma con rango de Ley",
+      "Por los tribunales"
+    ],
+    "c": 2,
+    "ref": "Art. 25 Ley 40/2015",
+    "exp": "Cuando haya sido expresamente reconocida por una norma con rango de Ley."
+  },
+  {
+    "q": "Según el art. 26 de la Ley 40/2015, las disposiciones sancionadoras, ¿Producirán efecto retroactivo?",
+    "o": [
+      "En ningún caso",
+      "Nunca respecto a sanciones pendiente de cumplimiento",
+      "En los casos en que no favorezca al presunto infractor",
+      "Nada de lo anterior es correcto."
+    ],
+    "c": 3,
+    "ref": "Art. 26 Ley 40/2015",
+    "exp": "Producen efecto retroactivo cuando favorecen al presunto infractor, por lo que las opciones anteriores son incorrectas."
+  },
+  {
+    "q": "Según el art. 26 de la Ley 40/2015, serán de aplicación las disposiciones sancionadoras vigentes en el momento de:",
+    "o": [
+      "Denunciarse los hechos que constituyan infracción administrativa",
+      "Producirse los hechos que constituyan infracción administrativa",
+      "Infringirse las obligaciones que constituyan infracción administrativa",
+      "Producirse los hechos que constituyan sanción administrativa"
+    ],
+    "c": 1,
+    "ref": "Art. 26 Ley 40/2015",
+    "exp": "Se aplican las vigentes en el momento de producirse los hechos que constituyan infracción administrativa."
+  },
+  {
+    "q": "Según el art. 27 de la Ley 40/2015, las infracciones administrativas, no se clasificarán en:",
+    "o": [
+      "Leves",
+      "Graves",
+      "Menos graves",
+      "Muy graves."
+    ],
+    "c": 2,
+    "ref": "Art. 27 Ley 40/2015",
+    "exp": "Se clasifican en leves, graves y muy graves, no en 'menos graves'."
+  },
+  {
+    "q": "Según el art. 27 de la Ley 40/2015, únicamente por la comisión de infracciones administrativas podrán imponerse sanciones que, en todo caso, estarán delimitadas por:",
+    "o": [
+      "Las disposiciones reglamentarias",
+      "La Ley",
+      "El Gobierno",
+      "Los Poderes públicos"
+    ],
+    "c": 1,
+    "ref": "Art. 27 Ley 40/2015",
+    "exp": "Las sanciones estarán delimitadas por la Ley."
+  },
+  {
+    "q": "Según el art. 27 de la Ley 40/2015, señale la afirmación incorrecta:",
+    "o": [
+      "Las normas definidoras de infracciones y sanciones serán susceptible de aplicación analógica",
+      "Las infracciones administrativas no se clasifican en leves, graves y menos graves",
+      "Las disposiciones reglamentarias de desarrollo, podrán introducir especificaciones o graduaciones al cuadro de las infracciones o sanciones establecidas legalmente, sin constituir nuevas infracciones o sanciones.",
+      "Todas las afirmaciones anteriores son incorrectas."
+    ],
+    "c": 0,
+    "ref": "Art. 27 Ley 40/2015",
+    "exp": "Es incorrecta: las normas de infracciones y sanciones NO son susceptibles de aplicación analógica."
+  },
+  {
+    "q": "Según el art. 28 de la Ley 40/2015, las leyes reguladoras de los distintos regímenes sancionadores podrán prever:",
+    "o": [
+      "Los sujetos sometidos a una relación de dependencia o vinculación",
+      "Los supuestos en que se aplicarán sanciones no pecuniarias a sujetos de características especiales.",
+      "Los supuestos en los que se podrá imponer la pena de privación de libertad",
+      "Los supuestos en que determinadas personas responderán del pago de las sanciones pecuniarias impuestas a quienes de ellas dependan o estén vinculados."
+    ],
+    "c": 3,
+    "ref": "Art. 28 Ley 40/2015",
+    "exp": "Pueden prever que determinadas personas respondan del pago de sanciones pecuniarias de quienes dependan de ellas."
+  },
+  {
+    "q": "Según el art. 28 de la Ley 40/2015, cuando el cumplimiento de una obligación establecida por norma con rango de Ley corresponda a varias personas conjuntamente, responderán:",
+    "o": [
+      "De forma solidaria de las infracciones que se cometan y de forma subsidiaria de las sanciones que se impongan.",
+      "De forma solidaria de las infracciones que se cometan y de las sanciones que se impongan.",
+      "De forma subsidiaria de las infracciones que se cometan y de las sanciones que se impongan.",
+      "Responderán solidariamente de las sanciones y mancomunadamente de las infracciones."
+    ],
+    "c": 1,
+    "ref": "Art. 28 Ley 40/2015",
+    "exp": "Responden solidariamente de las infracciones y de las sanciones que se impongan."
+  },
+  {
+    "q": "Según el art. 28 de la Ley 40/2015, las uniones y entidades sin personalidad jurídica sólo podrán ser sancionadas por hechos constitutivos de infracción administrativa:",
+    "o": [
+      "Cuando una autoridad les reconozca capacidad de obrar y hubieran actuado con dolo",
+      "Cuando una Ley les reconozca capacidad de obrar, resulten responsables de los mismos a título de dolo o culpa",
+      "Aún cuando una ley no les reconozca capacidad de obrar, resulten responsables de los mismos a título de dolo o culpa",
+      "Cuando una disposición reglamentaria les reconozca capacidad de obrar, resulten responsables de los mismos a título de dolo o culpa"
+    ],
+    "c": 1,
+    "ref": "Art. 28 Ley 40/2015",
+    "exp": "Cuando una Ley les reconozca capacidad de obrar y resulten responsables a título de dolo o culpa."
+  },
+  {
+    "q": "Según el art. 29 de la Ley 40/2015, las sanciones administrativas, sean o no de naturaleza pecuniaria:",
+    "o": [
+      "En ningún caso podrán implicar, directa o subsidiariamente, privación de libertad",
+      "En algún caso podrán implicar, directa o subsidiariamente, privación de libertad",
+      "En todo caso, podrán implicar subsidiariamente, privación de libertad",
+      "En algún caso, podrán implicar de forma directa privación de libertad"
+    ],
+    "c": 0,
+    "ref": "Art. 29 Ley 40/2015",
+    "exp": "En ningún caso pueden implicar, directa o subsidiariamente, privación de libertad."
+  },
+  {
+    "q": "Según el art. 29 de la Ley 40/2015, ¿Qué será sancionable como infracción continuada?",
+    "o": [
+      "La reincidencia, por comisión en el término de un año de más de una infracción de la misma naturaleza cuando así haya sido declarado por resolución firme en vía administrativa.",
+      "La comisión de una infracción cuando derive de otra cometida anteriormente",
+      "La realización de una pluralidad de acciones u omisiones que infrinjan el mismo o semejantes preceptos administrativos en ejecución de un plan preconcebido o aprovechando idéntica ocasión.",
+      "La comisión de tres infracciones consideradas muy grave en un periodo de tres meses."
+    ],
+    "c": 2,
+    "ref": "Art. 29 Ley 40/2015",
+    "exp": "Es la realización de una pluralidad de acciones u omisiones que infrinjan el mismo o semejantes preceptos en ejecución de un plan preconcebido."
+  },
+  {
+    "q": "Según el art. 30 de la Ley 40/2015, las infracciones muy graves prescribirán:",
+    "o": [
+      "A los tres años",
+      "Según lo dispuesto en las leyes que la establezcan",
+      "A los dos años",
+      "Al año"
+    ],
+    "c": 1,
+    "ref": "Art. 30 Ley 40/2015",
+    "exp": "Prescriben según lo dispuesto en las leyes que las establezcan, y en su defecto a los tres años."
+  },
+  {
+    "q": "Según el art. 30 de la Ley 40/2015, si las leyes que la establezcan no fijan plazo, ¿en qué plazo prescribirán las sanciones leves?",
+    "o": [
+      "A los seis meses",
+      "A los dos años",
+      "A los tres meses.",
+      "Al año"
+    ],
+    "c": 3,
+    "ref": "Art. 30 Ley 40/2015",
+    "exp": "Las sanciones por faltas leves prescriben al año en defecto de plazo legal."
+  },
+  {
+    "q": "Según el art. 30 de la Ley 40/2015, si las leyes que la establezcan no fijan plazo, ¿en qué plazo prescribirán las infracciones graves?",
+    "o": [
+      "A los seis meses",
+      "A los dos años",
+      "A los tres meses.",
+      "Al año"
+    ],
+    "c": 1,
+    "ref": "Art. 30 Ley 40/2015",
+    "exp": "Las infracciones graves prescriben a los dos años en defecto de plazo legal."
+  },
+  {
+    "q": "Según el art. 30 de la Ley 40/2015, ¿Cuándo comenzará a contarse el plazo de prescripción de las sanciones?",
+    "o": [
+      "Desde el día de comisión de la infracción",
+      "Desde el mismo día en que sea ejecutable la resolución por la que se impone la sanción",
+      "Desde el día siguiente que comience el plazo para recurrirla",
+      "Desde el día siguiente a aquel en que sea ejecutable la resolución por la que se impone la sanción."
+    ],
+    "c": 3,
+    "ref": "Art. 30 Ley 40/2015",
+    "exp": "Comienza desde el día siguiente a aquel en que sea ejecutable la resolución sancionadora o transcurrido el plazo para recurrirla."
+  },
+  {
+    "q": "Según el art. 30 de la Ley 40/2015, ¿Qué interrumpirá la prescripción de las sanciones?",
+    "o": [
+      "La iniciación, sin conocimiento del interesado, del procedimiento de ejecución",
+      "La finalización, con conocimiento del interesado, del procedimiento de ejecución",
+      "La iniciación, con conocimiento del interesado, del procedimiento de ejecución",
+      "La finalización, sin conocimiento del interesado, del procedimiento de ejecución"
+    ],
+    "c": 2,
+    "ref": "Art. 30 Ley 40/2015",
+    "exp": "Interrumpe la prescripción la iniciación, con conocimiento del interesado, del procedimiento de ejecución."
+  },
+  {
+    "q": "Según el art. 30 de la Ley 40/2015, ¿Cuándo volverá a transcurrir el plazo de prescripción de las sanciones?",
+    "o": [
+      "Si el procedimiento de ejecución está paralizado durante más de un mes por causa no imputable al infractor",
+      "Si el procedimiento de ejecución está paralizado durante más de dos meses por causa no imputable al infractor",
+      "Si el procedimiento de ejecución está paralizado durante más de un mes por causa imputable al infractor",
+      "Si el procedimiento de ejecución está paralizado durante más de dos meses por causa imputable al infractor"
+    ],
+    "c": 0,
+    "ref": "Art. 30 Ley 40/2015",
+    "exp": "Vuelve a transcurrir si el procedimiento está paralizado más de un mes por causa no imputable al infractor."
+  },
+  {
+    "q": "Según el art. 31 de la Ley 40/2015, no podrán sancionarse los hechos:",
+    "o": [
+      "Que hayan sido sancionado administrativamente en los casos en que no se aprecie identidad de sujeto, hecho y fundamento",
+      "Que hayan sido sancionado penalmente en los casos en que se aprecie identidad de sujeto, hecho y fundamento",
+      "A y B son correctas",
+      "A y B son incorrectas"
+    ],
+    "c": 1,
+    "ref": "Art. 31 Ley 40/2015",
+    "exp": "No podrán sancionarse los hechos ya sancionados penal o administrativamente cuando se aprecie identidad de sujeto, hecho y fundamento."
+  },
+  {
+    "q": "Según el art. 32 de la Ley 40/2015, los particulares tendrán derecho a ser indemnizados por las Administraciones Públicas en los casos:",
+    "o": [
+      "De lesión que sufran en sus bienes o derechos como consecuencia de fuerza mayor",
+      "Por daños que el particular tenga el deber jurídico de soportar.",
+      "De toda lesión que sufran en sus bienes y derechos como consecuencia de la aplicación de actos legislativos de naturaleza no expropiatoria de derechos que no tengan el deber jurídico de soportar cuando así se establezca en los propios actos legislativos.",
+      "Por la anulación en vía administrativa de disposiciones administrativa en todo caso."
+    ],
+    "c": 2,
+    "ref": "Art. 32 Ley 40/2015",
+    "exp": "Se indemnizan las lesiones derivadas de actos legislativos no expropiatorios que no se tenga el deber de soportar cuando así lo prevea el propio acto legislativo."
+  },
+  {
+    "q": "Según el art. 33 de la Ley 40/2015, cuando de la gestión dimanante de fórmulas conjuntas de actuación entre varias Administraciones públicas se derive responsabilidad, las Administraciones intervinientes responderán frente al particular, en todo caso:",
+    "o": [
+      "De forma subsidiaria",
+      "Atendiendo a criterio de competencia",
+      "En atención a lo solicitado por el perjudicado",
+      "De forma solidaria"
+    ],
+    "c": 3,
+    "ref": "Art. 33 Ley 40/2015",
+    "exp": "Responden de forma solidaria frente al particular."
+  },
+  {
+    "q": "Según el art. 34 de la Ley 40/2015, la indemnización se calculará con arreglo a los criterios de valoración establecidos en:",
+    "o": [
+      "Legislación Civil",
+      "La legislación Fiscal",
+      "La Legislación Presupuestaria.",
+      "La Legislación Social."
+    ],
+    "c": 1,
+    "ref": "Art. 34 Ley 40/2015",
+    "exp": "Según la clave del examen es B; el art. 34.2 remite a la legislación fiscal, de expropiación forzosa y demás normas aplicables."
+  },
+  {
+    "q": "Según el art. 34 de la Ley 40/2015, sólo serán indemnizables las lesiones producidas al particular provenientes de daños:",
+    "o": [
+      "Que éste no tenga el deber jurídico de soportar de acuerdo con la Ley",
+      "Que éste no tenga el deber jurídico de soportar de acuerdo con lo establecido por los Tribunales",
+      "Que éste tenga el deber jurídico de soportar de acuerdo con la ley",
+      "Que éste no tenga el deber jurídico de soportar de acuerdo con las disposiciones reglamentarias"
+    ],
+    "c": 0,
+    "ref": "Art. 34 Ley 40/2015",
+    "exp": "Solo son indemnizables los daños que el particular no tenga el deber jurídico de soportar de acuerdo con la Ley."
+  },
+  {
+    "q": "Según el art. 34 de la Ley 40/2015, la cuantía de la indemnización se calculará con referencia:",
+    "o": [
+      "Al día en que se denunció los hechos",
+      "Al día en que se violaron los derechos",
+      "Al día en que la lesión efectivamente se produjo",
+      "Al día en que la lesión comenzó a manifestarse"
+    ],
+    "c": 2,
+    "ref": "Art. 34 Ley 40/2015",
+    "exp": "Se calcula con referencia al día en que la lesión efectivamente se produjo."
+  },
+  {
+    "q": "Según el art. 36 de la Ley 40/2015, la Administración, cuando hubiere indemnizado a los lesionados, exigirá de oficio en vía administrativa de sus autoridades y personal la responsabilidad en que hubieran incurrido:",
+    "o": [
+      "Por dolo, o culpa o negligencia graves, mediante denuncia en los tribunales.",
+      "Solo por culpa o negligencia graves, previa instrucción del correspondiente procedimiento",
+      "Por dolo, o culpa o negligencia graves, previa instrucción del correspondiente procedimiento",
+      "Por dolo, o culpa o negligencia graves, mediante un periodo de información previa"
+    ],
+    "c": 2,
+    "ref": "Art. 36 Ley 40/2015",
+    "exp": "Se exige por dolo, culpa o negligencia graves, previa instrucción del correspondiente procedimiento."
+  },
+  {
+    "q": "Según el art. 39 de la Ley 40/2015, ¿Qué se entiende por portal de internet?",
+    "o": [
+      "La dirección electrónica disponible para los ciudadanos a través de redes de telecomunicaciones cuya titularidad corresponde a una Administración Pública",
+      "El punto de acceso electrónico cuya titularidad corresponde a una Administración Pública, organismo público o entidad de Derecho Público que permite el acceso a través de internet a la información publicada y, en su caso, a la sede electrónica correspondiente",
+      "Un dominio en internet cuya gestión corresponde a una Administración Pública, pero cuya titularidad pertenece a una entidad privada, que permite el acceso a información pública sin posibilidad de conexión a una sede electrónica.",
+      "Un entorno cerrado de comunicación cuya titularidad corresponde a una Administración Pública, organismo público o entidad de derecho Público."
+    ],
+    "c": 1,
+    "ref": "Art. 39 Ley 40/2015",
+    "exp": "El portal de internet es el punto de acceso electrónico que permite el acceso a la información publicada y, en su caso, a la sede electrónica."
+  },
+  {
+    "q": "Según el art. 38 de la Ley 40/2015, respecto a las sedes electrónicas ¿Qué deberá garantizarse en todo caso?",
+    "o": [
+      "La identificación de la Administración electrónica encargada de su mantenimiento",
+      "Los medios disponibles para la formulación de sugerencias y quejas",
+      "Canales de comunicación seguros",
+      "Su funcionamiento durante todos los días del año"
+    ],
+    "c": 1,
+    "ref": "Art. 38 Ley 40/2015",
+    "exp": "Deberá garantizarse en todo caso la identificación del titular y los medios disponibles para la formulación de sugerencias y quejas."
+  },
+  {
+    "q": "Según el art. 38 de la Ley 40/2015, en relación con la Sede electrónica:",
+    "o": [
+      "Conlleva la responsabilidad del titular respecto de la integridad, veracidad y actualización de la información y los servicios a los que pueda accederse a través de estas",
+      "La titularidad corresponde una Administración Pública exclusivamente.",
+      "La publicación en las sedes electrónicas de informaciones, servicios y transacciones respetará los principios de sigilo y confidencialidad y uso de acuerdo con estándares cerrados",
+      "Dispondrán de sistemas que permitan el establecimiento de comunicaciones seguras, aunque no sean necesarias."
+    ],
+    "c": 0,
+    "ref": "Art. 38 Ley 40/2015",
+    "exp": "La sede electrónica conlleva la responsabilidad del titular respecto de la integridad, veracidad y actualización de la información y servicios."
+  },
+  {
+    "q": "Según el art. 41 de la Ley 40/2015, ¿Qué se entiende por actuación administrativa automatizada?",
+    "o": [
+      "Aquel sistema de identificación de las Administraciones Públicas en el que no interviene de forma directa un empleado público",
+      "Cualquier acto o actuación realizada íntegra o parcialmente a través de medios electrónicos por una Administración Pública en el marco de un procedimiento administrativo y en la que no haya intervenido de forma directa un empleado público.",
+      "Cualquier acto o actuación realizada íntegramente a través de medios electrónicos por una Administración Pública en el marco de un procedimiento administrativo y en la que no haya intervenido de forma directa un empleado público.",
+      "Los soportes de información en el que se almacena documentos generados electrónicamente por las Administraciones Públicas."
+    ],
+    "c": 2,
+    "ref": "Art. 41 Ley 40/2015",
+    "exp": "Es cualquier acto o actuación realizada íntegramente a través de medios electrónicos sin intervención directa de un empleado público."
+  },
+  {
+    "q": "Según el art. 40 de la Ley 40/2015, se entenderá identificada la Administración Pública:",
+    "o": [
+      "Respecto de la información que se publique como propia en su tablón electrónico",
+      "Respecto de la información que se publique como propia en su sede electrónica",
+      "Respecto de la información que se publique como propia en un entorno cerrado de comunicación.",
+      "Respecto de la información que se publique como propia en su portal de internet"
+    ],
+    "c": 3,
+    "ref": "Art. 40 Ley 40/2015",
+    "exp": "Se entiende identificada respecto de la información que publique como propia en su portal de internet."
+  },
+  {
+    "q": "Según el art. 43 de la Ley 40/2015, la actuación de una administración pública, órgano, organismo público o entidad de derecho público, cuando utilice medios electrónicos, se realizará mediante:",
+    "o": [
+      "Firma electrónica del titular del órgano",
+      "Firma manuscrita del empleado público",
+      "A y B son correctas",
+      "A y B son incorrectas."
+    ],
+    "c": 0,
+    "ref": "Art. 43 Ley 40/2015",
+    "exp": "Se realizará mediante firma electrónica del titular del órgano o empleado público."
+  },
+  {
+    "q": "Según el art. 46 de la Ley 40/2015, todos los documentos utilizados en las actuaciones administrativas se almacenarán:",
+    "o": [
+      "En soporte papel, salvo que no sea posible",
+      "Por medios electrónicos, salvo cuando no sea posible",
+      "Siempre, por medios electrónicos",
+      "Por medios mecánicos, excepto los que deban conservarse por medios electrónicos"
+    ],
+    "c": 1,
+    "ref": "Art. 46 Ley 40/2015",
+    "exp": "Se almacenan por medios electrónicos, salvo cuando no sea posible."
+  },
+  {
+    "q": "Según el art. 46 de la Ley 40/2015, los medios o soportes en que se almacenen documentos deberán contar con medidas de seguridad, de acuerdo con lo previsto:",
+    "o": [
+      "La ley de protección de datos",
+      "El esquema nacional de interoperabilidad",
+      "El esquema nacional de seguridad",
+      "El esquema europeo de seguridad"
+    ],
+    "c": 2,
+    "ref": "Art. 46 Ley 40/2015",
+    "exp": "De acuerdo con lo previsto en el Esquema Nacional de Seguridad."
+  }
 ]
