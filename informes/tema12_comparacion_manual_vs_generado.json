@@ -1,0 +1,211 @@
+Coincidencias con misma respuesta: 64
+Coincidencias con respuesta DISTINTA: 23
+[
+  {
+    "i": 0,
+    "best": 0,
+    "score": "0.68",
+    "manualQ": "Según el art. 1 del RD 822/2021 por el que se establece la organización de las enseñanzas universitarias, ¿Qué tiene por objeto la mencionada norma?",
+    "manualC": "El establecimiento de la organización y la estructura de las enseñanzas universitarias, a partir de los principios generales que definen el Espacio Europeo de Educación Superior (EEES)",
+    "nuevoQ": "Según el art. 1 del RD 822/2021, ¿qué tiene por objeto la mencionada norma?",
+    "nuevoC": "El establecimiento de la organización y la estructura de las enseñanzas universitarias"
+  },
+  {
+    "i": 5,
+    "best": 2,
+    "score": "0.83",
+    "manualQ": "Según el art. 3 del RD 822/2021 por el que se establece la organización de las enseñanzas universitarias, ¿Cómo se estructuran los estudios universitarios que conducen a la obtención de títulos oficiales impartidos por las universidades?",
+    "manualC": "Ciclos",
+    "nuevoQ": "Según el art. 3 del RD 822/2021, los estudios universitarios que conducen a la obtención de títulos oficiales impartidos por las universidades, ¿en qué se estructuran?",
+    "nuevoC": "En tres ciclos, denominados respectivamente Grado, Master, Doctorado"
+  },
+  {
+    "i": 10,
+    "best": 3,
+    "score": "0.73",
+    "manualQ": "Según el art. 3 del RD 822/2021 por el que se establece la organización de las enseñanzas universitarias, todos los títulos universitarios oficiales de Grado y de Máster Universitario deberán adscribirse a:",
+    "manualC": "A un campo de estudio",
+    "nuevoQ": "Según el art. 3 del RD 822/2021, todos los títulos universitarios oficiales de Grado y de Máster Universitario, ¿a qué deberán adscribirse?",
+    "nuevoC": "A uno de los campos de estudio relacionados en el anexo I"
+  },
+  {
+    "i": 15,
+    "best": 60,
+    "score": "0.68",
+    "manualQ": "Según el art. 5 del RD 822/2021 por el que se establece la organización de las enseñanzas universitarias, ¿Qué estructuran los planes de estudio?",
+    "manualC": "Los conocimientos y contenidos que se pretenden transmitir",
+    "nuevoQ": "Según el art. 5 del RD 822/2021, los planes de estudios de las enseñanzas universitarias serán elaborados por:",
+    "nuevoC": "Las Universidades"
+  },
+  {
+    "i": 20,
+    "best": 9,
+    "score": "0.85",
+    "manualQ": "Según el art. 5 del RD 822/2021 que establece la organización de las enseñanzas, las universidades españolas, o con otra u otras extranjeras, podrán proponer un plan de estudios conjunto conducente a un título universitario oficial:",
+    "manualC": "De Grado, Master Universitario y Doctorado",
+    "nuevoQ": "Según el art. 5 del RD 822/2021, las universidades españolas, o con otra u otras extranjeras, podrán proponer un plan de estudios conjunto conducente a un título universitario oficial de Grado, Máster Universitario o Doctorado:",
+    "nuevoC": "Mediante la firma de un Convenio"
+  },
+  {
+    "i": 25,
+    "best": 65,
+    "score": "0.78",
+    "manualQ": "Según el art. 7 del RD 822, que establece la organización de las enseñanzas, las Universidades podrán implantar los planes de estudios de las titulaciones universitarias oficiales:",
+    "manualC": "De forma simultánea para varios cursos",
+    "nuevoQ": "Según el art. 7 del RD 822/2021, ¿cómo podrán implantar las Universidades los planes de estudios de las titulaciones universitarias oficiales?",
+    "nuevoC": "Progresiva, curso a curso"
+  },
+  {
+    "i": 28,
+    "best": 42,
+    "score": "0.67",
+    "manualQ": "Según el art. 8 del RD 822/2021 que establece la organización de las enseñanzas, ¿qué es correcto afirmar?",
+    "manualC": "Los títulos universitarios de grado, tienen carácter oficial, son validos en España, y en el caso de que así resulte de la normativa aplicable, habilitan para el ejercicio de determinadas profesiones reguladas",
+    "nuevoQ": "Según el art. 19 del RD 822/2021, ¿cuál es la finalidad de las enseñanzas de Doctorado?",
+    "nuevoC": "La adquisición de las competencias y las habilidades concernientes con la investigación universitaria de calidad y su desarrollo"
+  },
+  {
+    "i": 30,
+    "best": 68,
+    "score": "0.93",
+    "manualQ": "Según el art. 9 del RD 822/2021 que establece la organización de las enseñanzas, el conjunto de actividades académicas que desarrolla el o la estudiante en las enseñanzas de Grado y Máster se medirá:",
+    "manualC": "En créditos que siguen el formato del Sistema ECTS",
+    "nuevoQ": "Según el art. 9 del RD 822/2021, el conjunto de actividades académicas que desarrolla el o la estudiante en las enseñanzas de Grado y Máster se medirá en:",
+    "nuevoC": "Créditos"
+  },
+  {
+    "i": 31,
+    "best": 165,
+    "score": "0.79",
+    "manualQ": "Según el art. 9 del RD 822/2021 que establece la organización de las enseñanzas, el conjunto de actividades académicas que desarrolla el o la estudiante en las enseñanzas de Grado y Máster podrán tener lugar en:",
+    "manualC": "Espacios lectivos virtuales",
+    "nuevoQ": "Según el art. 9 del RD 822/2021, el conjunto de actividades académicas que desarrolla el estudiante en las enseñanzas de Grado y Máster podrán:",
+    "nuevoC": "Ser actividades que se realicen de forma autónoma"
+  },
+  {
+    "i": 32,
+    "best": 72,
+    "score": "0.83",
+    "manualQ": "Según el art. 9 del RD 822/2021 que establece la organización de las enseñanzas, las actividades académicas de cada materia o asignatura deberán ser calificadas:",
+    "manualC": "A tenor del nivel de aprendizaje de los conocimientos, competencias y habilidades que la o el estudiante haya alcanzado.",
+    "nuevoQ": "Según el art. 9 del RD 822/2021, las actividades académicas de cada materia o asignatura de las enseñanzas de grado y máster deberán ser calificadas y expresadas:",
+    "nuevoC": "De forma numérica"
+  },
+  {
+    "i": 33,
+    "best": 16,
+    "score": "0.75",
+    "manualQ": "Según el art. 9 del RD 822/2021 que establece la organización de las enseñanzas, las actividades académicas de cada materia o asignatura deberán ser expresada de:",
+    "manualC": "De forma numérica",
+    "nuevoQ": "Según el art. 9 del RD 822/2021, las actividades académicas de cada materia o asignatura deberán ser calificadas:",
+    "nuevoC": "A tenor del nivel de aprendizaje de los conocimientos, competencias y habilidades que la o el estudiante haya alcanzado"
+  },
+  {
+    "i": 40,
+    "best": 79,
+    "score": "0.78",
+    "manualQ": "Según el art. 11 del RD 822/2021 que establece la organización de las enseñanzas, ¿Quién garantizará el carácter plenamente formativo de las prácticas académicas externa y que las condiciones de realización de las prácticas por parte del estudiantado sean adecuadas y sujetas a su interés formativo primordial?",
+    "manualC": "La Universidad",
+    "nuevoQ": "Según el art. 11 del RD 822/2021, ¿quién garantizará que las condiciones de realización de las prácticas por parte del estudiantado sean adecuadas y sujetas a su interés formativo primordial?",
+    "nuevoC": "Las Universidades"
+  },
+  {
+    "i": 41,
+    "best": 80,
+    "score": "0.85",
+    "manualQ": "Según el art. 11 del RD 822/2021 que establece la organización de las enseñanzas, la realización de las prácticas académicas externas exigirá la:",
+    "manualC": "La suscripción de un Convenio de Cooperación Educativa entre la universidad, o sus centros propios y adscritos, y las entidades, empresas, organizaciones sociales y sindicales o la administración",
+    "nuevoQ": "Según el art. 11 del RD 822/2021, ¿qué se exigirá para la realización de las prácticas académicas externas?",
+    "nuevoC": "La suscripción de un convenio de Cooperación"
+  },
+  {
+    "i": 50,
+    "best": 110,
+    "score": "0.61",
+    "manualQ": "Según el art. 3 del Real Decreto 822/2021, de 28 de septiembre por el que se establece la organización de las enseñanzas universitarias, todos los títulos universitarios oficiales de Grado y de Máster Universitario ¿A qué deberán adscribirse?",
+    "manualC": "A uno de los campos de estudio relacionados en el anexo I",
+    "nuevoQ": "Según el art. 3 del RD 822/2021, todos los títulos universitarios oficiales de Grado y de Máster Universitario deberán adscribirse a:",
+    "nuevoC": "A un campo de estudio"
+  },
+  {
+    "i": 60,
+    "best": 6,
+    "score": "0.67",
+    "manualQ": "Según el art. 5 del Real Decreto 822/2021, de 28 de septiembre por el que se establece la organización de las enseñanzas universitarias, el plan de estudios en las enseñanzas de Grado y de Máster Universitario se estructura en cursos de:",
+    "manualC": "60 créditos",
+    "nuevoQ": "Según el art. 5 del RD 822/2021, el plan de estudios en las enseñanzas de Grado, de Máster Universitario y Doctorado, se estructura en cursos de:",
+    "nuevoC": "Nada de lo anterior es correcto"
+  },
+  {
+    "i": 68,
+    "best": 12,
+    "score": "0.62",
+    "manualQ": "Según el art. 7 del Real Decreto 822/2021, de 28 de septiembre por el que se establece la organización de las enseñanzas universitarias, las universidades podrán implantar los planes de estudios de las titulaciones universitarias oficiales:",
+    "manualC": "De forma progresiva, curso a curso",
+    "nuevoQ": "Según el art. 7 del RD 822/2021, las universidades podrán implantar de forma progresiva o simultánea los planes de estudios de las titulaciones universitarias oficiales, de acuerdo con:",
+    "nuevoC": "La temporalidad prevista en la memoria presentada en el proceso de verificación"
+  },
+  {
+    "i": 73,
+    "best": 126,
+    "score": "0.66",
+    "manualQ": "Según el art. 9 del Real Decreto 822/2021, de 28 de septiembre por el que se establece la organización de las enseñanzas universitarias, el conjunto de actividades académicas que desarrolla el o la estudiante en las enseñanzas de Grado y Máster podrán:",
+    "manualC": "Ser actividades que se realicen de forma autónoma",
+    "nuevoQ": "Según el art. 9 del RD 822/2021, el conjunto de actividades académicas que desarrolla el estudiante en las enseñanzas de Grado y Máster se medirá:",
+    "nuevoC": "En créditos que siguen el formato del Sistema ECTS"
+  },
+  {
+    "i": 89,
+    "best": 83,
+    "score": "0.63",
+    "manualQ": "Según el art. 13 del Real Decreto 822/2021, de 28 de septiembre por el que se establece la organización de las enseñanzas universitarias, las enseñanzas oficiales de Grado, tienen como objetivo fundamental:",
+    "manualC": "La formación básica y generalista del y la estudiante en las diversas disciplinas del saber científico, tecnológico, humanístico y artístico.",
+    "nuevoQ": "Según el art. 13 del RD 822/2021, ¿qué tienen como objetivo fundamental las enseñanzas oficiales de grado?",
+    "nuevoC": "La formación básica y generalista del y la estudiante"
+  },
+  {
+    "i": 95,
+    "best": 31,
+    "score": "0.81",
+    "manualQ": "Según el art. 14 del RD 822/2021 que establece la organización de las enseñanzas, los planes de estudios conducentes a la obtención de un título de Graduada o Graduado tendrán:",
+    "manualC": "240 créditos ECTS, salvo aquellos que estén sujetos a legislación específica.",
+    "nuevoQ": "Según el art. 14 del RD 822/2021, los planes de estudios conducentes a la obtención de un título de Graduada o Graduado, tendrán:",
+    "nuevoC": "300 o 360 créditos aquellos que estén sujetos a legislación específica o por las normas del Derecho de la Unión Europea"
+  },
+  {
+    "i": 112,
+    "best": 38,
+    "score": "0.79",
+    "manualQ": "Según el art. 17 del RD 822/2021 que establece la organización de las enseñanzas, los planes de estudios conducentes a la obtención de un título de Máster Universitario no contarán con:",
+    "manualC": "30 créditos",
+    "nuevoQ": "Según el art. 17 del RD 822/2021, los planes de estudios conducentes a la obtención de un título de Máster Universitario contarán con:",
+    "nuevoC": "60, 90 o 120 créditos ECTS"
+  },
+  {
+    "i": 113,
+    "best": 39,
+    "score": "0.81",
+    "manualQ": "Según el art. 17 del RD 822/2021 que establece la organización de las enseñanzas, todos los planes de estudios de Máster Universitario incluirán un trabajo de fin de Máster, que podrá contar:",
+    "manualC": "Con un mínimo de 6 créditos ECTS y un máximo de 30",
+    "nuevoQ": "Según el art. 17 del RD 822/2021, todos los planes de estudios de Máster Universitario incluirán un trabajo de fin de Máster que podrá contar con un máximo de:",
+    "nuevoC": "24 créditos"
+  },
+  {
+    "i": 115,
+    "best": 97,
+    "score": "0.83",
+    "manualQ": "Según el art. 18 del RD 822/2021 que establece la organización de las enseñanzas, las universidades podrán, excepcionalmente, establecer procedimientos de matrícula condicionada para el acceso a un Máster Universitario a partir de:",
+    "manualC": "Normativas específicas aprobadas por sus órganos de gobierno",
+    "nuevoQ": "Según el art. 18 del RD 822/2021, las universidades podrán excepcionalmente establecer procedimientos de matrícula condicionada para el acceso a un Máster Universitario a partir de normativas específicas aprobadas por:",
+    "nuevoC": "Los órganos de gobierno de la Universidad"
+  },
+  {
+    "i": 116,
+    "best": 206,
+    "score": "0.68",
+    "manualQ": "Según el art. 19 del RD 822/2021 que establece la organización de las enseñanzas, ¿Cuál es la finalidad de las enseñanzas de Doctorado?",
+    "manualC": "La adquisición de las competencias y las habilidades concernientes con la investigación universitaria de calidad y su desarrollo",
+    "nuevoQ": "Según el art. 19 del RD 822/2021, ¿desde qué enfoque se organizan las enseñanzas de Doctorado?",
+    "nuevoC": "Interdisciplinar del conocimiento"
+  }
+]
