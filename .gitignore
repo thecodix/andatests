@@ -24,3 +24,21 @@ Thumbs.db
 # Node
 node_modules/
 .cache/
+
+# Infraestructura de generación de preguntas (no forma parte del repo público)
+.claude/
+.env.example
+CLAUDE.md
+agente-preguntas.md
+instrucciones.md
+ejemplo.json
+lib/
+package.json
+package-lock.json
+pdfs/
+scripts/
+tests_audit/
+banco/corrections_tema1.json
+banco/corrections2_tema1.json
+banco/corrections3_tema1.json
+banco/tema1_old.json

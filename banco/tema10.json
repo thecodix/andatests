@@ -1,1 +1,3014 @@
-[]
+[
+  {
+    "q": "Según el art. 2 de la LOSU, el servicio público de la educación superior, el sistema universitario:",
+    "o": [
+      "Solo lo presta",
+      "Lo protege y además lo garantiza",
+      "Lo presta y lo garantiza",
+      "El sistema universitario, no realiza nada de lo anterior"
+    ],
+    "c": 2,
+    "ref": "Art. 2 LOSU",
+    "exp": "El sistema universitario presta y garantiza el servicio público de la educación superior."
+  },
+  {
+    "q": "Según el art. 2 de la LOSU, es una función de la Universidad:",
+    "o": [
+      "La contribución al bienestar social, al progreso económico y a la cohesión de la sociedad y del entorno territorial, así como a la promoción de las lenguas oficiales, a través de la formación, la investigación, la transferencia e intercambio del conocimiento y la cultura del emprendimiento, a partir de acuerdos y convenios suscritos con el resto de administraciones públicas",
+      "La transferencia e intercambio del conocimiento y de la cultura al conjunto de la sociedad a través de la creación de espacios de pensamiento crítico",
+      "El fomento de la participación de la comunidad universitaria y de la ciudadanía en actividades promovidas por formulas societarias convencionales",
+      "Ninguna de las anteriores es una función de la Universidad"
+    ],
+    "c": 3,
+    "ref": "Art. 2 LOSU",
+    "exp": "Las opciones a, b y c contienen alteraciones respecto al texto legal de las funciones; según la clave la correcta es 'Ninguna de las anteriores'."
+  },
+  {
+    "q": "Según el art. 2 de la LOSU, el ejercicio de las funciones de la Universidad no tendrá por referente:",
+    "o": [
+      "La memoria democrática",
+      "La promoción de la solidaridad",
+      "El impulso de la sostenibilidad",
+      "Los valores que se desprenden de los Objetivos de Desarrollo Sostenible"
+    ],
+    "c": 1,
+    "ref": "Art. 2.3 LOSU",
+    "exp": "La 'promoción de la solidaridad' no figura entre los referentes del art. 2.3 (derechos humanos y fundamentales, memoria democrática, equidad e igualdad, sostenibilidad, cambio climático y ODS); por eso es la que NO es referente (B)."
+  },
+  {
+    "q": "Según el art. 3 de la LOSU, ¿qué comprende la autonomía universitaria?",
+    "o": [
+      "La creación de organismos y entidades que actúen como apoyo para sus actividades",
+      "La formación de la ciudadanía a través de la transmisión de los valores y principios democráticos",
+      "La autonomía política y financiera",
+      "Comprende todo lo anterior"
+    ],
+    "c": 0,
+    "ref": "Art. 3 LOSU",
+    "exp": "La autonomía comprende la determinación de su organización y estructuras, incluida la creación de organismos de apoyo."
+  },
+  {
+    "q": "Según el art. 3 de la LOSU, ¿qué no comprende la autonomía universitaria?",
+    "o": [
+      "La elaboración de sus Estatutos",
+      "La elaboración de normas de régimen interno",
+      "El establecimiento de sus relaciones de puestos de trabajo o plantillas, y su eventual modificación",
+      "La definición, estructuración y desarrollo de sistemas internos de garantía de sus actividades económicas"
+    ],
+    "c": 3,
+    "ref": "Art. 3 LOSU",
+    "exp": "Los sistemas internos de garantía son de la calidad de las actividades académicas, no de las actividades económicas."
+  },
+  {
+    "q": "Según el art. 3 de la LOSU, ¿qué garantiza la libertad de cátedra del profesorado?",
+    "o": [
+      "La suficiencia económica",
+      "La autonomía universitaria",
+      "La autonomía económica y financiera",
+      "La estabilidad financiera"
+    ],
+    "c": 1,
+    "ref": "Art. 3 LOSU",
+    "exp": "La autonomía universitaria garantiza la libertad de cátedra del profesorado."
+  },
+  {
+    "q": "Según el art. 4 de la LOSU, ¿Qué afirmación es cierta?",
+    "o": [
+      "El reconocimiento de Universidades privadas se llevará a cabo por ley de la Asamblea Legislativa de la Comunidad Autónoma en cuyo territorio vaya a ubicarse, previo informe facultativo de la Conferencia General de Política Universitaria",
+      "La creación de Universidades públicas se llevará a cabo por ley de las Cortes Generales a propuesta del Gobierno, de acuerdo con el Consejo de Gobierno de la Comunidad Autónoma, cuando se trate de universidades de especiales características, previo informe preceptivo del ministerio de Universidades",
+      "La creación de Universidades públicas se llevará a cabo por ley de las Cortes Generales a propuesta del Gobierno, de acuerdo con el Ministerio de Universidades, cuando se trate de universidades de especiales características, previo informe preceptivo de la Conferencia General de Política Universitaria",
+      "El reconocimiento de Universidades privadas se llevará a cabo por ley del Consejo de Gobierno de la Comunidad Autónoma en cuyo territorio vaya a ubicarse, previo informe preceptivo de la Conferencia General de Política Universitaria"
+    ],
+    "c": 2,
+    "ref": "Art. 4 LOSU",
+    "exp": "Según la clave la correcta es C; el informe preceptivo corresponde a la Conferencia General de Política Universitaria."
+  },
+  {
+    "q": "Según el art. 4 de la LOSU, como requisito para la creación y reconocimiento de Universidades, las Universidades deberán contar con:",
+    "o": [
+      "Medidas de prevención y respuesta frente a la violencia, la discriminación o el acoso amparadas en la Ley 3/2022, de 24 de febrero, de convivencia universitaria",
+      "Medidas incentivadoras de la brecha salarial de mujeres y hombres",
+      "Condiciones de invisibilidad y ajustes razonables para las personas con discapacidad",
+      "Planes que garanticen la igualdad de género solo en las actividades previstas por sus órganos de gobierno"
+    ],
+    "c": 0,
+    "ref": "Art. 4 LOSU",
+    "exp": "Deberán contar con medidas de prevención y respuesta frente a la violencia, discriminación o acoso amparadas en la Ley 3/2022."
+  },
+  {
+    "q": "Según el art. 5 de la LOSU, las universidades garantizarán la calidad académica de las actividades de sus centros:",
+    "o": [
+      "Mediante la evaluación del profesorado",
+      "A través de los sistemas internos de garantía de calidad",
+      "A través de la ANECA",
+      "A través de los sistemas compartidos por las Universidades, las Agencias de Evaluación y las Administraciones públicas con competencias en estas materias"
+    ],
+    "c": 1,
+    "ref": "Art. 5 LOSU",
+    "exp": "La calidad académica de sus centros se garantiza mediante los sistemas internos de garantía de calidad."
+  },
+  {
+    "q": "Según el art. 5 de la LOSU, las agencias de evaluación, en el caso de contar con más de 50 trabajadores deberán contar con:",
+    "o": [
+      "Una autorización especial del gobierno",
+      "Una acreditación institucional del Espacio Europeo de Educación superior",
+      "Un plan de igualdad relativo a su organización",
+      "Un programa contra la brecha salarial"
+    ],
+    "c": 2,
+    "ref": "Art. 5 LOSU",
+    "exp": "Con más de 50 personas trabajadoras deberán contar con un plan de igualdad relativo a su organización."
+  },
+  {
+    "q": "Según el art. 5 de la LOSU, ¿Cuándo se publicarán los estatutos de las Universidades, únicamente en el Boletín oficial del Estado?",
+    "o": [
+      "Cuando deban ser aprobados por real decreto del Consejo de Ministros y por consejo de gobierno de la Comunidad Autónoma",
+      "Cuando sólo deban ser aprobados por Ley de las Cortes Generales por tratarse de una universidad de las previstas en el artículo 4.1.b)",
+      "Cuando sólo deban ser aprobados por real decreto del Consejo de Ministros por tratarse de una universidad de las previstas en el artículo 4.1.b)",
+      "Cuando la Universidad haya sido creada por Ley de la Asamblea legislativa de las Comunidades Autónomas a propuesta del Consejo de Ministros por tratarse de una universidad de las previstas en el artículo 4.1.b)"
+    ],
+    "c": 2,
+    "ref": "Art. 5 LOSU",
+    "exp": "Se publican solo en el BOE cuando deban aprobarse por real decreto del Consejo de Ministros (universidades del art. 4.1.b)."
+  },
+  {
+    "q": "Según el art. 5 de la LOSU, es cierto que:",
+    "o": [
+      "Los acuerdos del consejo de Estudiante, no ponen fin a la vía administrativa",
+      "Las resoluciones del Rector/a no pueden ser impugnadas directamente ante la jurisdicción contencioso-administrativa",
+      "Los acuerdos del Consejo de Gobierno, no ponen fin a la vía administrativa",
+      "El previo recurso de reposición contra un acuerdo del Consejo Social, no puede ser sustituido por cualquiera de los procedimientos recogidos en el 112.2 de la Ley de Procedimiento administrativo"
+    ],
+    "c": 0,
+    "ref": "Art. 5 LOSU",
+    "exp": "Según la clave la correcta es A. Cabe revisar la referencia del artículo en validación."
+  },
+  {
+    "q": "Según el art. 39 de la LOSU, sobre qué aspecto, en particular, las Universidades deberán establecer en sus Estatutos los mecanismos de rendición de cuentas:",
+    "o": [
+      "La calidad y evaluación de la docencia",
+      "La rentabilidad de los servicios universitario",
+      "El cumplimiento de los principios éticos",
+      "La transparencia"
+    ],
+    "c": 0,
+    "ref": "Art. 39 LOSU",
+    "exp": "Según la clave la correcta es A, mecanismos de rendición de cuentas sobre la calidad y evaluación de la docencia."
+  },
+  {
+    "q": "Según el art. 39 de la LOSU, las universidades deberán contar con un portal de transparencia y garantizar el derecho de acceso, ¿A qué información?",
+    "o": [
+      "A la prevista en la legislación Universitaria",
+      "A la institucionalmente relevante",
+      "A la solicitada por los usuarios",
+      "A la permitida por la ley de transparencia"
+    ],
+    "c": 1,
+    "ref": "Art. 39 LOSU",
+    "exp": "Garantizarán el derecho de acceso a toda la información institucionalmente relevante."
+  },
+  {
+    "q": "Según el art. 39 de la LOSU, las universidades velarán:",
+    "o": [
+      "Por los principios de integridad económica",
+      "Por la transferencia del conocimiento",
+      "Por las directrices antifraude",
+      "Por ningún aspecto de los anteriores"
+    ],
+    "c": 2,
+    "ref": "Art. 39 LOSU",
+    "exp": "Velarán por el cumplimiento de los principios éticos y las directrices antifraude."
+  },
+  {
+    "q": "Según el art. 40 de la LOSU, en Facultades, ¿Podrán estructurarse las Universidades?",
+    "o": [
+      "Si, de acuerdo con su ley de creación",
+      "Deberán estructurarse",
+      "Sí, según lo determine sus estatutos",
+      "No"
+    ],
+    "c": 2,
+    "ref": "Art. 40 LOSU",
+    "exp": "Podrán estructurarse en Facultades según lo determinen sus estatutos."
+  },
+  {
+    "q": "Según el art. 40 de la LOSU, los centros y estructura de la Universidad deberán fomentar:",
+    "o": [
+      "La investigación científica, tecnológica y humanística",
+      "El intercambio y la interculturalidad",
+      "La gestión administrativa descentralizada",
+      "La cooperación, la multidisciplinariedad y la interdisciplinariedad"
+    ],
+    "c": 3,
+    "ref": "Art. 40 LOSU",
+    "exp": "Deberán fomentar la cooperación, la multidisciplinariedad y la interdisciplinariedad."
+  },
+  {
+    "q": "Según el art. 41 de la LOSU, la creación, modificación y supresión de facultades y escuelas serán acordadas por la Comunidad Autónoma, a iniciativa de la universidad, mediante:",
+    "o": [
+      "Reglamento",
+      "Propuesta",
+      "Acuerdo",
+      "Resolución"
+    ],
+    "c": 1,
+    "ref": "Art. 41 LOSU",
+    "exp": "Se acuerdan por la Comunidad Autónoma a iniciativa de la universidad mediante propuesta."
+  },
+  {
+    "q": "Según el art. 41 de la LOSU, respecto a los Departamentos, ¿Qué le corresponde a la Universidad?",
+    "o": [
+      "Solo su modificación",
+      "Su creación y supresión, conforme, con la Comunidad Autónoma",
+      "La creación modificación y supresión, de acuerdo con lo estipulado por el Ministerio de Universidades",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 41 LOSU",
+    "exp": "Según la clave la correcta es D; la creación, modificación y supresión de departamentos corresponde a la Universidad conforme a sus estatutos."
+  },
+  {
+    "q": "Según el art. 42 de la LOSU, ¿Quién establecerá los requisitos básicos que deben cumplir los centros adscritos?",
+    "o": [
+      "El convenio de adscripción",
+      "Los Estatutos de la Universidad",
+      "El Gobierno",
+      "La Comunidad autónoma"
+    ],
+    "c": 2,
+    "ref": "Art. 42 LOSU",
+    "exp": "El Gobierno establecerá los requisitos básicos que deben cumplir los centros adscritos."
+  },
+  {
+    "q": "Según el art. 42 de la LOSU, ¿qué es cierto, respecto a los centros adscritos?",
+    "o": [
+      "Que solo podrán tener naturaleza pública",
+      "Que solo podrán adscribirse a una única universidad",
+      "Que la anterior condición (b) no podrá ser dispensada por medio de reglamento",
+      "B y C son correctas"
+    ],
+    "c": 1,
+    "ref": "Art. 42 LOSU",
+    "exp": "Los centros adscritos solo podrán adscribirse a una única universidad."
+  },
+  {
+    "q": "Según el art. 43 de la LOSU, el desarrollo de las políticas universitarias de inclusión y antidiscriminación, las Unidades de diversidad serán las encargadas de incluirlo y coordinarlo:",
+    "o": [
+      "De manera transversal",
+      "De manera multidisciplinar",
+      "De manera interdisciplinar",
+      "De 'motu proprio'"
+    ],
+    "c": 0,
+    "ref": "Art. 43 LOSU",
+    "exp": "Las Unidades de diversidad lo coordinan e incluyen de manera transversal."
+  },
+  {
+    "q": "Según el art. 43 de la LOSU, ¿Qué unidad básica puede asumir tareas de mediación, conciliación y buenos oficios?",
+    "o": [
+      "La inspección de servicio",
+      "La de igualdad",
+      "La defensoría Universitaria",
+      "La de orientación psicopedagógica"
+    ],
+    "c": 2,
+    "ref": "Art. 43 LOSU",
+    "exp": "La Defensoría Universitaria puede asumir tareas de mediación, conciliación y buenos oficios."
+  },
+  {
+    "q": "Según el art. 44 de la LOSU, el mandato de los titulares de órganos unipersonales electos será de seis años:",
+    "o": [
+      "Solo en el caso, del Rector/a",
+      "En el caso de un vicerrector, siendo renovable",
+      "En todos los casos",
+      "En ningún caso"
+    ],
+    "c": 2,
+    "ref": "Art. 44 LOSU",
+    "exp": "El mandato de los titulares de órganos unipersonales electos será de seis años en todos los casos."
+  },
+  {
+    "q": "(24 bis) Según el art. 44 de la LOSU, respecto de la participación y representación de los diferentes sectores de la comunidad Universitaria, donde figurará información actualizada de los espacios de participación que se habiliten en cada momento:",
+    "o": [
+      "En la sede electrónica",
+      "En los mecanismos específicos que se implanten por la Universidad",
+      "En los portales de transparencia",
+      "En las unidades de trasferencia"
+    ],
+    "c": 2,
+    "ref": "Art. 44 LOSU",
+    "exp": "La información actualizada figurará en los portales de transparencia."
+  },
+  {
+    "q": "Según el art. 45 de la LOSU, ¿Quién elige a los representantes del Claustro en otros órganos de gobierno de la universidad?",
+    "o": [
+      "El Consejo de Gobierno",
+      "Dependiendo del órgano de que se trate",
+      "El Rector/a",
+      "El Claustro Universitario"
+    ],
+    "c": 3,
+    "ref": "Art. 45 LOSU",
+    "exp": "El Claustro Universitario elige a sus representantes en otros órganos de gobierno."
+  },
+  {
+    "q": "Según el art. 45 de la LOSU, la duración del mandato y el número de componentes del Claustro, ¿Quién lo establecerá?",
+    "o": [
+      "Los Estatutos",
+      "El Consejo de Gobierno",
+      "La Comunidad Autónoma",
+      "El Consejo Social"
+    ],
+    "c": 0,
+    "ref": "Art. 45 LOSU",
+    "exp": "Los Estatutos establecen la duración del mandato y el número de componentes del Claustro."
+  },
+  {
+    "q": "Según el art. 45 de la LOSU, el personal de los cuerpos docentes universitarios funcionarios y Profesoras y Profesores Permanentes Laborales tendrá una representación en el claustro Universitario:",
+    "o": [
+      "Del 31 por ciento de los miembros del Claustro",
+      "Del 51 por ciento de los miembros del Claustro",
+      "Del 41 por ciento de los miembros del Claustro",
+      "Del 21 por ciento de los miembros del Claustro"
+    ],
+    "c": 1,
+    "ref": "Art. 45 LOSU",
+    "exp": "Tendrán una representación del 51 por ciento de los miembros del Claustro."
+  },
+  {
+    "q": "Según el art. 46 de la LOSU, 'Aprobar la oferta y la programación docente de la universidad', es una función de:",
+    "o": [
+      "El Consejo Social",
+      "El Claustro Universitario",
+      "El Consejo de Gobierno",
+      "El Rector/a"
+    ],
+    "c": 2,
+    "ref": "Art. 46 LOSU",
+    "exp": "Aprobar la oferta y programación docente es función del Consejo de Gobierno."
+  },
+  {
+    "q": "(28 bis) Según el art. 46 de la LOSU, respecto a 'la normativa de funcionamiento de la inspección de servicios y los procedimientos de rendición de cuentas anuales de la misma', ¿Qué función tiene el Consejo de Gobierno?",
+    "o": [
+      "Elaborarla",
+      "Proponerla",
+      "Elevarla",
+      "Aprobarla"
+    ],
+    "c": 3,
+    "ref": "Art. 46 LOSU",
+    "exp": "El Consejo de Gobierno aprueba la normativa de funcionamiento de la inspección de servicios."
+  },
+  {
+    "q": "Según el art. 46 de la LOSU, el Consejo de Gobierno tiene la función de 'Definir e impulsar un plan de inclusión y no discriminación del conjunto del personal y sectores de la universidad por motivos de discapacidad, origen étnico y nacional, orientación sexual e identidad de género, en coordinación con:",
+    "o": [
+      "La Unidad de Igualdad",
+      "El Claustro Universitario",
+      "La Unidad de diversidad",
+      "El Servicio de orientación"
+    ],
+    "c": 2,
+    "ref": "Art. 46 LOSU",
+    "exp": "En coordinación con la Unidad de diversidad."
+  },
+  {
+    "q": "Según el art. 46 de la LOSU, en el Consejo de Gobierno, un mínimo del 10 por ciento deberán ser representantes del:",
+    "o": [
+      "Rector/a",
+      "Personal técnico, de gestión y de administración y servicios",
+      "Profesorado",
+      "Del Consejo Social"
+    ],
+    "c": 1,
+    "ref": "Art. 46 LOSU",
+    "exp": "Un mínimo del 10 por ciento serán representantes del personal técnico, de gestión y de administración y servicios."
+  },
+  {
+    "q": "Según el art. 47 de la LOSU, la composición del Consejo Social deberá reflejar:",
+    "o": [
+      "Adecuadamente la pluralidad del entorno social",
+      "Proporcionalmente, los diferentes sectores de la Sociedad",
+      "Transversalmente las necesidades de la Sociedad",
+      "Medioambientalmente, el entorno climático"
+    ],
+    "c": 0,
+    "ref": "Art. 47 LOSU",
+    "exp": "La composición del Consejo Social debe reflejar adecuadamente la pluralidad del entorno social."
+  },
+  {
+    "q": "Según el art. 47 de la LOSU, qué órgano tiene la función de 'Informar sobre las normas que regulen el progreso y la permanencia del estudiantado en la universidad':",
+    "o": [
+      "El Consejo Social",
+      "El Consejo de Gobierno",
+      "El Claustro Universitario",
+      "El Consejo de Estudiante"
+    ],
+    "c": 0,
+    "ref": "Art. 47 LOSU",
+    "exp": "Es función del Consejo Social informar sobre las normas de progreso y permanencia del estudiantado."
+  },
+  {
+    "q": "Según el art. 47 de la LOSU, en el procedimiento de designación de los miembros del Consejo Social, ¿A quién se oirá?",
+    "o": [
+      "A la Sociedad",
+      "A la Universidad",
+      "A la Asamblea legislativa de la Comunidad Autónoma",
+      "A los sectores más representativos socialmente"
+    ],
+    "c": 1,
+    "ref": "Art. 47 LOSU",
+    "exp": "En el procedimiento de designación se oirá a la Universidad."
+  },
+  {
+    "q": "Según el art. 48 de la LOSU, a quién corresponde 'Fomentar el asociacionismo estudiantil':",
+    "o": [
+      "El Consejo Social",
+      "El Consejo de Gobierno",
+      "El Claustro Universitario",
+      "El Consejo de Estudiante"
+    ],
+    "c": 3,
+    "ref": "Art. 48 LOSU",
+    "exp": "Fomentar el asociacionismo estudiantil corresponde al Consejo de Estudiantes."
+  },
+  {
+    "q": "Según el art. 49 de la LOSU, en un Consejo de facultad, deberá garantizarse una representación del estudiantado:",
+    "o": [
+      "Que alcance como mínimo el 15 por ciento de su composición",
+      "Que alcance como mínimo el 5 por ciento de su composición",
+      "Que alcance como mínimo el 25 por ciento de su composición",
+      "Que alcance como mínimo el 35 por ciento de su composición"
+    ],
+    "c": 2,
+    "ref": "Art. 49 LOSU",
+    "exp": "Se garantizará una representación del estudiantado de al menos el 25 por ciento."
+  },
+  {
+    "q": "Según la LOSU, 'definir las directrices fundamentales de la planificación estratégica de la universidad', es una función de:",
+    "o": [
+      "Del Rector/a",
+      "Del Consejo de Gobierno",
+      "Del Consejo Social",
+      "De ninguno de los anteriores"
+    ],
+    "c": 0,
+    "ref": "Art. 50 LOSU",
+    "exp": "Definir las directrices fundamentales de la planificación estratégica es función del Rector/a."
+  },
+  {
+    "q": "Según la LOSU, nombrar y cesar a los miembros del Equipo de Gobierno, es una función de:",
+    "o": [
+      "Del Rector/a",
+      "Del Consejo de Gobierno",
+      "De la Comunidad Autónoma",
+      "Del presidente del Consejo Social"
+    ],
+    "c": 0,
+    "ref": "Art. 50 LOSU",
+    "exp": "Nombrar y cesar a los miembros del Equipo de Gobierno es función del Rector/a."
+  },
+  {
+    "q": "Según el art. 50 de la LOSU, es cierto que:",
+    "o": [
+      "En la ley de creación de la Universidad se deberá consignar el mecanismo de sustitución temporal del Rector o la Rectora",
+      "El Rector o la Rectora podrá nombrar aquellos representantes de la universidad en diversos órganos, entidades e instituciones en los cuales tenga representación la universidad",
+      "Durante su mandato, el Rector o Rectora podrá presentarse a ningún proceso de promoción académica ni formar parte de una comisión de promoción",
+      "Como unidad de apoyo al Rector se constituirá un Equipo de Gobierno, integrado por los Vicerrectores, el o la Gerente y el Secretario o Secretaria General, exclusivamente"
+    ],
+    "c": 1,
+    "ref": "Art. 50 LOSU",
+    "exp": "El Rector podrá nombrar representantes de la universidad en los órganos en que tenga representación."
+  },
+  {
+    "q": "Según el art. 51 de la LOSU, el Rector o la Rectora será nombrado o nombrada por:",
+    "o": [
+      "El Consejo de Gobierno",
+      "El órgano correspondiente del Gobierno en todo caso",
+      "El órgano correspondiente de la Comunidad Autónoma",
+      "El presidente del Consejo Social"
+    ],
+    "c": 2,
+    "ref": "Art. 51 LOSU",
+    "exp": "El Rector/a será nombrado por el órgano correspondiente de la Comunidad Autónoma."
+  },
+  {
+    "q": "Según el art. 89 de la LOSU, sobre el personal técnico, de gestión y de administración y servicios, ¿Quién determinará las funciones y perfiles de las actividades a realizar por dicho personal?",
+    "o": [
+      "Las Universidades y los representantes de personal",
+      "Los sindicatos",
+      "Las Comunidades autónomas, previa negociación con los representantes del personal",
+      "Las Universidades"
+    ],
+    "c": 3,
+    "ref": "Art. 89 LOSU",
+    "exp": "Las Universidades determinarán las funciones y perfiles de las actividades del PTGAS."
+  },
+  {
+    "q": "Según el art. 89 de la LOSU, ¿Quién deberá asegurar el ejercicio efectivo de los derechos de conciliación de la vida personal, laboral y familiar de su personal técnico, de gestión y de administración y servicios?",
+    "o": [
+      "Las Universidades",
+      "La Comunidad Autónoma",
+      "Los representantes de personal",
+      "Los estatutos de la Universidad"
+    ],
+    "c": 0,
+    "ref": "Art. 89 LOSU",
+    "exp": "Las Universidades deberán asegurar el ejercicio efectivo de los derechos de conciliación."
+  },
+  {
+    "q": "Según el art. 90 de la LOSU, el principio de igualdad efectiva se observará en todo caso:",
+    "o": [
+      "En la retribución",
+      "En los procesos de promoción profesional",
+      "En la valoración de mérito",
+      "En los procesos de formación profesional"
+    ],
+    "c": 1,
+    "ref": "Art. 90 LOSU",
+    "exp": "Según la clave la correcta es B, el principio de igualdad efectiva se observará en los procesos de promoción profesional."
+  },
+  {
+    "q": "Según el art. 92 de la LOSU, en la provisión de puestos de trabajo las universidades deberán:",
+    "o": [
+      "Atender a las necesidades de su personal",
+      "Atender a la disponibilidad económica",
+      "Atender a las necesidades del servicio",
+      "Atender a lo previsto en los capítulos presupuestarios"
+    ],
+    "c": 2,
+    "ref": "Art. 92 LOSU",
+    "exp": "En la provisión de puestos deberán atender a las necesidades del servicio."
+  },
+  {
+    "q": "Según el art. 93 de la LOSU, el régimen retributivo del personal funcionario y laboral se determinará dentro de los límites máximos que determine:",
+    "o": [
+      "La propia universidad",
+      "Los Estatutos",
+      "El Gobierno",
+      "La Comunidad autónoma"
+    ],
+    "c": 3,
+    "ref": "Art. 93 LOSU",
+    "exp": "Se determinará dentro de los límites máximos que fije la Comunidad Autónoma."
+  },
+  {
+    "q": "Según el art. 94 de la LOSU, destinados a la movilidad de su personal técnico, de gestión y de administración y servicios para el desempeño de sus funciones en otras universidades, las universidades:",
+    "o": [
+      "Firmarán convenios",
+      "Implantarán planes plurianuales",
+      "Implantarán programas anuales conjuntos",
+      "Desarrollarán protocolos de actuación"
+    ],
+    "c": 1,
+    "ref": "Art. 94 LOSU",
+    "exp": "Implantarán planes plurianuales destinados a la movilidad de su personal."
+  },
+  {
+    "q": "Según el art. 2 de la LOSU, el sistema universitario presta y garantiza el servicio público de:",
+    "o": [
+      "La educación central universitaria",
+      "La educación superior universitaria",
+      "La educación libre universitaria",
+      "La educación obligatoria universitaria"
+    ],
+    "c": 1,
+    "ref": "Art. 2 LOSU",
+    "exp": "Presta y garantiza el servicio público de la educación superior universitaria."
+  },
+  {
+    "q": "Según el art. 2 de la LOSU, el servicio público de la educación superior se realizará mediante:",
+    "o": [
+      "La docencia, la investigación y la transferencia del conocimiento",
+      "La docencia, la investigación y el estudio",
+      "La docencia, la investigación y la libertad de cátedra",
+      "La docencia, el estudio, y la investigación del conocimiento"
+    ],
+    "c": 0,
+    "ref": "Art. 2 LOSU",
+    "exp": "Se realizará mediante la docencia, la investigación y la transferencia del conocimiento."
+  },
+  {
+    "q": "Según el art. 2 de la LOSU, es una función de las Universidades:",
+    "o": [
+      "La determinación de su organización y estructuras, incluida la creación de organismos y entidades que actúen como apoyo para sus actividades",
+      "La generación, desarrollo, difusión, transferencia e intercambio del conocimiento y la aplicabilidad de la investigación en todos los campos científicos, tecnológicos, sociales, humanísticos, artísticos y culturales",
+      "La creación de mecanismos de colaboración con las Administraciones Públicas y las entidades privadas",
+      "La inspección del conocimiento en los ámbitos sociales, económicos, medioambientales, tecnológicos e institucionales"
+    ],
+    "c": 1,
+    "ref": "Art. 2 LOSU",
+    "exp": "Es función la generación, desarrollo, difusión, transferencia e intercambio del conocimiento y la aplicabilidad de la investigación."
+  },
+  {
+    "q": "Según el art. 2 de la LOSU, es una función de la Universidad 'La promoción de la innovación a partir del conocimiento', ¿en qué ámbitos? Señale la incorrecta:",
+    "o": [
+      "Sociales",
+      "Medioambientales",
+      "Políticos",
+      "Económicos"
+    ],
+    "c": 2,
+    "ref": "Art. 2 LOSU",
+    "exp": "Los ámbitos son sociales, medioambientales, económicos, etc.; 'políticos' no figura."
+  },
+  {
+    "q": "Según el art. 2 de la LOSU, la formación de la ciudadanía es una función de la Universidad, a través de:",
+    "o": [
+      "La transferencia de la cultura y el conocimiento",
+      "La promoción del bienestar social",
+      "De la transmisión de los valores y principios democráticos",
+      "De la creación de un entorno científicamente sostenible"
+    ],
+    "c": 2,
+    "ref": "Art. 2 LOSU",
+    "exp": "La formación de la ciudadanía se realiza a través de la transmisión de los valores y principios democráticos."
+  },
+  {
+    "q": "Según el art. 2 de la LOSU, no es una función de las Universidades:",
+    "o": [
+      "La generación, desarrollo, difusión, transferencia e intercambio del conocimiento y la aplicabilidad de la investigación en todos los campos",
+      "La transferencia e intercambio del conocimiento y de la cultura al conjunto de la sociedad a través de la actividad universitaria y la formación permanente",
+      "El fomento de la participación de la comunidad universitaria y de la ciudadanía en actividades promovidas por entidades de voluntariado y del tercer sector",
+      "La lucha contra el cambio climático"
+    ],
+    "c": 3,
+    "ref": "Art. 2 LOSU",
+    "exp": "La lucha contra el cambio climático no figura como función expresa del art. 2."
+  },
+  {
+    "q": "Según el art. 2 de la LOSU, es una función de la universidad, 'La educación y formación del estudiantado a través de la creación, desarrollo, transmisión y evaluación crítica del':",
+    "o": [
+      "Ejercicio de actividades profesionales que exijan la aplicación y actualización de conocimientos y métodos científicos",
+      "Conocimiento científico, tecnológico, social, humanístico, artístico y cultural, así como de las capacidades, competencias y habilidades inherentes al mismo",
+      "Propuesta y determinación de la estructura y organización de la oferta de enseñanzas universitarias oficiales",
+      "Establecimiento de relaciones con otras universidades, instituciones, organismos, Corporaciones de Derecho Público, Administraciones Públicas o empresas"
+    ],
+    "c": 1,
+    "ref": "Art. 2 LOSU",
+    "exp": "La educación y formación del estudiantado a través de la evaluación crítica del conocimiento científico, tecnológico, social, humanístico, artístico y cultural."
+  },
+  {
+    "q": "Según el art. 2 de la LOSU, el ejercicio de las funciones tendrá referentes, entre otros:",
+    "o": [
+      "Los valores y principios democráticos",
+      "Los tratados internacionales",
+      "El fomento de la equidad e igualdad",
+      "La libertad de cátedra"
+    ],
+    "c": 2,
+    "ref": "Art. 2 LOSU",
+    "exp": "Entre los referentes está el fomento de la equidad e igualdad."
+  },
+  {
+    "q": "Según el art. 2 de la LOSU, señale cuál no es un referente de las funciones de la Universidad:",
+    "o": [
+      "Los derechos humanos y fundamentales",
+      "La memoria democrática",
+      "El impulso a la empleabilidad",
+      "La lucha contra el cambio climático"
+    ],
+    "c": 2,
+    "ref": "Art. 2 LOSU",
+    "exp": "El impulso a la empleabilidad no figura entre los referentes del art. 2."
+  },
+  {
+    "q": "Según el art. 3 de la LOSU, las Universidades están dotadas de personalidad:",
+    "o": [
+      "Física",
+      "Plena",
+      "Propia",
+      "Jurídica"
+    ],
+    "c": 3,
+    "ref": "Art. 3 LOSU",
+    "exp": "Las Universidades están dotadas de personalidad jurídica."
+  },
+  {
+    "q": "Según el art. 3 de la LOSU, ¿Quién/es desarrolla sus funciones en régimen de autonomía?",
+    "o": [
+      "Las Universidades",
+      "El sistema Universitario",
+      "Todas las Universidades, salvo las que se reconozcan privadas",
+      "La conferencia General de Política Universitaria"
+    ],
+    "c": 0,
+    "ref": "Art. 3 LOSU",
+    "exp": "Las Universidades desarrollan sus funciones en régimen de autonomía."
+  },
+  {
+    "q": "Según el art. 3 de la LOSU, ¿en virtud de qué derecho se desarrollan las funciones en régimen de autonomía?",
+    "o": [
+      "De uno que no es fundamental, según la Constitución",
+      "De uno que es fundamental, pero no reconocido por la Constitución",
+      "Del derecho fundamental reconocido en el artículo 27.10 de la Constitución Española",
+      "Del derecho no fundamental reconocido en el artículo 27.10 de la Constitución Española"
+    ],
+    "c": 2,
+    "ref": "Art. 3 LOSU",
+    "exp": "En virtud del derecho fundamental reconocido en el art. 27.10 CE."
+  },
+  {
+    "q": "Según el art. 3 de la LOSU, la autonomía de la universidad, ¿Qué comprende y requiere?",
+    "o": [
+      "Elaboración de normas para la formación de la ciudadanía",
+      "La oferta de programas de Doctorado",
+      "La definición, estructuración y desarrollo de sistemas externos de garantía de la calidad de las actividades académicas",
+      "Aprobación de normas de convivencia"
+    ],
+    "c": 1,
+    "ref": "Art. 3 LOSU",
+    "exp": "Según la clave la correcta es B, la oferta de programas de Doctorado."
+  },
+  {
+    "q": "Según el art. 3 de la LOSU, la autonomía universitaria comprende y requiere:",
+    "o": [
+      "La generación, desarrollo, difusión, transferencia e intercambio del conocimiento y la aplicabilidad de la investigación en todos los campos",
+      "La formación de la ciudadanía a través de la transmisión de los valores y principios democráticos",
+      "La expedición de los títulos correspondientes a las enseñanzas universitarias de carácter oficial, así como de títulos propios, incluida la formación a lo largo de la vida",
+      "La aprobación de las normas de desarrollo de la internacionalización dentro de la Universidad"
+    ],
+    "c": 2,
+    "ref": "Art. 3 LOSU",
+    "exp": "Comprende la expedición de los títulos correspondientes a las enseñanzas universitarias oficiales y propios."
+  },
+  {
+    "q": "Según el art. 3 de la LOSU, la autonomía de la universidad, no comprende y requiere:",
+    "o": [
+      "La autonomía económica y financiera",
+      "La expedición de los títulos correspondientes a las enseñanzas universitarias de carácter oficial",
+      "El fomento y la gestión de programas de movilidad propios o promovidos por las Administraciones Públicas",
+      "La definición, estructuración y desarrollo de políticas propias que contribuyan a la internacionalización de la ciudadanía"
+    ],
+    "c": 3,
+    "ref": "Art. 3 LOSU",
+    "exp": "La internacionalización se refiere a la Universidad, no de la ciudadanía; la opción d altera el texto."
+  },
+  {
+    "q": "Según el art. 3 de la LOSU, la autonomía de las Universidades comprende y requiere respecto del estudiantado:",
+    "o": [
+      "La admisión",
+      "La convivencia",
+      "La educación y formación",
+      "Comprende todo lo anterior"
+    ],
+    "c": 0,
+    "ref": "Art. 3 LOSU",
+    "exp": "Según la clave la correcta es A, la admisión del estudiantado."
+  },
+  {
+    "q": "Según el art. 3 de la LOSU, la autonomía de las Universidades comprende y requiere:",
+    "o": [
+      "El establecimiento de sus relaciones de puestos de trabajo o plantillas, y su eventual modificación",
+      "La formación de la ciudadanía a través de la transmisión de los valores y principios democráticos",
+      "El fomento y la gestión de programas de movilidad de su persona en las Administraciones Públicas",
+      "La organización y desarrollo de actividades de tutoría académica para la ciudadanía"
+    ],
+    "c": 0,
+    "ref": "Art. 3 LOSU",
+    "exp": "Comprende el establecimiento de sus relaciones de puestos de trabajo o plantillas y su modificación."
+  },
+  {
+    "q": "Según el art. 3 de la LOSU, ¿En qué se manifiesta la libertad de cátedra del profesorado?",
+    "o": [
+      "En la libertad del aprendizaje, la investigación y la transferencia del conocimiento",
+      "En la libertad en la docencia, la investigación y el estudio",
+      "En desarrollo de la enseñanza, la libertad de docencia y el rendimiento de cuentas",
+      "En la libertad de manifestación, de educación y el estudio"
+    ],
+    "c": 1,
+    "ref": "Art. 3 LOSU",
+    "exp": "Se manifiesta en la libertad en la docencia, la investigación y el estudio."
+  },
+  {
+    "q": "Según el art. 3 de la LOSU, en el ejercicio de su autonomía, las Universidades, ¿A quién deberán rendir cuentas?",
+    "o": [
+      "A las administraciones públicas",
+      "A la sociedad",
+      "A los tribunales",
+      "Al gobierno"
+    ],
+    "c": 1,
+    "ref": "Art. 3 LOSU",
+    "exp": "Deberán rendir cuentas a la sociedad."
+  },
+  {
+    "q": "Según el art. 3 de la LOSU, para el desarrollo efectivo de la autonomía universitaria, ¿Qué deberán asegurar todas las Administraciones Públicas a las Universidades?",
+    "o": [
+      "Su dependencia financiera",
+      "Los recursos económicos y materiales",
+      "Su suficiencia y estabilidad financiera",
+      "El desarrollo de mecanismos de financiación"
+    ],
+    "c": 2,
+    "ref": "Art. 3 LOSU",
+    "exp": "Deberán asegurar su suficiencia y estabilidad financiera."
+  },
+  {
+    "q": "Según el art. 3 de la LOSU, ¿Cómo desarrollará sus actividades?",
+    "o": [
+      "Mediante una gestión eficaz",
+      "Mediante una gestión de calidad",
+      "Mediante una gestión sostenible",
+      "Mediante una gestión transparente"
+    ],
+    "c": 3,
+    "ref": "Art. 3 LOSU",
+    "exp": "Desarrollará sus actividades mediante una gestión transparente."
+  },
+  {
+    "q": "Según el art. 3 de la LOSU, ¿Cómo es el servicio que tienen que ofrecer las Universidades?",
+    "o": [
+      "Eficaz",
+      "Transparente",
+      "De calidad",
+      "De garantía"
+    ],
+    "c": 2,
+    "ref": "Art. 3 LOSU",
+    "exp": "Deben ofrecer un servicio de calidad."
+  },
+  {
+    "q": "Según el art. 4 de la LOSU, por una ley de la Asamblea legislativa de una Comunidad Autónoma, se podrá:",
+    "o": [
+      "Llevar a cabo la creación de una Universidad Pública",
+      "Reconocer una Universidad Privada",
+      "A y B son correctas",
+      "A y B son incorrectas"
+    ],
+    "c": 2,
+    "ref": "Art. 4 LOSU",
+    "exp": "Por ley de la Asamblea Legislativa autonómica se podrá crear una universidad pública y reconocer una privada."
+  },
+  {
+    "q": "Según el art. 4 de la LOSU, cuando se trate de una Universidad Pública de características especiales, su creación se llevará a cabo por:",
+    "o": [
+      "Por ley de la Asamblea Legislativa de la Comunidad Autónoma en cuyo territorio vaya a ubicarse, previo informe preceptivo de la Conferencia General de Política Universitaria",
+      "Por ley de las Cortes Generales a propuesta del Gobierno, con aprobación del Consejo de Gobierno de la Comunidad Autónoma",
+      "Por ley del Gobierno, a propuesta del Consejo de Gobierno de la Comunidad Autónoma",
+      "Por ley de las Cortes Generales a propuesta del Gobierno, de acuerdo con el Consejo de Gobierno de la Comunidad Autónoma en cuyo ámbito territorial hayan de establecerse"
+    ],
+    "c": 3,
+    "ref": "Art. 4 LOSU",
+    "exp": "Las universidades de especiales características se crean por ley de las Cortes Generales a propuesta del Gobierno, de acuerdo con el Consejo de Gobierno de la CA."
+  },
+  {
+    "q": "Según el art. 4 de la LOSU, si se llevara a cabo la creación de una Universidad Pública por ley de la Asamblea legislativa de la Comunidad Autónoma en cuyo territorio vaya a ubicarse será previo:",
+    "o": [
+      "Informe favorable de la Conferencia General de Política Universitaria",
+      "Informe preceptivo de la Conferencia General de Política Universitaria",
+      "Informe facultativo de la Conferencia General de Política Universitaria",
+      "Informe vinculante de la Conferencia General de Política Universitaria"
+    ],
+    "c": 1,
+    "ref": "Art. 4 LOSU",
+    "exp": "Será previo informe preceptivo de la Conferencia General de Política Universitaria."
+  },
+  {
+    "q": "Según el art. 4 de la LOSU, el informe al que se refiere la pregunta anterior, ¿procederá en el supuesto de universidades de especiales características?",
+    "o": [
+      "No",
+      "Sí, y es vinculante",
+      "Sí, cuando la Universidad se cree por ley por la Asamblea Legislativa de la comunidad autónoma",
+      "Sí"
+    ],
+    "c": 3,
+    "ref": "Art. 4 LOSU",
+    "exp": "Sí, el informe preceptivo procederá también en el supuesto de universidades de especiales características."
+  },
+  {
+    "q": "Según el art. 4 de la LOSU, para garantizar la calidad del sistema universitario, ¿Quién determinará las condiciones y requisitos básicos para la creación de universidades públicas y el reconocimiento de universidades privadas?",
+    "o": [
+      "A los órganos de Gobierno de las Comunidades autónomas",
+      "A la Conferencia general de política Universitaria",
+      "A cada Universidad",
+      "Al gobierno"
+    ],
+    "c": 3,
+    "ref": "Art. 4 LOSU",
+    "exp": "El Gobierno determinará las condiciones y requisitos básicos."
+  },
+  {
+    "q": "Según el art. 4 de la LOSU, ¿A quién le corresponde otorgar la autorización para el inicio de las actividades de las Universidades?",
+    "o": [
+      "A los órganos competentes de la Comunidad Autónoma en la que radique la universidad",
+      "A las propias Universidades",
+      "En todo caso, al Gobierno",
+      "A la Conferencia General de Política Universitaria"
+    ],
+    "c": 0,
+    "ref": "Art. 4 LOSU",
+    "exp": "Corresponde a los órganos competentes de la Comunidad Autónoma en la que radique la universidad."
+  },
+  {
+    "q": "Según el art. 4 de la LOSU, como requisito para su creación y reconocimiento, las universidades deberán contar:",
+    "o": [
+      "Con planes de viabilidad económica",
+      "Con planes que garanticen la igualdad de género en todas sus actividades",
+      "Con planes de sostenibilidad medioambiental",
+      "Deberán contar con todos los planes anteriores"
+    ],
+    "c": 1,
+    "ref": "Art. 4 LOSU",
+    "exp": "Deberán contar con planes que garanticen la igualdad de género en todas sus actividades."
+  },
+  {
+    "q": "Según el art. 5 de la LOSU, ¿Quién deberá garantizar niveles de buen gobierno?",
+    "o": [
+      "El sistema universitario",
+      "Las Universidades",
+      "Las normas internacionales",
+      "El Ministerio de Universidades"
+    ],
+    "c": 0,
+    "ref": "Art. 5 LOSU",
+    "exp": "El sistema universitario deberá garantizar niveles de buen gobierno."
+  },
+  {
+    "q": "Según el art. 5 de la LOSU, los niveles de 'buen gobierno y calidad' serán contrastables con:",
+    "o": [
+      "Con los estándares nacionalmente reconocidos",
+      "Con los criterios y directrices establecidos para el aseguramiento de la calidad reconocido por el Derecho de la Unión Europea",
+      "Con estándares internacionalmente reconocidos",
+      "Con los estándares compartidos internacionalmente"
+    ],
+    "c": 2,
+    "ref": "Art. 5 LOSU",
+    "exp": "Serán contrastables con estándares internacionalmente reconocidos."
+  },
+  {
+    "q": "Según el art. 5 de la LOSU, la promoción y el aseguramiento de la calidad no es responsabilidad compartida por:",
+    "o": [
+      "La sociedad",
+      "Las Universidades",
+      "Las Agencias de Evaluación",
+      "Las Administraciones Públicas con competencia en la materia"
+    ],
+    "c": 0,
+    "ref": "Art. 5 LOSU",
+    "exp": "La sociedad no figura entre los responsables compartidos (universidades, agencias y AAPP)."
+  },
+  {
+    "q": "(33 bis) Según el art. 5 de la LOSU, la promoción y el aseguramiento de la calidad es responsabilidad compartida por:",
+    "o": [
+      "Por cualquier Administración Pública",
+      "Las Universidades",
+      "Los Tribunales",
+      "La ciudadanía"
+    ],
+    "c": 1,
+    "ref": "Art. 5 LOSU",
+    "exp": "Es responsabilidad compartida por las Universidades, las agencias de evaluación y las AAPP con competencias."
+  },
+  {
+    "q": "Según el art. 5 de la LOSU, la promoción y el aseguramiento de la calidad es responsabilidad compartida por:",
+    "o": [
+      "Las universidades, las agencias de evaluación y las Administraciones Públicas con competencias en esta materia",
+      "Las universidades, las agencias de evaluación y todas las administraciones Públicas",
+      "Las universidades, las agencias de evaluación y las Administraciones Públicas con competencias en esta materia y la ciudadanía",
+      "Las universidades, salvo las privadas, las agencias de evaluación y las Administraciones Públicas con competencias en esta materia"
+    ],
+    "c": 0,
+    "ref": "Art. 5 LOSU",
+    "exp": "Universidades, agencias de evaluación y AAPP con competencias en esta materia."
+  },
+  {
+    "q": "Según el art. 5 de la LOSU, el aseguramiento de la calidad se hará efectivo en las condiciones y mediante los procedimientos de evaluación, certificación y acreditación que establezca, ¿quién?",
+    "o": [
+      "La Administración Pública o autonómica, según los casos",
+      "El Espacio europeo superior de enseñanza",
+      "El Gobierno",
+      "Las Agencias de evaluación"
+    ],
+    "c": 2,
+    "ref": "Art. 5 LOSU",
+    "exp": "Se establecerán por el Gobierno."
+  },
+  {
+    "q": "Según el art. 5 de la LOSU, ¿mediante qué tipo de norma se establecerán las condiciones y procedimientos a los que se refiere la pregunta anterior?",
+    "o": [
+      "Real Decreto Ley",
+      "Ley",
+      "Ley autonómica, según el caso",
+      "Real Decreto"
+    ],
+    "c": 3,
+    "ref": "Art. 5 LOSU",
+    "exp": "Mediante Real Decreto."
+  },
+  {
+    "q": "Según el art. 5 de la LOSU, ¿será necesario algún informe?",
+    "o": [
+      "Sí, posterior a la aprobación",
+      "Sí, salvo que se apruebe por Real Decreto",
+      "Sí, previo de la Agencia de Evaluación",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 5 LOSU",
+    "exp": "Según la clave la correcta es D."
+  },
+  {
+    "q": "Según el art. 5 de la LOSU, ¿A través de qué garantizarán las Universidades la calidad académica de las actividades de sus centros?",
+    "o": [
+      "De la inspección de Servicio de las mismas",
+      "De los sistemas internos de garantía de calidad",
+      "De los sistemas externos de garantía de calidad",
+      "De la Agencia Nacional de Evaluación de la Calidad y Acreditación"
+    ],
+    "c": 1,
+    "ref": "Art. 5 LOSU",
+    "exp": "A través de los sistemas internos de garantía de calidad."
+  },
+  {
+    "q": "Según el art. 5 de la LOSU, ¿A quién corresponde, entre otras funciones, la de acreditación y evaluación del profesorado universitario?",
+    "o": [
+      "Al Gobierno, previo informe de la Conferencia General de Política Universitaria",
+      "A la Agencia de evaluación que presta servicio para la Universidad correspondiente, previa comprobación del cumplimiento de los requisitos y medidas de igualdad regulado por el Gobierno",
+      "A la Agencia Nacional de Evaluación de la Calidad y Acreditación (ANECA) y a las agencias de evaluación de las Comunidades Autónomas inscritas en el Registro Europeo de Agencias de Calidad (EQAR), en el ámbito de sus respectivas competencias",
+      "Al Gobierno, órgano correspondiente de la Comunidad Autónoma en su caso, cualquier entidad de evaluación que preste sus servicios dentro del Espacio Europeo de Educación Superior"
+    ],
+    "c": 2,
+    "ref": "Art. 5 LOSU",
+    "exp": "Corresponde a la ANECA y a las agencias de evaluación de las CCAA inscritas en el EQAR."
+  },
+  {
+    "q": "Según el art. 5 de la LOSU, ¿Quién regulará el procedimiento y las condiciones para la acreditación institucional de los centros universitarios?",
+    "o": [
+      "El Gobierno",
+      "Los órganos de gobierno de las Universidades",
+      "Los órganos de gobierno competentes de las Comunidades autónomas",
+      "Los órganos de gobierno de las instituciones competentes del Espacio Europeo de Educación Superior"
+    ],
+    "c": 0,
+    "ref": "Art. 5 LOSU",
+    "exp": "El Gobierno regulará el procedimiento y condiciones para la acreditación institucional."
+  },
+  {
+    "q": "Según el art. 38 de la LOSU, los estatutos de las Universidades serán aprobados:",
+    "o": [
+      "Por la Comunidad Autónoma",
+      "Por el Consejo de Ministros, salvo que se trate de universidades de características especiales",
+      "Por la Conferencia General de Política Universitaria",
+      "Por las Universidades"
+    ],
+    "c": 0,
+    "ref": "Art. 38 LOSU",
+    "exp": "Los estatutos serán aprobados por la Comunidad Autónoma, previo control de legalidad."
+  },
+  {
+    "q": "Según el art. 38 de la LOSU, ¿De qué plazo dispondrá la Comunidad Autónoma para la elaboración del informe de legalidad?",
+    "o": [
+      "Tres meses",
+      "Seis meses",
+      "Cuatro meses",
+      "De ninguno, porque a la Comunidad Autónoma no le corresponde elaborar el informe de legalidad, sino de calidad"
+    ],
+    "c": 2,
+    "ref": "Art. 38 LOSU",
+    "exp": "Dispondrá de cuatro meses para elaborar el informe de legalidad."
+  },
+  {
+    "q": "Según el art. 38 de la LOSU, ponen fin a la vía administrativa:",
+    "o": [
+      "Las resoluciones del Rector o Rectora",
+      "Los acuerdos del Consejo de Estudiante",
+      "Las resoluciones del Consejo de dirección",
+      "Todo lo anterior pone fin a la vía Administrativa"
+    ],
+    "c": 0,
+    "ref": "Art. 38 LOSU",
+    "exp": "Las resoluciones del Rector o Rectora ponen fin a la vía administrativa."
+  },
+  {
+    "q": "Según el art. 38 de la LOSU, si los estatutos de una Universidad fueran aprobados por la Comunidad autónoma correspondiente, se deberán publicar en:",
+    "o": [
+      "Solo en el Boletín oficial del Estado",
+      "En el Diario oficial de la Comunidad Autónoma. Asimismo, en el 'Boletín oficial del estado'",
+      "No se deberán, pero se podrán publicar, en el Diario oficial de la Comunidad Autónoma",
+      "Solo se publicarán en el Diario Oficial de la comunidad autónoma, cuando no fueran aprobados"
+    ],
+    "c": 1,
+    "ref": "Art. 38 LOSU",
+    "exp": "Se publican en el Diario oficial de la CA y, asimismo, en el BOE."
+  },
+  {
+    "q": "Según el art. 39 de la LOSU, respecto a la rendición de cuentas, las Universidades deberán contar con:",
+    "o": [
+      "Un portal de transparencia",
+      "Normativa específica de vigilancia",
+      "Una plataforma antifraude",
+      "Un catálogo de buenos oficios"
+    ],
+    "c": 0,
+    "ref": "Art. 39 LOSU",
+    "exp": "Deberán contar con un portal de transparencia."
+  },
+  {
+    "q": "Según el art. 39 de la LOSU, las Universidades, ¿A qué información garantizarán el derecho de acceso?",
+    "o": [
+      "A toda la información institucional",
+      "A toda la información Administrativa",
+      "A toda información institucionalmente relevante",
+      "A toda información relevante académicamente"
+    ],
+    "c": 2,
+    "ref": "Art. 39 LOSU",
+    "exp": "A toda información institucionalmente relevante."
+  },
+  {
+    "q": "Según el art. 39 de la LOSU, ¿Qué debe guiar la función docente y la investigación?",
+    "o": [
+      "Una gestión eficaz de los recursos económicos",
+      "El cumplimiento de los objetivos diseñados en el plan de autoevaluación",
+      "El cumplimiento de los principios éticos y de integridad académica, así como de las directrices antifraude",
+      "La colaboración con los organismos de autoevaluación y la participación en los planes de actuación previstos en la normativa de cada Universidad"
+    ],
+    "c": 2,
+    "ref": "Art. 39 LOSU",
+    "exp": "Deben guiar el cumplimiento de los principios éticos y de integridad académica, así como las directrices antifraude."
+  },
+  {
+    "q": "Según el art. 40 de la LOSU, para el desarrollo de sus funciones, las universidades deberán estructurarse en:",
+    "o": [
+      "En campus",
+      "Solo en Facultades",
+      "En Departamentos",
+      "No es obligatorio que se estructuren en nada de lo anterior"
+    ],
+    "c": 3,
+    "ref": "Art. 40 LOSU",
+    "exp": "No es obligatorio; podrán estructurarse según determinen sus estatutos."
+  },
+  {
+    "q": "Según el art. 40 de la LOSU, las Universidades, según determinen sus estatutos, para el desarrollo de las funciones que le son propias:",
+    "o": [
+      "Podrán estructurarse en Facultades",
+      "Deberán estructurarse solo en campus",
+      "No podrán estructurarse en escuelas",
+      "Deberán estructurarse en Campus y Facultades"
+    ],
+    "c": 0,
+    "ref": "Art. 40 LOSU",
+    "exp": "Podrán estructurarse en Facultades según determinen sus estatutos."
+  },
+  {
+    "q": "Según el art. 40 de la LOSU, ¿Dónde se establecerán las funciones de los centros o estructuras que componen la universidad para proponer y organizar las enseñanzas universitarias oficiales?",
+    "o": [
+      "En el plan estratégico",
+      "En los estatutos de la Universidad",
+      "En la normativa de la Comunidad autónoma",
+      "En los convenios de colaboración"
+    ],
+    "c": 1,
+    "ref": "Art. 40 LOSU",
+    "exp": "Se establecerán en los estatutos de la Universidad."
+  },
+  {
+    "q": "Según el art. 40 de la LOSU, los centros y estructura de las Universidades, ¿Qué deberán fomentar?",
+    "o": [
+      "La gestión científica integrada",
+      "La disciplinariedad",
+      "La cooperación",
+      "Deberán fomentar todo lo anterior"
+    ],
+    "c": 2,
+    "ref": "Art. 40 LOSU",
+    "exp": "Deberán fomentar la cooperación, la multidisciplinariedad y la interdisciplinariedad."
+  },
+  {
+    "q": "Según el art. 41 de la LOSU, la creación, modificación y supresión de facultades y escuelas serán acordadas por:",
+    "o": [
+      "La Universidad",
+      "La Comunidad Autónoma",
+      "El Gobierno",
+      "Las Cortes Generales"
+    ],
+    "c": 1,
+    "ref": "Art. 41 LOSU",
+    "exp": "Serán acordadas por la Comunidad Autónoma, a iniciativa de la universidad."
+  },
+  {
+    "q": "Según el art. 41 de la LOSU, ¿A iniciativa de quién será acordada la creación, modificación y supresión de facultades y escuelas?",
+    "o": [
+      "De la universidad mediante propuesta y aprobación de su Equipo de Gobierno",
+      "De la Comunidad autónoma mediante propuesta y aprobación de su Consejo de Gobierno",
+      "De la universidad mediante propuesta y aprobación de su Consejo de Gobierno",
+      "De la Universidad, mediante propuesta y aprobación del Consejo Social"
+    ],
+    "c": 2,
+    "ref": "Art. 41 LOSU",
+    "exp": "A iniciativa de la universidad mediante propuesta y aprobación de su Consejo de Gobierno."
+  },
+  {
+    "q": "Según el art. 41 de la LOSU, la creación, modificación y supresión de un departamento, ¿A quién corresponde?",
+    "o": [
+      "La Universidad",
+      "La Comunidad Autónoma",
+      "Al Ministerio de Universidades",
+      "A la Conferencia General de Política Universitaria"
+    ],
+    "c": 0,
+    "ref": "Art. 41 LOSU",
+    "exp": "Corresponde a la Universidad."
+  },
+  {
+    "q": "Según el art. 42 de la LOSU, la adscripción de centros docentes universitarios requerirá:",
+    "o": [
+      "La previa aprobación del Consejo de Gobierno de la Comunidad Autónoma",
+      "La previa celebración de un convenio con la Universidad",
+      "La aprobación de un protocolo de actuación",
+      "La propuesta a iniciativa de la Universidad y la posterior aprobación por la Comunidad autónoma"
+    ],
+    "c": 1,
+    "ref": "Art. 42 LOSU",
+    "exp": "Requerirá la previa celebración de un convenio con la Universidad."
+  },
+  {
+    "q": "Según el art. 42 de la LOSU, ¿Qué órgano elevará propuesta de adscripción de un centro docente a una Universidad Pública a la Comunidad Autónoma para que apruebe tal adscripción?",
+    "o": [
+      "El Consejo de Gobierno de la Universidad",
+      "El Consejo Social",
+      "El Claustro Universitario",
+      "Nada es correcto, porque la adscripción no requiere la aprobación por la Comunidad Autónoma"
+    ],
+    "c": 0,
+    "ref": "Art. 42 LOSU",
+    "exp": "El Consejo de Gobierno de la Universidad elevará la propuesta."
+  },
+  {
+    "q": "Según el art. 42 de la LOSU, conocida la necesidad que justifica la adscripción de un centro docente, ¿A quién informará el Consejo Social de la Universidad?",
+    "o": [
+      "A quien determinen los estatutos de la Universidad",
+      "Al Consejo de Gobierno",
+      "A la Comunidad Universitaria",
+      "Nada es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 42 LOSU",
+    "exp": "Según la clave la correcta es D."
+  },
+  {
+    "q": "Según el art. 42 de la LOSU, respecto a la adscripción de centros:",
+    "o": [
+      "Sólo podrán tener naturaleza privada",
+      "Sólo podrán adscribirse a una única universidad",
+      "Sólo podrá dispensarse la condición de una adscripción a una única universidad por medio de norma legal",
+      "Solo podrán tener naturaleza pública"
+    ],
+    "c": 1,
+    "ref": "Art. 42 LOSU",
+    "exp": "Solo podrán adscribirse a una única universidad."
+  },
+  {
+    "q": "Según el art. 43 de la LOSU, ¿Con qué unidad básica contará la Universidad?",
+    "o": [
+      "Calidad",
+      "Asesoría jurídica",
+      "Defensoría Universitaria",
+      "Debe contar con todas las anteriores"
+    ],
+    "c": 2,
+    "ref": "Art. 43 LOSU",
+    "exp": "Contará con una Defensoría Universitaria como unidad básica."
+  },
+  {
+    "q": "Según el art. 43 de la LOSU, las unidades de diversidad deberán contar:",
+    "o": [
+      "Con un servicio de mediación y conciliación",
+      "Con un servicio de orientación psicopedagógica",
+      "Con un servicio de atención a la discapacidad",
+      "Con un servicio de asesoramiento jurídico"
+    ],
+    "c": 2,
+    "ref": "Art. 43 LOSU",
+    "exp": "Deberán contar con un servicio de atención a la discapacidad."
+  },
+  {
+    "q": "Según el art. 43 de la LOSU, ¿Por qué principios vendrán regidas las actuaciones de la defensoría universitaria?",
+    "o": [
+      "Dependencia, imparcialidad y celeridad",
+      "Transparencia, inmediación y concentración",
+      "Mediación, conciliación y buenos oficios",
+      "Independencia, autonomía y confidencialidad"
+    ],
+    "c": 3,
+    "ref": "Art. 43 LOSU",
+    "exp": "Sus actuaciones se rigen por los principios de independencia, autonomía y confidencialidad."
+  },
+  {
+    "q": "Según el art. 43 de la LOSU, ¿Qué tareas puede asumir la defensoría universitaria?",
+    "o": [
+      "Mediación",
+      "Disciplinarias",
+      "Sancionadoras",
+      "Buenos objetivos"
+    ],
+    "c": 0,
+    "ref": "Art. 43 LOSU",
+    "exp": "Puede asumir tareas de mediación, conciliación y buenos oficios."
+  },
+  {
+    "q": "Según el art. 43 de la LOSU, ¿Qué servicio ofrecerá gratuitamente la Universidad en colaboración con la comunidad autónoma?",
+    "o": [
+      "Los de prevención y fomento del bienestar emocional de la sociedad",
+      "Orientación sobre buenos oficios",
+      "Jurídicos y económicos",
+      "Ninguno de los anteriores"
+    ],
+    "c": 3,
+    "ref": "Art. 43 LOSU",
+    "exp": "Según la clave la correcta es D."
+  },
+  {
+    "q": "Según el art. 43 de la LOSU, ¿cuál corresponde a la inspección de servicio?",
+    "o": [
+      "De resolución de los expedientes disciplinarios de los miembros de la comunidad universitaria",
+      "De incoación e instrucción de los expedientes disciplinarios que afecten a miembros de la comunidad universitaria",
+      "De mediación, conciliación y buenos oficios",
+      "De asesoramiento jurídico, profesional y académico"
+    ],
+    "c": 1,
+    "ref": "Art. 43 LOSU",
+    "exp": "Corresponde la incoación e instrucción de los expedientes disciplinarios."
+  },
+  {
+    "q": "Según el art. 43 de la LOSU, la Unidad de Igualdad será la encargada de:",
+    "o": [
+      "Coordinar e incluir de manera universal el desarrollo de las políticas universitarias de inclusión y antidiscriminación",
+      "Velar por el respeto de los derechos y las libertades del profesorado, estudiantado y personal",
+      "Asesorar, coordinar y evaluar la incorporación transversal de la igualdad entre mujeres y hombres, así como de incluir la perspectiva de género en el conjunto de actividades y funciones de la universidad",
+      "Velar por el correcto funcionamiento de los servicios que presta la institución universitaria"
+    ],
+    "c": 2,
+    "ref": "Art. 43 LOSU",
+    "exp": "La Unidad de Igualdad asesora, coordina y evalúa la incorporación transversal de la igualdad y la perspectiva de género."
+  },
+  {
+    "q": "Según el art. 43 de la LOSU, ¿A quién corresponde establecer el régimen de funcionamiento de la Unidad de Igualdad?",
+    "o": [
+      "A los estatutos de la Universidad",
+      "A su propio reglamento",
+      "A una propuesta del Consejo de Gobierno de la Universidad",
+      "A un reglamento del Consejo Social de la Universidad"
+    ],
+    "c": 0,
+    "ref": "Art. 43 LOSU",
+    "exp": "Corresponde a los estatutos de la Universidad."
+  },
+  {
+    "q": "Según el art. 43 de la LOSU, ¿Cómo actuará la inspección de servicio?",
+    "o": [
+      "De motu proprio",
+      "A instancia de los distintos órganos de Gobierno de la universidad",
+      "Tras denuncia escrita interpuesta por algún miembro de la comunidad universitaria",
+      "De cualquiera de las formas anteriores"
+    ],
+    "c": 3,
+    "ref": "Art. 43 LOSU",
+    "exp": "Actuará de cualquiera de las formas anteriores."
+  },
+  {
+    "q": "Según el art. 43 de la LOSU, la dirección de la inspección de servicio será atribuida:",
+    "o": [
+      "A personal docente de la Universidad, con los requisitos de titulación que se establezcan",
+      "A personal técnico, de gestión y de administración y servicios de la universidad con los requisitos de titulación necesarios",
+      "A personal técnico, de gestión y de administración y servicios externo a la universidad con los requisitos de titulación necesarios",
+      "A cualquier miembro de la comunidad Universitaria con los requisitos de titulación necesarios"
+    ],
+    "c": 1,
+    "ref": "Art. 43 LOSU",
+    "exp": "Se atribuirá a personal técnico, de gestión y de administración y servicios de la universidad."
+  },
+  {
+    "q": "Según el art. 43 de la LOSU, ¿Qué unidades son las encargadas de 'coordinar e incluir de manera transversal el desarrollo de las políticas universitarias de inclusión y antidiscriminación'?",
+    "o": [
+      "Las de Igualdad",
+      "Las de Apoyo psicopedagógico",
+      "Las de diversidad",
+      "Las de orientación profesional"
+    ],
+    "c": 2,
+    "ref": "Art. 43 LOSU",
+    "exp": "Las unidades de diversidad coordinan e incluyen de manera transversal las políticas de inclusión y antidiscriminación."
+  },
+  {
+    "q": "La ley que regula el sistema universitario:",
+    "o": [
+      "Es del año 2024",
+      "Es una ley autonómica",
+      "Es del 22 de marzo del año 2022",
+      "Es una Ley Orgánica"
+    ],
+    "c": 3,
+    "ref": "Ley Orgánica 2/2023 (LOSU)",
+    "exp": "La LOSU es una Ley Orgánica (Ley Orgánica 2/2023, de 22 de marzo)."
+  },
+  {
+    "q": "Según el art. 2 de la LOSU, ¿quién presta y garantiza el servicio público de la educación superior universitaria?",
+    "o": [
+      "El Gobierno",
+      "El sistema universitario",
+      "Las Universidades",
+      "El sistema de enseñanza"
+    ],
+    "c": 1,
+    "ref": "Art. 2 LOSU",
+    "exp": "El sistema universitario presta y garantiza el servicio público de la educación superior universitaria."
+  },
+  {
+    "q": "Según el art. 2 de la LOSU, el servicio público de la educación que se presta y garantiza se realizará mediante:",
+    "o": [
+      "La docencia, la investigación y la transferencia del conocimiento",
+      "La docencia, la investigación y estudio",
+      "La investigación, el estudio y la libertad de cátedra",
+      "La enseñanza, la investigación y la libertad de aprendizaje"
+    ],
+    "c": 0,
+    "ref": "Art. 2 LOSU",
+    "exp": "Mediante la docencia, la investigación y la transferencia del conocimiento."
+  },
+  {
+    "q": "Según el art. 2 de la LOSU, ¿Cuál es una función de la Universidad?",
+    "o": [
+      "La educación y formación del estudiantado a través de la creación, desarrollo, transmisión del conocimiento y evaluación científica, social, humanística, artística y cultural, de las capacidades y habilidades profesionales",
+      "La educación y formación del profesorado a través de la creación, desarrollo, transmisión y evaluación crítica del conocimiento científico, tecnológico, social, humanístico, artístico y cultural",
+      "La educación y formación del estudiantado a través de la creación, desarrollo, transmisión y evaluación crítica del conocimiento científico, tecnológico, social, humanístico, artístico y cultural, así como de las capacidades, competencias y habilidades inherentes al mismo",
+      "La educación y formación del estudiantado a través de la creación, desarrollo, transmisión y evaluación crítica del conocimiento científico, tecnológico, social, humanístico, artístico y cultural, así como las capacidades de transmitir los conocimientos al conjunto de la sociedad"
+    ],
+    "c": 2,
+    "ref": "Art. 2 LOSU",
+    "exp": "La educación y formación del estudiantado con las capacidades, competencias y habilidades inherentes al conocimiento."
+  },
+  {
+    "q": "Según el art. 2 de la LOSU, ¿Cuál no es una función de la Universidad?",
+    "o": [
+      "La generación de espacios de creación y difusión de pensamiento crítico",
+      "La transferencia e intercambio del conocimiento y de la cultura al conjunto de la sociedad a través de la actividad universitaria y la formación permanente",
+      "La formación de la ciudadanía a través de la transmisión de los valores y principios democráticos",
+      "La elección de la comunidad universitaria y de la ciudadanía para emprender actividades de voluntariado y del tercer sector"
+    ],
+    "c": 3,
+    "ref": "Art. 2 LOSU",
+    "exp": "La opción d altera el texto ('elección' en vez de 'fomento de la participación'); no es función."
+  },
+  {
+    "q": "Según el art. 2 de la LOSU, el ejercicio de las funciones de las Universidades tendrá referentes, entre otros:",
+    "o": [
+      "Los valores y principios democráticos",
+      "El fomento del cambio climático",
+      "Los derechos humanos fundamentales",
+      "La libertad de cátedra"
+    ],
+    "c": 2,
+    "ref": "Art. 2 LOSU",
+    "exp": "Entre los referentes están los derechos humanos fundamentales."
+  },
+  {
+    "q": "Según el art. 2 de la LOSU, el ejercicio de las funciones del Sistema Universitario tendrá referentes, entre otros:",
+    "o": [
+      "Los valores y principios democráticos",
+      "El fomento de la igualdad y equidad",
+      "Los valores que se desprenden de los Objetivos del Desarrollo Sostenible",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 2 LOSU",
+    "exp": "Según la clave la correcta es D."
+  },
+  {
+    "q": "Según el art. 2 de la LOSU, el ejercicio de las funciones de las Universidades no tendrá referentes:",
+    "o": [
+      "La memoria democrática",
+      "La libertad de cátedra",
+      "El fomento de la equidad e igualdad",
+      "El impulso de la sostenibilidad"
+    ],
+    "c": 1,
+    "ref": "Art. 2 LOSU",
+    "exp": "La libertad de cátedra no figura entre los referentes del ejercicio de las funciones."
+  },
+  {
+    "q": "Según el art. 3 de la LOSU, ¿Cómo desarrollarán las universidades sus funciones?",
+    "o": [
+      "En régimen de competencia",
+      "En régimen de autonomía",
+      "En régimen de suficiencia",
+      "En régimen de exclusividad"
+    ],
+    "c": 1,
+    "ref": "Art. 3 LOSU",
+    "exp": "En régimen de autonomía."
+  },
+  {
+    "q": "Según el art. 3 de la LOSU, la autonomía de las universidades comprende y requiere, ¿Qué autonomía?",
+    "o": [
+      "La orgánica y funcional",
+      "La académica y la administrativa",
+      "La económica y la financiera",
+      "La territorial y la funcional"
+    ],
+    "c": 2,
+    "ref": "Art. 3 LOSU",
+    "exp": "Comprende la autonomía económica y financiera."
+  },
+  {
+    "q": "Según el art. 3 de la LOSU, las universidades deberán desarrollar sus actividades mediante, ¿Qué tipo de gestión?",
+    "o": [
+      "Privada",
+      "De calidad",
+      "Transparente",
+      "Suficiente"
+    ],
+    "c": 2,
+    "ref": "Art. 3 LOSU",
+    "exp": "Mediante una gestión transparente."
+  },
+  {
+    "q": "Según el art. 4 de la LOSU, la creación de las universidades públicas y el reconocimiento de las universidades privadas del sistema universitario español se llevará a cabo:",
+    "o": [
+      "Por ley del Consejo de Gobierno de la Comunidad Autónoma en cuyo territorio vaya a ubicarse, previo informe preceptivo de la Conferencia General de Política Universitaria",
+      "Por ley de las Cortes Generales a propuesta del Consejo de Gobierno de la Comunidad Autónoma, cuando se trate de universidades de especiales características, previo informe preceptivo de la Conferencia General de Política Universitaria",
+      "Por ley de la Asamblea Legislativa de la Comunidad Autónoma en cuyo territorio vaya a ubicarse, previo informe preceptivo de la Conferencia General de Política Universitaria",
+      "Por ley del Gobierno, de acuerdo con el Consejo de Gobierno de la Comunidad Autónoma, cuando se trate de universidades de especiales características, previo informe preceptivo de la Conferencia General de Política Universitaria"
+    ],
+    "c": 2,
+    "ref": "Art. 4 LOSU",
+    "exp": "Por ley de la Asamblea Legislativa de la CA en cuyo territorio vaya a ubicarse, previo informe preceptivo de la CGPU."
+  },
+  {
+    "q": "Según el art. 4 de la LOSU, ¿Quién determinará las condiciones y requisitos básicos para la creación de universidades públicas y el reconocimiento de universidades privadas?",
+    "o": [
+      "A los órganos de Gobierno de las Comunidades autónomas",
+      "A la Conferencia general de política Universitaria",
+      "A cada Universidad",
+      "Al gobierno"
+    ],
+    "c": 3,
+    "ref": "Art. 4 LOSU",
+    "exp": "El Gobierno determinará las condiciones y requisitos básicos."
+  },
+  {
+    "q": "Según el art. 4 de la LOSU, los requisitos y condiciones a los que se refiere la pregunta anterior, ¿mediante qué tipo de norma se garantizarán?",
+    "o": [
+      "Ley de Cortes Generales",
+      "Real Decreto previo informe preceptivo de la Conferencia General Universitaria",
+      "Real Decreto Ley del Gobierno",
+      "Real Decreto"
+    ],
+    "c": 3,
+    "ref": "Art. 4 LOSU",
+    "exp": "Se garantizarán mediante Real Decreto."
+  },
+  {
+    "q": "Según el art. 4 de la LOSU, el incumplimiento grave de las condiciones y requisitos de la autorización para el inicio de las actividades de las Universidades, será causa:",
+    "o": [
+      "De suspensión",
+      "De revocación",
+      "De sanción",
+      "De nulidad"
+    ],
+    "c": 1,
+    "ref": "Art. 4 LOSU",
+    "exp": "Será causa de revocación de la autorización."
+  },
+  {
+    "q": "Según el art. 4 de la LOSU, como requisito para su creación y reconocimiento, las universidades deberán contar con los planes que garanticen la igualdad de género en todas sus actividades:",
+    "o": [
+      "En todo caso",
+      "Salvo que se adopten medidas para la corrección de la brecha salarial entre mujeres y hombres",
+      "Y con condiciones para el fomento de la participación de las personas con discapacidad",
+      "Previo informe de la conferencia general de política universitaria"
+    ],
+    "c": 0,
+    "ref": "Art. 4 LOSU",
+    "exp": "Deberán contar en todo caso con planes que garanticen la igualdad de género."
+  },
+  {
+    "q": "Según el art. 5 de la LOSU, el sistema universitario deberá garantizar niveles de buen gobierno y calidad contrastables con los estándares internacionalmente reconocidos, en particular, con los criterios y directrices establecidos para el aseguramiento de la calidad:",
+    "o": [
+      "Por el Ministerio de Universidades",
+      "En los tratados internacionales ratificados por España",
+      "En el Espacio Europeo de Educación Superior",
+      "En el plan Bolonia"
+    ],
+    "c": 2,
+    "ref": "Art. 5 LOSU",
+    "exp": "Con los criterios y directrices establecidos en el Espacio Europeo de Educación Superior."
+  },
+  {
+    "q": "Según el art. 5 de la LOSU, las universidades garantizarán la calidad académica de las actividades de sus centros, a través de:",
+    "o": [
+      "Los sistemas internos de garantía de calidad",
+      "Los órganos de gobierno de la Universidad",
+      "Los sistemas externos de garantía de calidad",
+      "Los sistemas de inspección de la calidad"
+    ],
+    "c": 0,
+    "ref": "Art. 5 LOSU",
+    "exp": "A través de los sistemas internos de garantía de calidad."
+  },
+  {
+    "q": "Según el art. 5 de la LOSU, ¿Qué es cierto respecto a la ANECA?",
+    "o": [
+      "Que tiene funciones de evaluación y acreditación del estudiantado",
+      "Podrán contar con medidas de igualdad relativas a sus procesos de evaluación",
+      "Deberán contar con un plan de igualdad relativo a su organización, en el caso de contar con más de 50 personas trabajadoras",
+      "Estará acreditada mediante un procedimiento establecido por el gobierno"
+    ],
+    "c": 2,
+    "ref": "Art. 5 LOSU",
+    "exp": "Con más de 50 personas trabajadoras deberán contar con un plan de igualdad relativo a su organización."
+  },
+  {
+    "q": "Según el art. 38 de la LOSU, ¿De qué plazo dispondrá la Comunidad Autónoma para la elaboración del informe de legalidad respecto a los estatutos de las Universidades?",
+    "o": [
+      "Tres meses",
+      "Seis meses",
+      "Cuatro meses",
+      "Cinco meses"
+    ],
+    "c": 2,
+    "ref": "Art. 38 LOSU",
+    "exp": "Dispondrá de cuatro meses para elaborar el informe de legalidad."
+  },
+  {
+    "q": "Según el art. 38 de la LOSU, ¿De qué plazo dispondrá la Comunidad Autónoma para aprobar los Estatutos de la Universidad?",
+    "o": [
+      "Tres meses",
+      "Seis meses",
+      "Cuatro meses",
+      "Ninguna es correcta"
+    ],
+    "c": 3,
+    "ref": "Art. 38 LOSU",
+    "exp": "Según la clave la correcta es D."
+  },
+  {
+    "q": "Según el art. 38 de la LOSU, ¿Qué pone fin a la vía administrativa?",
+    "o": [
+      "Los acuerdos del Rector/a",
+      "Los acuerdos del Equipo de Gobierno",
+      "Las resoluciones de los Vicerrectores/as",
+      "Los acuerdos del Consejo Social"
+    ],
+    "c": 3,
+    "ref": "Art. 38 LOSU",
+    "exp": "Según la clave la correcta es D, los acuerdos del Consejo Social ponen fin a la vía administrativa."
+  },
+  {
+    "q": "Según el art. 38 de la LOSU, cuando los Estatutos sólo deban ser aprobados por real decreto del Consejo de Ministros por tratarse de una universidad de las previstas en el artículo 4.1.b):",
+    "o": [
+      "Los estatutos no deberán publicarse",
+      "Se publicará el Real Decreto de su aprobación, solo en el Boletín Oficial del Estado",
+      "Únicamente se publicarán en el Boletín oficial del Estado",
+      "Se publicarán en el Boletín de la Comunidad autónoma donde se vaya a ubicar la Universidad y además en el Boletín Oficial del Estado"
+    ],
+    "c": 2,
+    "ref": "Art. 38 LOSU",
+    "exp": "Únicamente se publicarán en el Boletín Oficial del Estado."
+  },
+  {
+    "q": "Según el art. 38 de la LOSU, en el caso de interponer un recurso potestativo de reposición frente a una resolución del Rector/a, ¿Qué podrán contemplar los Estatutos de la Universidad?",
+    "o": [
+      "La posibilidad de que el citado recurso no tenga carácter potestativo",
+      "Sustituir el previo recurso de reposición por cualquiera de los procedimientos recogidos en el artículo 112.2 de la Ley 39/2015",
+      "La imposibilidad de acudir directamente a la vía jurisdiccional contenciosa-administrativa",
+      "Podrán contemplar todas las cuestiones anteriores"
+    ],
+    "c": 1,
+    "ref": "Art. 38 LOSU",
+    "exp": "Podrán contemplar la sustitución del recurso de reposición por los procedimientos del art. 112.2 de la Ley 39/2015."
+  },
+  {
+    "q": "Según el art. 39 de la LOSU, las Universidades en sus estatutos establecerán mecanismos de rendición de cuentas respecto a:",
+    "o": [
+      "La participación de la sociedad",
+      "La implantación del plan de igualdad",
+      "Impacto medioambiental",
+      "La disponibilidad de los servicios universitarios"
+    ],
+    "c": 3,
+    "ref": "Art. 39 LOSU",
+    "exp": "Según la clave la correcta es D."
+  },
+  {
+    "q": "Según el art. 39 de la LOSU, respecto a la calidad, ¿Con qué deberán contar las Universidades?",
+    "o": [
+      "Con un plan de transparencia",
+      "Con un portal de transparencia",
+      "Con una estrategia de transparencia",
+      "Con una unidad de transparencia"
+    ],
+    "c": 1,
+    "ref": "Art. 39 LOSU",
+    "exp": "Deberán contar con un portal de transparencia."
+  },
+  {
+    "q": "Según el art. 39 de la LOSU, ¿Qué deben guiar la función docente y la investigación?",
+    "o": [
+      "El cumplimiento de los principios éticos y de integridad académica, así como de las directrices antifraude",
+      "Una gestión eficaz de los recursos económicos",
+      "El cumplimiento de los objetivos diseñados en el plan de autoevaluación",
+      "La colaboración con los organismos de autoevaluación y la participación en los planes de actuación"
+    ],
+    "c": 0,
+    "ref": "Art. 39 LOSU",
+    "exp": "Deben guiar el cumplimiento de los principios éticos y de integridad académica y las directrices antifraude."
+  },
+  {
+    "q": "Según el art. 39 de la LOSU, las universidades podrán estructurarse, según lo determinen sus Estatutos en:",
+    "o": [
+      "Campus y Facultades",
+      "Consejo de Escuelas en todo caso",
+      "A y B son correctas",
+      "A y B son incorrectas"
+    ],
+    "c": 0,
+    "ref": "Art. 40 LOSU",
+    "exp": "Podrán estructurarse en Campus y Facultades según determinen sus estatutos."
+  },
+  {
+    "q": "Según el art. 40 de la LOSU, ¿Dónde se establecerán las funciones de las estructuras universitarias creadas específicamente para desarrollar, transferir, intercambiar y promover la investigación?",
+    "o": [
+      "En el plan estratégico",
+      "En la normativa de la Comunidad autónoma",
+      "En los convenios de adscripción",
+      "En los Estatutos"
+    ],
+    "c": 3,
+    "ref": "Art. 40 LOSU",
+    "exp": "Se establecerán en los Estatutos."
+  },
+  {
+    "q": "Según el art. 40 de la LOSU, los centros y estructuras de las universidades:",
+    "o": [
+      "Deberán fomentar la superación",
+      "Deberán fomentar la transversabilidad",
+      "Deben fomentar la multidisciplinariedad y la interdisciplinariedad",
+      "Deben fomentar el desarrollo económico eficaz"
+    ],
+    "c": 2,
+    "ref": "Art. 40 LOSU",
+    "exp": "Deben fomentar la cooperación, la multidisciplinariedad y la interdisciplinariedad."
+  },
+  {
+    "q": "Según el art. 41 de la LOSU, a iniciativa de quién será acordada la creación de Facultades:",
+    "o": [
+      "Del Consejo Social",
+      "De la Comunidad Autónoma",
+      "De la Conferencia General de Política Universitaria",
+      "De las Universidades"
+    ],
+    "c": 3,
+    "ref": "Art. 41 LOSU",
+    "exp": "A iniciativa de las Universidades."
+  },
+  {
+    "q": "Según el art. 41 de la LOSU, la iniciativa a la que se refiere la pregunta anterior se hará mediante:",
+    "o": [
+      "Propuesta",
+      "Acuerdo del Consejo de Gobierno",
+      "Real Decreto",
+      "Convenio"
+    ],
+    "c": 0,
+    "ref": "Art. 41 LOSU",
+    "exp": "Se hará mediante propuesta."
+  },
+  {
+    "q": "Según el art. 41 de la LOSU, la creación, modificación y supresión de un departamento, se realizará conforme a lo estipulado en:",
+    "o": [
+      "La LOSU",
+      "Las normas de desarrollo de la LOSU",
+      "Los Estatutos de la Universidad",
+      "Se realizará conforme a todo lo anterior"
+    ],
+    "c": 3,
+    "ref": "Art. 41 LOSU",
+    "exp": "Conforme a la LOSU, sus normas de desarrollo y los Estatutos de la Universidad."
+  },
+  {
+    "q": "Según el art. 43 de la LOSU, ¿Qué unidades serán las encargadas de asesorar, coordinar y evaluar la incorporación transversal de la igualdad entre mujeres y hombres?",
+    "o": [
+      "Las de Igualdad",
+      "Las de diversidad",
+      "Las de orientación de Género",
+      "Las de Inclusión"
+    ],
+    "c": 0,
+    "ref": "Art. 43 LOSU",
+    "exp": "Las unidades de Igualdad asesoran, coordinan y evalúan la incorporación transversal de la igualdad."
+  },
+  {
+    "q": "Según el art. 43 de la LOSU, ¿Qué unidades serán las encargadas de coordinar e incluir de manera transversal el desarrollo de las políticas universitarias de inclusión y antidiscriminación?",
+    "o": [
+      "Las de igualdad",
+      "Las de diversidad",
+      "Las de acompañamiento psicológico",
+      "Las de transversalidad"
+    ],
+    "c": 1,
+    "ref": "Art. 43 LOSU",
+    "exp": "Las unidades de diversidad coordinan e incluyen las políticas de inclusión y antidiscriminación."
+  },
+  {
+    "q": "Según el art. 43 de la LOSU, la inspección de servicio actuará:",
+    "o": [
+      "Motu proprio",
+      "A instancia de cualquier órgano de la Universidad",
+      "Tras denuncia interpuesta de cualquier forma por algún miembro de la comunidad universitaria",
+      "Actuará de cualquiera de las formas anteriores"
+    ],
+    "c": 3,
+    "ref": "Art. 43 LOSU",
+    "exp": "Actuará de cualquiera de las formas anteriores."
+  },
+  {
+    "q": "Según el art. 44 de la LOSU, los Estatutos de la Universidad establecerán y regularán, como órgano colegiado:",
+    "o": [
+      "El Consejo de Gobierno",
+      "El Consejo Social",
+      "El Consejo de una Facultad",
+      "Establecerán y regularán todo lo anterior"
+    ],
+    "c": 3,
+    "ref": "Art. 44 LOSU",
+    "exp": "Establecerán y regularán el Consejo de Gobierno, el Consejo Social y el Consejo de Facultad."
+  },
+  {
+    "q": "Según el art. 44 de la LOSU, el mandato de los titulares de órganos unipersonales electos será:",
+    "o": [
+      "En todos los casos, de cuatro años",
+      "De seis años, en algunos casos",
+      "De cuatro años, improrrogables",
+      "En todos los casos, de seis años"
+    ],
+    "c": 3,
+    "ref": "Art. 44 LOSU",
+    "exp": "El mandato será de seis años en todos los casos."
+  },
+  {
+    "q": "Según el art. 44 de la LOSU, para el profesorado será requisito necesario para el desempeño de órganos unipersonales de gobierno:",
+    "o": [
+      "La vinculación permanente",
+      "La dedicación a tiempo completo",
+      "Al menos la dedicación a tiempo parcial",
+      "Una antigüedad como profesor universitario funcionario o laboral de al menos seis años"
+    ],
+    "c": 1,
+    "ref": "Art. 44 LOSU",
+    "exp": "Será requisito la dedicación a tiempo completo."
+  },
+  {
+    "q": "Según el art. 45 de la LOSU, ¿Cuál es el máximo órgano de representación y participación de la comunidad universitaria?",
+    "o": [
+      "El Claustro de Gobierno",
+      "El Claustro Social",
+      "El Claustro Universitario",
+      "El Claustro de estudiante"
+    ],
+    "c": 2,
+    "ref": "Art. 45 LOSU",
+    "exp": "El Claustro Universitario es el máximo órgano de representación y participación de la comunidad universitaria."
+  },
+  {
+    "q": "Según el art. 45 de la LOSU, ¿qué órgano de la Universidad elabora y aprueba los estatutos?",
+    "o": [
+      "El Claustro de Gobierno",
+      "El Consejo de Gobierno",
+      "El Claustro Universitario",
+      "Ninguno de los anteriores"
+    ],
+    "c": 2,
+    "ref": "Art. 45 LOSU",
+    "exp": "El Claustro Universitario elabora y aprueba los estatutos."
+  },
+  {
+    "q": "Según el art. 45 de la LOSU, ¿A qué órgano le corresponde la función de 'Convocar, con carácter extraordinario, elecciones a Rector o Rectora'?",
+    "o": [
+      "El Claustro Universitario",
+      "El Consejo de Gobierno",
+      "El Consejo Social",
+      "El claustro de estudiantes"
+    ],
+    "c": 0,
+    "ref": "Art. 45 LOSU",
+    "exp": "Corresponde al Claustro Universitario."
+  },
+  {
+    "q": "Según el art. 45 de la LOSU, la iniciativa 'para Convocar, con carácter extraordinario, elecciones a Rector o Rectora' será de:",
+    "o": [
+      "Dos tercios del claustro Universitario",
+      "El 30 por ciento del claustro Universitario",
+      "Un tercio del claustro universitario",
+      "Tres tercios del claustro universitario"
+    ],
+    "c": 2,
+    "ref": "Art. 45 LOSU",
+    "exp": "La iniciativa será de un tercio del claustro universitario."
+  },
+  {
+    "q": "Según el art. 45 de la LOSU, para la aprobación de la iniciativa de convocatoria extraordinaria a Rector será necesaria la aprobación:",
+    "o": [
+      "Dos tercios del claustro Universitario",
+      "El 30 por ciento del claustro Universitario",
+      "Un tercio del claustro universitario",
+      "Tres tercios del claustro universitario"
+    ],
+    "c": 0,
+    "ref": "Art. 45 LOSU",
+    "exp": "Será necesaria la aprobación por dos tercios del claustro universitario."
+  },
+  {
+    "q": "Según el art. 45 de la LOSU, en la iniciativa de convocar elecciones extraordinarias a Rector/a, ¿qué porcentaje debe incluir del personal de los cuerpos docentes universitarios funcionarios y Profesoras y Profesores Permanentes Laborales?",
+    "o": [
+      "Un tercio",
+      "Dos tercios",
+      "Un máximo del 30 por ciento",
+      "Nada es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 45 LOSU",
+    "exp": "Según la clave la correcta es D."
+  },
+  {
+    "q": "Según el art. 45 de la LOSU, la aprobación de la iniciativa de convocatoria de elecciones extraordinarias a Rector/a, ¿qué porcentaje debe incluir del personal de los cuerpos docentes universitarios funcionarios y Profesoras y Profesores Permanentes Laborales?",
+    "o": [
+      "Un tercio",
+      "Dos tercios",
+      "Al menos el 30 por ciento",
+      "Nada es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 45 LOSU",
+    "exp": "Según la clave la correcta es D."
+  },
+  {
+    "q": "Según el art. 45 de la LOSU, la aprobación de la iniciativa de convocatoria de elecciones extraordinarias a Rector/a, ¿Qué conllevará?",
+    "o": [
+      "La disolución de todos los órganos de gobierno de la Universidad",
+      "El cese del Rector/a",
+      "La reforma de los Estatutos de la Universidad",
+      "La sustitución del Rector/a por el candidato propuesto en la iniciativa de convocatoria de elecciones extraordinarias"
+    ],
+    "c": 1,
+    "ref": "Art. 45 LOSU",
+    "exp": "Conllevará el cese del Rector/a."
+  },
+  {
+    "q": "Según el art. 45 de la LOSU, ¿Qué representación tendrán en el Claustro Universitario el personal de los cuerpos docentes universitarios funcionarios y Profesoras y Profesores Permanentes Laborales?",
+    "o": [
+      "El 51 por ciento de los miembros de la Comunidad Universitaria",
+      "El 51 por ciento de los miembros que forman los cuerpos docentes",
+      "El 51 por ciento de los miembros del claustro",
+      "Un mínimo de un 51 por ciento de los miembros del claustro"
+    ],
+    "c": 2,
+    "ref": "Art. 45 LOSU",
+    "exp": "Tendrán el 51 por ciento de los miembros del claustro."
+  },
+  {
+    "q": "Según el art. 45 de la LOSU, en el Claustro Universitario, ¿qué porcentaje de representación del estudiantado deberán asegurar los Estatutos de la Universidad?",
+    "o": [
+      "Un mínimo del 25 por ciento",
+      "Un máximo del 25 por ciento",
+      "Un mínimo del 30 por ciento",
+      "Un máximo del 30 por ciento"
+    ],
+    "c": 0,
+    "ref": "Art. 45 LOSU",
+    "exp": "Un mínimo del 25 por ciento de representación del estudiantado."
+  },
+  {
+    "q": "Según la LOSU, 'el máximo órgano de gobierno de la Universidad' es:",
+    "o": [
+      "El Consejo Social",
+      "El Consejo de Gobierno",
+      "El Claustro Universitario",
+      "El Equipo de Gobierno"
+    ],
+    "c": 1,
+    "ref": "Art. 46 LOSU",
+    "exp": "El Consejo de Gobierno es el máximo órgano de gobierno de la Universidad."
+  },
+  {
+    "q": "Según la LOSU, ¿A qué órgano le corresponde la función de 'Aprobar la oferta y la programación docente de la universidad'?",
+    "o": [
+      "Al Consejo de Gobierno",
+      "Al Consejo Social",
+      "Al Claustro Universitario",
+      "El Equipo de Gobierno"
+    ],
+    "c": 0,
+    "ref": "Art. 46 LOSU",
+    "exp": "Corresponde al Consejo de Gobierno."
+  },
+  {
+    "q": "Según la LOSU, es una función del Consejo de Gobierno:",
+    "o": [
+      "Analizar y valorar el rendimiento de las actividades académicas y proponer acciones de mejora",
+      "Convocar, con carácter extraordinario, elecciones a Rector o Rectora",
+      "Aprobar los convenios de adscripción a la universidad de centros de educación superior públicos y privados",
+      "Defender los intereses del estudiantado en los órganos de gobierno"
+    ],
+    "c": 2,
+    "ref": "Art. 46 LOSU",
+    "exp": "Es función del Consejo de Gobierno aprobar los convenios de adscripción de centros."
+  },
+  {
+    "q": "Según la LOSU, no es una función del Consejo de Gobierno:",
+    "o": [
+      "Promover y aprobar los planes estratégicos de la universidad a propuesta del Equipo de Gobierno",
+      "Fijar las directrices fundamentales y los procedimientos de aplicación de todas las políticas de la universidad",
+      "Proponer al claustro Universitario para su aprobación el Plan Plurianual de Financiación",
+      "Definir y aprobar planes de captación, estabilización y promoción del personal docente e investigador"
+    ],
+    "c": 2,
+    "ref": "Art. 46 LOSU",
+    "exp": "La opción c no es función del Consejo de Gobierno según la clave."
+  },
+  {
+    "q": "Según la LOSU, ¿Cuántos miembros del Consejo de Gobierno serán elegidos por el Rector/a?",
+    "o": [
+      "Un mínimo del 10 por ciento",
+      "Dos tercios de los mismos",
+      "Un tercio excluyendo de ese cupo los miembros natos",
+      "Un tercio incluyendo en ese cupo los miembros natos"
+    ],
+    "c": 3,
+    "ref": "Art. 46 LOSU",
+    "exp": "Un tercio, incluyendo en ese cupo los miembros natos."
+  },
+  {
+    "q": "Según el art. 46 de la LOSU, en el Consejo de Gobierno, ¿Cuál será el porcentaje de representantes del personal técnico, de gestión y de administración y servicios?",
+    "o": [
+      "Un mínimo del 10 por ciento",
+      "Un máximo del 10 por ciento",
+      "Un mínimo del 5 por ciento",
+      "Un máximo del 30 por ciento"
+    ],
+    "c": 0,
+    "ref": "Art. 46 LOSU",
+    "exp": "Un mínimo del 10 por ciento serán representantes del PTGAS."
+  },
+  {
+    "q": "Según la LOSU, respecto a los convenios de adscripción a la universidad de centros de educación superior públicos y privados, ¿Qué función tiene el Consejo de Gobierno?",
+    "o": [
+      "Elaborarlos",
+      "Ninguna, porque es una función esencial del Consejo Social",
+      "Aprobarlos",
+      "Proponerlos al Equipo de Gobierno"
+    ],
+    "c": 2,
+    "ref": "Art. 46 LOSU",
+    "exp": "El Consejo de Gobierno los aprueba."
+  },
+  {
+    "q": "Según el art. 47 de la LOSU, el Consejo Social es el órgano de participación y representación de:",
+    "o": [
+      "La Comunidad Universitaria",
+      "De la sociedad",
+      "Del personal técnico, de gestión y de administración y servicios",
+      "Del Gobierno de la Universidad"
+    ],
+    "c": 1,
+    "ref": "Art. 47 LOSU",
+    "exp": "El Consejo Social es el órgano de participación y representación de la sociedad."
+  },
+  {
+    "q": "Según la LOSU, ¿Existen miembros natos en el Consejo de Gobierno de la Universidad?",
+    "o": [
+      "Sí, un representante de los estudiantes",
+      "No, si al mismo tiempo pertenece al Consejo Social",
+      "Sí, solo uno",
+      "Sí, el Secretario/a General"
+    ],
+    "c": 3,
+    "ref": "Art. 46 LOSU",
+    "exp": "Sí, el Secretario/a General es miembro nato."
+  },
+  {
+    "q": "Según la LOSU, ¿Qué función corresponde al Consejo Social?",
+    "o": [
+      "Aprobar la normativa de funcionamiento de la inspección de servicios y los procedimientos de rendición de cuentas anuales de la misma",
+      "Elegir a los representantes del Claustro en otros órganos de gobierno de la universidad",
+      "Contribuir a la incorporación de las previsiones del plan trienal de actuaciones en los presupuestos, y aprobarlos",
+      "Le corresponden todas las anteriores funciones"
+    ],
+    "c": 2,
+    "ref": "Art. 47 LOSU",
+    "exp": "Contribuir a la incorporación de las previsiones del plan en los presupuestos y aprobarlos."
+  },
+  {
+    "q": "Según la LOSU, ¿Cuántos representantes del personal técnico, de gestión y de administración y servicios serán miembros del Consejo Social?",
+    "o": [
+      "Tres",
+      "Uno",
+      "Dos",
+      "Ninguno"
+    ],
+    "c": 1,
+    "ref": "Art. 47 LOSU",
+    "exp": "Un representante del PTGAS será miembro del Consejo Social."
+  },
+  {
+    "q": "Según la LOSU, ¿Qué es cierto respecto al representante del Consejo de Estudiante en el Consejo Social?",
+    "o": [
+      "Que no existe tal representante",
+      "Que son un mínimo de un 10 por ciento",
+      "Que es uno con voz, pero sin voto",
+      "Que es uno"
+    ],
+    "c": 3,
+    "ref": "Art. 47 LOSU",
+    "exp": "Es uno el representante del Consejo de Estudiantes en el Consejo Social."
+  },
+  {
+    "q": "Según la LOSU, ¿A qué órgano le corresponde la función de 'Aprobar las asignaciones de los complementos retributivos'?",
+    "o": [
+      "Al Consejo de Gobierno",
+      "Al Consejo Social",
+      "Al Claustro Universitario",
+      "La comunidad Autónoma"
+    ],
+    "c": 1,
+    "ref": "Art. 47 LOSU",
+    "exp": "Corresponde al Consejo Social aprobar las asignaciones de los complementos retributivos."
+  },
+  {
+    "q": "Según la LOSU, la composición del Consejo Social se regulará:",
+    "o": [
+      "Por la propia Universidad",
+      "Por el propio Consejo Social",
+      "Por Ley de la Comunidad Autónoma",
+      "Por reglamento de la Comunidad Autónoma"
+    ],
+    "c": 2,
+    "ref": "Art. 47 LOSU",
+    "exp": "Se regulará por Ley de la Comunidad Autónoma."
+  },
+  {
+    "q": "Según la LOSU, es una función del Consejo Social:",
+    "o": [
+      "Aprobar, con carácter previo, la oferta de titulaciones oficiales y de formación permanente, así como la creación y supresión de centros propios y en el extranjero",
+      "Promover acciones para facilitar la conexión de la universidad con la sociedad y para el fortalecimiento de las actividades de formación a lo largo de la vida",
+      "Aprobar la captación de recursos económicos destinados a la financiación de la universidad",
+      "Informar del rendimiento de las actividades académicas y proponer acciones de mejora"
+    ],
+    "c": 1,
+    "ref": "Art. 47 LOSU",
+    "exp": "Promover acciones para facilitar la conexión de la universidad con la sociedad y el fortalecimiento de la formación a lo largo de la vida."
+  },
+  {
+    "q": "Según la LOSU, ¿qué función tiene la Universidad en el procedimiento de designación de los miembros del Consejo Social?",
+    "o": [
+      "Nombrarlos",
+      "Proponerlo",
+      "Ser oída",
+      "Emitir informe"
+    ],
+    "c": 2,
+    "ref": "Art. 47 LOSU",
+    "exp": "La Universidad será oída en el procedimiento de designación."
+  },
+  {
+    "q": "Según la LOSU, ¿Quién propone al Consejo Social para su aprobación los presupuestos de la universidad y de los entes dependientes?",
+    "o": [
+      "La Comunidad Autónoma",
+      "El Claustro Universitario",
+      "El Rector/a",
+      "El Consejo de Gobierno"
+    ],
+    "c": 3,
+    "ref": "Art. 46 LOSU",
+    "exp": "El Consejo de Gobierno propone los presupuestos al Consejo Social para su aprobación."
+  },
+  {
+    "q": "Según la LOSU, ¿Quién propone al Consejo Social para su aprobación las cuentas anuales de la Universidad?",
+    "o": [
+      "El Claustro Universitario",
+      "El Rector/a",
+      "El Consejo de Gobierno",
+      "Nada es correcto, porque el consejo Social no aprueba las cuentas anuales de la Universidad"
+    ],
+    "c": 2,
+    "ref": "Art. 46 LOSU",
+    "exp": "El Consejo de Gobierno propone las cuentas anuales al Consejo Social para su aprobación."
+  },
+  {
+    "q": "Según el art. 48 de la LOSU, el Consejo de Estudiantes, ¿De qué gozará para el cumplimiento de sus fines dentro de la normativa propia de la universidad?",
+    "o": [
+      "De plena autonomía",
+      "De independencia económica",
+      "De personalidad propia",
+      "De capacidad jurídica"
+    ],
+    "c": 0,
+    "ref": "Art. 48 LOSU",
+    "exp": "Gozará de plena autonomía para el cumplimiento de sus fines."
+  },
+  {
+    "q": "Según el art. 48 de la LOSU, el Consejo de Estudiantes tiene la función de:",
+    "o": [
+      "Fomentar el asociacionismo estudiantil y la participación del estudiantado en la vida universitaria",
+      "Aprobar las propuestas de los órganos de gobierno en materias relacionadas con sus competencias",
+      "Defender los intereses del estudiantado y del profesorado en los órganos de gobierno",
+      "Tiene todas las anteriores funciones"
+    ],
+    "c": 0,
+    "ref": "Art. 48 LOSU",
+    "exp": "Fomentar el asociacionismo estudiantil y la participación del estudiantado."
+  },
+  {
+    "q": "Según la LOSU, en caso de contar con facultades, escuelas o departamentos, estas estructuras tendrán como órgano de gobierno:",
+    "o": [
+      "Una Junta",
+      "Un Consejo",
+      "Un equipo de Gobierno",
+      "Un claustro"
+    ],
+    "c": 1,
+    "ref": "Art. 48 LOSU",
+    "exp": "Tendrán como órgano de gobierno un Consejo."
+  },
+  {
+    "q": "Según el art. 50 de la LOSU, ¿Quién ejerce la dirección global de la Universidad?",
+    "o": [
+      "El o la Gerente",
+      "El Rector/a",
+      "El Consejo de Gobierno",
+      "El órgano competente de la Comunidad Autónoma"
+    ],
+    "c": 1,
+    "ref": "Art. 50 LOSU",
+    "exp": "El Rector/a ejerce la dirección global de la Universidad."
+  },
+  {
+    "q": "(85 bis) Según el art. 50 de la LOSU, es cierto que el Rector/a ejerce funciones propias como:",
+    "o": [
+      "De máximo representante de la sociedad",
+      "De máximo órgano académico de la universidad",
+      "De máxima autoridad Política en la Universidad",
+      "Le corresponde ejercer como funciones propias cualquiera de las anteriores"
+    ],
+    "c": 1,
+    "ref": "Art. 50 LOSU",
+    "exp": "El Rector/a es el máximo órgano académico de la universidad."
+  },
+  {
+    "q": "Según el art. 50 de la LOSU, como unidad de apoyo al Rector o Rectora se constituirá:",
+    "o": [
+      "Un Consejo de Dirección",
+      "Un Consejo de Gobierno",
+      "Un Equipo de Gobierno",
+      "Un Equipo de Dirección"
+    ],
+    "c": 2,
+    "ref": "Art. 50 LOSU",
+    "exp": "Se constituirá un Equipo de Gobierno como unidad de apoyo al Rector."
+  },
+  {
+    "q": "Según el art. 50 de la LOSU, ¿Quién no integrará la unidad de apoyo al Rector?",
+    "o": [
+      "El Gerente",
+      "El Secretario/a General",
+      "Un representante de los estudiantes, aunque podrían integrarlo",
+      "Los Vicerrectores/as"
+    ],
+    "c": 2,
+    "ref": "Art. 50 LOSU",
+    "exp": "El Equipo de Gobierno no integra a un representante de los estudiantes."
+  },
+  {
+    "q": "Según el art. 50 de la LOSU, la persona titular de la Gerencia será nombrada, de acuerdo con:",
+    "o": [
+      "El Rector/a",
+      "La Comunidad Autónoma",
+      "El Consejo de Gobierno",
+      "El Consejo Social"
+    ],
+    "c": 3,
+    "ref": "Art. 50 LOSU",
+    "exp": "La Gerencia será nombrada de acuerdo con el Consejo Social."
+  },
+  {
+    "q": "Según el art. 50 de la LOSU, ¿Quién define las directrices fundamentales de la planificación estratégica de la universidad?",
+    "o": [
+      "El Consejo de Gobierno",
+      "El Rector/a",
+      "El Consejo Social",
+      "El o la Gerente"
+    ],
+    "c": 1,
+    "ref": "Art. 50 LOSU",
+    "exp": "El Rector/a define las directrices fundamentales de la planificación estratégica."
+  },
+  {
+    "q": "Según la LOSU, en caso de contar la Universidad con Facultad, el órgano de gobierno estará presidido:",
+    "o": [
+      "Por un director/a",
+      "Por un Decano/a",
+      "El Rector/a",
+      "A y B son correctas"
+    ],
+    "c": 1,
+    "ref": "Art. 48 LOSU",
+    "exp": "En las Facultades el órgano de gobierno estará presidido por un Decano/a."
+  },
+  {
+    "q": "Según el art. 50 de la LOSU, ¿Dónde se deberá consignar el mecanismo de sustitución temporal del Rector o la Rectora?",
+    "o": [
+      "En la Ley de la Comunidad Autónoma",
+      "En los reglamentos de su nombramiento",
+      "En los Estatutos de la Universidad",
+      "En la Ley de Creación de la Universidad"
+    ],
+    "c": 2,
+    "ref": "Art. 50 LOSU",
+    "exp": "Se consignará en los Estatutos de la Universidad."
+  },
+  {
+    "q": "Según el art. 50 de la LOSU, ¿Quién podrá nombrar aquellos representantes de la universidad en diversos órganos, entidades e instituciones en los cuales tenga representación la universidad?",
+    "o": [
+      "El Rector/a",
+      "El Claustro Universitario",
+      "El Consejo de Gobierno",
+      "El Consejo Social"
+    ],
+    "c": 0,
+    "ref": "Art. 50 LOSU",
+    "exp": "El Rector/a podrá nombrar dichos representantes."
+  },
+  {
+    "q": "Según el art. 50 de la LOSU, es cierto que el Rector/a, durante su mandato:",
+    "o": [
+      "No podrá ser miembro nato del Claustro Universitario",
+      "No Impulsará los ejes principales de la política universitaria",
+      "Podrá formar parte de una comisión de promoción",
+      "No podrá presentarse a ningún proceso de promoción académica"
+    ],
+    "c": 3,
+    "ref": "Art. 50 LOSU",
+    "exp": "Durante su mandato no podrá presentarse a ningún proceso de promoción académica."
+  },
+  {
+    "q": "Según el art. 51 de la LOSU, los candidatos o candidatas a Rector/a deberán ser:",
+    "o": [
+      "Personal docente e investigador permanente doctor a tiempo completo o parcial y reunir los méritos que determinen los Estatutos",
+      "Personal docente e investigador permanente doctor a tiempo completo y reunir los méritos que determine la ley de la Comunidad autónoma",
+      "Personal docente e investigador permanente doctor a tiempo completo y reunir los méritos de investigación, docencia y experiencia de gestión universitaria que determinen los Estatutos",
+      "Personal docente e investigador permanente doctor a tiempo completo o personal técnico, de gestión, administración y servicios, y reunir los méritos que determinen los Estatutos"
+    ],
+    "c": 2,
+    "ref": "Art. 51 LOSU",
+    "exp": "Deberán ser PDI permanente doctor a tiempo completo y reunir los méritos que determinen los Estatutos."
+  },
+  {
+    "q": "Según el art. 51 de la LOSU, ¿Qué se deberá garantizar entre los méritos al candidato/a a Rector/a?",
+    "o": [
+      "Una alta capacidad intelectual",
+      "Una alta capacidad de comunicación",
+      "Una alta capacidad investigadora",
+      "Una alta capacidad de enseñanza"
+    ],
+    "c": 2,
+    "ref": "Art. 51 LOSU",
+    "exp": "Se deberá garantizar una alta capacidad investigadora."
+  },
+  {
+    "q": "Según el art. 51 de la LOSU, el Rector o la Rectora será elegido o elegida mediante elección directa por sufragio universal:",
+    "o": [
+      "Limitado",
+      "Restringido",
+      "Razonado",
+      "Ponderado"
+    ],
+    "c": 3,
+    "ref": "Art. 51 LOSU",
+    "exp": "Mediante sufragio universal ponderado."
+  },
+  {
+    "q": "Según el art. 51 de la LOSU, ¿Por quién será elegido el Rector/a?",
+    "o": [
+      "Por todos los miembros de la Comunidad Autónoma",
+      "Por todos los miembros de la Comunidad Universitaria",
+      "Por ningún miembro de la Comunidad Universitaria",
+      "Por todos los miembros de la Sociedad"
+    ],
+    "c": 1,
+    "ref": "Art. 51 LOSU",
+    "exp": "Por todos los miembros de la Comunidad Universitaria."
+  },
+  {
+    "q": "Según el art. 51 de la LOSU, ¿Quién será proclamado Rector o Rectora en primera vuelta?",
+    "o": [
+      "El que logre el apoyo de más de la mitad de los votos válidamente emitidos",
+      "El que logre el apoyo de la Unanimidad",
+      "A y B son correctas",
+      "En el caso de presentarse tres candidatos, el que logre la mayoría simple"
+    ],
+    "c": 2,
+    "ref": "Art. 51 LOSU",
+    "exp": "Según la clave la correcta es C."
+  },
+  {
+    "q": "Según el art. 51 de la LOSU, si fuera necesaria una segunda vuelta:",
+    "o": [
+      "Es necesario lograr el apoyo de más de la mitad de los votos válidamente emitidos",
+      "Será proclamado el candidato o la candidata que obtenga la mayoría simple",
+      "Será proclamado el candidato o la candidata que obtenga un tercio de los votos válidamente emitidos",
+      "Será proclamado el candidato o la candidata que obtenga la mayoría simple, sin necesidad de aplicar las correspondientes ponderaciones"
+    ],
+    "c": 1,
+    "ref": "Art. 51 LOSU",
+    "exp": "En segunda vuelta será proclamado quien obtenga la mayoría simple."
+  },
+  {
+    "q": "Según el art. 51 de la LOSU, ¿Por quién será nombrado o nombrada el Rector o la Rectora?",
+    "o": [
+      "Por el órgano correspondiente de la Comunidad Autónoma",
+      "Por el órgano correspondiente de la Universidad",
+      "Por el Consejo Social",
+      "Por el Ministerio de Universidades en todo caso"
+    ],
+    "c": 0,
+    "ref": "Art. 51 LOSU",
+    "exp": "Por el órgano correspondiente de la Comunidad Autónoma."
+  },
+  {
+    "q": "Según el art. 51 de la LOSU, la duración del mandato del Rector/a será de:",
+    "o": [
+      "Seis años prorrogable y renovable",
+      "Seis años prorrogable, pero no renovable",
+      "Seis años improrrogable y no renovable",
+      "Seis años improrrogable y no renovable, según los casos"
+    ],
+    "c": 2,
+    "ref": "Art. 51 LOSU",
+    "exp": "Seis años improrrogable y no renovable."
+  },
+  {
+    "q": "Según el art. 89 de la LOSU, el personal técnico, de gestión y de administración y servicios de las universidades públicas estará formado por:",
+    "o": [
+      "Por personal funcionario, y en caso de contar con recursos suficientes, además por personal laboral",
+      "Por personal laboral y en su caso por funcionarios",
+      "Por personal funcionario y laboral",
+      "Por personal funcionario, personal laboral o personal directivo"
+    ],
+    "c": 2,
+    "ref": "Art. 89 LOSU",
+    "exp": "Estará formado por personal funcionario y laboral."
+  },
+  {
+    "q": "Según el art. 89 de la LOSU, ¿Quién determinará las funciones y perfiles, de los distintos ámbitos de la actividad universitaria, en que estarán especializados el personal de las Universidades?",
+    "o": [
+      "El Ministerio de Universidades",
+      "Las Universidades junto con la representación de personal",
+      "Las Comunidades Autónomas",
+      "Las Universidades"
+    ],
+    "c": 3,
+    "ref": "Art. 89 LOSU",
+    "exp": "Las Universidades determinarán las funciones y perfiles."
+  },
+  {
+    "q": "Según el art. 89 de la LOSU, el personal técnico, de gestión y de administración y servicios, funcionario y laboral, ¿Qué derecho tiene respecto al diseño, implementación y evaluación de la política universitaria?",
+    "o": [
+      "Participación libre y significativa",
+      "Económicos",
+      "Académicos",
+      "A la representación suficiente"
+    ],
+    "c": 0,
+    "ref": "Art. 89 LOSU",
+    "exp": "Tiene derecho a una participación libre y significativa."
+  },
+  {
+    "q": "Según el art. 90 de la LOSU, el personal técnico, de gestión y de administración y servicio de las Universidades, ¿Cómo desarrollará su carrera profesional?",
+    "o": [
+      "Mediante la progresión de grado, categoría, escala o nivel, sin necesidad de cambiar de puesto de trabajo",
+      "Mediante el ascenso de grupo y progresión de grado, categoría, escala o nivel, sin necesidad de cambiar de puesto de trabajo",
+      "Mediante la progresión de grado, categoría, escala o nivel, con cambio de puesto de trabajo",
+      "Mediante el acceso a los distintos puestos de la estructura de puesto de trabajo"
+    ],
+    "c": 0,
+    "ref": "Art. 90 LOSU",
+    "exp": "Mediante la progresión de grado, categoría, escala o nivel, sin necesidad de cambiar de puesto de trabajo."
+  },
+  {
+    "q": "Según el art. 90 de la LOSU, para el desarrollo de la carrera profesional del PTGAS, ¿A qué se atenderá?",
+    "o": [
+      "A su remuneración",
+      "A la cantidad de trabajo realizado",
+      "A la formación acreditada",
+      "Se atenderá a todo lo anterior"
+    ],
+    "c": 2,
+    "ref": "Art. 90 LOSU",
+    "exp": "Se atenderá a la formación acreditada."
+  },
+  {
+    "q": "Según el art. 91 de la LOSU, la selección del personal técnico, de gestión y de administración y servicios, funcionario y laboral, ¿De acuerdo con qué principios se realizará?",
+    "o": [
+      "Igualdad, mérito, capacidad, transparencia, publicidad y coordinación, así como la posibilidad de recurso ante la propia universidad",
+      "Igualdad, mérito, capacidad, transparencia, publicidad, concurrencia, accesibilidad y celeridad, así como la posibilidad de recurso ante la propia universidad",
+      "Igualdad, mérito, capacidad, transparencia, publicidad y concurrencia, sin la posibilidad de recurso ante la propia universidad",
+      "Igualdad, mérito, capacidad, transparencia, publicidad y concurrencia, así como la posibilidad de recurso ante la propia universidad"
+    ],
+    "c": 3,
+    "ref": "Art. 91 LOSU",
+    "exp": "Igualdad, mérito, capacidad, transparencia, publicidad y concurrencia, así como la posibilidad de recurso ante la propia universidad."
+  },
+  {
+    "q": "Según el art. 91 de la LOSU, ¿Dónde deberán publicarse las convocatorias relativas a los procesos de selección del PTGAS?",
+    "o": [
+      "Solo en el Boletín oficial del Estado",
+      "En el «Boletín Oficial del Estado» y en el diario oficial de la respectiva Comunidad Autónoma",
+      "En el «Boletín Oficial del Estado», en el diario oficial de la respectiva Comunidad Autónoma y en el diario de la respectiva Universidad",
+      "En el diario oficial de la respectiva Comunidad Autónoma y en el diario de la respectiva Universidad"
+    ],
+    "c": 1,
+    "ref": "Art. 91 LOSU",
+    "exp": "En el BOE y en el diario oficial de la respectiva Comunidad Autónoma."
+  },
+  {
+    "q": "Según el art. 92 de la LOSU, la provisión de puestos de personal técnico, de gestión y de administración y servicios en las universidades se realizará mediante el sistema:",
+    "o": [
+      "Concurso oposición",
+      "Oposición libre",
+      "Concurso",
+      "Libre designación"
+    ],
+    "c": 2,
+    "ref": "Art. 92 LOSU",
+    "exp": "La provisión se realizará mediante el sistema de concurso."
+  },
+  {
+    "q": "Según el art. 92 de la LOSU, sólo podrán cubrirse por el sistema de libre designación aquellos puestos de personal:",
+    "o": [
+      "Funcionario",
+      "Laboral",
+      "Directivo",
+      "Eventual laboral"
+    ],
+    "c": 0,
+    "ref": "Art. 92 LOSU",
+    "exp": "Solo podrán cubrirse por libre designación puestos de personal funcionario."
+  },
+  {
+    "q": "Según el art. 93 de la LOSU, el personal técnico, de gestión y de administración y servicios, funcionario y laboral, será retribuido con cargo:",
+    "o": [
+      "Los presupuestos de sus respectivas Comunidades Autónomas",
+      "Los presupuestos de sus respectivas universidades",
+      "Los presupuestos Generales del Estado",
+      "Los presupuestos del Ministerio de Universidades en el caso de Universidades de carácter especial"
+    ],
+    "c": 1,
+    "ref": "Art. 93 LOSU",
+    "exp": "Será retribuido con cargo a los presupuestos de sus respectivas universidades."
+  },
+  {
+    "q": "Según el art. 93 de la LOSU, ¿Quién/es podrán establecer programas de incentivos para el PTGAS vinculados a sus méritos individuales y a su contribución en la mejora de la actividad?",
+    "o": [
+      "El Gobierno",
+      "Las Comunidades Autónomas",
+      "Las Universidades",
+      "Todos los anteriores"
+    ],
+    "c": 3,
+    "ref": "Art. 93 LOSU",
+    "exp": "Podrán establecerlos el Gobierno, las Comunidades Autónomas y las Universidades."
+  },
+  {
+    "q": "Según el art. 94 de la LOSU, los planes de formación que establecerán las Universidades serán:",
+    "o": [
+      "Plurianuales",
+      "Anuales",
+      "Bianuales",
+      "Semestrales"
+    ],
+    "c": 0,
+    "ref": "Art. 94 LOSU",
+    "exp": "Los planes de formación serán plurianuales."
+  },
+  {
+    "q": "Según el art. 2 de la Ley Orgánica 2/2023, el sistema universitario presta y garantiza el servicio público de la educación superior universitaria mediante:",
+    "o": [
+      "La docencia, la investigación y la transferencia del conocimiento",
+      "La docencia, el estudio y la transferencia de la investigación",
+      "La libertad, la investigación y la transferencia del conocimiento",
+      "La libertad, la docencia y la transferencia del conocimiento"
+    ],
+    "c": 0,
+    "ref": "Art. 2 LOSU",
+    "exp": "Mediante la docencia, la investigación y la transferencia del conocimiento."
+  },
+  {
+    "q": "Según el art. 2 de la LOSU, es una función de las universidades, 'La transferencia e intercambio del conocimiento y de la cultura al conjunto de la sociedad a través de…':",
+    "o": [
+      "La formación de la ciudadanía a través de la transmisión de los valores y principios democráticos",
+      "El fomento de la participación de la comunidad universitaria",
+      "La actividad universitaria y la formación permanente o a lo largo de la vida del conjunto de la ciudadanía",
+      "El impulso de programas específicos de becas y ayudas al estudiantado"
+    ],
+    "c": 2,
+    "ref": "Art. 2 LOSU",
+    "exp": "A través de la actividad universitaria y la formación permanente o a lo largo de la vida del conjunto de la ciudadanía."
+  },
+  {
+    "q": "Según el art. 3 de la LOSU, respecto a los programas de movilidad, la autonomía de las universidades comprende y requiere:",
+    "o": [
+      "El fomento y la gestión siempre que sean propios",
+      "Su establecimiento",
+      "El fomento y la gestión de los promovidos por las Administraciones Públicas",
+      "La organización de las actividades tutoriales que exijan"
+    ],
+    "c": 2,
+    "ref": "Art. 3 LOSU",
+    "exp": "El fomento y la gestión de programas de movilidad propios o promovidos por las Administraciones Públicas."
+  },
+  {
+    "q": "Según el art. 3 de la LOSU, la autonomía universitaria, ¿qué garantiza?",
+    "o": [
+      "La libertad de cátedra del estudiantado",
+      "La libertad de cátedra de sus órganos de gobierno",
+      "La libertad de cátedra del profesorado",
+      "La libertad de cátedra de su personal"
+    ],
+    "c": 2,
+    "ref": "Art. 3 LOSU",
+    "exp": "Garantiza la libertad de cátedra del profesorado."
+  },
+  {
+    "q": "Según el art. 3 de la LOSU, para el desarrollo efectivo de la autonomía universitaria, todas las Administraciones Públicas con competencias en la materia deberán asegurar a las universidades públicas:",
+    "o": [
+      "Su estabilidad presupuestaria",
+      "Su suficiencia y estabilidad financiera",
+      "Su estabilidad académica y económica",
+      "Su equilibrio financiero"
+    ],
+    "c": 1,
+    "ref": "Art. 3 LOSU",
+    "exp": "Deberán asegurar su suficiencia y estabilidad financiera."
+  },
+  {
+    "q": "Según el art. 3 de la LOSU, en el ejercicio de su autonomía, ¿A quién deberán rendir cuentas las Universidades?",
+    "o": [
+      "A la comunidad Universitaria",
+      "Al Gobierno",
+      "A los órganos de Gobierno de la Comunidad Autónoma",
+      "A la sociedad"
+    ],
+    "c": 3,
+    "ref": "Art. 3 LOSU",
+    "exp": "Deberán rendir cuentas a la sociedad."
+  },
+  {
+    "q": "Según el art. 4 de la LOSU, la creación de las universidades públicas y el reconocimiento de las universidades privadas se llevará a cabo:",
+    "o": [
+      "Por ley de la Asamblea Legislativa de la Comunidad Autónoma en cuyo territorio vaya a ubicarse",
+      "Por ley de los órganos de gobierno de la Comunidad autónoma con el acuerdo de su Asamblea Legislativa",
+      "En todo caso, por ley de las Cortes Generales a propuesta del Gobierno",
+      "Por ley de las Cortes Generales a propuesta del Consejo de Gobierno de las Comunidades autónomas donde vayan a ubicarse"
+    ],
+    "c": 0,
+    "ref": "Art. 4 LOSU",
+    "exp": "Por ley de la Asamblea Legislativa de la Comunidad Autónoma en cuyo territorio vaya a ubicarse."
+  },
+  {
+    "q": "Según el art. 4 de la LOSU, la creación de las universidades públicas y el reconocimiento de las universidades privadas se llevará a cabo, previo informe preceptivo de:",
+    "o": [
+      "El Consejo de Universidades",
+      "La Comisión de política Universitaria",
+      "La Crue (Conferencia de Rectores y Rectoras de las Universidades Españolas)",
+      "La Conferencia General de Política Universitaria"
+    ],
+    "c": 3,
+    "ref": "Art. 4 LOSU",
+    "exp": "Previo informe preceptivo de la Conferencia General de Política Universitaria."
+  },
+  {
+    "q": "Según el art. 4 de la LOSU, como requisito para su creación y reconocimiento, ¿Con qué planes deberán contar las Universidades?",
+    "o": [
+      "Con los que garanticen la estabilidad presupuestaria",
+      "Con los que garanticen la admisión de los estudiantes en régimen de permanencia",
+      "Con los que garanticen la igualdad de género en todas sus actividades",
+      "Con los que garanticen la seguridad y eviten la siniestralidad en sus instalaciones"
+    ],
+    "c": 2,
+    "ref": "Art. 4 LOSU",
+    "exp": "Deberán contar con planes que garanticen la igualdad de género en todas sus actividades."
+  },
+  {
+    "q": "Según el art. 5 de la LOSU, la promoción y el aseguramiento de la calidad del sistema universitario es responsabilidad compartida:",
+    "o": [
+      "Las Universidades, la Conferencia General de Política Universitaria y el Gobierno",
+      "Las universidades, las agencias de evaluación y las Administraciones Públicas con competencias en esta materia",
+      "La Conferencia General de Política Universitaria, las Agencias de implantación de los sistemas de calidad y las Administraciones con competencia en esta materia",
+      "Las Universidades y el Gobierno, a través del Ministerio de Universidades, exclusivamente"
+    ],
+    "c": 1,
+    "ref": "Art. 5 LOSU",
+    "exp": "Universidades, agencias de evaluación y Administraciones Públicas con competencias en esta materia."
+  },
+  {
+    "q": "Según el art. 38 de la LOSU, las universidades públicas se regirán por esta ley orgánica, por la ley de su creación y por sus Estatutos, que serán elaborados por aquéllas y aprobados, previo control de su legalidad, por:",
+    "o": [
+      "Las Comunidades Autónomas",
+      "El Gobierno",
+      "La Comunidad Europea",
+      "Las propias Universidades"
+    ],
+    "c": 0,
+    "ref": "Art. 38 LOSU",
+    "exp": "Los Estatutos serán aprobados, previo control de legalidad, por las Comunidades Autónomas."
+  },
+  {
+    "q": "Según el art. 38 de la LOSU, ¿Qué resoluciones ponen fin a la vía administrativa?",
+    "o": [
+      "Las del equipo de Gobierno",
+      "Las del Consejo de Estudiante",
+      "Las del Rector/a",
+      "Las de todos los anteriores"
+    ],
+    "c": 2,
+    "ref": "Art. 38 LOSU",
+    "exp": "Las resoluciones del Rector/a ponen fin a la vía administrativa."
+  },
+  {
+    "q": "Según el art. 39 de la LOSU, las Universidades deberán contar:",
+    "o": [
+      "Un portal de transparencia",
+      "Unos principios de transparencia",
+      "Un plan de transparencia",
+      "Una estrategia de transparencia"
+    ],
+    "c": 0,
+    "ref": "Art. 39 LOSU",
+    "exp": "Deberán contar con un portal de transparencia."
+  },
+  {
+    "q": "Según el art. 40 de la LOSU, las Universidades, según lo determinen sus estatutos:",
+    "o": [
+      "Deberán estructurarse en Campus",
+      "Podrán estructurarse en Facultades y Escuelas",
+      "Deberán estructurarse con una escuela de Doctorado",
+      "B y C son correctas"
+    ],
+    "c": 1,
+    "ref": "Art. 40 LOSU",
+    "exp": "Podrán estructurarse en Facultades y Escuelas según determinen sus estatutos."
+  },
+  {
+    "q": "Según el art. 40 de la LOSU, ¿Quién establecerá las funciones de los centros o estructuras que componen la universidad para proponer y organizar las enseñanzas universitarias oficiales?",
+    "o": [
+      "El Gobierno",
+      "Los Estatutos",
+      "La Ley orgánica del Sistema Universitario",
+      "Las Comunidades Autónomas"
+    ],
+    "c": 1,
+    "ref": "Art. 40 LOSU",
+    "exp": "Las funciones se establecerán en los Estatutos."
+  },
+  {
+    "q": "Según el art. 41 de la LOSU, la creación, modificación y supresión de facultades y escuelas serán acordadas por la Comunidad Autónoma a iniciativa de:",
+    "o": [
+      "De la universidad mediante propuesta y aprobación de su Consejo de Gobierno",
+      "De la universidad mediante propuesta y aprobación de su Claustro Universitario",
+      "De la universidad mediante propuesta y aprobación de su Consejo Social",
+      "De la universidad mediante propuesta y aprobación del Rector/a"
+    ],
+    "c": 0,
+    "ref": "Art. 41 LOSU",
+    "exp": "A iniciativa de la universidad mediante propuesta y aprobación de su Consejo de Gobierno."
+  },
+  {
+    "q": "Según el art. 41 de la LOSU, la supresión de un Departamento corresponde a:",
+    "o": [
+      "La Comunidad Autónoma",
+      "La Universidad",
+      "A la Universidad o a la Comunidad Autónoma según los casos",
+      "Al Gobierno, si se trata de Universidades de carácter especial"
+    ],
+    "c": 1,
+    "ref": "Art. 41 LOSU",
+    "exp": "La supresión de un Departamento corresponde a la Universidad."
+  },
+  {
+    "q": "Según el art. 42 de la LOSU, la adscripción de centros docentes universitarios, ¿Qué requerirá previamente?",
+    "o": [
+      "La celebración de un convenio con la Comunidad autónoma",
+      "La propuesta por parte de la Universidad",
+      "La celebración de un contrato con la Universidad",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 42 LOSU",
+    "exp": "Según la clave la correcta es D; requerirá la previa celebración de un convenio con la Universidad."
+  },
+  {
+    "q": "Según el art. 42 de la LOSU, la adscripción de centros docentes a universidades públicas requerirá la aprobación de:",
+    "o": [
+      "El Gobierno",
+      "La Comunidad Autónoma correspondiente al ámbito territorial en la que estuvieren ubicados los centros",
+      "El Consejo de Gobierno de la Universidad",
+      "La Conferencia General de la Política Universitaria"
+    ],
+    "c": 1,
+    "ref": "Art. 42 LOSU",
+    "exp": "Requerirá la aprobación de la Comunidad Autónoma correspondiente."
+  },
+  {
+    "q": "Según el art. 43 de la LOSU, ¿Qué unidad será la encargada de velar por el respeto de los derechos y las libertades del profesorado?",
+    "o": [
+      "La inspección de servicio",
+      "La asesoría Universitaria",
+      "La Defensoría Universitaria",
+      "El Claustro Universitario"
+    ],
+    "c": 2,
+    "ref": "Art. 43 LOSU",
+    "exp": "La Defensoría Universitaria vela por el respeto de los derechos y libertades."
+  },
+  {
+    "q": "Según el art. 43 de la LOSU, ¿qué unidad tendrá por función velar por el correcto funcionamiento de los servicios que presta la institución universitaria de acuerdo con las leyes y normas que los rigen?",
+    "o": [
+      "La inspección de servicio",
+      "La asesoría Universitaria",
+      "La Defensoría Universitaria",
+      "El Claustro Universitario"
+    ],
+    "c": 0,
+    "ref": "Art. 43 LOSU",
+    "exp": "La inspección de servicio vela por el correcto funcionamiento de los servicios."
+  },
+  {
+    "q": "Según el art. 44 de la LOSU, respecto a los Consejos de Departamentos:",
+    "o": [
+      "Los estatutos de la Universidad solo podrán establecerlo",
+      "Los estatutos de la Universidad deberán regularlo",
+      "Los estatutos de la Universidad deberán establecerlo y regularlo",
+      "Los estatutos de la Universidad podrán regularlos"
+    ],
+    "c": 3,
+    "ref": "Art. 44 LOSU",
+    "exp": "Los estatutos podrán regularlos."
+  },
+  {
+    "q": "Según el art. 44 de la LOSU, los Estatutos establecerán las normas electorales aplicables, las cuales deberán garantizar en todos los órganos colegiados el principio:",
+    "o": [
+      "De composición paritaria, entre mujeres y hombres",
+      "De composición equilibrada, entre mujeres y hombres",
+      "De composición equilibrada, entre los miembros de la comunidad universitaria",
+      "De composición ponderada entre los miembros de la comunidad universitaria"
+    ],
+    "c": 1,
+    "ref": "Art. 44 LOSU",
+    "exp": "Deberán garantizar el principio de composición equilibrada entre mujeres y hombres."
+  },
+  {
+    "q": "Según el art. 45 de la LOSU, 'elaborar y modificar el reglamento del claustro universitario' es una función de:",
+    "o": [
+      "El Claustro Universitario",
+      "El Consejo de Gobierno",
+      "El Consejo Social",
+      "El Rector/a"
+    ],
+    "c": 0,
+    "ref": "Art. 45 LOSU",
+    "exp": "Es función del Claustro Universitario."
+  },
+  {
+    "q": "Según el art. 45 de la LOSU, en el Claustro Universitario, ¿qué porcentaje de representación tendrá el personal de los cuerpos docentes universitarios funcionarios y Profesoras y Profesores Permanentes Laborales?",
+    "o": [
+      "Un mínimo de un 25 por ciento de los miembros del claustro",
+      "Un 51 por ciento de los miembros del claustro",
+      "Un 31 por ciento de los miembros del claustro",
+      "Lo que determinen los Estatutos"
+    ],
+    "c": 1,
+    "ref": "Art. 45 LOSU",
+    "exp": "Tendrán el 51 por ciento de los miembros del claustro."
+  },
+  {
+    "q": "Según el art. 46 de la LOSU, ¿Qué mínimo del Consejo de Gobierno deben ser representantes del personal técnico, de gestión y de administración y servicios?",
+    "o": [
+      "Un 51 por ciento",
+      "Un 31 por ciento",
+      "Un 10 por ciento",
+      "No se contempla mínimo"
+    ],
+    "c": 2,
+    "ref": "Art. 46 LOSU",
+    "exp": "Un mínimo del 10 por ciento."
+  },
+  {
+    "q": "Según el art. 47 de la LOSU, ¿A qué órgano le corresponde la función de 'analizar y valorar el rendimiento de las actividades económicas y proponer acciones de mejora'?",
+    "o": [
+      "Al Consejo de Gobierno",
+      "Al Consejo Social",
+      "Al Claustro Universitario",
+      "A ninguno de los anteriores"
+    ],
+    "c": 3,
+    "ref": "Art. 47 LOSU",
+    "exp": "El art. 47.2.e atribuye al Consejo Social 'analizar y valorar el rendimiento de las actividades académicas'; la opción cambia 'académicas' por 'económicas', por lo que ningún órgano tiene esa función (D)."
+  },
+  {
+    "q": "Según el art. 47 de la LOSU, es una función del Consejo Social de la Universidad:",
+    "o": [
+      "Informar, con carácter previo, la oferta de titulaciones oficiales y de formación permanente, así como la creación y supresión de centros propios y en el extranjero",
+      "Aprobar, con carácter previo, la oferta de titulaciones oficiales y de formación permanente, así como la creación y supresión de centros propios y en el extranjero",
+      "Aprobar, a propuesta del Consejo de Gobierno, la oferta de titulaciones oficiales y de formación permanente",
+      "Informar, una vez aprobada, la oferta de titulaciones oficiales y de formación permanente"
+    ],
+    "c": 0,
+    "ref": "Art. 47 LOSU",
+    "exp": "Informar, con carácter previo, la oferta de titulaciones oficiales y de formación permanente y la creación y supresión de centros."
+  },
+  {
+    "q": "Según el art. 47 de la LOSU, se procurará que el funcionamiento del Consejo Social sea:",
+    "o": [
+      "Sostenible en el tiempo",
+      "Imparcial y transparente",
+      "Eficaz y eficiente",
+      "Social e integrador"
+    ],
+    "c": 2,
+    "ref": "Art. 47 LOSU",
+    "exp": "Se procurará que su funcionamiento sea eficaz y eficiente."
+  },
+  {
+    "q": "Según el art. 48 de la LOSU, en caso de contar con facultades las Universidades, éstas tendrán como órgano de gobierno:",
+    "o": [
+      "Un Consejo",
+      "Una Junta",
+      "Un Decano/a",
+      "Un Departamento"
+    ],
+    "c": 0,
+    "ref": "Art. 48 LOSU",
+    "exp": "Tendrán como órgano de gobierno un Consejo."
+  },
+  {
+    "q": "Según el art. 48 de la LOSU, ¿Quién presidirá el citado órgano de gobierno de la Facultad?",
+    "o": [
+      "Un Director/a",
+      "Un profesor/a con la suficiente antigüedad",
+      "Un Secretario/a",
+      "Un Decano/a"
+    ],
+    "c": 3,
+    "ref": "Art. 48 LOSU",
+    "exp": "El órgano de gobierno de la Facultad estará presidido por un Decano/a."
+  },
+  {
+    "q": "Según el art. 52 de la LOSU, ¿Quién ostentará la representación de una Escuela Universitaria?",
+    "o": [
+      "El Consejo",
+      "El/la presidente del Consejo",
+      "El Secretario/a de la Escuela",
+      "El Director/a"
+    ],
+    "c": 3,
+    "ref": "Art. 52 LOSU",
+    "exp": "El Director/a ostenta la representación de una Escuela Universitaria."
+  },
+  {
+    "q": "Según el art. 91 de la LOSU, en los procesos de selección del PTGAS, ¿qué garantizarán las Universidades?",
+    "o": [
+      "La parcialidad de los órganos de selección",
+      "Una composición paritaria de hombres y mujeres en los órganos de selección",
+      "La transparencia y objetividad de los procesos",
+      "Garantizará todo lo anterior"
+    ],
+    "c": 2,
+    "ref": "Art. 91 LOSU",
+    "exp": "Garantizarán la transparencia y objetividad de los procesos."
+  },
+  {
+    "q": "Según el art. 92 de la LOSU, ¿qué afirmación es cierta?",
+    "o": [
+      "La provisión de puestos del PTGAS se realizará mediante el sistema de concurso-oposición",
+      "En la provisión de puestos del PTGAS no podrá concurrir personal de otras universidades",
+      "En la provisión de puestos de trabajo las universidades deberán atender a las necesidades del servicio y garantizarán los principios de publicidad, celeridad, transparencia, igualdad, mérito, capacidad y coordinación",
+      "En la provisión de puestos del PTGAS podrá concurrir personal de otras universidades, en las condiciones que reglamentariamente se determinen, el personal perteneciente a cuerpos y escalas de las Administraciones Públicas"
+    ],
+    "c": 3,
+    "ref": "Art. 92 LOSU",
+    "exp": "Podrá concurrir personal de otras universidades y de cuerpos y escalas de las AAPP en las condiciones que reglamentariamente se determinen."
+  },
+  {
+    "q": "Según el art. 94 de la LOSU, ¿Qué implantarán las Universidades, destinados a la movilidad de su personal técnico, de gestión y de administración y servicios para el desempeño de sus funciones en otras universidades o Administraciones Públicas?",
+    "o": [
+      "Planes anuales de formación",
+      "Planes plurianuales",
+      "Una Unidad de Internacionalización",
+      "Un plan anual de movilidad nacional e internacional"
+    ],
+    "c": 1,
+    "ref": "Art. 94 LOSU",
+    "exp": "Implantarán planes plurianuales destinados a la movilidad."
+  }
+]

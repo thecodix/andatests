@@ -1,1 +1,914 @@
-[]
+[
+  {
+    "q": "Según el art. 1 de los estatutos de la Universidad de Huelva, la Universidad de Huelva:",
+    "o": [
+      "Es una entidad de Derecho público, dotadas con valores y derecho propio",
+      "Es una entidad de Derecho privado, dotada con patrimonio propio",
+      "Es una entidad de Derecho público, dotada de personalidad jurídica y patrimonio propio",
+      "Es una entidad de Derecho público, dotada de valores constitucionales propios"
+    ],
+    "c": 2,
+    "ref": "Art. 1 Estatutos UHU",
+    "exp": "La UHU es una entidad de Derecho público dotada de personalidad jurídica y patrimonio propio."
+  },
+  {
+    "q": "Según el art. 1 de los estatutos de la Universidad de Huelva, ¿Cómo ejerce sus funciones la Universidad de Huelva?",
+    "o": [
+      "En régimen de autonomía, de acuerdo con el artículo 27.10 de la Losu",
+      "En régimen de dependencia, de acuerdo con el artículo 27.10 de la Constitución",
+      "En régimen de autonomía, de acuerdo con el artículo 7.10 de la Constitución",
+      "En régimen de autonomía, de acuerdo con el artículo 27.10 de la Constitución"
+    ],
+    "c": 3,
+    "ref": "Art. 1 Estatutos UHU",
+    "exp": "Ejerce sus funciones en régimen de autonomía de acuerdo con el art. 27.10 de la Constitución."
+  },
+  {
+    "q": "Según el art. 1 de los estatutos de la Universidad de Huelva, señale la incorrecta, la Universidad de Huelva se rige:",
+    "o": [
+      "Por las leyes emanada del gobierno",
+      "Por las disposiciones emanadas por las Comunidades Autónoma",
+      "Entre otras, por el reglamento de su claustro Universitario",
+      "Por sus estatutos"
+    ],
+    "c": 0,
+    "ref": "Art. 1 Estatutos UHU",
+    "exp": "Es incorrecta: la UHU se rige por leyes del Estado y disposiciones de la Comunidad Autónoma, no por leyes emanadas del gobierno."
+  },
+  {
+    "q": "Según el art. 1 de los estatutos de la Universidad de Huelva, ¿Qué adoptará la Universidad de Huelva, para adecuar las estructuras académicas a las exigencias de la integración en el Espacio Europeo de Educación Superior?",
+    "o": [
+      "Convalidaciones",
+      "Medidas precisas",
+      "Convenios",
+      "Marco normativo"
+    ],
+    "c": 1,
+    "ref": "Art. 1 Estatutos UHU",
+    "exp": "La UHU adoptará las medidas precisas para adecuar las estructuras académicas al EEES."
+  },
+  {
+    "q": "Según el art. 1 de los estatutos de la Universidad de Huelva, la Universidad de Huelva promoverá la homologación de las titulaciones y planes de estudio y el reconocimiento recíproco de titulaciones con otras Universidades Europeas, suscribiendo convenios y articulando convalidaciones de planes de estudio que sean precisas:",
+    "o": [
+      "Para la integración en las instituciones Europea de Educación",
+      "Como medida eficaz de inserción en el Espacio Europeo de Educación Superior",
+      "Como medida precisa para la inserción y adaptación a la realidad universitaria europea",
+      "Como mecanismo de seguimiento del cumplimiento de las directrices del Espacio Europeo de Educación Superior"
+    ],
+    "c": 1,
+    "ref": "Art. 1 Estatutos UHU",
+    "exp": "Lo hace como medida eficaz de inserción en el Espacio Europeo de Educación Superior."
+  },
+  {
+    "q": "Según el art. 2 de los estatutos de la Universidad de Huelva, la Universidad de Huelva, habrá de promover la formación integral de sus miembros, ¿De acuerdo con qué principios o valores?",
+    "o": [
+      "Los declarados por el Espacio Europeo de Educación Superior",
+      "Libertad de cátedra, investigación y estudio",
+      "Libertad, justicia, igualdad y pluralismo",
+      "Transparencia, sostenibilidad y desarrollo de la ciudadanía"
+    ],
+    "c": 2,
+    "ref": "Art. 2 Estatutos UHU",
+    "exp": "La formación integral se promueve de acuerdo con los principios de libertad, justicia, igualdad y pluralismo."
+  },
+  {
+    "q": "Según el art. 2 de los estatutos de la Universidad de Huelva, ¿Al servicio de quién está la Universidad de Huelva?",
+    "o": [
+      "Del desarrollo intelectual y material del individuo y de las comunidades en que se integra",
+      "De la investigación y el pensamiento libre",
+      "Del desarrollo social, económico cultural de la ciudadanía, el uso adecuado del medio ambiente y la búsqueda de la verdad",
+      "Del desarrollo intelectual y material de los pueblos, de la defensa del medio ambiente y de la paz"
+    ],
+    "c": 3,
+    "ref": "Art. 2 Estatutos UHU",
+    "exp": "La UHU está al servicio del desarrollo intelectual y material de los pueblos, de la defensa del medio ambiente y de la paz."
+  },
+  {
+    "q": "Según el art. 2 de los estatutos de la Universidad de Huelva, de las que se mencionan, ¿Qué función debe cumplir la Universidad de Huelva?",
+    "o": [
+      "La creación, desarrollo, transmisión y crítica de la ciencia, de la técnica y de la cultura",
+      "La difusión, la valorización y la transferencia del conocimiento al servicio de la cultura de la paz, la calidad de la persona, y el desarrollo económico integral",
+      "La preparación para el ejercicio de actividades profesionales que no exijan la aplicación de conocimientos y métodos científicos",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 0,
+    "ref": "Art. 2 Estatutos UHU",
+    "exp": "Es función de la UHU la creación, desarrollo, transmisión y crítica de la ciencia, de la técnica y de la cultura."
+  },
+  {
+    "q": "Según el art. 2 de los estatutos de la Universidad de Huelva, la Universidad de Huelva, debe cumplir la función de “El apoyo científico y técnico al desarrollo cultural, social y económico”, con especial atención al de:",
+    "o": [
+      "Los pueblos de la tierra",
+      "Del Espacio Europeo de educación superior",
+      "De Huelva y al de la Comunidad Autónoma Andaluza",
+      "De Huelva, Andalucía y España"
+    ],
+    "c": 2,
+    "ref": "Art. 2 Estatutos UHU",
+    "exp": "El apoyo científico y técnico se presta con especial atención al de Huelva y al de la Comunidad Autónoma Andaluza."
+  },
+  {
+    "q": "Según el art. 2 de los estatutos de la Universidad de Huelva, ¿Qué función debe cumplir la Universidad de Huelva?",
+    "o": [
+      "La creación de un espacio de conciencia humanitaria y solidaria donde los miembros de la comunidad universitaria puedan alcanzar una educación integral en valores humanos",
+      "La elección, designación y remoción de los correspondientes órganos de gobierno y representación",
+      "La creación de estructuras específicas que actúen como soporte de la investigación y de la docencia",
+      "Debe cumplir con todas las anteriores funciones"
+    ],
+    "c": 0,
+    "ref": "Art. 2 Estatutos UHU",
+    "exp": "Es función de la UHU la creación de un espacio de conciencia humanitaria y solidaria para una educación integral en valores humanos; las demás corresponden a la autonomía (art. 3)."
+  },
+  {
+    "q": "Según el art. 3 de los estatutos de la Universidad de Huelva, la autonomía de la UHU, ¿Qué comprende?",
+    "o": [
+      "En cuanto a sus estatutos, solo la reforma",
+      "La determinación de las condiciones en que han de desarrollar sus actividades, su personal docente",
+      "La creación, desarrollo, transmisión y crítica de la ciencia, de la técnica y de la cultura",
+      "La creación de estructuras específica que sirvan de soporte a la sociedad"
+    ],
+    "c": 1,
+    "ref": "Art. 3 Estatutos UHU",
+    "exp": "La autonomía comprende la determinación de las condiciones en que han de desarrollar sus actividades el personal docente."
+  },
+  {
+    "q": "Según el art. 3 de los estatutos de la Universidad de Huelva, la autonomía de la UHU, ¿Qué no comprende?:",
+    "o": [
+      "La elección, designación y remoción de los correspondientes órganos de gobierno y representación",
+      "La creación de estructuras específicas que actúen como soporte de la investigación y de la docencia",
+      "La elaboración, reforma y aprobación de sus Estatutos",
+      "La admisión, régimen de permanencia y verificación de conocimientos de los estudiantes"
+    ],
+    "c": 2,
+    "ref": "Art. 3 Estatutos UHU",
+    "exp": "La autonomía comprende la elaboración y reforma de sus estatutos, pero no su aprobación (que corresponde a la Junta de Andalucía)."
+  },
+  {
+    "q": "Según el art. 3 de los estatutos de la Universidad de Huelva, respecto a sus presupuestos, ¿Qué comprende la autonomía de la Universidad de Huelva?",
+    "o": [
+      "Solo su elaboración",
+      "Su financiación",
+      "La elaboración, aprobación y gestión",
+      "En ningún caso, su aprobación"
+    ],
+    "c": 2,
+    "ref": "Art. 3 Estatutos UHU",
+    "exp": "La autonomía comprende la elaboración, aprobación y gestión de sus presupuestos."
+  },
+  {
+    "q": "Según el art. 4 de los estatutos de la Universidad de Huelva, ¿Qué se fundamenta en el principio de libertad académica?",
+    "o": [
+      "La participación de la sociedad",
+      "La actividad de la Universidad",
+      "El pluralismo de la Universidad",
+      "La Administración de la Universidad"
+    ],
+    "c": 1,
+    "ref": "Art. 4 Estatutos UHU",
+    "exp": "La actividad de la Universidad, así como su autonomía, se fundamenta en el principio de libertad académica."
+  },
+  {
+    "q": "Según el art. 4 de los estatutos de la Universidad de Huelva, ¿En qué libertades se manifiesta el principio de libertad académica?",
+    "o": [
+      "En las libertades de cátedra, de investigación y de estudio",
+      "En las libertades de cátedra, de docencia y de estudio",
+      "En las libertades de cátedra, investigación y aprendizaje",
+      "En las libertades de docencia, administración y de estudio"
+    ],
+    "c": 0,
+    "ref": "Art. 4 Estatutos UHU",
+    "exp": "Se manifiesta en las libertades de cátedra, de investigación y de estudio."
+  },
+  {
+    "q": "Según el art. 5 de los estatutos de la Universidad de Huelva, La Universidad de Huelva es una Universidad Pública:",
+    "o": [
+      "Con capacidad jurídica propia",
+      "Con plena capacidad jurídica",
+      "Con capacidad plena",
+      "Sin plena capacidad jurídica"
+    ],
+    "c": 1,
+    "ref": "Art. 5 Estatutos UHU",
+    "exp": "La UHU es una universidad pública con plena capacidad jurídica."
+  },
+  {
+    "q": "Según el art. 5 de los estatutos de la Universidad de Huelva, la capacidad a la que se refiere la pregunta anterior es para:",
+    "o": [
+      "La realización solo de determinados actos, al no contar con ella plenamente",
+      "La realización ilimitada de cualquier acto",
+      "La realización de toda clase actos de gestión y disposición",
+      "La realización de toda clase de actos de gestión, salvo los de disposición"
+    ],
+    "c": 2,
+    "ref": "Art. 5 Estatutos UHU",
+    "exp": "La plena capacidad jurídica es para la realización de toda clase de actos de gestión y disposición."
+  },
+  {
+    "q": "Según el art. 5 de los estatutos de la Universidad de Huelva, la Universidad de Huelva se organizará de forma que en su gobierno quede asegurada:",
+    "o": [
+      "La representación de los diferentes sectores de la comunidad universitaria",
+      "La participación de la sociedad",
+      "A y B son correctas",
+      "A y B son incorrectas"
+    ],
+    "c": 2,
+    "ref": "Art. 5 Estatutos UHU",
+    "exp": "En su gobierno queda asegurada tanto la representación de los sectores de la comunidad universitaria como la participación de la sociedad."
+  },
+  {
+    "q": "Según el art. 5 de los estatutos de la Universidad de Huelva, la Universidad de Huelva:",
+    "o": [
+      "Tiene patrimonio propio y presupuesto dependiente de la Comunidad Autónoma",
+      "Presupuesto dependiente de la Comunidad autónoma y contabilidad dependiente del Estado",
+      "Presupuesto independiente de la Comunidad Autónoma, pero dependiente del Estado",
+      "Nada de lo anterior, es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 5 Estatutos UHU",
+    "exp": "La UHU tiene patrimonio, presupuesto y contabilidad propios, por lo que ninguna de las opciones anteriores es correcta."
+  },
+  {
+    "q": "Según el art. 6 de los estatutos de la Universidad de Huelva, ¿Qué denominación oficial, utilizará la Universidad de Huelva?",
+    "o": [
+      "Universidad de Huelva o Universidad Onubense",
+      "Universidad Huelva",
+      "Universidad de Huelva",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 2,
+    "ref": "Art. 6 Estatutos UHU",
+    "exp": "La denominación oficial es «Universidad de Huelva»."
+  },
+  {
+    "q": "Según el art. 6 de los estatutos de la Universidad de Huelva, la Universidad, ¿Dónde podrá hacer uso de la leyenda “Vniversitas Onubensis”?",
+    "o": [
+      "La leyenda citada no existe",
+      "En la denominación oficial",
+      "En sus emblemas y símbolos",
+      "En los emblemas y símbolos, salvo cuando se refiera a actos académicos"
+    ],
+    "c": 2,
+    "ref": "Art. 6 Estatutos UHU",
+    "exp": "La leyenda «Vniversitas Onubensis» puede usarse en sus emblemas y símbolos."
+  },
+  {
+    "q": "Según el art. 6 de los estatutos de la Universidad de Huelva, la Universidad, ¿Dónde podrá hacer uso de la leyenda “Vniversitas Onubense”?",
+    "o": [
+      "La leyenda citada no existe",
+      "En la denominación oficial",
+      "En sus emblemas y símbolos",
+      "En los emblemas y símbolos, salvo cuando se refiera a actos académicos"
+    ],
+    "c": 0,
+    "ref": "Art. 6 Estatutos UHU",
+    "exp": "La leyenda «Vniversitas Onubense» no existe; la correcta es «Vniversitas Onubensis»."
+  },
+  {
+    "q": "Según el art. 6 de los estatutos de la Universidad de Huelva, señale que afirmación es correcta:",
+    "o": [
+      "El sello de la Universidad de Huelva representa el conocimiento",
+      "La leyenda “Universidad onubense”, deberá utilizarse en los emblemas y símbolos de la Universidad de Huelva",
+      "El sello de la Universidad de Huelva, será un circulo",
+      "Todo lo anterior es correcto"
+    ],
+    "c": 2,
+    "ref": "Art. 6 Estatutos UHU",
+    "exp": "El sello de la Universidad de Huelva será un círculo (que representa el saber)."
+  },
+  {
+    "q": "Según el art. 6 de los estatutos de la Universidad de Huelva, el sello de la Universidad de Huelva, esta dividido mediante tres circunferencias concéntricas en:",
+    "o": [
+      "Seis campos",
+      "Cuatro campos",
+      "Cuatro áreas",
+      "Cuatro sectores"
+    ],
+    "c": 1,
+    "ref": "Art. 6 Estatutos UHU",
+    "exp": "El sello está dividido en cuatro campos mediante tres circunferencias concéntricas."
+  },
+  {
+    "q": "Según el art. 6 de los estatutos de la Universidad de Huelva, las tres circunferencias menores del sello de la Universidad de Huelva, se encontrarán divididas en:",
+    "o": [
+      "Seis sectores que simbolizan las diferentes Áreas de conocimiento",
+      "Seis sectores que simbolizan la relación existente entre todos los campos del conocimiento",
+      "Seis sectores que simbolizan que la división del conocimiento entre diferentes áreas no es terminante",
+      "Seis campos que simbolizan las diferentes Áreas de conocimiento"
+    ],
+    "c": 0,
+    "ref": "Art. 6 Estatutos UHU",
+    "exp": "Las tres circunferencias menores se dividen en seis sectores que simbolizan las diferentes Áreas de conocimiento."
+  },
+  {
+    "q": "Según el art. 6 de los estatutos de la Universidad de Huelva, ¿Qué leyenda figurará dentro de la circunferencia más grande, del sello de la Universidad de Huelva?",
+    "o": [
+      "«Universidad Onubense» y «Vniversitas Onubensis»",
+      "«Universidad Onubense» o «Vniversitas Onubensis»",
+      "«Universidad Onubense» y «Sapere Avde»",
+      "«Vniversitas Onvbensis» y «Sapere Avde»"
+    ],
+    "c": 3,
+    "ref": "Art. 6 Estatutos UHU",
+    "exp": "En la circunferencia mayor figuran las leyendas «Vniversitas Onvbensis» y «Sapere Avde»."
+  },
+  {
+    "q": "Según el art. 6 de los estatutos de la Universidad de Huelva, indique que afirmación, de las que se relacionan a continuación, es incorrecta:",
+    "o": [
+      "La Universidad, a través de los órganos competentes, podrá crear otros signos distintivos o símbolos que contribuyan a su mayor proyección en actos académicos, con perjuicio del Sello de la Universidad",
+      "La Universidad, a través de los órganos competentes, podrá crear otros signos distintivos o símbolos que contribuyan a su mayor proyección en actos expansión económica",
+      "A y B son correctas",
+      "Todas las anteriores son incorrectas"
+    ],
+    "c": 3,
+    "ref": "Art. 6 Estatutos UHU",
+    "exp": "Corrección oficial al TEST 114: la opción D pasa a ser «Todas las anteriores son incorrectas», que es la respuesta correcta (los signos se crean sin perjuicio del sello y para actos académicos o de extensión, no de expansión económica)."
+  },
+  {
+    "q": "Según el art. 7 de los estatutos de la Universidad de Huelva, La sede central de la Universidad radicará:",
+    "o": [
+      "En la provincia de Huelva",
+      "En cualquier lugar del territorio nacional",
+      "En la ciudad de Huelva",
+      "En cualquier lugar donde la legislación lo permita"
+    ],
+    "c": 2,
+    "ref": "Art. 7 Estatutos UHU",
+    "exp": "La sede central de la UHU radica en la ciudad de Huelva."
+  },
+  {
+    "q": "Según el art. 7 de los estatutos de la Universidad de Huelva, ¿Qué podrá establecer la Universidad de Huelva, en cualquier territorio donde la legislación lo permita?",
+    "o": [
+      "La Sede central",
+      "Sede o delegaciones de Centros de Gobierno",
+      "Instituto no universitarios",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 7 Estatutos UHU",
+    "exp": "La clave del examen marca «Nada de lo anterior es correcto»; el art. 7 permite establecer sedes o delegaciones de centros docentes e institutos universitarios donde la legislación lo permita — revisar en validación."
+  },
+  {
+    "q": "Según el art. 1 de los Estatutos de la Universidad de Huelva, la Universidad adoptará las medidas precisas para adecuar las estructuras académicas a las exigencias de:",
+    "o": [
+      "Las directrices de la Unión Europea",
+      "La integración en el Espacio Europeo de Educación Superior",
+      "El principio de reciprocidad",
+      "Los convenios y acuerdos internacionales"
+    ],
+    "c": 1,
+    "ref": "Art. 1 Estatutos UHU",
+    "exp": "El art. 1 exige adecuar las estructuras académicas a la integración en el Espacio Europeo de Educación Superior."
+  },
+  {
+    "q": "Según el art. 2 de los Estatutos de la Universidad de Huelva, ¿Qué persigue la Universidad de Huelva?",
+    "o": [
+      "Llegar a ser una Institución pública de influencia en el pensamiento de la sociedad",
+      "Lograr el pleno desarrollo de sus estructuras académicas, mediante la consecución de los objetivos económicos fijados por el Espacio Europeo de Educación Superior",
+      "Ser un instrumento eficaz de transformación y progreso social y estar al servicio del desarrollo intelectual y material de los pueblos, de la defensa del medio ambiente y de la paz",
+      "Alcanzar un espacio convivencia, donde los diferentes sectores de la sociedad se encuentren y puedan difundir sus ideas y pensamientos"
+    ],
+    "c": 2,
+    "ref": "Art. 2 Estatutos UHU",
+    "exp": "La UHU persigue ser instrumento eficaz de transformación y progreso social al servicio del desarrollo de los pueblos, del medio ambiente y de la paz."
+  },
+  {
+    "q": "Según el art. 2 de los Estatutos de la Universidad, la difusión del conocimiento y la cultura, es una función de la Universidad, ¿A través de qué se realizará?",
+    "o": [
+      "De la transferencia del conocimiento y la preparación artística",
+      "De la extensión cultura y la formación a lo largo de toda la vida",
+      "De la creación de un espacio de conciencia humanitaria y la solidaridad con la comunidad universitaria",
+      "De la investigación y del estudio"
+    ],
+    "c": 1,
+    "ref": "Art. 2 Estatutos UHU",
+    "exp": "La difusión del conocimiento y la cultura se realiza a través de la extensión universitaria y la formación a lo largo de toda la vida."
+  },
+  {
+    "q": "Según el art. 3 de los Estatutos de la Universidad, ¿Qué no comprende la autonomía Universitaria?",
+    "o": [
+      "La admisión, régimen de permanencia y verificación de conocimientos de los estudiantes",
+      "La elaboración y aprobación de planes de estudio e investigación",
+      "La aprobación y publicación de sus estatutos",
+      "Todo lo anterior comprende la autonomía de las Universidades"
+    ],
+    "c": 2,
+    "ref": "Art. 3 Estatutos UHU",
+    "exp": "La autonomía comprende la elaboración y reforma de sus estatutos, pero no su aprobación (que corresponde a la Junta de Andalucía)."
+  },
+  {
+    "q": "Según el art. 6 de los Estatutos de la Universidad, ¿Dentro de la circunferencia más grande del sello de la Universidad, qué figurará?",
+    "o": [
+      "La leyenda “Universidad de Huelva” y “SapereLaude”",
+      "La leyenda “Universidad Onubense” y “SapereUniversita”",
+      "La Leyenda “Universidad de Huelva” y “Universidad onubensis”",
+      "La Leyenda “Vniversitas Onvbensis” y “Sapere Avde”"
+    ],
+    "c": 3,
+    "ref": "Art. 6 Estatutos UHU",
+    "exp": "En la circunferencia mayor del sello figuran las leyendas «Vniversitas Onvbensis» y «Sapere Avde»."
+  },
+  {
+    "q": "Según el art. 5 de los Estatutos de la Universidad de Huelva, ¿Cómo se organizará la Universidad de Huelva?",
+    "o": [
+      "Que en su gobierno quede asegurada la representación del gobierno de la Comunidad Autónoma",
+      "Que en su gobierno quede asegurada la representación de los diferentes sectores económico de la sociedad",
+      "Qué en su gobierno quede asegurada la representación de los diferentes sectores de la comunidad Universitaria",
+      "Que en la Comunidad universitarias quede asegurada la representación de los órganos de gobierno de la Universidad"
+    ],
+    "c": 2,
+    "ref": "Art. 5 Estatutos UHU",
+    "exp": "La UHU se organiza de forma que en su gobierno quede asegurada la representación de los diferentes sectores de la comunidad universitaria."
+  },
+  {
+    "q": "Según el art. 6 de los Estatutos de la Universidad de Huelva, “Universidad Onubense” es:",
+    "o": [
+      "Es la leyenda que figurará dentro de la circunferencia más grande del sello de la Universidad",
+      "Es uno de los símbolos de la Universidad de Huelva",
+      "Es una de las leyendas de la que se podrá hacer uso en los emblemas de la Universidad de Huelva",
+      "Es una de las leyendas que se utilizan como denominación oficial"
+    ],
+    "c": 2,
+    "ref": "Art. 6 Estatutos UHU",
+    "exp": "«Universidad Onubense» es una de las leyendas de las que se podrá hacer uso en los emblemas de la Universidad."
+  },
+  {
+    "q": "Según el art. 1 de los Estatutos de la Universidad de Huelva, ¿De qué está dotada la Universidad de Huelva?",
+    "o": [
+      "De personalidad propia y valores constitucionales",
+      "De personalidad jurídica y patrimonio propio",
+      "De personalidad propia y patrimonio jurídico",
+      "De personalidad plena y valores propios"
+    ],
+    "c": 1,
+    "ref": "Art. 1 Estatutos UHU",
+    "exp": "La UHU es una entidad de derecho público dotada de personalidad jurídica y patrimonio propio."
+  },
+  {
+    "q": "Según el art. 1 la Universidad de Huelva, ¿Por qué se rige la Universidad de Huelva?",
+    "o": [
+      "Por las disposiciones del Espacio Europeo de Educación superior",
+      "Por las disposiciones emanadas de la Comunidad autónoma de Andalucía en el ejercicio de sus respectivas competencias",
+      "Por los convenios de carácter reciproco firmado por el estado español en materia de Universidades",
+      "Por las disposiciones de carácter local que sean adoptadas por la Universidad"
+    ],
+    "c": 1,
+    "ref": "Art. 1 Estatutos UHU",
+    "exp": "Se rige, entre otras, por las disposiciones emanadas del Estado y de la Comunidad Autónoma de Andalucía en el ejercicio de sus respectivas competencias."
+  },
+  {
+    "q": "Según el art. 5 de los Estatutos de la Universidad de Huelva, para realizar toda clase de actos de gestión y disposición, la Universidad de Huelva, tiene:",
+    "o": [
+      "Plena capacidad jurídica",
+      "Autorización plena de la Comunidad Autónoma",
+      "Respaldo de la sociedad",
+      "Capacidad jurídica ilimitada"
+    ],
+    "c": 0,
+    "ref": "Art. 5 Estatutos UHU",
+    "exp": "La UHU tiene plena capacidad jurídica para realizar toda clase de actos de gestión y disposición."
+  },
+  {
+    "q": "Según el art. 5 de los Estatutos de la Universidad de Huelva, ¿la Universidad de Huelva, tiene contabilidad?",
+    "o": [
+      "Sí, dependiente de la Comunidad autónoma",
+      "Propia",
+      "No, solo cuentas anuales",
+      "Sí, cuando los presupuestos no son dependientes de los del Estado"
+    ],
+    "c": 1,
+    "ref": "Art. 5 Estatutos UHU",
+    "exp": "La UHU tiene patrimonio, presupuesto y contabilidad propios."
+  },
+  {
+    "q": "Según el art. 6, de los Estatutos de la Universidad de Huelva, el círculo que representa el saber, del sello de la Universidad de Huelva, está divido:",
+    "o": [
+      "En seis campos mediante tres circunferencias concéntricas que expresan las relaciones existentes entre todos los campos del conocimiento",
+      "En tres campos mediante cuatro circunferencias concéntricas que expresan las relaciones existentes entre todos los campos del conocimiento",
+      "En cuatro campos mediante tres circunferencias concéntricas que expresan las relaciones existentes entre todos los campos del conocimiento",
+      "En tres campos mediante seis circunferencias concéntricas que expresan las relaciones existentes entre todos los campos del conocimiento"
+    ],
+    "c": 2,
+    "ref": "Art. 6 Estatutos UHU",
+    "exp": "El círculo está dividido en cuatro campos mediante tres circunferencias concéntricas."
+  },
+  {
+    "q": "Según el art. 2 de los Estatutos de la Universidad de Huelva, una de las funciones de la Universidad de Huelva, “es la creación de un espacio de conciencia humanitaria y solidaria, donde los miembros de la comunidad universitaria, puedan alcanzar una:",
+    "o": [
+      "Una formación cultural, social y económica integral",
+      "Una educación integral en valores humanos",
+      "Una conciencia solidaria en la comunidad universitaria",
+      "Una sociedad con una calidad de vida plena"
+    ],
+    "c": 1,
+    "ref": "Art. 2 Estatutos UHU",
+    "exp": "El espacio de conciencia humanitaria y solidaria busca que los miembros alcancen una educación integral en valores humanos."
+  },
+  {
+    "q": "Según el art. 6 de los Estatutos de la Universidad de Huelva, los cuatro campos en los que está dividido sello de la Universidad, ¿qué expresan?",
+    "o": [
+      "Las relaciones entre todos los campos del conocimiento",
+      "Las diferentes áreas del conocimiento",
+      "La división del conocimiento",
+      "Los diferentes sectores en que está dividido el saber"
+    ],
+    "c": 0,
+    "ref": "Art. 6 Estatutos UHU",
+    "exp": "Los cuatro campos expresan las relaciones existentes entre todos los campos del conocimiento."
+  },
+  {
+    "q": "Según el art. 6, de los Estatutos de la Universidad de Huelva, en el sello de la Universidad de Huelva, ¿En cuántos sectores se encontrarán divididas las tres circunferencias menores?",
+    "o": [
+      "Tres",
+      "Cuatro",
+      "Seis",
+      "En sectores, ninguno"
+    ],
+    "c": 2,
+    "ref": "Art. 6 Estatutos UHU",
+    "exp": "Las tres circunferencias menores se dividen en seis sectores."
+  },
+  {
+    "q": "Según el art. 7, de los Estatutos de la Universidad de Huelva, la sede Central de la Universidad de Huelva radicará en:",
+    "o": [
+      "En cualquier lugar de la provincia de Huelva",
+      "En la ciudad de Huelva",
+      "En la ciudad de Huelva o en cualquier parte del territorio donde la legislación lo permita",
+      "No existe sede central"
+    ],
+    "c": 1,
+    "ref": "Art. 7 Estatutos UHU",
+    "exp": "La sede central de la UHU radica en la ciudad de Huelva."
+  },
+  {
+    "q": "Según el art. 7, de los Estatutos de la Universidad de Huelva, ¿Podrá establecer la Universidad de Huelva, Institutos Universitarios?",
+    "o": [
+      "Sí, solo en la ciudad de Huelva",
+      "No",
+      "No, podrá establecer únicamente, sedes o centros docentes",
+      "Sí, en cualquier parte del territorio donde la legislación lo permita"
+    ],
+    "c": 3,
+    "ref": "Art. 7 Estatutos UHU",
+    "exp": "La UHU podrá establecer institutos universitarios en cualquier parte del territorio donde la legislación lo permita."
+  },
+  {
+    "q": "Según el art. 1, de los Estatutos de la Universidad de Huelva, con el objetivo de adecuar las estructuras académicas a las exigencias de la integración en el Espacio Europeo de Educación Superior, ¿Qué promoverá la Universidad de Huelva?",
+    "o": [
+      "La homologación de las titulaciones y planes de estudio que en ella se imparten con las respectivas titulaciones de la Unión Europea",
+      "Las transferencias de expedientes con otras Universidades Europeas",
+      "Articular la convalidación de programas de doctorados",
+      "Promoverá todo lo anterior"
+    ],
+    "c": 0,
+    "ref": "Art. 1 Estatutos UHU",
+    "exp": "Promoverá la homologación de las titulaciones y planes de estudio con las respectivas titulaciones de la Unión Europea."
+  },
+  {
+    "q": "Según el art. 2, de los Estatutos de la Universidad de Huelva, ¿Qué función debe de cumplir la Universidad de Huelva?",
+    "o": [
+      "El cumplimiento de la libertad de cátedra",
+      "La difusión del conocimiento y la cultura a través de la suscripción de los correspondientes convenios",
+      "El apoyo científico y técnico al desarrollo cultural, social y económico, con especial atención al de Huelva y al de la Comunidad Autónoma Andaluza",
+      "La protección de la conciencia humanitaria y solidaria de los miembros de la comunidad universitaria"
+    ],
+    "c": 2,
+    "ref": "Art. 2 Estatutos UHU",
+    "exp": "Es función de la UHU el apoyo científico y técnico al desarrollo cultural, social y económico, con especial atención a Huelva y a la Comunidad Autónoma Andaluza."
+  },
+  {
+    "q": "Según el art. 3, de los Estatutos de la Universidad de Huelva, ¿Qué comprende la autonomía de la Universidad de Huelva?",
+    "o": [
+      "La creación de órganos que representen a la Universidad en la sociedad",
+      "La creación de estructuras específicas que actúen como soporte de la investigación y de la docencia",
+      "La creación, desarrollo, transmisión y crítica de la ciencia, de la técnica y de la cultura",
+      "La creación de Centro de Estudios e investigación"
+    ],
+    "c": 1,
+    "ref": "Art. 3 Estatutos UHU",
+    "exp": "La autonomía comprende la creación de estructuras específicas que actúen como soporte de la investigación y de la docencia."
+  },
+  {
+    "q": "Según los Estatutos de la Universidad de Huelva, “La expedición de los títulos de carácter oficial y validez en todo el territorio nacional”, es:",
+    "o": [
+      "Una función de la Universidad de Huelva",
+      "Uno de los aspectos que comprende la autonomía de la Universidad de Huelva",
+      "Uno de los aspectos en los que se manifiesta el principio de libertad académica",
+      "Uno de los aspectos de su capacidad jurídica"
+    ],
+    "c": 1,
+    "ref": "Art. 3 Estatutos UHU",
+    "exp": "La expedición de títulos oficiales es uno de los aspectos que comprende la autonomía de la Universidad."
+  },
+  {
+    "q": "Según el art. 3, de los Estatutos de la Universidad de Huelva, la autonomía de la Universidad de Huelva comprende: “El establecimiento de relaciones con otras entidades para la promoción y desarrollo de”:",
+    "o": [
+      "Sus fines jurídicos",
+      "Sus disposiciones normativa",
+      "Sus fines institucionales",
+      "Sus procesos académicos"
+    ],
+    "c": 2,
+    "ref": "Art. 3 Estatutos UHU",
+    "exp": "Comprende el establecimiento de relaciones con otras entidades para la promoción y desarrollo de sus fines institucionales."
+  },
+  {
+    "q": "Según el art. 3, de los Estatutos de la Universidad de Huelva, la autonomía de la Universidad de Huelva, respecto a sus presupuestos, ¿Qué comprende?",
+    "o": [
+      "Su aprobación",
+      "Solo su elaboración y gestión",
+      "No es un aspecto comprendido en su autonomía",
+      "Su presentación ante el órgano correspondiente de la comunidad autónoma"
+    ],
+    "c": 0,
+    "ref": "Art. 3 Estatutos UHU",
+    "exp": "La autonomía comprende la elaboración, aprobación y gestión de sus presupuestos; la clave del examen marca «su aprobación»."
+  },
+  {
+    "q": "Según el art. 3, de los Estatutos de la Universidad de Huelva, respecto a su personal docente e investigador y de administración y servicio, la autonomía comprende:",
+    "o": [
+      "Su nombramiento",
+      "Solo la selección y formación",
+      "La determinación en que han de desarrollar las actividades",
+      "Su representación"
+    ],
+    "c": 2,
+    "ref": "Art. 3 Estatutos UHU",
+    "exp": "Comprende la selección, formación y promoción del personal y la determinación de las condiciones en que han de desarrollar sus actividades."
+  },
+  {
+    "q": "Según el art. 6, de los Estatutos de la Universidad de Huelva, ¿A través de quién la Universidad de Huelva, crea otros signos distintivos o símbolos que contribuyan a su mayor proyección en actos académicos o de extensión universitaria?",
+    "o": [
+      "Solo por sus órganos de Gobierno",
+      "De cualquier órgano de la Universidad",
+      "De la Comunidad Universitaria",
+      "De los órganos competentes"
+    ],
+    "c": 3,
+    "ref": "Art. 6 Estatutos UHU",
+    "exp": "La Universidad, a través de los órganos competentes, podrá crear otros signos distintivos o símbolos."
+  },
+  {
+    "q": "Según el art. 6, de los Estatutos de la Universidad de Huelva, ¿Cuántos radios tiene el sello de la Universidad de Huelva?",
+    "o": [
+      "Seis",
+      "Cuatro",
+      "Tres",
+      "Tantos como campos"
+    ],
+    "c": 0,
+    "ref": "Art. 6 Estatutos UHU",
+    "exp": "El sello tiene seis radios."
+  },
+  {
+    "q": "Según el art. 6, de los Estatutos de la Universidad de Huelva, uno de los radios del sello de la Universidad de Huelva, ¿Qué evidencia?",
+    "o": [
+      "Que la división del conocimiento entre diferentes Áreas es terminante",
+      "Que la división del conocimiento entre diferentes Campos no es terminante",
+      "Que la división del conocimiento entre diferentes Áreas no es terminante",
+      "Que la división del conocimiento entre áreas y campos no es terminante"
+    ],
+    "c": 2,
+    "ref": "Art. 6 Estatutos UHU",
+    "exp": "Los radios evidencian que la división del conocimiento entre diferentes Áreas no es terminante."
+  },
+  {
+    "q": "Según el art. 6, de los Estatutos de la Universidad de Huelva, ¿Dónde se hará uso de la leyenda “Universidad Onubense”:",
+    "o": [
+      "En el sello de la Universidad",
+      "En los emblemas de la Universidad",
+      "En la denominación oficial",
+      "Nada es correcto"
+    ],
+    "c": 1,
+    "ref": "Art. 6 Estatutos UHU",
+    "exp": "El art. 6.1 permite hacer uso de la leyenda «Universidad Onubense» en los emblemas y símbolos de la Universidad."
+  },
+  {
+    "q": "Según el art. 1, de los Estatutos de la Universidad de Huelva, la Universidad de Huelva ejerce sus funciones:",
+    "o": [
+      "En régimen de autonomía de acuerdo con el artículo 27.10 de la Constitución",
+      "En régimen de autonomía de acuerdo con el artículo 20.10 de la Constitución",
+      "En régimen de autonomía de acuerdo con el artículo 29.10 de la Constitución",
+      "En régimen de autonomía de acuerdo con el artículo 10.7 de la Constitución"
+    ],
+    "c": 0,
+    "ref": "Art. 1 Estatutos UHU",
+    "exp": "Ejerce sus funciones en régimen de autonomía de acuerdo con el art. 27.10 de la Constitución."
+  },
+  {
+    "q": "Según el art. 4, de los Estatutos de la Universidad de Huelva, la actividad de la Universidad, así como su autonomía, ¿En qué principio se fundamenta?",
+    "o": [
+      "En el de libertad de enseñanza",
+      "En el de libertad de docencia",
+      "En el de libertad de formación",
+      "En el de libertad académica"
+    ],
+    "c": 3,
+    "ref": "Art. 4 Estatutos UHU",
+    "exp": "La actividad de la Universidad, así como su autonomía, se fundamentan en el principio de libertad académica (art. 4)."
+  },
+  {
+    "q": "Según el art. 4, de los Estatutos de la Universidad de Huelva, el principio de libertad académica, ¿En qué se manifiesta?",
+    "o": [
+      "En los principios de cátedra, de investigación y de estudio",
+      "En las libertades de cátedra, de investigación y de estudio",
+      "En las libertades de cátedra, de investigación y de docencia",
+      "En las actividades de cátedra, de investigación y de docencia"
+    ],
+    "c": 1,
+    "ref": "Art. 4 Estatutos UHU",
+    "exp": "El principio de libertad académica se manifiesta en las libertades de cátedra, de investigación y de estudio."
+  },
+  {
+    "q": "Según el art. 1 de los Estatutos de la Universidad de Huelva, ¿Qué afirmación es cierta respecto a la Universidad de Huelva?",
+    "o": [
+      "Tiene personalidad jurídica propia, pero no patrimonio",
+      "Ejerce sus funciones en régimen de autonomía de acuerdo con el artículo 20.10 de la Constitución",
+      "Entre otras, la Universidad de Huelva se rige por las disposiciones emanadas del Estado y de la Comunidad Autónoma de Andalucía en el ejercicio de sus respectivas competencias",
+      "Es una entidad de derecho público sin personalidad jurídica"
+    ],
+    "c": 2,
+    "ref": "Art. 1 Estatutos UHU",
+    "exp": "La UHU se rige, entre otras, por las disposiciones emanadas del Estado y de la Comunidad Autónoma de Andalucía en el ejercicio de sus respectivas competencias."
+  },
+  {
+    "q": "Según el art. 1 de los Estatutos de la Universidad de Huelva, ¿Qué promoverá la UHU, con el objetivo de adecuar sus estructuras académicas a las exigencias de la integración en el Espacio Europeo de Educación Superior?",
+    "o": [
+      "La homologación de las condiciones de su personal docente e investigador a las establecidas en el resto de universidades de la Unión Europea",
+      "El reconocimiento recíproco de titulaciones con otras Universidades Europeas",
+      "La elaboración de planes de estudios conjuntos con el resto de Universidades que integran el espacio",
+      "Promoverá todo lo anterior"
+    ],
+    "c": 1,
+    "ref": "Art. 1 Estatutos UHU",
+    "exp": "Promoverá el reconocimiento recíproco de titulaciones con otras Universidades Europeas."
+  },
+  {
+    "q": "Según el art. 2 de los Estatutos de la Universidad, ¿Qué función debe cumplir la Universidad de Huelva?",
+    "o": [
+      "La elaboración y reforma de sus Estatutos y demás normas de organización y funcionamiento internos",
+      "La elección, designación y remoción de los correspondientes órganos de gobierno y representación",
+      "La creación de estructuras específicas que actúen como soporte de la investigación y de la docencia",
+      "La difusión del conocimiento y la cultura a través de la extensión universitaria y la formación a lo largo de toda la vida"
+    ],
+    "c": 3,
+    "ref": "Art. 2 Estatutos UHU",
+    "exp": "Es función de la UHU la difusión del conocimiento y la cultura a través de la extensión universitaria y la formación a lo largo de toda la vida; las demás opciones corresponden a la autonomía (art. 3)."
+  },
+  {
+    "q": "Según el art. 2 de los Estatutos de la Universidad, de las que se mencionan a continuación, ¿Qué función no debe cumplir la Universidad de Huelva?",
+    "o": [
+      "El apoyo científico y técnico al desarrollo cultural, social y económico, con especial atención al de Huelva y al de la Comunidad Autónoma Andaluza",
+      "La elaboración y aprobación de planes de estudio e investigación y de enseñanzas específicas de formación a lo largo de toda la vida",
+      "La creación, desarrollo, transmisión y crítica de la ciencia, de la técnica y de la cultura",
+      "La preparación para el ejercicio de actividades profesionales que exijan la aplicación de conocimientos y métodos científicos, y para la creación artística"
+    ],
+    "c": 1,
+    "ref": "Art. 2 Estatutos UHU",
+    "exp": "La elaboración y aprobación de planes de estudio no es una función (art. 2) sino un aspecto de la autonomía (art. 3)."
+  },
+  {
+    "q": "Según el art. 2 de los Estatutos de la Universidad, a la Universidad de Huelva, como institución pública al servicio de la sociedad, corresponde la prestación del servicio público de la educación superior, mediante:",
+    "o": [
+      "El estudio, la docencia, la investigación y la transferencia de conocimiento a la sociedad",
+      "El estudio, la docencia, la investigación y la transferencia de conocimiento a la comunidad Universitaria",
+      "El estudio, la docencia, la investigación y la libertad de catedra",
+      "La libertad, la docencia y el estudio"
+    ],
+    "c": 0,
+    "ref": "Art. 2 Estatutos UHU",
+    "exp": "El servicio público de educación superior se presta mediante el estudio, la docencia, la investigación y la transferencia de conocimiento a la sociedad."
+  },
+  {
+    "q": "Según el art. 3 de los Estatutos de la Universidad, ¿Qué comprende respecto a las estructuras específica que actúen como soporte de la investigación y de la docencia, la autonomía Universitaria?",
+    "o": [
+      "Su cierre",
+      "Su reforma",
+      "Su modificación",
+      "Su creación"
+    ],
+    "c": 3,
+    "ref": "Art. 3 Estatutos UHU",
+    "exp": "La autonomía comprende la creación de estructuras específicas que actúen como soporte de la investigación y de la docencia."
+  },
+  {
+    "q": "Según el art. 3 de los Estatutos de la Universidad, ¿Qué comprende la autonomía de la Universidad de Huelva?",
+    "o": [
+      "La admisión, régimen de permanencia y verificación de conocimientos del personal docente e investigador",
+      "La expedición de los títulos de carácter no oficial y validez en todo el territorio nacional y, en su caso, en el de los Estados Miembros, en el marco del Espacio Europeo de Educación Superior, y de sus diplomas y títulos propios",
+      "La elaboración, aprobación y gestión de sus presupuestos y la administración de sus bienes",
+      "El establecimiento de relaciones con otras entidades para la promoción y desarrollo de sus fines internacionales"
+    ],
+    "c": 2,
+    "ref": "Art. 3 Estatutos UHU",
+    "exp": "La autonomía comprende la elaboración, aprobación y gestión de sus presupuestos y la administración de sus bienes."
+  },
+  {
+    "q": "Según el art. 4 de los Estatutos de la Universidad, la actividad de la Universidad, así como su autonomía, ¿En qué principio se fundamenta?",
+    "o": [
+      "En el principio de libertad académica",
+      "En el principio de libertad de enseñanza",
+      "En el principio de libertad de catedra",
+      "En el principio de libertad de docencia"
+    ],
+    "c": 0,
+    "ref": "Art. 4 Estatutos UHU",
+    "exp": "La actividad y la autonomía de la Universidad se fundamentan en el principio de libertad académica."
+  },
+  {
+    "q": "Según el art. 4 de los Estatutos de la Universidad, el principio de libertad académica, se manifiesta:",
+    "o": [
+      "En el reconocimiento de las cátedras, la investigación y el estudio",
+      "En las libertades de cátedra, de investigación y de estudio",
+      "En los derechos a las cátedras, a la investigación y al estudio",
+      "En el cumplimiento de los deberes, que comporta las catedra, la investigación y el estudio"
+    ],
+    "c": 1,
+    "ref": "Art. 4 Estatutos UHU",
+    "exp": "El principio de libertad académica se manifiesta en las libertades de cátedra, de investigación y de estudio."
+  },
+  {
+    "q": "Según el art. 5 de los Estatutos de la Universidad de Huelva, la Universidad de Huelva es una Universidad:",
+    "o": [
+      "Publica, con capacidad jurídica limitada para realizar toda clase de actos de gestión y disposición",
+      "Publica, con plena capacidad jurídica para realizar toda clase de actos de gestión y disposición",
+      "Privada, con plena capacidad jurídica para realizar toda clase de actos de gestión y disposición",
+      "Publica, con plena capacidad jurídica, sin posibilidad de gestión de realizar actos de gestión y disposición"
+    ],
+    "c": 1,
+    "ref": "Art. 5 Estatutos UHU",
+    "exp": "La UHU es una universidad pública con plena capacidad jurídica para realizar toda clase de actos de gestión y disposición."
+  },
+  {
+    "q": "Según el art. 5 de los Estatutos de la Universidad de Huelva, qué no tiene:",
+    "o": [
+      "Patrimonio propio",
+      "Contabilidad propia",
+      "Dependencia del Estado y de la Comunidad autónoma",
+      "Presupuesto propio"
+    ],
+    "c": 2,
+    "ref": "Art. 5 Estatutos UHU",
+    "exp": "La UHU tiene patrimonio, presupuesto y contabilidad propios, sin dependencia del Estado ni de la Comunidad Autónoma."
+  },
+  {
+    "q": "Según el art. 6 de los Estatutos de la Universidad, el sello de la Universidad de Huelva será:",
+    "o": [
+      "Un circulo, que representa el conocimiento",
+      "Un circulo, que representa la sabiduría",
+      "Un circulo, que representa el saber",
+      "Una esfera, que representa el saber"
+    ],
+    "c": 2,
+    "ref": "Art. 6 Estatutos UHU",
+    "exp": "El sello es un círculo que representa el saber."
+  },
+  {
+    "q": "Según el art. 6, de los Estatutos de la Universidad de Huelva, el sello de la Universidad de Huelva, está divido:",
+    "o": [
+      "En seis campos mediante tres circunferencias concéntricas que expresan las relaciones existentes entre todos los campos del conocimiento",
+      "En tres campos mediante cuatro circunferencias concéntricas que expresan las relaciones existentes entre todos los campos del conocimiento",
+      "En cuatro campos mediante tres circunferencias concéntricas que expresan las relaciones existentes entre todos los campos del conocimiento",
+      "En tres campos mediante seis circunferencias concéntricas que expresan las relaciones existentes entre todos los campos del conocimiento"
+    ],
+    "c": 2,
+    "ref": "Art. 6 Estatutos UHU",
+    "exp": "El sello está dividido en cuatro campos mediante tres circunferencias concéntricas."
+  },
+  {
+    "q": "Según el art. 6, de los Estatutos de la Universidad de Huelva, la Universidad de Huelva utilizará, como denominación oficial, la de:",
+    "o": [
+      "Universidad Onubense",
+      "«Vniversitas Onubensis»",
+      "Universidad de Huelva",
+      "Cualquiera de las anteriores"
+    ],
+    "c": 2,
+    "ref": "Art. 6 Estatutos UHU",
+    "exp": "La denominación oficial es «Universidad de Huelva»."
+  },
+  {
+    "q": "Según el art. 6, de los Estatutos de la Universidad de Huelva, la Universidad, a través de los órganos competentes, podrá crear otros signos distintivos o símbolos que contribuyan a:",
+    "o": [
+      "Su mayor proyección en actos académicos o de extensión universitaria",
+      "Su mayor proyección en actos de gobierno",
+      "Su mayor difusión en actos académicos o de publicidad universitaria",
+      "Su mayor internacionalización en actos de investigación"
+    ],
+    "c": 0,
+    "ref": "Art. 6 Estatutos UHU",
+    "exp": "Podrá crear otros signos que contribuyan a su mayor proyección en actos académicos o de extensión universitaria."
+  },
+  {
+    "q": "Según el art. 7, de los Estatutos de la Universidad de Huelva, ¿Qué podrá establecer en cualquier país de la Unión Europea o en otros países donde la legislación lo permita?",
+    "o": [
+      "Solo Delegaciones de Centros docentes",
+      "Centros de Investigación",
+      "Distritos Universitarios",
+      "Sedes"
+    ],
+    "c": 3,
+    "ref": "Art. 7 Estatutos UHU",
+    "exp": "Podrá establecer sedes en cualquier país de la Unión Europea u otros donde la legislación lo permita."
+  }
+]
