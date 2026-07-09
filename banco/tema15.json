@@ -1,1 +1,722 @@
-[]
+[
+  {
+    "q": "Según el art. 1 del Reglamento de permanencia, ¿cuál es su objeto?",
+    "o": [
+      "Regular las condiciones de admisión, permanencia y progreso del alumnado en las enseñanzas oficiales conducentes a la obtención de los títulos de Grado y Máster de la UHU",
+      "Regular las condiciones de permanencia y progreso del alumnado en las enseñanzas oficiales conducentes a la obtención de los títulos de Grado, Máster y Doctorado de la UHU",
+      "Regular las condiciones de admisión y permanencia del alumnado en las enseñanzas oficiales conducentes a la obtención de los títulos de Grado y Máster de la UHU",
+      "Nada de lo anterior es objeto del reglamento"
+    ],
+    "c": 3,
+    "ref": "Art. 1 Reglamento de Permanencia UHU",
+    "exp": "El objeto es regular la permanencia y progreso en Grado y Máster (sin admisión ni doctorado), por lo que ninguna de las tres primeras opciones es exacta; la clave marca D."
+  },
+  {
+    "q": "Según el art. 2 del Reglamento de permanencia, los estudios conducentes a la obtención de los títulos oficiales de la UHU se podrán cursar:",
+    "o": [
+      "En régimen de dedicación absoluta",
+      "En régimen de dedicación a tiempo completo",
+      "En régimen de dedicación a tiempo parcial, salvo las enseñanzas de máster que tendrá que ser a tiempo completo",
+      "En régimen de dedicación mixta"
+    ],
+    "c": 1,
+    "ref": "Art. 2 Reglamento de Permanencia UHU",
+    "exp": "Los estudios se cursan en régimen de dedicación a tiempo completo (o a tiempo parcial)."
+  },
+  {
+    "q": "Según el art. 2 del Reglamento de permanencia, ¿cuándo informará el centro al alumnado de nuevo acceso sobre las normas de permanencia?",
+    "o": [
+      "Durante el periodo de matrícula",
+      "Una vez finalizado el periodo de matrícula",
+      "Previamente al periodo de matrícula",
+      "En cualquiera de los momentos anteriores"
+    ],
+    "c": 2,
+    "ref": "Art. 2 Reglamento de Permanencia UHU",
+    "exp": "El centro informa previamente al periodo de matrícula."
+  },
+  {
+    "q": "Según el art. 2 del Reglamento de permanencia, los alumnos con matrícula a tiempo parcial que inicien una titulación de grado en su primer curso académico deberán formalizar matrícula de entre:",
+    "o": [
+      "Un mínimo de 60 créditos y máximo de 78",
+      "24 y 36 créditos",
+      "Un mínimo de 20 créditos y un máximo de 48 créditos",
+      "10 y 20 créditos"
+    ],
+    "c": 1,
+    "ref": "Art. 2 Reglamento de Permanencia UHU",
+    "exp": "A tiempo parcial, quienes inician grado en su primer curso formalizan matrícula de entre 24 y 36 créditos (las cifras 60-78 corresponden a tiempo completo)."
+  },
+  {
+    "q": "Según el art. 2 del Reglamento de permanencia, en los Itinerarios Curriculares Concretos y Dobles grado, el número de créditos será establecido por:",
+    "o": [
+      "Por la Universidad dentro de la programación ofertada",
+      "Por el Consejo de Universidades dentro de la programación ofertada",
+      "Por el Centro dentro de la programación ofertada",
+      "Por la Consejería de Educación dentro de la programación ofertada"
+    ],
+    "c": 2,
+    "ref": "Art. 2 Reglamento de Permanencia UHU",
+    "exp": "Lo establece el Centro dentro de la programación ofertada."
+  },
+  {
+    "q": "Según el art. 2 del Reglamento de permanencia, el alumnado de máster en régimen de dedicación a tiempo completo deberá matricularse de:",
+    "o": [
+      "Un mínimo de 60 créditos y máximo de 78 créditos",
+      "Un mínimo de 20 créditos y máximo de 45 créditos",
+      "Un mínimo de 36 créditos y máximo de 78 créditos",
+      "Un mínimo de 24 créditos y máximo de 36 créditos"
+    ],
+    "c": 0,
+    "ref": "Art. 2 Reglamento de Permanencia UHU",
+    "exp": "El máster a tiempo completo se matricula entre 60 y 78 créditos según la clave."
+  },
+  {
+    "q": "Según el art. 3 del Reglamento de permanencia, ¿cuándo establecerá cada Centro el número de plazas de nuevo ingreso a tiempo parcial que podrán, como máximo, ser ofertadas?",
+    "o": [
+      "Después de la admisión de los estudiantes",
+      "Antes del periodo de matrícula",
+      "Durante el periodo de matrícula",
+      "Antes del inicio de la admisión de los estudiantes"
+    ],
+    "c": 3,
+    "ref": "Art. 3 Reglamento de Permanencia UHU",
+    "exp": "El centro las establece antes del inicio de la admisión de los estudiantes."
+  },
+  {
+    "q": "Según el art. 3 del Reglamento de permanencia, los estudiantes de nuevo ingreso, ¿en qué plazo deberán solicitar poder matricularse a tiempo parcial?",
+    "o": [
+      "En el plazo de 5 días desde la admisión",
+      "En el plazo de 5 días desde que el estudiante realizó la matrícula",
+      "En el plazo de 10 días desde que el estudiante realizó la matrícula",
+      "En cualquier momento del curso académico"
+    ],
+    "c": 1,
+    "ref": "Art. 3 Reglamento de Permanencia UHU",
+    "exp": "El plazo es de 5 días desde que el estudiante realizó la matrícula."
+  },
+  {
+    "q": "Según el art. 3 del Reglamento de Permanencia, ¿cuántos cambios podrán formalizarse en la situación inicial de matrícula durante el desarrollo de los estudios?",
+    "o": [
+      "Un máximo de tres cambios",
+      "Un máximo de dos cambios",
+      "Un máximo de un cambio",
+      "Un máximo de cuatro cambios"
+    ],
+    "c": 1,
+    "ref": "Art. 3 Reglamento de Permanencia UHU",
+    "exp": "Se permite un máximo de dos cambios."
+  },
+  {
+    "q": "Según el art. 3 del Reglamento de permanencia, ¿quién resolverá la solicitud de cambio de tipo de matrícula?",
+    "o": [
+      "La secretaría del Centro",
+      "La Comisión de Ordenación Económica del Centro",
+      "La Comisión de Ordenación Académica del Centro",
+      "El Rector"
+    ],
+    "c": 2,
+    "ref": "Art. 3 Reglamento de Permanencia UHU",
+    "exp": "Resuelve la Comisión de Ordenación Académica del Centro."
+  },
+  {
+    "q": "Según el art. 4 del Reglamento de permanencia, en el supuesto de que el número de solicitudes de matrícula a tiempo parcial supere al de plazas y en igualdad de condiciones, ¿a qué se atenderá para la concesión de esta modalidad de matrícula?",
+    "o": [
+      "A la nota media del expediente académico",
+      "A la nota de acceso",
+      "A la nota media obtenida en el curso anterior en el supuesto de alumnos que no sean de nuevo ingreso",
+      "A la forma de acceso a la Universidad"
+    ],
+    "c": 1,
+    "ref": "Art. 4 Reglamento de Permanencia UHU",
+    "exp": "En igualdad de condiciones se atiende a la nota de acceso."
+  },
+  {
+    "q": "Según el art. 5 del Reglamento de permanencia, los estudiantes matriculados en estudios universitarios oficiales de Grado y Máster, ¿de cuántas convocatorias ordinarias de examen disponen por curso académico?",
+    "o": [
+      "Dos",
+      "Tres",
+      "Cuatro",
+      "Una"
+    ],
+    "c": 0,
+    "ref": "Art. 5 Reglamento de Permanencia UHU",
+    "exp": "Disponen de dos convocatorias ordinarias por curso académico."
+  },
+  {
+    "q": "Según el art. 5 del Reglamento de permanencia, ¿de cuántas convocatorias dispondrán los estudiantes para superar cada asignatura matriculada?",
+    "o": [
+      "Dos",
+      "Tres",
+      "Cinco",
+      "Seis"
+    ],
+    "c": 3,
+    "ref": "Art. 5 Reglamento de Permanencia UHU",
+    "exp": "Disponen de seis convocatorias para superar cada asignatura."
+  },
+  {
+    "q": "Según el art. 6 del Reglamento de permanencia, los estudiantes de grado para poder continuar matriculados en los estudios iniciados, ¿cuántos créditos, al menos, deberán superar el primer curso?",
+    "o": [
+      "Dos",
+      "Tres",
+      "Seis",
+      "Cinco"
+    ],
+    "c": 2,
+    "ref": "Art. 6 Reglamento de Permanencia UHU",
+    "exp": "Deberán superar al menos seis créditos el primer curso."
+  },
+  {
+    "q": "Según el art. 6 del Reglamento de permanencia, para el alumnado de nuevo ingreso, no contabilizará como créditos superados, a efecto del mínimo que deberá superar el primer curso:",
+    "o": [
+      "Las materias que hayan sido reconocidas por estudios previos",
+      "Solo las materias que hayan sido convalidadas por estudios previos",
+      "Las materias que hayan sido reconocidas o convalidadas por estudios previos, realizados cinco años anteriores, a la nueva matriculación",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 0,
+    "ref": "Art. 6 Reglamento de Permanencia UHU",
+    "exp": "No contabilizan las materias reconocidas por estudios previos."
+  },
+  {
+    "q": "Según el art. 7 del Reglamento de permanencia, el alumnado de Grado matriculado a tiempo completo, ¿durante cuántos cursos académicos podrá formalizar matrícula?",
+    "o": [
+      "Siete",
+      "Seis",
+      "Cinco",
+      "Diez"
+    ],
+    "c": 0,
+    "ref": "Art. 7 Reglamento de Permanencia UHU",
+    "exp": "El grado a tiempo completo dispone de siete cursos académicos."
+  },
+  {
+    "q": "Según el art. 7 del Reglamento de permanencia, el alumnado de Grado matriculado a tiempo parcial, ¿durante cuántos cursos académicos podrá formalizar matrícula?",
+    "o": [
+      "Siete",
+      "Seis",
+      "Cinco",
+      "Diez"
+    ],
+    "c": 3,
+    "ref": "Art. 7 Reglamento de Permanencia UHU",
+    "exp": "El grado a tiempo parcial dispone de diez cursos académicos."
+  },
+  {
+    "q": "Según el art. 7 del Reglamento de permanencia, en las titulaciones de Grados dobles, el alumnado podrá formalizar matrícula, cuando dicha matrícula sea a tiempo completo, durante:",
+    "o": [
+      "Once cursos",
+      "Diez cursos",
+      "Nueve cursos",
+      "Trece cursos"
+    ],
+    "c": 2,
+    "ref": "Art. 7 Reglamento de Permanencia UHU",
+    "exp": "En doble grado a tiempo completo son nueve cursos."
+  },
+  {
+    "q": "Según el art. 7 del Reglamento de permanencia, en las titulaciones de Grados dobles, el alumnado podrá formalizar matrícula, cuando dicha matrícula sea a tiempo parcial, durante:",
+    "o": [
+      "Once cursos",
+      "Diez cursos",
+      "Nueve cursos",
+      "Trece cursos"
+    ],
+    "c": 0,
+    "ref": "Art. 7 Reglamento de Permanencia UHU",
+    "exp": "En doble grado a tiempo parcial son once cursos."
+  },
+  {
+    "q": "Según el art. 7 del Reglamento de permanencia, la limitación del número de cursos académicos en los que como máximo el alumnado de grado debe finalizar los estudios no se aplicará:",
+    "o": [
+      "A quienes les reste un máximo de 20 créditos",
+      "A quienes les reste un máximo de 25 créditos",
+      "A quienes les reste un máximo de 30 créditos",
+      "A quienes les reste un máximo de 35 créditos"
+    ],
+    "c": 2,
+    "ref": "Art. 7 Reglamento de Permanencia UHU",
+    "exp": "No se aplica a quienes les reste un máximo de 30 créditos."
+  },
+  {
+    "q": "Según el art. 7 del Reglamento de permanencia, el límite máximo de permanencia en un Máster Universitario de 60 créditos con dedicación a tiempo completo es de:",
+    "o": [
+      "Cuatro cursos académicos",
+      "Tres cursos académicos",
+      "Cinco cursos académicos",
+      "Seis cursos académicos"
+    ],
+    "c": 1,
+    "ref": "Art. 7 Reglamento de Permanencia UHU",
+    "exp": "Máster de 60 créditos a tiempo completo: tres cursos académicos."
+  },
+  {
+    "q": "Según el art. 7 del Reglamento de permanencia, el límite máximo de permanencia en un Máster Universitario de 120 créditos, para los estudiantes con dedicación a tiempo parcial es:",
+    "o": [
+      "Cinco cursos académicos",
+      "Seis cursos académicos",
+      "Cuatro cursos académicos",
+      "Diez cursos académicos"
+    ],
+    "c": 1,
+    "ref": "Art. 7 Reglamento de Permanencia UHU",
+    "exp": "Máster de 120 créditos a tiempo parcial: seis cursos académicos."
+  },
+  {
+    "q": "Según el art. 7 del Reglamento de permanencia, para un Máster Universitario de 120 créditos, si la dedicación fuese a tiempo completo, el límite máximo de permanencia es:",
+    "o": [
+      "Cinco cursos académicos",
+      "Seis cursos académicos",
+      "Cuatro cursos académicos",
+      "Diez cursos académicos"
+    ],
+    "c": 0,
+    "ref": "Art. 7 Reglamento de Permanencia UHU",
+    "exp": "Máster de 120 créditos a tiempo completo: cinco cursos académicos."
+  },
+  {
+    "q": "Según el art. 7 del Reglamento de permanencia, el límite máximo de permanencia en un Máster Universitario de 90 créditos con dedicación a tiempo completo es de:",
+    "o": [
+      "Tres cursos académicos",
+      "Cuatro cursos académicos",
+      "Cinco cursos académicos",
+      "Seis cursos académicos"
+    ],
+    "c": 1,
+    "ref": "Art. 7 Reglamento de Permanencia UHU",
+    "exp": "Máster de 90 créditos a tiempo completo: cuatro cursos académicos."
+  },
+  {
+    "q": "Según el art. 7 del Reglamento de permanencia, ¿qué estudiantes estarán exentos de cumplir las condiciones de permanencia recogidas en el citado reglamento?",
+    "o": [
+      "Aquellos a los que se haya reconocido o convalidado estudios previos",
+      "Aquellos que vayan a participar en programas de movilidad",
+      "Aquellos estudiantes que estén trabajando",
+      "Aquellos estudiantes que participen en programas de movilidad durante el curso que realicen sus estudios en otra universidad"
+    ],
+    "c": 3,
+    "ref": "Art. 7 Reglamento de Permanencia UHU",
+    "exp": "Están exentos quienes participen en programas de movilidad durante el curso que cursen sus estudios en otra universidad."
+  },
+  {
+    "q": "Según el art. 9 del Reglamento de permanencia, ¿a quién corresponde la interpretación y aclaraciones del Reglamento de Permanencia?",
+    "o": [
+      "Al Consejo de Gobierno",
+      "Al Vicerrector de Ordenación Académica",
+      "Al Rector",
+      "Al Decano/a de cada centro"
+    ],
+    "c": 2,
+    "ref": "Art. 9 Reglamento de Permanencia UHU",
+    "exp": "La interpretación y aclaración corresponde al Rector."
+  },
+  {
+    "q": "Según el art. 1 del Reglamento de Permanencia de la Universidad de Huelva, éste tiene por objeto regular las condiciones de permanencia y progreso del alumnado en las enseñanzas oficiales conducentes a la obtención de los títulos de:",
+    "o": [
+      "Grado y Máster",
+      "Grado, Máster y Doctorado",
+      "Grado, Máster y títulos propios",
+      "De todas las enseñanzas impartidas en la Universidad de Huelva"
+    ],
+    "c": 0,
+    "ref": "Art. 1 Reglamento de Permanencia UHU",
+    "exp": "Regula la permanencia y progreso en los títulos de Grado y Máster."
+  },
+  {
+    "q": "Sobre el reglamento de permanencia, el 23 de septiembre de 2016 es la fecha de:",
+    "o": [
+      "Aprobación por el Consejo Social",
+      "Aprobación por el Consejo de Gobierno",
+      "Aprobación por la Comunidad Autónoma",
+      "Aprobación por el Consejo de Universidades"
+    ],
+    "c": 0,
+    "ref": "Reglamento de Permanencia UHU",
+    "exp": "Según la clave, el 23 de septiembre de 2016 es la fecha de aprobación por el Consejo Social."
+  },
+  {
+    "q": "Según el art. 2 del Reglamento de Permanencia de la Universidad de Huelva, los estudios conducentes a la obtención de los títulos oficiales de la UHU se podrán cursar en régimen:",
+    "o": [
+      "De dedicación en exclusiva a tiempo completo",
+      "De estudio a tiempo completo o a tiempo parcial",
+      "De dedicación a tiempo completo o a tiempo parcial",
+      "De rendimiento a tiempo completo o a tiempo parcial"
+    ],
+    "c": 2,
+    "ref": "Art. 2 Reglamento de Permanencia UHU",
+    "exp": "Régimen de dedicación a tiempo completo o a tiempo parcial."
+  },
+  {
+    "q": "Según el art. 2 del Reglamento de Permanencia de la Universidad de Huelva, el régimen de dedicación al estudio elegido, ¿cuándo se podrá modificar?",
+    "o": [
+      "Durante el curso académico en las fechas previstas para ello",
+      "Durante todo el curso académico",
+      "En ningún momento",
+      "Una vez terminado el curso en que ha sido elegido y antes del comienzo del siguiente"
+    ],
+    "c": 3,
+    "ref": "Art. 2 Reglamento de Permanencia UHU",
+    "exp": "El régimen elegido se mantiene durante todo el curso académico, pudiéndose modificar en el siguiente; por tanto, una vez terminado el curso en que fue elegido y antes del comienzo del siguiente."
+  },
+  {
+    "q": "Según el art. 2 del Reglamento de Permanencia de la Universidad de Huelva, ¿quién deberá orientar al alumnado de nuevo acceso sobre el número de créditos de los que podrá matricularse de acuerdo con su dedicación a los estudios?",
+    "o": [
+      "La Universidad",
+      "La Unidad de orientación",
+      "El Centro",
+      "La Oficina de Admisión"
+    ],
+    "c": 2,
+    "ref": "Art. 2 Reglamento de Permanencia UHU",
+    "exp": "El Centro orienta al alumnado de nuevo acceso sobre el número de créditos."
+  },
+  {
+    "q": "Según el art. 2 del Reglamento de Permanencia de la Universidad de Huelva, en enseñanzas de grado, un alumno/a matriculado/a en el segundo curso a tiempo parcial, no podrá matricularse de más de:",
+    "o": [
+      "24 créditos",
+      "36 créditos",
+      "78 créditos",
+      "20 créditos"
+    ],
+    "c": 1,
+    "ref": "Art. 2 Reglamento de Permanencia UHU",
+    "exp": "A tiempo parcial en un curso distinto al primero no podrá superar los 36 créditos."
+  },
+  {
+    "q": "Según el art. 2 del Reglamento de Permanencia de la Universidad de Huelva, ¿cuál es la modalidad estándar de matrícula?",
+    "o": [
+      "La matrícula a tiempo completo o a tiempo parcial",
+      "El tipo de matrícula en cualquier modalidad, prevista para las enseñanzas de máster",
+      "La matrícula a tiempo completo en enseñanzas de grado",
+      "La matrícula a tiempo parcial"
+    ],
+    "c": 2,
+    "ref": "Art. 2 Reglamento de Permanencia UHU",
+    "exp": "La modalidad estándar es la matrícula a tiempo completo en enseñanzas de grado."
+  },
+  {
+    "q": "Según el art. 2 del Reglamento de Permanencia de la Universidad de Huelva, en la modalidad estándar de matrícula, un alumno de enseñanzas de grado, en un curso distinto al primero, formalizará matrícula entre:",
+    "o": [
+      "Entre 60 y 78 créditos",
+      "Entre 24 y 36 créditos",
+      "Entre 20 y 45 créditos",
+      "Entre 36 y 78 créditos"
+    ],
+    "c": 3,
+    "ref": "Art. 2 Reglamento de Permanencia UHU",
+    "exp": "En la modalidad estándar, cursos distintos del primero: entre 36 y 78 créditos según la clave."
+  },
+  {
+    "q": "Según el art. 2 del Reglamento de Permanencia de la Universidad de Huelva, para un alumno de grado en un curso distinto al primero, ¿y si no fuese la modalidad estándar de matrícula?",
+    "o": [
+      "Entre 60 y 78 créditos",
+      "Entre 24 y 36 créditos",
+      "Entre 20 y 45 créditos",
+      "Entre 36 y 78 créditos"
+    ],
+    "c": 1,
+    "ref": "Art. 2 Reglamento de Permanencia UHU",
+    "exp": "Fuera de la modalidad estándar (tiempo parcial): entre 24 y 36 créditos."
+  },
+  {
+    "q": "Según el art. 2 del Reglamento de Permanencia de la Universidad de Huelva, en los Itinerarios curriculares concretos, ¿por quién será establecido el número de créditos a matricular?",
+    "o": [
+      "Por la Comunidad Autónoma",
+      "Por la Universidad",
+      "Por el Centro fuera de la programación ofertada",
+      "Nada es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 2 Reglamento de Permanencia UHU",
+    "exp": "Lo establece el Centro dentro de la programación ofertada, por lo que la opción C (fuera de la programación) es incorrecta y la clave marca D."
+  },
+  {
+    "q": "Según el art. 2 del Reglamento de Permanencia de la Universidad de Huelva, el alumnado de máster en régimen de dedicación a tiempo completo deberá matricularse de un máximo de:",
+    "o": [
+      "78 créditos",
+      "60 créditos",
+      "45 créditos",
+      "36 créditos"
+    ],
+    "c": 0,
+    "ref": "Art. 2 Reglamento de Permanencia UHU",
+    "exp": "El máster a tiempo completo se matricula de un máximo de 78 créditos."
+  },
+  {
+    "q": "Según el art. 2 del Reglamento de Permanencia de la Universidad de Huelva, si un alumno de máster, a tiempo completo, para finalizar la enseñanza, le restan créditos, ¿de qué se podría matricular?",
+    "o": [
+      "De un máximo de 60 créditos",
+      "De 45 créditos",
+      "De un mínimo de 20 créditos",
+      "De un máximo de 45 créditos"
+    ],
+    "c": 1,
+    "ref": "Art. 2 Reglamento de Permanencia UHU",
+    "exp": "Podría matricularse de 45 créditos según la clave."
+  },
+  {
+    "q": "Según el art. 2 del Reglamento de Permanencia de la Universidad de Huelva, si a una alumna, que en el curso se ha matriculado del número máximo establecido, le resta como máximo 24 créditos para completar la carga lectiva del plan de estudios, ¿se le permitirá incrementar la matrícula?",
+    "o": [
+      "No",
+      "Sí, previa solicitud, en el centro",
+      "Sí, solicitándolo una vez realizada la matrícula",
+      "Sí, previa solicitud ante la comisión de ordenación académica"
+    ],
+    "c": 1,
+    "ref": "Art. 2 Reglamento de Permanencia UHU",
+    "exp": "Sí, previa solicitud en el centro, cuando le resten como máximo 24 créditos."
+  },
+  {
+    "q": "Según el art. 3 del Reglamento de Permanencia de la Universidad de Huelva, el número de plazas de nuevo ingreso a tiempo parcial que podrá como máximo ser ofertada, ¿cuándo las establecerá cada centro?",
+    "o": [
+      "Antes del periodo de matrícula",
+      "Antes del final de la admisión de los estudiantes",
+      "Antes del inicio de la admisión de los estudiantes",
+      "Antes de la finalización del periodo lectivo del curso académico"
+    ],
+    "c": 2,
+    "ref": "Art. 3 Reglamento de Permanencia UHU",
+    "exp": "Cada centro las establece antes del inicio de la admisión de los estudiantes."
+  },
+  {
+    "q": "Según el art. 3 del Reglamento de Permanencia, los estudiantes que no sean de nuevo ingreso, ¿cuándo formalizarán la solicitud de cambio de modalidad de matrícula?",
+    "o": [
+      "En un plazo no superior a cinco días desde que formalizaron la matrícula",
+      "Antes del periodo de matrícula",
+      "Durante el periodo de matrícula",
+      "En el plazo establecido por la Secretaría del Centro para cada curso académico"
+    ],
+    "c": 2,
+    "ref": "Art. 3 Reglamento de Permanencia UHU",
+    "exp": "Los que no son de nuevo ingreso lo solicitan durante el periodo de matrícula."
+  },
+  {
+    "q": "Según el art. 3 del Reglamento de Permanencia de la Universidad de Huelva, ¿quién resolverá la solicitud que un estudiante haya presentado para cambiar la modalidad de matrícula?",
+    "o": [
+      "La Comisión de ordenación del Centro",
+      "La Secretaría del Centro",
+      "El Decanato o la Dirección del correspondiente Centro",
+      "La Junta de Facultad"
+    ],
+    "c": 0,
+    "ref": "Art. 3 Reglamento de Permanencia UHU",
+    "exp": "Resuelve la Comisión de Ordenación (Académica) del Centro."
+  },
+  {
+    "q": "Según el art. 4 del Reglamento de Permanencia de la Universidad de Huelva, si el número de solicitudes de cambio a modalidad de matrícula a tiempo parcial supera al de plazas ofertadas, y en igualdad de condiciones, ¿a qué se atenderá?",
+    "o": [
+      "Al interés mostrado por el alumno",
+      "A la nota de acceso",
+      "En su caso a la calificación media obtenida durante los cursos realizados en la titulación",
+      "A la capacidad económica familiar"
+    ],
+    "c": 1,
+    "ref": "Art. 4 Reglamento de Permanencia UHU",
+    "exp": "En igualdad de condiciones se atiende a la nota de acceso."
+  },
+  {
+    "q": "Según el art. 5 del Reglamento de Permanencia, ¿de cuántas convocatorias ordinarias de examen por curso académico disponen los estudiantes matriculados en los estudios universitarios oficiales de Grado?",
+    "o": [
+      "De cuatro",
+      "De seis",
+      "De dos",
+      "B y C son correctas"
+    ],
+    "c": 2,
+    "ref": "Art. 5 Reglamento de Permanencia UHU",
+    "exp": "Disponen de dos convocatorias ordinarias por curso académico."
+  },
+  {
+    "q": "Según el art. 6 del Reglamento de Permanencia, ¿quién no podrá continuar la enseñanza?",
+    "o": [
+      "Los estudiantes de Grado de primer curso que no hayan superado doce créditos",
+      "El alumnado de nuevo ingreso en enseñanzas de Máster que no supere un mínimo de doce créditos",
+      "Los estudiantes de Grado de primer curso que no hayan superado un mínimo de diez créditos",
+      "El alumnado en enseñanza de Máster que no supere un mínimo de diez créditos"
+    ],
+    "c": 3,
+    "ref": "Art. 6 Reglamento de Permanencia UHU",
+    "exp": "No podrá continuar el alumnado de máster que no supere un mínimo de diez créditos."
+  },
+  {
+    "q": "Según el art. 7 del Reglamento de Permanencia, el alumnado de grado matriculado a tiempo completo podrá formalizar matrícula:",
+    "o": [
+      "Durante nueve cursos académicos",
+      "Durante siete cursos académicos",
+      "Durante seis cursos académicos",
+      "Durante cinco cursos académicos"
+    ],
+    "c": 1,
+    "ref": "Art. 7 Reglamento de Permanencia UHU",
+    "exp": "El grado a tiempo completo dispone de siete cursos académicos."
+  },
+  {
+    "q": "Según el art. 7 del Reglamento de Permanencia, el alumnado de grado matriculado a tiempo parcial, ¿de cuántos cursos académicos dispondrán para la finalización de sus estudios?",
+    "o": [
+      "Diez",
+      "Siete",
+      "Once",
+      "Seis"
+    ],
+    "c": 0,
+    "ref": "Art. 7 Reglamento de Permanencia UHU",
+    "exp": "El grado a tiempo parcial dispone de diez cursos académicos."
+  },
+  {
+    "q": "Según el art. 7 del Reglamento de Permanencia, cuando la matrícula sea a tiempo parcial, el alumno matriculado en un doble grado podrá formalizar matrícula:",
+    "o": [
+      "Durante once cursos académicos",
+      "Durante nueve cursos académicos",
+      "Durante siete cursos académicos",
+      "Durante seis cursos académicos"
+    ],
+    "c": 0,
+    "ref": "Art. 7 Reglamento de Permanencia UHU",
+    "exp": "El doble grado a tiempo parcial dispone de once cursos académicos."
+  },
+  {
+    "q": "Según el art. 7 del Reglamento de Permanencia, la limitación de formalizar matrícula durante un determinado número de cursos para un alumno de grado no se aplicará cuando le reste para finalizar los estudios un máximo de:",
+    "o": [
+      "60 créditos",
+      "40 créditos",
+      "30 créditos",
+      "35 créditos"
+    ],
+    "c": 2,
+    "ref": "Art. 7 Reglamento de Permanencia UHU",
+    "exp": "No se aplica cuando le reste un máximo de 30 créditos."
+  },
+  {
+    "q": "Según el art. 7 del Reglamento de Permanencia, el límite máximo de permanencia en las enseñanzas de un Máster Universitario de 60 créditos, para un alumno con dedicación a tiempo completo es de:",
+    "o": [
+      "Seis cursos académicos",
+      "Cinco cursos académicos",
+      "Cuatro cursos académicos",
+      "Tres cursos académicos"
+    ],
+    "c": 3,
+    "ref": "Art. 7 Reglamento de Permanencia UHU",
+    "exp": "Máster de 60 créditos a tiempo completo: tres cursos académicos."
+  },
+  {
+    "q": "Según el art. 7 del Reglamento de Permanencia, el límite máximo de permanencia en las enseñanzas de un Máster Universitario de 90 créditos, para un alumno con dedicación a tiempo parcial es de:",
+    "o": [
+      "Seis cursos académicos",
+      "Cinco cursos académicos",
+      "Cuatro cursos académicos",
+      "Tres cursos académicos"
+    ],
+    "c": 1,
+    "ref": "Art. 7 Reglamento de Permanencia UHU",
+    "exp": "Máster de 90 créditos a tiempo parcial: cinco cursos académicos."
+  },
+  {
+    "q": "Según el art. 7 del Reglamento de Permanencia, el límite máximo de permanencia en las enseñanzas de un Máster Universitario de 120 créditos, para un alumno con dedicación a tiempo completo es de:",
+    "o": [
+      "Seis cursos académicos",
+      "Cinco cursos académicos",
+      "Cuatro cursos académicos",
+      "Tres cursos académicos"
+    ],
+    "c": 1,
+    "ref": "Art. 7 Reglamento de Permanencia UHU",
+    "exp": "Máster de 120 créditos a tiempo completo: cinco cursos académicos."
+  },
+  {
+    "q": "Según el art. 6 del Reglamento de Permanencia, en caso de incumplimiento del rendimiento mínimo por curso académico, ¿ante quién podrá solicitar el alumno que, atendiendo a especiales circunstancias, le conceda una matrícula extraordinaria para el curso siguiente?",
+    "o": [
+      "Ante la Junta de Centro",
+      "Ante la Comisión Académica del Centro",
+      "Ante la Secretaría del Centro",
+      "Ante el Rector"
+    ],
+    "c": 0,
+    "ref": "Art. 6 Reglamento de Permanencia UHU",
+    "exp": "Según la clave del examen es A (Junta de Centro); conviene revisar el órgano competente en validación."
+  },
+  {
+    "q": "Según el art. 7 del Reglamento de Permanencia de la Universidad de Huelva, ¿qué alumnos estarán exentos de cumplir las condiciones de permanencia referidas al número de cursos que como máximo se podrá formalizar matrícula?",
+    "o": [
+      "Los que procedan de otra Universidad",
+      "Los que realicen prácticas externas",
+      "Los que participen en programas de movilidad",
+      "Los alumnos no pertenecientes al Espacio Europeo de Educación Superior"
+    ],
+    "c": 2,
+    "ref": "Art. 7 Reglamento de Permanencia UHU",
+    "exp": "Están exentos los que participen en programas de movilidad."
+  },
+  {
+    "q": "Según el art. 7 del Reglamento de Permanencia, el límite máximo de permanencia en las enseñanzas de un Máster Universitario de 120 créditos, para un alumno con dedicación a tiempo parcial es de:",
+    "o": [
+      "Seis cursos",
+      "Cinco cursos",
+      "Cuatro cursos",
+      "Tres cursos"
+    ],
+    "c": 0,
+    "ref": "Art. 7 Reglamento de Permanencia UHU",
+    "exp": "Máster de 120 créditos a tiempo parcial: seis cursos académicos."
+  },
+  {
+    "q": "Según el art. 3 del Reglamento de Permanencia, ¿qué recurso podrá interponerse contra la resolución de las solicitudes de cambio de modalidad de matrícula?",
+    "o": [
+      "Reposición",
+      "Alzada",
+      "Revisión",
+      "Cualquiera de los anteriores"
+    ],
+    "c": 1,
+    "ref": "Art. 3 Reglamento de Permanencia UHU",
+    "exp": "Contra la resolución cabe recurso de alzada."
+  },
+  {
+    "q": "Según el art. 3 del Reglamento de Permanencia, ¿en qué plazo un estudiante de nuevo ingreso que ha formalizado matrícula a tiempo completo podrá solicitar matricularse a tiempo parcial?",
+    "o": [
+      "En un plazo no superior a 5 días, desde que el estudiante realizó su matrícula",
+      "En un plazo no superior a 10 días, desde que el estudiante realizó su matrícula",
+      "En un plazo no superior a 1 mes, desde que el estudiante realizó su matrícula",
+      "En un plazo no superior a 15 días, desde que el estudiante realizó su matrícula"
+    ],
+    "c": 0,
+    "ref": "Art. 3 Reglamento de Permanencia UHU",
+    "exp": "El plazo es no superior a 5 días desde que realizó la matrícula."
+  },
+  {
+    "q": "Según el art. 4 del Reglamento de permanencia, de existir un número de solicitudes para formalizar matrícula como estudiante a tiempo parcial superior a las determinadas por el centro, ¿qué criterio se tendrá en cuenta antes en la ordenación de solicitudes?",
+    "o": [
+      "Estudiantes que no estén trabajando",
+      "Formar unidad familiar con menores o dependientes a su cargo",
+      "Estudiantes con discapacidad física",
+      "Estudiantes que estén trabajando"
+    ],
+    "c": 2,
+    "ref": "Art. 4 Reglamento de Permanencia UHU",
+    "exp": "Según la clave del examen se atiende antes a los estudiantes con discapacidad física."
+  },
+  {
+    "q": "Según el art. 6 del Reglamento de permanencia, los estudiantes de grado para poder continuar matriculados en los estudios iniciados, ¿cuántos créditos deberán superar el primer curso?",
+    "o": [
+      "Dos",
+      "Tres",
+      "Cinco",
+      "Seis"
+    ],
+    "c": 3,
+    "ref": "Art. 6 Reglamento de Permanencia UHU",
+    "exp": "Deberán superar seis créditos el primer curso."
+  },
+  {
+    "q": "El Reglamento de permanencia, ¿en qué fecha fue aprobado por el Consejo de Gobierno?",
+    "o": [
+      "29 de julio de 2016",
+      "29 de julio de 2006",
+      "9 de julio de 2016",
+      "2 de julio de 2016"
+    ],
+    "c": 0,
+    "ref": "Reglamento de Permanencia UHU",
+    "exp": "Fue aprobado por el Consejo de Gobierno el 29 de julio de 2016."
+  }
+]
