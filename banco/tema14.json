@@ -3,12 +3,12 @@
     "q": "Según el art. 4 de las bases de ejecución del presupuesto de la Universidad de Huelva, el presupuesto de la Universidad de Huelva constituye:",
     "o": [
       "La expresión máxima de gastos en los que se puede invertir en el ejercicio y los derechos pendientes de cobro procedentes de ejercicios anteriores",
-      "La expresión cifrada, conjunta y sistemática de las obligaciones que, como máximo, puede reconocer la Universidad y de los derechos que prevea liquidar durante el correspondiente ejercicio.",
-      "La expresión estructurada por conceptos de gastos previstos pagar durante el ejercicio por la Universidad y los ingresos liquidados destinados a financiar las diferentes partidas de gastos correspondiente al ejercicio corriente.",
-      "La expresión, individualizada y sistemática de las obligaciones que como mínimo, puede reconocer la Universidad y la previsión conjunta y agregada de ingresos corrientes correspondiente al ejercicio corriente."
+      "La expresión cifrada, conjunta y sistemática de las obligaciones que, como máximo, puede reconocer la Universidad y de los derechos que prevea liquidar durante el correspondiente ejercicio",
+      "La expresión estructurada por conceptos de gastos previstos pagar durante el ejercicio por la Universidad y los ingresos liquidados destinados a financiar las diferentes partidas de gastos",
+      "La expresión individualizada y sistemática de las obligaciones que como mínimo puede reconocer la Universidad y la previsión conjunta y agregada de ingresos corrientes"
     ],
     "c": 1,
-    "ref": "Art. 4 Bases de ejecución del presupuesto UHU",
+    "ref": "Art. 4 Bases ejecución presupuesto UHU",
     "exp": "El presupuesto es la expresión cifrada, conjunta y sistemática de las obligaciones que como máximo puede reconocer la Universidad y de los derechos que prevea liquidar."
   },
   {
@@ -20,19 +20,19 @@
       "Sistemática, orgánica, funcional y económica"
     ],
     "c": 2,
-    "ref": "Art. 4 Bases de ejecución del presupuesto UHU",
-    "exp": "Al estado de ingresos se le aplica la clasificación orgánica y económica (la funcional solo al de gastos)."
+    "ref": "Art. 4 Bases ejecución presupuesto UHU",
+    "exp": "El estado de ingresos aplica clasificación orgánica y económica (no la funcional, propia del gasto)."
   },
   {
     "q": "Según el art. 5 de las bases de ejecución del presupuesto de la Universidad de Huelva, en la estructura del estado de gastos, la clasificación funcional es:",
     "o": [
-      "Por la que se agrupa los créditos para gastos en atención a la naturaleza económica del gasto.",
+      "Por la que se agrupan los créditos para gastos en atención a la naturaleza económica del gasto",
       "Por la que se imputa el gasto en función del órgano o unidad que lo realiza",
-      "Por la que se agrupa los créditos para gastos por codificación",
-      "Por la que se agrupa los créditos para gastos en atención de la finalidad y objetivos perseguidos."
+      "Por la que se agrupan los créditos para gastos por codificación",
+      "Por la que se agrupan los créditos para gastos en atención de la finalidad y objetivos perseguidos"
     ],
     "c": 3,
-    "ref": "Art. 5 Bases de ejecución del presupuesto UHU",
+    "ref": "Art. 5 Bases ejecución presupuesto UHU",
     "exp": "La clasificación funcional agrupa los créditos en atención a la finalidad y objetivos perseguidos."
   },
   {
@@ -40,15 +40,15 @@
     "o": [
       "El Gerente",
       "El Rector",
-      "El servicio de asuntos económicos",
+      "El Servicio de Asuntos Económicos",
       "El responsable de la unidad de gasto"
     ],
     "c": 0,
-    "ref": "Art. 5 Bases de ejecución del presupuesto UHU",
+    "ref": "Art. 5 Bases ejecución presupuesto UHU",
     "exp": "El Gerente podrá establecer nuevos códigos cuando sea necesario para una mejor contabilización."
   },
   {
-    "q": "Según el art. 5 de las bases de ejecución del presupuesto de la Universidad de Huelva, en la estructura del estado de Gastos, la clasificación económica es:",
+    "q": "Según el art. 5 de las bases de ejecución del presupuesto de la Universidad de Huelva, en la estructura del estado de gastos, la clasificación económica es:",
     "o": [
       "Por la que se ordena en atención a la naturaleza del consumo del gasto",
       "Por la que se ordena en atención a la naturaleza financiera del gasto",
@@ -56,47 +56,47 @@
       "Por la que se ordena en atención a la naturaleza orgánica del gasto"
     ],
     "c": 2,
-    "ref": "Art. 5 Bases de ejecución del presupuesto UHU",
+    "ref": "Art. 5 Bases ejecución presupuesto UHU",
     "exp": "La clasificación económica ordena en atención a la naturaleza económica del gasto."
   },
   {
-    "q": "Según el art. 6 de las bases de ejecución del presupuesto de la Universidad de Huelva, en la Estructura del Estado de Ingresos, la clasificación orgánica es:",
+    "q": "Según el art. 6 de las bases de ejecución del presupuesto de la Universidad de Huelva, en la estructura del estado de ingresos, la clasificación orgánica es:",
     "o": [
       "Por la que se imputa el derecho en función a la naturaleza económica del ingreso",
       "Por la que se imputa el derecho en función del órgano o unidad que lo obtiene",
       "Por la que se imputa el derecho en función del órgano o unidad que lo gasta",
-      "Por la que se imputa el derecho en función a la codificación."
+      "Por la que se imputa el derecho en función a la codificación"
     ],
     "c": 1,
-    "ref": "Art. 6 Bases de ejecución del presupuesto UHU",
-    "exp": "La clasificación orgánica imputa el derecho en función del órgano o unidad que lo obtiene."
+    "ref": "Art. 6 Bases ejecución presupuesto UHU",
+    "exp": "La clasificación orgánica del ingreso imputa el derecho en función del órgano o unidad que lo obtiene."
   },
   {
-    "q": "Según el art. 6 de las bases de ejecución del presupuesto de la Universidad de Huelva, en la estructura del Estado de ingresos, cuando se ordene en atención a la codificación de capítulo, artículo, concepto, subconcepto y partida, se está refiriendo a:",
+    "q": "Según el art. 6 de las bases de ejecución del presupuesto de la Universidad de Huelva, cuando se ordene en atención a la codificación de capítulo, artículo, concepto, subconcepto y partida, se está refiriendo a:",
     "o": [
       "Clasificación orgánica",
       "Clasificación funcional",
       "Clasificación contable",
-      "Clasificación económica."
+      "Clasificación económica"
     ],
     "c": 3,
-    "ref": "Art. 6 Bases de ejecución del presupuesto UHU",
+    "ref": "Art. 6 Bases ejecución presupuesto UHU",
     "exp": "La codificación de capítulo, artículo, concepto, subconcepto y partida corresponde a la clasificación económica."
   },
   {
-    "q": "Según el art. 7 de las bases de ejecución del presupuesto de la Universidad de Huelva, ¿quién podrá supeditar la disponibilidad de todos los créditos iniciales o incorporados posteriormente al Presupuesto de la Universidad a la efectiva materialización de los ingresos que lo financien?",
+    "q": "Según el art. 7 de las bases de ejecución del presupuesto de la Universidad de Huelva, ¿quién podrá supeditar la disponibilidad de todos los créditos iniciales o incorporados a la efectiva materialización de los ingresos que lo financien?",
     "o": [
       "El Gerente",
       "La comunidad autónoma",
       "El Rector",
-      "El Servicio de asuntos económicos"
+      "El Servicio de Asuntos Económicos"
     ],
     "c": 2,
-    "ref": "Art. 7 Bases de ejecución del presupuesto UHU",
-    "exp": "El Rector podrá supeditar la disponibilidad de los créditos a la efectiva materialización de los ingresos que los financien."
+    "ref": "Art. 7 Bases ejecución presupuesto UHU",
+    "exp": "El Rector podrá supeditar la disponibilidad de los créditos a la efectiva materialización de los ingresos."
   },
   {
-    "q": "Según el art. 8 de las bases de ejecución del presupuesto de la Universidad de Huelva, \"los créditos para gastos se destinarán exclusivamente a la finalidad específica para la que hayan sido autorizados al aprobarse el presupuesto\", ¿A qué limitación se está refiriendo?",
+    "q": "Según el art. 8 de las bases de ejecución del presupuesto de la Universidad de Huelva, que los créditos para gastos se destinen exclusivamente a la finalidad específica para la que hayan sido autorizados, ¿a qué limitación se refiere?",
     "o": [
       "A la cualitativa",
       "A la cuantitativa",
@@ -104,23 +104,23 @@
       "A la vinculada"
     ],
     "c": 0,
-    "ref": "Art. 8 Bases de ejecución del presupuesto UHU",
+    "ref": "Art. 8 Bases ejecución presupuesto UHU",
     "exp": "Destinar los créditos a su finalidad específica es la limitación cualitativa."
   },
   {
     "q": "Según el art. 9 de las bases de ejecución del presupuesto de la Universidad de Huelva, la limitación cuantitativa de los créditos se refiere a:",
     "o": [
-      "Que no podrán destinarse ingresos a finalidad distintas que para la que hayan sido autorizados",
-      "Que no podrán contraerse obligaciones financieras por periodo superior al año natural del ejercicio presupuestario.",
-      "Que no podrán adquirirse compromisos de gastos por cuantía superior al importe de los créditos autorizados en el estado de gastos.",
-      "Nada de lo anterior es correcto."
+      "Que no podrán destinarse ingresos a finalidad distinta que para la que hayan sido autorizados",
+      "Que no podrán contraerse obligaciones financieras por periodo superior al año natural del ejercicio",
+      "Que no podrán adquirirse compromisos de gastos por cuantía superior al importe de los créditos autorizados en el estado de gastos",
+      "Nada de lo anterior es correcto"
     ],
     "c": 2,
-    "ref": "Art. 9 Bases de ejecución del presupuesto UHU",
-    "exp": "La limitación cuantitativa impide adquirir compromisos por cuantía superior al importe de los créditos autorizados."
+    "ref": "Art. 9 Bases ejecución presupuesto UHU",
+    "exp": "La limitación cuantitativa impide adquirir compromisos por cuantía superior a los créditos autorizados."
   },
   {
-    "q": "Según el art. 9 de las bases de ejecución del presupuesto de la Universidad de Huelva, si un acto administrativo infringiera la limitación a la que se refiere la pregunta anterior, el acto, sería:",
+    "q": "Según el art. 9 de las bases de ejecución del presupuesto de la Universidad de Huelva, si un acto administrativo infringiera la limitación cuantitativa, el acto sería:",
     "o": [
       "Anulable",
       "Convalidable",
@@ -128,23 +128,23 @@
       "Nulo de pleno derecho"
     ],
     "c": 3,
-    "ref": "Art. 9 Bases de ejecución del presupuesto UHU",
+    "ref": "Art. 9 Bases ejecución presupuesto UHU",
     "exp": "Los actos que infrinjan la limitación cuantitativa son nulos de pleno derecho."
   },
   {
-    "q": "Según el art. 10 de las bases de Ejecución del Presupuesto de la Universidad de Huelva. Solo podrán contraerse obligaciones derivadas de gastos que se realicen en el año natural del propio ejercicio presupuestario. ¿Se podrán aplicar a los créditos del presupuesto vigente, en el momento de expedición de justificante de gastos, algunas obligaciones?",
+    "q": "Según el art. 10 de las bases de ejecución del presupuesto de la Universidad de Huelva, ¿qué obligaciones se podrán aplicar a los créditos del presupuesto vigente, en el momento de expedición del justificante de gastos?",
     "o": [
       "Ninguna",
       "Anticipos a favor del personal",
-      "Con carácter excepcional y a iniciativa de la Unidad de Gasto correspondiente, se podrá aprobar el reconocimiento con cargo al ejercicio corriente, obligaciones generadas en ejercicios anteriores como consecuencia de compromisos de gastos debidamente adquiridos",
+      "Con carácter excepcional, obligaciones generadas en ejercicios anteriores como consecuencia de compromisos de gastos debidamente adquiridos",
       "Con carácter ordinario para atender subvenciones y otras transferencias corrientes"
     ],
     "c": 2,
-    "ref": "Art. 10 Bases de ejecución del presupuesto UHU",
-    "exp": "Excepcionalmente y a iniciativa de la Unidad de Gasto se pueden reconocer con cargo al ejercicio corriente obligaciones de ejercicios anteriores por compromisos debidamente adquiridos."
+    "ref": "Art. 10 Bases ejecución presupuesto UHU",
+    "exp": "Con carácter excepcional se pueden aplicar obligaciones de ejercicios anteriores por compromisos debidamente adquiridos."
   },
   {
-    "q": "Según el art. 11 de las bases de Ejecución del Presupuesto de la Universidad de Huelva, los créditos autorizados en el Estado de Gastos tienen carácter limitativo y vinculante de acuerdo con su clasificación orgánica, funcional y económica. Respecto a la clasificación orgánica:",
+    "q": "Según el art. 11 de las bases de ejecución del presupuesto de la Universidad de Huelva, respecto a la clasificación orgánica, los créditos autorizados en el estado de gastos son vinculantes:",
     "o": [
       "Por unidad orgánica responsable",
       "Según programa de gasto",
@@ -152,71 +152,71 @@
       "A nivel de artículo"
     ],
     "c": 0,
-    "ref": "Art. 11 Bases de ejecución del presupuesto UHU",
+    "ref": "Art. 11 Bases ejecución presupuesto UHU",
     "exp": "En la clasificación orgánica la vinculación es por unidad orgánica responsable."
   },
   {
-    "q": "Según el art. 12 de las bases de Ejecución del Presupuesto de la Universidad de Huelva, gastos de carácter plurianual por inversiones y transferencias y subvenciones de capital, pueden aplicarse a un número de ejercicios:",
+    "q": "Según el art. 12 de las bases de ejecución del presupuesto de la Universidad de Huelva, los gastos de carácter plurianual por inversiones y transferencias y subvenciones de capital pueden aplicarse a un número de ejercicios:",
     "o": [
-      "no superior a diez",
-      "no inferior a seis ni superior a diez",
-      "no inferior a seis",
-      "no superior a seis"
+      "No superior a diez",
+      "No inferior a seis ni superior a diez",
+      "No inferior a seis",
+      "No superior a seis"
     ],
     "c": 3,
-    "ref": "Art. 12 Bases de ejecución del presupuesto UHU",
-    "exp": "Las inversiones y transferencias/subvenciones de capital pueden aplicarse a un número de ejercicios no superior a seis."
+    "ref": "Art. 12 Bases ejecución presupuesto UHU",
+    "exp": "El número de ejercicios no podrá ser superior a seis."
   },
   {
-    "q": "Según el art. 12 de las bases de Ejecución del Presupuesto de la Universidad de Huelva, cuando se trate de subvenciones y otras transferencias corrientes no podrá superarse el importe acumulado que resulte de aplicar sobre el crédito correspondiente del presupuesto del ejercicio corriente, en el quinto ejercicio:",
+    "q": "Según el art. 12 de las bases de ejecución del presupuesto de la Universidad de Huelva, tratándose de subvenciones y otras transferencias corrientes, en el quinto ejercicio no podrá superarse el importe acumulado que resulte de aplicar sobre el crédito correspondiente un porcentaje del:",
     "o": [
       "60%",
       "50%",
-      "30 %",
-      "20 %"
+      "30%",
+      "20%"
     ],
     "c": 2,
-    "ref": "Art. 12 Bases de ejecución del presupuesto UHU",
-    "exp": "Para subvenciones y transferencias corrientes, en el quinto ejercicio el límite es del 30%."
+    "ref": "Art. 12 Bases ejecución presupuesto UHU",
+    "exp": "Para el quinto ejercicio el porcentaje es el 30%."
   },
   {
-    "q": "Según el art. 13 de las bases de Ejecución del Presupuesto de la Universidad de Huelva, los expedientes de tramitación anticipada que se refiera a alguno de los gastos contemplado en el art. 12, ¿A qué estarán sujetos según su naturaleza?",
+    "q": "Según el art. 13 de las bases de ejecución del presupuesto de la Universidad de Huelva, los expedientes de tramitación anticipada que se refieran a los gastos del art. 12, ¿a qué estarán sujetos según su naturaleza?",
     "o": [
-      "a los límites de las modificaciones presupuestarias",
-      "a los límites y demás requisitos establecidos para los gastos de carácter plurianual",
-      "a los límites y requisitos establecido por la Conserjería de Economía y Hacienda",
-      "a los límites y requisitos establecidos por la Ley Orgánica de Universidades"
+      "A los límites de las modificaciones presupuestarias",
+      "A los límites y demás requisitos establecidos para los gastos de carácter plurianual",
+      "A los límites y requisitos establecidos por la Consejería de Economía y Hacienda",
+      "A los límites y requisitos establecidos por la Ley Orgánica de Universidades"
     ],
     "c": 1,
-    "ref": "Art. 13 Bases de ejecución del presupuesto UHU",
-    "exp": "Estarán sujetos a los límites y requisitos establecidos para los gastos de carácter plurianual."
+    "ref": "Art. 13 Bases ejecución presupuesto UHU",
+    "exp": "Estarán sujetos a los límites y requisitos de los gastos de carácter plurianual."
   },
   {
-    "q": "Según el art. 14 de las bases de Ejecución del Presupuesto de la Universidad de Huelva, las modificaciones de crédito que suponga un incremento del volumen global del Estado de Gastos del Presupuesto ¿Cómo deberán financiarse?",
+    "q": "Según el art. 14 de las bases de ejecución del presupuesto de la Universidad de Huelva, las modificaciones de crédito que supongan un incremento del volumen global del estado de gastos ¿cómo deberán financiarse?",
     "o": [
       "No podrán financiarse, habrá que reducir gasto hasta obtener el equilibrio presupuestario",
-      "No podrán financiarse, habrá que eliminar por completo la partida que suponga el incremento",
+      "No podrán financiarse, habrá que eliminar por completo la partida",
       "Con mayores ingresos, a fin de preservar el equilibrio presupuestario",
-      "Con mayores partidas de ingresos sin respetar el equilibrio presupuestario."
+      "Con mayores partidas de ingresos sin respetar el equilibrio presupuestario"
     ],
     "c": 2,
-    "ref": "Art. 14 Bases de ejecución del presupuesto UHU",
-    "exp": "Deberán financiarse con mayores ingresos, a fin de preservar el equilibrio presupuestario."
+    "ref": "Art. 14 Bases ejecución presupuesto UHU",
+    "exp": "Deberán financiarse con mayores ingresos para preservar el equilibrio presupuestario."
   },
   {
-    "q": "Según el art. 14 de las bases de Ejecución el Presupuesto de la Universidad de Huelva, los expedientes de modificación de créditos deben contar con la consideración positiva del:",
+    "q": "Según el art. 14 de las bases de ejecución del presupuesto de la Universidad de Huelva, los expedientes de modificación de créditos deben contar con la consideración positiva del:",
     "o": [
       "El Rector",
-      "El servicio de asuntos económicos",
+      "El Servicio de Asuntos Económicos",
       "Del centro de gasto o unidad orgánica",
       "Gerente"
     ],
     "c": 3,
-    "ref": "Art. 14 Bases de ejecución del presupuesto UHU",
-    "exp": "Los expedientes de modificación deben contar con la consideración positiva del Gerente."
+    "ref": "Art. 14 Bases ejecución presupuesto UHU",
+    "exp": "Los expedientes de modificación de créditos deben contar con la consideración positiva del Gerente."
   },
   {
-    "q": "Según el art. 15 de las bases de Ejecución del Presupuesto de la Universidad de Huelva, ¿Cuál de los siguientes no es un tipo de modificación presupuestaria?",
+    "q": "Según el art. 15 de las bases de ejecución del presupuesto de la Universidad de Huelva, ¿cuál de los siguientes no es un tipo de modificación presupuestaria?",
     "o": [
       "Transferencia de créditos",
       "Baja por prescripción",
@@ -224,11 +224,11 @@
       "Créditos extraordinarios y suplementos de créditos"
     ],
     "c": 1,
-    "ref": "Art. 15 Bases de ejecución del presupuesto UHU",
-    "exp": "La baja por prescripción no es un tipo de modificación presupuestaria (la modificación es la baja por anulación)."
+    "ref": "Art. 15 Bases ejecución presupuesto UHU",
+    "exp": "La baja por prescripción no es un tipo de modificación presupuestaria (sí lo es la baja por anulación)."
   },
   {
-    "q": "Según las bases de Ejecución del Presupuesto de la Universidad de Huelva, ¿Qué tipo de modificación presupuestaria es, la que consiste en trasladar créditos del presupuesto de gasto de una aplicación a otra, de manera que sin aumentar el importe conjunto de los créditos concedidos, se varía su distribución?",
+    "q": "Según las bases de ejecución del presupuesto de la Universidad de Huelva, ¿qué tipo de modificación presupuestaria consiste en trasladar créditos del presupuesto de gasto de una aplicación a otra sin aumentar el importe conjunto de los créditos concedidos?",
     "o": [
       "Incorporaciones de créditos",
       "Suplementos de créditos",
@@ -236,11 +236,11 @@
       "Generación de créditos"
     ],
     "c": 2,
-    "ref": "Art. 15 Bases de ejecución del presupuesto UHU",
-    "exp": "Trasladar créditos de una aplicación a otra sin variar el importe conjunto es la transferencia de créditos."
+    "ref": "Art. 15 Bases ejecución presupuesto UHU",
+    "exp": "La transferencia de créditos traslada créditos de una aplicación a otra sin variar el importe conjunto."
   },
   {
-    "q": "Según el art. 16 de las bases de Ejecución del Presupuesto de la Universidad de Huelva, las transferencias de gastos corrientes a gastos de capital y viceversa serán aprobadas por:",
+    "q": "Según el art. 16 de las bases de ejecución del presupuesto de la Universidad de Huelva, las transferencias de gastos corrientes a gastos de capital y viceversa serán aprobadas por:",
     "o": [
       "El presidente del Consejo Social",
       "El presidente del Consejo de Gobierno",
@@ -248,11 +248,11 @@
       "Por el Rector/a"
     ],
     "c": 0,
-    "ref": "Art. 16 Bases de ejecución del presupuesto UHU",
+    "ref": "Art. 16 Bases ejecución presupuesto UHU",
     "exp": "Las transferencias entre gastos corrientes y de capital las aprueba el presidente del Consejo Social."
   },
   {
-    "q": "Según el art. 17 de las bases de Ejecución del Presupuesto de la Universidad de Huelva, ¿A qué limitación estará sujeta las transferencias de créditos?",
+    "q": "Según el art. 17 de las bases de ejecución del presupuesto de la Universidad de Huelva, ¿a qué limitación estarán sujetas las transferencias de créditos?",
     "o": [
       "Afectarán a los créditos extraordinarios concedidos durante el ejercicio",
       "Afectarán a los créditos incrementados con suplementos",
@@ -260,107 +260,107 @@
       "No minorarán créditos que no hayan sido incrementados por transferencias"
     ],
     "c": 2,
-    "ref": "Art. 17 Bases de ejecución del presupuesto UHU",
-    "exp": "No incrementarán créditos que, por otras transferencias, hayan sido objeto de minoración."
+    "ref": "Art. 17 Bases ejecución presupuesto UHU",
+    "exp": "No incrementarán créditos que hayan sido minorados como consecuencia de otras transferencias."
   },
   {
-    "q": "Según el art. 18 de las bases de Ejecución el Presupuesto de la Universidad de Huelva, ¿Cuál de los siguientes ingresos realizados en el propio ejercicio podrán dar lugar a generaciones de créditos?",
+    "q": "Según el art. 18 de las bases de ejecución del presupuesto de la Universidad de Huelva, ¿cuál de los siguientes ingresos realizados en el propio ejercicio podrán dar lugar a generaciones de créditos?",
     "o": [
       "Cobros diferidos",
-      "Intereses de cuenta corrientes",
+      "Intereses de cuentas corrientes",
       "Donaciones de inmovilizado",
       "Reembolso de préstamos"
     ],
     "c": 3,
-    "ref": "Art. 18 Bases de ejecución del presupuesto UHU",
-    "exp": "Según la clave del examen, el reembolso de préstamos da lugar a generación de crédito (coincide con la clave del test 72); revisar en validación frente al listado del art. 18."
+    "ref": "Art. 18 Bases ejecución presupuesto UHU",
+    "exp": "Según la clave del examen, el reembolso de préstamos da lugar a generación de créditos (misma respuesta en el test 72)."
   },
   {
-    "q": "Según el art. 20 de las bases de Ejecución el Presupuesto de la Universidad de Huelva, ¿A propuesta de quién podrá Autorizar la Rectora la incorporación al estado de gasto del presupuesto del ejercicio siguiente de los créditos que se establezcan?",
+    "q": "Según el art. 20 de las bases de ejecución del presupuesto de la Universidad de Huelva, ¿a propuesta de quién podrá autorizar la Rectora la incorporación al estado de gastos del presupuesto del ejercicio siguiente de los créditos que se establezcan?",
     "o": [
       "Del Consejo de Gobierno",
       "Del Gerente",
-      "Del Servicio de Asuntos económicos",
-      "Del Consejo social"
+      "Del Servicio de Asuntos Económicos",
+      "Del Consejo Social"
     ],
     "c": 1,
-    "ref": "Art. 20 Bases de ejecución del presupuesto UHU",
-    "exp": "La Rectora autoriza la incorporación de créditos a propuesta del Gerente."
+    "ref": "Art. 20 Bases ejecución presupuesto UHU",
+    "exp": "La incorporación se autoriza a propuesta del Gerente."
   },
   {
-    "q": "Según el art. 21 de las bases de Ejecución el Presupuesto de la Universidad de Huelva, los suplementos de crédito y los créditos extraordinarios podrán financiarse por medio de:",
+    "q": "Según el art. 21 de las bases de ejecución del presupuesto de la Universidad de Huelva, los suplementos de crédito y los créditos extraordinarios podrán financiarse por medio de:",
     "o": [
       "Remanente de tesorería no afectado",
-      "Mayores ingresos de los previstos de carácter finalista.",
+      "Mayores ingresos de los previstos de carácter finalista",
       "A y B son correctas",
       "A y B son incorrectas"
     ],
     "c": 0,
-    "ref": "Art. 21 Bases de ejecución del presupuesto UHU",
-    "exp": "Según la clave del examen se financian con remanente de tesorería no afectado; revisar en validación (podrían admitirse otras fuentes)."
+    "ref": "Art. 21 Bases ejecución presupuesto UHU",
+    "exp": "Según la clave del examen se financian con remanente de tesorería no afectado (opción A)."
   },
   {
-    "q": "Según el art. 24 de las bases de Ejecución el Presupuesto de la Universidad de Huelva, el desglose de aplicaciones presupuestarias, que puede afectar a cualesquiera de las clasificaciones orgánica, funcional o económica, permite a las unidades de gastos ejecutar sus créditos presupuestarios:",
+    "q": "Según el art. 24 de las bases de ejecución del presupuesto de la Universidad de Huelva, el desglose de aplicaciones presupuestarias permite a las unidades de gasto ejecutar sus créditos presupuestarios:",
     "o": [
       "A un mayor nivel de desagregación que el que figura en el presupuesto aprobado",
       "Sin vinculación jurídica a dichos créditos",
       "A un menor nivel de desagregación que el que figura en el presupuesto aprobado",
-      "Mediante una operación de transferencia de créditos."
+      "Mediante una operación de transferencia de créditos"
     ],
     "c": 0,
-    "ref": "Art. 24 Bases de ejecución del presupuesto UHU",
-    "exp": "El desglose permite ejecutar los créditos a un mayor nivel de desagregación que el del presupuesto aprobado."
+    "ref": "Art. 24 Bases ejecución presupuesto UHU",
+    "exp": "El desglose permite ejecutar a un mayor nivel de desagregación que el presupuesto aprobado."
   },
   {
-    "q": "Según el art. 40 de las bases de Ejecución el Presupuesto de la Universidad de Huelva, ¿Qué son los centros de gastos?",
+    "q": "Según el art. 40 de las bases de ejecución del presupuesto de la Universidad de Huelva, ¿qué son los centros de gastos?",
     "o": [
-      "Unidades sin autonomía para la gestión de los créditos presupuestario, pero con facultades para proponer modificaciones de créditos a lo largo del ejercicio económico",
-      "Unidades dotadas de autonomía para la gestión de los créditos que les son asignados dentro del Presupuesto de Gasto de la Universidad, careciendo de facultad para proponer modificaciones de crédito a lo largo del ejercicio económico",
-      "Unidades dotadas de autonomía para la gestión de los créditos que les son asignados dentro del Presupuesto de Gasto de la Universidad, así como para proponer modificaciones de crédito a lo largo del ejercicio económico",
-      "Unidades dotadas de autonomía para la gestión de los créditos que les son asignados dentro del Presupuesto de Gasto de la Universidad, así como para proponer modificaciones de crédito una vez finalizado del ejercicio económico"
+      "Unidades sin autonomía para la gestión de los créditos, pero con facultades para proponer modificaciones",
+      "Unidades dotadas de autonomía para la gestión de los créditos, careciendo de facultad para proponer modificaciones",
+      "Unidades dotadas de autonomía para la gestión de los créditos que les son asignados, así como para proponer modificaciones de crédito a lo largo del ejercicio económico",
+      "Unidades dotadas de autonomía para la gestión de los créditos, así como para proponer modificaciones una vez finalizado el ejercicio económico"
     ],
     "c": 2,
-    "ref": "Art. 40 Bases de ejecución del presupuesto UHU",
-    "exp": "Los centros de gasto tienen autonomía para gestionar sus créditos y para proponer modificaciones a lo largo del ejercicio."
+    "ref": "Art. 40 Bases ejecución presupuesto UHU",
+    "exp": "Los centros de gasto tienen autonomía en la gestión y facultad para proponer modificaciones a lo largo del ejercicio."
   },
   {
-    "q": "Según el art. 42 de las bases de Ejecución el Presupuesto de la Universidad de Huelva, no es una fase de la gestión de los gastos de la Universidad:",
+    "q": "Según el art. 42 de las bases de ejecución del presupuesto de la Universidad de Huelva, no es una fase de la gestión de los gastos:",
     "o": [
       "Ordenación del gasto",
-      "Reconocimiento de la Obligación",
+      "Reconocimiento de la obligación",
       "Compromiso o disposición del gasto",
-      "Ninguna de las anteriores son fases de la gestión de gasto de la Universidad de Huelva"
+      "Ninguna de las anteriores son fases de la gestión de gasto"
     ],
     "c": 0,
-    "ref": "Art. 42 Bases de ejecución del presupuesto UHU",
-    "exp": "No existe la fase de \"ordenación del gasto\" (sí la ordenación del pago); las fases son autorización, compromiso y reconocimiento de la obligación."
+    "ref": "Art. 42 Bases ejecución presupuesto UHU",
+    "exp": "No existe la fase de 'ordenación del gasto' (sí la ordenación del pago); las fases son autorización, compromiso, reconocimiento de la obligación y ordenación del pago."
   },
   {
-    "q": "Según el art. 43 de las bases de Ejecución el Presupuesto de la Universidad de Huelva, sin perjuicio de la delegación que se determine, el órgano competente para autorizar el gasto es:",
+    "q": "Según el art. 43 de las bases de ejecución del presupuesto de la Universidad de Huelva, sin perjuicio de la delegación que se determine, el órgano competente para autorizar el gasto es:",
     "o": [
       "El Gerente",
       "El Rector",
       "El Presidente del Consejo Social",
-      "El responsable de cada centro de Gasto"
+      "El responsable de cada centro de gasto"
     ],
     "c": 1,
-    "ref": "Art. 43 Bases de ejecución del presupuesto UHU",
-    "exp": "El órgano competente para autorizar el gasto es el Rector, sin perjuicio de la delegación."
+    "ref": "Art. 43 Bases ejecución presupuesto UHU",
+    "exp": "El órgano competente para autorizar el gasto es el Rector, sin perjuicio de delegación."
   },
   {
-    "q": "Según las bases de Ejecución el Presupuesto de la Universidad de Huelva, \"El acto administrativo en virtud del cual la autoridad competente acepta formalmente, con cargo al presupuesto de la Universidad de Huelva, una deuda a favor de un tercero como consecuencia del cumplimiento por parte de éste de la prestación a la que se hubiese comprometido\", ¿Qué fase del procedimiento de la gestión de gasto es?",
+    "q": "Según las bases de ejecución del presupuesto de la Universidad de Huelva, el acto por el que la autoridad competente acepta formalmente una deuda a favor de un tercero como consecuencia del cumplimiento de la prestación comprometida, ¿qué fase es?",
     "o": [
-      "La Fase O",
+      "La Fase O (reconocimiento de la obligación)",
       "La aprobación o la autorización",
       "La ordenación del gasto",
       "La Fase D"
     ],
     "c": 0,
-    "ref": "Art. 44 Bases de ejecución del presupuesto UHU",
-    "exp": "Aceptar formalmente una deuda a favor de un tercero es el reconocimiento de la obligación (Fase O)."
+    "ref": "Art. 45 Bases ejecución presupuesto UHU",
+    "exp": "La aceptación formal de la deuda es el reconocimiento de la obligación, la Fase O."
   },
   {
-    "q": "Según el art. 45 de las bases de Ejecución el Presupuesto de la Universidad de Huelva, con carácter general el reconocimiento de la obligación se efectuará una vez:",
+    "q": "Según el art. 45 de las bases de ejecución del presupuesto de la Universidad de Huelva, con carácter general el reconocimiento de la obligación se efectuará una vez:",
     "o": [
       "Una vez que sea emitida la factura por el proveedor",
       "Una vez que sea ordenado el pago material de la factura",
@@ -368,35 +368,35 @@
       "Una vez que la factura sea firme"
     ],
     "c": 2,
-    "ref": "Art. 45 Bases de ejecución del presupuesto UHU",
+    "ref": "Art. 45 Bases ejecución presupuesto UHU",
     "exp": "Con carácter general el reconocimiento de la obligación se efectúa una vez recibida la factura."
   },
   {
-    "q": "Según el art. 45 de las bases de Ejecución el Presupuesto de la Universidad de Huelva, ¿En qué plazo habrá que presentar la factura?",
+    "q": "Según el art. 45 de las bases de ejecución del presupuesto de la Universidad de Huelva, ¿en qué plazo habrá que presentar la factura?",
     "o": [
       "En el plazo de 60 días",
       "En el plazo de 30 días",
       "En el plazo de 90 días",
-      "En el plazo de 120 días."
+      "En el plazo de 120 días"
     ],
     "c": 1,
-    "ref": "Art. 45 Bases de ejecución del presupuesto UHU",
+    "ref": "Art. 45 Bases ejecución presupuesto UHU",
     "exp": "La factura habrá de presentarse en el plazo de 30 días."
   },
   {
-    "q": "Según el art. 45 de las bases de Ejecución el Presupuesto de la Universidad de Huelva, ¿En qué plazo las unidades tramitadoras habrán de imputar, las facturas y demás documentos justificativos?",
+    "q": "Según el art. 45 de las bases de ejecución del presupuesto de la Universidad de Huelva, ¿en qué plazo las unidades tramitadoras habrán de imputar las facturas y demás documentos justificativos?",
     "o": [
-      "En el plazo máximo de cinco días hábiles desde la fecha de la conformidad de la factura.",
+      "En el plazo máximo de cinco días hábiles desde la fecha de la conformidad de la factura",
       "En el plazo máximo de cinco días hábiles desde la fecha de recepción de la factura",
       "En el plazo máximo de cinco días hábiles desde su entrada en el registro administrativo",
-      "En el plazo máximo de diez días hábiles desde la fecha de la conformidad de la factura."
+      "En el plazo máximo de diez días hábiles desde la fecha de la conformidad de la factura"
     ],
     "c": 2,
-    "ref": "Art. 45 Bases de ejecución del presupuesto UHU",
-    "exp": "Las unidades tramitadoras imputarán las facturas en un máximo de cinco días hábiles desde su entrada en el registro administrativo."
+    "ref": "Art. 45 Bases ejecución presupuesto UHU",
+    "exp": "El plazo es de cinco días hábiles desde su entrada en el registro administrativo."
   },
   {
-    "q": "Según el art. 46 de las bases de Ejecución el Presupuesto de la Universidad de Huelva, ¿Qué es la ordenación de pago?",
+    "q": "Según el art. 46 de las bases de ejecución del presupuesto de la Universidad de Huelva, ¿qué es la ordenación de pago?",
     "o": [
       "El acto mediante el cual se satisface a los perceptores la contraprestación recibida",
       "Es el acto mediante el cual se expide una orden de pago contra la Tesorería de la Universidad",
@@ -404,23 +404,23 @@
       "No existe la fase de ordenación de pago"
     ],
     "c": 1,
-    "ref": "Art. 46 Bases de ejecución del presupuesto UHU",
-    "exp": "Según la clave del examen es la opción sin \"administrativo\"; la definición legal (acto administrativo por el cual se expide una orden de pago contra la Tesorería) coincide con la opción 3 — revisar en validación."
+    "ref": "Art. 46 Bases ejecución presupuesto UHU",
+    "exp": "Según la clave del examen la ordenación de pago es el acto mediante el cual se expide una orden de pago contra la Tesorería."
   },
   {
-    "q": "Según el art. 47 de las bases de Ejecución el Presupuesto de la Universidad de Huelva, ¿Qué es el pago material?",
+    "q": "Según el art. 47 de las bases de ejecución del presupuesto de la Universidad de Huelva, ¿qué es el pago material?",
     "o": [
       "La ejecución de las órdenes de pago",
-      "El acto mediante el cual se satisfacen a los perceptores, a cuyo favor estuvieran expedida las órdenes de pago, los importes que figuran en las mismas.",
-      "Es la fase P de la gestión de gasto de la Universidad",
-      "Es el acto mediante el cual se expide una orden de pago contra la Tesorería de la Universidad"
+      "El acto mediante el cual se satisfacen a los perceptores, a cuyo favor estuvieran expedidas las órdenes de pago, los importes que figuran en las mismas",
+      "Es la fase P de la gestión de gasto",
+      "Es el acto mediante el cual se expide una orden de pago contra la Tesorería"
     ],
     "c": 1,
-    "ref": "Art. 47 Bases de ejecución del presupuesto UHU",
-    "exp": "El pago material es el acto por el que se satisfacen a los perceptores los importes de las órdenes de pago expedidas a su favor."
+    "ref": "Art. 47 Bases ejecución presupuesto UHU",
+    "exp": "El pago material satisface a los perceptores los importes de las órdenes de pago expedidas a su favor."
   },
   {
-    "q": "Según el art. 47 de las bases de Ejecución el Presupuesto de la Universidad de Huelva, la ejecución de pago se realizará:",
+    "q": "Según el art. 47 de las bases de ejecución del presupuesto de la Universidad de Huelva, la ejecución de pago se realizará:",
     "o": [
       "Excepcionalmente mediante transferencia bancaria",
       "En metálico",
@@ -428,47 +428,479 @@
       "Mediante pagaré con vencimiento a 30 días"
     ],
     "c": 2,
-    "ref": "Art. 47 Bases de ejecución del presupuesto UHU",
+    "ref": "Art. 47 Bases ejecución presupuesto UHU",
     "exp": "La ejecución del pago se realiza con carácter general por transferencia y, excepcionalmente, mediante cheque nominativo."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026, el presupuesto de la Universidad de Huelva:",
+    "q": "Según el art. 4 de las bases de ejecución del presupuesto de la Universidad de Huelva para el año 2026, el presupuesto de la Universidad de Huelva constituye:",
     "o": [
-      "Constituye la expresión cifrada, conjunta y sistemática de las obligaciones que, como máximo, puede reconocer la Universidad y de los derechos que prevea liquidar durante el correspondiente ejercicio.",
-      "Constituye la expresión cifrada, conjunta y sistemática de las obligaciones que, como máximo, debe reconocer la Universidad y de los derechos que prevea liquidar durante el correspondiente ejercicio.",
-      "Constituye la expresión cifrada, conjunta y sistemática de los derechos que, como máximo, puede reconocer la Universidad y de las obligaciones que prevea liquidar durante el correspondiente ejercicio.",
-      "Constituye la expresión cifrada, conjunta y sistemática de las obligaciones que, como máximo, prevea liquidar la Universidad y de los derechos que puede reconocer durante el correspondiente ejercicio."
+      "La expresión máxima de gastos en los que se puede invertir en el ejercicio y los derechos pendientes de cobro procedentes de ejercicios anteriores",
+      "La expresión cifrada, conjunta y sistemática de las obligaciones que, como máximo, puede reconocer la Universidad y de los derechos que prevea liquidar durante el correspondiente ejercicio",
+      "La expresión estructurada por conceptos de gastos previstos pagar durante el ejercicio por la Universidad y los ingresos liquidados destinados a financiar las diferentes partidas de gastos",
+      "La expresión individualizada y sistemática de las obligaciones que como mínimo puede reconocer la Universidad y la previsión conjunta y agregada de ingresos corrientes"
     ],
-    "c": 0,
-    "ref": "Art. 4 Bases de ejecución del presupuesto UHU",
-    "exp": "Es la expresión cifrada, conjunta y sistemática de las obligaciones que como máximo puede reconocer la Universidad y de los derechos que prevea liquidar."
+    "c": 1,
+    "ref": "Art. 4 Bases ejecución presupuesto UHU",
+    "exp": "El presupuesto es la expresión cifrada, conjunta y sistemática de las obligaciones que como máximo puede reconocer la Universidad y de los derechos que prevea liquidar."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026, ¿Qué contiene el presupuesto de la UHU?",
+    "q": "Según el art. 4 de las bases de ejecución del presupuesto de la Universidad de Huelva para el año 2026, el presupuesto ¿qué no contiene?",
     "o": [
-      "Un estado de gasto que no aplica la clasificación económica",
-      "Un estado de ingreso, en el que figura los derechos económicos liquidados en el ejercicio.",
-      "Un estado de Gastos, en el que se incluyen, con la debida especificación, los créditos necesarios para atender el cumplimiento de las obligaciones.",
-      "Contiene todo lo anterior."
+      "El estado de gasto",
+      "El estado de ingreso",
+      "El estado del resultado",
+      "Contiene todo lo anterior"
     ],
     "c": 2,
-    "ref": "Art. 4 Bases de ejecución del presupuesto UHU",
-    "exp": "El estado de gastos incluye, con la debida especificación, los créditos necesarios para atender el cumplimiento de las obligaciones."
+    "ref": "Art. 4 Bases ejecución presupuesto UHU",
+    "exp": "El presupuesto contiene el estado de gasto y el estado de ingreso, pero no un 'estado del resultado'."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026, el presupuesto de la UHU, contiene:",
+    "q": "Según el art. 4 de las bases de ejecución del presupuesto de la Universidad de Huelva para el año 2026, ¿qué figura en el estado de ingresos de la Universidad?",
     "o": [
-      "El estado de ingreso, en el que figuran los distintos derechos económicos a recaudar en el ejercicio",
-      "El estado de gastos, en el que se incluyen, con la debida especificación, los créditos estimados para atender el cumplimiento de las obligaciones.",
-      "El estado de gastos, en el que se incluyen, la debida especificación, los créditos necesarios para atender los incumplimientos de las obligaciones.",
-      "El Estado de Ingresos, en el que figuran las estimaciones de los distintos derechos económicos a liquidar en el ejercicio"
+      "Las estimaciones de los distintos derechos económicos a liquidar en el ejercicio",
+      "Las aplicaciones de los distintos derechos económicos previstas durante el ejercicio",
+      "Las imputaciones de los distintos derechos económicos previstos liquidar durante el ejercicio",
+      "El presupuesto de la Universidad no cuenta con estado de ingreso"
+    ],
+    "c": 0,
+    "ref": "Art. 4 Bases ejecución presupuesto UHU",
+    "exp": "En el estado de ingresos figuran las estimaciones de los distintos derechos económicos a liquidar en el ejercicio."
+  },
+  {
+    "q": "Según el art. 4 de las bases de ejecución del presupuesto de la Universidad de Huelva para el ejercicio 2026, ¿qué clasificación se aplica al estado de ingreso?",
+    "o": [
+      "Orgánica y funcional",
+      "Orgánica y específica",
+      "Funcional y económica",
+      "Orgánica y económica"
     ],
     "c": 3,
-    "ref": "Art. 4 Bases de ejecución del presupuesto UHU",
+    "ref": "Art. 4 Bases ejecución presupuesto UHU",
+    "exp": "Al estado de ingreso se le aplica la clasificación orgánica y económica."
+  },
+  {
+    "q": "Según el art. 4 de las bases de ejecución del presupuesto de la Universidad de Huelva para el ejercicio 2026, el estado de gasto incluye los créditos necesarios para atender el cumplimiento de las obligaciones:",
+    "o": [
+      "De forma estimada",
+      "Con la debida especificación",
+      "Con carácter general",
+      "De forma aproximada"
+    ],
+    "c": 1,
+    "ref": "Art. 4 Bases ejecución presupuesto UHU",
+    "exp": "El estado de gasto incluye, con la debida especificación, los créditos necesarios para atender las obligaciones."
+  },
+  {
+    "q": "Según el art. 4 de las bases de ejecución del presupuesto de la Universidad de Huelva para el año 2026, al estado de gasto del presupuesto se aplica la clasificación:",
+    "o": [
+      "Orgánica, contable y económica",
+      "Orgánica, funcional y financiera",
+      "Orgánica, funcional y económica",
+      "El presupuesto de la Universidad de Huelva no cuenta con estado de gasto"
+    ],
+    "c": 2,
+    "ref": "Art. 4 Bases ejecución presupuesto UHU",
+    "exp": "Al estado de gasto se le aplica la clasificación orgánica, funcional y económica."
+  },
+  {
+    "q": "Según el art. 4 de las bases de ejecución del presupuesto de la Universidad de Huelva para el año 2026, ¿qué figura en el estado de gasto del presupuesto de la Universidad?",
+    "o": [
+      "El presupuesto de la Universidad no tiene estado de gasto",
+      "Los créditos obtenidos para atender el cumplimiento de las obligaciones",
+      "Los créditos necesarios para atender el cumplimiento de los derechos",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 4 Bases ejecución presupuesto UHU",
+    "exp": "En el estado de gasto figuran los créditos necesarios para atender el cumplimiento de las obligaciones, por lo que ninguna de las opciones anteriores es correcta."
+  },
+  {
+    "q": "Según el art. 5 de las bases de ejecución del presupuesto de la Universidad de Huelva para el ejercicio 2026, en la clasificación orgánica, ¿en función de qué se imputa el gasto?",
+    "o": [
+      "Del órgano o unidad que lo realiza",
+      "De los objetivos académicos",
+      "De la naturaleza del gasto",
+      "De la codificación contable"
+    ],
+    "c": 0,
+    "ref": "Art. 5 Bases ejecución presupuesto UHU",
+    "exp": "En la clasificación orgánica el gasto se imputa en función del órgano o unidad que lo realiza."
+  },
+  {
+    "q": "Según el art. 5 de las bases de ejecución del presupuesto de la Universidad de Huelva para el ejercicio 2026, la estructura presupuestaria de los créditos del estado de gastos se adapta y clasifica siguiendo las normas:",
+    "o": [
+      "Específicamente establecidas para las Universidades",
+      "Que, con carácter general, están establecidas para el sector público",
+      "Que, sin perjuicio de su posterior desarrollo por las Universidades, están establecidas para la Administración Pública",
+      "De obligado cumplimiento establecidas por el Gobierno"
+    ],
+    "c": 1,
+    "ref": "Art. 5 Bases ejecución presupuesto UHU",
+    "exp": "Se sigue la estructura que con carácter general está establecida para el sector público."
+  },
+  {
+    "q": "Según el art. 5 de las bases de ejecución del presupuesto de la Universidad de Huelva para el año 2026, en la estructura del estado de gastos, la clasificación funcional es:",
+    "o": [
+      "Por la que se agrupan los créditos para gastos en atención a la naturaleza económica del gasto",
+      "Por la que se imputa el gasto en función del órgano o unidad que lo realiza",
+      "Por la que se agrupan los créditos para gastos por codificación",
+      "Por la que se agrupan los créditos para gastos en atención de la finalidad y objetivos perseguidos"
+    ],
+    "c": 3,
+    "ref": "Art. 5 Bases ejecución presupuesto UHU",
+    "exp": "La clasificación funcional agrupa los créditos en atención a la finalidad y objetivos perseguidos."
+  },
+  {
+    "q": "Según el art. 5 de las bases de ejecución del presupuesto de la Universidad de Huelva para el año 2026, en la clasificación orgánica los créditos se distribuyen por:",
+    "o": [
+      "Centros de gastos que son las unidades orgánicas sin diferenciación presupuestaria y responsabilidad en la gestión",
+      "Estructura de programas",
+      "Centros de gastos que son las unidades orgánicas con diferenciación presupuestaria y responsabilidad en la gestión",
+      "Objetivos académicos, de gestión e investigación"
+    ],
+    "c": 2,
+    "ref": "Art. 5 Bases ejecución presupuesto UHU",
+    "exp": "En la clasificación orgánica los créditos se distribuyen por centros de gasto, unidades orgánicas con diferenciación presupuestaria y responsabilidad en la gestión."
+  },
+  {
+    "q": "Según el art. 5 de las bases de ejecución del presupuesto de la Universidad de Huelva para el año 2026, son centros de gastos, tales como:",
+    "o": [
+      "Aulas",
+      "Programa de postgrado",
+      "Inversiones",
+      "Cuentas"
+    ],
+    "c": 1,
+    "ref": "Art. 5 Bases ejecución presupuesto UHU",
+    "exp": "Según la clave del examen, un programa de postgrado es ejemplo de centro de gasto."
+  },
+  {
+    "q": "Según el art. 5 de las bases de ejecución del presupuesto de la Universidad de Huelva para el año 2026, en la estructura del estado de gastos, la clasificación económica es:",
+    "o": [
+      "Por la que se ordena en atención a la naturaleza académica del gasto",
+      "Por la que se ordena en atención a la naturaleza financiera del gasto",
+      "Por la que se ordena en atención a la naturaleza económica del gasto",
+      "Todo lo anterior es correcto"
+    ],
+    "c": 2,
+    "ref": "Art. 5 Bases ejecución presupuesto UHU",
+    "exp": "La clasificación económica ordena en atención a la naturaleza económica del gasto."
+  },
+  {
+    "q": "Según el art. 5 de las bases de ejecución del presupuesto de la Universidad de Huelva para el año 2026, en la clasificación económica se ordena atendiendo a la codificación de:",
+    "o": [
+      "Capítulo, artículo, concepto, subconcepto y partida",
+      "Grupo, subgrupo, cuenta y subcuenta",
+      "Grupo, capítulo, cuenta, concepto y partida",
+      "Artículo, subartículo, partida y subpartida"
+    ],
+    "c": 0,
+    "ref": "Art. 5 Bases ejecución presupuesto UHU",
+    "exp": "La clasificación económica atiende a la codificación de capítulo, artículo, concepto, subconcepto y partida."
+  },
+  {
+    "q": "Según el art. 5 de las bases de ejecución del presupuesto de la Universidad de Huelva para el año 2026, cuando sea necesario una mejor contabilización, ¿quién podrá establecer nuevos códigos teniendo en cuenta la orden de la Consejería de Economía y Hacienda?",
+    "o": [
+      "El Gerente",
+      "El Servicio de Asuntos Económicos",
+      "La Rectora",
+      "La Consejería de Economía y Hacienda"
+    ],
+    "c": 0,
+    "ref": "Art. 5 Bases ejecución presupuesto UHU",
+    "exp": "El Gerente podrá establecer nuevos códigos cuando sea necesario para una mejor contabilización."
+  },
+  {
+    "q": "Según el art. 6 de las bases de ejecución del presupuesto de la Universidad de Huelva para el año 2026, en la estructura del estado de ingresos, la clasificación orgánica es:",
+    "o": [
+      "Por la que se imputa el derecho en función a la naturaleza económica del ingreso",
+      "Por la que se imputa el derecho en función del órgano o unidad que lo obtiene",
+      "Por la que se imputa el derecho en función del órgano o unidad que lo gasta",
+      "Por la que se imputa el derecho en función a la codificación"
+    ],
+    "c": 1,
+    "ref": "Art. 6 Bases ejecución presupuesto UHU",
+    "exp": "La clasificación orgánica del ingreso imputa el derecho en función del órgano o unidad que lo obtiene."
+  },
+  {
+    "q": "Según el art. 6 de las bases de ejecución del presupuesto de la Universidad de Huelva para el año 2026, la clasificación económica del estado de ingresos se ajusta a las disposiciones contenidas en:",
+    "o": [
+      "Los presupuestos generales del Estado",
+      "La Ley Orgánica del Sistema Universitario",
+      "La Orden de la Consejería de Economía y Hacienda",
+      "El Real Decreto del Ministerio de Economía y Hacienda"
+    ],
+    "c": 2,
+    "ref": "Art. 6 Bases ejecución presupuesto UHU",
+    "exp": "La clasificación económica de los ingresos se ajusta a la Orden de la Consejería de Economía y Hacienda."
+  },
+  {
+    "q": "Según el art. 6 de las bases de ejecución del presupuesto de la Universidad de Huelva para el año 2026, en la estructura del estado de ingresos, cuando se ordene en atención a la codificación de capítulo, artículo, concepto, subconcepto y partida, se está refiriendo a:",
+    "o": [
+      "Clasificación orgánica",
+      "Clasificación funcional",
+      "No existe la codificación del enunciado de la pregunta",
+      "Clasificación económica"
+    ],
+    "c": 3,
+    "ref": "Art. 6 Bases ejecución presupuesto UHU",
+    "exp": "La codificación de capítulo, artículo, concepto, subconcepto y partida corresponde a la clasificación económica."
+  },
+  {
+    "q": "Según el art. 7 de las bases de ejecución del presupuesto de la Universidad de Huelva para el ejercicio 2026, con objeto de garantizar el cumplimiento de los compromisos en materia de estabilidad presupuestaria, ¿qué podrá acordar el Rector respecto a los créditos presupuestarios?",
+    "o": [
+      "La libre disposición",
+      "La baja por anulación",
+      "La prórroga del anterior",
+      "La negociación de un nuevo presupuesto"
+    ],
+    "c": 1,
+    "ref": "Art. 7 Bases ejecución presupuesto UHU",
+    "exp": "El Rector podrá acordar la no disponibilidad o la baja por anulación de créditos para garantizar la estabilidad presupuestaria."
+  },
+  {
+    "q": "Según el art. 7 de las bases de ejecución del presupuesto de la Universidad de Huelva para el año 2026, ¿a través de qué podrá el Rector supeditar la disponibilidad de todos los créditos iniciales o incorporados a la efectiva materialización de los ingresos que lo financien?",
+    "o": [
+      "De una resolución rectoral",
+      "A través de un acuerdo del Consejo Social",
+      "De un convenio con una entidad financiera",
+      "De un expediente de modificación presupuestaria"
+    ],
+    "c": 3,
+    "ref": "Art. 7 Bases ejecución presupuesto UHU",
+    "exp": "Según la clave del examen, el Rector supedita la disponibilidad mediante un expediente de modificación presupuestaria."
+  },
+  {
+    "q": "Según el art. 7 de las bases de ejecución del presupuesto de la Universidad de Huelva para el año 2026, ¿qué son los créditos presupuestarios?",
+    "o": [
+      "Cada una de las asignaciones individualizadas de gastos que figuran en el presupuesto, puestas a disposición de las unidades de gasto, para la cobertura de las necesidades para las que hayan sido aprobados",
+      "Cada una de las obligaciones individualizadas que figuran en el presupuesto de las unidades de gasto que tendrán que ser aprobadas",
+      "Cada una de las asignaciones individualizadas de gastos que figuran en el presupuesto, pendientes de disposición por las unidades de gasto",
+      "Cada una de las asignaciones individualizadas de ingresos que figuran en el presupuesto, puestas a disposición de las unidades de gasto"
+    ],
+    "c": 0,
+    "ref": "Art. 7 Bases ejecución presupuesto UHU",
+    "exp": "Los créditos presupuestarios son las asignaciones individualizadas de gastos puestas a disposición de las unidades de gasto para las necesidades aprobadas."
+  },
+  {
+    "q": "Según el art. 8 de las bases de ejecución del presupuesto de la Universidad de Huelva para el ejercicio 2026, ¿a qué se destinarán los créditos para gastos?",
+    "o": [
+      "Exclusivamente a la finalidad específica para la que hayan sido autorizados al negociarse el presupuesto",
+      "A la finalidad exclusiva para los que el Rector los haya autorizado",
+      "Exclusivamente para modificaciones presupuestarias",
+      "Exclusivamente a la finalidad específica para la que hayan sido autorizados al aprobarse el presupuesto"
+    ],
+    "c": 3,
+    "ref": "Art. 8 Bases ejecución presupuesto UHU",
+    "exp": "Los créditos se destinan exclusivamente a la finalidad específica para la que hayan sido autorizados al aprobarse el presupuesto."
+  },
+  {
+    "q": "Según el art. 8 de las bases de ejecución del presupuesto de la Universidad de Huelva para el ejercicio 2026, que los créditos se destinen a su finalidad específica, ¿a qué limitación se refiere?",
+    "o": [
+      "A la cualitativa",
+      "A la cuantitativa",
+      "A la temporal",
+      "A la funcional"
+    ],
+    "c": 0,
+    "ref": "Art. 8 Bases ejecución presupuesto UHU",
+    "exp": "Destinar los créditos a su finalidad específica es la limitación cualitativa."
+  },
+  {
+    "q": "Según el art. 9 de las bases de ejecución del presupuesto de la Universidad de Huelva para el año 2026, la limitación cuantitativa de los créditos se refiere a:",
+    "o": [
+      "Que no podrán destinarse ingresos a finalidad distinta que para la que hayan sido autorizados",
+      "Que no podrán contraerse obligaciones financieras por periodo superior al año natural del ejercicio",
+      "Que no podrán adquirirse compromisos de gastos por cuantía superior al importe de los créditos autorizados en el estado de gastos",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 2,
+    "ref": "Art. 9 Bases ejecución presupuesto UHU",
+    "exp": "La limitación cuantitativa impide adquirir compromisos por cuantía superior a los créditos autorizados."
+  },
+  {
+    "q": "Según el art. 9 de las bases de ejecución del presupuesto de la Universidad de Huelva para el año 2026, si un acto administrativo infringiera la limitación cuantitativa, será:",
+    "o": [
+      "Revisable por el Rector",
+      "Anulable",
+      "Nulo de pleno derecho",
+      "Válido, salvo que el Rector declarara su nulidad"
+    ],
+    "c": 2,
+    "ref": "Art. 9 Bases ejecución presupuesto UHU",
+    "exp": "El acto que infrinja la limitación cuantitativa es nulo de pleno derecho."
+  },
+  {
+    "q": "Según el art. 10 de las bases de ejecución del presupuesto de la Universidad de Huelva para el año 2026, que solo puedan contraerse obligaciones derivadas de gastos que se realicen en el año natural del propio ejercicio, ¿a qué limitación se refiere?",
+    "o": [
+      "Temporal",
+      "Cuantitativa",
+      "Cualitativa",
+      "Funcional"
+    ],
+    "c": 0,
+    "ref": "Art. 10 Bases ejecución presupuesto UHU",
+    "exp": "Contraer obligaciones solo en el año natural del propio ejercicio es la limitación temporal."
+  },
+  {
+    "q": "Según el art. 10 de las bases de ejecución del presupuesto de la Universidad de Huelva para el año 2026, ¿qué obligaciones se aplicarán a los créditos del presupuesto vigente en el momento de expedición de los justificantes de gasto?",
+    "o": [
+      "Atrasos a favor de proveedores con cargo al presupuesto de la Universidad",
+      "Atrasos a favor del personal que perciba sus retribuciones con cargo al presupuesto de la Universidad",
+      "Atrasos a favor del personal que no perciba sus retribuciones con cargo al presupuesto de la Universidad",
+      "Obligaciones generadas en ejercicios anteriores como consecuencia de compromisos de gastos no debidamente adquiridos"
+    ],
+    "c": 1,
+    "ref": "Art. 10 Bases ejecución presupuesto UHU",
+    "exp": "Se aplican los atrasos a favor del personal que percibe sus retribuciones con cargo al presupuesto de la Universidad."
+  },
+  {
+    "q": "Según el art. 11 de las bases de ejecución del presupuesto de la Universidad de Huelva para el año 2026, los créditos autorizados en el estado de gastos son limitativos y vinculantes respecto a su clasificación orgánica:",
+    "o": [
+      "Por programa de gasto",
+      "Por unidad orgánica responsable",
+      "Por su finalidad económica",
+      "Por el destino de los recursos"
+    ],
+    "c": 1,
+    "ref": "Art. 11 Bases ejecución presupuesto UHU",
+    "exp": "En la clasificación orgánica la vinculación es por unidad orgánica responsable."
+  },
+  {
+    "q": "Según el art. 11 de las bases de ejecución del presupuesto de la Universidad de Huelva para el año 2026, la vinculación de créditos respecto a la clasificación económica es a nivel de artículo, ¿con qué excepción?",
+    "o": [
+      "Los créditos consignados en el Capítulo 1 'Gastos de Personal'",
+      "Los créditos consignados en el Capítulo 2 'Gastos Corrientes en Bienes y Servicios'",
+      "A y B son correctas",
+      "A y B son incorrectas"
+    ],
+    "c": 2,
+    "ref": "Art. 11 Bases ejecución presupuesto UHU",
+    "exp": "Según la clave del examen, la excepción incluye tanto el Capítulo 1 como el Capítulo 2 (A y B correctas)."
+  },
+  {
+    "q": "Según el art. 12 de las bases de ejecución del presupuesto de la Universidad de Huelva para el año 2026, ¿podrán adquirirse compromisos de gastos que se extiendan a ejercicios posteriores a aquel en que se autorice?",
+    "o": [
+      "Sí, sobre cualquier tipo de gasto siempre que su ejecución se inicie en el propio ejercicio",
+      "No",
+      "Sí, siempre que su ejecución se inicie en el propio ejercicio y se trate, entre otros, de arrendamientos de bienes inmuebles a utilizar por la Universidad",
+      "Sí, siempre que su ejecución se inicie en el propio ejercicio o en el siguiente, y se trate de cargas financieras derivadas de operaciones de endeudamiento"
+    ],
+    "c": 2,
+    "ref": "Art. 12 Bases ejecución presupuesto UHU",
+    "exp": "Sí, para gastos como arrendamientos de bienes inmuebles, siempre que la ejecución se inicie en el propio ejercicio."
+  },
+  {
+    "q": "Según el art. 12 de las bases de ejecución del presupuesto de la Universidad de Huelva para el año 2026, ¿a qué se subordinará la autorización o realización de los gastos de carácter plurianual?",
+    "o": [
+      "Al ingreso que para cada ejercicio autorice la Universidad",
+      "Al gasto que para cada ejercicio autorice el presupuesto de la Universidad de Huelva",
+      "Al crédito que para cada ejercicio autorice el Consejo de Gobierno de la Universidad de Huelva",
+      "Al crédito que para cada ejercicio autorice el presupuesto de la Universidad de Huelva"
+    ],
+    "c": 3,
+    "ref": "Art. 12 Bases ejecución presupuesto UHU",
+    "exp": "Se subordinan al crédito que para cada ejercicio autorice el presupuesto de la Universidad de Huelva."
+  },
+  {
+    "q": "Según el art. 12 de las bases de ejecución del presupuesto de la Universidad de Huelva 2026, en gastos plurianuales, ¿a qué número de ejercicios podrán aplicarse los referidos a contratos de suministros, servicios y otros contratos que no puedan ser estipulados o resulten antieconómicos por plazo de un año?",
+    "o": [
+      "No superior a cinco",
+      "No superior a seis",
+      "No superior a siete",
+      "No superior a diez"
+    ],
+    "c": 1,
+    "ref": "Art. 12 Bases ejecución presupuesto UHU",
+    "exp": "Según la clave del examen, el número de ejercicios no será superior a seis."
+  },
+  {
+    "q": "Según el art. 12 de las bases de ejecución del presupuesto de la Universidad de Huelva 2026, tratándose de inversiones y transferencias y subvenciones de capital, ¿qué porcentaje del ejercicio corriente no podrá superarse en el segundo ejercicio de aplicación?",
+    "o": [
+      "70%",
+      "80%",
+      "60%",
+      "50%"
+    ],
+    "c": 0,
+    "ref": "Art. 12 Bases ejecución presupuesto UHU",
+    "exp": "En el segundo ejercicio el porcentaje es el 70%."
+  },
+  {
+    "q": "Según el art. 12 de las bases de ejecución del presupuesto de la Universidad de Huelva 2026, tratándose de arrendamientos de bienes inmuebles a utilizar por la Universidad, ¿qué porcentaje del ejercicio corriente no podrá superarse en el tercer ejercicio de aplicación?",
+    "o": [
+      "70%",
+      "80%",
+      "60%",
+      "50%"
+    ],
+    "c": 2,
+    "ref": "Art. 12 Bases ejecución presupuesto UHU",
+    "exp": "En el tercer ejercicio el porcentaje es el 60%."
+  },
+  {
+    "q": "Según el art. 12 de las bases de ejecución del presupuesto de la Universidad de Huelva para el año 2026, en gastos plurianuales de créditos financiados con transferencias y otros ingresos finalistas, el número de anualidades y el límite del crédito se fijarán en función de:",
+    "o": [
+      "Programas plurianuales",
+      "La financiación recibida",
+      "La dificultad de su realización",
+      "La financiación prevista"
+    ],
+    "c": 3,
+    "ref": "Art. 12 Bases ejecución presupuesto UHU",
+    "exp": "Se fijan en función de la financiación prevista."
+  },
+  {
+    "q": "Según el art. 13 de las bases de ejecución del presupuesto de la Universidad de Huelva, según su naturaleza, los límites y demás requisitos establecidos para los gastos plurianuales, ¿a qué se aplicarán?",
+    "o": [
+      "A los expedientes de tramitación anticipada",
+      "A las modificaciones presupuestarias",
+      "A los pagos anticipados",
+      "A los expedientes diferidos"
+    ],
+    "c": 0,
+    "ref": "Art. 13 Bases ejecución presupuesto UHU",
+    "exp": "Los límites de los gastos plurianuales se aplican a los expedientes de tramitación anticipada."
+  },
+  {
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, el presupuesto de la Universidad de Huelva:",
+    "o": [
+      "Constituye la expresión cifrada, conjunta y sistemática de las obligaciones que, como máximo, puede reconocer la Universidad y de los derechos que prevea liquidar durante el correspondiente ejercicio",
+      "Constituye la expresión cifrada, conjunta y sistemática de las obligaciones que, como máximo, debe reconocer la Universidad y de los derechos que prevea liquidar",
+      "Constituye la expresión cifrada, conjunta y sistemática de los derechos que, como máximo, puede reconocer la Universidad y de las obligaciones que prevea liquidar",
+      "Constituye la expresión cifrada de las obligaciones que, como máximo, prevea liquidar la Universidad y de los derechos que puede reconocer"
+    ],
+    "c": 0,
+    "ref": "Art. 4 Bases ejecución presupuesto UHU",
+    "exp": "El presupuesto es la expresión cifrada, conjunta y sistemática de las obligaciones que como máximo puede reconocer la Universidad y de los derechos que prevea liquidar."
+  },
+  {
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, ¿qué contiene el presupuesto de la UHU?",
+    "o": [
+      "Un estado de gasto que no aplica la clasificación económica",
+      "Un estado de ingreso en el que figuran los derechos económicos liquidados en el ejercicio",
+      "Un estado de gastos en el que se incluyen, con la debida especificación, los créditos necesarios para atender el cumplimiento de las obligaciones",
+      "Contiene todo lo anterior"
+    ],
+    "c": 2,
+    "ref": "Art. 4 Bases ejecución presupuesto UHU",
+    "exp": "El presupuesto contiene un estado de gastos con los créditos necesarios, con la debida especificación, para atender las obligaciones."
+  },
+  {
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, el presupuesto de la UHU contiene:",
+    "o": [
+      "El estado de ingreso, en el que figuran los distintos derechos económicos a recaudar en el ejercicio",
+      "El estado de gastos, en el que se incluyen los créditos estimados para atender el cumplimiento de las obligaciones",
+      "El estado de gastos, en el que se incluyen los créditos necesarios para atender los incumplimientos de las obligaciones",
+      "El estado de ingresos, en el que figuran las estimaciones de los distintos derechos económicos a liquidar en el ejercicio"
+    ],
+    "c": 3,
+    "ref": "Art. 4 Bases ejecución presupuesto UHU",
     "exp": "El estado de ingresos recoge las estimaciones de los distintos derechos económicos a liquidar en el ejercicio."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026, el estado de ingreso, del presupuesto de la UHU, ¿Qué clasificación aplica, que no se aplica en el Estado de gasto?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, el estado de ingreso, ¿qué clasificación aplica que no se aplica en el estado de gasto?",
     "o": [
       "Orgánica",
       "Funcional",
@@ -476,47 +908,47 @@
       "Nada es correcto"
     ],
     "c": 3,
-    "ref": "Art. 4 Bases de ejecución del presupuesto UHU",
-    "exp": "El estado de ingresos aplica clasificación orgánica y económica, ambas presentes también en el de gastos; no hay ninguna exclusiva del ingreso."
+    "ref": "Art. 4 Bases ejecución presupuesto UHU",
+    "exp": "El estado de ingreso no aplica ninguna clasificación adicional que no tenga el gasto; el gasto aplica además la funcional."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026, en la estructura de gasto, la clasificación económica, es la que ordena:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, en la estructura de gasto, la clasificación económica es la que ordena:",
     "o": [
-      "En atención a la naturaleza orgánica del gasto y a la codificación de capítulo, artículo, concepto, subconcepto y partida.",
-      "En atención a la naturaleza económica del gasto y a la codificación de capítulo, artículo, concepto, subconcepto y partida.",
+      "En atención a la naturaleza orgánica del gasto y a la codificación de capítulo, artículo, concepto, subconcepto y partida",
+      "En atención a la naturaleza económica del gasto y a la codificación de capítulo, artículo, concepto, subconcepto y partida",
       "En atención a la finalidad y objetivos perseguidos",
-      "En atención por el momento que se imputan la obligación en función del órgano o unidad."
+      "En atención al momento en que se imputa la obligación en función del órgano o unidad"
     ],
     "c": 1,
-    "ref": "Art. 5 Bases de ejecución del presupuesto UHU",
+    "ref": "Art. 5 Bases ejecución presupuesto UHU",
     "exp": "La clasificación económica ordena en atención a la naturaleza económica del gasto y a su codificación."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026, cuando sea necesario para una mejor contabilización de los gastos, ¿Quién podrá establecer nuevos códigos?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, cuando sea necesario para una mejor contabilización de los gastos, ¿quién podrá establecer nuevos códigos?",
     "o": [
-      "El Servicio de asuntos económicos",
+      "El Servicio de Asuntos Económicos",
       "El Gerente",
       "El Rector, sin perjuicio de la delegación que se determine",
-      "El rector, y por delegación de éste, el Gerente"
+      "El Rector, y por delegación de éste, el Gerente"
     ],
     "c": 1,
-    "ref": "Art. 5 Bases de ejecución del presupuesto UHU",
+    "ref": "Art. 5 Bases ejecución presupuesto UHU",
     "exp": "El Gerente podrá establecer nuevos códigos cuando sea necesario para una mejor contabilización."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026, ¿Qué son los créditos presupuestarios?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, ¿qué son los créditos presupuestarios?",
     "o": [
-      "Cada una de las asignaciones individualizadas de gastos, que figuran en el Presupuesto de la Universidad, puestas a disposición de las unidades de gasto, para la cobertura de las necesidades para las que hayan sido aprobados.",
-      "Cada una de las asignaciones individualizadas de gastos, que figuran en el Presupuesto de la Universidad, puestas a disposición de las unidades de gasto, para la cobertura de las necesidades pendientes de ser aprobadas.",
-      "Cada una de las asignaciones individualizadas de ingresos, que figuran en el Presupuesto de la Universidad, puestas a disposición de las unidades de gasto, para la cobertura de las necesidades pendientes de ser aprobadas",
-      "Cada una de las asignaciones individualizadas de gastos, que figuran en el Presupuesto de la Universidad, puestas a disposición de las unidades de gasto, para la cobertura de las necesidades para las que no hayan sido aprobados."
+      "Cada una de las asignaciones individualizadas de gastos que figuran en el presupuesto, puestas a disposición de las unidades de gasto, para la cobertura de las necesidades para las que hayan sido aprobados",
+      "Cada una de las asignaciones individualizadas de gastos, puestas a disposición de las unidades de gasto, para la cobertura de las necesidades pendientes de ser aprobadas",
+      "Cada una de las asignaciones individualizadas de ingresos, puestas a disposición de las unidades de gasto, para la cobertura de las necesidades pendientes de ser aprobadas",
+      "Cada una de las asignaciones individualizadas de gastos, puestas a disposición de las unidades de gasto, para la cobertura de las necesidades para las que no hayan sido aprobados"
     ],
     "c": 0,
-    "ref": "Art. 7 Bases de ejecución del presupuesto UHU",
-    "exp": "Son asignaciones individualizadas de gastos puestas a disposición de las unidades para cubrir las necesidades para las que hayan sido aprobados."
+    "ref": "Art. 7 Bases ejecución presupuesto UHU",
+    "exp": "Los créditos presupuestarios son las asignaciones individualizadas de gastos puestas a disposición de las unidades de gasto para las necesidades aprobadas."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026, ¿Quién podrá acordar, la no disponibilidad o la baja por anulación de cualquier crédito presupuestario previamente autorizado con objeto de garantizar el cumplimiento de los compromisos de la Universidad en materia de estabilidad presupuestaria?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, ¿quién podrá acordar la no disponibilidad o la baja por anulación de cualquier crédito presupuestario para garantizar la estabilidad presupuestaria?",
     "o": [
       "El Gerente",
       "El Rector",
@@ -524,23 +956,23 @@
       "La Consejería de Economía y Hacienda"
     ],
     "c": 1,
-    "ref": "Art. 7 Bases de ejecución del presupuesto UHU",
-    "exp": "El Rector podrá acordar la no disponibilidad o la baja por anulación de créditos para garantizar la estabilidad presupuestaria."
+    "ref": "Art. 7 Bases ejecución presupuesto UHU",
+    "exp": "El Rector podrá acordar la no disponibilidad o la baja por anulación de créditos."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026, los créditos para gastos se destinarán exclusivamente a la finalidad específica:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, los créditos para gastos se destinarán exclusivamente a la finalidad específica:",
     "o": [
       "Para la que haya sido autorizada por el Gerente",
-      "Para la que haya sido propuestos por el Centro de Gasto correspondiente",
-      "Para la que hayan sido autorizados al aprobarse el Presupuesto",
+      "Para la que hayan sido propuestos por el centro de gasto correspondiente",
+      "Para la que hayan sido autorizados al aprobarse el presupuesto",
       "Para los que hayan sido autorizados al proponerse la modificación presupuestaria"
     ],
     "c": 2,
-    "ref": "Art. 8 Bases de ejecución del presupuesto UHU",
-    "exp": "Se destinan a la finalidad específica para la que hayan sido autorizados al aprobarse el Presupuesto."
+    "ref": "Art. 8 Bases ejecución presupuesto UHU",
+    "exp": "Los créditos se destinan a la finalidad específica para la que hayan sido autorizados al aprobarse el presupuesto."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026, ¿A qué limitación en los créditos presupuestario hace referencia la pregunta anterior?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, destinar los créditos a la finalidad específica para la que fueron autorizados, ¿a qué limitación hace referencia?",
     "o": [
       "Financiera",
       "Cualitativa",
@@ -548,11 +980,11 @@
       "Temporal"
     ],
     "c": 1,
-    "ref": "Art. 8 Bases de ejecución del presupuesto UHU",
-    "exp": "Destinar el crédito a su finalidad específica es la limitación cualitativa."
+    "ref": "Art. 8 Bases ejecución presupuesto UHU",
+    "exp": "Es la limitación cualitativa."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026, del presupuesto de la UHU, \"No podrán adquirirse compromisos de gasto por cuantía superior al importe de los créditos autorizados en el estado de gastos\", los correspondientes actos administrativos que infrinjan la expresada norma serán:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, no podrán adquirirse compromisos de gasto por cuantía superior al importe de los créditos autorizados; los actos administrativos que infrinjan esta norma serán:",
     "o": [
       "Eficaces, no obstante",
       "Anulables",
@@ -560,11 +992,11 @@
       "Nulos, si así lo acuerda el Rector"
     ],
     "c": 2,
-    "ref": "Art. 9 Bases de ejecución del presupuesto UHU",
+    "ref": "Art. 9 Bases ejecución presupuesto UHU",
     "exp": "Los actos que infrinjan la limitación cuantitativa son nulos de pleno derecho."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, con cargo a los créditos del Estado de Gastos, sólo podrán contraerse obligaciones derivadas de gastos que se realicen:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, con cargo a los créditos del estado de gastos solo podrán contraerse obligaciones derivadas de gastos que se realicen:",
     "o": [
       "En el año natural del propio ejercicio presupuestario",
       "En el año académico del propio ejercicio presupuestario",
@@ -572,11 +1004,11 @@
       "En el año natural anterior al aprobarse el del ejercicio presupuestario"
     ],
     "c": 0,
-    "ref": "Art. 10 Bases de ejecución del presupuesto UHU",
-    "exp": "Solo pueden contraerse obligaciones por gastos realizados en el año natural del propio ejercicio presupuestario."
+    "ref": "Art. 10 Bases ejecución presupuesto UHU",
+    "exp": "Solo pueden contraerse obligaciones de gastos realizados en el año natural del propio ejercicio presupuestario."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, ¿A qué limitación en los créditos presupuestario hace referencia la pregunta anterior?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, que solo puedan contraerse obligaciones en el año natural del propio ejercicio, ¿a qué limitación hace referencia?",
     "o": [
       "A ninguna",
       "Cualitativa",
@@ -584,23 +1016,23 @@
       "Temporal"
     ],
     "c": 3,
-    "ref": "Art. 10 Bases de ejecución del presupuesto UHU",
-    "exp": "Que las obligaciones se realicen en el año natural del ejercicio es la limitación temporal."
+    "ref": "Art. 10 Bases ejecución presupuesto UHU",
+    "exp": "Es la limitación temporal."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, ¿Qué obligaciones de las que se mencionan a continuación, se aplicarán a los créditos del presupuesto vigente, en el momento de expedición de los justificantes de gasto?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, ¿qué obligaciones se aplicarán a los créditos del presupuesto vigente en el momento de expedición de los justificantes de gasto?",
     "o": [
       "Las que resulten del pago de anticipos al personal de la Universidad",
-      "Las que resulten de la liquidación de atrasos a favor del personal que perciba sus retribuciones con cargo al Presupuesto de la Universidad",
-      "Con carácter ordinario, a iniciativa de la Unidad de Gasto correspondiente las generadas en ejercicios anteriores como consecuencia de compromisos de gastos debidamente adquiridos",
+      "Las que resulten de la liquidación de atrasos a favor del personal que perciba sus retribuciones con cargo al presupuesto de la Universidad",
+      "Con carácter ordinario, a iniciativa de la unidad de gasto, las generadas en ejercicios anteriores por compromisos de gastos debidamente adquiridos",
       "Todas las señaladas anteriormente"
     ],
     "c": 1,
-    "ref": "Art. 10 Bases de ejecución del presupuesto UHU",
-    "exp": "Se aplican a los créditos vigentes las obligaciones por liquidación de atrasos a favor del personal con cargo al presupuesto de la Universidad."
+    "ref": "Art. 10 Bases ejecución presupuesto UHU",
+    "exp": "Se aplican las liquidaciones de atrasos a favor del personal que percibe sus retribuciones con cargo al presupuesto de la Universidad."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, de acuerdo a su clasificación orgánica, funcional y económica, los créditos autorizados en el Estado de Gastos tienen un carácter:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, de acuerdo a su clasificación orgánica, funcional y económica, los créditos autorizados en el estado de gastos tienen un carácter:",
     "o": [
       "Ilimitado y vinculante",
       "Cualitativo y cuantitativo",
@@ -608,11 +1040,11 @@
       "Vinculante y funcional"
     ],
     "c": 2,
-    "ref": "Art. 11 Bases de ejecución del presupuesto UHU",
+    "ref": "Art. 11 Bases ejecución presupuesto UHU",
     "exp": "Los créditos autorizados en el estado de gastos tienen carácter limitativo y vinculante."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, la vinculación de los créditos autorizados en el estado de gasto, respecto a su vinculación funcional será:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, la vinculación de los créditos autorizados en el estado de gasto, respecto a su vinculación funcional, será:",
     "o": [
       "Según centro de gasto",
       "A nivel de artículo",
@@ -620,35 +1052,35 @@
       "Ninguna de las anteriores"
     ],
     "c": 3,
-    "ref": "Art. 11 Bases de ejecución del presupuesto UHU",
-    "exp": "Según la clave del examen, la vinculación funcional no se corresponde con las opciones dadas (ninguna de las anteriores); revisar en validación el nivel exacto de vinculación funcional."
+    "ref": "Art. 11 Bases ejecución presupuesto UHU",
+    "exp": "La vinculación funcional es por programa de gasto, por lo que ninguna de las opciones anteriores es correcta."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, la vinculación de los créditos autorizados en el estado de gastos, respecto a la clasificación económica, será a nivel de artículo, con la excepción de los consignados:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, la vinculación de los créditos respecto a la clasificación económica será a nivel de artículo, con la excepción de los consignados:",
     "o": [
-      "Capítulo 1 \"Gastos de personal\", que lo serán a nivel concepto",
-      "Capítulo 2 \"Gastos de personal\", que lo serán a nivel de capítulo",
-      "Capítulo 2 \"Gastos Corrientes en Bienes y Servicios\", que lo serán a nivel de capítulo",
-      "Capítulo 2 \"Gastos plurianuales en Bienes y Servicios\", que lo serán a nivel de capítulo"
+      "Capítulo 1 'Gastos de personal', que lo serán a nivel de concepto",
+      "Capítulo 2 'Gastos de personal', que lo serán a nivel de capítulo",
+      "Capítulo 2 'Gastos Corrientes en Bienes y Servicios', que lo serán a nivel de capítulo",
+      "Capítulo 2 'Gastos plurianuales en Bienes y Servicios', que lo serán a nivel de capítulo"
     ],
     "c": 2,
-    "ref": "Art. 11 Bases de ejecución del presupuesto UHU",
-    "exp": "La excepción es el Capítulo 2 \"Gastos Corrientes en Bienes y Servicios\", cuya vinculación es a nivel de capítulo."
+    "ref": "Art. 11 Bases ejecución presupuesto UHU",
+    "exp": "La excepción es el Capítulo 2 'Gastos Corrientes en Bienes y Servicios', que vincula a nivel de capítulo."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, ¿en qué casos, no podrán adquirirse compromisos de gastos que hayan de extenderse a ejercicios posteriores a aquel en que se autoricen?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, ¿en qué caso no podrán adquirirse compromisos de gastos que hayan de extenderse a ejercicios posteriores a aquel en que se autoricen?",
     "o": [
       "Inversiones y transferencias y subvenciones de capital",
-      "Contratos de suministros, servicios y otros contratos cuando no puedan ser estipulados o resulten antieconómicos por plazo de un año.",
-      "Arrendamientos de bienes muebles a utilizar por la Universidad de Huelva.",
-      "Las cargas financieras que se deriven de las operaciones de endeudamiento."
+      "Contratos de suministros, servicios y otros contratos cuando no puedan ser estipulados o resulten antieconómicos por plazo de un año",
+      "Arrendamientos de bienes muebles a utilizar por la Universidad de Huelva",
+      "Las cargas financieras que se deriven de las operaciones de endeudamiento"
     ],
     "c": 2,
-    "ref": "Art. 12 Bases de ejecución del presupuesto UHU",
-    "exp": "Los arrendamientos de bienes muebles no figuran entre los supuestos plurianuales (sí los de bienes inmuebles); en ese caso no cabe el compromiso plurianual."
+    "ref": "Art. 12 Bases ejecución presupuesto UHU",
+    "exp": "Solo se permiten arrendamientos de bienes inmuebles; los de bienes muebles no dan lugar a compromisos plurianuales."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, en el caso de gastos plurianuales, derivados de \"subvenciones y otras transferencias corrientes\", el número de ejercicios a los que pueden aplicarse no será superior a:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, en gastos plurianuales derivados de 'subvenciones y otras transferencias corrientes', el número de ejercicios a los que pueden aplicarse no será superior a:",
     "o": [
       "Siete",
       "Cinco",
@@ -656,11 +1088,11 @@
       "Seis"
     ],
     "c": 3,
-    "ref": "Art. 12 Bases de ejecución del presupuesto UHU",
-    "exp": "Según la clave del examen, no será superior a seis ejercicios; revisar en validación frente al art. 12."
+    "ref": "Art. 12 Bases ejecución presupuesto UHU",
+    "exp": "El número de ejercicios no será superior a seis."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, en el caso de gastos plurianuales, derivados de \"Arrendamientos de bienes inmuebles a utilizar por la Universidad de Huelva\" el número de ejercicios a los que pueden aplicarse no será superior a:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, en gastos plurianuales derivados de 'Arrendamientos de bienes inmuebles a utilizar por la Universidad de Huelva', el número de ejercicios a los que pueden aplicarse no será superior a:",
     "o": [
       "Diez",
       "Seis",
@@ -668,11 +1100,11 @@
       "Nada de lo anterior es correcto"
     ],
     "c": 0,
-    "ref": "Art. 12 Bases de ejecución del presupuesto UHU",
+    "ref": "Art. 12 Bases ejecución presupuesto UHU",
     "exp": "Para arrendamientos de bienes inmuebles el número de ejercicios no será superior a diez."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, en el caso de gastos plurianuales, derivados de \"Inversiones y transferencias y subvenciones de capital\" no podrá superarse el importe acumulado que resulte de aplicar sobre el crédito correspondiente del Presupuesto del ejercicio corriente, ¿Qué porcentaje para el tercer ejercicio?:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, en gastos plurianuales derivados de 'Inversiones y transferencias y subvenciones de capital', ¿qué porcentaje del crédito del ejercicio corriente no podrá superarse para el tercer ejercicio?",
     "o": [
       "70%",
       "50%",
@@ -680,11 +1112,11 @@
       "40%"
     ],
     "c": 2,
-    "ref": "Art. 12 Bases de ejecución del presupuesto UHU",
-    "exp": "Según la clave del examen, para inversiones el porcentaje del tercer ejercicio es el 60%."
+    "ref": "Art. 12 Bases ejecución presupuesto UHU",
+    "exp": "Para el tercer ejercicio el porcentaje es el 60%."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, en el caso de gastos plurianuales, derivados de \"Inversiones y transferencias y subvenciones de capital\" no podrá superarse el importe acumulado que resulte de aplicar sobre el crédito correspondiente del Presupuesto del ejercicio corriente y sabiendo que esta cantidad es 200.000 euros, ¿Qué cantidad para el cuarto ejercicio?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, en gastos plurianuales derivados de 'Inversiones y transferencias y subvenciones de capital', siendo el crédito del ejercicio corriente 200.000 euros, ¿qué cantidad no podrá superarse para el cuarto ejercicio?",
     "o": [
       "100.000",
       "140.000",
@@ -692,11 +1124,11 @@
       "60.000"
     ],
     "c": 0,
-    "ref": "Art. 12 Bases de ejecución del presupuesto UHU",
-    "exp": "Para el cuarto ejercicio el límite es el 50% sobre 200.000 euros, es decir 100.000 euros."
+    "ref": "Art. 12 Bases ejecución presupuesto UHU",
+    "exp": "Para el cuarto ejercicio el porcentaje es el 50%, es decir 100.000 euros sobre 200.000."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, en el caso de gastos plurianuales, derivados de \"Contratos de suministros, servicios y otros contratos cuando no puedan ser estipulados o resulten antieconómicos por plazo de un año\" no podrá superarse el importe acumulado que resulte de aplicar sobre el crédito correspondiente del Presupuesto del ejercicio corriente, ¿Qué porcentaje para el quinto ejercicio?:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, en gastos plurianuales derivados de 'Contratos de suministros, servicios y otros contratos cuando no puedan ser estipulados o resulten antieconómicos por plazo de un año', ¿qué porcentaje del crédito del ejercicio corriente no podrá superarse para el quinto ejercicio?",
     "o": [
       "70%",
       "30%",
@@ -704,11 +1136,11 @@
       "40%"
     ],
     "c": 1,
-    "ref": "Art. 12 Bases de ejecución del presupuesto UHU",
-    "exp": "Según la clave del examen, para el quinto ejercicio el porcentaje es el 30%."
+    "ref": "Art. 12 Bases ejecución presupuesto UHU",
+    "exp": "Para el quinto ejercicio el porcentaje es el 30%."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, en el caso de gastos plurianuales, derivados de \"Subvenciones y otras transferencias corrientes\" no podrá superarse el importe acumulado que resulte de aplicar sobre el crédito correspondiente del Presupuesto del ejercicio corriente, ¿Qué porcentaje para el ejercicio inmediatamente siguiente?:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, en gastos plurianuales derivados de 'Subvenciones y otras transferencias corrientes', ¿qué porcentaje del crédito del ejercicio corriente no podrá superarse para el ejercicio inmediatamente siguiente?",
     "o": [
       "70%",
       "30%",
@@ -716,191 +1148,191 @@
       "40%"
     ],
     "c": 2,
-    "ref": "Art. 12 Bases de ejecución del presupuesto UHU",
-    "exp": "Según la clave del examen, para el ejercicio inmediatamente siguiente el porcentaje es el 60%."
+    "ref": "Art. 12 Bases ejecución presupuesto UHU",
+    "exp": "Para el ejercicio inmediatamente siguiente el porcentaje es el 60%."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, los gastos plurianuales correspondientes a créditos financiados con transferencias y otros ingresos finalistas, tanto el número de anualidades como el límite de crédito se fijarán en función:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, en los gastos plurianuales de créditos financiados con transferencias y otros ingresos finalistas, tanto el número de anualidades como el límite de crédito se fijarán en función de:",
     "o": [
       "Los programas plurianuales de inversiones",
-      "De la financiación prevista",
-      "De la financiación concedida",
-      "De lo previsto en la Ley orgánica del sistema universitario"
+      "La financiación prevista",
+      "La financiación concedida",
+      "Lo previsto en la Ley Orgánica del Sistema Universitario"
     ],
     "c": 1,
-    "ref": "Art. 12 Bases de ejecución del presupuesto UHU",
-    "exp": "El número de anualidades y el límite de crédito se fijan en función de la financiación prevista."
+    "ref": "Art. 12 Bases ejecución presupuesto UHU",
+    "exp": "Se fijan en función de la financiación prevista."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, ¿A qué se subordinará la autorización o realización de los gastos de carácter plurianual?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, ¿a qué se subordinará la autorización o realización de los gastos de carácter plurianual?",
     "o": [
       "Al ingreso que para cada ejercicio autorice la Universidad",
       "Al gasto que para cada ejercicio autorice el presupuesto de la Universidad de Huelva",
       "Al crédito que para cada ejercicio autorice el presupuesto de la Universidad de Huelva",
-      "Al crédito que para cada ejercicio autorice el Consejo de Gobierno de la Universidad de Huelva."
+      "Al crédito que para cada ejercicio autorice el Consejo de Gobierno de la Universidad de Huelva"
     ],
     "c": 2,
-    "ref": "Art. 12 Bases de ejecución del presupuesto UHU",
+    "ref": "Art. 12 Bases ejecución presupuesto UHU",
     "exp": "Se subordinan al crédito que para cada ejercicio autorice el presupuesto de la Universidad de Huelva."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, los expedientes de tramitación anticipada que se refieran a \"Contratos de suministros, servicios y otros contratos cuando no puedan ser estipulados o resulten antieconómicos por plazo de un año\", estarán sujetos, según su naturaleza, a los límites y demás requisitos establecidos para:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, los expedientes de tramitación anticipada que se refieran a 'Contratos de suministros, servicios y otros contratos...' estarán sujetos, según su naturaleza, a los límites y demás requisitos establecidos para:",
     "o": [
       "Los gastos plurianuales",
-      "Las Transferencias de créditos",
+      "Las transferencias de créditos",
       "Los gastos anticipados",
       "Los trasvases entre unidades orgánicas"
     ],
     "c": 0,
-    "ref": "Art. 13 Bases de ejecución del presupuesto UHU",
-    "exp": "Los expedientes de tramitación anticipada quedan sujetos a los límites y requisitos de los gastos plurianuales."
+    "ref": "Art. 13 Bases ejecución presupuesto UHU",
+    "exp": "Estarán sujetos a los límites y requisitos de los gastos plurianuales."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, toda modificación presupuestaria deberá ser realizada bajo el mantenimiento del principio de:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, toda modificación presupuestaria deberá ser realizada bajo el mantenimiento del principio de:",
     "o": [
       "Anualidad presupuestaria",
-      "Aplicación Presupuestaria",
-      "Limitación Presupuestaria.",
-      "Estabilidad Presupuestaria"
+      "Aplicación presupuestaria",
+      "Limitación presupuestaria",
+      "Estabilidad presupuestaria"
     ],
     "c": 3,
-    "ref": "Art. 14 Bases de ejecución del presupuesto UHU",
-    "exp": "Toda modificación se realiza manteniendo el principio de estabilidad presupuestaria."
+    "ref": "Art. 14 Bases ejecución presupuesto UHU",
+    "exp": "Toda modificación se realiza bajo el mantenimiento del principio de estabilidad presupuestaria."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, a fin de preservar el equilibrio presupuestario, las modificaciones de créditos que supongan un incremento del volumen global de gastos del presupuesto:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, a fin de preservar el equilibrio presupuestario, las modificaciones de créditos que supongan un incremento del volumen global de gastos:",
     "o": [
       "No deberán llevarse a cabo",
       "Deberán reducirse las aplicaciones de gastos que no sean imprescindibles",
-      "Deberán financiarse con mayores ingresos a fin de preservar el equilibrio presupuestario.",
-      "Deberán posponerse, salvo las relativas a gastos de gestión corriente."
+      "Deberán financiarse con mayores ingresos a fin de preservar el equilibrio presupuestario",
+      "Deberán posponerse, salvo las relativas a gastos de gestión corriente"
     ],
     "c": 2,
-    "ref": "Art. 14 Bases de ejecución del presupuesto UHU",
+    "ref": "Art. 14 Bases ejecución presupuesto UHU",
     "exp": "Deberán financiarse con mayores ingresos para preservar el equilibrio presupuestario."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, ¿A propuesta de quién se iniciarán los expedientes de modificación de crédito?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, ¿a propuesta de quién se iniciarán los expedientes de modificación de crédito?",
     "o": [
       "El Gerente",
-      "Del centro o Unidad de ingreso que tenga a su cargo la ejecución de los créditos correspondientes",
+      "Del centro o unidad de ingreso que tenga a su cargo la ejecución de los créditos correspondientes",
       "Del servicio económico que tenga a su cargo la gestión de los créditos correspondientes",
-      "Del centro de gasto o Unidad orgánica que tenga a su cargo la ejecución de los créditos correspondientes."
+      "Del centro de gasto o unidad orgánica que tenga a su cargo la ejecución de los créditos correspondientes"
     ],
     "c": 3,
-    "ref": "Art. 14 Bases de ejecución del presupuesto UHU",
+    "ref": "Art. 14 Bases ejecución presupuesto UHU",
     "exp": "Se inician a propuesta del centro de gasto o unidad orgánica que tenga a su cargo la ejecución de los créditos."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, los expedientes de modificación presupuestaria deben contar con la consideración positiva:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, los expedientes de modificación presupuestaria deben contar con la consideración positiva:",
     "o": [
       "El Gerente",
       "El Consejo de Gobierno",
       "El Rector, sin perjuicio de la delegación",
-      "El servicio de asuntos económicos"
+      "El Servicio de Asuntos Económicos"
     ],
     "c": 0,
-    "ref": "Art. 14 Bases de ejecución del presupuesto UHU",
+    "ref": "Art. 14 Bases ejecución presupuesto UHU",
     "exp": "Deben contar con la consideración positiva del Gerente."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, respecto a la documentación del expediente de modificación presupuestaria, ¿Dónde se justificará la necesidad de la modificación que se propone?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, respecto a la documentación del expediente de modificación presupuestaria, ¿dónde se justificará la necesidad de la modificación que se propone?",
     "o": [
       "En la resolución o acuerdo de aprobación",
-      "En propio expediente",
+      "En el propio expediente",
       "Memoria",
       "En la propuesta de iniciación"
     ],
     "c": 2,
-    "ref": "Art. 14 Bases de ejecución del presupuesto UHU",
+    "ref": "Art. 14 Bases ejecución presupuesto UHU",
     "exp": "La necesidad de la modificación se justificará en la memoria."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, señale cuál es un tipo de modificación presupuestaria:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, señale cuál es un tipo de modificación presupuestaria:",
     "o": [
-      "Incorporaciones de Transferencias",
+      "Incorporaciones de transferencias",
       "Generaciones de crédito",
       "Remanente",
       "Créditos complementarios"
     ],
     "c": 1,
-    "ref": "Art. 15 Bases de ejecución del presupuesto UHU",
+    "ref": "Art. 15 Bases ejecución presupuesto UHU",
     "exp": "Las generaciones de crédito son un tipo de modificación presupuestaria."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, las transferencias de créditos:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, las transferencias de créditos:",
     "o": [
-      "Conlleva un trasvase de recursos entre diferentes unidades de gastos",
-      "No conlleva rompe las vinculaciones jurídicas existentes",
-      "No conlleva variación de la distribución",
-      "Conlleva un trasvase de recursos entre diferentes aplicaciones presupuestaria de gastos"
+      "Conllevan un trasvase de recursos entre diferentes unidades de gastos",
+      "No rompen las vinculaciones jurídicas existentes",
+      "No conllevan variación de la distribución",
+      "Conllevan un trasvase de recursos entre diferentes aplicaciones presupuestarias de gastos"
     ],
     "c": 3,
-    "ref": "Art. 16 Bases de ejecución del presupuesto UHU",
+    "ref": "Art. 16 Bases ejecución presupuesto UHU",
     "exp": "La transferencia de créditos conlleva un trasvase de recursos entre diferentes aplicaciones presupuestarias de gastos."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, las transferencias de crédito entre los diversos conceptos de los capítulos de operaciones corrientes y de operaciones de capital serán aprobadas:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, las transferencias de crédito entre los diversos conceptos de los capítulos de operaciones corrientes y de operaciones de capital serán aprobadas por:",
     "o": [
-      "El Gerente por Delegación del Rector",
-      "El Rector por Delegación del Gerente",
+      "El Gerente por delegación del Rector",
+      "El Rector por delegación del Gerente",
       "El Consejo de Gobierno por delegación del Rector",
       "El Rector, por delegación del Consejo de Gobierno"
     ],
     "c": 3,
-    "ref": "Art. 16 Bases de ejecución del presupuesto UHU",
+    "ref": "Art. 16 Bases ejecución presupuesto UHU",
     "exp": "Las aprueba el Rector, por delegación del Consejo de Gobierno."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, las transferencias de gastos corrientes a gastos de capital, serán aprobadas por:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, las transferencias de gastos corrientes a gastos de capital serán aprobadas por:",
     "o": [
       "El Gerente por delegación del presidente del Consejo Social",
-      "El Presidente del Consejo Social, por delegación del Pleno de este órgano",
-      "El pleno del Consejo Social, por delegación de su Presidente",
+      "El presidente del Consejo Social, por delegación del Pleno de este órgano",
+      "El pleno del Consejo Social, por delegación de su presidente",
       "El Rector, por delegación del Consejo de Gobierno"
     ],
     "c": 1,
-    "ref": "Art. 16 Bases de ejecución del presupuesto UHU",
-    "exp": "Las aprueba el Presidente del Consejo Social, por delegación del Pleno de este órgano."
+    "ref": "Art. 16 Bases ejecución presupuesto UHU",
+    "exp": "Las aprueba el presidente del Consejo Social, por delegación del Pleno."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, las transferencias de gastos de capital a gastos corrientes, serán aprobadas por:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, las transferencias de gastos de capital a gastos corrientes serán aprobadas por:",
     "o": [
       "El Gerente por delegación del presidente del Consejo Social",
-      "El Presidente del Consejo Social, por delegación del Pleno de este órgano",
-      "El pleno del Consejo Social, por delegación de su Presidente",
+      "El presidente del Consejo Social, por delegación del Pleno de este órgano",
+      "El pleno del Consejo Social, por delegación de su presidente",
       "El Rector, por delegación del Consejo de Gobierno"
     ],
     "c": 1,
-    "ref": "Art. 16 Bases de ejecución del presupuesto UHU",
-    "exp": "Las aprueba el Presidente del Consejo Social, por delegación del Pleno de este órgano."
+    "ref": "Art. 16 Bases ejecución presupuesto UHU",
+    "exp": "Las aprueba el presidente del Consejo Social, por delegación del Pleno."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, ¿no tendrán carácter de transferencia de crédito?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, ¿qué no tendrá carácter de transferencia de crédito?",
     "o": [
-      "Los movimientos internos de crédito o redistribuciones de crédito entre las mismas Unidades de gastos, que impliquen únicamente el trasvase de dotaciones presupuestaria de una misma clasificación económica, funcional y orgánica.",
-      "Los movimientos externos de crédito o redistribuciones de crédito entre distintas Unidades de gastos, que impliquen únicamente el trasvase de dotaciones presupuestaría dentro de una misma clasificación económica y funcional.",
-      "Los movimientos internos de crédito o redistribuciones de crédito entre distintas Unidades de Gasto, que impliquen únicamente el trasvase de dotaciones presupuestarias dentro de una misma clasificación económica y funcional.",
-      "Los movimientos internos de crédito o redistribuciones de crédito entre distintas Unidades de Gasto, que impliquen únicamente el trasvase de dotaciones presupuestaria entre más de una clasificación económica y funcional."
+      "Los movimientos internos de crédito o redistribuciones entre las mismas unidades de gastos, que impliquen únicamente el trasvase de dotaciones de una misma clasificación económica, funcional y orgánica",
+      "Los movimientos externos de crédito o redistribuciones entre distintas unidades de gastos, dentro de una misma clasificación económica y funcional",
+      "Los movimientos internos de crédito o redistribuciones entre distintas unidades de gasto, que impliquen únicamente el trasvase de dotaciones dentro de una misma clasificación económica y funcional",
+      "Los movimientos internos de crédito o redistribuciones entre distintas unidades de gasto, que impliquen el trasvase de dotaciones entre más de una clasificación económica y funcional"
     ],
     "c": 2,
-    "ref": "Art. 16 Bases de ejecución del presupuesto UHU",
+    "ref": "Art. 16 Bases ejecución presupuesto UHU",
     "exp": "No tienen carácter de transferencia los movimientos internos entre distintas unidades de gasto dentro de una misma clasificación económica y funcional."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, ¿A qué limitaciones no estarán sujetas las transferencias de créditos?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, ¿a qué limitaciones no estarán sujetas las transferencias de créditos?",
     "o": [
-      "No afectarán a los créditos extraordinarios concedidos durante el ejercicio ni a los incrementados con suplementos.",
-      "No minorarán créditos que hayan sido incrementados por transferencias, ni a los créditos ampliados.",
-      "No incrementarán créditos que, como consecuencia de otras transferencias, hayan sido objeto de minoración.",
+      "No afectarán a los créditos extraordinarios concedidos durante el ejercicio ni a los incrementados con suplementos",
+      "No minorarán créditos que hayan sido incrementados por transferencias, ni los créditos ampliados",
+      "No incrementarán créditos que, como consecuencia de otras transferencias, hayan sido objeto de minoración",
       "No minorarán créditos que hayan sido incrementados cuando se trate de transferencias motivadas por adaptaciones técnicas derivadas de reorganizaciones administrativas"
     ],
     "c": 3,
-    "ref": "Art. 17 Bases de ejecución del presupuesto UHU",
-    "exp": "No estarán sujetas a la limitación cuando se trate de transferencias por adaptaciones técnicas derivadas de reorganizaciones administrativas."
+    "ref": "Art. 17 Bases ejecución presupuesto UHU",
+    "exp": "Según la clave del examen, la limitación que no aplica es la relativa a transferencias por adaptaciones técnicas derivadas de reorganizaciones administrativas."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, podrá dar lugar a generaciones de créditos, los ingresos realizados en el propio ejercicio como consecuencia de:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, podrán dar lugar a generaciones de créditos los ingresos realizados en el propio ejercicio como consecuencia de:",
     "o": [
       "Reembolso de préstamo",
       "Cobro de matrículas",
@@ -908,11 +1340,11 @@
       "Donaciones de inmovilizado"
     ],
     "c": 0,
-    "ref": "Art. 18 Bases de ejecución del presupuesto UHU",
-    "exp": "Según la clave del examen (coincidente con el test 111), el reembolso de préstamos da lugar a generación de crédito; revisar en validación frente al listado del art. 18."
+    "ref": "Art. 18 Bases ejecución presupuesto UHU",
+    "exp": "Según la clave del examen, el reembolso de préstamo da lugar a generación de créditos (consistente con el test 111)."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, en el ejercicio corriente, \"las enajenaciones de inmovilizado\" correspondiente al ejercicio anterior, ¿Cuándo podrán dar lugar a una generación de crédito?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, las enajenaciones de inmovilizado correspondientes al ejercicio anterior, ¿cuándo podrán dar lugar a una generación de crédito en el ejercicio corriente?",
     "o": [
       "Si se producen a partir de septiembre del ejercicio anterior",
       "De forma excepcional, en cualquier momento en que se produzcan",
@@ -920,83 +1352,83 @@
       "En ningún caso"
     ],
     "c": 2,
-    "ref": "Art. 18 Bases de ejecución del presupuesto UHU",
-    "exp": "Excepcionalmente, las enajenaciones de inmovilizado del ejercicio anterior generan crédito cuando se realicen en el último trimestre de dicho ejercicio."
+    "ref": "Art. 18 Bases ejecución presupuesto UHU",
+    "exp": "De forma excepcional, cuando se realicen en el último trimestre del ejercicio anterior."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, en el ejercicio corriente, la competencia para autorizar las modificaciones por generación de crédito ¿A quién corresponde?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, la competencia para autorizar las modificaciones por generación de crédito, ¿a quién corresponde?",
     "o": [
       "La Rectora",
       "El Gerente",
       "Al pleno del Consejo Social",
       "A ninguno de los anteriores"
     ],
-    "c": 0,
-    "ref": "Art. 19 Bases de ejecución del presupuesto UHU",
-    "exp": "Según el art. 19.2 de las Bases, el Rector podrá autorizar la generación de crédito en los supuestos previstos. La competencia corresponde a la Rectora, no a ninguno de los anteriores."
+    "c": 3,
+    "ref": "Art. 18 Bases ejecución presupuesto UHU",
+    "exp": "Según la clave del examen, la competencia no corresponde a ninguno de los anteriores."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, la generación de créditos solo podrá realizarse:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, la generación de créditos solo podrá realizarse:",
     "o": [
-      "Cuando se haya recaudado los correspondientes ingresos que la justifican",
+      "Cuando se hayan recaudado los correspondientes ingresos que la justifican",
       "Cuando se hayan originado los correspondientes gastos que la justifican",
       "Cuando se haya efectuado el reconocimiento de la obligación de pago",
       "Cuando se haya reclamado un derecho de cobro pendiente"
     ],
     "c": 0,
-    "ref": "Art. 19 Bases de ejecución del presupuesto UHU",
-    "exp": "La generación de crédito solo puede realizarse cuando se hayan recaudado los ingresos que la justifican."
+    "ref": "Art. 18 Bases ejecución presupuesto UHU",
+    "exp": "La generación de créditos solo puede realizarse cuando se hayan recaudado los ingresos que la justifican."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, ¿cuál es la afirmación correcta?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, ¿cuál es la afirmación correcta?",
     "o": [
-      "Los créditos para gastos que en último trimestre del ejercicio no estén afectados al cumplimiento de obligaciones ya reconocidas quedarán anulados de pleno derecho.",
-      "Los créditos para gastos que al último día del ejercicio no estén afectados al cumplimiento de obligaciones ya reconocidas quedarán anulados de pleno derecho.",
-      "Los créditos para gastos que al último día del ejercicio no estén afectados al cumplimiento de obligaciones ya reconocidas podrán quedar anulados de pleno derecho.",
-      "Los créditos para gastos que al último día del ejercicio no estén afectados al cumplimiento de obligaciones no reconocidas quedarán anulados de pleno derecho."
+      "Los créditos para gastos que en el último trimestre del ejercicio no estén afectados al cumplimiento de obligaciones ya reconocidas quedarán anulados de pleno derecho",
+      "Los créditos para gastos que al último día del ejercicio no estén afectados al cumplimiento de obligaciones ya reconocidas quedarán anulados de pleno derecho",
+      "Los créditos para gastos que al último día del ejercicio no estén afectados al cumplimiento de obligaciones ya reconocidas podrán quedar anulados de pleno derecho",
+      "Los créditos para gastos que al último día del ejercicio no estén afectados al cumplimiento de obligaciones no reconocidas quedarán anulados de pleno derecho"
     ],
     "c": 1,
-    "ref": "Art. 20 Bases de ejecución del presupuesto UHU",
-    "exp": "Los créditos que al último día del ejercicio no estén afectados a obligaciones ya reconocidas quedarán anulados de pleno derecho."
+    "ref": "Art. 20 Bases ejecución presupuesto UHU",
+    "exp": "Los créditos que al último día del ejercicio no estén afectados a obligaciones ya reconocidas quedan anulados de pleno derecho."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, ¿A propuesta de quién o de qué órgano de la Universidad, el Rector, podrá autorizar la incorporación al estado de gastos del presupuesto del ejercicio siguiente de los créditos que se establezcan?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, ¿a propuesta de quién el Rector podrá autorizar la incorporación al estado de gastos del presupuesto del ejercicio siguiente de los créditos que se establezcan?",
     "o": [
       "El Consejo Social",
       "El Gerente",
-      "La Conserjería de Economía y Hacienda",
-      "El Responsable del Centro de gasto"
+      "La Consejería de Economía y Hacienda",
+      "El responsable del centro de gasto"
     ],
     "c": 1,
-    "ref": "Art. 20 Bases de ejecución del presupuesto UHU",
-    "exp": "El Rector autoriza la incorporación de créditos a propuesta del Gerente."
+    "ref": "Art. 20 Bases ejecución presupuesto UHU",
+    "exp": "La incorporación se autoriza a propuesta del Gerente."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, las incorporaciones de remanentes, sean afectados o no afectados, no pondrán en riesgo:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, las incorporaciones de remanentes, sean afectados o no afectados, no pondrán en riesgo:",
     "o": [
       "El equilibrio financiero",
-      "El cumplimiento de la estabilidad presupuestaria ni de la regla de ingreso.",
-      "El incumplimiento de la estabilidad presupuestaria ni de la regla de gasto.",
+      "El cumplimiento de la estabilidad presupuestaria ni de la regla de ingreso",
+      "El incumplimiento de la estabilidad presupuestaria ni de la regla de gasto",
       "Nada de lo anterior es correcto"
     ],
     "c": 3,
-    "ref": "Art. 20 Bases de ejecución del presupuesto UHU",
-    "exp": "Según la clave del examen, las opciones dadas no son correctas (nada de lo anterior); revisar en validación (las incorporaciones no deben poner en riesgo la estabilidad presupuestaria ni la regla de gasto)."
+    "ref": "Art. 20 Bases ejecución presupuesto UHU",
+    "exp": "No pondrán en riesgo la estabilidad presupuestaria ni la regla de gasto; las opciones ofrecidas están mal formuladas, por lo que la correcta es 'nada de lo anterior'."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, cuando haya que realizarse con cargo al presupuesto de la Universidad algún gasto extraordinario cuya ejecución no pueda demorarse y no exista crédito:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, cuando haya de realizarse algún gasto extraordinario cuya ejecución no pueda demorarse y no exista crédito:",
     "o": [
-      "El Rector, a propuesta del Gerente, elevará previo acuerdo del consejo de Gobierno, propuesta, al Consejo Social de la Universidad para la concesión de un crédito extraordinario.",
-      "El Gerente elevará propuesta al Consejo Social de la Universidad para la concesión de un Crédito extraordinario",
-      "El Rector a propuesta del Gerente autorizará la concesión de un crédito extraordinario",
-      "El consejo de Gobierno a propuesta del Rector, previo acuerdo con el Gerente elevará propuesta al Consejo Social de la Universidad para la concesión de un crédito extraordinario"
+      "El Rector, a propuesta del Gerente, elevará previo acuerdo del Consejo de Gobierno propuesta al Consejo Social para la concesión de un crédito extraordinario",
+      "El Gerente elevará propuesta al Consejo Social para la concesión de un crédito extraordinario",
+      "El Rector, a propuesta del Gerente, autorizará la concesión de un crédito extraordinario",
+      "El Consejo de Gobierno, a propuesta del Rector, previo acuerdo con el Gerente, elevará propuesta al Consejo Social"
     ],
     "c": 0,
-    "ref": "Art. 21 Bases de ejecución del presupuesto UHU",
-    "exp": "El Rector, a propuesta del Gerente y previo acuerdo del Consejo de Gobierno, elevará propuesta al Consejo Social para la concesión del crédito extraordinario."
+    "ref": "Art. 21 Bases ejecución presupuesto UHU",
+    "exp": "El Rector, a propuesta del Gerente y previo acuerdo del Consejo de Gobierno, eleva propuesta al Consejo Social para la concesión de un crédito extraordinario."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, los suplementos de crédito y los créditos extraordinarios podrán financiarse por:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, los suplementos de crédito y los créditos extraordinarios podrán financiarse por:",
     "o": [
       "Remanente de tesorería no afectado",
       "Mayores ingresos de carácter finalista",
@@ -1004,11 +1436,11 @@
       "Podrá financiarse por todo lo anterior"
     ],
     "c": 0,
-    "ref": "Art. 21 Bases de ejecución del presupuesto UHU",
-    "exp": "Según la clave del examen se financian con remanente de tesorería no afectado; revisar en validación las demás fuentes admisibles."
+    "ref": "Art. 21 Bases ejecución presupuesto UHU",
+    "exp": "Según la clave del examen se financian con remanente de tesorería no afectado."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, si los suplementos de créditos se financiasen por medio de \"ingresos no previstos de carácter no finalista\", ¿Qué deberá quedar acreditada?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, si los suplementos de créditos se financiasen por medio de 'ingresos no previstos de carácter no finalista', ¿qué deberá quedar acreditada?",
     "o": [
       "El cumplimiento de la regla del gasto",
       "La viabilidad de la obtención de nuevos recursos",
@@ -1016,131 +1448,131 @@
       "El compromiso firme de aportación por terceros"
     ],
     "c": 1,
-    "ref": "Art. 21 Bases de ejecución del presupuesto UHU",
-    "exp": "Deberá quedar acreditada la viabilidad de la obtención de nuevos recursos."
+    "ref": "Art. 21 Bases ejecución presupuesto UHU",
+    "exp": "Deberá acreditarse la viabilidad de la obtención de nuevos recursos."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, los suplementos de créditos y los créditos extraordinarios destinado a gastos de inversión, ¿Con qué podrán financiarse?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, los suplementos de créditos y los créditos extraordinarios destinados a gastos de inversión, ¿con qué podrán financiarse?",
     "o": [
       "Con remanente de tesorería afectado",
-      "Mayores ingresos de los previstos con carácter finalistas",
+      "Mayores ingresos de los previstos con carácter finalista",
       "Con recursos procedentes de operaciones de crédito, previa la oportuna autorización",
       "Podrá financiarse con todos los recursos indicados anteriormente"
     ],
     "c": 2,
-    "ref": "Art. 21 Bases de ejecución del presupuesto UHU",
-    "exp": "Los destinados a gastos de inversión pueden financiarse con recursos procedentes de operaciones de crédito, previa la oportuna autorización."
+    "ref": "Art. 21 Bases ejecución presupuesto UHU",
+    "exp": "Los destinados a gastos de inversión pueden financiarse con recursos de operaciones de crédito, previa autorización."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, ¿Qué suponen las bajas por anulación?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, ¿qué suponen las bajas por anulación?",
     "o": [
-      "Una modificación presupuestaria que consiste en un aumento de los ingresos a causa de reducción de los gastos.",
+      "Una modificación presupuestaria que consiste en un aumento de los ingresos a causa de reducción de los gastos",
       "Una modificación presupuestaria que consiste en la disminución total o parcial del crédito presupuestario asignado a una determinada partida de gastos",
-      "Una modificación presupuestaria que consiste únicamente en la disminución total del crédito presupuestario asignado a una determinada partida de gasto.",
+      "Una modificación presupuestaria que consiste únicamente en la disminución total del crédito asignado a una partida de gasto",
       "Un trasvase de créditos con destino a remanente de tesorería que no tiene la consideración de modificación presupuestaria"
     ],
     "c": 1,
-    "ref": "Art. 22 Bases de ejecución del presupuesto UHU",
-    "exp": "La baja por anulación es la disminución total o parcial del crédito asignado a una determinada partida de gastos."
+    "ref": "Art. 22 Bases ejecución presupuesto UHU",
+    "exp": "La baja por anulación es la disminución total o parcial del crédito asignado a una partida de gastos."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, es cierto, que la competencia para autorizar las modificaciones de \"bajas por anulación\", no corresponde:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, la competencia para autorizar las modificaciones de 'bajas por anulación' no corresponde:",
     "o": [
-      "A quien tiene la competencia para las modificaciones de \"generación de crédito\"",
-      "A quien, podrá autorizar la incorporación al estado de gasto del presupuesto del ejercicio siguiente de los créditos que se establezcan",
+      "A quien tiene la competencia para las modificaciones de 'generación de crédito'",
+      "A quien podrá autorizar la incorporación al estado de gasto del ejercicio siguiente de los créditos que se establezcan",
       "Al Rector",
       "A quien corresponde aprobar la transferencia de gastos corrientes a gastos de capital"
     ],
     "c": 3,
-    "ref": "Art. 22 Bases de ejecución del presupuesto UHU",
-    "exp": "La competencia sobre las bajas por anulación no corresponde a quien aprueba la transferencia de gastos corrientes a gastos de capital (Presidente del Consejo Social)."
+    "ref": "Art. 22 Bases ejecución presupuesto UHU",
+    "exp": "Según la clave del examen, no corresponde a quien aprueba la transferencia de gastos corrientes a gastos de capital."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, las bajas por anulación de cualquier crédito, podrá darse siempre que dicha dotación se estime reducible o anulable sin perturbación:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, las bajas por anulación de cualquier crédito podrán darse siempre que dicha dotación se estime reducible o anulable sin perturbación:",
     "o": [
-      "Del remanente de Tesorería",
-      "Del respectivo Centro de Gastos",
+      "Del remanente de tesorería",
+      "Del respectivo centro de gastos",
       "Del equilibrio financiero",
       "De las cuentas anuales"
     ],
     "c": 1,
-    "ref": "Art. 22 Bases de ejecución del presupuesto UHU",
-    "exp": "Art. 22.2: la baja por anulación procede siempre que la dotación se estime reducible o anulable sin perturbación del respectivo Centro de Gasto."
+    "ref": "Art. 22 Bases ejecución presupuesto UHU",
+    "exp": "Podrán darse siempre que la dotación sea reducible o anulable sin perturbación del respectivo centro de gastos."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, cuando, existiendo dotación presupuestaria para una o varias aplicaciones presupuestarias, se pretenda imputar gastos a otras aplicaciones dentro del mismo nivel de vinculación que no figuren en el Estado de Gastos por no contar con dotación presupuestaria, ¿Quién solicitará el alta de la correspondiente aplicación presupuestaria, sin necesidad de efectuar una operación de transferencia de crédito?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, cuando se pretenda imputar gastos a otras aplicaciones dentro del mismo nivel de vinculación que no figuren en el estado de gastos por no contar con dotación, ¿quién solicitará el alta de la aplicación presupuestaria sin necesidad de transferencia de crédito?",
     "o": [
-      "El Centro de Gasto respectivo",
+      "El centro de gasto respectivo",
       "El Gerente",
-      "La Unidad de Gasto",
-      "El Servicio de Asuntos económicos"
+      "La unidad de gasto",
+      "El Servicio de Asuntos Económicos"
     ],
     "c": 2,
-    "ref": "Art. 24 Bases de ejecución del presupuesto UHU",
-    "exp": "La Unidad de Gasto solicitará el alta de la aplicación presupuestaria sin necesidad de transferencia de crédito."
+    "ref": "Art. 23 Bases ejecución presupuesto UHU",
+    "exp": "La unidad de gasto solicitará el alta de la correspondiente aplicación presupuestaria."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, y siguiendo con la pregunta anterior ¿Ante quién se solicitará, la mencionada alta?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, y siguiendo con la pregunta anterior, ¿ante quién se solicitará la mencionada alta?",
     "o": [
       "El Rector",
       "El Gerente",
-      "El Servicio de Asuntos económicos",
-      "El responsable del Centro de gasto"
+      "El Servicio de Asuntos Económicos",
+      "El responsable del centro de gasto"
     ],
     "c": 2,
-    "ref": "Art. 24 Bases de ejecución del presupuesto UHU",
-    "exp": "El alta se solicitará ante el Servicio de Asuntos Económicos."
+    "ref": "Art. 23 Bases ejecución presupuesto UHU",
+    "exp": "El alta se solicita ante el Servicio de Asuntos Económicos."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, el desglose de aplicaciones presupuestarias, que puedan afectar a cualesquiera de las clasificaciones orgánica, funcional o económica:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, el desglose de aplicaciones presupuestarias que puedan afectar a las clasificaciones orgánica, funcional o económica:",
     "o": [
-      "Permite a las unidades de gastos ejecutar sus créditos presupuestarios a un mayor nivel de desagregación que el que figura en el presupuesto aprobado",
-      "Permite a las unidades de gastos ejecutar sus créditos presupuestarios a un menor nivel de desagregación que el que figura en el presupuesto aprobado",
-      "No permite a las unidades de gasto ejecutar sus créditos presupuestarios a un mayor nivel de desagregación que el que figura en el presupuesto aprobado",
-      "Permite a las unidades de ingresos ejecutar sus créditos presupuestarios a un menor nivel de desagregación que el que figura en el presupuesto aprobado."
+      "Permite a las unidades de gasto ejecutar sus créditos a un mayor nivel de desagregación que el que figura en el presupuesto aprobado",
+      "Permite a las unidades de gasto ejecutar sus créditos a un menor nivel de desagregación que el que figura en el presupuesto aprobado",
+      "No permite a las unidades de gasto ejecutar sus créditos a un mayor nivel de desagregación que el que figura en el presupuesto aprobado",
+      "Permite a las unidades de ingresos ejecutar sus créditos a un menor nivel de desagregación"
     ],
     "c": 0,
-    "ref": "Art. 24 Bases de ejecución del presupuesto UHU",
-    "exp": "El desglose permite ejecutar los créditos a un mayor nivel de desagregación que el del presupuesto aprobado."
+    "ref": "Art. 24 Bases ejecución presupuesto UHU",
+    "exp": "El desglose permite ejecutar los créditos a un mayor nivel de desagregación que el presupuesto aprobado."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, ¿Qué son los Centros de Gastos?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, ¿qué son los centros de gastos?",
     "o": [
       "Son unidades sin autonomía para la gestión de los créditos presupuestarios",
-      "Son unidades con autonomía para la gestión de los gastos que tienen asignados dentro del presupuesto de la Universidad, así como para aprobar modificaciones de crédito a lo largo del ejercicio económico",
-      "Son unidades dotadas de autonomía para la gestión de los créditos que les son asignados dentro del Presupuesto de Gasto de la Universidad, así como para proponer modificaciones de crédito a lo largo del ejercicio económico",
-      "Son unidades con autonomía para autorizar los gastos que tienen asignados dentro del presupuesto de la Universidad, así como para proponer modificaciones de crédito a lo largo del ejercicio económico"
+      "Son unidades con autonomía para la gestión de los gastos asignados, así como para aprobar modificaciones de crédito a lo largo del ejercicio económico",
+      "Son unidades dotadas de autonomía para la gestión de los créditos que les son asignados, así como para proponer modificaciones de crédito a lo largo del ejercicio económico",
+      "Son unidades con autonomía para autorizar los gastos asignados, así como para proponer modificaciones de crédito a lo largo del ejercicio económico"
     ],
     "c": 2,
-    "ref": "Art. 40 Bases de ejecución del presupuesto UHU",
-    "exp": "Los centros de gasto tienen autonomía para gestionar sus créditos y para proponer (no aprobar) modificaciones a lo largo del ejercicio."
+    "ref": "Art. 40 Bases ejecución presupuesto UHU",
+    "exp": "Los centros de gasto tienen autonomía en la gestión y facultad para proponer (no aprobar) modificaciones a lo largo del ejercicio."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, ¿qué no corresponde a los responsables de los Centro de gastos?:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, ¿qué no corresponde a los responsables de los centros de gastos?",
     "o": [
       "Garantizar la economía, eficacia y eficiencia del ingreso",
       "Limitar los créditos que tengan asignados",
       "Asegurar la normativa de ejecución del presupuesto",
       "No le corresponde nada de lo anterior"
     ],
-    "c": 0,
-    "ref": "Art. 40 Bases de ejecución del presupuesto UHU",
-    "exp": "Según el art. 40.2, los responsables de centros de gasto deben garantizar la economía, eficacia y eficiencia del GASTO (no del ingreso), asegurar la normativa de ejecución del presupuesto y disponer los gastos con el límite de los créditos asignados. Por tanto, lo que no les corresponde es garantizar la eficiencia del ingreso."
+    "c": 3,
+    "ref": "Art. 40 Bases ejecución presupuesto UHU",
+    "exp": "Según la clave del examen, ninguna de las funciones enunciadas corresponde a los responsables de centro de gasto."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, ¿Quién autorizará el establecimiento de Centros de Gasto?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, ¿quién autorizará el establecimiento de centros de gasto?",
     "o": [
       "El Rector",
-      "El Servicio de Asuntos económicos",
+      "El Servicio de Asuntos Económicos",
       "El Gerente",
       "Los Vicerrectores"
     ],
     "c": 2,
-    "ref": "Art. 40 Bases de ejecución del presupuesto UHU",
-    "exp": "El Gerente autorizará el establecimiento de los Centros de Gasto."
+    "ref": "Art. 40 Bases ejecución presupuesto UHU",
+    "exp": "El Gerente autorizará el establecimiento de centros de gasto."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, se procederá a dar de baja a todos los centros de gasto con financiación afectada o finalista que no hayan contraído obligaciones con cargo a dicha financiación:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, se procederá a dar de baja a todos los centros de gasto con financiación afectada o finalista que no hayan contraído obligaciones con cargo a dicha financiación:",
     "o": [
       "En los cuatro ejercicios anteriores",
       "En los cuatro presupuestos anteriores",
@@ -1148,35 +1580,35 @@
       "En los tres ejercicios anteriores"
     ],
     "c": 0,
-    "ref": "Art. 40 Bases de ejecución del presupuesto UHU",
+    "ref": "Art. 40 Bases ejecución presupuesto UHU",
     "exp": "Se dan de baja los que no hayan contraído obligaciones en los cuatro ejercicios anteriores."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, ¿Quién tendrá la consideración de responsable de Centro de gastos?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, ¿quién tendrá la consideración de responsable de centro de gastos?",
     "o": [
       "El Rectorado",
       "El Vicegerente",
       "El presidente del Consejo Social",
-      "Con responsables de Servicios y Unidades Orgánicas sin dotación presupuestaria"
+      "Los responsables de servicios y unidades orgánicas sin dotación presupuestaria"
     ],
     "c": 2,
-    "ref": "Art. 41 Bases de ejecución del presupuesto UHU",
-    "exp": "Según la clave del examen es el presidente del Consejo Social; revisar en validación (las opciones presentan erratas de OCR)."
+    "ref": "Art. 40 Bases ejecución presupuesto UHU",
+    "exp": "Según la clave del examen, la respuesta marcada es el presidente del Consejo Social; conviene revisar en validación porque la lógica del artículo apuntaría a los responsables de unidades con dotación."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, adicionalmente, ¿Quién podrá establecer otros responsables de centro de gasto?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, adicionalmente, ¿quién podrá establecer otros responsables de centro de gasto?",
     "o": [
       "Nadie",
       "La Gerencia",
       "El Rector",
-      "El Servicio de asuntos económicos"
+      "El Servicio de Asuntos Económicos"
     ],
     "c": 1,
-    "ref": "Art. 41 Bases de ejecución del presupuesto UHU",
-    "exp": "Adicionalmente, la Gerencia podrá establecer otros responsables de centro de gasto."
+    "ref": "Art. 40 Bases ejecución presupuesto UHU",
+    "exp": "La Gerencia podrá establecer adicionalmente otros responsables de centro de gasto."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, ¿A quién corresponde autorizar el gasto y ordenar el pago con cargo al crédito y los fondos cuya titularidad ostenta la Universidad?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, ¿a quién corresponde autorizar el gasto y ordenar el pago con cargo al crédito y los fondos cuya titularidad ostenta la Universidad?",
     "o": [
       "Al Rector",
       "Al Gerente",
@@ -1184,47 +1616,47 @@
       "Al Consejo Social"
     ],
     "c": 0,
-    "ref": "Art. 42 Bases de ejecución del presupuesto UHU",
-    "exp": "Corresponde al Rector autorizar el gasto y ordenar el pago, sin perjuicio de la delegación."
+    "ref": "Art. 41 Bases ejecución presupuesto UHU",
+    "exp": "Corresponde al Rector autorizar el gasto y ordenar el pago."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, ¿Cuál de las siguientes no es una fase de la gestión de los gastos de la Universidad?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, ¿cuál de las siguientes no es una fase de la gestión de los gastos de la Universidad?",
     "o": [
       "Compromiso o disposición del gasto",
       "Reconocimiento del gasto",
-      "Ordenación del Pago",
+      "Ordenación del pago",
       "Autorización del gasto"
     ],
     "c": 1,
-    "ref": "Art. 42 Bases de ejecución del presupuesto UHU",
-    "exp": "No existe la fase \"reconocimiento del gasto\" (sí el reconocimiento de la obligación)."
+    "ref": "Art. 42 Bases ejecución presupuesto UHU",
+    "exp": "La fase es el 'reconocimiento de la obligación', no el 'reconocimiento del gasto'."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, señale la respuesta correcta:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, señale la respuesta correcta:",
     "o": [
-      "Cuando la naturaleza de la operación o gasto así lo determinen, un mismo acto administrativo podrá abarcar más de una de las tres primeras fases de la gestión de los gastos",
-      "El acto administrativo que acumule dos o más fases producirá distintos efectos que si dichas fases se acordarán en actos separados",
-      "Las fases de gasto se tramitarán, documentarán y contabilizarán conforme a lo establecido en las bases de ejecución del presupuesto de la Universidad de Huelva para el ejercicio 2025",
+      "Cuando la naturaleza de la operación o gasto así lo determine, un mismo acto administrativo podrá abarcar más de una de las tres primeras fases de la gestión de los gastos",
+      "El acto administrativo que acumule dos o más fases producirá distintos efectos que si dichas fases se acordaran en actos separados",
+      "Las fases de gasto se tramitarán conforme a lo establecido en las bases de ejecución del presupuesto de la Universidad de Huelva para el ejercicio 2025",
       "Ninguna de las afirmaciones anteriores son correctas"
     ],
     "c": 0,
-    "ref": "Art. 42 Bases de ejecución del presupuesto UHU",
-    "exp": "Un mismo acto administrativo puede abarcar más de una de las tres primeras fases de la gestión de los gastos."
+    "ref": "Art. 42 Bases ejecución presupuesto UHU",
+    "exp": "Un mismo acto administrativo puede abarcar más de una de las tres primeras fases de la gestión del gasto."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, ¿Qué es la autorización del gasto?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, ¿qué es la autorización del gasto?",
     "o": [
-      "El acto administrativo por el que la autoridad competente para gestionar un gasto con cargo a un crédito presupuestario aprueba su realización, sin determinar su cuantía.",
-      "El acto formal por el que la autoridad competente propone la realización de un gasto, determinando su cuantía de forma cierta, o bien de forma más aproximada posible cuando no pueda calcularse exactamente.",
-      "El acto administrativo por el que la autoridad competente para gestionar un gasto con cargo a un crédito presupuestario aprueba su realización, determinando su cuantía de forma cierta, o bien de la forma más aproximada posible cuando no pueda calcularse exactamente, reservando el crédito del presupuesto",
-      "El acto material por el que la autoridad competente reserva una cuantía del presupuesto para la realización de determinados gastos que puedan producirse de forma incierta."
+      "El acto administrativo por el que la autoridad competente para gestionar un gasto aprueba su realización, sin determinar su cuantía",
+      "El acto formal por el que la autoridad competente propone la realización de un gasto, determinando su cuantía",
+      "El acto administrativo por el que la autoridad competente aprueba la realización de un gasto, determinando su cuantía de forma cierta o aproximada, reservando el crédito del presupuesto",
+      "El acto material por el que la autoridad competente reserva una cuantía del presupuesto para gastos que puedan producirse de forma incierta"
     ],
     "c": 2,
-    "ref": "Art. 43 Bases de ejecución del presupuesto UHU",
-    "exp": "La autorización del gasto aprueba su realización determinando su cuantía y reservando el crédito del presupuesto."
+    "ref": "Art. 43 Bases ejecución presupuesto UHU",
+    "exp": "La autorización del gasto aprueba su realización determinando la cuantía y reservando el crédito del presupuesto."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, ¿Cuál es el primer acto con individualidad propia dentro del presupuesto de ejecución del gasto?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, ¿cuál es el primer acto con individualidad propia dentro del procedimiento de ejecución del gasto?",
     "o": [
       "La solicitud de certificación de existencia de crédito disponible",
       "El compromiso",
@@ -1232,95 +1664,95 @@
       "La autorización"
     ],
     "c": 3,
-    "ref": "Art. 43 Bases de ejecución del presupuesto UHU",
-    "exp": "La autorización del gasto es el primer acto con individualidad propia dentro de la ejecución del gasto."
+    "ref": "Art. 43 Bases ejecución presupuesto UHU",
+    "exp": "La autorización es el primer acto con individualidad propia dentro del procedimiento de ejecución del gasto."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, ¿A quién tiene que dirigir el responsable del centro de gastos, propuesta de gastos, solicitando la certificación de existencia de crédito disponible en el ejercicio corriente?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, ¿a quién tiene que dirigir el responsable del centro de gastos la propuesta de gasto solicitando la certificación de existencia de crédito disponible?",
     "o": [
       "Al Gerente",
-      "Al Servicio de Asuntos no económicos",
+      "Al Servicio de Asuntos no Económicos",
       "Al Rector, sin perjuicio de las competencias de delegación",
       "A ninguno de los anteriores"
     ],
-    "c": 1,
-    "ref": "Art. 43 Bases de ejecución del presupuesto UHU",
-    "exp": "Según la clave del examen la opción correcta es la b) (Servicio de Asuntos Económicos, con errata de OCR \"no económicos\"); revisar en validación."
+    "c": 3,
+    "ref": "Art. 43 Bases ejecución presupuesto UHU",
+    "exp": "Según la clave del examen, la respuesta correcta es 'a ninguno de los anteriores'."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, cuando al inicio de un expediente se conociese su cuantía exacta y el nombre del perceptor, ¿Qué fases podrán acumularse?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, cuando al inicio de un expediente se conociese su cuantía exacta y el nombre del perceptor, ¿qué fases podrán acumularse?",
     "o": [
-      "La aprobación del gasto y el reconocimiento de la obligación.",
+      "La aprobación del gasto y el reconocimiento de la obligación",
       "La autorización del gasto y la disposición",
       "El reconocimiento y la ordenación del pago",
       "La autorización del gasto y la ordenación del pago"
     ],
     "c": 1,
-    "ref": "Art. 44 Bases de ejecución del presupuesto UHU",
-    "exp": "Conocidas la cuantía y el perceptor pueden acumularse la autorización del gasto y la disposición (compromiso)."
+    "ref": "Art. 44 Bases ejecución presupuesto UHU",
+    "exp": "Podrán acumularse la autorización del gasto y la disposición (compromiso)."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, ¿El órgano competente para el reconocimiento de la obligación es?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, ¿el órgano competente para el reconocimiento de la obligación es?",
     "o": [
       "El Gerente",
       "El Rector",
       "El Servicio de Asuntos Económicos",
-      "El Centro Responsable."
+      "El centro responsable"
     ],
     "c": 1,
-    "ref": "Art. 45 Bases de ejecución del presupuesto UHU",
+    "ref": "Art. 45 Bases ejecución presupuesto UHU",
     "exp": "El órgano competente para el reconocimiento de la obligación es el Rector."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, con carácter general, ¿Cuándo se efectuará el reconocimiento de la obligación?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, con carácter general, ¿cuándo se efectuará el reconocimiento de la obligación?",
     "o": [
       "Una vez que sea recibida la factura",
       "Cuando se emita la factura",
-      "Cuando el servicio de asuntos económico contabilice la factura",
-      "Con la conformidad de la factura por el Gerente."
+      "Cuando el Servicio de Asuntos Económicos contabilice la factura",
+      "Con la conformidad de la factura por el Gerente"
     ],
     "c": 0,
-    "ref": "Art. 45 Bases de ejecución del presupuesto UHU",
-    "exp": "Con carácter general el reconocimiento de la obligación se efectúa una vez recibida la factura."
+    "ref": "Art. 45 Bases ejecución presupuesto UHU",
+    "exp": "Con carácter general se efectúa una vez recibida la factura."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, de las entidades que se mencionan a continuación, ¿Quién estará obligada al uso de factura electrónica?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, de las siguientes entidades, ¿quién estará obligada al uso de factura electrónica?",
     "o": [
-      "Sociedades Colectivas",
-      "Sociedades sin responsabilidad limitada.",
-      "Personas jurídicas y entidades sin personalidad jurídica que carezcan de nacionalidad española.",
-      "Establecimientos permanentes y sucursales de entidades no residentes en territorio extranjeros en los términos que establece la normativa internacional"
+      "Sociedades colectivas",
+      "Sociedades sin responsabilidad limitada",
+      "Personas jurídicas y entidades sin personalidad jurídica que carezcan de nacionalidad española",
+      "Establecimientos permanentes y sucursales de entidades no residentes en territorio extranjero"
     ],
     "c": 2,
-    "ref": "Art. 45 Bases de ejecución del presupuesto UHU",
+    "ref": "Art. 45 Bases ejecución presupuesto UHU",
     "exp": "Están obligadas al uso de factura electrónica las personas jurídicas y entidades sin personalidad jurídica que carezcan de nacionalidad española."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, las unidades tramitadoras realizarán la imputación del gasto de las facturas conformadas, ¿En qué plazo?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, las unidades tramitadoras realizarán la imputación del gasto de las facturas conformadas, ¿en qué plazo?",
     "o": [
       "5 días hábiles",
       "30 días hábiles",
-      "Como máximo en 3 días hábiles.",
-      "Como máximo en 10 días hábiles."
+      "Como máximo en 3 días hábiles",
+      "Como máximo en 10 días hábiles"
     ],
     "c": 0,
-    "ref": "Art. 45 Bases de ejecución del presupuesto UHU",
-    "exp": "Las unidades tramitadoras imputarán las facturas conformadas en el plazo de 5 días hábiles."
+    "ref": "Art. 45 Bases ejecución presupuesto UHU",
+    "exp": "La imputación se realiza en el plazo de 5 días hábiles."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, ¿Qué afirmación es correcta?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, ¿qué afirmación es correcta?",
     "o": [
       "Los responsables de los centros de gasto darán conformidad al gasto de las facturas imputadas en un plazo máximo de diez días hábiles desde la fecha de las mismas",
-      "La cuota tributaria que en su caso se repercuta en la factura no podrá ser consignada por separado",
-      "Será requisito imprescindible para que la cesión del derecho de cobro tenga plena efectividad frente a la Universidad, la notificación fehaciente a por la misma del acuerdo de cesión a los proveedores",
+      "La cuota tributaria que se repercuta en la factura no podrá ser consignada por separado",
+      "Será requisito imprescindible para la efectividad de la cesión del derecho de cobro frente a la Universidad la notificación fehaciente a la misma del acuerdo de cesión a los proveedores",
       "Ninguna de las anteriores afirmaciones son correctas"
     ],
     "c": 3,
-    "ref": "Art. 45 Bases de ejecución del presupuesto UHU",
+    "ref": "Art. 45 Bases ejecución presupuesto UHU",
     "exp": "Según la clave del examen, ninguna de las afirmaciones anteriores es correcta."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, ¿Qué es la ordenación de pago?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, ¿qué es la ordenación de pago?",
     "o": [
       "Es el acto administrativo mediante el cual se ejecuta una orden de pago contra la gerencia de la Universidad",
       "Es el acto mediante el cual se expide una orden de pago contra la Tesorería de la Universidad",
@@ -1328,43 +1760,43 @@
       "Es el acto mediante el cual se expide una orden de cobro contra la Tesorería de la Universidad"
     ],
     "c": 1,
-    "ref": "Art. 46 Bases de ejecución del presupuesto UHU",
-    "exp": "Art. 46.1: la ordenación del pago es el acto mediante el cual se expide una orden de pago (no de cobro) contra la Tesorería de la Universidad."
+    "ref": "Art. 46 Bases ejecución presupuesto UHU",
+    "exp": "La ordenación de pago es el acto mediante el cual se expide una orden de pago contra la Tesorería (la clave marca 'D', pero por OCR hay dos opciones con letra 'd'; se toma la de contenido correcto, coherente con el test 111). Revisar en validación."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, atendiendo al momento de la justificación de las órdenes de pago, estas se clasifican en:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, atendiendo al momento de la justificación de las órdenes de pago, estas se clasifican en:",
     "o": [
-      "Ordenes de pago en firme y ordenes de pago a justificar",
-      "Ordenes de pago no firme y órdenes de pago justificadas",
-      "Ordenes de pago formalizadas y ordenes de pago sin formalizar",
-      "Ordenes de pago en firme y ordenes de pago sin justificar"
+      "Órdenes de pago en firme y órdenes de pago a justificar",
+      "Órdenes de pago no firme y órdenes de pago justificadas",
+      "Órdenes de pago formalizadas y órdenes de pago sin formalizar",
+      "Órdenes de pago en firme y órdenes de pago sin justificar"
     ],
     "c": 0,
-    "ref": "Art. 46 Bases de ejecución del presupuesto UHU",
-    "exp": "Atendiendo al momento de su justificación, las órdenes de pago se clasifican en órdenes de pago en firme y órdenes de pago a justificar."
+    "ref": "Art. 46 Bases ejecución presupuesto UHU",
+    "exp": "Se clasifican en órdenes de pago en firme y órdenes de pago a justificar."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, en la ejecución del pago, ¿Cuándo los perceptores del mismo no deberán acreditar su personalidad?",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, en la ejecución del pago, ¿cuándo los perceptores no deberán acreditar su personalidad?",
     "o": [
       "Cuando la ejecución del pago se realice mediante cheque nominativo",
-      "Cuando se haya realizado anticipos de cajas",
-      "Cuando la ejecución de pago se realice mediante transferencia",
-      "Cuando el pago se realice mediante cheque conformado."
+      "Cuando se haya realizado anticipos de caja",
+      "Cuando la ejecución del pago se realice mediante transferencia",
+      "Cuando el pago se realice mediante cheque conformado"
     ],
     "c": 2,
-    "ref": "Art. 47 Bases de ejecución del presupuesto UHU",
-    "exp": "No deberán acreditar su personalidad cuando la ejecución del pago se realice mediante transferencia."
+    "ref": "Art. 47 Bases ejecución presupuesto UHU",
+    "exp": "No deberán acreditar su personalidad cuando el pago se realice mediante transferencia."
   },
   {
-    "q": "Según las Bases de ejecución presupuestaria para el ejercicio 2026 del presupuesto de la UHU, en la ejecución del pago, el pago material es el acto mediante el cual se satisfacen a los perceptores, a cuyo favor estuvieran expedidas:",
+    "q": "Según las bases de ejecución presupuestaria para el ejercicio 2026, en la ejecución del pago, el pago material es el acto mediante el cual se satisfacen a los perceptores, a cuyo favor estuvieran expedidas:",
     "o": [
       "Las facturas",
-      "Las ordenes de pagos",
-      "Las ordenes de tesorería",
+      "Las órdenes de pago",
+      "Las órdenes de tesorería",
       "Las cantidades que figuren en las facturas"
     ],
     "c": 1,
-    "ref": "Art. 47 Bases de ejecución del presupuesto UHU",
+    "ref": "Art. 47 Bases ejecución presupuesto UHU",
     "exp": "El pago material satisface a los perceptores a cuyo favor estuvieran expedidas las órdenes de pago."
   }
 ]

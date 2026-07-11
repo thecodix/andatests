@@ -35,8 +35,8 @@ META = [
     (13, "Información general de la Universidad de Huelva",         "UHU"),
     (14, "Bases de ejecución presupuestaria de la UHU",             "Presupuesto UHU"),
     (15, "Reglamento de permanencia y progreso (grado y máster)",   "Reglamento UHU"),
-    (16, "Administración electrónica y el ENS",                     "RD 311/2022"),
-    (17, "La Administración de la Junta de Andalucía",              "Ley 9/2007"),
+    (16, "Microsoft 365: Word",                                     "Microsoft 365"),
+    (17, "Microsoft 365: Excel",                                    "Microsoft 365"),
 ]
 
 

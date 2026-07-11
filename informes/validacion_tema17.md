@@ -1,47 +1,68 @@
 # Validación Tema 17 — Microsoft 365: Excel
 
-Fuente de verdad: `pdfs/tema17/temario/tema17.pdf` (síntesis propia de temario-generator; cacheado en `.cache/tema17_temario_tema17.txt`).
-Fuentes secundarias (claves oficiales): exámenes Test 80, 82, 83, 113, 117, 120.
-Banco: `banco/tema17.json` — 163 preguntas.
+Fuente de verdad: `.cache/tema17_temario_tema17.txt` (temario oficial, 8 págs, leído completo).
+Banco: `banco/tema17.json` — 168 preguntas.
 
-Resumen: 155 OK · 6 ERR (corregidas) · 2 WARN · 0 REVIEW.
+Resumen: 2 ERR corregidas · 6 WARN · 2 REVIEW · resto OK (158).
 
-## Erratas corregidas (ERR)
-
-```
-ERR    | q_022 | Vistas Excel        | Temario: "la vista que representa la hoja como se imprimirá se denomina en Excel Diseño de página" — c de 2 (Diseño de impresión) a 1 (Diseño de página)
-ERR    | q_034 | Atajo nuevo libro   | Temario: "El atajo de teclado es CTRL+U"; clave Test 80 Q4 = C (CTRL+U) — c de 3 (CTRL+N) a 2 (CTRL+U)
-ERR    | q_089 | Sintaxis función    | Enunciado decía "fórmula" (con =A5+B5 también válido); restaurado a "función" para que =SUMA sea la única correcta. Temario: "=SUMA(A1:A4)"
-ERR    | q_102 | Biblioteca funciones| Enunciado decía "Biblioteca de funciones" con respuesta "No existe" (falso). Restaurado a "Biblioteca de fórmulas" (grupo inexistente). Temario: "El grupo Biblioteca de funciones se encuentra en la pestaña Fórmulas"
-ERR    | q_147 | Formato condicional | Temario: "no existe la opción «compartir regla»" y "Administrar reglas" sí existe — c de 2 (Administrar reglas) a 1 (Compartir regla)
-ERR    | q_148 | Formato condicional | Temario: "Conjuntos de iconos (por ejemplo, iconos direccionales)" y "las reglas se aplican a celdas, no «a libros»" — c de 0 (Resaltar reglas de libros) a 2 (Conjunto de iconos direccionales)
-```
-
-## Puntos débiles (WARN, no modificados)
+## Errores corregidos (ERR)
 
 ```
-WARN   | q_030 | Test 80 Q1          | "Documento en blanco": clave oficial marca D (Ninguna de las anteriores) pese a que la ruta pasa por Archivo>Nuevo; enunciado con opciones ambiguas. Se respeta clave oficial.
-WARN   | q_155 | Formato de celdas   | Test 83 Q19: tanto CTRL+1 como CTRL+MAY+F abren Formato de celdas (temario los da ambos). El banco fija CTRL+1; la clave del examen marcaba CTRL+MAY+F. Ambas válidas.
+ERR | "vista que muestra la disposición ... como se imprimirá" | Excel 365 - Vistas
+    | Temario: "la vista que representa la hoja como se imprimirá se denomina en Excel Diseño de página"
+    | y "«Diseño de impresión» de Word". c corregido 2 -> 1 (Diseño de página). El propio exp lo marcaba
+    | para revisar; ademas coincide con otras 2 preguntas del banco que ya dan "Diseño de página".
+
+ERR | "atajo de teclado para crear un libro en blanco" | Excel 365 - Atajos de teclado
+    | Temario: "Crear un libro ... El atajo de teclado es CTRL+U". Clave del examen (test_80) tambien = C (CTRL+U).
+    | c corregido 3 (CTRL+N) -> 2 (CTRL+U). exp actualizado.
 ```
 
-## Notas sobre preguntas señaladas por el generador
+## Advertencias (WARN — no modificadas)
 
-- Test 117 Q4 (q_022): resuelto como ERR → "Diseño de página" (coincide con la pregunta hermana q_142 del mismo banco).
-- Test 82 Q15 (q_102): "Biblioteca de fórmulas" no existe → "No existe" es correcta tras restaurar el enunciado.
-- Test 82 Q42 (q_138): "Comprobación de errores busca errores... (pestaña Fórmulas)" → solo A correcta (c=0). Confirmado OK.
-- Test 82 Q43 (q_139): Filtro; entre las opciones dadas (sin "Datos"), Inicio es la correcta. OK.
-- Test 82 Q5 (q_089): resuelto como ERR de enunciado ("fórmula"→"función").
-- Test 82 Q34 (q_130): "proteger un libro" — Revisar no figura entre las opciones; entre las dadas, Archivo es correcta (temario: Archivo>Información>Proteger libro). OK.
-- Test 83 Q23 / Q23BIS (q_147 / q_148): ambas corregidas contra el temario (ver ERR).
-- Test 80 Q28 (q_047): temario "Buscar y reemplazar (atajos CTRL+B... CTRL+L)"; CTRL+C es copiar → "No se puede usar el atajo CTRL+C" es cierta (c=2). Confirmado OK.
+```
+WARN | "¿qué opción es correcta para guardar un archivo?" | Excel 365 - Guardar
+     | Temario: la barra de acceso rápido "incluye comandos como Guardar". Tanto CTRL+G (op.1, clave) como
+     | "herramienta de guardar de la barra de acceso rápido" (op.2) son válidas -> dos respuestas correctas.
+WARN | "atajo para acceder a Formato de Celda" (CTRL+MAY+F) | Excel 365 - Atajos de teclado
+     | Temario: "se abre con CTRL+1 (o CTRL+MAY+F ...)". El atajo habitual (CTRL+1) no está entre las opciones;
+     | CTRL+MAY+F es válido segun temario, c=1 se sostiene. exp ya lo aclara.
+WARN | "¿existe la opción de bloquear celdas?" (B y C correctas) | Excel 365 - Proteger celdas
+     | Temario: bloqueo via Formato de celdas (pestaña Proteger) surte efecto al proteger la hoja. Opción B cita
+     | "grupo alineación" (impreciso: es el iniciador de diálogo de ese grupo). Respuesta agregada aceptable.
+WARN | "opción FILTRO, ¿en qué pestaña?" (Inicio) | Excel 365 - Filtro
+     | Temario ubica Filtrar en Datos y en Inicio > Buscar y seleccionar/Ordenar y filtrar. Op. correcta (Inicio)
+     | válida; Datos también lo tendría, pero no figura como opción.
+WARN | "para abrir un libro existente" (pestaña inicio, CTRL+A) | Excel 365 - Abrir libro
+     | Temario: "Abrir un libro existente: Archivo > Abrir ... El atajo es CTRL+A". El atajo es correcto; la
+     | ubicación "pestaña inicio" es imprecisa (es Archivo). exp ya lo señala.
+WARN | "etiquetas de las hojas" (sin color y se ven en blanco) | Excel 365 - Etiquetas de hoja
+     | Temario: "las etiquetas no tienen color asignado (fondo blanco y texto en negro)". Redacción de opciones
+     | 1/2 confusa (color de fondo vs. de texto), pero la elegida es la coherente.
+```
 
-## Verificación por bloques (OK) — muestras de evidencia del temario
+## A revisar (REVIEW — no modificadas)
 
-- Entorno/pantalla (q_001–q_021, q_035–q_072): "celdas, que constituyen la unidad básica"; "Libro1 - Excel"; "cuadro de nombres... referencia de la celda activa"; "no existe ninguna «barra de cálculo»". Coinciden.
-- Libros/hojas/celdas (q_073–q_088, q_090–q_101): "El archivo... se denomina libro"; ".xlsx"; "una sola hoja"; "máximo de 31 caracteres y no puede contener \\ / ? * [ ] :"; "MAY+F11... a la izquierda de la hoja activa". Coinciden.
-- Desplazamiento/edición (q_103–q_128): "Celda de arriba... MAY+INTRO"; "INICIO... primera celda de la fila activa"; "(10) se interpreta como –10"; "ESC... cancela"; "SUPR borra el contenido... conserva el formato". Coinciden.
-- Fórmulas/funciones/referencias (q_015–q_018, q_129–q_170): "Toda fórmula comienza... por el signo ="; "& (une cadenas)"; "ABS... valor absoluto"; "RESIDUO... resto"; "=(A1+B2)*C3"; "$A$1... no varía al copiarla"; "A$10 es mixta con la fila fija". Coinciden.
-- Gráficos/datos (q_113–q_115, q_133–q_140): "grupo Gráficos... pestaña Insertar"; "ALT+F1... incrustado"; "F11... hoja de gráfico independiente"; "«pentagrama» no es un tipo de gráfico"; "Quitar duplicados... Herramientas de datos". Coinciden.
-- Formato/protección/impresión (q_141–q_163): "no existe la opción «combinar verticalmente»"; "General... sin formato numérico específico"; "Código postal... Especial"; "celdas... bloqueadas"; "Proteger libro... estructura"; "Área de impresión... no incluye las celdas vacías"; "CTRL+P... vista previa e impresión". Coinciden.
+```
+REVIEW | "abrir desde el icono de Excel, ¿qué acción no se podrá realizar?" (activar pestaña archivo)
+       | El temario no describe la pantalla de inicio con ese detalle; no se puede confirmar contra el temario.
+REVIEW | "¿qué pestaña activar para llegar a la opción Documento en blanco?" (ninguna correcta)
+       | Depende del matiz "Documento en blanco" (término de Word; en Excel es "Libro en blanco"). El temario no
+       | lo plantea así explícitamente; la clave del examen da "ninguna", se respeta.
+```
 
-Todas las demás preguntas no listadas como ERR/WARN se han contrastado con el pasaje correspondiente del temario y son OK.
+## OK (evidencia representativa)
+
+- Libro/extensión: Temario "El archivo que crea ... se denomina libro" / ".xlsx" / "una sola hoja" — coincide.
+- Atajos: Temario anexo confirma ALT+F4 (cerrar Excel), CTRL+F4 (cerrar libro), CTRL+G (guardar), MAY+F11
+  (insertar hoja), MAY+F3 (insertar función), ALT+F1/F11 (gráfico), CTRL+INICIO (A1), CTRL+MAY+Espacio (toda
+  la hoja), CTRL+INTRO (rango), CTRL+F1 (contraer cinta), CTRL+rueda (zoom) — todas coinciden.
+- Referencias: Temario "$A10 es mixta con la columna fija; A$10 es mixta con la fila fija" y "$A$1 fija columna
+  y fila" — coincide con todas las preguntas de referencias.
+- Funciones: Temario "ABS ... valor absoluto", "RESIDUO ... resto de una división", "PROMEDIO ... estadística",
+  "AHORA() ... fecha y hora", "SI ... lógica", "TRUNCAR/ENTERO matemáticas; LARGO de texto" — coincide.
+- Operadores: Temario clasifica & (concatenación), : (referencia/rango), <> (distinto), = (comparación) — coincide.
+- Errores: Temario tabla #####, #¡REF!, #¿NOMBRE? — coincide.
+- Vistas/impresión/formato/protección/formato condicional/datos/gráficos: verificado contra sec. 6-12 del temario.
+
+Estado JSON: válido, 168 preguntas, campos {q,o,c,ref,exp} intactos. banco.js regenerado (2565 preguntas, 17 temas).

@@ -1,6 +1,6 @@
 [
   {
-    "q": "En Excel 365, señale la correcta: una hoja de cálculo está compuesta por:",
+    "q": "En Excel 365, una hoja de cálculo está compuesta por:",
     "o": [
       "Rangos",
       "Fórmulas",
@@ -8,7 +8,7 @@
       "Cuadrículas"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
+    "ref": "Excel 365 - Hoja de cálculo",
     "exp": "La hoja de cálculo está compuesta por celdas."
   },
   {
@@ -20,7 +20,7 @@
       "De las funciones que se pueden introducir"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
+    "ref": "Excel 365 - Cuadro de nombres",
     "exp": "El cuadro de nombres muestra la referencia de la celda activa."
   },
   {
@@ -32,8 +32,8 @@
       "X+F4"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "ALT+F4 cierra la aplicación."
+    "ref": "Excel 365 - Atajos de teclado",
+    "exp": "ALT+F4 cierra la aplicación Excel (CTRL+F4 cierra solo el libro)."
   },
   {
     "q": "En Excel 365, los archivos creados en Excel reciben el nombre de:",
@@ -44,11 +44,11 @@
       "Libro"
     ],
     "c": 3,
-    "ref": "Tema 17 - Excel 365",
+    "ref": "Excel 365 - Libro",
     "exp": "El archivo de Excel se denomina libro."
   },
   {
-    "q": "En Excel 365, ¿a través de qué opciones podría cambiar el tipo de archivo?",
+    "q": "En Excel 365, se podría cambiar el tipo de archivo a través de las opciones:",
     "o": [
       "Archivo/información",
       "Archivo/exportar",
@@ -56,23 +56,23 @@
       "Archivo/cuenta"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Archivo > Exportar > Cambiar el tipo de archivo."
+    "ref": "Excel 365 - Exportar",
+    "exp": "El tipo de archivo se cambia en Archivo/Exportar (Cambiar el tipo de archivo)."
   },
   {
     "q": "En Excel 365, ¿qué opción es correcta para guardar un archivo de Excel?",
     "o": [
       "Utilizar la herramienta guardar de la barra de estado",
       "Utilizar el atajo de teclado CTRL+G",
-      "Utilizar la herramienta cuenta",
+      "Utilizar la herramienta de guardar de la barra de acceso rápido",
       "Cualquiera de las anteriores"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "CTRL+G guarda el archivo (versión española)."
+    "ref": "Excel 365 - Guardar",
+    "exp": "CTRL+G guarda el archivo (la herramienta Guardar no está en la barra de estado)."
   },
   {
-    "q": "En Excel 365, ¿cuál de estos caracteres NO podría utilizarse para nombrar una hoja de cálculo?",
+    "q": "En Excel 365, ¿cuál de los siguientes caracteres no podría utilizarse para nombrar una hoja de cálculo?",
     "o": [
       "A",
       "1",
@@ -80,35 +80,35 @@
       "*"
     ],
     "c": 3,
-    "ref": "Tema 17 - Excel 365",
+    "ref": "Excel 365 - Nombres de hoja",
     "exp": "El asterisco (*) no está permitido en los nombres de hoja."
   },
   {
-    "q": "En Excel 365, para copiar hojas de Excel, señale la opción correcta:",
+    "q": "En Excel 365, para copiar hojas de Excel, señala la opción correcta:",
     "o": [
       "Seleccionar y arrastrar a la nueva posición",
       "Seleccionar, arrastrar a la nueva posición manteniendo pulsado CTRL",
       "Seleccionar y pulsar CTRL",
-      "Seleccionar y usar el atajo de teclado CTRL+X"
+      "Seleccionar y usar el atajo CTRL+X"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Arrastrar la etiqueta con CTRL pulsado copia la hoja."
+    "ref": "Excel 365 - Copiar hojas",
+    "exp": "Se copia una hoja arrastrando su etiqueta con la tecla CTRL pulsada."
   },
   {
     "q": "En Excel 365, ¿se puede poner un nombre a un rango de celdas?",
     "o": [
       "No",
-      "Sí, sin que pueda ser la referencia de las celdas",
+      "Sí, sin que pueda coincidir con las referencias de las celdas",
       "Sí, a través del cuadro de nombres",
       "Sí, pero solo para celdas con formato texto"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Se asigna un nombre a un rango desde el cuadro de nombres."
+    "ref": "Excel 365 - Nombres de rango",
+    "exp": "Se puede nombrar un rango a través del cuadro de nombres."
   },
   {
-    "q": "En Excel 365, para desplazarse a la celda de arriba, la opción correcta es:",
+    "q": "En Excel 365, para ir a la celda de arriba en el desplazamiento por las celdas, la opción correcta es:",
     "o": [
       "Tabulador",
       "MAY+INTRO",
@@ -116,11 +116,11 @@
       "MAY+CTRL"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "MAY+INTRO desplaza a la celda superior (INTRO baja, MAY+INTRO sube)."
+    "ref": "Excel 365 - Desplazamiento",
+    "exp": "MAY+INTRO mueve a la celda superior."
   },
   {
-    "q": "En Excel 365, al introducir un dato tipo texto, este se alinea a:",
+    "q": "En Excel 365, al introducir un dato tipo texto en una celda, este se alinea a:",
     "o": [
       "A la izquierda",
       "Al centro",
@@ -128,8 +128,8 @@
       "Se justifica"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "El texto se alinea a la izquierda."
+    "ref": "Excel 365 - Alineación",
+    "exp": "El texto se alinea por defecto a la izquierda."
   },
   {
     "q": "En Excel 365, para introducir un valor negativo en una celda, ¿qué opción es correcta?",
@@ -137,26 +137,26 @@
       "Escribirlo en rojo",
       "Anteponerle el signo =",
       "Colocarlo entre paréntesis",
-      "Poner el signo - después del valor"
+      "Poner el signo – después del valor"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Colocar el número entre paréntesis lo interpreta como negativo."
+    "ref": "Excel 365 - Introducción de datos",
+    "exp": "Un número entre paréntesis se interpreta como negativo."
   },
   {
     "q": "En Excel 365, si en el cuadro de nombres introduzco B5:F5, ¿qué ocurre?",
     "o": [
       "Que selecciona todas las celdas comprendidas entre la B5 y la F5",
-      "Que selecciona las celdas B5 y F5",
+      "Que selecciona solo las celdas B5 y F5",
       "Que elimina las celdas B5 y F5",
       "Que oculta las celdas entre la B5 y la F5"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "El rango B5:F5 selecciona todas las celdas de ese intervalo."
+    "ref": "Excel 365 - Cuadro de nombres",
+    "exp": "Al escribir B5:F5 se selecciona todo el rango comprendido entre B5 y F5."
   },
   {
-    "q": "En Excel 365, en Excel las fórmulas empiezan con el signo:",
+    "q": "En Excel 365, las fórmulas empiezan con el signo:",
     "o": [
       ":",
       "=",
@@ -164,8 +164,8 @@
       "%"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Toda fórmula comienza con el signo igual (=)."
+    "ref": "Excel 365 - Fórmulas",
+    "exp": "Toda fórmula comienza con el signo =."
   },
   {
     "q": "En Excel 365, ¿qué tipo de operador es &?",
@@ -176,8 +176,8 @@
       "Concatenación"
     ],
     "c": 3,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "& es el operador de concatenación de texto."
+    "ref": "Excel 365 - Operadores",
+    "exp": "& es el operador de concatenación."
   },
   {
     "q": "En Excel 365, la función ABS:",
@@ -188,11 +188,11 @@
       "Devuelve el resto de una división"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "ABS devuelve el valor absoluto."
+    "ref": "Excel 365 - Funciones matemáticas",
+    "exp": "ABS devuelve el valor absoluto de un número."
   },
   {
-    "q": "En Excel 365, NO es una función de texto:",
+    "q": "En Excel 365, no es una función de texto:",
     "o": [
       "Derecha",
       "Largo",
@@ -200,20 +200,20 @@
       "Truncar"
     ],
     "c": 3,
-    "ref": "Tema 17 - Excel 365",
+    "ref": "Excel 365 - Funciones",
     "exp": "TRUNCAR es una función matemática, no de texto."
   },
   {
-    "q": "En Excel 365, la referencia A$10:",
+    "q": "En Excel 365, la referencia A$10 es:",
     "o": [
-      "Es absoluta",
-      "Es relativa",
-      "Es mixta con fila fija",
-      "Es mixta con columna fija"
+      "Absoluta",
+      "Relativa",
+      "Mixta con fila fija",
+      "Mixta con columna fija"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "A$10 deja la columna relativa y fija la fila: mixta con fila fija."
+    "ref": "Excel 365 - Referencias",
+    "exp": "A$10 fija la fila 10 (mixta con fila fija) y deja relativa la columna."
   },
   {
     "q": "En Excel 365, cuando se abre la aplicación directamente desde el icono de Excel 365 del escritorio, ¿qué acción no se podrá realizar?",
@@ -224,11 +224,11 @@
       "Se podrán realizar todas las acciones anteriores"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "En la pantalla de inicio aún no hay libro abierto, por lo que no se puede activar la pestaña Archivo. Según la clave del examen la correcta es C."
+    "ref": "Excel 365 - Pantalla de inicio",
+    "exp": "Desde la pantalla de inicio no aparece aún la pestaña Archivo hasta abrir un libro."
   },
   {
-    "q": "En Excel 365, la opción 'deshacer', ¿qué atajo de teclado es el adecuado?",
+    "q": "En Excel 365, para la opción 'deshacer', ¿qué atajo de teclado es el adecuado?",
     "o": [
       "CTRL+U",
       "CTRL+Z",
@@ -236,7 +236,7 @@
       "CTRL+D"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
+    "ref": "Excel 365 - Atajos de teclado",
     "exp": "CTRL+Z deshace la última acción."
   },
   {
@@ -248,8 +248,8 @@
       "A la derecha del nombre del libro"
     ],
     "c": 3,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "El cuadro de búsqueda está en la barra de título, a la derecha del nombre del libro."
+    "ref": "Excel 365 - Cuadro de búsqueda",
+    "exp": "El cuadro de búsqueda está en la parte superior, a la derecha del nombre del libro."
   },
   {
     "q": "En Excel 365, ¿qué tipo de vista muestra la disposición general de la hoja de cálculo tal y como se imprimirá en una hoja de papel?",
@@ -260,11 +260,11 @@
       "Modo lectura"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Según el temario, la vista que muestra la hoja tal y como se imprimirá se denomina en Excel 'Diseño de página' ('Diseño de impresión' es terminología de Word). Corregido de C a B respecto a la clave del examen."
+    "ref": "Excel 365 - Vistas",
+    "exp": "En Excel la vista que muestra la hoja tal como se imprimirá se denomina 'Diseño de página' (el término 'Diseño de impresión' es propio de Word y no existe en Excel)."
   },
   {
-    "q": "En Excel 365, respecto a la cinta de opciones, NO existe la opción:",
+    "q": "En Excel 365, respecto a la cinta de opciones, no existe la opción:",
     "o": [
       "De eliminarla",
       "Ocultarla automáticamente",
@@ -272,32 +272,32 @@
       "Existen todas las opciones anteriores"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "La cinta se puede contraer u ocultar, pero no eliminar."
+    "ref": "Excel 365 - Cinta de opciones",
+    "exp": "La cinta se puede ocultar o contraer, pero no eliminar."
   },
   {
     "q": "En Excel 365, ¿qué opción permite aumentar o reducir la visualización del contenido sin modificar el tamaño real de la hoja de cálculo?",
     "o": [
       "Ventana",
-      "La que permite el atajo de teclado CTRL+rueda del ratón (zoom)",
+      "La que permite el atajo CTRL+rueda del ratón",
       "Filtro",
       "Navegar"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
+    "ref": "Excel 365 - Zoom",
     "exp": "El zoom (CTRL+rueda del ratón) cambia la visualización sin alterar el tamaño real."
   },
   {
     "q": "En Excel 365, indique qué opción es correcta para cambiar el nombre de la hoja:",
     "o": [
       "Haciendo un clic en el nombre de la hoja",
-      "Usando la opción Formato del grupo Celdas de la ficha Inicio y eligiendo 'cambiar nombre de hoja'",
+      "Usando la opción formato del grupo celdas de la ficha inicio y eligiendo 'cambiar nombre de hoja'",
       "Marcar la opción del menú contextual del botón izquierdo del ratón",
       "Usando las opciones de la pestaña archivo"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Inicio > Celdas > Formato > Cambiar el nombre de la hoja."
+    "ref": "Excel 365 - Hojas",
+    "exp": "Se puede renombrar con Inicio > grupo Celdas > Formato > Cambiar el nombre de la hoja."
   },
   {
     "q": "En Excel 365, ¿qué combinación de teclas es adecuada para insertar una hoja de cálculo?",
@@ -308,11 +308,11 @@
       "MAY + CTRL"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "MAY + F11 inserta una hoja de cálculo."
+    "ref": "Excel 365 - Atajos de teclado",
+    "exp": "MAY+F11 inserta una hoja de cálculo."
   },
   {
-    "q": "En Excel 365, ¿en qué pestaña/grupo de la cinta de opciones se encuentra la opción 'Eliminar hoja'?",
+    "q": "En Excel 365, ¿en qué pestaña/grupo se encuentra la opción 'Eliminar hoja'?",
     "o": [
       "Inicio/alineación",
       "Inicio/eliminar",
@@ -320,11 +320,11 @@
       "Inicio/celda"
     ],
     "c": 3,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Eliminar > Eliminar hoja está en Inicio, grupo Celdas."
+    "ref": "Excel 365 - Cinta de opciones",
+    "exp": "'Eliminar hoja' está en Inicio, grupo Celdas."
   },
   {
-    "q": "En Excel 365, por defecto Excel 365 inserta hojas:",
+    "q": "En Excel 365, por defecto Excel inserta las hojas:",
     "o": [
       "A la izquierda de la hoja activa",
       "A la derecha de la hoja activa",
@@ -332,11 +332,11 @@
       "Arriba de la hoja activa"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Con MAY+F11 la nueva hoja se inserta a la izquierda de la hoja activa."
+    "ref": "Excel 365 - Hojas",
+    "exp": "Con MAY+F11 la hoja nueva se inserta a la izquierda de la hoja activa."
   },
   {
-    "q": "En Excel 365, de manera predeterminada Excel muestra las etiquetas de hojas de cálculo:",
+    "q": "En Excel 365, de manera predeterminada Excel muestra las etiquetas de las hojas de cálculo:",
     "o": [
       "Con color y se ven en blanco",
       "Sin color y se ven en negro",
@@ -344,23 +344,95 @@
       "Sin color y no se ven"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Por defecto las etiquetas no tienen color y se muestran sobre fondo blanco."
+    "ref": "Excel 365 - Etiquetas de hoja",
+    "exp": "Por defecto las etiquetas no tienen color de relleno y su fondo es blanco."
   },
   {
-    "q": "En Excel 365, para eliminar una columna una vez seleccionada, se puede utilizar el método abreviado:",
+    "q": "En Excel 365, para eliminar una columna, una vez seleccionada, se puede utilizar el método abreviado:",
     "o": [
       "CTRL",
-      "CTRL + - (menos)",
+      "CTRL – (signo menos)",
       "CTRL + SUPR",
-      "MAY + menos"
+      "MAY +"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Seleccionada la columna, CTRL + - (signo menos) la elimina."
+    "ref": "Excel 365 - Atajos de teclado",
+    "exp": "CTRL + '-' elimina la columna (o fila) seleccionada."
   },
   {
-    "q": "En Excel, si está activada la pestaña INICIO, ¿qué pestaña de la cinta de opciones habrá que activar para llegar a la opción Documento (Libro) en blanco?",
+    "q": "En Excel 365, una celda se forma por:",
+    "o": [
+      "La intersección de dos filas",
+      "La intersección de una fila y una columna",
+      "La intersección de dos columnas",
+      "La intersección de una referencia, una columna y una celda"
+    ],
+    "c": 1,
+    "ref": "Excel 365 - Celda",
+    "exp": "Una celda es la intersección de una fila y una columna."
+  },
+  {
+    "q": "En Excel 365, el grupo celda, ¿en qué pestaña de la cinta de opciones se encuentra?",
+    "o": [
+      "Inicio",
+      "Insertar",
+      "Disposición",
+      "Vista"
+    ],
+    "c": 0,
+    "ref": "Excel 365 - Cinta de opciones",
+    "exp": "El grupo Celdas está en la pestaña Inicio."
+  },
+  {
+    "q": "En Excel 365, ¿cómo se identifica una celda en Excel?",
+    "o": [
+      "Mediante un rango",
+      "Mediante el nombre de la columna",
+      "Mediante una letra que indica la columna y un número que indica la fila",
+      "Mediante una letra que indica la fila y un número que indica la columna"
+    ],
+    "c": 2,
+    "ref": "Excel 365 - Referencias",
+    "exp": "Una celda se identifica por la letra de columna seguida del número de fila (p.ej. A1)."
+  },
+  {
+    "q": "En Excel 365, ¿cuál es la opción correcta para seleccionar la celda A5 y la celda C5 (no contiguas)?",
+    "o": [
+      "Hacer clic en A5 y manteniendo la tecla MAY pulsada hacer clic en C5",
+      "Arrastrar el ratón de A5 a C5",
+      "Hacer clic en A5 y manteniendo la tecla CTRL pulsada hacer clic en C5",
+      "Hacer clic en A5 y manteniendo la tecla ALT pulsada hacer clic en C5"
+    ],
+    "c": 2,
+    "ref": "Excel 365 - Selección",
+    "exp": "Para seleccionar celdas no contiguas se usa la tecla CTRL."
+  },
+  {
+    "q": "En Excel 365, ¿existe la opción de bloquear celdas?",
+    "o": [
+      "No",
+      "Sí, a través de Formato de Celda del grupo alineación",
+      "Sí, protegiendo previamente la hoja",
+      "B y C son correctas"
+    ],
+    "c": 3,
+    "ref": "Excel 365 - Proteger celdas",
+    "exp": "Se bloquean en Formato de celdas (pestaña Proteger) y el bloqueo surte efecto al proteger la hoja."
+  },
+  {
+    "q": "En Excel 365, ¿qué debemos hacer para ver el contenido de la celda A1 cuando aparece de la forma ##### ?",
+    "o": [
+      "Aumentar la altura de la fila",
+      "Aumentar el ancho de la columna",
+      "Volver a escribir el contenido de la celda",
+      "Eliminar la columna"
+    ],
+    "c": 1,
+    "ref": "Excel 365 - Ancho de columna",
+    "exp": "Los símbolos ##### indican que la columna es demasiado estrecha; se soluciona aumentando su ancho."
+  },
+  {
+    "q": "En Excel 365, estando activada la pestaña INICIO, ¿qué pestaña de la cinta de opciones habrá que activar para llegar a la opción Documento en blanco?",
     "o": [
       "Ninguna porque se encuentra en la pestaña Inicio",
       "Archivo",
@@ -368,11 +440,11 @@
       "Ninguna de las anteriores respuestas son correctas"
     ],
     "c": 3,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "La opción de nuevo libro en blanco está en Archivo (Backstage), no en Inicio ni en Recientes."
+    "ref": "Excel 365 - Vista Backstage/Nuevo",
+    "exp": "La opción de crear un libro en blanco está en Archivo/Nuevo (vista Backstage), no en Inicio ni en Recientes, por lo que ninguna de las anteriores es correcta."
   },
   {
-    "q": "En Excel, ¿cuál de las siguientes denominaciones aparecerá en la barra de título al crear un libro en blanco al que aún no se le ha asignado nombre?",
+    "q": "En Excel 365, ¿cuál de las siguientes denominaciones es la correcta y aparecerá en la barra de título cuando se cree un libro en blanco al que aún no se le ha asignado un nombre?",
     "o": [
       "1-Libro.Excel",
       "Libro1-Excel",
@@ -380,11 +452,11 @@
       "Libro1-xls"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "El nombre provisional es Libro1 - Excel."
+    "ref": "Excel 365 - Barra de título",
+    "exp": "Un libro nuevo sin nombre aparece como 'Libro1 - Excel' en la barra de título."
   },
   {
-    "q": "En Excel, en el modo backstage, ¿qué pestaña de la cinta de opciones oculta temporalmente la hoja de cálculo?",
+    "q": "En Excel 365, en el modo backstage, ¿qué pestaña de la cinta de opciones oculta temporalmente la hoja de cálculo?",
     "o": [
       "Archivo",
       "Inicio",
@@ -392,11 +464,11 @@
       "Ninguna de las anteriores respuestas son correctas"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "La pestaña Archivo abre la vista Backstage, que oculta temporalmente la hoja."
+    "ref": "Excel 365 - Vista Backstage",
+    "exp": "La pestaña Archivo abre la vista Backstage, que oculta temporalmente la hoja de cálculo."
   },
   {
-    "q": "En Excel, el atajo de teclado para crear un libro en blanco es:",
+    "q": "En Excel 365, el atajo de teclado para crear un libro en blanco es:",
     "o": [
       "CTRL + A",
       "CTRL + B",
@@ -404,11 +476,11 @@
       "CTRL + N"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "En la versión española de Excel el atajo para crear un libro en blanco es CTRL+U (CTRL+N aplica negrita). Corregido de CTRL+N a CTRL+U según el temario y la clave del examen."
+    "ref": "Excel 365 - Atajos de teclado",
+    "exp": "CTRL+U (Nuevo) crea un libro en blanco en Excel en español (clave del examen: C = CTRL+U)."
   },
   {
-    "q": "En Excel, las filas se identifican con:",
+    "q": "En Excel 365, las filas se identifican con:",
     "o": [
       "Letras",
       "Números",
@@ -416,11 +488,11 @@
       "Con cualquiera de las anteriores formas"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Las filas se numeran; las columnas se identifican con letras."
+    "ref": "Excel 365 - Filas y columnas",
+    "exp": "Las filas se identifican con números; las columnas con letras."
   },
   {
-    "q": "En Excel, la opción correcta para personalizar la cinta de opciones es:",
+    "q": "En Excel 365, la opción correcta para personalizar la cinta de opciones es:",
     "o": [
       "Archivo/cinta de opciones",
       "Archivo/cuenta",
@@ -428,11 +500,11 @@
       "Archivo/configuración"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Se accede en Archivo/Opciones, apartado Personalizar cinta de opciones."
+    "ref": "Excel 365 - Personalizar cinta",
+    "exp": "En Archivo/Opciones se encuentra 'Personalizar cinta de opciones'."
   },
   {
-    "q": "En Excel, trabajando sobre un libro nuevo, en la pantalla de trabajo NO aparece:",
+    "q": "En Excel 365, trabajando sobre un libro nuevo, en la pantalla de trabajo no aparece:",
     "o": [
       "Un cuadro de nombre de celdas",
       "Una barra de fórmulas",
@@ -440,23 +512,11 @@
       "Las marcas de tabulaciones"
     ],
     "c": 3,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Las marcas de tabulación son propias de Word, no de Excel."
+    "ref": "Excel 365 - Interfaz",
+    "exp": "Las marcas de tabulaciones no forman parte de la interfaz de Excel; sí el cuadro de nombres, la barra de fórmulas y el autoguardado."
   },
   {
-    "q": "En Excel, ¿cuál es la función que realiza el comando del icono de combinar (según la clave del examen)?",
-    "o": [
-      "Alinear en el medio",
-      "Combinar celdas",
-      "Combinar y centrar",
-      "Alineación justificada"
-    ],
-    "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "El icono corresponde a Combinar y centrar. El enunciado depende de una imagen del icono."
-  },
-  {
-    "q": "En Excel, el archivo creado por Excel recibe el nombre de:",
+    "q": "En Excel 365, el archivo creado por Excel recibe el nombre de:",
     "o": [
       "Libro",
       "Hoja",
@@ -464,20 +524,20 @@
       "Fichero"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
+    "ref": "Excel 365 - Libro",
     "exp": "El archivo de Excel se denomina libro."
   },
   {
-    "q": "En Excel, para crear un Libro utilizando una de las plantillas sugeridas por Excel, la ruta correcta es:",
+    "q": "En Excel 365, para crear un libro utilizando una de las plantillas sugeridas por Excel, la ruta correcta es:",
     "o": [
-      "Archivo/abrir, hacer clic en la plantilla que se desee utilizar de las sugeridas",
+      "Archivo/abrir, hacer clic en la plantilla que se desee utilizar",
       "Estando situado en una celda, activar la opción 'nuevo' del botón secundario del ratón",
-      "Archivo/crear, hacer clic en una de las plantillas sugeridas por Excel",
-      "Archivo/nuevo/hacer clic en una de las plantillas sugeridas por Excel y hacer clic en el botón 'Crear'"
+      "Archivo/crear, hacer clic en una de las plantillas sugeridas",
+      "Archivo/nuevo, hacer clic en una de las plantillas sugeridas y pulsar el botón 'Crear'"
     ],
     "c": 3,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Archivo > Nuevo muestra las plantillas; se elige y se pulsa Crear."
+    "ref": "Excel 365 - Plantillas",
+    "exp": "Se accede por Archivo/Nuevo, se elige la plantilla y se pulsa 'Crear'."
   },
   {
     "q": "En Excel 365, el atajo para cerrar un libro es:",
@@ -488,20 +548,20 @@
       "Ctrl + F2"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "CTRL + F4 cierra el libro activo."
+    "ref": "Excel 365 - Atajos de teclado",
+    "exp": "Ctrl + F4 cierra el libro activo."
   },
   {
     "q": "En Excel 365, ¿cómo podemos seleccionar una columna?",
     "o": [
       "Con el ratón haciendo clic en la letra de la columna que se desea seleccionar",
-      "Con el teclado activando una celda y a continuación usando la tecla Ctrl",
-      "Con el ratón haciendo clic en el número de la columna que se desea seleccionar",
-      "Haciendo clic en el comando seleccionar, del grupo celda de la pestaña inicio"
+      "Con el teclado activando una celda y usando la tecla Ctrl",
+      "Con el ratón haciendo clic en el número de la columna",
+      "Haciendo clic en el comando seleccionar del grupo celda de la pestaña inicio"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Se selecciona una columna haciendo clic en su letra de encabezado."
+    "ref": "Excel 365 - Selección",
+    "exp": "Se selecciona una columna haciendo clic sobre su letra de encabezado."
   },
   {
     "q": "En Excel 365, ¿cómo podemos seleccionar una columna con el teclado?",
@@ -512,32 +572,32 @@
       "Activando una celda y usando CTRL+RETROCESO"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "CTRL + barra espaciadora selecciona la columna de la celda activa."
+    "ref": "Excel 365 - Atajos de selección",
+    "exp": "CTRL+ESPACIO selecciona la columna de la celda activa."
   },
   {
     "q": "En Excel 365, al guardar un libro nuevo con la opción GUARDAR de la pestaña ARCHIVO:",
     "o": [
       "No aparecen las ubicaciones donde se puede guardar",
       "Aparece activada la opción 'guardar como PDF o XLS'",
-      "Aparece activada la opción 'Guardar como', mostrando el panel derecho las ubicaciones donde se puede guardar",
+      "Aparece activada la opción 'Guardar como', mostrando en el panel derecho las ubicaciones donde se puede guardar",
       "Lo guarda directamente en la carpeta por defecto, 'Documentos'"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Al ser nuevo, Guardar equivale a Guardar como y muestra las ubicaciones."
+    "ref": "Excel 365 - Guardar",
+    "exp": "Al guardar un libro nuevo se activa 'Guardar como' y se muestran las ubicaciones disponibles."
   },
   {
-    "q": "En Excel 365, dentro de Excel, para abrir un libro existente, ¿qué opción es la correcta?",
+    "q": "En Excel 365, para abrir un libro existente desde dentro de Excel, ¿qué opción es la correcta?",
     "o": [
       "En la pestaña inicio, hacer clic sobre el comando 'Abrir'",
-      "En la pestaña archivo, hacer clic sobre 'Abrir' (o usar CTRL+A)",
-      "En la pestaña inicio, usar la combinación de tecla CTRL+A",
+      "En la pestaña inicio, usar CTRL+A",
+      "En la pestaña archivo, usar CTRL+A",
       "A través del botón secundario del ratón, seleccionando la opción 'Abrir'"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Se abre desde Archivo > Abrir; el atajo es CTRL+A. Según la clave del examen la correcta es la opción B (pestaña archivo con CTRL+A)."
+    "ref": "Excel 365 - Abrir libro",
+    "exp": "El atajo CTRL+A abre un libro existente (la clave del examen lo asocia a la pestaña inicio)."
   },
   {
     "q": "En Excel 365, para cambiar el nombre a una hoja de cálculo:",
@@ -545,11 +605,11 @@
       "Hacer clic en el nombre de la hoja",
       "Pulsar sobre la pestaña Insertar y elegir la opción cambiar nombre",
       "Utilizando el atajo de teclado MAY + F11",
-      "Con el puntero sobre la etiqueta del nombre de la hoja, abrir el menú contextual del botón derecho y seleccionar 'cambiar nombre'"
+      "Con el puntero sobre la etiqueta del nombre, abrir el menú contextual del botón derecho y seleccionar 'cambiar nombre'"
     ],
     "c": 3,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Menú contextual sobre la etiqueta de la hoja > Cambiar nombre (o doble clic)."
+    "ref": "Excel 365 - Hojas",
+    "exp": "Se cambia el nombre desde el menú contextual (botón derecho) de la etiqueta de la hoja."
   },
   {
     "q": "En Excel 365, activada una celda, si se usa el atajo de teclado CTRL+F1, ¿qué se obtiene?",
@@ -557,11 +617,11 @@
       "Insertar una fila",
       "El desplazamiento hasta la celda A1",
       "Cerrar el libro",
-      "Mostrar solo las pestañas de la cinta de opciones (contraer la cinta)"
+      "Mostrar solo las pestañas de la cinta de opciones"
     ],
     "c": 3,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "CTRL+F1 contrae/expande la cinta de opciones, mostrando solo las pestañas."
+    "ref": "Excel 365 - Cinta de opciones",
+    "exp": "CTRL+F1 contrae la cinta mostrando solo las pestañas."
   },
   {
     "q": "En Excel 365, el grupo CELDAS se encuentra en la pestaña:",
@@ -572,7 +632,7 @@
       "Archivo"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
+    "ref": "Excel 365 - Cinta de opciones",
     "exp": "El grupo Celdas está en la pestaña Inicio."
   },
   {
@@ -584,8 +644,8 @@
       "Permite seleccionar un rango de celdas"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "La barra de fórmulas se muestra/oculta desde la pestaña Vista, grupo Mostrar."
+    "ref": "Excel 365 - Barra de fórmulas",
+    "exp": "La barra de fórmulas se puede ocultar desde la pestaña Vista."
   },
   {
     "q": "En Excel 365, las hojas se representan por:",
@@ -596,20 +656,20 @@
       "Etiquetas que aparecen a la izquierda de la barra de desplazamiento"
     ],
     "c": 3,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Las hojas se identifican por sus etiquetas, situadas a la izquierda de la barra de desplazamiento inferior."
+    "ref": "Excel 365 - Hojas",
+    "exp": "Las hojas se representan mediante etiquetas situadas a la izquierda de la barra de desplazamiento inferior."
   },
   {
     "q": "En Excel 365, respecto a cerrar un libro en el que se han introducido cambios, es cierto que:",
     "o": [
       "Se puede cerrar a través de CTRL+F4, guardándose los cambios directamente",
       "Si se cierra sin guardar los cambios, habrá una copia reciente del archivo disponible temporalmente",
-      "En este caso, para guardar los cambios, no cabe utilizar la opción CTRL+F4",
+      "Para guardar los cambios no cabe utilizar CTRL+F4",
       "Antes de cerrar, Excel propondrá la opción 'Guardar como'"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Existe una copia de autorrecuperación disponible temporalmente."
+    "ref": "Excel 365 - Autorrecuperación",
+    "exp": "Si se cierra sin guardar, queda disponible temporalmente una copia reciente por autorrecuperación."
   },
   {
     "q": "En Excel 365, la herramienta para ver las estadísticas del libro activo se encuentra en la pestaña:",
@@ -617,35 +677,35 @@
       "Revisar",
       "Vistas",
       "Datos",
-      "Formulas"
+      "Fórmulas"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Estadísticas del libro está en la pestaña Revisar."
+    "ref": "Excel 365 - Revisar",
+    "exp": "Las estadísticas del libro se encuentran en la pestaña Revisar."
   },
   {
-    "q": "En Excel 365, siendo la celda activa una intermedia, ¿qué ocurre si pulsamos la tecla INICIO?",
+    "q": "En Excel 365, siendo la celda activa una celda cualquiera, ¿qué ocurre si pulsamos la tecla INICIO?",
     "o": [
       "Que se desplaza a la celda A1",
       "Que se abre la pestaña archivo",
-      "Que se desplaza a la columna A, de la fila activa",
+      "Que se desplaza a la columna A de la fila activa",
       "Que se desplaza a la fila 1 de la columna activa"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "La tecla Inicio lleva a la columna A de la fila activa."
+    "ref": "Excel 365 - Desplazamiento",
+    "exp": "La tecla INICIO desplaza a la columna A de la fila activa (primera celda de la fila)."
   },
   {
     "q": "En Excel 365, respecto a la búsqueda de una celda:",
     "o": [
       "No se puede realizar por rango de celdas",
-      "No se puede realizar por filas",
+      "No se puede realizar en filas",
       "No se puede usar el atajo CTRL+C",
       "No existe la opción de buscar en 'las fórmulas'"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "CTRL+C es copiar, no buscar (buscar es CTRL+B). Según la clave del examen la correcta es C."
+    "ref": "Excel 365 - Buscar",
+    "exp": "CTRL+C es copiar, no una función de búsqueda; la búsqueda usa CTRL+B."
   },
   {
     "q": "En Excel 365, el nombre de una hoja de cálculo se puede cambiar:",
@@ -656,8 +716,8 @@
       "Utilizando el menú contextual del ratón"
     ],
     "c": 3,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Con el menú contextual sobre la etiqueta > Cambiar nombre. Los dos puntos no se admiten y el máximo es 31 caracteres."
+    "ref": "Excel 365 - Hojas",
+    "exp": "El nombre de la hoja se cambia con el menú contextual del ratón; no admite dos puntos ni más de 31 caracteres."
   },
   {
     "q": "En Excel 365, el color de etiqueta de una hoja:",
@@ -668,11 +728,11 @@
       "Se puede cambiar mientras la hoja no contenga datos"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Menú contextual sobre la etiqueta > Color de etiqueta."
+    "ref": "Excel 365 - Hojas",
+    "exp": "El color de etiqueta se cambia desde el menú contextual del ratón."
   },
   {
-    "q": "En Excel 365, ¿en qué pestaña y grupo de la cinta de opciones se encuentra la opción 'eliminar columnas de hoja'?",
+    "q": "En Excel 365, ¿en qué pestaña y grupo se encuentra la opción 'eliminar columnas de hojas'?",
     "o": [
       "Inicio/celdas",
       "Inicio/modificar",
@@ -680,11 +740,11 @@
       "Formato/celdas"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Eliminar > Eliminar columnas de hoja está en Inicio, grupo Celdas."
+    "ref": "Excel 365 - Cinta de opciones",
+    "exp": "La opción de eliminar columnas está en Inicio, grupo Celdas."
   },
   {
-    "q": "En Excel 365, ¿cómo se denomina 'un conjunto de celdas contiguas'?",
+    "q": "En Excel 365, ¿cómo se denomina un conjunto de celdas contiguas?",
     "o": [
       "Intervalo",
       "Rango",
@@ -692,8 +752,8 @@
       "Por el nombre que le haya dado el usuario"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Un conjunto de celdas contiguas es un rango."
+    "ref": "Excel 365 - Rango",
+    "exp": "Un conjunto de celdas contiguas se denomina rango."
   },
   {
     "q": "En Excel 365, se puede:",
@@ -704,8 +764,20 @@
       "Ocultar, pero no mostrar, las hojas ocultas"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
+    "ref": "Excel 365 - Hojas",
     "exp": "Se pueden ocultar y agregar hojas."
+  },
+  {
+    "q": "En Excel 365, para insertar una hoja antes de la hoja activa, la combinación de teclas correcta es:",
+    "o": [
+      "MAY + F11",
+      "BLOQUEO MAYÚSCULA + F11",
+      "RETROCESO + F11",
+      "TAB + F11"
+    ],
+    "c": 0,
+    "ref": "Excel 365 - Atajos de teclado",
+    "exp": "MAY + F11 inserta una nueva hoja de cálculo antes de la activa."
   },
   {
     "q": "En Excel 365, para agregar una hoja de cálculo a un libro:",
@@ -716,8 +788,8 @@
       "No se puede hacer después de la hoja activa"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "El menú contextual sobre una etiqueta permite Insertar hoja."
+    "ref": "Excel 365 - Hojas",
+    "exp": "Se puede insertar una hoja desde el menú contextual del ratón sobre las etiquetas."
   },
   {
     "q": "En Excel 365, ¿dónde se pueden modificar las opciones de autocorrección?",
@@ -728,19 +800,19 @@
       "Pestaña Archivo/opciones"
     ],
     "c": 3,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Archivo > Opciones > Revisión > Opciones de autocorrección."
+    "ref": "Excel 365 - Opciones",
+    "exp": "Las opciones de autocorrección están en Archivo/Opciones/Revisión."
   },
   {
     "q": "En Excel 365, se abre la ayuda a través de:",
     "o": [
-      "El botón secundario del ratón estando sobre la celda activa",
+      "El botón secundario del ratón sobre la celda activa",
       "Pulsando F11",
       "Pulsando F1",
       "La opción 'ayuda' de la pestaña archivo"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
+    "ref": "Excel 365 - Ayuda",
     "exp": "F1 abre la ayuda."
   },
   {
@@ -752,19 +824,19 @@
       "CTRL+TAB"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "CTRL+Inicio lleva a la celda A1."
+    "ref": "Excel 365 - Desplazamiento",
+    "exp": "CTRL+INICIO lleva a la celda A1."
   },
   {
     "q": "En Excel 365, la extensión de un libro es:",
     "o": [
-      ".doc",
-      ".xls",
-      ".xlsx",
-      ".ex"
+      "Doc",
+      "xls",
+      "xlsx",
+      "ex"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
+    "ref": "Excel 365 - Formato de archivo",
     "exp": "La extensión por defecto de un libro de Excel es .xlsx."
   },
   {
@@ -776,11 +848,11 @@
       "Archivo/administración"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Las propiedades se muestran en Archivo > Información."
+    "ref": "Excel 365 - Propiedades",
+    "exp": "Las propiedades del libro se ven en Archivo/Información."
   },
   {
-    "q": "En Excel 365, ¿en qué pestaña de la cinta de opciones se encuentra la herramienta 'Ver en paralelo'?",
+    "q": "En Excel 365, ¿en qué pestaña se encuentra la herramienta 'Ver en paralelo'?",
     "o": [
       "Vista",
       "Ventana",
@@ -788,8 +860,8 @@
       "Disposición"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Ver en paralelo está en la pestaña Vista, grupo Ventana."
+    "ref": "Excel 365 - Vista",
+    "exp": "'Ver en paralelo' está en la pestaña Vista, grupo Ventana."
   },
   {
     "q": "En Excel 365, ¿dónde se podría elegir una carpeta para guardar un libro de manera predeterminada?",
@@ -800,23 +872,35 @@
       "Revisar, grupo seguimiento, opción 'carpetas'"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Archivo > Opciones > Guardar permite fijar la ubicación predeterminada."
+    "ref": "Excel 365 - Opciones/Guardar",
+    "exp": "La ubicación predeterminada se configura en Archivo/Opciones/Guardar."
+  },
+  {
+    "q": "En Excel 365, ¿cuál es la opción válida para desplazarse a la celda B2 desde la celda activa contigua a su derecha?",
+    "o": [
+      "CTRL+TAB",
+      "MAY + RETROCESO",
+      "MAY + TAB",
+      "MAY + INTRO"
+    ],
+    "c": 2,
+    "ref": "Excel 365 - Desplazamiento",
+    "exp": "MAY+TAB mueve a la celda anterior (a la izquierda)."
   },
   {
     "q": "En Excel 365, ¿cuál es la opción correcta para seleccionar todas las hojas de un libro en un solo paso?",
     "o": [
-      "Sobre la celda activa, botón secundario y activar 'seleccionar todas las hojas'",
-      "Situado sobre cualquier celda, activar 'seleccionar todas las hojas' del grupo celda de la pestaña inicio",
-      "Situado sobre la etiqueta de cualquier hoja, abrir el botón secundario del ratón y activar 'seleccionar todas las hojas'",
-      "Solo si el libro tuviera tres o más hojas, seleccionar la primera y con CTRL pulsado seleccionar la última"
+      "Sobre la celda activa, botón secundario y 'seleccionar todas las hojas'",
+      "Sobre cualquier celda, opción 'seleccionar todas las hojas' del grupo celda de la pestaña inicio",
+      "Sobre la etiqueta de cualquier hoja, abrir botón secundario y activar 'seleccionar todas las hojas'",
+      "Solo si el libro tuviera tres o más hojas, seleccionar la primera y con CTRL la última"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Menú contextual sobre una etiqueta de hoja > Seleccionar todas las hojas."
+    "ref": "Excel 365 - Hojas",
+    "exp": "Se seleccionan todas las hojas con el menú contextual sobre una etiqueta: 'Seleccionar todas las hojas'."
   },
   {
-    "q": "En Excel 365, el grupo 'Alineación', ¿en qué pestaña de la cinta de opciones se encuentra?",
+    "q": "En Excel 365, el grupo 'Alineación', ¿en qué pestaña se encuentra?",
     "o": [
       "Archivo",
       "Disposición de página",
@@ -824,7 +908,7 @@
       "Inicio"
     ],
     "c": 3,
-    "ref": "Tema 17 - Excel 365",
+    "ref": "Excel 365 - Cinta de opciones",
     "exp": "El grupo Alineación está en la pestaña Inicio."
   },
   {
@@ -836,11 +920,11 @@
       "Normal"
     ],
     "c": 3,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "La vista predeterminada es Normal."
+    "ref": "Excel 365 - Vistas",
+    "exp": "La vista por defecto es Normal."
   },
   {
-    "q": "En Excel 365, el atajo de teclado para Guardar un libro es:",
+    "q": "En Excel 365, el atajo de teclado para guardar un libro es:",
     "o": [
       "CTRL+A",
       "CTRL+G",
@@ -848,23 +932,23 @@
       "CTRL+L"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "CTRL+G guarda el libro (en la versión española de Excel)."
+    "ref": "Excel 365 - Atajos de teclado",
+    "exp": "CTRL+G (Guardar) guarda el libro."
   },
   {
-    "q": "En Excel 365, indique qué opción NO es correcta para seleccionar toda una fila:",
+    "q": "En Excel 365, indique qué opción no es correcta para seleccionar toda una fila:",
     "o": [
-      "Situarse sobre la letra (número) de su nombre y hacer clic",
+      "Situarse sobre la letra de su nombre y hacer clic",
       "Hacer clic sobre cualquier celda y después pulsar barra espaciadora",
       "Hacer clic sobre cualquier celda y después presionar CTRL+ barra espaciadora",
       "Ninguna de las opciones anteriores son correctas para seleccionar una fila"
     ],
     "c": 3,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "MAY+barra espaciadora selecciona una fila; las opciones listadas no son válidas tal como se enuncian, por lo que la respuesta es la D."
+    "ref": "Excel 365 - Selección",
+    "exp": "Ninguna de las anteriores selecciona una fila: la letra selecciona columna, MAY+ESPACIO sería lo correcto, y CTRL+ESPACIO selecciona columna."
   },
   {
-    "q": "En Excel 365, señale la barra que NO existe en Excel:",
+    "q": "En Excel 365, señale la barra que no existe en Excel:",
     "o": [
       "Barra de acceso rápido",
       "Barra de desplazamiento",
@@ -872,7 +956,7 @@
       "Barra de cálculo"
     ],
     "c": 3,
-    "ref": "Tema 17 - Excel 365",
+    "ref": "Excel 365 - Interfaz",
     "exp": "No existe la 'barra de cálculo'."
   },
   {
@@ -884,32 +968,20 @@
       "3-10"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Tercera columna = C, décima fila = 10, por tanto C10."
+    "ref": "Excel 365 - Referencias",
+    "exp": "La tercera columna es C y la décima fila es 10: C10."
   },
   {
-    "q": "En Excel 365, ¿cuál es la opción adecuada para seleccionar varias celdas no adyacentes al mismo tiempo?",
+    "q": "En Excel 365, ¿cuál es la opción adecuada para seleccionar tres celdas no contiguas al mismo tiempo?",
     "o": [
-      "Posicionado sobre una de las celdas y seleccionarla a través del menú contextual",
-      "Hacer clic en A1 y con MAY pulsada hacer clic sobre A4",
+      "Sobre cualquiera de las tres celdas, seleccionarla a través del menú contextual",
+      "Hacer clic en A1 con la tecla MAY pulsada y clic en A4",
       "Con la opción seleccionar celdas del grupo celda de la pestaña inicio",
-      "Haciendo clic en una de las celdas y con la tecla CTRL pulsada seleccionar el resto de las celdas"
+      "Haciendo clic en una celda y con la tecla CTRL pulsada seleccionar el resto"
     ],
     "c": 3,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "CTRL permite añadir celdas no contiguas a la selección."
-  },
-  {
-    "q": "En Excel 365, ¿qué tipo de alineación vertical tiene la palabra 'DATOS' que aparece centrada verticalmente en la celda?",
-    "o": [
-      "Izquierda",
-      "Central",
-      "En el medio",
-      "Superior"
-    ],
-    "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "La alineación vertical central en Excel se denomina 'En el medio'."
+    "ref": "Excel 365 - Selección",
+    "exp": "Para celdas no contiguas se usa la tecla CTRL mientras se hace clic en cada una."
   },
   {
     "q": "En Excel 365, para crear un libro vacío, ¿cuál es la secuencia correcta?",
@@ -920,11 +992,11 @@
       "Insertar, nuevo, libro en blanco"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
+    "ref": "Excel 365 - Nuevo libro",
     "exp": "Archivo > Nuevo > Libro en blanco."
   },
   {
-    "q": "En Excel 365, atendiendo a dos hojas en las que en la segunda ha desaparecido el encabezado de la columna B pero se conservan A, C, D..., ¿qué habrá ocurrido?",
+    "q": "En Excel 365, si al comparar dos estados de una hoja la columna B desaparece de la vista sin desplazarse el resto de columnas, ¿qué habrá ocurrido?",
     "o": [
       "Se ha eliminado la columna B",
       "Se ha ocultado la columna B",
@@ -932,11 +1004,11 @@
       "Se ha cambiado el nombre a la columna B"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Si sigue faltando solo la letra B en los encabezados, la columna está oculta (si se eliminara, las columnas se re-nombrarían)."
+    "ref": "Excel 365 - Ocultar columnas",
+    "exp": "Si la columna B ya no se ve pero las demás mantienen su letra, se ha ocultado (no eliminado)."
   },
   {
-    "q": "En Excel 365, posicionado en una celda, la opción 'eliminar' del botón derecho del ratón NO permite hacer:",
+    "q": "En Excel 365, posicionado en una celda, la opción 'eliminar' del botón derecho del ratón no permite:",
     "o": [
       "Eliminar la columna D",
       "Eliminar la fila 2",
@@ -944,20 +1016,20 @@
       "Eliminar la hoja 1"
     ],
     "c": 3,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "La opción Eliminar del menú contextual de una celda no elimina hojas."
+    "ref": "Excel 365 - Eliminar",
+    "exp": "La opción 'eliminar' del menú contextual de una celda no elimina hojas."
   },
   {
     "q": "En Excel 365, para hacer una copia de la hoja 1 y situarla después de la hoja 3, ¿cuál sería la opción correcta?",
     "o": [
-      "Señalar hoja 1, hacer clic y arrastrar hasta la nueva posición manteniendo pulsada la tecla CTRL",
-      "Señalar hoja 1, hacer clic y arrastrar hasta la nueva posición",
-      "Señalar hoja 1, arrastrar y abrir el menú contextual y pulsar 'pegar'",
-      "Señalar hoja 1, hacer clic y arrastrar manteniendo pulsada la tecla MAY"
+      "Señalar hoja 1, hacer clic y arrastrar a la nueva posición manteniendo pulsada CTRL",
+      "Señalar hoja 1, hacer clic y arrastrar a la nueva posición",
+      "Señalar hoja 1, arrastrar, abrir menú contextual y pulsar 'pegar'",
+      "Señalar hoja 1, arrastrar manteniendo pulsada la tecla MAY"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Arrastrar la etiqueta con CTRL pulsado crea una copia de la hoja."
+    "ref": "Excel 365 - Copiar hojas",
+    "exp": "Arrastrar la etiqueta con la tecla CTRL pulsada crea una copia de la hoja."
   },
   {
     "q": "En Excel 365, cuando se crea un libro nuevo, ¿cuántas hojas aparecen por defecto?",
@@ -968,8 +1040,8 @@
       "Cinco"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "En Excel 365 un libro nuevo tiene una sola hoja por defecto."
+    "ref": "Excel 365 - Libro nuevo",
+    "exp": "En Excel 365 un libro nuevo aparece con una sola hoja."
   },
   {
     "q": "En Excel 365, ¿qué atajo de teclado emplearía para insertar una hoja de cálculo?",
@@ -980,8 +1052,20 @@
       "Ctrl + I"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "MAY + F11 inserta una nueva hoja de cálculo."
+    "ref": "Excel 365 - Atajos de teclado",
+    "exp": "MAY + F11 inserta una hoja de cálculo."
+  },
+  {
+    "q": "En Excel 365, ¿qué es cierto respecto a insertar una columna?",
+    "o": [
+      "Que se inserta a la derecha de la columna seleccionada",
+      "Que para insertarla se puede utilizar CTRL + (signo más), previa selección de una columna",
+      "Que no se pueden insertar varias columnas al mismo tiempo",
+      "Que se realiza con la opción insertar columna del grupo celda de la pestaña insertar"
+    ],
+    "c": 1,
+    "ref": "Excel 365 - Insertar columna",
+    "exp": "CTRL + '+' inserta una columna tras seleccionarla; la columna se inserta a la izquierda de la seleccionada."
   },
   {
     "q": "En Excel 365, el ancho de la columna se calcula en:",
@@ -992,32 +1076,32 @@
       "Píxeles y milímetros"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
+    "ref": "Excel 365 - Ancho de columna",
     "exp": "El ancho de columna se mide en caracteres y píxeles."
   },
   {
     "q": "En Excel 365, respecto a las filas y las columnas:",
     "o": [
-      "No se pueden insertar a la vez filas y columnas",
+      "No se pueden insertar a la vez",
       "Las columnas solo se pueden insertar de una en una",
       "La fila que se inserta tiene por defecto un formato independiente de la fila precedente",
       "La columna que se inserta no aparece visible en la hoja de cálculo"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "No se pueden insertar filas y columnas simultáneamente en una sola operación."
+    "ref": "Excel 365 - Filas y columnas",
+    "exp": "No se pueden insertar filas y columnas a la vez en una misma operación."
   },
   {
     "q": "En Excel 365, la opción 'eliminar celda', ¿dónde se encuentra?",
     "o": [
       "En el botón izquierdo del ratón",
-      "En el grupo celda, de la pestaña inicio",
+      "En el grupo celda de la pestaña inicio",
       "A y B son correctas",
       "A y B son incorrectas"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Eliminar está en Inicio, grupo Celdas (también en el menú contextual del botón derecho)."
+    "ref": "Excel 365 - Eliminar celda",
+    "exp": "'Eliminar' está en el grupo Celdas de la pestaña Inicio (y en el menú contextual del botón derecho, no izquierdo)."
   },
   {
     "q": "En Excel 365, si quiero eliminar una fila:",
@@ -1028,8 +1112,8 @@
       "Se elimina arrastrando la raya inferior de la fila hasta la superior"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Seleccionada la fila, el menú contextual permite Eliminar."
+    "ref": "Excel 365 - Eliminar fila",
+    "exp": "Se elimina desde el menú contextual del ratón tras seleccionar la fila."
   },
   {
     "q": "En Excel, en la barra de estado:",
@@ -1040,20 +1124,20 @@
       "No aparece el modo de celda"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "La barra de estado muestra el promedio, recuento y suma de la selección."
+    "ref": "Excel 365 - Barra de estado",
+    "exp": "La barra de estado muestra el promedio (y recuento y suma) de la selección."
   },
   {
     "q": "En Excel 365, cuando se selecciona un rango con el ratón:",
     "o": [
       "Aparecen todas las celdas enmarcadas y se vuelven de color más oscuro",
       "Las celdas no aparecen enmarcadas, pero cambian todas de color",
-      "Aparece enmarcada la celda activa, y el resto cambian a color más oscuro",
+      "Aparece enmarcada la celda activa y el resto cambian a color más oscuro",
       "Aparecen todas las celdas enmarcadas y cambian todas a color más oscuro, salvo la celda activa"
     ],
     "c": 3,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "El rango aparece enmarcado y sombreado, salvo la celda activa que queda en blanco."
+    "ref": "Excel 365 - Selección",
+    "exp": "El rango se enmarca y todas las celdas se sombrean salvo la celda activa, que queda en blanco."
   },
   {
     "q": "En Excel 365, 'guardar información de autorrecuperación' se encuentra en:",
@@ -1064,23 +1148,23 @@
       "Pestaña archivo, opciones, general"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Archivo > Opciones > Guardar."
+    "ref": "Excel 365 - Opciones/Guardar",
+    "exp": "La autorrecuperación se configura en Archivo/Opciones/Guardar."
   },
   {
-    "q": "En Excel 365, dentro del programa, ¿cuál es la opción correcta para cambiar el nombre de un libro?",
+    "q": "En Excel 365, ¿cuál es la opción correcta para cambiar el nombre de un libro dentro del programa?",
     "o": [
       "Utilizando el atajo de teclado MAY + F11",
       "Hacer clic en el nombre de la hoja",
-      "Hacer clic en la barra de título de la parte superior e insertar el nuevo nombre",
-      "Hacer clic en abrir de la pestaña archivo, abrir la ubicación del libro, seleccionarlo, botón secundario del ratón y usar 'cambiar nombre'"
+      "Hacer clic en la barra de título e insertar el nuevo nombre",
+      "Hacer clic en abrir de la pestaña archivo, abrir la ubicación del libro, seleccionarlo, botón secundario y 'cambiar nombre'"
     ],
     "c": 3,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Se cambia el nombre del archivo desde Archivo > Abrir, localizándolo y usando Cambiar nombre del menú contextual."
+    "ref": "Excel 365 - Renombrar libro",
+    "exp": "Se renombra localizando el archivo en Archivo/Abrir y usando 'cambiar nombre' del menú contextual."
   },
   {
-    "q": "En Excel 365, en la introducción de datos en una celda, la expresión (10) la interpretará:",
+    "q": "En Excel 365, al introducir en una celda la expresión (10), Excel la interpretará:",
     "o": [
       "Como un número negativo, apareciendo en la celda 10",
       "Como un número positivo, apareciendo en la celda 10",
@@ -1088,11 +1172,11 @@
       "Como un número negativo, apareciendo en la celda -10"
     ],
     "c": 3,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Los paréntesis representan un valor negativo: (10) se muestra como -10."
+    "ref": "Excel 365 - Introducción de datos",
+    "exp": "Un número entre paréntesis se interpreta como negativo: (10) equivale a -10."
   },
   {
-    "q": "En Excel 365, al introducir un texto en una celda, para suprimirlo de forma completa, ¿qué opción es la correcta?",
+    "q": "En Excel 365, para suprimir de forma completa un texto que se está introduciendo en una celda, ¿qué opción es la correcta?",
     "o": [
       "Pulsar ESC",
       "Pulsar RETROCESO",
@@ -1100,44 +1184,32 @@
       "Pulsar TAB"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Durante la introducción, ESC cancela y suprime por completo lo escrito."
-  },
-  {
-    "q": "En Excel 365, el icono con doble flecha entre encabezados de columna es un indicativo para ajustar:",
-    "o": [
-      "El ancho de columna",
-      "El ancho de fila",
-      "El alto de columna",
-      "Autorrelleno"
-    ],
-    "c": 0,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "La doble flecha horizontal entre letras de columna ajusta el ancho de columna. Depende de una imagen del icono."
+    "ref": "Excel 365 - Introducción de datos",
+    "exp": "ESC cancela por completo la introducción del dato."
   },
   {
     "q": "En Excel 365, en una función un rango es:",
     "o": [
       "Un valor de error",
       "Un número",
-      "Una agrupación o conjunto de celdas que contiene valores que la función va a calcular",
+      "Agrupaciones o conjunto de celdas que contiene valores que la función va a calcular",
       "Agrupaciones de fórmulas"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Un rango es un conjunto de celdas sobre el que opera la función."
+    "ref": "Excel 365 - Rango",
+    "exp": "Un rango es un conjunto de celdas cuyos valores utiliza la función para el cálculo."
   },
   {
-    "q": "En Excel 365, ¿cuál es la sintaxis correcta en la introducción de una función en una celda?",
+    "q": "En Excel 365, ¿cuál es la sintaxis correcta en la introducción de la función en una celda?",
     "o": [
       "=A5+B5",
       "=SUMA",
       "=(SUMA)",
       "SUMA"
     ],
-    "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "El enunciado se refiere a la introducción de una FUNCIÓN: entre las opciones, =SUMA es la única que empieza por = y nombra una función. =A5+B5 es una fórmula, no una función."
+    "c": 0,
+    "ref": "Excel 365 - Fórmulas",
+    "exp": "Toda fórmula empieza por = seguida de la expresión, p.ej. =A5+B5."
   },
   {
     "q": "En Excel 365, la función RESIDUO:",
@@ -1148,7 +1220,7 @@
       "Redondea"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
+    "ref": "Excel 365 - Funciones matemáticas",
     "exp": "RESIDUO devuelve el resto de una división."
   },
   {
@@ -1156,24 +1228,24 @@
     "o": [
       "Estadística",
       "Financiera",
-      "De texto",
-      "De competición"
+      "Texto",
+      "Competición"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
+    "ref": "Excel 365 - Funciones estadísticas",
     "exp": "PROMEDIO es una función estadística."
   },
   {
-    "q": "En Excel 365, para convertir una referencia absoluta en relativa hay que:",
+    "q": "En Excel 365, para convertir una referencia absoluta en relativa, hay que anteponer a la letra o a la columna:",
     "o": [
-      "Anteponer $ a la letra o a la columna",
-      "Anteponer = ",
-      "Anteponer comillas",
-      "Nada es correcto (se quita el símbolo $)"
+      "$",
+      "=",
+      "comillas",
+      "Nada es correcto"
     ],
     "c": 3,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Para pasar de absoluta a relativa se quita el símbolo $; ninguna de las otras opciones es correcta."
+    "ref": "Excel 365 - Referencias",
+    "exp": "El símbolo $ hace la referencia absoluta; para hacerla relativa hay que quitarlo, por lo que no se antepone nada."
   },
   {
     "q": "En Excel 365, ¿qué tipo de referencia es $B10?",
@@ -1184,11 +1256,11 @@
       "Mixta absoluta"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "$B10 fija la columna (B) y deja la fila relativa: referencia mixta de columna fija."
+    "ref": "Excel 365 - Referencias",
+    "exp": "$B10 fija la columna B (mixta de columna fija) y deja relativa la fila."
   },
   {
-    "q": "En Excel 365, si tenemos $A$10 en una función y la copiamos en una celda hacia abajo, la expresión se habrá convertido en:",
+    "q": "En Excel 365, si tenemos la expresión $A$10 en una función, al copiarla en una celda hacia abajo, la expresión se habrá convertido en:",
     "o": [
       "$A$11",
       "$B$10",
@@ -1196,23 +1268,23 @@
       "A11"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Al ser referencia absoluta, no cambia al copiar: sigue siendo $A$10."
+    "ref": "Excel 365 - Referencias absolutas",
+    "exp": "$A$10 es absoluta: al copiarla no cambia, sigue siendo $A$10."
   },
   {
     "q": "En Excel 365, respecto a la función AHORA:",
     "o": [
       "Devuelve solo la fecha actual del sistema",
-      "Su sintaxis es AHORA sin paréntesis",
+      "Su sintaxis es AHORA()",
       "Requiere argumento",
       "Devuelve la fecha y hora actual del sistema"
     ],
     "c": 3,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "AHORA() devuelve fecha y hora actuales; no requiere argumentos."
+    "ref": "Excel 365 - Funciones de fecha",
+    "exp": "AHORA() devuelve la fecha y hora actuales del sistema."
   },
   {
-    "q": "En Excel 365, el grupo 'Gráficos' de la cinta de opciones se encuentra en la pestaña:",
+    "q": "En Excel 365, el grupo 'Gráficos' en la cinta de opciones se encuentra en la pestaña:",
     "o": [
       "Gráficos",
       "Insertar",
@@ -1220,7 +1292,7 @@
       "Ilustraciones"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
+    "ref": "Excel 365 - Cinta de opciones",
     "exp": "El grupo Gráficos está en la pestaña Insertar."
   },
   {
@@ -1232,8 +1304,8 @@
       "Derecha mientras se introduce"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "El texto se alinea a la izquierda."
+    "ref": "Excel 365 - Alineación",
+    "exp": "El texto se alinea a la izquierda mientras se introduce (y también una vez confirmado)."
   },
   {
     "q": "En Excel 365, el grupo 'Biblioteca de fórmulas' se encuentra en la pestaña:",
@@ -1243,9 +1315,9 @@
       "Funciones",
       "No existe"
     ],
-    "c": 3,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "El grupo real se denomina 'Biblioteca de funciones' y está en la pestaña Fórmulas; una 'Biblioteca de fórmulas' no existe, por lo que la correcta es 'No existe'."
+    "c": 1,
+    "ref": "Excel 365 - Cinta de opciones",
+    "exp": "El grupo Biblioteca de funciones/fórmulas está en la pestaña Fórmulas."
   },
   {
     "q": "En Excel 365, con la tecla SUPR:",
@@ -1256,8 +1328,8 @@
       "No se borra el contenido de una celda, pero sí su formato"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "SUPR borra el contenido pero conserva el formato de la celda."
+    "ref": "Excel 365 - Borrar",
+    "exp": "SUPR borra el contenido de la celda pero conserva su formato."
   },
   {
     "q": "En Excel 365, ¿cuál es un operador de referencia?",
@@ -1268,8 +1340,8 @@
       "+"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Los dos puntos (:) es el operador de rango/referencia."
+    "ref": "Excel 365 - Operadores",
+    "exp": "Los dos puntos (:) son el operador de rango, un operador de referencia."
   },
   {
     "q": "En Excel 365, para insertar una función se puede utilizar el atajo de teclado:",
@@ -1280,11 +1352,11 @@
       "F+X"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "MAY + F3 abre el cuadro Insertar función."
+    "ref": "Excel 365 - Atajos de teclado",
+    "exp": "MAY + F3 abre el cuadro de diálogo Insertar función."
   },
   {
-    "q": "En Excel 365, en la herramienta 'combinar y centrar', NO se encuentra la posibilidad de:",
+    "q": "En Excel 365, en la herramienta 'combinar y centrar' no se encuentra la posibilidad de:",
     "o": [
       "Separar celdas",
       "Combinar verticalmente",
@@ -1292,11 +1364,11 @@
       "Se encuentran todas las anteriores posibilidades"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Según la clave del examen no existe la opción de combinar verticalmente en ese desplegable."
+    "ref": "Excel 365 - Combinar celdas",
+    "exp": "El menú de 'Combinar y centrar' no ofrece 'combinar verticalmente'."
   },
   {
-    "q": "En Excel 365, con los datos A1=50, B2=10, C3=2, ¿cuál sería la expresión correcta para obtener 120 en la celda D3?",
+    "q": "En Excel 365, con los datos A1=50, B2=10 y C3=2, para obtener el resultado 120 en la celda D3, ¿cuál sería la expresión correcta?",
     "o": [
       "=A1+B2*C3",
       "A1+B2*C3",
@@ -1304,11 +1376,11 @@
       "=A1+B2XC3"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "(50+10)*2 = 120, por tanto =(A1+B2)*C3."
+    "ref": "Excel 365 - Fórmulas",
+    "exp": "=(A1+B2)*C3 = (50+10)*2 = 120; los paréntesis fuerzan la suma antes de multiplicar."
   },
   {
-    "q": "En Excel 365, la alineación de los valores numéricos en una celda, una vez confirmados, es:",
+    "q": "En Excel 365, la alineación de los valores numéricos en una celda, una vez confirmado, es:",
     "o": [
       "Derecha",
       "Izquierda",
@@ -1316,11 +1388,11 @@
       "Justificada"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Los números se alinean a la derecha."
+    "ref": "Excel 365 - Alineación",
+    "exp": "Los valores numéricos se alinean a la derecha."
   },
   {
-    "q": "En Excel 365, señale cuál NO es una función matemática de Excel:",
+    "q": "En Excel 365, ¿cuál no es una función matemática de Excel?",
     "o": [
       "Función Producto",
       "Función Residuo",
@@ -1328,8 +1400,8 @@
       "Función Largo"
     ],
     "c": 3,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "LARGO es una función de texto, no matemática."
+    "ref": "Excel 365 - Funciones",
+    "exp": "LARGO es una función de texto (devuelve la longitud), no matemática."
   },
   {
     "q": "En Excel 365, la función 'SUSTITUIR', ¿qué tipo de función es?",
@@ -1340,7 +1412,7 @@
       "De texto"
     ],
     "c": 3,
-    "ref": "Tema 17 - Excel 365",
+    "ref": "Excel 365 - Funciones de texto",
     "exp": "SUSTITUIR es una función de texto."
   },
   {
@@ -1352,8 +1424,8 @@
       "De texto"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "El operador & concatena textos."
+    "ref": "Excel 365 - Operadores",
+    "exp": "El operador & concatena (une) textos."
   },
   {
     "q": "En Excel 365, la herramienta 'quitar duplicados' se encuentra en la pestaña:",
@@ -1364,23 +1436,23 @@
       "Archivo"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Quitar duplicados está en la pestaña Datos."
+    "ref": "Excel 365 - Datos",
+    "exp": "'Quitar duplicados' está en la pestaña Datos."
   },
   {
-    "q": "En Excel 365, con datos en A1:A4, ¿cuál sería la opción correcta para sumar esas cantidades en la celda A5?",
+    "q": "En Excel 365, con los valores 100, 200, 300 y 400 en A1:A4, ¿cuál es la opción correcta para sumarlos en la celda A5?",
     "o": [
       "=SUMA A1:A4",
       "SUMA (A1:A4)",
       "=SUMA (A1+A4)",
-      "=SUMA(A1:A4)"
+      "=SUMA (A1:A4)"
     ],
     "c": 3,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "La sintaxis correcta es =SUMA(A1:A4)."
+    "ref": "Excel 365 - Función SUMA",
+    "exp": "La sintaxis correcta es =SUMA(A1:A4), con el signo = y el rango entre paréntesis con dos puntos."
   },
   {
-    "q": "En Excel 365, con el atajo de teclado CTRL+MAYÚSCULA+espacio, se logra:",
+    "q": "En Excel 365, con el atajo de teclado CTRL+MAYÚSCULA+ESPACIO se logra:",
     "o": [
       "Cerrar la hoja de cálculo",
       "Insertar una hoja de cálculo",
@@ -1388,11 +1460,11 @@
       "Dividir la hoja de cálculo"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "CTRL+MAY+Espacio selecciona toda la hoja."
+    "ref": "Excel 365 - Atajos de teclado",
+    "exp": "CTRL+MAYÚS+ESPACIO selecciona toda la hoja de cálculo."
   },
   {
-    "q": "En Excel 365, ¿qué atajo de teclado es válido para insertar un gráfico (en la misma hoja)?",
+    "q": "En Excel 365, ¿qué atajo de teclado es válido para insertar un gráfico?",
     "o": [
       "F1",
       "CTRL+F1",
@@ -1400,11 +1472,11 @@
       "MAY + F1"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "ALT+F1 inserta un gráfico incrustado en la hoja actual."
+    "ref": "Excel 365 - Atajos de teclado",
+    "exp": "ALT+F1 inserta un gráfico en la misma hoja."
   },
   {
-    "q": "En Excel 365, ¿qué atajo de teclado sería correcto para introducir el gráfico en una hoja aparte?",
+    "q": "En Excel 365, ¿qué atajo de teclado sería el correcto para introducir el gráfico en una hoja aparte?",
     "o": [
       "F11",
       "F1",
@@ -1412,20 +1484,20 @@
       "CTRL+F11"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
+    "ref": "Excel 365 - Atajos de teclado",
     "exp": "F11 crea el gráfico en una hoja de gráfico independiente."
   },
   {
     "q": "En Excel 365, en la referencia $A$1:",
     "o": [
-      "Ni se fija la columna ni se fija la fila",
+      "Ni se fija la columna, ni se fija la fila",
       "Se fija la columna, pero no la fila",
       "Se fija la columna y la fila",
       "Se fija la fila pero no la columna"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "$A$1 es absoluta: fija columna y fila."
+    "ref": "Excel 365 - Referencias absolutas",
+    "exp": "$A$1 fija tanto la columna como la fila (referencia absoluta)."
   },
   {
     "q": "En Excel 365, para introducir un mismo dato en un rango de celdas en una sola operación, ¿qué secuencia es la correcta?",
@@ -1436,8 +1508,8 @@
       "Seleccionar el rango, introducir el dato y pulsar CTRL+INTRO, siempre que sean contiguas"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Seleccionar rango, escribir el dato y confirmar con CTRL+INTRO lo replica en todo el rango."
+    "ref": "Excel 365 - Introducción de datos",
+    "exp": "Se selecciona el rango, se escribe el dato y se confirma con CTRL+INTRO para rellenar todas las celdas."
   },
   {
     "q": "En Excel 365, la herramienta 'cotizaciones':",
@@ -1448,11 +1520,11 @@
       "Es una forma 3D"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "El tipo de datos Cotizaciones está en la pestaña Datos."
+    "ref": "Excel 365 - Datos",
+    "exp": "'Cotizaciones' es un tipo de datos vinculados de la pestaña Datos."
   },
   {
-    "q": "En Excel 365, ¿en qué pestaña de la cinta de opciones se encuentra la herramienta 'proteger un libro'?",
+    "q": "En Excel 365, ¿en qué pestaña se encuentra la herramienta 'proteger un libro'?",
     "o": [
       "Inicio",
       "Archivo",
@@ -1460,8 +1532,8 @@
       "Fórmulas"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Proteger libro (cifrar/proteger) está en Archivo > Información, aunque también existe en Revisar. Según la clave del examen es Archivo."
+    "ref": "Excel 365 - Proteger libro",
+    "exp": "'Proteger libro' está en Archivo/Información."
   },
   {
     "q": "En Excel 365, los valores tipo fecha:",
@@ -1469,14 +1541,14 @@
       "Se alinean a la derecha y no se formatean automáticamente",
       "Se alinean a la derecha y se formatean automáticamente",
       "Se alinean a la izquierda y no se formatean automáticamente",
-      "Ni se alinean ni se formatean automáticamente"
+      "Ni se alinean, ni se formatean automáticamente"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Las fechas se alinean a la derecha y adoptan formato de fecha automáticamente."
+    "ref": "Excel 365 - Fechas",
+    "exp": "Las fechas se alinean a la derecha (son valores numéricos) y se formatean automáticamente."
   },
   {
-    "q": "En Excel 365, introducido un dato en una celda, en la barra de estado indica el estado:",
+    "q": "En Excel 365, introducido un dato en una celda, en la barra de estado se indica el estado:",
     "o": [
       "Normal",
       "Introducir",
@@ -1484,44 +1556,44 @@
       "Correcto"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Tras confirmar el dato, la barra de estado indica 'Listo'."
+    "ref": "Excel 365 - Barra de estado",
+    "exp": "Tras confirmar un dato el estado vuelve a 'Listo'."
   },
   {
     "q": "En Excel 365, para insertar una fecha estática, el método abreviado correcto es:",
     "o": [
-      "CTRL + ,",
+      "CTRL ,",
       "CTRL+MAY+:",
       "CTRL+MAY",
-      "CTRL + :"
+      "CTRL :"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "CTRL + , (coma) inserta la fecha actual estática."
+    "ref": "Excel 365 - Atajos de teclado",
+    "exp": "CTRL+, (coma) inserta la fecha actual estática."
   },
   {
     "q": "En Excel 365, el operador <> significa:",
     "o": [
-      "Ni mayor ni menor",
+      "Ni mayor, ni menor",
       "Sin diferencia",
       "Diferente de",
       "Verdadero o falso"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "El operador <> significa 'distinto de'."
+    "ref": "Excel 365 - Operadores",
+    "exp": "El operador <> significa 'distinto de' (diferente de)."
   },
   {
     "q": "En Excel 365, la función PROMEDIO:",
     "o": [
       "Calcula el promedio de un conjunto de celdas con valores numéricos",
-      "Calcula el promedio de un conjunto de celdas con valores de texto",
+      "Calcula el promedio de un conjunto de celdas con valores de textos",
       "Calcula el promedio de un conjunto de celdas con valores de cualquier tipo",
-      "Calcula la suma aritmética de un conjunto de celdas con valores numéricos o de texto"
+      "Calcula la suma aritmética de un conjunto de celdas con valores numéricos o de textos"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "PROMEDIO calcula la media de valores numéricos."
+    "ref": "Excel 365 - Función PROMEDIO",
+    "exp": "PROMEDIO calcula la media de un conjunto de celdas con valores numéricos."
   },
   {
     "q": "En Excel 365, la función que devuelve el valor absoluto de un número o fórmula es:",
@@ -1532,8 +1604,8 @@
       "ENTERO"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "ABS devuelve el valor absoluto."
+    "ref": "Excel 365 - Funciones matemáticas",
+    "exp": "ABS devuelve el valor absoluto de un número."
   },
   {
     "q": "En Excel 365, la expresión #¡REF!:",
@@ -1544,8 +1616,8 @@
       "Es un operador lógico"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "#¡REF! es un error de referencia no válida."
+    "ref": "Excel 365 - Errores",
+    "exp": "#¡REF! es un error que indica una referencia de celda no válida."
   },
   {
     "q": "En Excel 365, #¿NOMBRE? es una expresión de error:",
@@ -1556,8 +1628,8 @@
       "Que indica que las celdas no se pueden seleccionar"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "#¿NOMBRE? indica que Excel no reconoce texto de la fórmula (nombre mal escrito)."
+    "ref": "Excel 365 - Errores",
+    "exp": "#¿NOMBRE? aparece cuando Excel no reconoce un texto de la fórmula (nombre de función mal escrito, etc.)."
   },
   {
     "q": "En Excel 365, la herramienta 'comprobación de errores':",
@@ -1568,11 +1640,11 @@
       "A y B son incorrectas"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Comprobación de errores busca errores en fórmulas; está en Fórmulas, no en Revisar, por lo que solo A es correcta."
+    "ref": "Excel 365 - Comprobación de errores",
+    "exp": "Busca errores comunes en las fórmulas; se encuentra en la pestaña Fórmulas (no en Revisar), por lo que solo A es correcta."
   },
   {
-    "q": "En Excel 365, la opción FILTRO, ¿en qué pestaña de la cinta de opciones se encuentra?",
+    "q": "En Excel 365, la opción FILTRO, ¿en qué pestaña se encuentra?",
     "o": [
       "Insertar",
       "Revisar",
@@ -1580,23 +1652,11 @@
       "No existe tal opción"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Filtro está en Inicio (grupo Modificar) y también en Datos. Según la clave del examen la respuesta es Inicio."
+    "ref": "Excel 365 - Filtro",
+    "exp": "El comando Filtro está en Inicio (grupo Edición/Ordenar y filtrar) y también en Datos; la clave del examen indica Inicio."
   },
   {
-    "q": "En Excel 365, si aplicamos la herramienta de orden ascendente a una lista de números (10, 20, 5, 15, 9):",
-    "o": [
-      "Ordenará de menor a mayor",
-      "Filtrará de menor a mayor",
-      "Ordenará de mayor a menor",
-      "Nada es correcto, porque es una herramienta para ordenar listas de texto"
-    ],
-    "c": 0,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "La herramienta de orden ascendente ordena de menor a mayor."
-  },
-  {
-    "q": "En Excel 365, NO es un tipo de gráfico:",
+    "q": "En Excel 365, no es un tipo de gráfico:",
     "o": [
       "Circular",
       "Área",
@@ -1604,20 +1664,20 @@
       "Todos los anteriores son tipos de gráficos"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
+    "ref": "Excel 365 - Gráficos",
     "exp": "'Pentagrama' no es un tipo de gráfico de Excel."
   },
   {
     "q": "En Excel 365, para insertar una función, ¿cómo actuaremos?",
     "o": [
-      "Seleccionaremos la celda y haremos clic en el botón 'Insertar función' (fx)",
-      "Seleccionaremos la celda e introduciremos el signo =FUNCION",
-      "Seleccionaremos la celda y escribiremos entre paréntesis un rango de celdas",
-      "Seleccionaremos la celda y haremos clic en 'Insertar fórmula' de la pestaña Inicio"
+      "Seleccionar la celda y hacer clic en el botón 'Insertar función' (fx)",
+      "Seleccionar la celda e introducir en la celda el signo =FUNCION",
+      "Seleccionar la celda y escribir entre paréntesis un rango de celdas",
+      "Seleccionar la celda y hacer clic en el botón 'Insertar fórmula' de la pestaña Inicio"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "El botón fx (Insertar función) abre el asistente de funciones."
+    "ref": "Excel 365 - Insertar función",
+    "exp": "Se selecciona la celda y se pulsa el botón 'Insertar función' (fx) de la barra de fórmulas."
   },
   {
     "q": "En Excel 365, es un operador de comparación:",
@@ -1628,8 +1688,8 @@
       "="
     ],
     "c": 3,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "El signo = es operador de comparación (igual a); los demás son aritméticos."
+    "ref": "Excel 365 - Operadores",
+    "exp": "El signo = (igual) es un operador de comparación; +, - y / son aritméticos."
   },
   {
     "q": "En Excel 365, la función SI:",
@@ -1640,11 +1700,11 @@
       "Es estadística"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
+    "ref": "Excel 365 - Funciones lógicas",
     "exp": "SI es una función lógica."
   },
   {
-    "q": "En Excel 365, el icono con forma de aspa (X) situado en la barra de fórmulas:",
+    "q": "En Excel 365, el icono de cancelar (aspa) de la barra de fórmulas:",
     "o": [
       "Se utiliza para confirmar datos",
       "Se utiliza para cancelar datos y está activo siempre en la barra de fórmulas",
@@ -1652,8 +1712,8 @@
       "Se utiliza para cancelar datos una vez que están confirmados"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "El aspa cancela la entrada y solo aparece activo mientras se introducen datos."
+    "ref": "Excel 365 - Barra de fórmulas",
+    "exp": "El aspa cancela la entrada y solo está activa mientras se introducen datos."
   },
   {
     "q": "En Excel 365, de manera predeterminada las referencias son:",
@@ -1664,7 +1724,7 @@
       "Mixtas"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
+    "ref": "Excel 365 - Referencias",
     "exp": "Por defecto las referencias son relativas."
   },
   {
@@ -1672,15 +1732,15 @@
     "o": [
       "No se puede aplicar a un grupo de celdas a la vez",
       "Las opciones de formato se encuentran en la pestaña inicio",
-      "El formato de celda 'promedio' multiplica el valor de la celda por cien",
-      "En el formato de celda 'moneda' no es posible la inserción de números negativos"
+      "El formato de celda promedio es el que multiplica el valor por cien",
+      "En el formato 'moneda' no es posible la inserción de números negativos"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
+    "ref": "Excel 365 - Formato de celda",
     "exp": "Las opciones de formato están en la pestaña Inicio."
   },
   {
-    "q": "En Excel 365, respecto al formato de celda, en las opciones 'número' NO existe el formato:",
+    "q": "En Excel 365, respecto al formato de celda, en las opciones 'número' no existe el formato:",
     "o": [
       "Texto",
       "Fecha",
@@ -1688,8 +1748,8 @@
       "Cotización"
     ],
     "c": 3,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "No existe un formato de número llamado 'Cotización'."
+    "ref": "Excel 365 - Formato de número",
+    "exp": "'Cotización' no es una categoría del formato de número."
   },
   {
     "q": "En Excel 365, ¿en qué tipo de vista se puede insertar directamente un encabezado en la hoja de cálculo?",
@@ -1700,23 +1760,23 @@
       "Diseño de página"
     ],
     "c": 3,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "En la vista Diseño de página se pueden editar encabezados y pies directamente."
+    "ref": "Excel 365 - Vistas",
+    "exp": "En la vista Diseño de página se pueden insertar encabezados directamente."
   },
   {
     "q": "En Excel 365, ¿qué se puede hacer con la opción Inmovilizar?",
     "o": [
       "Mantener visible la fila inferior",
       "Mantener invisible la primera columna mientras se desplaza la hoja",
-      "Mantener visibles filas y columnas mientras se desplaza el resto de la hoja de cálculo",
+      "Mantener visibles filas y columnas mientras se desplaza el resto de la hoja",
       "Se puede realizar todo lo anterior"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Inmovilizar mantiene visibles filas/columnas mientras se desplaza el resto."
+    "ref": "Excel 365 - Inmovilizar",
+    "exp": "Inmovilizar mantiene visibles filas y/o columnas mientras se desplaza el resto de la hoja."
   },
   {
-    "q": "En Excel 365, al desactivar la herramienta línea de cuadrícula:",
+    "q": "En Excel 365, al desactivar la herramienta líneas de cuadrícula:",
     "o": [
       "Desaparecen las líneas entre las celdas y los encabezados de las columnas",
       "Desaparecen las líneas entre las celdas",
@@ -1724,8 +1784,8 @@
       "Desaparecen las líneas verticales de las celdas y mantiene las horizontales"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Desactivar las líneas de cuadrícula elimina las líneas de separación entre celdas."
+    "ref": "Excel 365 - Líneas de cuadrícula",
+    "exp": "Al desactivar las líneas de cuadrícula desaparecen solo las líneas entre celdas."
   },
   {
     "q": "En Excel 365, seleccionado un rango de celdas, si se desactiva la opción 'encabezados':",
@@ -1736,8 +1796,8 @@
       "Desaparece el rango de celdas"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "La opción encabezados afecta a toda la hoja, ocultando las letras de columnas y números de filas."
+    "ref": "Excel 365 - Encabezados",
+    "exp": "Al desactivar 'encabezados' desaparecen los de toda la hoja (letras de columna y números de fila), no solo del rango."
   },
   {
     "q": "En Excel 365, ¿qué función tiene la herramienta Dividir?",
@@ -1748,8 +1808,8 @@
       "Divide los paneles en varias hojas que se desplazan por separado"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Dividir separa la ventana en paneles con desplazamiento independiente."
+    "ref": "Excel 365 - Dividir",
+    "exp": "Dividir separa la ventana en paneles que se desplazan de forma independiente."
   },
   {
     "q": "En Excel 365, ¿qué tipo de vista muestra el documento como se verá impreso?",
@@ -1760,11 +1820,11 @@
       "Diseño web"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "La vista Diseño de página muestra cómo se verá impreso."
+    "ref": "Excel 365 - Vistas",
+    "exp": "La vista Diseño de página muestra el documento tal como se imprimirá."
   },
   {
-    "q": "En Excel 365, ¿qué tipo de formato de número es aquel que no tiene un formato específico?",
+    "q": "En Excel 365, ¿qué tipo de formato de número es aquel que no tiene un formato específico de número?",
     "o": [
       "General",
       "Especial",
@@ -1772,8 +1832,8 @@
       "Promedio"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "El formato General no aplica ningún formato de número específico."
+    "ref": "Excel 365 - Formato de número",
+    "exp": "El formato 'General' es el que no aplica un formato numérico específico."
   },
   {
     "q": "En Excel 365, es un formato numérico:",
@@ -1784,32 +1844,32 @@
       "Todos los anteriores"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Científico es un formato numérico; Promedio y Cotización no."
+    "ref": "Excel 365 - Formato de número",
+    "exp": "'Científico' es un formato numérico; 'Promedio' y 'Cotización' no lo son."
   },
   {
     "q": "En Excel 365, es un tipo de formato numérico especial:",
     "o": [
-      "El código postal",
+      "El código postal (distrito postal)",
       "La fecha corta",
       "Los negativos",
       "Moneda con dos decimales"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "El código postal (distrito postal) es un formato de la categoría Especial."
+    "ref": "Excel 365 - Formato especial",
+    "exp": "El código postal es uno de los formatos de la categoría 'Especial'."
   },
   {
     "q": "En Excel 365, ¿qué atajo de teclado es válido para acceder a Formato de Celda?",
     "o": [
       "CTRL + F",
-      "CTRL +MAY+F",
-      "CTRL+ rueda del ratón",
+      "CTRL + MAY + F",
+      "CTRL + rueda del ratón",
       "CTRL + 2"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "CTRL+MAY+F abre el cuadro de diálogo Formato de celdas (ficha Fuente). Corregido: la opción D había sido alterada de 'CTRL + 2' (distractor original del examen) a 'CTRL + 1', y c apuntaba a ella en vez de a la clave oficial (B)."
+    "ref": "Excel 365 - Atajos de teclado",
+    "exp": "Según la clave del examen la respuesta es CTRL+MAY+F, aunque el atajo habitual de Formato de celdas es CTRL+1 (no figura entre las opciones) - revisar en validación."
   },
   {
     "q": "En Excel 365, en cuanto al formato de celda, indique qué es falso:",
@@ -1820,11 +1880,11 @@
       "Se puede orientar el contenido de las celdas por grados"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "En Excel no existe la sangría/tabulación de primera línea propia de Word."
+    "ref": "Excel 365 - Formato de celda",
+    "exp": "Es falso: en Formato de celda no existe una 'tabulación de primera línea' (eso es propio de Word)."
   },
   {
-    "q": "En Excel 365, ¿qué herramienta marca fácilmente las tendencias y los modelos en los datos usando barras, colores e iconos para resaltar valores importantes?",
+    "q": "En Excel 365, ¿qué herramienta marca fácilmente las tendencias y los modelos en los datos usando barras, colores e iconos para resaltar visualmente valores importantes?",
     "o": [
       "Formato condicional",
       "Tablas dinámicas",
@@ -1832,20 +1892,20 @@
       "Formas"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "El formato condicional resalta valores con barras, escalas de color e iconos."
+    "ref": "Excel 365 - Formato condicional",
+    "exp": "El formato condicional resalta valores con barras, colores e iconos."
   },
   {
-    "q": "En Excel 365, en la herramienta 'formato condicional' NO se encuentra la posibilidad de:",
+    "q": "En Excel 365, en la herramienta 'formato condicional' no se encuentra la posibilidad de:",
     "o": [
       "Nueva regla",
       "Compartir regla",
-      "Administrar reglas",
+      "Administrar regla",
       "Se encuentran todas las posibilidades anteriores"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "El temario indica que 'Administrar reglas' sí existe y que 'no existe la opción compartir regla', por lo que la opción inexistente es 'Compartir regla'. Corregido de Administrar reglas a Compartir regla."
+    "ref": "Excel 365 - Formato condicional",
+    "exp": "No existe 'compartir regla'; sí 'nueva regla' y 'administrar reglas'."
   },
   {
     "q": "En Excel 365, es una opción del formato condicional:",
@@ -1856,8 +1916,8 @@
       "Tipo de fuentes"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "El temario recoge 'Conjuntos de iconos (por ejemplo, iconos direccionales)' como opción del formato condicional, y aclara que las reglas se aplican a celdas, 'no a libros'. Por tanto 'Resaltar reglas de libros' no es válida y la correcta es 'Conjunto de iconos direccionales'."
+    "ref": "Excel 365 - Formato condicional",
+    "exp": "El 'conjunto de iconos' (direccionales) es una opción del formato condicional."
   },
   {
     "q": "En Excel 365, las celdas aparecen por defecto:",
@@ -1868,8 +1928,8 @@
       "Cifradas"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Por defecto todas las celdas están bloqueadas, aunque el bloqueo solo surte efecto al proteger la hoja."
+    "ref": "Excel 365 - Proteger",
+    "exp": "Por defecto las celdas están bloqueadas, aunque el bloqueo solo surte efecto al proteger la hoja."
   },
   {
     "q": "En Excel 365, ¿en qué pestaña se encuentra 'proteger celdas'?",
@@ -1880,8 +1940,8 @@
       "Diseño"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Proteger hoja/celdas está en la pestaña Revisar."
+    "ref": "Excel 365 - Proteger",
+    "exp": "La protección de celdas/hoja está en la pestaña Revisar."
   },
   {
     "q": "En Excel 365, ¿qué herramienta impide que otros usuarios realicen cambios en la estructura de un libro de Excel?",
@@ -1892,32 +1952,32 @@
       "Ocultar libros"
     ],
     "c": 0,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Proteger libro impide cambios en la estructura del libro."
+    "ref": "Excel 365 - Proteger libro",
+    "exp": "'Proteger libro' impide cambios en la estructura del libro."
   },
   {
-    "q": "En Excel 365, entre las opciones para imprimir NO se encuentra:",
+    "q": "En Excel 365, entre las opciones para imprimir no se encuentra:",
     "o": [
       "Imprimir hojas activas",
       "Imprimir referencias",
       "Imprimir selección",
-      "Imprimir todo el libro"
+      "Imprimir sin escalado"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "No existe 'Imprimir referencias'."
+    "ref": "Excel 365 - Imprimir",
+    "exp": "No existe la opción 'imprimir referencias'."
   },
   {
     "q": "En Excel 365, la herramienta 'área de impresión':",
     "o": [
       "Establece un área de impresión que incluye las celdas vacías",
-      "Establece un área de impresión que imprime la cuadrícula y el contenido de las celdas",
+      "Establece un área de impresión que imprime la cuadrícula y el contenido",
       "Establece un área de impresión que no incluye las celdas vacías",
       "Establece un área de impresión que imprime la cuadrícula de las celdas vacías"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "El área de impresión no incluye las celdas vacías externas al contenido."
+    "ref": "Excel 365 - Área de impresión",
+    "exp": "El área de impresión se limita al contenido seleccionado, sin incluir celdas vacías."
   },
   {
     "q": "En Excel 365, la herramienta 'proteger libro' de la pestaña archivo permite:",
@@ -1928,8 +1988,8 @@
       "Agregar una firma digital"
     ],
     "c": 3,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "Desde Archivo > Información > Proteger libro se puede Agregar una firma digital."
+    "ref": "Excel 365 - Proteger libro",
+    "exp": "Desde Archivo/Proteger libro se puede agregar una firma digital."
   },
   {
     "q": "En Excel 365, el atajo de teclado CTRL+P:",
@@ -1940,19 +2000,19 @@
       "Abre la opción portada"
     ],
     "c": 1,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "CTRL+P abre el panel de Imprimir con vista previa."
+    "ref": "Excel 365 - Imprimir",
+    "exp": "CTRL+P abre la vista previa e impresión."
   },
   {
     "q": "En Excel 365, ¿qué atajo de teclado mueve el zoom?",
     "o": [
       "CTRL+Z",
       "ALT+Z",
-      "CTRL+ rueda del ratón",
+      "CTRL + rueda del ratón",
       "Z + rueda del ratón"
     ],
     "c": 2,
-    "ref": "Tema 17 - Excel 365",
-    "exp": "CTRL + rueda del ratón amplía o reduce el zoom."
+    "ref": "Excel 365 - Zoom",
+    "exp": "CTRL + rueda del ratón aumenta o reduce el zoom."
   }
 ]
