@@ -1,8 +1,9 @@
+from datetime import datetime
 from typing import Optional
 
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, Query
 from pydantic import BaseModel
-from sqlmodel import Session
+from sqlmodel import Session, select
 
 from auth import get_current_user
 from database import get_session
@@ -30,6 +31,32 @@ class SesionOut(BaseModel):
     total: int
     pct: int
     nota: str
+
+
+class SesionListItem(BaseModel):
+    id: int
+    modo: ModoTest
+    feedback: FeedbackMode
+    tema_id: Optional[int]
+    total: int
+    aciertos: int
+    pct: int
+    segundos: Optional[int]
+    created_at: datetime
+
+
+class RespuestaDetalle(BaseModel):
+    pregunta_id: str
+    tema_id: int
+    enunciado: str
+    opciones: list[str]
+    elegida: Optional[int]
+    correcta_idx: int
+    acertada: bool
+
+
+class SesionDetalle(SesionListItem):
+    respuestas: list[RespuestaDetalle]
 
 
 @router.post("/sesiones", response_model=SesionOut, status_code=201)
@@ -85,4 +112,59 @@ def create_sesion(
         total=total,
         pct=pct,
         nota=f"{pct / 100 * 10:.1f}",
+    )
+
+
+@router.get("/sesiones", response_model=list[SesionListItem])
+def list_sesiones(
+    limit: int = Query(50, ge=1, le=500),
+    session: Session = Depends(get_session),
+    current_user: Usuario = Depends(get_current_user),
+):
+    sesiones = session.exec(
+        select(Sesion)
+        .where(Sesion.usuario_id == current_user.id)
+        .order_by(Sesion.created_at.desc())
+        .limit(limit)
+    ).all()
+    return [
+        SesionListItem(
+            id=s.id, modo=s.modo, feedback=s.feedback, tema_id=s.tema_id,
+            total=s.total, aciertos=s.aciertos,
+            pct=round(s.aciertos / s.total * 100) if s.total else 0,
+            segundos=s.segundos, created_at=s.created_at,
+        )
+        for s in sesiones
+    ]
+
+
+@router.get("/sesiones/{sesion_id}", response_model=SesionDetalle)
+def get_sesion(
+    sesion_id: int,
+    session: Session = Depends(get_session),
+    current_user: Usuario = Depends(get_current_user),
+):
+    s = session.get(Sesion, sesion_id)
+    if not s or s.usuario_id != current_user.id:
+        raise HTTPException(404, "Sesión no encontrada")
+
+    respuestas: list[RespuestaDetalle] = []
+    for r in s.respuestas:
+        p = session.get(Pregunta, r.pregunta_id)
+        respuestas.append(RespuestaDetalle(
+            pregunta_id=r.pregunta_id,
+            tema_id=p.tema_id if p else 0,
+            enunciado=p.enunciado if p else "(pregunta no disponible)",
+            opciones=p.opciones if p else [],
+            elegida=r.elegida,
+            correcta_idx=p.correcta if p else -1,
+            acertada=r.correcta,
+        ))
+
+    return SesionDetalle(
+        id=s.id, modo=s.modo, feedback=s.feedback, tema_id=s.tema_id,
+        total=s.total, aciertos=s.aciertos,
+        pct=round(s.aciertos / s.total * 100) if s.total else 0,
+        segundos=s.segundos, created_at=s.created_at,
+        respuestas=respuestas,
     )

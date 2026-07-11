@@ -58,6 +58,9 @@
       </sc-if>
       <button onClick="{{ onSubmitAuth }}" style="width:100%; background:#6B46E5; color:#fff; border:none; border-radius:12px; padding:14px; font-weight:700; font-size:15px; cursor:pointer; font-family:inherit;">{{ authBtnLabel }}</button>
       <button onClick="{{ authToggle }}" style="width:100%; background:none; border:none; color:#9A9AA6; font-size:13px; margin-top:14px; cursor:pointer; font-family:inherit;">{{ authToggleLabel }}</button>
+      <sc-if value="{{ showReset }}" hint-placeholder-val="{{ true }}">
+      <button onClick="{{ onResetPassword }}" style="width:100%; background:none; border:none; color:#B4B4C0; font-size:12px; margin-top:8px; cursor:pointer; font-family:inherit; text-decoration:underline;">He olvidado mi contraseña — restablecer a test1234</button>
+      </sc-if>
     </div>
   </div>
   </sc-if>
@@ -528,6 +531,36 @@
       </div>
       </sc-if>
 
+      <!-- ===================== HISTORIAL ===================== -->
+      <sc-if value="{{ isHistorial }}" hint-placeholder-val="{{ true }}">
+      <div class="sc-screen">
+        <h1 style="font-family:'Newsreader',serif; font-weight:500; font-size:32px; margin:0 0 4px; letter-spacing:-.4px;">Historial de tests</h1>
+        <p style="color:#6B6B78; font-size:14px; margin:0 0 24px;">Tus últimas sesiones realizadas, con la nota de cada una.</p>
+        <sc-if value="{{ noHayHistorial }}" hint-placeholder-val="{{ false }}">
+        <div style="margin-top:10px; background:#fff; border:1.5px dashed #E4E4EC; border-radius:14px; padding:46px; text-align:center; color:#9A9AA6;">
+          <div style="font-size:34px;">&#128465;</div>
+          <div style="font-size:15px; font-weight:600; color:#1B1B22; margin-top:10px;">Aún no has hecho ningún test</div>
+          <div style="font-size:13px; margin-top:4px;">Cuando completes un test, aparecerá aquí con tu nota.</div>
+        </div>
+        </sc-if>
+        <div style="display:flex; flex-direction:column; gap:10px;">
+          <sc-for list="{{ historialView }}" as="h" hint-placeholder-count="6">
+            <div style="background:#fff; border:1px solid #ECECF1; border-radius:13px; padding:15px 18px; display:flex; align-items:center; gap:16px; flex-wrap:wrap;">
+              <div style="flex:1; min-width:140px;">
+                <div style="font-weight:600; font-size:14.5px;">{{ h.modo }} <span style="color:#9A9AA6; font-weight:500;">· {{ h.tema }}</span></div>
+                <div style="font-size:12px; color:#9A9AA6; margin-top:3px;">{{ h.fecha }}</div>
+              </div>
+              <div style="width:110px; height:8px; background:#F0F0F5; border-radius:5px; overflow:hidden;">
+                <div style="{{ h.pctBar }}"></div>
+              </div>
+              <div style="width:64px; text-align:right; font-size:13px; color:#6B6B78;">{{ h.aciertos }}/{{ h.total }}</div>
+              <div style="width:50px; text-align:right; font-family:'Newsreader',serif; font-weight:600; font-size:18px; color:{{ h.pctColor }};">{{ h.nota }}</div>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+      </sc-if>
+
     </div>
   </main>
 
@@ -562,7 +595,7 @@ class Component extends DCLogic {
       loaded:false, TEMAS:[], BANCO:[],
       resumen:{ acierto_global:0, total_hechas:0, total_preguntas:0, prediccion:'0.0',
                 num_falladas:0, racha:0, mejor_racha:0, total_sesiones:0, temas_flojos:0 },
-      porTema:[], falladas:[], evolucion:[], calendario:[], ranking:[],
+      porTema:[], falladas:[], evolucion:[], calendario:[], ranking:[], vistas:{}, historial:[],
     };
   }
 
@@ -609,6 +642,24 @@ class Component extends DCLogic {
     } catch(e) { this.setState({ authError:'Error de conexión', authLoading:false }); }
   }
 
+  async resetPassword() {
+    const email = (this.state.authEmail || '').trim();
+    if (!email) { this.setState({ authError:'Escribe tu email para restablecer la contraseña.' }); return; }
+    if (!confirm(`Se restablecerá la contraseña de ${email} a "test1234". ¿Continuar?`)) return;
+    this.setState({ authLoading:true, authError:'' });
+    try {
+      const res = await fetch('/api/auth/reset-password', {
+        method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({ email }),
+      });
+      const data = await res.json();
+      if (!res.ok) { this.setState({ authError: data.detail || 'Error', authLoading:false }); return; }
+      localStorage.setItem('andatest_token', data.access_token);
+      localStorage.setItem('andatest_nombre', data.nombre);
+      this.setState({ authScreen:null, authLoading:false, nombreUsuario:data.nombre, authPassword:'' });
+      this.loadBank();
+    } catch(e) { this.setState({ authError:'Error de conexión', authLoading:false }); }
+  }
+
   logout() {
     localStorage.removeItem('andatest_token');
     localStorage.removeItem('andatest_nombre');
@@ -616,7 +667,7 @@ class Component extends DCLogic {
                     screen:'inicio', loaded:false, TEMAS:[], BANCO:[],
                     resumen:{ acierto_global:0, total_hechas:0, total_preguntas:0, prediccion:'0.0',
                               num_falladas:0, racha:0, mejor_racha:0, total_sesiones:0, temas_flojos:0 },
-                    porTema:[], falladas:[], evolucion:[], calendario:[], ranking:[] });
+                    porTema:[], falladas:[], evolucion:[], calendario:[], ranking:[], vistas:{}, historial:[] });
   }
 
   async loadBank() {
@@ -639,18 +690,23 @@ class Component extends DCLogic {
 
   async refreshStats() {
     try {
-      const [resumen, porTema, falladas, evolucion, calendario, ranking] = await Promise.all([
+      const [resumen, porTema, falladas, evolucion, calendario, ranking, vistas, historial] = await Promise.all([
         this.apiFetch('/api/stats/resumen').then(r=>r.json()),
         this.apiFetch('/api/stats/por-tema').then(r=>r.json()),
         this.apiFetch('/api/falladas').then(r=>r.json()),
         this.apiFetch('/api/stats/evolucion?limit=10').then(r=>r.json()),
         this.apiFetch('/api/stats/calendario?dias=35').then(r=>r.json()),
         this.apiFetch('/api/ranking/semanal').then(r=>r.json()),
+        this.apiFetch('/api/stats/vistas').then(r=>r.json()),
+        this.apiFetch('/api/sesiones?limit=50').then(r=>r.json()),
       ]);
+      const vistasMap = {};
+      (vistas||[]).forEach(v=>{ vistasMap[v.pregunta_id] = { veces:v.veces, bien:v.bien, mal:v.mal }; });
       this.setState({
         resumen, porTema,
         falladas: falladas.map(f=>({id:f.id, veces:f.veces})),
         evolucion, calendario, ranking,
+        vistas: vistasMap, historial: historial||[],
       });
     } catch(e) { if (e.message !== '401') console.error('Error actualizando stats:', e); }
   }
@@ -684,13 +740,30 @@ class Component extends DCLogic {
     window.scrollTo(0,0);
   }
 
+  // Selección con memoria: prioriza preguntas nunca vistas, luego las menos
+  // repetidas (y dentro de esas, las más falladas antes), para no repetir hasta agotar el pool.
+  selectQuestions(pool, n){
+    const v = this.state.vistas || {};
+    const unseen = this.shuffle(pool.filter(q=>!v[q.id]));
+    const seen = this.shuffle(pool.filter(q=>v[q.id])).sort((a,b)=>{
+      const va=v[a.id], vb=v[b.id];
+      if (va.veces !== vb.veces) return va.veces - vb.veces;          // menos vistas primero
+      return (vb.mal-vb.bien) - (va.mal-va.bien);                     // más falladas primero
+    });
+    return unseen.concat(seen).slice(0, Math.min(n, pool.length));
+  }
+
   buildTest(){
     const { setupMode, setupTema, setupFeedback, setupLen, BANCO, falladas } = this.state;
     let pool;
     if (setupMode==='tema') pool = BANCO.filter(b=>b.t===setupTema);
     else if (setupMode==='falladas') pool = falladas.map(f=>this.qById(f.id)).filter(Boolean);
     else pool = BANCO.slice();
-    const qs = this.shuffle(pool).slice(0, Math.min(setupLen, pool.length));
+    // En modo falladas todas son preguntas a repasar: barajado simple. En el resto,
+    // memoria anti-repeticion para no volver a mostrar lo ya visto hasta agotar el pool.
+    const qs = setupMode==='falladas'
+      ? this.shuffle(pool).slice(0, Math.min(setupLen, pool.length))
+      : this.selectQuestions(pool, setupLen);
     return { mode:setupMode, temaId:setupTema, feedback: setupMode==='simulacro'?'final':setupFeedback, qs, idx:0, answers:qs.map(()=>null), revealed:qs.map(()=>false), done:false };
   }
 
@@ -753,6 +826,7 @@ class Component extends DCLogic {
       { key:'temas', label:'Temas', icon:'≣' },
       { key:'stats', label:'Estadísticas', icon:'▤' },
       { key:'falladas', label:'Falladas', icon:'✕' },
+      { key:'historial', label:'Historial', icon:'◷' },
       { key:'ranking', label:'Ranking', icon:'★' },
     ];
     const activeNav = ['setup','test','results'].includes(screen) ? '' : screen;
@@ -819,6 +893,8 @@ class Component extends DCLogic {
       onSubmitAuth: ()=>this.submitAuth(),
       authBtnLabel: S.authLoading ? 'Cargando…' : (isLogin ? 'Entrar' : 'Registrarse'),
       showNombre: !isLogin,
+      showReset: isLogin,
+      onResetPassword: ()=>this.resetPassword(),
     };
 
     const out = {
@@ -831,7 +907,7 @@ class Component extends DCLogic {
       navItems, racha:R.racha||0, mejorRacha:R.mejor_racha||0,
       isInicio:screen==='inicio', isTemas:screen==='temas', isSetup:screen==='setup',
       isTest:screen==='test', isResults:screen==='results', isStats:screen==='stats',
-      isFalladas:screen==='falladas', isRanking:screen==='ranking',
+      isFalladas:screen==='falladas', isRanking:screen==='ranking', isHistorial:screen==='historial',
       temasView, evolPoints, evolArea, evolDots, calendario, diasMes,
       hasHistorial: n>0, noHistorial: n===0,
       totalPreguntas, totalHechas, aciertoGlobal, prediccion, numFalladas,
@@ -993,6 +1069,15 @@ class Component extends DCLogic {
     out.hayFalladas = numFalladas>0;
     out.noFalladas = numFalladas===0;
     out.falladasView = (S.falladas||[]).map(f=>{ const q=this.qById(f.id); if(!q) return null; return { tema:'Tema '+q.t+' · '+this.temaTitulo(q.t).slice(0,32), q:q.q, veces:f.veces, correcta:this.letra(q.c)+'. '+q.o[q.c], exp:q.exp, ref:q.ref }; }).filter(Boolean);
+    const _modoLabels = { tema:'Test por tema', aleatorio:'Test aleatorio', simulacro:'Simulacro', falladas:'Repaso falladas' };
+    out.historialView = (S.historial||[]).map(h=>{
+      const d = new Date(h.created_at);
+      const fecha = d.toLocaleDateString('es-ES',{day:'2-digit',month:'short'})+' · '+d.toLocaleTimeString('es-ES',{hour:'2-digit',minute:'2-digit'});
+      const tema = h.tema_id ? ('Tema '+h.tema_id+' · '+this.temaTitulo(h.tema_id).slice(0,30)) : (h.modo==='falladas'?'Falladas':'Varios temas');
+      return { fecha, modo:_modoLabels[h.modo]||h.modo, tema, nota:(h.pct/10).toFixed(1), aciertos:h.aciertos, total:h.total, pctColor:this.pctColor(h.pct), pctBar:`height:100%; width:${h.pct}%; background:${this.pctColor(h.pct)}; border-radius:5px;` };
+    });
+    out.hayHistorial = (S.historial||[]).length>0;
+    out.noHayHistorial = (S.historial||[]).length===0;
     out.repasarFalladas = ()=>this.openSetup('falladas');
 
     // RANKING

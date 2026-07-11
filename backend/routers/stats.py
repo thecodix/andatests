@@ -1,4 +1,5 @@
 from datetime import datetime, timedelta, timezone
+from typing import Optional
 
 from fastapi import APIRouter, Depends, Query
 from pydantic import BaseModel
@@ -84,6 +85,13 @@ class TemaStat(BaseModel):
     seen: bool
 
 
+class VistaOut(BaseModel):
+    pregunta_id: str
+    veces: int
+    bien: int
+    mal: int
+
+
 @router.get("/resumen", response_model=ResumenOut)
 def get_resumen(session: Session = Depends(get_session), current_user: Usuario = Depends(get_current_user)):
     sesiones = _user_sesiones(session, current_user.id)
@@ -128,6 +136,34 @@ def get_por_tema(session: Session = Depends(get_session), current_user: Usuario 
     return [
         TemaStat(tema_id=t.id, **stats.get(t.id, {"intentos": 0, "aciertos": 0, "pct": 0, "seen": False}))
         for t in temas
+    ]
+
+
+@router.get("/vistas", response_model=list[VistaOut])
+def get_vistas(
+    tema_id: Optional[int] = Query(None),
+    session: Session = Depends(get_session),
+    current_user: Usuario = Depends(get_current_user),
+):
+    """Por cada pregunta ya respondida por el usuario: cuántas veces la ha visto y
+    cuántas la acertó/falló. Permite que la selección evite repetir preguntas."""
+    stmt = (
+        select(
+            Respuesta.pregunta_id,
+            func.count(Respuesta.id).label("veces"),
+            func.sum(case((Respuesta.correcta == True, 1), else_=0)).label("bien"),  # noqa: E712
+            func.sum(case((Respuesta.correcta == False, 1), else_=0)).label("mal"),  # noqa: E712
+        )
+        .join(Respuesta.sesion)
+        .where(Sesion.usuario_id == current_user.id)
+        .group_by(Respuesta.pregunta_id)
+    )
+    if tema_id is not None:
+        stmt = stmt.join(Respuesta.pregunta).where(Pregunta.tema_id == tema_id)
+    rows = session.exec(stmt).all()
+    return [
+        VistaOut(pregunta_id=pid, veces=veces, bien=bien or 0, mal=mal or 0)
+        for pid, veces, bien, mal in rows
     ]
 
 

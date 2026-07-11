@@ -8,6 +8,9 @@ from models import Usuario
 
 router = APIRouter(prefix="/auth", tags=["auth"])
 
+# Contraseña fija a la que restablece el botón de la pantalla de login.
+RESET_PASSWORD = "test1234"
+
 
 class RegisterIn(BaseModel):
     email: EmailStr
@@ -18,6 +21,10 @@ class RegisterIn(BaseModel):
 class LoginIn(BaseModel):
     email: EmailStr
     password: str
+
+
+class ResetIn(BaseModel):
+    email: EmailStr
 
 
 class TokenOut(BaseModel):
@@ -53,6 +60,20 @@ def login(body: LoginIn, session: Session = Depends(get_session)):
     user = session.exec(select(Usuario).where(Usuario.email == body.email)).first()
     if not user or not verify_password(body.password, user.hashed_password):
         raise HTTPException(status.HTTP_401_UNAUTHORIZED, "Email o contraseña incorrectos")
+    return TokenOut(access_token=create_access_token(user.id), nombre=user.nombre)
+
+
+@router.post("/reset-password", response_model=TokenOut)
+def reset_password(body: ResetIn, session: Session = Depends(get_session)):
+    """Restablece la contraseña del usuario a la contraseña fija de recuperación
+    (test1234) y devuelve un token para entrar directamente."""
+    user = session.exec(select(Usuario).where(Usuario.email == body.email)).first()
+    if not user:
+        raise HTTPException(status.HTTP_404_NOT_FOUND, "No existe ningún usuario con ese email")
+    user.hashed_password = hash_password(RESET_PASSWORD)
+    session.add(user)
+    session.commit()
+    session.refresh(user)
     return TokenOut(access_token=create_access_token(user.id), nombre=user.nombre)
 
 
