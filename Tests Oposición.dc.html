@@ -1087,7 +1087,13 @@ class Component extends DCLogic {
         const tu = t.answers[k]==null ? 'Sin responder' : this.letra(t.answers[k])+'. '+q.o[t.answers[k]];
         return { q:q.q, icon: ok?'✅':'❌', accent: ok?C.g:C.r, tuResp:tu, showCorrect:!ok, correcta:this.letra(q.c)+'. '+q.o[q.c], exp:q.exp, ref:q.ref };
       });
-      out.repeatTest = ()=>{ const nt=this.buildTest(); this.setState({ test:nt, screen:'test', seconds:0, fromHistorial:false }); window.scrollTo(0,0); };
+      // Repite el MISMO test: mismas preguntas, mismo orden — no vuelve a barajar ni a
+      // seleccionar del banco (eso sería un test nuevo, no "repetir").
+      out.repeatTest = ()=>{
+        const nt = { ...t, idx:0, answers:t.qs.map(()=>null), revealed:t.qs.map(()=>false), done:false };
+        this.setState({ test:nt, screen:'test', seconds:0, fromHistorial:false });
+        window.scrollTo(0,0);
+      };
       out.resBackLabel = S.fromHistorial ? '← Historial' : 'Ir al inicio';
       out.resBack = S.fromHistorial ? ()=>this.setState({screen:'historial'}) : ()=>this.go('inicio');
     } else {
