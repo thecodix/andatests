@@ -371,7 +371,7 @@
           <h1 style="font-family:'Newsreader',serif; font-weight:500; font-size:28px; margin:18px 0 2px;">{{ resMsg }}</h1>
           <p style="color:#6B6B78; font-size:14px; margin:0;">{{ resAciertos }} de {{ resTotal }} correctas · nota {{ resNota }}/10{{ resTimeStr }}</p>
           <div style="display:flex; gap:12px; justify-content:center; margin-top:22px;">
-            <button onClick="{{ goInicio }}" style="background:#F0EFF5; color:#1B1B22; border:none; border-radius:12px; padding:13px 22px; font-weight:600; font-size:14px; cursor:pointer; font-family:inherit;">Ir al inicio</button>
+            <button onClick="{{ resBack }}" style="background:#F0EFF5; color:#1B1B22; border:none; border-radius:12px; padding:13px 22px; font-weight:600; font-size:14px; cursor:pointer; font-family:inherit;">{{ resBackLabel }}</button>
             <button onClick="{{ repeatTest }}" style="background:#6B46E5; color:#fff; border:none; border-radius:12px; padding:13px 22px; font-weight:700; font-size:14px; cursor:pointer; font-family:inherit;">Repetir test</button>
           </div>
         </div>
@@ -555,6 +555,7 @@
               </div>
               <div style="width:64px; text-align:right; font-size:13px; color:#6B6B78;">{{ h.aciertos }}/{{ h.total }}</div>
               <div style="width:50px; text-align:right; font-family:'Newsreader',serif; font-weight:600; font-size:18px; color:{{ h.pctColor }};">{{ h.nota }}</div>
+              <button onClick="{{ h.onDelete }}" title="Borrar del historial" style="flex:none; background:none; border:none; color:#C8C8D2; font-size:17px; cursor:pointer; padding:4px 6px; line-height:1;">&#128465;</button>
             </div>
           </sc-for>
         </div>
@@ -591,7 +592,7 @@ class Component extends DCLogic {
       // app
       screen:'inicio', dashVar:'a',
       setupMode:'tema', setupTema:1, setupFeedback:'inmediato', setupLen:10,
-      test:null, seconds:0, isNarrow:false,
+      test:null, seconds:0, isNarrow:false, fromHistorial:false,
       loaded:false, TEMAS:[], BANCO:[],
       resumen:{ acierto_global:0, total_hechas:0, total_preguntas:0, prediccion:'0.0',
                 num_falladas:0, racha:0, mejor_racha:0, total_sesiones:0, temas_flojos:0 },
@@ -770,7 +771,7 @@ class Component extends DCLogic {
   startTest(){
     const test = this.buildTest();
     if (!test.qs.length) { alert('Todavía no hay preguntas disponibles para este modo.'); return; }
-    this.setState({ test, screen:'test', seconds:0 }); window.scrollTo(0,0);
+    this.setState({ test, screen:'test', seconds:0, fromHistorial:false }); window.scrollTo(0,0);
   }
 
   pick(i){
@@ -800,11 +801,22 @@ class Component extends DCLogic {
         revealed:qs.map(()=>true), done:true,
       };
       this.setState({
-        test, screen:'results', seconds:s.segundos||0,
+        test, screen:'results', seconds:s.segundos||0, fromHistorial:true,
         setupMode:s.modo, setupTema:s.tema_id||this.state.setupTema, setupFeedback:s.feedback, setupLen:s.total,
       });
       window.scrollTo(0,0);
     } catch(e) { if (e.message !== '401') { console.error('Error cargando sesión:', e); alert('No se pudo cargar el test.'); } }
+  }
+
+  async borrarSesion(h){
+    if (!confirm('¿Borrar este test del historial? No se puede deshacer.')) return;
+    const historial = this.state.historial.filter(x=>x.id!==h.id);
+    this.setState({ historial });
+    try {
+      await this.apiFetch(`/api/sesiones/${h.id}`, { method:'DELETE' });
+    } catch(e) {
+      if (e.message !== '401') { console.error('Error borrando sesión:', e); alert('No se pudo borrar el test.'); this.refreshStats(); }
+    }
   }
 
   async finishTest(){
@@ -1075,9 +1087,11 @@ class Component extends DCLogic {
         const tu = t.answers[k]==null ? 'Sin responder' : this.letra(t.answers[k])+'. '+q.o[t.answers[k]];
         return { q:q.q, icon: ok?'✅':'❌', accent: ok?C.g:C.r, tuResp:tu, showCorrect:!ok, correcta:this.letra(q.c)+'. '+q.o[q.c], exp:q.exp, ref:q.ref };
       });
-      out.repeatTest = ()=>{ const nt=this.buildTest(); this.setState({ test:nt, screen:'test', seconds:0 }); window.scrollTo(0,0); };
+      out.repeatTest = ()=>{ const nt=this.buildTest(); this.setState({ test:nt, screen:'test', seconds:0, fromHistorial:false }); window.scrollTo(0,0); };
+      out.resBackLabel = S.fromHistorial ? '← Historial' : 'Ir al inicio';
+      out.resBack = S.fromHistorial ? ()=>this.setState({screen:'historial'}) : ()=>this.go('inicio');
     } else {
-      Object.assign(out, { resModeLabel:'',resPct:0,resDeg:0,resAciertos:0,resTotal:0,resNota:'0',resTimeStr:'',resMsg:'',revision:[],repeatTest:()=>{} });
+      Object.assign(out, { resModeLabel:'',resPct:0,resDeg:0,resAciertos:0,resTotal:0,resNota:'0',resTimeStr:'',resMsg:'',revision:[],repeatTest:()=>{}, resBackLabel:'Ir al inicio', resBack:()=>this.go('inicio') });
     }
 
     // STATS
@@ -1098,7 +1112,7 @@ class Component extends DCLogic {
       const d = new Date(h.created_at);
       const fecha = d.toLocaleDateString('es-ES',{day:'2-digit',month:'short'})+' · '+d.toLocaleTimeString('es-ES',{hour:'2-digit',minute:'2-digit'});
       const tema = h.tema_id ? ('Tema '+h.tema_id+' · '+this.temaTitulo(h.tema_id).slice(0,30)) : (h.modo==='falladas'?'Falladas':'Varios temas');
-      return { fecha, modo:_modoLabels[h.modo]||h.modo, tema, nota:(h.pct/10).toFixed(1), aciertos:h.aciertos, total:h.total, pctColor:this.pctColor(h.pct), pctBar:`height:100%; width:${h.pct}%; background:${this.pctColor(h.pct)}; border-radius:5px;`, onClick:()=>this.verSesion(h) };
+      return { fecha, modo:_modoLabels[h.modo]||h.modo, tema, nota:(h.pct/10).toFixed(1), aciertos:h.aciertos, total:h.total, pctColor:this.pctColor(h.pct), pctBar:`height:100%; width:${h.pct}%; background:${this.pctColor(h.pct)}; border-radius:5px;`, onClick:()=>this.verSesion(h), onDelete:(e)=>{ e.stopPropagation(); this.borrarSesion(h); } };
     });
     out.hayHistorial = (S.historial||[]).length>0;
     out.noHayHistorial = (S.historial||[]).length===0;

@@ -138,6 +138,22 @@ def list_sesiones(
     ]
 
 
+@router.delete("/sesiones/{sesion_id}", status_code=204)
+def delete_sesion(
+    sesion_id: int,
+    session: Session = Depends(get_session),
+    current_user: Usuario = Depends(get_current_user),
+):
+    s = session.get(Sesion, sesion_id)
+    if not s or s.usuario_id != current_user.id:
+        raise HTTPException(404, "Sesión no encontrada")
+
+    for r in s.respuestas:
+        session.delete(r)
+    session.delete(s)
+    session.commit()
+
+
 @router.get("/sesiones/{sesion_id}", response_model=SesionDetalle)
 def get_sesion(
     sesion_id: int,
