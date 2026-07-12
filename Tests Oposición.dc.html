@@ -545,7 +545,7 @@
         </sc-if>
         <div style="display:flex; flex-direction:column; gap:10px;">
           <sc-for list="{{ historialView }}" as="h" hint-placeholder-count="6">
-            <div style="background:#fff; border:1px solid #ECECF1; border-radius:13px; padding:15px 18px; display:flex; align-items:center; gap:16px; flex-wrap:wrap;">
+            <div onClick="{{ h.onClick }}" style="background:#fff; border:1px solid #ECECF1; border-radius:13px; padding:15px 18px; display:flex; align-items:center; gap:16px; flex-wrap:wrap; cursor:pointer;">
               <div style="flex:1; min-width:140px;">
                 <div style="font-weight:600; font-size:14.5px;">{{ h.modo }} <span style="color:#9A9AA6; font-weight:500;">· {{ h.tema }}</span></div>
                 <div style="font-size:12px; color:#9A9AA6; margin-top:3px;">{{ h.fecha }}</div>
@@ -782,6 +782,30 @@ class Component extends DCLogic {
   }
   nextQ(){ const t=this.state.test; if(!t) return; if(t.idx>=t.qs.length-1) return this.finishTest(); this.setState({test:{...t, idx:t.idx+1}}); window.scrollTo(0,0); }
   prevQ(){ const t=this.state.test; if(!t||t.idx===0) return; this.setState({test:{...t, idx:t.idx-1}}); window.scrollTo(0,0); }
+
+  async verSesion(h){
+    try {
+      const s = await this.apiFetch(`/api/sesiones/${h.id}`).then(r=>r.json());
+      const qs = s.respuestas.map(r=>{
+        const b = this.qById(r.pregunta_id);
+        return {
+          id:r.pregunta_id, q:r.enunciado, o:r.opciones, c:r.correcta_idx, t:r.tema_id,
+          ref: b ? b.ref : '', exp: b ? b.exp : '',
+        };
+      });
+      const test = {
+        mode:s.modo, temaId:s.tema_id, feedback:s.feedback,
+        qs, idx:qs.length-1,
+        answers:s.respuestas.map(r=>r.elegida),
+        revealed:qs.map(()=>true), done:true,
+      };
+      this.setState({
+        test, screen:'results', seconds:s.segundos||0,
+        setupMode:s.modo, setupTema:s.tema_id||this.state.setupTema, setupFeedback:s.feedback, setupLen:s.total,
+      });
+      window.scrollTo(0,0);
+    } catch(e) { if (e.message !== '401') { console.error('Error cargando sesión:', e); alert('No se pudo cargar el test.'); } }
+  }
 
   async finishTest(){
     const t = this.state.test; if (!t) return;
@@ -1074,7 +1098,7 @@ class Component extends DCLogic {
       const d = new Date(h.created_at);
       const fecha = d.toLocaleDateString('es-ES',{day:'2-digit',month:'short'})+' · '+d.toLocaleTimeString('es-ES',{hour:'2-digit',minute:'2-digit'});
       const tema = h.tema_id ? ('Tema '+h.tema_id+' · '+this.temaTitulo(h.tema_id).slice(0,30)) : (h.modo==='falladas'?'Falladas':'Varios temas');
-      return { fecha, modo:_modoLabels[h.modo]||h.modo, tema, nota:(h.pct/10).toFixed(1), aciertos:h.aciertos, total:h.total, pctColor:this.pctColor(h.pct), pctBar:`height:100%; width:${h.pct}%; background:${this.pctColor(h.pct)}; border-radius:5px;` };
+      return { fecha, modo:_modoLabels[h.modo]||h.modo, tema, nota:(h.pct/10).toFixed(1), aciertos:h.aciertos, total:h.total, pctColor:this.pctColor(h.pct), pctBar:`height:100%; width:${h.pct}%; background:${this.pctColor(h.pct)}; border-radius:5px;`, onClick:()=>this.verSesion(h) };
     });
     out.hayHistorial = (S.historial||[]).length>0;
     out.noHayHistorial = (S.historial||[]).length===0;
