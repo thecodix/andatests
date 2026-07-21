@@ -313,6 +313,22 @@
           </sc-if>
 
           <button onClick="{{ startTest }}" style="width:100%; background:#6B46E5; color:#fff; border:none; border-radius:13px; padding:16px; font-weight:700; font-size:15px; cursor:pointer; font-family:inherit;">{{ startLabel }}</button>
+
+          <sc-if value="{{ hasTestsProfesor }}" hint-placeholder-val="{{ false }}">
+          <div style="font-size:13px; font-weight:700; margin:28px 0 10px;">Tests del profesor</div>
+          <p style="color:#6B6B78; font-size:12.5px; margin:0 0 12px;">Exámenes reales tal como los planteó el profesor, en el orden original.</p>
+          <div style="display:flex; flex-direction:column; gap:10px;">
+            <sc-for list="{{ testsProfesor }}" as="tp" hint-placeholder-count="2">
+              <button onClick="{{ tp.onClick }}" class="sc-hov" style="display:flex; justify-content:space-between; align-items:center; text-align:left; border:1.5px solid #ECECF1; background:#fff; border-radius:12px; padding:14px 16px; cursor:pointer; font-family:inherit;">
+                <div>
+                  <div style="font-weight:700; font-size:14px;">{{ tp.titulo }}</div>
+                  <div style="font-size:12px; color:#9A9AA6; margin-top:3px;">{{ tp.total }} preguntas</div>
+                </div>
+                <div style="color:#6B46E5; font-size:18px;">→</div>
+              </button>
+            </sc-for>
+          </div>
+          </sc-if>
         </div>
       </div>
       </sc-if>
@@ -593,7 +609,7 @@ class Component extends DCLogic {
       screen:'inicio', dashVar:'a',
       setupMode:'tema', setupTema:1, setupFeedback:'inmediato', setupLen:10,
       test:null, seconds:0, isNarrow:false, fromHistorial:false,
-      loaded:false, TEMAS:[], BANCO:[],
+      loaded:false, TEMAS:[], BANCO:[], testsEspeciales:[],
       resumen:{ acierto_global:0, total_hechas:0, total_preguntas:0, prediccion:'0.0',
                 num_falladas:0, racha:0, mejor_racha:0, total_sesiones:0, temas_flojos:0 },
       porTema:[], falladas:[], evolucion:[], calendario:[], ranking:[], vistas:{}, historial:[],
@@ -665,7 +681,7 @@ class Component extends DCLogic {
     localStorage.removeItem('andatest_token');
     localStorage.removeItem('andatest_nombre');
     this.setState({ authScreen:'login', authEmail:'', authPassword:'', authNombre:'', authError:'',
-                    screen:'inicio', loaded:false, TEMAS:[], BANCO:[],
+                    screen:'inicio', loaded:false, TEMAS:[], BANCO:[], testsEspeciales:[],
                     resumen:{ acierto_global:0, total_hechas:0, total_preguntas:0, prediccion:'0.0',
                               num_falladas:0, racha:0, mejor_racha:0, total_sesiones:0, temas_flojos:0 },
                     porTema:[], falladas:[], evolucion:[], calendario:[], ranking:[], vistas:{}, historial:[] });
@@ -677,12 +693,13 @@ class Component extends DCLogic {
       const allPreguntas = await Promise.all(
         temas.map(t => this.apiFetch(`/api/temas/${t.id}/preguntas`).then(r=>r.json()))
       );
+      const testsEspeciales = await this.apiFetch('/api/tests-especiales').then(r=>r.json());
       const TEMAS = temas.map(t => ({ id:t.id, t:t.titulo, ley:t.ley }));
       const BANCO = allPreguntas.flat().map(p => ({
         id:p.id, q:p.enunciado, o:p.opciones, c:p.correcta,
         ref:p.ref, exp:p.explicacion, t:p.tema_id,
       }));
-      this.setState({ loaded:true, TEMAS, BANCO });
+      this.setState({ loaded:true, TEMAS, BANCO, testsEspeciales });
     } catch(e) {
       if (e.message !== '401') { console.error('Error cargando banco:', e); this.setState({ loaded:true }); }
     }
@@ -772,6 +789,16 @@ class Component extends DCLogic {
     const test = this.buildTest();
     if (!test.qs.length) { alert('Todavía no hay preguntas disponibles para este modo.'); return; }
     this.setState({ test, screen:'test', seconds:0, fromHistorial:false }); window.scrollTo(0,0);
+  }
+
+  // Test fijo tal como lo planteó el profesor: mismas preguntas y mismo orden que el
+  // examen original (resueltas por test-mapper contra el banco ya auditado).
+  startTestEspecial(te){
+    const qs = te.preguntas.map(id=>this.qById(id)).filter(Boolean);
+    if (!qs.length) { alert('No se pudo cargar este test.'); return; }
+    const test = { mode:'tema', temaId:te.tema_id, feedback:this.state.setupFeedback, qs, idx:0, answers:qs.map(()=>null), revealed:qs.map(()=>false), done:false };
+    this.setState({ test, screen:'test', seconds:0, fromHistorial:false });
+    window.scrollTo(0,0);
   }
 
   pick(i){
@@ -1027,6 +1054,16 @@ class Component extends DCLogic {
     out.startLabel = S.setupMode==='simulacro' ? 'Empezar simulacro ⏱️' : 'Empezar test →';
     out.startTest = ()=>this.startTest();
     out.goBack = ()=>this.go(S.setupMode==='tema'?'temas':'inicio');
+
+    // TESTS DEL PROFESOR (solo en modo tema, exámenes reales mapeados al banco)
+    const testsProfesor = S.setupMode==='tema'
+      ? (S.testsEspeciales||[]).filter(te=>te.tema_id===S.setupTema)
+      : [];
+    out.hasTestsProfesor = testsProfesor.length>0;
+    out.testsProfesor = testsProfesor.map(te=>({
+      titulo:te.titulo, total:te.total,
+      onClick:()=>this.startTestEspecial(te),
+    }));
 
     // TEST
     const t = S.test;

@@ -1,3 +1,5 @@
+import json
+import os
 import random
 from typing import Optional
 
@@ -11,6 +13,8 @@ from database import get_session
 from models import Pregunta, Respuesta, Sesion, Tema, Usuario
 
 router = APIRouter(tags=["contenido"])
+
+TESTS_ESPECIALES_DIR = os.path.join(os.path.dirname(__file__), "..", "..", "tests_especiales")
 
 
 class TemaOut(BaseModel):
@@ -35,6 +39,14 @@ class FalladaOut(PreguntaOut):
     veces: int
 
 
+class TestEspecialOut(BaseModel):
+    tema_id: int
+    numero: int
+    titulo: str
+    total: int
+    preguntas: list[str]
+
+
 @router.get("/temas", response_model=list[TemaOut])
 def get_temas(session: Session = Depends(get_session), _: Usuario = Depends(get_current_user)):
     temas = session.exec(select(Tema).order_by(Tema.orden)).all()
@@ -51,6 +63,31 @@ def get_preguntas(tema_id: int, session: Session = Depends(get_session), _: Usua
     if not tema:
         raise HTTPException(404, f"Tema {tema_id} no encontrado")
     return session.exec(select(Pregunta).where(Pregunta.tema_id == tema_id)).all()
+
+
+@router.get("/tests-especiales", response_model=list[TestEspecialOut])
+def get_tests_especiales(_: Usuario = Depends(get_current_user)):
+    """Exámenes reales del profesor, mapeados a índices de banco/temaN.json por test-mapper."""
+    result = []
+    if not os.path.isdir(TESTS_ESPECIALES_DIR):
+        return result
+    for tema_dir in sorted(os.listdir(TESTS_ESPECIALES_DIR)):
+        tema_path = os.path.join(TESTS_ESPECIALES_DIR, tema_dir)
+        if not os.path.isdir(tema_path):
+            continue
+        for fname in sorted(os.listdir(tema_path)):
+            if not fname.endswith(".json"):
+                continue
+            with open(os.path.join(tema_path, fname), encoding="utf-8") as f:
+                data = json.load(f)
+            tema_id = data["tema"]
+            numero = data["test"]
+            preguntas = [f"{tema_id}_{m['index']}" for m in data["matches"] if m["index"] is not None]
+            result.append(TestEspecialOut(
+                tema_id=tema_id, numero=numero, titulo=f"Test {numero}",
+                total=len(preguntas), preguntas=preguntas,
+            ))
+    return result
 
 
 @router.get("/preguntas/aleatorias", response_model=list[PreguntaOut])
