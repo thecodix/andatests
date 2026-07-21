@@ -261,7 +261,7 @@
     ],
     "c": 1,
     "ref": "Excel 365 - Vistas",
-    "exp": "En Excel la vista que muestra la hoja tal como se imprimirá se denomina 'Diseño de página' (el término 'Diseño de impresión' es propio de Word y no existe en Excel)."
+    "exp": "La vista que muestra la hoja tal como se imprimirá se denomina en Excel Diseño de página (no Diseño de impresión, que es el término de Word); corregido de C a B."
   },
   {
     "q": "En Excel 365, respecto a la cinta de opciones, no existe la opción:",
@@ -432,6 +432,126 @@
     "exp": "Los símbolos ##### indican que la columna es demasiado estrecha; se soluciona aumentando su ancho."
   },
   {
+    "q": "EXCEL 365: el icono que figura en la barra de fórmula que se muestra a continuación tiene la función de:",
+    "o": [
+      "Anular los datos que se están introduciendo en la celda",
+      "Confirmar los datos en la celda",
+      "Tiene la misma función que la tecla INTRO",
+      "B y C son correctas"
+    ],
+    "c": 0,
+    "ref": "Excel 365",
+    "exp": "El icono X de la barra de fórmulas anula los datos que se están introduciendo en la celda."
+  },
+  {
+    "q": "EXCEL 365: la tecla ESC tiene la función de:",
+    "o": [
+      "Confirma datos que se están introduciendo en la celda",
+      "Salta de una celda a otra",
+      "Anular los datos que se están introduciendo en la celda",
+      "Oculta los datos de introducidos en una celda"
+    ],
+    "c": 2,
+    "ref": "Excel 365",
+    "exp": "La tecla ESC anula los datos que se están introduciendo en la celda."
+  },
+  {
+    "q": "EXCEL 365: Introducido un dato en la celda, en la barra de estado de Excel aparece el modo:",
+    "o": [
+      "Hoja",
+      "Introducir",
+      "Listo",
+      "Datos"
+    ],
+    "c": 2,
+    "ref": "Excel 365",
+    "exp": "Tras confirmar un dato en la celda, la barra de estado muestra el modo 'Listo'."
+  },
+  {
+    "q": "EXCEL 365: los datos tipo texto se alinean:",
+    "o": [
+      "A la derecha de la celda",
+      "A la izquierda de la celda",
+      "Al centro de la celda",
+      "Se justifican en la celda"
+    ],
+    "c": 1,
+    "ref": "Excel 365",
+    "exp": "Los datos tipo texto se alinean a la izquierda de la celda por defecto."
+  },
+  {
+    "q": "EXCEL 365: los datos tipo fecha:",
+    "o": [
+      "Se alinean a la izquierda y se formatean automáticamente",
+      "Se alinean a la derecha y se formatean automáticamente",
+      "Se alinean a la izquierda y hay que introducirle previamente un formato",
+      "Se alinean al centro"
+    ],
+    "c": 1,
+    "ref": "Excel 365",
+    "exp": "Las fechas en Excel se alinean a la derecha y se formatean automáticamente."
+  },
+  {
+    "q": "EXCEL 365, para introducir el negativo de 50 en una celda, de las que se muestra a continuación, ¿cuál es la forma correcta?",
+    "o": [
+      "50-",
+      "Escribirlo en rojo 50",
+      "[50]",
+      "(50)"
+    ],
+    "c": 3,
+    "ref": "Excel 365",
+    "exp": "Para introducir un número negativo se puede usar paréntesis: (50) equivale a -50 en Excel."
+  },
+  {
+    "q": "EXCEL 365, ¿Con qué función se puede insertar la fecha y hora actualizada?",
+    "o": [
+      "=HOY",
+      "=SIEMPRE",
+      "=AHORA",
+      "=ACTUAL"
+    ],
+    "c": 2,
+    "ref": "Excel 365",
+    "exp": "La función =AHORA() inserta la fecha y hora actualizadas en la celda."
+  },
+  {
+    "q": "EXCEL 365, ¿Con qué combinación de teclado se puede insertar solo la fecha de forma fija?",
+    "o": [
+      "CTRL+MAY",
+      "ALT + ,",
+      "CTRL + :",
+      "CTRL+ ,"
+    ],
+    "c": 3,
+    "ref": "Excel 365",
+    "exp": "CTRL+, (CTRL+coma) inserta la fecha actual de forma fija en Excel (equivalente a Ctrl+; en teclado inglés)."
+  },
+  {
+    "q": "EXCEL 365, para introducir el mismo dato en varias celdas contiguas o no, ¿Cuál es la opción correcta?",
+    "o": [
+      "Seleccionar las celdas, introducir el dato en cualquiera de ella y confirmar con INTRO",
+      "Seleccionar las celdas, introducir el dato en la celda activa y confirmar con CTRL+INTRO",
+      "Seleccionar las celdas, y pulsando CTRL, introducir el dato en la celda activa",
+      "Seleccionar las celdas, introducir el dato en la celda activa, y confirmar CTRL+TAB"
+    ],
+    "c": 1,
+    "ref": "Excel 365",
+    "exp": "Se seleccionan las celdas, se introduce el dato en la celda activa y se confirma con CTRL+INTRO para rellenar todas."
+  },
+  {
+    "q": "EXCEL 365, para introducir un texto en varias filas, es decir si el texto no cabe en la celda y queremos que continúe abajo, ¿Cuál es la opción correcta?",
+    "o": [
+      "Escribir el texto en la celda y pulsar ALT",
+      "Escribir el texto en la celda y pulsar ALT+INTRO",
+      "Escribir el texto en la celda y utilizar la opción del grupo alineación \"ajustar texto\"",
+      "B y C son correctas"
+    ],
+    "c": 3,
+    "ref": "Excel 365",
+    "exp": "Tanto ALT+INTRO (salto de línea manual) como 'Ajustar texto' del grupo Alineación permiten que el texto continúe en la siguiente línea dentro de la celda."
+  },
+  {
     "q": "En Excel 365, estando activada la pestaña INICIO, ¿qué pestaña de la cinta de opciones habrá que activar para llegar a la opción Documento en blanco?",
     "o": [
       "Ninguna porque se encuentra en la pestaña Inicio",
@@ -477,7 +597,7 @@
     ],
     "c": 2,
     "ref": "Excel 365 - Atajos de teclado",
-    "exp": "CTRL+U (Nuevo) crea un libro en blanco en Excel en español (clave del examen: C = CTRL+U)."
+    "exp": "CTRL+U crea un libro nuevo en blanco en Excel español; CTRL+N es Negrita. Corregido de D a C."
   },
   {
     "q": "En Excel 365, las filas se identifican con:",

@@ -1798,5 +1798,869 @@
     "c": 1,
     "ref": "Art. 47 Bases ejecución presupuesto UHU",
     "exp": "El pago material satisface a los perceptores a cuyo favor estuvieran expedidas las órdenes de pago."
+  },
+  {
+    "q": "Según el art. 4 de la Bases de ejecución presupuestaria de la UHU 2026, estado de ingreso del presupuesto, es el que configura:",
+    "o": [
+      "a) Las estimaciones de las distintas obligaciones económicas a liquidar en el ejercicio",
+      "b) Las estimaciones de los distintos derechos económicos a liquidar en el ejercicio",
+      "c) Los distintos derechos económicos a liquidar en el ejercicio",
+      "d) Los distintos derechos económicos liquidados en el ejercicio"
+    ],
+    "c": 1,
+    "ref": "Art. 4 Ley 39/2015",
+    "exp": "La respuesta correcta es: b) Las estimaciones de los distintos derechos económicos a liquidar en el ejercicio"
+  },
+  {
+    "q": "Según el art. 5 de la Bases de ejecución presupuestaria de la UHU 2026, en la clasificación funcional del estado de gasto, la asignación de los créditos se efectúa dentro de una estructura de programas, en función de:",
+    "o": [
+      "a) Los objetivos académicos, de gestión e investigación que se pretenden conseguir",
+      "b) Los objetivos económicos y de gestión que se pretenden conseguir",
+      "c) Los objetivos académicos, de gestión e investigación que se han conseguido",
+      "d) Las asignaciones económicas, para la gestión académica e investigadora que se han obtenido"
+    ],
+    "c": 0,
+    "ref": "Art. 5 Ley 39/2015",
+    "exp": "La respuesta correcta es: a) Los objetivos académicos, de gestión e investigación que se pretenden conseguir"
+  },
+  {
+    "q": "Según el art. 6 de la Bases de ejecución presupuestaria de la UHU 2026: en el estado de ingreso, la clasificación económica es por la:",
+    "o": [
+      "a) Que se ordenan en atención a la naturaleza orgánica del ingreso y a la codificación de capítulo, artículo, concepto, subconcepto y partida.",
+      "b) Que se ordenan en atención a la naturaleza funcional del ingreso y a la codificación de capítulo, artículo, concepto, subconcepto y partida.",
+      "c) Que se ordenan en atención a la naturaleza económica del ingreso y a la codificación de capítulo, artículo, concepto, subconcepto y partida. 2",
+      "d) Que se ordenan en atención a la naturaleza económica del ingreso y a la codificación de capítulo, cuenta, articulo y partida."
+    ],
+    "c": 2,
+    "ref": "Art. 6 Ley 39/2015",
+    "exp": "La respuesta correcta es: c) Que se ordenan en atención a la naturaleza económica del ingreso y a la codificación de capítulo, artículo, concepto, subconcepto y partida. 2"
+  },
+  {
+    "q": "Según el art. 7 de la Bases de ejecución presupuestaria de la UHU 2026: ¿Quién podrá supeditar la disponibilidad de todos los créditos iniciales o incorporados posteriormente al Presupuesto de la Universidad a través de un expediente de modificación presupuestaria a la efectiva materialización de los ingresos que los financien?",
+    "o": [
+      "a) El Consejo Social",
+      "b) El presidente del Consejo Social",
+      "c) El Consejo de Gobierno",
+      "d) El Rector"
+    ],
+    "c": 3,
+    "ref": "Art. 7 Ley 39/2015",
+    "exp": "La respuesta correcta es: d) El Rector"
+  },
+  {
+    "q": "Según el art. 8 de la Bases de ejecución presupuestaria de la UHU 2026: los créditos para gastos se destinarán exclusivamente a la finalidad específica para la que hayan sido autorizados:",
+    "o": [
+      "a) Al negociarse el Presupuesto o las correspondientes modificaciones presupuestarias.",
+      "b) Al aprobarse el Presupuesto o las correspondientes modificaciones presupuestarias.",
+      "c) Al aplicarse el Presupuesto o las correspondientes modificaciones presupuestarias.",
+      "d) Al ejecutarse el Presupuesto o las correspondientes modificaciones presupuestarias."
+    ],
+    "c": 1,
+    "ref": "Art. 8 Ley 39/2015",
+    "exp": "La respuesta correcta es: b) Al aprobarse el Presupuesto o las correspondientes modificaciones presupuestarias."
+  },
+  {
+    "q": "Según el art. 9 de la Bases de ejecución presupuestaria de la UHU 2026: ¿A qué limitación se está refiriendo la siguiente afirmación, “No podrán adquirirse compromisos de gasto por cuantía superior al importe de los créditos autorizados en el estado de gastos”:",
+    "o": [
+      "a) Financiera",
+      "b) Cualitativa",
+      "c) Cuantitativa",
+      "d) Temporal 3"
+    ],
+    "c": 2,
+    "ref": "Art. 9 Ley 39/2015",
+    "exp": "La respuesta correcta es: c) Cuantitativa"
+  },
+  {
+    "q": "Según el art. 10 de la Bases de ejecución presupuestaria de la UHU 2026: ¿A qué limitación se está refiriendo la siguiente afirmación?, “Con cargo a los créditos del Estado de Gastos, sólo podrán contraerse obligaciones derivadas de gastos que se realicen en el año natural del propio ejercicio presupuestario:",
+    "o": [
+      "a) Financiera",
+      "b) Cualitativa",
+      "c) Cuantitativa",
+      "d) Temporal"
+    ],
+    "c": 3,
+    "ref": "Art. 10 Ley 39/2015",
+    "exp": "La respuesta correcta es: d) Temporal"
+  },
+  {
+    "q": "Según el art. 11 de la Bases de ejecución presupuestaria de la UHU 2026: Los créditos autorizados en el Estado de Gastos tienen un carácter limitativo y vinculante de acuerdo a su clasificación funcional:",
+    "o": [
+      "a) Según programa de gasto",
+      "b) Según estimaciones de gasto",
+      "c) Por unidad orgánica responsable",
+      "d) Por unidad orgánica aplicable"
+    ],
+    "c": 0,
+    "ref": "Art. 11 Ley 39/2015",
+    "exp": "La respuesta correcta es: a) Según programa de gasto"
+  },
+  {
+    "q": "Según el art. 12 de la Bases de ejecución presupuestaria de la UHU 2026: el gasto plurianual que se refiera a “arrendamientos de bienes inmuebles a utilizar por la Universidad de Huelva”, el número de ejercicios a los que pueden aplicarse no será superior a:",
+    "o": [
+      "a) Diez",
+      "b) Seis",
+      "c) Siete",
+      "d) No tiene límite 4"
+    ],
+    "c": 0,
+    "ref": "Art. 12 Ley 39/2015",
+    "exp": "La respuesta correcta es: a) Diez"
+  },
+  {
+    "q": "Según el art. 13 de la Bases de ejecución presupuestaria de la UHU 2026: Los expedientes de tramitación anticipada que se refieran a alguno de los gastos contemplados en el artículo 12 de la citada norma estarán sujetos, según su naturaleza, a los límites y demás requisitos establecido:",
+    "o": [
+      "a) Para los expedientes de gastos anticipado",
+      "b) Para los pagos a justificar",
+      "c) Para los gastos de carácter plurianual",
+      "d) Para los gastos de carácter anual"
+    ],
+    "c": 2,
+    "ref": "Art. 13 Ley 39/2015",
+    "exp": "La respuesta correcta es: c) Para los gastos de carácter plurianual"
+  },
+  {
+    "q": "Según el art. 14 de la Bases de ejecución presupuestaria de la UHU 2026, las modificaciones de crédito que suponga un incremento del volumen global del Estado de Gastos del Presupuesto ¿Cómo deberán financiarse?",
+    "o": [
+      "a) Reduciendo gasto hasta obtener el equilibrio presupuestario",
+      "b) No podrán financiarse, habrá que eliminar por completo la partida que suponga el incremento",
+      "c) Con mayores ingresos sin respetar el equilibrio presupuestario.",
+      "d) Con mayores ingresos, a fin de preservar el equilibrio presupuestario"
+    ],
+    "c": 3,
+    "ref": "Art. 14 Ley 39/2015",
+    "exp": "La respuesta correcta es: d) Con mayores ingresos, a fin de preservar el equilibrio presupuestario"
+  },
+  {
+    "q": "Según el art. 14 de la Bases de ejecución presupuestaria de la UHU 2026, ¿A propuesta de quién se iniciarían los expedientes de modificación de crédito?",
+    "o": [
+      "a) Del centro de gasto o unidad orgánica que tenga a su cargo la ejecución de los créditos correspondiente",
+      "b) Del Gerente",
+      "c) Del centro de gasto o unidad orgánica que realice el control económico de los créditos correspondientes",
+      "d) De ninguno de los anteriores 5"
+    ],
+    "c": 0,
+    "ref": "Art. 14 Ley 39/2015",
+    "exp": "La respuesta correcta es: a) Del centro de gasto o unidad orgánica que tenga a su cargo la ejecución de los créditos correspondiente"
+  },
+  {
+    "q": "Según el art. 14 de la Bases de ejecución presupuestaria de la UHU 2026, ¿Qué función tiene el gerente en los expedientes de modificación presupuestaria?:",
+    "o": [
+      "a) Ninguna",
+      "b) Los aprobará",
+      "c) Propondrán su aprobación al órgano competente",
+      "d) Los elevará al órgano competente para someterlos a su aprobación."
+    ],
+    "c": 3,
+    "ref": "Art. 14 Ley 39/2015",
+    "exp": "La respuesta correcta es: d) Los elevará al órgano competente para someterlos a su aprobación."
+  },
+  {
+    "q": "Según el art. 14 de la Bases de ejecución presupuestaria de la UHU 2026, los expedientes de modificación presupuestaria, deben contar con la consideración positiva de:",
+    "o": [
+      "a) El Rector",
+      "b) El Gerente",
+      "c) El presidente del Consejo social",
+      "d) Del pleno del Consejo Social"
+    ],
+    "c": 1,
+    "ref": "Art. 14 Ley 39/2015",
+    "exp": "La respuesta correcta es: b) El Gerente"
+  },
+  {
+    "q": "Según el art. 14 de la Bases de ejecución presupuestaria de la UHU 2026, todo expediente de modificación presupuestaria deberá incluir una documentación mínima, no siendo necesario que la memoria detalle:",
+    "o": [
+      "a) Clase de Modificación que se propone.",
+      "b) Aplicaciones presupuestarias a las que afecta.",
+      "c) Recursos o medios de impugnación contra la resolución que apruebe la modificación",
+      "d) Será necesario que detalle todos los anteriores extremos"
+    ],
+    "c": 2,
+    "ref": "Art. 14 Ley 39/2015",
+    "exp": "La respuesta correcta es: c) Recursos o medios de impugnación contra la resolución que apruebe la modificación"
+  },
+  {
+    "q": "Según el art. 15 de la Bases de ejecución presupuestaria de la UHU 2026, ¿Cuál de los siguientes no es un tipo de modificación presupuestaria?",
+    "o": [
+      "a) Transferencia de créditos",
+      "b) Complemento de créditos",
+      "c) Incorporaciones de créditos 6",
+      "d) Baja por anulación."
+    ],
+    "c": 1,
+    "ref": "Art. 15 Ley 39/2015",
+    "exp": "La respuesta correcta es: b) Complemento de créditos"
+  },
+  {
+    "q": "Según el art. 15 de la Bases de ejecución presupuestaria de la UHU 2026, solo podrán ser modificada durante el ejercicio:",
+    "o": [
+      "a) La cuantía y finalidad de los créditos contenidos en el estado de gastos",
+      "b) La cuantía y finalidad de los créditos contenidos en el estado de ingreso",
+      "c) La cuantía y finalidad de los créditos pendiente de incluir en el estado de gastos",
+      "d) La cuantía y temporalidad los créditos contenidos en el estado de gastos"
+    ],
+    "c": 0,
+    "ref": "Art. 15 Ley 39/2015",
+    "exp": "La respuesta correcta es: a) La cuantía y finalidad de los créditos contenidos en el estado de gastos"
+  },
+  {
+    "q": "Según el art. 16 de la Bases de ejecución presupuestaria de la UHU 2026, ¿Qué tipo de modificación presupuestaria es, la que consiste en trasladar créditos del presupuesto de gasto de una aplicación a otra, de manera que sin aumentar el importe conjunto de los créditos concedidos, se varía su distribución?",
+    "o": [
+      "a) Incorporaciones de créditos",
+      "b) Suplementos de créditos",
+      "c) Transferencia de créditos",
+      "d) Generación de créditos"
+    ],
+    "c": 2,
+    "ref": "Art. 16 Ley 39/2015",
+    "exp": "La respuesta correcta es: c) Transferencia de créditos"
+  },
+  {
+    "q": "Según el art. 16 de la Bases de ejecución presupuestaria de la UHU 2026, Las transferencias de crédito entre los diversos conceptos de los capítulos de operaciones corrientes y de operaciones de capital, serán aprobadas por:",
+    "o": [
+      "a) El presidente del Consejo Social",
+      "b) El Rector",
+      "c) El pleno del Consejo Social",
+      "d) El servicio de asuntos económicos 7"
+    ],
+    "c": 1,
+    "ref": "Art. 16 Ley 39/2015",
+    "exp": "La respuesta correcta es: b) El Rector"
+  },
+  {
+    "q": "Según el art. 16 de la Bases de ejecución presupuestaria de la UHU 2026, siguiendo con la pregunta anterior, la aprobación será por delegación de:",
+    "o": [
+      "a) El pleno del Consejo Social",
+      "b) El claustro universitario",
+      "c) El Consejo de Gobierno",
+      "d) La Comunidad Autónoma"
+    ],
+    "c": 2,
+    "ref": "Art. 16 Ley 39/2015",
+    "exp": "La respuesta correcta es: c) El Consejo de Gobierno"
+  },
+  {
+    "q": "Según el art. 16 de la Bases de ejecución presupuestaria de la UHU 2026, las transferencias de gastos corrientes a gastos de capital y viceversa serán",
+    "o": [
+      "a) Aprobada por el Presidente del Consejo Social, por delegación del Pleno de este.",
+      "b) Aprobada por el Presidente del Consejo de gobierno, por delegación del Pleno de este.",
+      "c) Aprobada por el Presidente del Claustro universitaria, por delegación del Pleno de este.",
+      "d) Aprobada por el Presidente del Consejo de Gobierno de la Comunidad Autónoma, por delegación de este"
+    ],
+    "c": 0,
+    "ref": "Art. 16 Ley 39/2015",
+    "exp": "La respuesta correcta es: a) Aprobada por el Presidente del Consejo Social, por delegación del Pleno de este."
+  },
+  {
+    "q": "Según el art. 16 de la Bases de ejecución presupuestaria de la UHU 2026, ¿Qué movimientos internos no tendrán el carácter de transferencia de crédito?",
+    "o": [
+      "a) Las que impliquen únicamente el trasvase de dotaciones presupuestarias dentro de una misma clasificación económica y funcional.",
+      "b) Las que impliquen únicamente el trasvase de dotaciones presupuestarias dentro de una misma clasificación económica y orgánica",
+      "c) Las que impliquen únicamente el trasvase de dotaciones presupuestarias dentro de una misma clasificación económica, orgánica y funcional",
+      "d) Las que no impliquen el trasvase de dotaciones presupuestarias dentro de una misma clasificación económica y funcional. 8"
+    ],
+    "c": 0,
+    "ref": "Art. 16 Ley 39/2015",
+    "exp": "La respuesta correcta es: a) Las que impliquen únicamente el trasvase de dotaciones presupuestarias dentro de una misma clasificación económica y funcional."
+  },
+  {
+    "q": "Según el art. 16 de la Bases de ejecución presupuestaria de la UHU 2026, ¿Por quien podrá llevarse a cabo en primer término, el movimiento a que se refiere la pregunta anterior?",
+    "o": [
+      "a) Por el Gerente",
+      "b) Por el Rector",
+      "c) Por el Servicio de asuntos financieros",
+      "d) Por el Servicio de asuntos económicos"
+    ],
+    "c": 3,
+    "ref": "Art. 16 Ley 39/2015",
+    "exp": "La respuesta correcta es: d) Por el Servicio de asuntos económicos"
+  },
+  {
+    "q": "bis- Según el art. 16 de la Bases de ejecución presupuestaria de la UHU 2026, el movimiento que impliquen únicamente el trasvase de dotaciones presupuestarias dentro de una misma clasificación económica y orgánica debe ser aprobado por:",
+    "o": [
+      "a) Por el mismo que autoriza al servicio financiero a llevarlo a cabo en primer término",
+      "b) Por el Rector, por delegación del Consejo de Gobierno",
+      "c) Por el Rector",
+      "d) Nada de lo anterior es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 16 Ley 39/2015",
+    "exp": "Según la clave del examen, ninguna de las otras opciones es correcta en los términos planteados."
+  },
+  {
+    "q": "Según el art. 17 de la Bases de ejecución presupuestaria de la UHU 2026, ¿A qué limitación están sujetas las transferencias de créditos?",
+    "o": [
+      "a) No afectará a créditos extraordinarios concedidos para los ejercicios posteriores al corriente",
+      "b) No minorarán créditos que no hayan sido ampliados",
+      "c) No incrementarán créditos que, como consecuencia de otras transferencias, hayan sido objeto de minoración.",
+      "d) No afectarán a los créditos incrementados sin suplementos 9"
+    ],
+    "c": 2,
+    "ref": "Art. 17 Ley 39/2015",
+    "exp": "La respuesta correcta es: c) No incrementarán créditos que, como consecuencia de otras transferencias, hayan sido objeto de minoración."
+  },
+  {
+    "q": "Según el art. 18 de la Bases de ejecución presupuestaria de la UHU 2026, ¿Qué podrá dar lugar a generaciones de créditos?",
+    "o": [
+      "a) Los ingresos realizados en el propio ejercicio como consecuencia de arrendamientos de inmovilizados",
+      "b) Los ingresos realizados en ejercicios anteriores como consecuencia proyectos, trabajos de carácter científico, técnicos o artísticos.",
+      "c) Los ingresos realizados en el anterior o en el corriente ejercicio como consecuencia de la amortización de un préstamo.",
+      "d)Los ingresos realizados en el propio ejercicio como consecuencia de venta de bienes y prestación de servicios"
+    ],
+    "c": 3,
+    "ref": "Art. 18 Ley 39/2015",
+    "exp": "La respuesta correcta es: d)Los ingresos realizados en el propio ejercicio como consecuencia de venta de bienes y prestación de servicios"
+  },
+  {
+    "q": "Según el art. 18 de la Bases de ejecución presupuestaria de la UHU 2026, la competencia para autorizar las modificaciones por generación de crédito ¿A quién corresponde?",
+    "o": [
+      "a) El Rector",
+      "b) El Gerente",
+      "c) Al pleno del Consejo Social",
+      "d) Al servicio de asuntos económicos"
+    ],
+    "c": 0,
+    "ref": "Art. 18 Ley 39/2015",
+    "exp": "La respuesta correcta es: a) El Rector"
+  },
+  {
+    "q": "Según el art. 18 de la Bases de ejecución presupuestaria de la UHU 2026, ¿Qué podrá no dar lugar a generaciones de crédito?",
+    "o": [
+      "a) Aportaciones de personas naturales o jurídicas para financiar gastos que por su naturaleza estén comprendidos en los fines u objetivos de la Universidad.",
+      "b) Ventas de bienes y prestación de servicios.",
+      "c) Reintegro de pagos indebidos de ejercicios abiertos",
+      "d) Reembolsos de préstamos. 10"
+    ],
+    "c": 2,
+    "ref": "Art. 18 Ley 39/2015",
+    "exp": "La respuesta correcta es: c) Reintegro de pagos indebidos de ejercicios abiertos"
+  },
+  {
+    "q": "Según el art. 19 de la Bases de ejecución presupuestaria de la UHU 2026, la generación de créditos solo podrá realizarse:",
+    "o": [
+      "a) Cuando se hayan originado los correspondientes gastos que la justifican",
+      "b) Cuando se haya efectuado el reconocimiento de la obligación de pago",
+      "c) Cuando se haya recaudado los correspondientes ingresos que la justifican",
+      "d) Cuando se haya reclamado un derecho de cobro pendiente"
+    ],
+    "c": 2,
+    "ref": "Art. 19 Ley 39/2015",
+    "exp": "La respuesta correcta es: c) Cuando se haya recaudado los correspondientes ingresos que la justifican"
+  },
+  {
+    "q": "Según el art. 19 de la Bases de ejecución presupuestaria de la UHU 2026, ¿Quién podrá autorizar la generación de un crédito, por Proyectos, contratos o trabajos de carácter científico, una vez efectuado el reconocimiento del derecho de cobro por la Universidad de Huelva?",
+    "o": [
+      "a) El Gerente",
+      "b) El Rector",
+      "c) El Servicio de asuntos financieros",
+      "d) El presidente del Consejo Social"
+    ],
+    "c": 1,
+    "ref": "Art. 19 Ley 39/2015",
+    "exp": "La respuesta correcta es: b) El Rector"
+  },
+  {
+    "q": "Según el art. 20 de la Bases de ejecución presupuestaria de la UHU 2026, los créditos para gastos que el último día del ejercicio no estén afectado al cumplimiento de obligaciones ya reconocidas:",
+    "o": [
+      "a) Automáticamente se incorporarán a los créditos del presupuesto del ejercicio siguiente",
+      "b) Se incorporarán a la partida de remanente",
+      "c) El Gerente autorizará la incorporación al estado de gasto del presupuesto del ejercicio siguiente.",
+      "c) Quedarán anulados de pleno derecho 11"
+    ],
+    "c": 3,
+    "ref": "Art. 20 Ley 39/2015",
+    "exp": "La respuesta correcta es: c) Quedarán anulados de pleno derecho 11"
+  },
+  {
+    "q": "Según el art. 20 de la Bases de ejecución presupuestaria de la UHU 2026, ¿quién podrá autorizar incorporación al estado de gasto del presupuesto del ejercicio siguiente de los créditos que se establezcan?",
+    "o": [
+      "a) El Consejo Social",
+      "b) La Comunidad Autónoma",
+      "c) El Servicio de Asuntos económicos",
+      "d) El Rector"
+    ],
+    "c": 3,
+    "ref": "Art. 20 Ley 39/2015",
+    "exp": "La respuesta correcta es: d) El Rector"
+  },
+  {
+    "q": "Según el art. 20 de la Bases de ejecución presupuestaria de la UHU 2026, una incorporación de crédito, será financiada con cargo a remanente de tesorería no afectado, si así es autorizado por el:",
+    "o": [
+      "a) El Estado",
+      "b) La Comunidad Universitaria",
+      "c) A y B son correctas",
+      "d) A y B son incorrectas"
+    ],
+    "c": 0,
+    "ref": "Art. 20 Ley 39/2015",
+    "exp": "La respuesta correcta es: a) El Estado"
+  },
+  {
+    "q": "Según el art. 21 de la Bases de ejecución presupuestaria de la UHU 2026, cuando haya que realizarse con cargo al presupuesto de la Universidad algún gasto extraordinario cuya ejecución no pueda demorarse y no exista crédito:",
+    "o": [
+      "a) El Gerente elevará propuesta al Consejo Social de la Universidad para la concesión de un Crédito extraordinario",
+      "b) El Rector, a propuesta del Gerente, elevará previo acuerdo del consejo de Gobierno propuesta al Consejo Social de la Universidad para la concesión de un crédito extraordinario.",
+      "c) El Rector a propuesta del Gerente autorizará la concesión de un crédito extraordinario",
+      "d) El consejo de Gobierno a propuesta del Rector, previo acuerdo con el Gerente elevará propuesta al Consejo Social de la Universidad para la concesión de un crédito extraordinario 12"
+    ],
+    "c": 1,
+    "ref": "Art. 21 Ley 39/2015",
+    "exp": "La respuesta correcta es: b) El Rector, a propuesta del Gerente, elevará previo acuerdo del consejo de Gobierno propuesta al Consejo Social de la Universidad para la concesión "
+  },
+  {
+    "q": "Según el art. 21 de la Bases de ejecución presupuestaria de la UHU 2026, ¿Cómo podrán financiarse los suplementos de créditos y los créditos extraordinarios?",
+    "o": [
+      "a) Remanente de tesorería afectado",
+      "b) Mayores ingresos de los previsto de carácter no finalista.",
+      "c) Ingresos previstos de carácter finalista",
+      "d) Los destinados a operaciones corrientes con recursos procedentes de operaciones de créditos."
+    ],
+    "c": 1,
+    "ref": "Art. 21 Ley 39/2015",
+    "exp": "La respuesta correcta es: b) Mayores ingresos de los previsto de carácter no finalista."
+  },
+  {
+    "q": "Según el art. 22 de la Bases de ejecución presupuestaria de la UHU 2026, ¿Qué suponen las bajas por anulación?",
+    "o": [
+      "a) Una modificación presupuestaria que consiste en un aumento de los ingresos a causa de reducción de los gastos.",
+      "b) Una modificación presupuestaria que consiste en la disminución total o parcial del crédito presupuestario asignado a una determinada partida de ingresos.",
+      "c) Una modificación presupuestaria que consiste en la disminución total o parcial del crédito presupuestario asignado a una determinada partida de gastos",
+      "d) Una modificación presupuestaria que consiste en una reducción de una partida de gastos por disminución de los ingresos."
+    ],
+    "c": 2,
+    "ref": "Art. 22 Ley 39/2015",
+    "exp": "La respuesta correcta es: c) Una modificación presupuestaria que consiste en la disminución total o parcial del crédito presupuestario asignado a una determinada partida de gas"
+  },
+  {
+    "q": "Según el art. 22 de la Bases de ejecución presupuestaria de la UHU 2026, l a baja por anulación de cualquier crédito podrá darse siempre que dicha dotación se estime reducible o anulable:",
+    "o": [
+      "a) Sin que ponga en peligro el equilibrio presupuestario la regla del gasto",
+      "b) Sin necesidad de la autorización del Rector",
+      "c) Sin perturbación del respectivo Centro de Gasto.",
+      "d) Sin que suponga una modificación presupuestaria 13"
+    ],
+    "c": 2,
+    "ref": "Art. 22 Ley 39/2015",
+    "exp": "La respuesta correcta es: c) Sin perturbación del respectivo Centro de Gasto."
+  },
+  {
+    "q": "Según el art. 23 de la Bases de ejecución presupuestaria de la UHU 2026, ¿A quién se solicitará el alta de la correspondiente aplicación presupuestaria, cuando se pretenda imputar gastos a otras aplicaciones dentro del mismo nivel de vinculación que no figuren en el Estado de Gastos por no contar con dotación presupuestaria?",
+    "o": [
+      "a) Al Gerente",
+      "b) Al responsable del Centro de Gasto",
+      "c) A la unidad básica presupuestaria",
+      "d) Al Servicio de Asuntos económicos"
+    ],
+    "c": 3,
+    "ref": "Art. 23 Ley 39/2015",
+    "exp": "La respuesta correcta es: d) Al Servicio de Asuntos económicos"
+  },
+  {
+    "q": "Según el art. 23 de la Bases de ejecución presupuestaria de la UHU 2026, siguiendo con la pregunta anterior, ¿Quién solicitará el alta?",
+    "o": [
+      "a) La Unidad de Gasto",
+      "b) El responsable del centro de gasto",
+      "c) El servicio de asuntos económicos",
+      "d) El Gerente"
+    ],
+    "c": 0,
+    "ref": "Art. 23 Ley 39/2015",
+    "exp": "La respuesta correcta es: a) La Unidad de Gasto"
+  },
+  {
+    "q": "Según el art. 24 de la Bases de ejecución presupuestaria de la UHU 2026, el desglose de aplicaciones presupuestarias, que puedan afectar a cualesquiera de las clasificaciones orgánica, funcional o económica:",
+    "o": [
+      "a) Permite a las unidades de gastos ejecutar sus créditos presupuestarios a un mayor nivel de desagregación que el que figura en el presupuesto aprobado",
+      "b) Permite a las unidades de gastos ejecutar sus créditos presupuestarios a un menor nivel de desagregación que el que figura en el presupuesto aprobado",
+      "c) No permite a las unidades de gasto ejecutar sus créditos presupuestarios a un mayor nivel de desagregación que el que figura en el presupuesto aprobado",
+      "d) Permite a las unidades de ingresos ejecutar sus créditos presupuestarios a un menor nivel de desagregación que el que figura en el presupuesto aprobado. 14 ARTICULOS 40 AL 47"
+    ],
+    "c": 0,
+    "ref": "Art. 24 Ley 39/2015",
+    "exp": "La respuesta correcta es: a) Permite a las unidades de gastos ejecutar sus créditos presupuestarios a un mayor nivel de desagregación que el que figura en el presupuesto aproba"
+  },
+  {
+    "q": "Según el art. 40 de la Bases de ejecución presupuestaria de la UHU 2026, ¿Quién autorizará el establecimiento de Centros de Gasto?",
+    "o": [
+      "a) El Rector",
+      "b) El Servicio de Asuntos económicos",
+      "c) El Gerente",
+      "d) Los Vicerrectores y Vicerrectoras"
+    ],
+    "c": 2,
+    "ref": "Art. 40 Ley 39/2015",
+    "exp": "La respuesta correcta es: c) El Gerente"
+  },
+  {
+    "q": "Según el art. 40 de la Bases de ejecución presupuestaria de la UHU 2026, ¿Que corresponderá a los responsables de los Centros de gasto?",
+    "o": [
+      "a) Asegurar el equilibrio financiero de la Universidad",
+      "b) Asegurar el cumplimiento de la normativa de la Ejecución del Presupuesto, en especial la relativa a contratación del Sector Público.",
+      "c) Autorizar los gastos",
+      "d) Garantizar la transparencia en el centro de gasto."
+    ],
+    "c": 1,
+    "ref": "Art. 40 Ley 39/2015",
+    "exp": "La respuesta correcta es: b) Asegurar el cumplimiento de la normativa de la Ejecución del Presupuesto, en especial la relativa a contratación del Sector Público."
+  },
+  {
+    "q": "Según el art. 20 de la Bases de ejecución presupuestaria de la UHU 2026, ¿Quién no tendrá la consideración de responsable de Centro de gastos?",
+    "o": [
+      "a) El presidente del Consejo Social",
+      "b) Una directora de Departamento",
+      "c) Todos los investigadores de un proyecto de investigación",
+      "d) Todos los anteriores tienen la consideración de responsable de Centro de Gasto 15"
+    ],
+    "c": 2,
+    "ref": "Art. 20 Ley 39/2015",
+    "exp": "La respuesta correcta es: c) Todos los investigadores de un proyecto de investigación"
+  },
+  {
+    "q": "Según el art. 41 de la Bases de ejecución presupuestaria de la UHU 2026, ¿A quién corresponde autorizar el gasto y ordenar el pago con cargo al crédito y los fondos cuya titularidad ostenta la Universidad?",
+    "o": [
+      "a) Al Rector",
+      "b) Al Gerente",
+      "c) Al Presidente del Consejo Social",
+      "d) Al Secretario General"
+    ],
+    "c": 0,
+    "ref": "Art. 41 Ley 39/2015",
+    "exp": "La respuesta correcta es: a) Al Rector"
+  },
+  {
+    "q": "Según el art. 42 de la Bases de ejecución presupuestaria de la UHU 2026, ¿Cuál de las siguientes no es una fase de la gestión de los gastos de la Universidad?",
+    "o": [
+      "a) Compromiso o disposición de los ingresos",
+      "b) Reconocimiento del pago",
+      "c) Ordenación del gasto",
+      "d) Ninguna de las anteriores son fases de la gestión de los gastos."
+    ],
+    "c": 3,
+    "ref": "Art. 42 Ley 39/2015",
+    "exp": "La respuesta correcta es: d) Ninguna de las anteriores son fases de la gestión de los gastos."
+  },
+  {
+    "q": "Según el art. 42 de la Bases de ejecución presupuestaria de la UHU 2026, señale que afirmación es correcta:",
+    "o": [
+      "a) Un mismo acto administrativo podrá abarcar todas fases de ejecución del gasto",
+      "b) Las fases de gasto se tramitarán, documentarán y contabilizarán conforme a lo establecido por la Gerencia de la Universidad",
+      "c) El acto administrativo que acumule dos o más fases producirá los mismos efectos que si dichas fases se acordaran en actos administrativos separados.",
+      "d) Cuando la naturaleza de la operación o gasto así lo determinen, un mismo acto administrativo solo podrá abarcar las dos primeras fases de ejecución del gasto 16"
+    ],
+    "c": 2,
+    "ref": "Art. 42 Ley 39/2015",
+    "exp": "La respuesta correcta es: c) El acto administrativo que acumule dos o más fases producirá los mismos efectos que si dichas fases se acordaran en actos administrativos separados"
+  },
+  {
+    "q": "Según el art. 43 de la Bases de ejecución presupuestaria de la UHU 2026, ¿Qué es la autorización del gasto?",
+    "o": [
+      "a) El acto administrativo por el que la autoridad competente para gestionar un gasto con cargo a un crédito presupuestario aprueba su realización, sin que tenga determinar su cuantía exacta, reservando el crédito del presupuesto",
+      "b) El acto formal por el que la autoridad competente propone la realización de un gasto, determinando su cuantía de forma cierta, o bien de forma más aproximada posible cuando no pueda calcularse exactamente.",
+      "c) El acto administrativo por el que la autoridad competente para gestionar un gasto con cargo a un crédito presupuestario aprueba su realización, determinando su cuantía de forma cierta, o bien de la forma más aproximada posible cuando no pueda calcularse exactamente, reservando el crédito del presupuesto",
+      "d) A y C son correctas"
+    ],
+    "c": 3,
+    "ref": "Art. 43 Ley 39/2015",
+    "exp": "La respuesta correcta es: d) A y C son correctas"
+  },
+  {
+    "q": "Según el art. 43 de la Bases de ejecución presupuestaria de la UHU 2026, ¿Cómo serán los acuerdos, las resoluciones o los actos administrativos en general que se adopten sin la existencia de crédito presupuestario adecuado y suficiente, sin perjuicio de las responsabilidades que se puedan derivar?",
+    "o": [
+      "a) Validos, previa convalidación por el Gerente",
+      "b) Nulos de pleno derechos",
+      "c) Eficaces",
+      "d) Anulables"
+    ],
+    "c": 1,
+    "ref": "Art. 43 Ley 39/2015",
+    "exp": "La respuesta correcta es: b) Nulos de pleno derechos"
+  },
+  {
+    "q": "Según el art. 43 de la Bases de ejecución presupuestaria de la UHU 2026, ¿ Cuál es el primer acto con individualidad propia dentro del procedimiento de ejecución del gasto?",
+    "o": [
+      "a) La Autorización",
+      "b) La Disposición",
+      "c) El compromiso",
+      "d) El reconocimiento 17"
+    ],
+    "c": 0,
+    "ref": "Art. 43 Ley 39/2015",
+    "exp": "La respuesta correcta es: a) La Autorización"
+  },
+  {
+    "q": "Según el art. 43 de la Bases de ejecución presupuestaria de la UHU 2026, Antes de la autorización del gasto el responsable del centro de gasto, ¿Qué debe dirigir al Servicio de Asuntos económicos?",
+    "o": [
+      "a) Certificación de estar al corriente de obligaciones",
+      "b) Propuesta de gasto solicitando la certificación de existencia de crédito disponible en el ejercicio corriente",
+      "c) Propuesta de gasto solicitando la certificación de inexistencia de crédito disponible en el ejercicio corriente",
+      "d) Certificación solicitando la disponibilidad de crédito en el ejercicio corriente."
+    ],
+    "c": 1,
+    "ref": "Art. 43 Ley 39/2015",
+    "exp": "La respuesta correcta es: b) Propuesta de gasto solicitando la certificación de existencia de crédito disponible en el ejercicio corriente"
+  },
+  {
+    "q": "Según el art. 43 de la Bases de ejecución presupuestaria de la UHU 2026, ¿Quién es el órgano competente para autorizar el gasto?",
+    "o": [
+      "a) El Gerente",
+      "b) El Presidente del Consejo Social",
+      "c) El Rector",
+      "d) El Servicio de asuntos económicos"
+    ],
+    "c": 2,
+    "ref": "Art. 43 Ley 39/2015",
+    "exp": "La respuesta correcta es: c) El Rector"
+  },
+  {
+    "q": "Según el art. 44 de la Bases de ejecución presupuestaria de la UHU 2026, ¿Qué es el compromiso o disposición del gasto?",
+    "o": [
+      "a) Es el acto administrativo en virtud del cual la autoridad competente acuerda o concierta con un tercero, y tras el cumplimiento de los trámites legalmente establecidos, la realización de gastos previamente aprobados, por un importe determinado o determinable.",
+      "b) Es el acto administrativo en virtud del cual la autoridad competente acepta formalmente, con cargo al presupuesto de la Universidad de Huelva, una deuda a favor de un tercero como consecuencia del cumplimiento por parte de éste de la prestación a la que se hubiese comprometido.",
+      "c) Es la fase C del procedimiento de gestión del gasto",
+      "d) A y C son correcta 18"
+    ],
+    "c": 0,
+    "ref": "Art. 44 Ley 39/2015",
+    "exp": "La respuesta correcta es: a) Es el acto administrativo en virtud del cual la autoridad competente acuerda o concierta con un tercero, y tras el cumplimiento de los trámites leg"
+  },
+  {
+    "q": "Según el art. 44 de la Bases de ejecución presupuestaria de la UHU 2026, ¿Cuándo podrán acumularse las fases de autorización y disposición?",
+    "o": [
+      "a) Cuando al inicio de la ejecución del gasto se conociese su cuantía exacta y el nombre del perceptor",
+      "b) Cuando al inicio de un expediente de gasto se conociese su cuantía exacta y el nombre del perceptor",
+      "c) Cuando al inicio de un expediente de gasto se conociese su cuantía exacta y el tiempo de su ejecución",
+      "d) Cuando al inicio de un expediente de gasto se conociese su cuantía exacta o de la forma más aproximada posible y el nombre del perceptor"
+    ],
+    "c": 1,
+    "ref": "Art. 44 Ley 39/2015",
+    "exp": "La respuesta correcta es: b) Cuando al inicio de un expediente de gasto se conociese su cuantía exacta y el nombre del perceptor"
+  },
+  {
+    "q": "Según el art. 45 de la Bases de ejecución presupuestaria de la UHU 2026, ¿Cuál es el órgano competente para el reconocimiento de la obligación?",
+    "o": [
+      "a) El Gerente, salvo que corresponda al Rector",
+      "b) El Presidente del Consejo Social, por Delegación del Pleno de dicho órgano",
+      "c) El Rector, sin posibilidad de delegación",
+      "d) Nada de lo anterior es correcto"
+    ],
+    "c": 3,
+    "ref": "Art. 45 Ley 39/2015",
+    "exp": "Según la clave del examen, ninguna de las otras opciones es correcta en los términos planteados."
+  },
+  {
+    "q": "Según el art. 45 de la Bases de ejecución presupuestaria de la UHU 2026, con carácter general, ¿Cuándo se efectuará el reconocimiento de la obligación?",
+    "o": [
+      "a) Cuando se emita la factura y los justificantes que pruebe la entrega de los bienes",
+      "b) Una vez que sea recibida la factura, que prueben la recepción de los bienes, la prestación del servicio o el derecho del acreedor con todos los requisitos legales que correspondan al gasto autorizado.",
+      "c) Cuando el servicio de asuntos económico contabilice la factura",
+      "d) Nada de lo anterior es correcto 19"
+    ],
+    "c": 1,
+    "ref": "Art. 45 Ley 39/2015",
+    "exp": "La respuesta correcta es: b) Una vez que sea recibida la factura, que prueben la recepción de los bienes, la prestación del servicio o el derecho del acreedor con todos los req"
+  },
+  {
+    "q": "Según el art. 45 de la Bases de ejecución presupuestaria de la UHU 2026, ¿Qué plazo tendrán los proveedores hayan expedido una factura por servicios prestados o bienes entregados a la Universidad de Huelva, de presentarla ante un registro administrativo?",
+    "o": [
+      "a) Treinta días desde la fecha de entrega efectiva de las mercancías o la prestación de servicios",
+      "b) Treinta días desde la fecha de emisión de la factura o de los justificantes que pruebe la prestación del servicio o la entrega de los bienes",
+      "c) Cuarenta días desde la fecha de entrega efectiva de las mercancías o la prestación de servicios",
+      "d) Treinta días desde la fecha de envío efectivo de las mercancías o el comienzo de la prestación de servicios"
+    ],
+    "c": 0,
+    "ref": "Art. 45 Ley 39/2015",
+    "exp": "La respuesta correcta es: a) Treinta días desde la fecha de entrega efectiva de las mercancías o la prestación de servicios"
+  },
+  {
+    "q": "Según el art. 45 de la Bases de ejecución presupuestaria de la UHU 2026, ¿Quién está obligado al uso de factura electrónica?",
+    "o": [
+      "a) Las sociedades anónimas",
+      "b) Los establecimientos no permanentes",
+      "c) Las personas físicas que carezcan de nacionalidad española",
+      "d) Todos los anteriores"
+    ],
+    "c": 0,
+    "ref": "Art. 45 Ley 39/2015",
+    "exp": "La respuesta correcta es: a) Las sociedades anónimas"
+  },
+  {
+    "q": "Según el art. 45 de la Bases de ejecución presupuestaria de la UHU 2026, de los que se mencionan a continuación, ¿Qué requisito debe contener la factura de acuerdo con el Reglamento?",
+    "o": [
+      "a) Fecha de entrega de la factura o fecha de recepción en el registro electrónico, en su caso",
+      "b) Cuota tributaria que, en su caso, se repercuta, que deberá ser consignada conjuntamente con la base imponible",
+      "c) Tipo o tipos impositivos, en su caso, aplicados a las operaciones.",
+      "d) Deberá contener todo lo anterior 20"
+    ],
+    "c": 2,
+    "ref": "Art. 45 Ley 39/2015",
+    "exp": "La respuesta correcta es: c) Tipo o tipos impositivos, en su caso, aplicados a las operaciones."
+  },
+  {
+    "q": "Según el art. 45 de la Bases de ejecución presupuestaria de la UHU 2026, ¿En que casos deberán especificarse en la factura por separado la parte de base imponible correspondiente a cada una de las operaciones que se documenten en una misma factura?",
+    "o": [
+      "a) Cuando se documenten operaciones que estén exentas del Impuesto sobre el Valor Añadido y otras en las que también se den dichas circunstancias.",
+      "b) Cuando se incluyan operaciones en las que el sujeto pasivo del Impuesto sobre el Valor Añadido reciba la mercancía o el servicio en distintas fechas o plazos.",
+      "c) Cuando se comprendan operaciones sujetas a diferentes tipos del Impuesto sobre el Valor Añadido.",
+      "d) Deberán especificarse por separado en todos los casos anteriores"
+    ],
+    "c": 2,
+    "ref": "Art. 45 Ley 39/2015",
+    "exp": "La respuesta correcta es: c) Cuando se comprendan operaciones sujetas a diferentes tipos del Impuesto sobre el Valor Añadido."
+  },
+  {
+    "q": "Según el art. 45 de la Bases de ejecución presupuestaria de la UHU 2026, en una factura simplificada no se deberá incluir el dato de:",
+    "o": [
+      "a) Número y, en su caso serie.",
+      "b) Descripción de las operaciones facturadas y su importe, consignándose todos los datos necesarios para la determinación de la base imponible y su importe, incluyendo el precio unitario sin impuestos",
+      "c) Contraprestación total",
+      "d) Fecha en que se hayan efectuado las operaciones que se documentan o en la que, en su caso, se haya recibido el pago anticipado, siempre que se trate de una fecha distinta a la de expedición de la factura"
+    ],
+    "c": 1,
+    "ref": "Art. 45 Ley 39/2015",
+    "exp": "La respuesta correcta es: b) Descripción de las operaciones facturadas y su importe, consignándose todos los datos necesarios para la determinación de la base imponible y su im"
+  },
+  {
+    "q": "Según el art. 45 de la Bases de ejecución presupuestaria de la UHU 2026, Con carácter excepcional, serán admisibles facturas simplificadas sin que consten los datos fiscales de la Universidad de Huelva (razón social, domicilio social y N.I.F) de importe inferior a:",
+    "o": [
+      "a) 100 euros, IVA incluido.",
+      "b) 200 euros, IVA incluido.",
+      "c) 50 euros, IVA no incluido 21",
+      "d) A y C son correctas"
+    ],
+    "c": 2,
+    "ref": "Art. 45 Ley 39/2015",
+    "exp": "La respuesta correcta es: c) 50 euros, IVA no incluido 21"
+  },
+  {
+    "q": "Según el art. 45 de la Bases de ejecución presupuestaria de la UHU 2026, las unidades tramitadoras realizarán la imputación ¿En qué plazo máximo?",
+    "o": [
+      "a) 5 días hábiles",
+      "b) 30 días hábiles",
+      "c) 3 días hábiles.",
+      "d) 10 días hábiles"
+    ],
+    "c": 0,
+    "ref": "Art. 45 Ley 39/2015",
+    "exp": "La respuesta correcta es: a) 5 días hábiles"
+  },
+  {
+    "q": "Según el art. 45 de la Bases de ejecución presupuestaria de la UHU 2026, el plazo máximo al que se refiere la pregunta anterior, se contará desde:",
+    "o": [
+      "a) La conformidad de la factura",
+      "b) Su entrada en el servicio de asuntos económicos",
+      "c) Su entrada su entrada en el registro administrativo",
+      "d) La conformidad del gasto"
+    ],
+    "c": 2,
+    "ref": "Art. 45 Ley 39/2015",
+    "exp": "La respuesta correcta es: c) Su entrada su entrada en el registro administrativo"
+  },
+  {
+    "q": "Según el art. 45 de la Bases de ejecución presupuestaria de la UHU 2026, los responsables de los centros de gasto darán conformidad al gasto de las facturas imputadas en un plazo:",
+    "o": [
+      "a) máximo de diez días hábiles desde la fecha de imputación de las mismas.",
+      "b) máximo de cinco días hábiles desde la fecha de imputación de las mismas.",
+      "c) máximo de diez días hábiles desde la fecha de la recepción de las mismas.",
+      "d) mínimo de diez días hábiles desde la fecha de imputación de las mismas. 22"
+    ],
+    "c": 0,
+    "ref": "Art. 45 Ley 39/2015",
+    "exp": "La respuesta correcta es: a) máximo de diez días hábiles desde la fecha de imputación de las mismas."
+  },
+  {
+    "q": "Según el art. 45 de la Bases de ejecución presupuestaria de la UHU 2026, los proveedores de la Universidad de Huelva podrán ceder el derecho de cobro de sus facturas, ¿Qué requisito será imprescindible para que la cesión del derecho de cobro tenga plena efectividad frente a la Universidad?",
+    "o": [
+      "a) La aprobación previa de la Universidad",
+      "b) La notificación fehaciente a la Universidad del acuerdo de cesión",
+      "c) Notificación expresa al proveedor de informe favorable del servicio jurídico de la Universidad",
+      "d) La notificación fehaciente a la Universidad de la certificación de estar al corriente de obligaciones fiscales"
+    ],
+    "c": 1,
+    "ref": "Art. 45 Ley 39/2015",
+    "exp": "La respuesta correcta es: b) La notificación fehaciente a la Universidad del acuerdo de cesión"
+  },
+  {
+    "q": "Según el art. 46 de la Bases de ejecución presupuestaria de la UHU 2026, ¿Qué es la ordenación de pago?",
+    "o": [
+      "a) Es el acto administrativo mediante el cual se ejecuta una orden de pago contra la gerencia de la Universidad",
+      "b) Es el acto mediante el cual se expide una orden de pago contra la Tesorería de la Universidad",
+      "c) Es el acto mediante el cual se expide una orden de cobro contra la Tesorería de la Universidad",
+      "d) Nada de lo anterior es correcto."
+    ],
+    "c": 1,
+    "ref": "Art. 46 Ley 39/2015",
+    "exp": "La respuesta correcta es: b) Es el acto mediante el cual se expide una orden de pago contra la Tesorería de la Universidad"
+  },
+  {
+    "q": "Según el art. 46 de la Bases de ejecución presupuestaria de la UHU 2026, ¿Qué habrá de acreditarse previamente a la expedición de la ordenación de pago?",
+    "o": [
+      "a) La recepción de la factura",
+      "b) La conformidad con la prestación del servicio",
+      "c) La prestación del servicio o el derecho del acreedor.",
+      "d) La identidad del proveedor que ha prestado el servicio 23"
+    ],
+    "c": 2,
+    "ref": "Art. 46 Ley 39/2015",
+    "exp": "La respuesta correcta es: c) La prestación del servicio o el derecho del acreedor."
+  },
+  {
+    "q": "Según el art. 46 de la Bases de ejecución presupuestaria de la UHU 2026, señale la incorrecta, atendiendo al momento de la justificación de las órdenes de pago, estas se clasifican en:",
+    "o": [
+      "a) Órdenes de pagos en firme",
+      "b) Órdenes de pagos a justificar",
+      "c) Ordenes de pagos anticipada",
+      "d) Todas son correctas"
+    ],
+    "c": 2,
+    "ref": "Art. 46 Ley 39/2015",
+    "exp": "La respuesta correcta es: c) Ordenes de pagos anticipada"
+  },
+  {
+    "q": "Según el art. 46 de la Bases de ejecución presupuestaria de la UHU 2026, ¿Cuál es el órgano competente para ordenar el pago?",
+    "o": [
+      "a) El Gerente",
+      "b) El Presidente del Consejo Social",
+      "c) El Servicio de asuntos económicos",
+      "d) El Rector"
+    ],
+    "c": 3,
+    "ref": "Art. 46 Ley 39/2015",
+    "exp": "La respuesta correcta es: d) El Rector"
+  },
+  {
+    "q": "Según el art. 47 de la Bases de ejecución presupuestaria de la UHU 2026, en la ejecución del pago, ¿Cuándo los perceptores del mismo no deberán acreditar su personalidad?",
+    "o": [
+      "a) Cuando la ejecución del pago se realice mediante cheque nominativo",
+      "b) Cuando se haya realizado anticipos de cajas",
+      "c) Cuando la ejecución de pago se realice mediante transferencia",
+      "d) Cuando el pago se realice mediante cheque conformado."
+    ],
+    "c": 2,
+    "ref": "Art. 47 Ley 39/2015",
+    "exp": "La respuesta correcta es: c) Cuando la ejecución de pago se realice mediante transferencia"
+  },
+  {
+    "q": "Según el art. 47 de la Bases de ejecución presupuestaria de la UHU 2026, las órdenes de pago se expedirán a favor del acreedor directo, con la excepción:",
+    "o": [
+      "a) De los pagos de retribuciones,",
+      "b) Los cobros a justificar",
+      "c) Aquellos en los que exista un único de perceptor",
+      "d) Con la excepción de todo lo anterior 24"
+    ],
+    "c": 0,
+    "ref": "Art. 47 Ley 39/2015",
+    "exp": "La respuesta correcta es: a) De los pagos de retribuciones,"
+  },
+  {
+    "q": "Según el art. 47 de la Bases de ejecución presupuestaria de la UHU 2026, ¿Qué es el pago material?",
+    "o": [
+      "a) Es el acto mediante el cual se expide una orden de pago contra la Tesorería de la Universidad.",
+      "b) Es el acto mediante el cual se satisfacen a los perceptores, a cuyo favor estuvieran expedidas las órdenes de pago, los importes que figuran en las mismas, produciéndose la salida de fondos de la tesorería de la Universidad, y determinando la cancelación de una determinada obligación reconocida anteriormente.",
+      "c) Es el acto mediante el cual se satisfacen a los perceptores, los importes no recogido en una orden de pago, produciéndose la salida de fondos de la tesorería de la Universidad, sin que pueda producirse la cancelación de la obligación, hasta que se recogida en una orden de pago",
+      "d) Es el acto mediante el cual se satisfacen a los perceptores, a cuyo favor estuvieran expedidas las órdenes de pago, los importes que figuran en las mismas, produciéndose la salida de fondos de la tesorería de la Universidad, y determinando la cancelación de una determinada obligación reconocida anterior o posteriormente 25"
+    ],
+    "c": 1,
+    "ref": "Art. 47 Ley 39/2015",
+    "exp": "La respuesta correcta es: b) Es el acto mediante el cual se satisfacen a los perceptores, a cuyo favor estuvieran expedidas las órdenes de pago, los importes que figuran en las"
   }
 ]

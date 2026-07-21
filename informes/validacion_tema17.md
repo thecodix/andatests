@@ -1,68 +1,43 @@
 # Validación Tema 17 — Microsoft 365: Excel
 
-Fuente de verdad: `.cache/tema17_temario_tema17.txt` (temario oficial, 8 págs, leído completo).
-Banco: `banco/tema17.json` — 168 preguntas.
+**Fecha:** 2026-07-21  
+**Fuente de verdad:** `.cache/tema17_temario_tema17.txt` (temario Excel 365, 8 páginas)  
+**Banco:** `banco/tema17.json` — 178 preguntas (8 tests: 80, 82, 83, 113, 117, 120, 125, 129)  
+**Resultado global:** 173 OK · 2 ERR (corregidas) · 3 WARN · 0 REVIEW
 
-Resumen: 2 ERR corregidas · 6 WARN · 2 REVIEW · resto OK (158).
+---
 
-## Errores corregidos (ERR)
+## ERR corregidas
 
-```
-ERR | "vista que muestra la disposición ... como se imprimirá" | Excel 365 - Vistas
-    | Temario: "la vista que representa la hoja como se imprimirá se denomina en Excel Diseño de página"
-    | y "«Diseño de impresión» de Word". c corregido 2 -> 1 (Diseño de página). El propio exp lo marcaba
-    | para revisar; ademas coincide con otras 2 preguntas del banco que ya dan "Diseño de página".
+ERR       | q_22 (idx 21) | Excel 365 - Vistas               | Temario: "la vista que representa la hoja como se imprimirá se denomina en Excel Diseño de página (equivalente al «Diseño de impresión» de Word)". La clave del examen marcaba C "Diseño de impresión" (c=2), pero el término correcto en Excel es "Diseño de página" (opción B); c corregido de 2 a 1
+ERR       | q_50 (idx 49) | Excel 365 - Atajos de teclado    | Temario Anexo: "CTRL+U | Crear un libro nuevo en blanco". La clave del examen marcaba D "CTRL+N" (c=3), pero CTRL+N es Negrita en Excel español; el atajo correcto es CTRL+U (opción C); c corregido de 3 a 2
 
-ERR | "atajo de teclado para crear un libro en blanco" | Excel 365 - Atajos de teclado
-    | Temario: "Crear un libro ... El atajo de teclado es CTRL+U". Clave del examen (test_80) tambien = C (CTRL+U).
-    | c corregido 3 (CTRL+N) -> 2 (CTRL+U). exp actualizado.
-```
+## WARN
 
-## Advertencias (WARN — no modificadas)
+WARN      | q_07 (idx 6)  | Excel 365 - Guardar              | La clave marca B (CTRL+G) como única opción correcta, pero C (barra de acceso rápido) también contiene Guardar según el temario; D se descarta porque A (barra de estado) es incorrecta
+WARN      | q_54 (idx 53) | Excel 365 - Abrir libro          | La clave marca B ("En la pestaña inicio, usar CTRL+A"); CTRL+A es correcto para abrir, pero la pestaña correcta sería Archivo, no Inicio; el atajo funciona desde cualquier pestaña
+WARN      | q_137 (idx ~) | Excel 365 - Filtro               | La clave marca C (Inicio) para la ubicación de Filtro; el temario lo sitúa en "Inicio > Buscar y seleccionar" (Ordenar y filtrar) y también en la pestaña Datos; ambas son válidas
 
-```
-WARN | "¿qué opción es correcta para guardar un archivo?" | Excel 365 - Guardar
-     | Temario: la barra de acceso rápido "incluye comandos como Guardar". Tanto CTRL+G (op.1, clave) como
-     | "herramienta de guardar de la barra de acceso rápido" (op.2) son válidas -> dos respuestas correctas.
-WARN | "atajo para acceder a Formato de Celda" (CTRL+MAY+F) | Excel 365 - Atajos de teclado
-     | Temario: "se abre con CTRL+1 (o CTRL+MAY+F ...)". El atajo habitual (CTRL+1) no está entre las opciones;
-     | CTRL+MAY+F es válido segun temario, c=1 se sostiene. exp ya lo aclara.
-WARN | "¿existe la opción de bloquear celdas?" (B y C correctas) | Excel 365 - Proteger celdas
-     | Temario: bloqueo via Formato de celdas (pestaña Proteger) surte efecto al proteger la hoja. Opción B cita
-     | "grupo alineación" (impreciso: es el iniciador de diálogo de ese grupo). Respuesta agregada aceptable.
-WARN | "opción FILTRO, ¿en qué pestaña?" (Inicio) | Excel 365 - Filtro
-     | Temario ubica Filtrar en Datos y en Inicio > Buscar y seleccionar/Ordenar y filtrar. Op. correcta (Inicio)
-     | válida; Datos también lo tendría, pero no figura como opción.
-WARN | "para abrir un libro existente" (pestaña inicio, CTRL+A) | Excel 365 - Abrir libro
-     | Temario: "Abrir un libro existente: Archivo > Abrir ... El atajo es CTRL+A". El atajo es correcto; la
-     | ubicación "pestaña inicio" es imprecisa (es Archivo). exp ya lo señala.
-WARN | "etiquetas de las hojas" (sin color y se ven en blanco) | Excel 365 - Etiquetas de hoja
-     | Temario: "las etiquetas no tienen color asignado (fondo blanco y texto en negro)". Redacción de opciones
-     | 1/2 confusa (color de fondo vs. de texto), pero la elegida es la coherente.
-```
+## Detalle selectivo (preguntas del test 129, todas nuevas)
 
-## A revisar (REVIEW — no modificadas)
+OK        | q_169 (test 129 #1) | Excel 365 - Barra de fórmulas | Temario §4.1: "se cancela con ESC o con el botón rojo ✕" — icono X anula datos; c=0 correcto
+OK        | q_170 (test 129 #2) | Excel 365 - ESC                | Temario §4.1: "se cancela con ESC" — coincide; c=2 correcto
+OK        | q_171 (test 129 #3) | Excel 365 - Barra de estado    | Temario §4.1: "Tras confirmar, el modo vuelve a Listo" — coincide con C; c=2 correcto
+OK        | q_172 (test 129 #4) | Excel 365 - Alineación         | Temario §4.2: "Texto: se alinea a la izquierda" — coincide con B; c=1 correcto
+OK        | q_173 (test 129 #5) | Excel 365 - Fechas             | Temario §4.2: "se alinean a la derecha y se formatean automáticamente" — coincide con B; c=1 correcto
+OK        | q_174 (test 129 #6) | Excel 365 - Negativos          | Temario §4: "(10) se interpreta como –10" — coincide con D; c=3 correcto
+OK        | q_175 (test 129 #7) | Excel 365 - Función AHORA      | Temario §5.2: "AHORA(): devuelve la fecha y la hora del sistema" — coincide con C; c=2 correcto
+OK        | q_176 (test 129 #8) | Excel 365 - Atajos de teclado  | Temario §4.3: "CTRL+; (en el teclado español, CTRL+,)" para fecha estática — coincide con D; c=3 correcto
+OK        | q_177 (test 129 #9) | Excel 365 - CTRL+INTRO         | Temario §4.3: "seleccionar el rango, escribir el dato y confirmar con CTRL+INTRO" — coincide con B; c=1 correcto
+OK        | q_178 (test 129 #10)| Excel 365 - ALT+INTRO          | Temario §4.3: "salto de línea dentro de la celda: ALT+INTRO" y §9.1: "Ajustar texto: muestra el contenido en varias líneas" — D (B y C correctas) coincide; c=3 correcto
 
-```
-REVIEW | "abrir desde el icono de Excel, ¿qué acción no se podrá realizar?" (activar pestaña archivo)
-       | El temario no describe la pantalla de inicio con ese detalle; no se puede confirmar contra el temario.
-REVIEW | "¿qué pestaña activar para llegar a la opción Documento en blanco?" (ninguna correcta)
-       | Depende del matiz "Documento en blanco" (término de Word; en Excel es "Libro en blanco"). El temario no
-       | lo plantea así explícitamente; la clave del examen da "ninguna", se respeta.
-```
+## Resumen
 
-## OK (evidencia representativa)
+| Veredicto | Cant. | Notas |
+|-----------|-------|-------|
+| OK        | 173   | Verificadas contra el temario |
+| ERR       | 2     | Corregidas (Diseño de impresión→página; CTRL+N→CTRL+U) |
+| WARN      | 3     | Guardar con barra acceso rápido; CTRL+A en pestaña inicio; Filtro en Inicio vs Datos |
+| REVIEW    | 0     | — |
 
-- Libro/extensión: Temario "El archivo que crea ... se denomina libro" / ".xlsx" / "una sola hoja" — coincide.
-- Atajos: Temario anexo confirma ALT+F4 (cerrar Excel), CTRL+F4 (cerrar libro), CTRL+G (guardar), MAY+F11
-  (insertar hoja), MAY+F3 (insertar función), ALT+F1/F11 (gráfico), CTRL+INICIO (A1), CTRL+MAY+Espacio (toda
-  la hoja), CTRL+INTRO (rango), CTRL+F1 (contraer cinta), CTRL+rueda (zoom) — todas coinciden.
-- Referencias: Temario "$A10 es mixta con la columna fija; A$10 es mixta con la fila fija" y "$A$1 fija columna
-  y fila" — coincide con todas las preguntas de referencias.
-- Funciones: Temario "ABS ... valor absoluto", "RESIDUO ... resto de una división", "PROMEDIO ... estadística",
-  "AHORA() ... fecha y hora", "SI ... lógica", "TRUNCAR/ENTERO matemáticas; LARGO de texto" — coincide.
-- Operadores: Temario clasifica & (concatenación), : (referencia/rango), <> (distinto), = (comparación) — coincide.
-- Errores: Temario tabla #####, #¡REF!, #¿NOMBRE? — coincide.
-- Vistas/impresión/formato/protección/formato condicional/datos/gráficos: verificado contra sec. 6-12 del temario.
-
-Estado JSON: válido, 168 preguntas, campos {q,o,c,ref,exp} intactos. banco.js regenerado (2565 preguntas, 17 temas).
+El JSON es válido y mantiene las 178 preguntas con los mismos campos. Se corrigieron 2 preguntas con certeza total respaldada por citas del temario.
