@@ -505,6 +505,7 @@
               <div style="font-weight:600; font-size:14.5px; margin-top:7px; line-height:1.4;">{{ f.q }}</div>
               <div style="font-size:13px; color:#2E9E6B; margin-top:9px;">✓ {{ f.correcta }}</div>
               <div style="font-size:12.5px; color:#6B6B78; margin-top:7px; line-height:1.5;">{{ f.exp }} <span style="color:#6B46E5; font-weight:600;">({{ f.ref }})</span></div>
+              <button onClick="{{ f.explicar }}" style="margin-top:11px; background:#F4F1FE; color:#6B46E5; border:none; border-radius:9px; padding:8px 14px; font-weight:600; font-size:12.5px; cursor:pointer; font-family:inherit;">💬 Explícame esta pregunta</button>
             </div>
           </sc-for>
         </div>
@@ -593,6 +594,69 @@
   </nav>
   </sc-if>
 
+  <!-- ===================== ASISTENTE DE ESTUDIO ===================== -->
+  <sc-if value="{{ asistenteVisible }}" hint-placeholder-val="{{ false }}">
+  <button onClick="{{ abrirAsistenteBtn }}" title="Asistente de estudio" style="position:fixed; right:22px; bottom:22px; width:56px; height:56px; border-radius:50%; background:#6B46E5; color:#fff; border:none; font-size:23px; cursor:pointer; box-shadow:0 8px 24px rgba(107,70,229,.35); z-index:150; display:flex; align-items:center; justify-content:center;">💬</button>
+
+  <sc-if value="{{ asistenteAbierto }}" hint-placeholder-val="{{ false }}">
+  <div style="position:fixed; right:22px; bottom:88px; width:368px; max-width:calc(100vw - 28px); height:min(500px, calc(100vh - 120px)); background:#fff; border:1px solid #ECECF1; border-radius:18px; box-shadow:0 16px 48px rgba(27,27,34,.18); z-index:150; display:flex; flex-direction:column; overflow:hidden;">
+    <div style="background:#6B46E5; color:#fff; padding:13px 16px;">
+      <div style="display:flex; justify-content:space-between; align-items:center;">
+        <div style="font-weight:700; font-size:14px;">🧑‍🎓 Asistente de estudio</div>
+        <button onClick="{{ cerrarAsistenteBtn }}" style="background:none; border:none; color:#fff; font-size:17px; cursor:pointer; padding:2px 4px; line-height:1;">✕</button>
+      </div>
+      <div style="font-size:11.5px; opacity:.85; margin-top:2px;">{{ asistenteTemaLabel }}</div>
+    </div>
+    <div style="padding:8px 12px; border-bottom:1px solid #ECECF1; position:relative;">
+      <button onClick="{{ toggleAsistenteTemaDropdown }}" style="width:100%; text-align:left; display:flex; justify-content:space-between; align-items:center; border:1px solid #ECECF1; border-radius:8px; padding:7px 10px; font-size:12.5px; font-family:inherit; color:#1B1B22; background:#fff; cursor:pointer;">
+        <span>{{ asistenteTemaBoton }}</span>
+        <span style="color:#9A9AA6; font-size:10px;">▾</span>
+      </button>
+      <sc-if value="{{ asistenteTemaAbierto }}" hint-placeholder-val="{{ false }}">
+      <div style="position:absolute; left:12px; right:12px; top:100%; margin-top:4px; background:#fff; border:1px solid #ECECF1; border-radius:10px; box-shadow:0 8px 24px rgba(27,27,34,.14); max-height:220px; overflow-y:auto; z-index:5;">
+        <sc-for list="{{ asistenteTemaOptions }}" as="o" hint-placeholder-count="17">
+          <button onClick="{{ o.onClick }}" style="{{ o.style }}">{{ o.label }}</button>
+        </sc-for>
+      </div>
+      </sc-if>
+    </div>
+    <div style="padding:8px 12px 0; border-bottom:1px solid #ECECF1; padding-bottom:8px;">
+      <button onClick="{{ pedirPreguntaPersonalizadaBtn }}" style="width:100%; background:#F4F1FE; color:#6B46E5; border:none; border-radius:8px; padding:7px 10px; font-weight:600; font-size:12px; cursor:pointer; font-family:inherit;">{{ asistenteQuizBtnLabel }}</button>
+    </div>
+    <div style="flex:1; overflow-y:auto; padding:14px 16px; display:flex; flex-direction:column; gap:10px; background:#FAFAFC;">
+      <sc-if value="{{ asistenteVacio }}" hint-placeholder-val="{{ false }}">
+        <div style="color:#9A9AA6; font-size:12.5px; text-align:center; line-height:1.5;">Pregúntame cualquier duda sobre este tema, o elige una pregunta sugerida:</div>
+        <sc-for list="{{ asistenteSugerencias }}" as="sug" hint-placeholder-count="4">
+          <button onClick="{{ sug.onClick }}" style="text-align:left; background:#fff; border:1px solid #E6DEFB; color:#6B46E5; border-radius:10px; padding:9px 12px; font-size:12.5px; cursor:pointer; font-family:inherit; line-height:1.4;">💡 {{ sug.texto }}</button>
+        </sc-for>
+      </sc-if>
+      <sc-for list="{{ asistenteMensajesView }}" as="m" hint-placeholder-count="4">
+        <div style="{{ m.wrapStyle }}">
+          <div style="{{ m.bubbleStyle }}">{{ m.texto }}</div>
+        </div>
+      </sc-for>
+      <sc-if value="{{ asistenteQuizPendienteVisible }}" hint-placeholder-val="{{ false }}">
+        <div style="display:flex; flex-direction:column; gap:6px;">
+          <sc-for list="{{ asistenteQuizOpcionesView }}" as="op" hint-placeholder-count="4">
+            <button onClick="{{ op.onClick }}" style="text-align:left; background:#fff; border:1.5px solid #E6DEFB; color:#1B1B22; border-radius:10px; padding:9px 12px; font-size:13px; cursor:pointer; font-family:inherit;">{{ op.label }}</button>
+          </sc-for>
+        </div>
+      </sc-if>
+      <sc-if value="{{ asistenteLoading }}" hint-placeholder-val="{{ false }}">
+        <div style="color:#9A9AA6; font-size:12.5px;">Pensando…</div>
+      </sc-if>
+      <sc-if value="{{ asistenteError }}" hint-placeholder-val="{{ '' }}">
+        <div style="background:#FCEDEF; border:1px solid #F4C9CF; border-radius:10px; padding:8px 12px; font-size:12px; color:#8E2333;">{{ asistenteError }}</div>
+      </sc-if>
+    </div>
+    <div style="border-top:1px solid #ECECF1; padding:10px 12px; display:flex; gap:8px;">
+      <input onInput="{{ onAsistenteInput }}" value="{{ asistenteInput }}" placeholder="Escribe tu pregunta…" style="flex:1; border:1.5px solid #ECECF1; border-radius:11px; padding:10px 12px; font-size:13px; font-family:inherit; outline:none; box-sizing:border-box;" />
+      <button onClick="{{ enviarAsistenteBtn }}" style="background:#6B46E5; color:#fff; border:none; border-radius:11px; padding:0 16px; font-weight:700; cursor:pointer; font-family:inherit;">→</button>
+    </div>
+  </div>
+  </sc-if>
+  </sc-if>
+
 </div>
 </x-dc>
 <script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:&quot;100%&quot;,&quot;height&quot;:860}}">
@@ -613,6 +677,11 @@ class Component extends DCLogic {
       resumen:{ acierto_global:0, total_hechas:0, total_preguntas:0, prediccion:'0.0',
                 num_falladas:0, racha:0, mejor_racha:0, total_sesiones:0, temas_flojos:0 },
       porTema:[], falladas:[], evolucion:[], calendario:[], ranking:[], vistas:{}, historial:[],
+      // asistente de estudio
+      asistenteAbierto:false, asistenteTema:1, asistentePreguntaId:null,
+      asistenteMensajes:[], asistenteInput:'', asistenteLoading:false, asistenteError:'',
+      asistenteTemaAbierto:false, asistenteTemaCargado:null, asistenteQuizPendiente:null,
+      asistenteQuizLoading:false,
     };
   }
 
@@ -867,6 +936,130 @@ class Component extends DCLogic {
 
   resetProgress(){
     alert('Restablecer progreso requiere acceso al servidor. Funcionalidad pendiente.');
+  }
+
+  // ── Asistente de estudio ──────────────────────────────────────────────────
+  // Carga desde el servidor el historial persistido de un tema (si aún no está
+  // cargado en memoria), para que la conversación sobreviva a un refresco de página
+  // o a cambiar de tema y volver.
+  async cargarHistorialAsistente(temaId){
+    this.setState({ asistenteLoading:true, asistenteError:'' });
+    try {
+      const res = await this.apiFetch(`/api/asistente/historial?tema_id=${temaId}`);
+      const data = await res.json().catch(()=>({}));
+      if (!res.ok) throw new Error(data.detail || 'No se pudo cargar el historial.');
+      this.setState({
+        asistenteMensajes: (data.mensajes||[]).map(m=>({ role:m.role, content:m.content })),
+        asistenteTemaCargado: temaId,
+        asistenteQuizPendiente: null,
+        asistenteLoading:false,
+      });
+    } catch(e) {
+      if (e.message !== '401') this.setState({ asistenteLoading:false, asistenteError: e.message || 'No se pudo cargar el historial.' });
+    }
+  }
+  abrirAsistente(temaId, preguntaId){
+    const mismaPregunta = preguntaId && preguntaId===this.state.asistentePreguntaId;
+    const temaFinal = temaId || this.state.asistenteTema || 1;
+    this.setState({
+      asistenteAbierto:true,
+      asistenteTema: temaFinal,
+      asistentePreguntaId: preguntaId || null,
+      asistenteError:'',
+    });
+    if (preguntaId && !mismaPregunta) {
+      (async () => {
+        if (this.state.asistenteTemaCargado !== temaFinal) await this.cargarHistorialAsistente(temaFinal);
+        this.enviarAsistente({
+          texto: 'Explícame esta pregunta: por qué es correcta esa respuesta y por qué no las demás.',
+          mensajesPrevios: this.state.asistenteMensajes, temaId: temaFinal, preguntaId,
+        });
+      })();
+    } else if (this.state.asistenteTemaCargado !== temaFinal) {
+      this.cargarHistorialAsistente(temaFinal);
+    }
+  }
+  cerrarAsistente(){ this.setState({ asistenteAbierto:false }); }
+  cambiarTemaAsistente(temaId){
+    this.setState({ asistenteTema:temaId, asistentePreguntaId:null, asistenteError:'', asistenteTemaAbierto:false, asistenteQuizPendiente:null });
+    this.cargarHistorialAsistente(temaId);
+  }
+
+  // `forzado` (opcional): { texto, mensajesPrevios, temaId, preguntaId } — usado por
+  // abrirAsistente para lanzar el primer mensaje sin depender del timing de setState.
+  // Sin argumento, envía lo que haya escrito el alumno en el input del chat.
+  async enviarAsistente(forzado){
+    const texto = (forzado ? forzado.texto : (this.state.asistenteInput||'')).trim();
+    if (!texto || this.state.asistenteLoading) return;
+    const mensajesPrevios = forzado ? forzado.mensajesPrevios : this.state.asistenteMensajes;
+    const temaId = forzado ? forzado.temaId : this.state.asistenteTema;
+    const preguntaId = forzado ? (forzado.preguntaId || null) : (this.state.asistentePreguntaId || null);
+    const historialPrevio = mensajesPrevios.map(m=>({ role:m.role, content:m.content }));
+    const mensajes = [...mensajesPrevios, { role:'user', content:texto }];
+    this.setState({ asistenteMensajes:mensajes, asistenteInput: forzado ? this.state.asistenteInput : '', asistenteLoading:true, asistenteError:'', asistenteQuizPendiente:null });
+    try {
+      const res = await this.apiFetch('/api/asistente/chat', {
+        method:'POST',
+        body: JSON.stringify({
+          mensaje: texto,
+          tema_id: temaId,
+          pregunta_id: preguntaId,
+          historial: historialPrevio,
+        }),
+      });
+      const data = await res.json().catch(()=>({}));
+      if (!res.ok) throw new Error(data.detail || 'El asistente no ha podido responder.');
+      this.setState({ asistenteMensajes:[...mensajes, { role:'assistant', content:data.respuesta }], asistenteLoading:false, asistenteTemaCargado:temaId });
+    } catch(e) {
+      if (e.message !== '401') this.setState({ asistenteLoading:false, asistenteError: e.message || 'No se pudo contactar con el asistente.' });
+    }
+  }
+
+  // Genera una pregunta nueva (no sacada literalmente del banco) sobre el tema actual.
+  async pedirPreguntaPersonalizada(){
+    if (this.state.asistenteQuizLoading || this.state.asistenteLoading) return;
+    const temaId = this.state.asistenteTema;
+    this.setState({ asistenteQuizLoading:true, asistenteError:'', asistenteQuizPendiente:null });
+    try {
+      const res = await this.apiFetch('/api/asistente/pregunta-personalizada', {
+        method:'POST',
+        body: JSON.stringify({ tema_id: temaId }),
+      });
+      const data = await res.json().catch(()=>({}));
+      if (!res.ok) throw new Error(data.detail || 'No se pudo generar la pregunta.');
+      const letras = ['A','B','C','D'];
+      const texto = `📝 Pregunta nueva:\n\n${data.enunciado}\n\n` + data.opciones.map((o,i)=>`${letras[i]}) ${o}`).join('\n');
+      this.setState({
+        asistenteMensajes:[...this.state.asistenteMensajes, { role:'assistant', content:texto }],
+        asistenteQuizPendiente: { ...data, temaId, elegida:null },
+        asistenteQuizLoading:false,
+        asistenteTemaCargado:temaId,
+      });
+    } catch(e) {
+      if (e.message !== '401') this.setState({ asistenteQuizLoading:false, asistenteError: e.message || 'No se pudo generar la pregunta.' });
+    }
+  }
+  // El alumno elige una opción de la pregunta personalizada pendiente: feedback local
+  // inmediato (sin nueva llamada al LLM) y persistencia del intercambio en el historial.
+  responderQuizPersonalizado(idx){
+    const quiz = this.state.asistenteQuizPendiente;
+    if (!quiz || quiz.elegida!=null) return;
+    const letras = ['A','B','C','D'];
+    const acierto = idx===quiz.correcta;
+    const elegidaTexto = `Elijo: ${letras[idx]}) ${quiz.opciones[idx]}`;
+    const feedbackTexto = (acierto ? '✅ ¡Correcta! ' : `❌ No es correcta. La correcta era ${letras[quiz.correcta]}) ${quiz.opciones[quiz.correcta]}. `)
+      + quiz.explicacion + (quiz.ref ? ` (${quiz.ref})` : '');
+    this.setState({
+      asistenteMensajes:[...this.state.asistenteMensajes,
+        { role:'user', content:elegidaTexto },
+        { role:'assistant', content:feedbackTexto },
+      ],
+      asistenteQuizPendiente: { ...quiz, elegida:idx },
+    });
+    this.apiFetch('/api/asistente/mensaje-quiz', {
+      method:'POST',
+      body: JSON.stringify({ tema_id: quiz.temaId, elegida_texto: elegidaTexto, feedback_texto: feedbackTexto }),
+    }).catch(()=>{});
   }
 
   navStyle(active){ return `display:flex; align-items:center; gap:12px; padding:11px 13px; border:none; border-radius:11px; cursor:pointer; font-family:inherit; font-size:14px; font-weight:${active?600:500}; text-align:left; width:100%; background:${active?'#F4F1FE':'transparent'}; color:${active?this.C.v:'#5A5A66'};`; }
@@ -1149,7 +1342,7 @@ class Component extends DCLogic {
     // FALLADAS
     out.hayFalladas = numFalladas>0;
     out.noFalladas = numFalladas===0;
-    out.falladasView = (S.falladas||[]).map(f=>{ const q=this.qById(f.id); if(!q) return null; return { tema:'Tema '+q.t+' · '+this.temaTitulo(q.t).slice(0,32), q:q.q, veces:f.veces, correcta:this.letra(q.c)+'. '+q.o[q.c], exp:q.exp, ref:q.ref }; }).filter(Boolean);
+    out.falladasView = (S.falladas||[]).map(f=>{ const q=this.qById(f.id); if(!q) return null; return { tema:'Tema '+q.t+' · '+this.temaTitulo(q.t).slice(0,32), q:q.q, veces:f.veces, correcta:this.letra(q.c)+'. '+q.o[q.c], exp:q.exp, ref:q.ref, explicar:()=>this.abrirAsistente(q.t, q.id) }; }).filter(Boolean);
     const _modoLabels = { tema:'Test por tema', aleatorio:'Test aleatorio', simulacro:'Simulacro', falladas:'Repaso falladas' };
     out.historialView = (S.historial||[]).map(h=>{
       const d = new Date(h.created_at);
@@ -1185,6 +1378,65 @@ class Component extends DCLogic {
       iconFilter: l.on?'':'filter:grayscale(1); opacity:.4;',
       cardStyle:`text-align:center; border:1px solid ${l.on?'#E6DEFB':'#ECECF1'}; background:${l.on?'#FAF8FE':'#FAFAFC'}; border-radius:13px; padding:16px 12px;`,
     }));
+
+    // ASISTENTE DE ESTUDIO
+    out.asistenteVisible = S.loaded && !S.authScreen;
+    out.asistenteAbierto = S.asistenteAbierto;
+    out.abrirAsistenteBtn = ()=>this.abrirAsistente(S.setupTema || S.asistenteTema || 1, null);
+    out.cerrarAsistenteBtn = ()=>this.cerrarAsistente();
+    out.asistenteTemaBoton = 'Tema '+S.asistenteTema+'. '+this.temaTitulo(S.asistenteTema);
+    out.asistenteTemaAbierto = S.asistenteTemaAbierto;
+    out.toggleAsistenteTemaDropdown = ()=>this.setState({ asistenteTemaAbierto:!S.asistenteTemaAbierto });
+    out.asistenteTemaOptions = TEMAS.map(t=>{
+      const act = t.id===S.asistenteTema;
+      return {
+        label:'Tema '+t.id+'. '+t.t,
+        onClick:()=>this.cambiarTemaAsistente(t.id),
+        style:`display:block; width:100%; text-align:left; border:none; border-bottom:1px solid #F4F4F8; background:${act?'#F4F1FE':'#fff'}; color:${act?C.v:'#1B1B22'}; font-weight:${act?600:500}; padding:9px 12px; font-size:12.5px; cursor:pointer; font-family:inherit;`,
+      };
+    });
+    out.asistenteTemaLabel = S.asistentePreguntaId
+      ? 'Sobre una pregunta fallada · Tema '+S.asistenteTema
+      : ('Tema '+S.asistenteTema+' · '+this.temaTitulo(S.asistenteTema)).slice(0,48);
+    out.asistenteVacio = (S.asistenteMensajes||[]).length===0;
+    const bancoTemaAsistente = this.bankTema(S.asistenteTema);
+    out.asistenteSugerencias = (()=>{
+      const n = bancoTemaAsistente.length;
+      if (!n) return [];
+      const count = Math.min(4, n);
+      const idxs = [...new Set(Array.from({length:count}, (_,i)=>Math.floor(i*n/count)))];
+      return idxs.map(i=>{
+        const q = bancoTemaAsistente[i];
+        return {
+          texto: q.q.length>92 ? q.q.slice(0,89)+'…' : q.q,
+          onClick: ()=>this.enviarAsistente({ texto:q.q, mensajesPrevios:[], temaId:S.asistenteTema, preguntaId:q.id }),
+        };
+      });
+    })();
+    out.asistenteMensajesView = (S.asistenteMensajes||[]).map(m=>{
+      const esUsuario = m.role==='user';
+      return {
+        wrapStyle:`display:flex; justify-content:${esUsuario?'flex-end':'flex-start'};`,
+        bubbleStyle:`max-width:82%; padding:9px 13px; border-radius:14px; font-size:13.5px; line-height:1.45; white-space:pre-wrap; background:${esUsuario?C.v:'#fff'}; color:${esUsuario?'#fff':'#1B1B22'}; border:${esUsuario?'none':'1px solid #ECECF1'};`,
+        texto:m.content,
+      };
+    });
+    out.asistenteLoading = S.asistenteLoading;
+    out.asistenteError = S.asistenteError;
+    out.asistenteInput = S.asistenteInput;
+    out.onAsistenteInput = e=>this.setState({ asistenteInput:e.target.value });
+    out.enviarAsistenteBtn = ()=>this.enviarAsistente();
+    out.asistenteQuizLoading = S.asistenteQuizLoading;
+    out.asistenteQuizBtnLabel = S.asistenteQuizLoading ? '⏳ Generando pregunta…' : '🎯 Ponme una pregunta nueva sobre este tema';
+    out.pedirPreguntaPersonalizadaBtn = ()=>this.pedirPreguntaPersonalizada();
+    const quizPendiente = S.asistenteQuizPendiente;
+    out.asistenteQuizPendienteVisible = !!(quizPendiente && quizPendiente.elegida==null);
+    out.asistenteQuizOpcionesView = out.asistenteQuizPendienteVisible
+      ? quizPendiente.opciones.map((o,i)=>({
+          label: ['A','B','C','D'][i]+') '+o,
+          onClick: ()=>this.responderQuizPersonalizado(i),
+        }))
+      : [];
 
     return out;
   }

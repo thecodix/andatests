@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import date, datetime
 from enum import Enum
 from typing import Optional
 
@@ -81,3 +81,21 @@ class Respuesta(SQLModel, table=True):
 
     sesion: Optional[Sesion] = Relationship(back_populates="respuestas")
     pregunta: Optional[Pregunta] = Relationship(back_populates="respuestas")
+
+
+class AsistenteUso(SQLModel, table=True):
+    """Contador diario de mensajes al asistente por usuario, para acotar el coste del LLM."""
+    id: Optional[int] = Field(default=None, primary_key=True)
+    usuario_id: int = Field(foreign_key="usuario.id", index=True)
+    fecha: date = Field(index=True)
+    mensajes: int = Field(default=0)
+
+
+class AsistenteMensaje(SQLModel, table=True):
+    """Historial persistente de la conversación con el asistente, por usuario y tema."""
+    id: Optional[int] = Field(default=None, primary_key=True)
+    usuario_id: int = Field(foreign_key="usuario.id", index=True)
+    tema_id: int = Field(foreign_key="tema.id", index=True)
+    role: str  # "user" | "assistant"
+    content: str
+    created_at: datetime = Field(default_factory=datetime.utcnow, index=True)

@@ -12,3 +12,5 @@ services:
         generateValue: true  # Render generates a random secret
       - key: CORS_ORIGINS
         value: "https://andatest-api.onrender.com"
+      - key: GROQ_API_KEY
+        sync: false          # set manually in Render dashboard — clave del asistente de estudio
