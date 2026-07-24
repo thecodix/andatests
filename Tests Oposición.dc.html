@@ -85,7 +85,7 @@
     </div>
 
     <nav style="display:flex; flex-direction:column; gap:3px; margin-top:26px;">
-      <sc-for list="{{ navItems }}" as="n" hint-placeholder-count="5">
+      <sc-for list="{{ navItems }}" as="n" hint-placeholder-count="7">
         <button onClick="{{ n.onClick }}" style="{{ n.style }}">
           <span style="{{ n.iconStyle }}">{{ n.icon }}</span>
           <span>{{ n.label }}</span>
@@ -123,6 +123,21 @@
           </div>
         </div>
 
+        <!-- CUENTA ATRÁS AL EXAMEN (visible en las 3 pestañas) -->
+        <div style="margin-top:18px; background:linear-gradient(135deg,#1B1B22,#2E2E3A); border-radius:16px; padding:20px 26px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:14px; color:#fff;">
+          <div>
+            <div style="font-size:12px; color:#B8B8C4; font-weight:600; text-transform:uppercase; letter-spacing:.4px;">Cuenta atrás al examen</div>
+            <div style="font-size:13px; color:#D0D0DA; margin-top:4px;">Convocatoria estimada · {{ examFechaLabel }}</div>
+          </div>
+          <div style="display:flex; align-items:center; gap:20px;">
+            <div>
+              <div style="font-family:'Newsreader',serif; font-size:28px; font-weight:600; line-height:1.15; color:{{ examUrgColor }};">{{ countdownPrincipal }}</div>
+              <div style="font-size:12px; color:#D0D0DA; margin-top:3px;">{{ countdownDiasSub }}</div>
+            </div>
+            <button onClick="{{ goRoadmap }}" style="background:rgba(255,255,255,.12); color:#fff; border:1px solid rgba(255,255,255,.25); border-radius:10px; padding:10px 16px; font-weight:600; font-size:12.5px; cursor:pointer; font-family:inherit;">Ver roadmap →</button>
+          </div>
+        </div>
+
         <!-- VARIANTE A: RESUMEN -->
         <sc-if value="{{ dashA }}" hint-placeholder-val="{{ true }}">
         <div class="sc-screen" style="margin-top:26px;">
@@ -134,6 +149,22 @@
                 <div style="font-size:11.5px; color:#9A9AA6; margin-top:7px;">{{ k.sub }}</div>
               </div>
             </sc-for>
+          </div>
+
+          <div style="background:#fff; border:1px solid #ECECF1; border-radius:16px; padding:22px 24px; margin-top:16px;">
+            <h3 style="margin:0 0 4px; font-size:16px; font-weight:700;">Ruta hacia el examen</h3>
+            <p style="margin:0 0 18px; font-size:12.5px; color:#9A9AA6;">Objetivo: llegar preparado antes del {{ examFechaLabel }} ({{ diasParaExamen }} días restantes).</p>
+            <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:14px;">
+              <sc-for list="{{ roadmapFases }}" as="f" hint-placeholder-count="4">
+                <div style="{{ f.cardStyle }} border-radius:13px; padding:15px 16px;">
+                  <div style="display:flex; align-items:center; gap:6px; font-weight:700; font-size:13px;">{{ f.icono }} {{ f.label }}</div>
+                  <div style="font-size:11.5px; color:#6B6B78; margin-top:5px; line-height:1.4; min-height:44px;">{{ f.sub }}</div>
+                  <div style="height:6px; background:#F0EFF5; border-radius:6px; overflow:hidden; margin-top:10px;">
+                    <div style="{{ f.barStyle }}"></div>
+                  </div>
+                </div>
+              </sc-for>
+            </div>
           </div>
 
           <div style="display:grid; grid-template-columns:1.5fr 1fr; gap:18px; margin-top:18px;">
@@ -172,11 +203,11 @@
         <div class="sc-screen" style="margin-top:26px;">
           <div style="background:#fff; border:1px solid #ECECF1; border-radius:18px; padding:28px 30px; display:grid; grid-template-columns:1.2fr 1fr; gap:28px;">
             <div>
-              <div style="font-size:12px; color:#6B46E5; font-weight:700; letter-spacing:.5px; text-transform:uppercase;">Tu plan de hoy</div>
+              <div style="font-size:12px; color:#6B46E5; font-weight:700; letter-spacing:.5px; text-transform:uppercase;">{{ focoPlanLabel }}</div>
               <h2 style="font-family:'Newsreader',serif; font-weight:500; font-size:28px; margin:10px 0 4px; letter-spacing:-.3px;">{{ recoTema }}</h2>
               <p style="color:#6B6B78; font-size:14px; margin:0 0 20px; line-height:1.5;">{{ recoSub }}</p>
               <div style="display:flex; gap:10px;">
-                <button onClick="{{ openReco }}" style="background:#6B46E5; color:#fff; border:none; border-radius:12px; padding:14px 22px; font-weight:700; font-size:14px; cursor:pointer; font-family:inherit;">Empezar repaso →</button>
+                <button onClick="{{ openReco }}" style="background:#6B46E5; color:#fff; border:none; border-radius:12px; padding:14px 22px; font-weight:700; font-size:14px; cursor:pointer; font-family:inherit;">{{ recoCtaLabel }}</button>
                 <button onClick="{{ openFalladas }}" style="background:#F4F1FE; color:#6B46E5; border:none; border-radius:12px; padding:14px 22px; font-weight:600; font-size:14px; cursor:pointer; font-family:inherit;">Repasar falladas ({{ numFalladas }})</button>
               </div>
             </div>
@@ -579,13 +610,195 @@
       </div>
       </sc-if>
 
+      <!-- ===================== ROADMAP DEL EXAMEN (DEMO) ===================== -->
+      <sc-if value="{{ isRoadmap }}" hint-placeholder-val="{{ true }}">
+      <div class="sc-screen">
+        <h1 style="font-family:'Newsreader',serif; font-weight:500; font-size:32px; margin:0 0 4px; letter-spacing:-.4px;">Roadmap del examen</h1>
+        <p style="color:#6B6B78; font-size:14px; margin:0 0 20px;">Tu plan hasta la convocatoria estimada del {{ examFechaLabel }}.</p>
+
+        <!-- Cuenta atrás grande -->
+        <div style="background:linear-gradient(135deg,#1B1B22,#2E2E3A); border-radius:18px; padding:28px 30px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:18px; color:#fff;">
+          <div>
+            <div style="font-size:12px; color:#B8B8C4; font-weight:600; text-transform:uppercase; letter-spacing:.4px;">Tiempo restante</div>
+            <div style="font-family:'Newsreader',serif; font-size:44px; font-weight:600; line-height:1.1; margin-top:8px; color:{{ examUrgColor }};">{{ countdownPrincipal }}</div>
+            <div style="font-size:12.5px; color:#D0D0DA; margin-top:6px;">{{ countdownDiasSub }} · convocatoria estimada {{ examFechaLabel }}</div>
+          </div>
+          <button onClick="{{ goSimulacro }}" style="background:#fff; color:#1B1B22; border:none; border-radius:12px; padding:14px 22px; font-weight:700; font-size:14px; cursor:pointer; font-family:inherit;">Hacer un simulacro ahora →</button>
+        </div>
+
+        <!-- Fases -->
+        <div style="background:#fff; border:1px solid #ECECF1; border-radius:16px; padding:22px 24px; margin-top:18px;">
+          <h3 style="margin:0 0 16px; font-size:16px; font-weight:700;">Fases de preparación</h3>
+          <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:14px;">
+            <sc-for list="{{ roadmapFases }}" as="f" hint-placeholder-count="4">
+              <div style="{{ f.cardStyle }} border-radius:13px; padding:15px 16px;">
+                <div style="display:flex; align-items:center; gap:6px; font-weight:700; font-size:13px;">{{ f.icono }} {{ f.label }}</div>
+                <div style="font-size:11.5px; color:#6B6B78; margin-top:5px; line-height:1.4; min-height:44px;">{{ f.sub }}</div>
+                <div style="font-size:11px; color:#6B46E5; font-weight:700; margin-top:8px; text-transform:uppercase; letter-spacing:.2px;">🎯 {{ f.targetLabel }}</div>
+                <div style="height:6px; background:#F0EFF5; border-radius:6px; overflow:hidden; margin-top:8px;">
+                  <div style="{{ f.barStyle }}"></div>
+                </div>
+              </div>
+            </sc-for>
+          </div>
+        </div>
+
+        <div style="display:grid; grid-template-columns:1.2fr 1fr; gap:18px; margin-top:18px;">
+          <!-- Hitos por bloque -->
+          <div style="background:#fff; border:1px solid #ECECF1; border-radius:16px; padding:22px 24px;">
+            <h3 style="margin:0 0 4px; font-size:16px; font-weight:700;">Hitos por bloque</h3>
+            <p style="margin:0 0 16px; font-size:12px; color:#9A9AA6;">Fecha objetivo orientativa para tener cada bloque por encima del 70% de acierto.</p>
+            <div style="display:flex; flex-direction:column; gap:13px;">
+              <sc-for list="{{ roadmapHitos }}" as="h" hint-placeholder-count="6">
+                <div style="display:flex; align-items:center; gap:12px;">
+                  <div style="{{ h.dotStyle }}"></div>
+                  <div style="flex:1;">
+                    <div style="{{ h.nombreStyle }}">{{ h.nombre }}</div>
+                  </div>
+                  <div style="font-size:12px; color:#9A9AA6; white-space:nowrap;">{{ h.pct }}% · {{ h.targetLabel }}</div>
+                </div>
+              </sc-for>
+            </div>
+          </div>
+
+          <!-- Ritmo + simulacros -->
+          <div style="display:flex; flex-direction:column; gap:16px;">
+            <div style="background:#fff; border:1px solid #ECECF1; border-radius:16px; padding:20px 22px;">
+              <h3 style="margin:0 0 10px; font-size:15px; font-weight:700;">{{ ritmoIcono }} Ritmo semanal</h3>
+              <div style="font-size:12.5px; color:#6B6B78; line-height:1.5;">{{ ritmoMsg }}</div>
+              <div style="height:8px; background:#F0EFF5; border-radius:6px; overflow:hidden; margin-top:12px;"><div style="{{ ritmoBarStyle }}"></div></div>
+            </div>
+            <div style="background:#fff; border:1px solid #ECECF1; border-radius:16px; padding:20px 22px;">
+              <h3 style="margin:0 0 4px; font-size:15px; font-weight:700;">Simulacros</h3>
+              <div style="font-size:12.5px; color:#6B6B78;">{{ simulacrosHechos }} de {{ simulacrosRecomendados }} recomendados hasta el examen</div>
+              <div style="height:8px; background:#F0EFF5; border-radius:6px; overflow:hidden; margin-top:12px;"><div style="{{ simulacrosBarStyle }}"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Calendario interactivo mensual / semanal -->
+        <div style="background:#fff; border:1px solid #ECECF1; border-radius:16px; padding:22px 24px; margin-top:18px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
+            <h3 style="margin:0; font-size:16px; font-weight:700;">Calendario de hitos</h3>
+            <div style="display:flex; gap:4px; background:#F7F7FA; border:1px solid #ECECF1; border-radius:11px; padding:4px;">
+              <sc-for list="{{ roadmapVistaTabs }}" as="v" hint-placeholder-count="2">
+                <button onClick="{{ v.onClick }}" style="{{ v.style }}">{{ v.label }}</button>
+              </sc-for>
+            </div>
+          </div>
+
+          <!-- Vista mensual -->
+          <sc-if value="{{ roadmapVistaMes }}" hint-placeholder-val="{{ true }}">
+          <div style="margin-top:16px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+              <button onClick="{{ roadmapMesPrev }}" style="background:#F4F1FE; color:#6B46E5; border:none; border-radius:8px; width:30px; height:30px; font-weight:700; cursor:pointer; font-family:inherit;">←</button>
+              <div style="font-weight:700; font-size:14px;">{{ roadmapMesLabel }}</div>
+              <button onClick="{{ roadmapMesNext }}" style="background:#F4F1FE; color:#6B46E5; border:none; border-radius:8px; width:30px; height:30px; font-weight:700; cursor:pointer; font-family:inherit;">→</button>
+            </div>
+            <div style="display:grid; grid-template-columns:repeat(7,1fr); gap:6px; margin-bottom:6px;">
+              <sc-for list="{{ roadmapDiasSemanaLbl }}" as="dl" hint-placeholder-count="7">
+                <div style="text-align:center; font-size:10.5px; font-weight:700; color:#9A9AA6;">{{ dl }}</div>
+              </sc-for>
+            </div>
+            <div style="display:grid; grid-template-columns:repeat(7,1fr); gap:6px;">
+              <sc-for list="{{ roadmapMesCeldas }}" as="c" hint-placeholder-count="35">
+                <div onClick="{{ c.onClick }}" style="{{ c.style }}">
+                  <div>{{ c.num }}</div>
+                  <div style="{{ c.dotStyle }}"></div>
+                  <sc-if value="{{ c.hasNota }}" hint-placeholder-val="{{ false }}">
+                  <div style="font-size:8px; line-height:1; margin-top:-2px;">{{ c.notaMark }}</div>
+                  </sc-if>
+                </div>
+              </sc-for>
+            </div>
+          </div>
+          </sc-if>
+
+          <!-- Vista semanal -->
+          <sc-if value="{{ roadmapVistaSemana }}" hint-placeholder-val="{{ false }}">
+          <div style="margin-top:16px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+              <button onClick="{{ roadmapSemanaPrev }}" style="background:#F4F1FE; color:#6B46E5; border:none; border-radius:8px; width:30px; height:30px; font-weight:700; cursor:pointer; font-family:inherit;">←</button>
+              <div style="font-weight:700; font-size:14px;">{{ roadmapSemanaLabel }}</div>
+              <button onClick="{{ roadmapSemanaNext }}" style="background:#F4F1FE; color:#6B46E5; border:none; border-radius:8px; width:30px; height:30px; font-weight:700; cursor:pointer; font-family:inherit;">→</button>
+            </div>
+            <div style="display:grid; grid-template-columns:repeat(7,1fr); gap:8px;">
+              <sc-for list="{{ roadmapSemanaCeldas }}" as="c" hint-placeholder-count="7">
+                <div onClick="{{ c.onClick }}" style="{{ c.style }}">
+                  <div style="font-size:10px; color:#9A9AA6; font-weight:700;">{{ c.diaLbl }}</div>
+                  <div style="font-weight:700; font-size:15px;">{{ c.num }}</div>
+                  <sc-for list="{{ c.eventos }}" as="e" hint-placeholder-count="1">
+                    <div style="display:flex; align-items:center; gap:4px;">
+                      <div style="{{ e.dotStyle }}"></div>
+                      <div style="{{ e.style }}">{{ e.label }}</div>
+                    </div>
+                  </sc-for>
+                  <sc-if value="{{ c.hasNota }}" hint-placeholder-val="{{ false }}">
+                  <div style="font-size:9px; line-height:1;">{{ c.notaMark }}</div>
+                  </sc-if>
+                </div>
+              </sc-for>
+            </div>
+          </div>
+          </sc-if>
+
+          <!-- Detalle del día seleccionado -->
+          <sc-if value="{{ hasRoadmapDiaSel }}" hint-placeholder-val="{{ false }}">
+          <div style="margin-top:16px; background:#F9F8FC; border-radius:12px; padding:14px 18px;">
+            <div style="font-weight:700; font-size:13px; text-transform:capitalize;">{{ roadmapDiaSelLabel }}</div>
+            <sc-if value="{{ roadmapDiaSelVacio }}" hint-placeholder-val="{{ false }}">
+            <div style="font-size:12.5px; color:#9A9AA6; margin-top:4px;">Sin hitos programados este día.</div>
+            </sc-if>
+            <div style="display:flex; flex-direction:column; gap:4px; margin-top:6px;">
+              <sc-for list="{{ roadmapDiaSelEventos }}" as="e" hint-placeholder-count="2">
+                <div style="{{ e.style }}">● {{ e.label }}</div>
+              </sc-for>
+            </div>
+            <div style="margin-top:12px; padding-top:12px; border-top:1px solid #ECECF1;">
+              <div style="font-size:11.5px; font-weight:700; color:#9A9AA6; text-transform:uppercase; letter-spacing:.3px; margin-bottom:8px;">📝 Notas del día</div>
+              <sc-if value="{{ roadmapDiaSelSinNotas }}" hint-placeholder-val="{{ true }}">
+              <div style="font-size:12.5px; color:#B4B4C0; margin-bottom:8px;">Aún no hay notas para este día.</div>
+              </sc-if>
+              <div style="display:flex; flex-direction:column; gap:8px; margin-bottom:10px;">
+                <sc-for list="{{ roadmapDiaSelNotas }}" as="n" hint-placeholder-count="2">
+                  <div style="background:#fff; border:1px solid #ECECF1; border-radius:9px; padding:8px 10px;">
+                    <sc-if value="{{ n.enEdicion }}" hint-placeholder-val="{{ false }}">
+                      <input onInput="{{ n.onEditInput }}" value="{{ n.editTexto }}" type="text" style="width:100%; border:1.5px solid #6B46E5; border-radius:8px; padding:7px 9px; font-size:12.5px; font-family:inherit; outline:none; box-sizing:border-box; margin-bottom:6px;" />
+                      <div style="display:flex; justify-content:flex-end; gap:8px;">
+                        <button onClick="{{ n.onCancelarEdit }}" style="background:none; border:none; color:#9A9AA6; font-size:12px; cursor:pointer; font-family:inherit;">Cancelar</button>
+                        <button onClick="{{ n.onGuardarEdit }}" style="background:#6B46E5; color:#fff; border:none; border-radius:7px; padding:6px 12px; font-family:inherit; font-size:12px; font-weight:700; cursor:pointer;">Guardar</button>
+                      </div>
+                    </sc-if>
+                    <sc-if value="{{ n.viendo }}" hint-placeholder-val="{{ true }}">
+                      <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:8px;">
+                        <div style="font-size:12.5px; line-height:1.45; flex:1;">{{ n.contenido }}</div>
+                        <div style="display:flex; gap:2px; flex:none;">
+                          <button onClick="{{ n.onEditar }}" title="Editar" style="background:none; border:none; color:#9A9AA6; cursor:pointer; font-size:13px; padding:2px 5px;">✏️</button>
+                          <button onClick="{{ n.onBorrar }}" title="Borrar" style="background:none; border:none; color:#C8C8D2; cursor:pointer; font-size:13px; padding:2px 5px;">🗑️</button>
+                        </div>
+                      </div>
+                    </sc-if>
+                  </div>
+                </sc-for>
+              </div>
+              <div style="display:flex; gap:8px;">
+                <input onInput="{{ onNotaNuevoInput }}" value="{{ notaNuevoTexto }}" type="text" placeholder="Añadir una nota nueva…" style="flex:1; border:1.5px solid #ECECF1; border-radius:10px; padding:9px 11px; font-size:13px; font-family:inherit; outline:none; box-sizing:border-box;" />
+                <button onClick="{{ onAnadirNota }}" style="background:#6B46E5; color:#fff; border:none; border-radius:8px; padding:0 16px; font-family:inherit; font-size:13px; font-weight:700; cursor:pointer;">Añadir</button>
+              </div>
+            </div>
+          </div>
+          </sc-if>
+        </div>
+      </div>
+      </sc-if>
+
     </div>
   </main>
 
   <!-- BOTTOM NAV (móvil) -->
   <sc-if value="{{ showBottomNav }}" hint-placeholder-val="{{ false }}">
   <nav style="position:fixed; bottom:0; left:0; right:0; background:#fff; border-top:1px solid #ECECF1; display:flex; padding:8px 4px; z-index:50;">
-    <sc-for list="{{ navItems }}" as="n" hint-placeholder-count="5">
+    <sc-for list="{{ navItems }}" as="n" hint-placeholder-count="7">
       <button onClick="{{ n.onClick }}" style="{{ n.mStyle }}">
         <span style="font-size:19px;">{{ n.icon }}</span>
         <span style="font-size:10px; font-weight:600;">{{ n.label }}</span>
@@ -671,6 +884,8 @@ class Component extends DCLogic {
       nombreUsuario: localStorage.getItem('andatest_nombre') || '',
       // app
       screen:'inicio', dashVar:'a',
+      roadmapVista:'mes', roadmapMesOffset:0, roadmapSemanaOffset:0, roadmapDiaSel:null,
+      notas:{}, notaNuevoTexto:'', notaEditId:null, notaEditTexto:'', notaGuardando:false,
       setupMode:'tema', setupTema:1, setupFeedback:'inmediato', setupLen:10,
       test:null, seconds:0, isNarrow:false, fromHistorial:false,
       loaded:false, TEMAS:[], BANCO:[], testsEspeciales:[],
@@ -753,7 +968,8 @@ class Component extends DCLogic {
                     screen:'inicio', loaded:false, TEMAS:[], BANCO:[], testsEspeciales:[],
                     resumen:{ acierto_global:0, total_hechas:0, total_preguntas:0, prediccion:'0.0',
                               num_falladas:0, racha:0, mejor_racha:0, total_sesiones:0, temas_flojos:0 },
-                    porTema:[], falladas:[], evolucion:[], calendario:[], ranking:[], vistas:{}, historial:[] });
+                    porTema:[], falladas:[], evolucion:[], calendario:[], ranking:[], vistas:{}, historial:[],
+                    notas:{}, notaNuevoTexto:'', notaEditId:null, notaEditTexto:'', roadmapDiaSel:null });
   }
 
   async loadBank() {
@@ -777,7 +993,7 @@ class Component extends DCLogic {
 
   async refreshStats() {
     try {
-      const [resumen, porTema, falladas, evolucion, calendario, ranking, vistas, historial] = await Promise.all([
+      const [resumen, porTema, falladas, evolucion, calendario, ranking, vistas, historial, notas] = await Promise.all([
         this.apiFetch('/api/stats/resumen').then(r=>r.json()),
         this.apiFetch('/api/stats/por-tema').then(r=>r.json()),
         this.apiFetch('/api/falladas').then(r=>r.json()),
@@ -786,16 +1002,61 @@ class Component extends DCLogic {
         this.apiFetch('/api/ranking/semanal').then(r=>r.json()),
         this.apiFetch('/api/stats/vistas').then(r=>r.json()),
         this.apiFetch('/api/sesiones?limit=50').then(r=>r.json()),
+        this.apiFetch('/api/notas').then(r=>r.json()),
       ]);
       const vistasMap = {};
       (vistas||[]).forEach(v=>{ vistasMap[v.pregunta_id] = { veces:v.veces, bien:v.bien, mal:v.mal }; });
+      const notasMap = {};
+      (notas||[]).forEach(n=>{ (notasMap[n.fecha] = notasMap[n.fecha]||[]).push({ id:n.id, contenido:n.contenido }); });
       this.setState({
         resumen, porTema,
         falladas: falladas.map(f=>({id:f.id, veces:f.veces})),
         evolucion, calendario, ranking,
-        vistas: vistasMap, historial: historial||[],
+        vistas: vistasMap, historial: historial||[], notas: notasMap,
       });
     } catch(e) { if (e.message !== '401') console.error('Error actualizando stats:', e); }
+  }
+
+  async crearNotaDia(fecha, contenido) {
+    const texto = (contenido||'').trim();
+    if (!texto || !fecha) return;
+    this.setState({ notaGuardando:true });
+    try {
+      const res = await this.apiFetch('/api/notas', { method:'POST', body: JSON.stringify({ fecha, contenido:texto }) });
+      const data = await res.json();
+      const notas = { ...this.state.notas };
+      notas[fecha] = [...(notas[fecha]||[]), { id:data.id, contenido:data.contenido }];
+      this.setState({ notas, notaNuevoTexto:'', notaGuardando:false });
+    } catch(e) {
+      if (e.message !== '401') { console.error('Error creando nota:', e); this.setState({ notaGuardando:false }); }
+    }
+  }
+
+  async actualizarNotaDia(fecha, id, contenido) {
+    const texto = (contenido||'').trim();
+    if (!texto) return;
+    this.setState({ notaGuardando:true });
+    try {
+      const res = await this.apiFetch(`/api/notas/${id}`, { method:'PUT', body: JSON.stringify({ contenido:texto }) });
+      const data = await res.json();
+      const notas = { ...this.state.notas };
+      notas[fecha] = (notas[fecha]||[]).map(n=> n.id===id ? { id:data.id, contenido:data.contenido } : n);
+      this.setState({ notas, notaEditId:null, notaEditTexto:'', notaGuardando:false });
+    } catch(e) {
+      if (e.message !== '401') { console.error('Error actualizando nota:', e); this.setState({ notaGuardando:false }); }
+    }
+  }
+
+  async borrarNotaDia(fecha, id) {
+    try {
+      await this.apiFetch(`/api/notas/${id}`, { method:'DELETE' });
+      const notas = { ...this.state.notas };
+      notas[fecha] = (notas[fecha]||[]).filter(n=>n.id!==id);
+      if (!notas[fecha].length) delete notas[fecha];
+      this.setState({ notas });
+    } catch(e) {
+      if (e.message !== '401') console.error('Error borrando nota:', e);
+    }
   }
 
   shuffle(a){ const x=a.slice(); for(let i=x.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[x[i],x[j]]=[x[j],x[i]];} return x; }
@@ -1084,6 +1345,7 @@ class Component extends DCLogic {
       { key:'falladas', label:'Falladas', icon:'✕' },
       { key:'historial', label:'Historial', icon:'◷' },
       { key:'ranking', label:'Ranking', icon:'★' },
+      { key:'roadmap', label:'Roadmap', icon:'⏳' },
     ];
     const activeNav = ['setup','test','results'].includes(screen) ? '' : screen;
     const navItems = navDefs.map(n=>({
@@ -1164,6 +1426,7 @@ class Component extends DCLogic {
       isInicio:screen==='inicio', isTemas:screen==='temas', isSetup:screen==='setup',
       isTest:screen==='test', isResults:screen==='results', isStats:screen==='stats',
       isFalladas:screen==='falladas', isRanking:screen==='ranking', isHistorial:screen==='historial',
+      isRoadmap:screen==='roadmap',
       temasView, evolPoints, evolArea, evolDots, calendario, diasMes,
       hasHistorial: n>0, noHistorial: n===0,
       totalPreguntas, totalHechas, aciertoGlobal, prediccion, numFalladas,
@@ -1193,6 +1456,53 @@ class Component extends DCLogic {
       { label:'Temas flojos', value:temasFlojos, sub:'por debajo del 55%', color:C.am },
     ];
 
+    // ROADMAP DEL EXAMEN (fecha máxima estimada de convocatoria: 7 enero 2027)
+    const EXAM_DATE = new Date(2027, 0, 7);
+    const msDia = 1000 * 60 * 60 * 24;
+    const diasParaExamen = Math.max(0, Math.ceil((EXAM_DATE - now) / msDia));
+    const isoDate = (d) => { const o = d.getTimezoneOffset(); return new Date(d.getTime() - o * 60000).toISOString().slice(0, 10); };
+    const fraseMes = (d) => { const dia = d.getDate(); const tramo = dia <= 10 ? 'principios de' : (dia <= 20 ? 'mediados de' : 'finales de'); return `${tramo} ${meses[d.getMonth()]}`; };
+    out.diasParaExamen = diasParaExamen;
+    out.examFechaLabel = '7 de enero de 2027';
+    out.examUrgColor = diasParaExamen <= 30 ? C.r : (diasParaExamen <= 90 ? C.am : '#fff');
+
+    // Cuenta atrás en meses + semanas (más legible que solo días)
+    const semanasTotales = Math.floor(diasParaExamen / 7);
+    const mesesCountdown = Math.floor(diasParaExamen / 30);
+    const semanasResto = Math.round((diasParaExamen - mesesCountdown * 30) / 7);
+    out.countdownPrincipal = mesesCountdown > 0
+      ? `${mesesCountdown} ${mesesCountdown === 1 ? 'mes' : 'meses'}` + (semanasResto > 0 ? ` y ${semanasResto} ${semanasResto === 1 ? 'semana' : 'semanas'}` : '')
+      : `${semanasTotales} ${semanasTotales === 1 ? 'semana' : 'semanas'}`;
+    out.countdownDiasSub = `${diasParaExamen} días exactos`;
+
+    const totalTemas = TEMAS.length || 17;
+    const temasVistos = TEMAS.filter(t => this.temaStat(t.id).attempts > 0).length;
+    const fase1Pct = totalTemas ? Math.round(temasVistos / totalTemas * 100) : 0;
+    const fase1Done = temasVistos >= totalTemas;
+    const fase2Pct = fase1Done ? Math.round((totalTemas - temasFlojos) / totalTemas * 100) : 0;
+    const fase2Done = fase1Done && temasFlojos === 0;
+    const fase3Pct = diasParaExamen <= 45 ? 100 : (diasParaExamen <= 90 ? 40 : 0);
+    const fase4Pct = diasParaExamen <= 7 ? 100 : 0;
+    // Fechas objetivo de cada fase: reparto proporcional del tiempo restante
+    const fase1Target = new Date(now.getTime() + msDia * Math.round(diasParaExamen * 0.35));
+    const fase2Target = new Date(now.getTime() + msDia * Math.round(diasParaExamen * 0.70));
+    const fase3Target = new Date(now.getTime() + msDia * Math.max(0, diasParaExamen - 7));
+    const fase4Target = EXAM_DATE;
+    const faseTargets = [fase1Target, fase2Target, fase3Target, fase4Target];
+    const fasesDef = [
+      { icono: '📖', label: '1. Primera vuelta', sub: `Recorre los ${totalTemas} temas al menos una vez`, pct: fase1Pct, done: fase1Done },
+      { icono: '💪', label: '2. Consolidación', sub: 'Sube los temas flojos (<55% de acierto) por encima de ese umbral', pct: fase2Pct, done: fase2Done },
+      { icono: '⏱️', label: '3. Simulacros', sub: 'Cronometrados, en condiciones de examen real', pct: fase3Pct, done: false },
+      { icono: '🔁', label: '4. Repaso final', sub: 'Última semana: repaso ligero, sin material nuevo', pct: fase4Pct, done: false },
+    ];
+    let activeIdx = fasesDef.findIndex(f => !f.done && f.pct < 100);
+    if (activeIdx === -1) activeIdx = fasesDef.length - 1;
+    out.roadmapFases = fasesDef.map((f, i) => ({
+      icono: f.icono, label: f.label, sub: f.sub, targetLabel: fraseMes(faseTargets[i]),
+      barStyle: `height:100%; width:${f.pct}%; background:${(f.done || f.pct >= 100) ? C.g : C.v}; border-radius:6px;`,
+      cardStyle: i === activeIdx ? `background:#F4F1FE; border:1.5px solid ${C.v};` : `background:#fff; border:1px solid #ECECF1;`,
+    }));
+
     const groups = [
       { nombre:'Constitución (T1)', temas:[1] },
       { nombre:'Procedimiento administrativo (T2–T4)', temas:[2,3,4] },
@@ -1207,22 +1517,225 @@ class Component extends DCLogic {
       return { nombre:g.nombre, pct, barStyle:`height:100%; width:${pct}%; background:${a?this.pctColor(pct):'#E4E4EC'}; border-radius:6px;` };
     });
 
+    // ROADMAP (pantalla demo): hitos por bloque con fecha objetivo, repartiendo el tiempo restante
+    const hitoTargets = groups.map((g,i)=> new Date(now.getTime() + msDia*Math.round(diasParaExamen*(i+1)/groups.length)));
+    out.roadmapHitos = groups.map((g,i)=>{
+      const pct = out.bloques[i].pct;
+      const done = pct>=70;
+      const target = hitoTargets[i];
+      return {
+        nombre:g.nombre, pct, done,
+        targetLabel:`${target.getDate()} ${meses[target.getMonth()].slice(0,3)}`,
+        dotStyle:`width:13px; height:13px; border-radius:50%; flex:none; background:${done?C.g:(pct>0?C.v:'#E4E4EC')};`,
+        nombreStyle:`font-size:13.5px; font-weight:600; text-decoration:${done?'line-through':'none'}; color:${done?'#9A9AA6':'#1B1B22'};`,
+      };
+    });
+
+    // Eventos combinados (fases + hitos por bloque + examen) para el calendario interactivo
+    const roadmapEventos = [];
+    faseTargets.forEach((d,i)=> roadmapEventos.push({ date:d, label:fasesDef[i].label, color:C.v }));
+    hitoTargets.forEach((d,i)=> roadmapEventos.push({ date:d, label:groups[i].nombre, color:C.am }));
+    roadmapEventos.push({ date:EXAM_DATE, label:'Examen', color:C.r });
+    const eventosPorDia = {};
+    roadmapEventos.forEach(ev=>{ const key=isoDate(ev.date); (eventosPorDia[key]=eventosPorDia[key]||[]).push(ev); });
+
+    // Toggle de vista mensual/semanal
+    const vista = S.roadmapVista || 'mes';
+    out.roadmapVistaMes = vista==='mes'; out.roadmapVistaSemana = vista==='semana';
+    out.roadmapVistaTabs = [ {key:'mes',label:'Mes'}, {key:'semana',label:'Semana'} ].map(v=>({
+      label:v.label, onClick:()=>this.setState({roadmapVista:v.key}),
+      style:`border:none; border-radius:8px; padding:7px 15px; font-family:inherit; font-size:13px; font-weight:600; cursor:pointer; background:${vista===v.key?C.v:'transparent'}; color:${vista===v.key?'#fff':'#6B6B78'};`,
+    }));
+
+    const hoyIso = isoDate(now);
+    const diaSel = S.roadmapDiaSel;
+
+    // Vista mensual: rejilla del mes con navegación
+    const mesOffset = S.roadmapMesOffset||0;
+    const refMes = new Date(now.getFullYear(), now.getMonth()+mesOffset, 1);
+    out.roadmapMesLabel = `${meses[refMes.getMonth()].charAt(0).toUpperCase()}${meses[refMes.getMonth()].slice(1)} ${refMes.getFullYear()}`;
+    out.roadmapMesPrev = ()=>this.setState({roadmapMesOffset:mesOffset-1});
+    out.roadmapMesNext = ()=>this.setState({roadmapMesOffset:mesOffset+1});
+    const firstWeekday = (refMes.getDay()+6)%7; // lunes=0
+    const diasEnMes = new Date(refMes.getFullYear(), refMes.getMonth()+1, 0).getDate();
+    const totalCeldas = Math.ceil((firstWeekday+diasEnMes)/7)*7;
+    out.roadmapDiasSemanaLbl = ['L','M','X','J','V','S','D'];
+    out.roadmapMesCeldas = Array.from({length:totalCeldas}).map((_,i)=>{
+      const dayNum = i-firstWeekday+1;
+      if (dayNum<1 || dayNum>diasEnMes) return { num:'', style:'visibility:hidden;', dotStyle:'display:none;', onClick:()=>{} };
+      const d = new Date(refMes.getFullYear(), refMes.getMonth(), dayNum);
+      const iso = isoDate(d);
+      const evs = eventosPorDia[iso]||[];
+      const isToday = iso===hoyIso, isSel = iso===diaSel;
+      const hasNota = !!(S.notas && S.notas[iso] && S.notas[iso].length);
+      return {
+        num:dayNum,
+        style:`background:${isSel?'#F4F1FE':(evs.length?'#FBF3E6':'#fff')}; border:${(isToday||isSel)?`1.5px solid ${C.v}`:'1px solid #ECECF1'}; border-radius:8px; padding:6px 4px 8px; cursor:pointer; min-height:42px; display:flex; flex-direction:column; align-items:center; gap:4px; font-size:12px; font-weight:${isToday?700:500}; color:${isToday?C.v:'#1B1B22'};`,
+        dotStyle: evs.length ? `width:6px; height:6px; border-radius:50%; background:${evs[0].color};` : 'display:none;',
+        hasNota, notaMark:'📝',
+        onClick:()=>{
+          const nuevo = iso===diaSel ? null : iso;
+          this.setState({ roadmapDiaSel:nuevo, notaNuevoTexto:'', notaEditId:null, notaEditTexto:'' });
+        },
+      };
+    });
+
+    // Vista semanal: 7 días con navegación, con la etiqueta del hito visible en la propia celda
+    const semOffset = S.roadmapSemanaOffset||0;
+    const curDow = (now.getDay()+6)%7;
+    const monday = new Date(now.getFullYear(), now.getMonth(), now.getDate()-curDow+semOffset*7);
+    const sunday = new Date(monday.getFullYear(), monday.getMonth(), monday.getDate()+6);
+    out.roadmapSemanaLabel = `${monday.getDate()} ${meses[monday.getMonth()].slice(0,3)} – ${sunday.getDate()} ${meses[sunday.getMonth()].slice(0,3)}`;
+    out.roadmapSemanaPrev = ()=>this.setState({roadmapSemanaOffset:semOffset-1});
+    out.roadmapSemanaNext = ()=>this.setState({roadmapSemanaOffset:semOffset+1});
+    out.roadmapSemanaCeldas = Array.from({length:7}).map((_,i)=>{
+      const d = new Date(monday.getFullYear(), monday.getMonth(), monday.getDate()+i);
+      const iso = isoDate(d);
+      const evs = eventosPorDia[iso]||[];
+      const isToday = iso===hoyIso, isSel = iso===diaSel;
+      const hasNota = !!(S.notas && S.notas[iso] && S.notas[iso].length);
+      return {
+        diaLbl: dias[d.getDay()].slice(0,3), num:d.getDate(),
+        style:`background:${isSel?'#F4F1FE':(evs.length?'#FBF3E6':'#fff')}; border:${(isToday||isSel)?`1.5px solid ${C.v}`:'1px solid #ECECF1'}; border-radius:11px; padding:12px 6px; cursor:pointer; display:flex; flex-direction:column; align-items:center; gap:6px; min-height:88px;`,
+        eventos: evs.map(e=>({
+          label:e.label,
+          dotStyle:`width:6px; height:6px; border-radius:50%; background:${e.color}; flex:none;`,
+          style:`font-size:9.5px; color:${e.color}; font-weight:700; text-align:center; line-height:1.25;`,
+        })),
+        hasNota, notaMark:'📝',
+        onClick:()=>{
+          const nuevo = iso===diaSel ? null : iso;
+          this.setState({ roadmapSemanaOffset:semOffset, roadmapDiaSel:nuevo, notaNuevoTexto:'', notaEditId:null, notaEditTexto:'' });
+        },
+      };
+    });
+
+    // Detalle del día seleccionado (compartido por ambas vistas)
+    const evsSel = diaSel ? (eventosPorDia[diaSel]||[]) : [];
+    out.hasRoadmapDiaSel = !!diaSel;
+    if (diaSel) {
+      const d = new Date(diaSel+'T00:00');
+      out.roadmapDiaSelLabel = `${dias[d.getDay()]} ${d.getDate()} de ${meses[d.getMonth()]}`;
+      out.roadmapDiaSelEventos = evsSel.map(e=>({ label:e.label, style:`font-size:12.5px; font-weight:600; color:${e.color};` }));
+      out.roadmapDiaSelVacio = evsSel.length===0;
+      const notasDia = S.notas[diaSel] || [];
+      out.roadmapDiaSelSinNotas = notasDia.length===0;
+      out.roadmapDiaSelNotas = notasDia.map(n=>{
+        const enEdicion = S.notaEditId === n.id;
+        return {
+          id:n.id, contenido:n.contenido,
+          enEdicion, viendo:!enEdicion,
+          editTexto: enEdicion ? (S.notaEditTexto||'') : '',
+          onEditInput: e=>this.setState({ notaEditTexto:e.target.value }),
+          onGuardarEdit: ()=>this.actualizarNotaDia(diaSel, n.id, S.notaEditTexto||''),
+          onCancelarEdit: ()=>this.setState({ notaEditId:null, notaEditTexto:'' }),
+          onEditar: ()=>this.setState({ notaEditId:n.id, notaEditTexto:n.contenido }),
+          onBorrar: ()=>this.borrarNotaDia(diaSel, n.id),
+        };
+      });
+      out.notaNuevoTexto = S.notaNuevoTexto || '';
+      out.onNotaNuevoInput = e=>this.setState({ notaNuevoTexto:e.target.value });
+      out.onAnadirNota = ()=>this.crearNotaDia(diaSel, S.notaNuevoTexto||'');
+    }
+
+    // Ritmo actual (últimos 7 días) vs. ritmo necesario para terminar el temario a tiempo
+    const semanasRestantes = Math.max(1, diasParaExamen/7);
+    const preguntasRestantes = Math.max(0, totalPreguntas-totalHechas);
+    const ritmoNecesario = Math.max(1, Math.ceil(preguntasRestantes/semanasRestantes));
+    const haceUnaSemana = new Date(now.getTime()-7*msDia);
+    const ritmoActual = (S.historial||[]).filter(h=>new Date(h.created_at)>=haceUnaSemana).reduce((acc,h)=>acc+(h.total||0),0);
+    out.ritmoActual = ritmoActual;
+    out.ritmoNecesario = ritmoNecesario;
+    const ritmoRatio = ritmoActual/ritmoNecesario;
+    out.ritmoOk = ritmoRatio>=1;
+    let ritmoIcono, ritmoMsg, ritmoColor;
+    if (ritmoRatio>=1.3) {
+      ritmoIcono='🔥'; ritmoColor=C.g;
+      ritmoMsg=`¡Ritmo excelente! Esta semana llevas ${ritmoActual} preguntas, muy por encima de las ${ritmoNecesario} recomendadas. Sigue así y llegarás sobrado al examen.`;
+    } else if (ritmoRatio>=1) {
+      ritmoIcono='💪'; ritmoColor=C.g;
+      ritmoMsg=`¡Vas al día! Con ${ritmoActual} preguntas esta semana cumples el objetivo (~${ritmoNecesario}/semana). Mantén la constancia.`;
+    } else if (ritmoRatio>=0.6) {
+      ritmoIcono='⚡'; ritmoColor=C.am;
+      ritmoMsg=`Casi en objetivo: llevas ${ritmoActual} de las ${ritmoNecesario} preguntas recomendadas esta semana. Un empujoncito más y lo consigues.`;
+    } else {
+      ritmoIcono='🚀'; ritmoColor=C.am;
+      ritmoMsg=`Puedes recuperar el ritmo: te faltan ${Math.max(0, ritmoNecesario-ritmoActual)} preguntas esta semana para ir sobrado. ¡Tú puedes!`;
+    }
+    out.ritmoIcono = ritmoIcono;
+    out.ritmoColor = ritmoColor;
+    out.ritmoMsg = ritmoMsg;
+    out.ritmoBarStyle = `height:100%; width:${Math.min(100, Math.round(ritmoRatio*100))}%; background:${ritmoColor}; border-radius:6px;`;
+
+    // Checklist de simulacros cronometrados (recomendado: uno cada 2 semanas hasta el examen)
+    const simulacrosHechos = (S.historial||[]).filter(h=>h.modo==='simulacro').length;
+    const simulacrosRecomendados = Math.max(1, Math.ceil(diasParaExamen/14));
+    out.simulacrosHechos = simulacrosHechos;
+    out.simulacrosRecomendados = simulacrosRecomendados;
+    const simulacrosPct = Math.min(100, Math.round(simulacrosHechos/simulacrosRecomendados*100));
+    out.simulacrosBarStyle = `height:100%; width:${simulacrosPct}%; background:${simulacrosPct>=100?C.g:C.v}; border-radius:6px;`;
+    out.goRoadmap = ()=>this.go('roadmap');
+    out.goSimulacro = ()=>this.openSetup('simulacro');
+
     const attempted = TEMAS.filter(t=>this.temaStat(t.id).attempts>0);
-    let reco;
-    if (attempted.length) reco = attempted.slice().sort((a,b)=>this.temaPct(a.id)-this.temaPct(b.id))[0];
-    else reco = TEMAS.find(t=>this.bankTema(t.id).length>0) || TEMAS[0];
-    out.recoTema = reco ? reco.t : '—';
-    out.recoPct = reco ? this.temaPct(reco.id) : 0;
-    out.recoSub = attempted.length
-      ? `Es el tema donde más fallas (${out.recoPct}% de acierto). Practícalo para subir tu nota.`
-      : 'Empieza por aquí: haz tu primer test y la app empezará a medir tu progreso.';
-    out.openReco = ()=>{ if (reco) this.openSetup('tema', reco.id); };
+
+    // FOCO: recomendación sincronizada con la fase activa del plan de la semana (roadmap)
+    const faseActiva = fasesDef[activeIdx];
+    const faseActivaNombre = faseActiva.label.replace(/^\d+\.\s*/, '');
+    const temasNoVistos = TEMAS.filter(t=>this.temaStat(t.id).attempts===0);
+    let focoTitulo, focoSub, focoCtaLabel, focoOnClick;
+    if (activeIdx === 2) {
+      // Fase 3: simulacros
+      focoTitulo = 'Toca hacer un simulacro';
+      focoSub = `Tu plan semanal está en la fase "${faseActivaNombre}": el temario ya está trabajado, ahora prioriza simulacros cronometrados. Llevas ${simulacrosHechos} de ${simulacrosRecomendados} recomendados.`;
+      focoCtaLabel = 'Hacer simulacro →';
+      focoOnClick = ()=>this.openSetup('simulacro');
+    } else if (activeIdx === 3) {
+      // Fase 4: repaso final
+      focoTitulo = 'Repaso final, sin material nuevo';
+      focoSub = `Tu plan semanal está en la fase "${faseActivaNombre}": toca repaso ligero de preguntas falladas, sin ver temario nuevo. Tienes ${numFalladas} pendientes.`;
+      focoCtaLabel = `Repasar falladas (${numFalladas}) →`;
+      focoOnClick = ()=>this.openSetup('falladas');
+    } else if (activeIdx === 1 && attempted.length) {
+      // Fase 2: consolidación de temas flojos
+      const flojo = attempted.slice().sort((a,b)=>this.temaPct(a.id)-this.temaPct(b.id))[0];
+      const flojoPct = this.temaPct(flojo.id);
+      focoTitulo = flojo.t;
+      focoSub = `Tu plan semanal está en la fase "${faseActivaNombre}": toca consolidar temas flojos. Este es el que peor llevas (${flojoPct}% de acierto).`;
+      focoCtaLabel = 'Empezar repaso →';
+      focoOnClick = ()=>this.openSetup('tema', flojo.id);
+    } else if (temasNoVistos.length) {
+      // Fase 1: primera vuelta, siguiente tema sin practicar
+      const siguiente = temasNoVistos[0];
+      focoTitulo = siguiente.t;
+      focoSub = `Tu plan semanal está en la fase "${faseActivaNombre}": aún no has practicado este tema, empieza por aquí.`;
+      focoCtaLabel = 'Empezar repaso →';
+      focoOnClick = ()=>this.openSetup('tema', siguiente.id);
+    } else if (attempted.length) {
+      const flojo = attempted.slice().sort((a,b)=>this.temaPct(a.id)-this.temaPct(b.id))[0];
+      focoTitulo = flojo.t;
+      focoSub = `Es el tema donde más fallas (${this.temaPct(flojo.id)}% de acierto). Practícalo para subir tu nota.`;
+      focoCtaLabel = 'Empezar repaso →';
+      focoOnClick = ()=>this.openSetup('tema', flojo.id);
+    } else {
+      const primero = TEMAS.find(t=>this.bankTema(t.id).length>0) || TEMAS[0];
+      focoTitulo = primero ? primero.t : '—';
+      focoSub = 'Empieza por aquí: haz tu primer test y la app empezará a medir tu progreso.';
+      focoCtaLabel = 'Empezar repaso →';
+      focoOnClick = ()=>{ if (primero) this.openSetup('tema', primero.id); };
+    }
+    out.focoPlanLabel = `Plan de la semana · Fase ${activeIdx+1}: ${faseActivaNombre}`;
+    out.recoTema = focoTitulo;
+    out.recoSub = focoSub;
+    out.recoCtaLabel = focoCtaLabel;
+    out.openReco = focoOnClick;
 
     out.modos = [
       { icon:'🎲', label:'Test aleatorio', sub:`Preguntas de los ${TEMAS.length||17} temas`, onClick:()=>this.openSetup('aleatorio') },
       { icon:'⏱️', label:'Simulacro', sub:'Cronometrado, corrección final', onClick:()=>this.openSetup('simulacro') },
       { icon:'🔁', label:'Solo falladas', sub:`${numFalladas} pendientes`, onClick:()=>this.openSetup('falladas') },
     ];
+
 
     // SETUP
     const smLabels = { tema:'Test por tema', aleatorio:'Test aleatorio', simulacro:'Simulacro de examen', falladas:'Repaso de falladas' };

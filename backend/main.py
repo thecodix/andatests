@@ -9,7 +9,7 @@ from sqlmodel import SQLModel
 
 from config import settings
 from database import engine
-from routers import asistente, auth, ranking, sesiones, stats, temas
+from routers import asistente, auth, notas, ranking, sesiones, stats, temas
 
 FRONTEND_DIR = Path(__file__).parent.parent
 
@@ -36,6 +36,7 @@ app.include_router(sesiones.router, prefix="/api")
 app.include_router(stats.router, prefix="/api")
 app.include_router(ranking.router, prefix="/api")
 app.include_router(asistente.router, prefix="/api")
+app.include_router(notas.router, prefix="/api")
 
 
 @app.get("/api/health")

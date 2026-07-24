@@ -2350,5 +2350,833 @@
     "c": 1,
     "ref": "Word 365 - Número de página",
     "exp": "\"Mitad de página\" no es una opción para insertar el número de página."
+  },
+  {
+    "q": "En Word 365, ¿en qué pestaña de la cinta de opciones habrá que hacer clic para mostrar u ocultar la regla?",
+    "o": [
+      "Revisar",
+      "Vista",
+      "Archivo",
+      "Mostrar"
+    ],
+    "c": 1,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365, no forma parte del entorno de Word:",
+    "o": [
+      "Una cinta de opciones",
+      "Las barras de desplazamiento",
+      "Una zona de búsqueda",
+      "Una hoja de cálculo"
+    ],
+    "c": 3,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365: indique entre las opciones, cual es la forma de abrir Word:",
+    "o": [
+      "Haciendo doble clic en un acceso directo que figure en el escritorio",
+      "Con el atajo ALT+F4",
+      "En la opción nuevo que figura en el menú de botón derecho del ratón",
+      "Con cualquiera de las anteriores opciones"
+    ],
+    "c": 0,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365: ¿en qué barra de las que se mencionan a continuación, se muestra información sobre el idioma?:",
+    "o": [
+      "Barra horizontal",
+      "Barra de desplazamiento",
+      "Barra de estado",
+      "Barra de títulos 2"
+    ],
+    "c": 2,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365: para crear un documento nuevo, ¿Qué ruta es la correcta?",
+    "o": [
+      "Archivo/abrir/documento en blanco",
+      "Archivo/nuevo/documento en blanco",
+      "Inicio/nuevo/documento en blanco",
+      "Archivo/abrir/documento nuevo"
+    ],
+    "c": 1,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365: para abrir un documento, ¿Qué atajo de teclado es el correcto?",
+    "o": [
+      "CTRL+ U",
+      "CTRL+ A",
+      "INTRO + U",
+      "ALT + A"
+    ],
+    "c": 1,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365: para acceder al contenido de las Pestañas de la cinta opciones a través del teclado, hay que teclear:",
+    "o": [
+      "CTRL",
+      "MAY",
+      "TAB",
+      "ALT"
+    ],
+    "c": 3,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365: para visualizar un documento abierto detrás de otro, hay que acceder a la pestaña:",
+    "o": [
+      "Vista/mostrar ventana",
+      "Revisar/comparar",
+      "Vista/cambiar documento",
+      "Vista/cambiar ventana 3"
+    ],
+    "c": 3,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365: señale la opción correcta, ¿Qué ubicación ofrece Word para guardar un documento?",
+    "o": [
+      "Autoguardado",
+      "Anclar",
+      "Reciente",
+      "Todas las anteriores son ubicaciones para guardar"
+    ],
+    "c": 2,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365: para cerrar un documento ¿qué atajo de teclado es correcto?:",
+    "o": [
+      "F4",
+      "ALT+F4",
+      "MAY+F4",
+      "CTRL+F4"
+    ],
+    "c": 3,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365: para guardar un documento Word ofrece una ubicación que consiste en un servicio de almacenamiento en línea, que se llama:",
+    "o": [
+      "Acrobat",
+      "Team",
+      "One-drive",
+      "Pen-drive 4"
+    ],
+    "c": 2,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365: indique que opción es correcta:",
+    "o": [
+      "La barra de estado se encuentra en la parte superior de la interfaz de Word",
+      "La barra de acceso rápido se puede personalizar añadiendo la opción “abrir”",
+      "La cinta de opciones no permite mostrar solo pestaña",
+      "A través de la barra de desplazamiento se puede modificar los márgenes del documento"
+    ],
+    "c": 1,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365: es una pestaña de la cinta de opciones:",
+    "o": [
+      "Revisión",
+      "Formato",
+      "Inicio",
+      "Todas las anteriores son pestañas de la cinta de opciones"
+    ],
+    "c": 2,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365: ¿Cuál es la vista que está activa por defecto?",
+    "o": [
+      "Diseño Web",
+      "Diseño impresión",
+      "Modo lectura",
+      "Normal."
+    ],
+    "c": 1,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365: para activar la pestaña “Archivo”, cual es la combinación de tecla adecuada:",
+    "o": [
+      "CTRL+A apareciendo, seleccionada la opción abrir",
+      "CTRL+U apareciendo seleccionada la opción nuevo",
+      "ALT+A apareciendo seleccionada la opción información",
+      "A y C son correctas 5 17.- 15.-En Word 365: en el grupo de comandos no se encuentra"
+    ],
+    "c": 3,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 2016: la opción “Guardar como” permite:",
+    "o": [
+      "Guardar un documento nuevo",
+      "Guardar un documento antiguo y cambiarle el nombre",
+      "Guardar un documento en one-drive",
+      "Permite todo lo anterior"
+    ],
+    "c": 3,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 2016: la opción imprimir se encuentra en la pestaña de la cinta de opciones:",
+    "o": [
+      "Archivo",
+      "Inicio",
+      "Impresión",
+      "Vista"
+    ],
+    "c": 0,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365: el tamaño del de página que aparece por defecto seleccionado es:",
+    "o": [
+      "Folio",
+      "Documento",
+      "A4",
+      "Estandar 6"
+    ],
+    "c": 2,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365, ¿En qué grupo de la pestaña inicio, se encuentra el comando “Borrar formato”",
+    "o": [
+      "Portapapeles",
+      "Fuentes",
+      "Párrafo",
+      "Insertar"
+    ],
+    "c": 1,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365, para realizar un curriculum a través de una plantilla sugerida, ¿Qué ruta es la correcta?:",
+    "o": [
+      "Archivo/nuevo/ seleccionar documento en blanco y hacer clic en crear",
+      "Archivo/abrir/ seleccionar documento en blanco y hacer clic en crear",
+      "Insertar/plantilla y hacer clic en crear",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 3,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365 para escribir “prueba”, con la forma que se muestra ¿qué atajo de teclado hay que emplear?",
+    "o": [
+      "CTRL+K",
+      "CTRL+C",
+      "CTRL+S",
+      "CTRL+Q"
+    ],
+    "c": 0,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365, que comando, permite terminar en un punto de la página actual y pasar a la siguiente:",
+    "o": [
+      "Salto de hoja",
+      "Salgo de párrafo",
+      "Salto de página",
+      "Insertar salto"
+    ],
+    "c": 2,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365, para realizar la acción a la que se refiere la pregunta anterior, ¿Qué combinación de tecla se puede usar?",
+    "o": [
+      "CTRL+RETROCESO",
+      "CTRL+BARRA ESPACIADORA",
+      "CTRL+INTRO",
+      "CTRL+TAB"
+    ],
+    "c": 2,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365, respecto a los “Temas”, indique la afirmación correcta:",
+    "o": [
+      "Su comando se encuentra en la pestaña Diseño",
+      "Cada tema de un documento tiene asociado un conjunto de colores",
+      "No existen temas personalizados",
+      "Se permite personaliza, salvo el tipo de fuentes"
+    ],
+    "c": 1,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365: ¿En qué pestaña de la cinta de opciones se encuentra Encabezado y pie de página?",
+    "o": [
+      "Inicio",
+      "Insertar",
+      "Formato",
+      "Diseño 8"
+    ],
+    "c": 1,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365, ¿Qué combinación de teclas permite deshacer la última acción realizada?",
+    "o": [
+      "CTRL + D",
+      "CTRL + P",
+      "CTRL + Z",
+      "CTRL + I"
+    ],
+    "c": 2,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365, entre las ubicaciones que se mencionan a continuación, donde se encuentra el comando para realizar la acción a la que se refiere la pregunta anterior:",
+    "o": [
+      "En el menú contextual del ratón",
+      "En la pestaña Inicio",
+      "En la barra de estado",
+      "En la barra de acceso rápido"
+    ],
+    "c": 3,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 2016, ¿En qué pestaña de la cinta de opciones se encuentra el comando tabla?",
+    "o": [
+      "Insertar",
+      "Inicio",
+      "Formato",
+      "Estilo"
+    ],
+    "c": 0,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365, el atajo de teclado CTRL+ T, se utiliza para:",
+    "o": [
+      "Central el texto",
+      "Poner cursiva",
+      "Para buscar y reemplazar",
+      "Para abrir tipo de fuente 9"
+    ],
+    "c": 0,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365, accediendo a través del cuadro de dialogo del grupo fuente, se puede realizar:",
+    "o": [
+      "El cambio de tamaño fuente",
+      "Poner color al subrayado",
+      "Aplica el efecto oculto",
+      "Se puede realizar dodo lo anterior"
+    ],
+    "c": 3,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365, accediendo a través del cuadro de dialogo del grupo fuente, no se puede realizar:",
+    "o": [
+      "Aplicar el efecto versalitas",
+      "Indicar el color de la fuente",
+      "Indicar la alineación de parrafo",
+      "No se puede realizar nada de lo anterior"
+    ],
+    "c": 2,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365, se puede poner un número de página:",
+    "o": [
+      "Al principio y al final de la página simultáneamente",
+      "En el margen derecho e izquierdo simultáneamente",
+      "En la “posición actual” donde se encuentre el curso",
+      "Nada de lo anterior es correcto"
+    ],
+    "c": 2,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365, el comando que se muestra a continuación ¿que función tiene?:",
+    "o": [
+      "Pegar",
+      "Cortar",
+      "Copia",
+      "Portal papeles 10"
+    ],
+    "c": 0,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365, la combinación de teclas para justificar el testo es:",
+    "o": [
+      "CTRL+G",
+      "CTRL+J",
+      "CTRL+Q",
+      "CTRL+K"
+    ],
+    "c": 1,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365, en la barra de estado no figura información sobre:",
+    "o": [
+      "Número de página",
+      "Número de palabra",
+      "Posición de las tabulaciones",
+      "Errores ortográficos"
+    ],
+    "c": 2,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365, el comando Zoom, ¿en qué grupo de la pestaña Vista se encuentra?",
+    "o": [
+      "Se encuentra en otra pestaña",
+      "Mostrar",
+      "Ventana",
+      "Zoom"
+    ],
+    "c": 3,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365, abrir un documento en blanco, la pestaña que aparece por defecto activada en la cinta de opciones es:",
+    "o": [
+      "Archivo",
+      "Inicio",
+      "Disposición",
+      "Documento 11"
+    ],
+    "c": 1,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365, ¿qué comando agrega una nota en la parte inferior de la página que proporciona más información sobre el documento?",
+    "o": [
+      "Insertar nota al final",
+      "Insertar línea",
+      "Insertar nota al pie",
+      "Insertar contenido"
+    ],
+    "c": 2,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365, ¿en qué pestaña de la cinta de opciones se encuentra la herramienta a la que se refiere la pregunta anterior?",
+    "o": [
+      "Referencia",
+      "Insertar",
+      "Correspondencia",
+      "Diseño"
+    ],
+    "c": 0,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365, el atajo de teclado para contraer la cinta de opciones es:",
+    "o": [
+      "F1",
+      "CTRL+F1",
+      "ENTER+F1",
+      "ALT+F1"
+    ],
+    "c": 1,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365, cambiar las opciones de revisión ortográfica de Word, se encuentra en la pestaña:",
+    "o": [
+      "Archivo",
+      "Revisar",
+      "Vista",
+      "Información 12"
+    ],
+    "c": 1,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365, podemos cambiar la información contenida en la barra de estado:",
+    "o": [
+      "Haciendo clic con el botón izquierdo del ratón",
+      "Haciendo doble clic con el botón izquierdo del ratón",
+      "Haciendo clic con el botón derecho del ratón",
+      "A través del menú contextual del ratón"
+    ],
+    "c": 2,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365: de manera predeterminada, el color de la fuente es el:",
+    "o": [
+      "Blanco",
+      "Azul",
+      "Rojo",
+      "Negro"
+    ],
+    "c": 3,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365: si en el comando fuente, al hacer clic sobre la opción “automático”, el color que se aplicará a la fuente:",
+    "o": [
+      "Es el que se haya seleccionado previamente",
+      "Sera el negro",
+      "Será el blanco",
+      "Será el último que se haya aplicado"
+    ],
+    "c": 1,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365: ¿Cuál es la herramienta que permite almacenar temporalmente textos, imágenes u otros elementos, que copias o corta dentro de Word?",
+    "o": [
+      "One-drive",
+      "Maletín",
+      "Cortapapeles",
+      "Carpeta 13"
+    ],
+    "c": 2,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365: ¿Cuándo interpreta Word que hay un párrafo?",
+    "o": [
+      "Cada vez que hay un desplazamiento hacia abajo en el documento",
+      "Cada punto y seguido",
+      "Cada vez que se pulsa INTRO",
+      "Cada vez que se pulsa CTRL"
+    ],
+    "c": 2,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365, para buscar, la combinación de teclas adecuada es:",
+    "o": [
+      "CTRL+L",
+      "ALT+B",
+      "CTRL+B",
+      "CTRL+R"
+    ],
+    "c": 2,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365, que función tiene el comando que se muestra a continuación:",
+    "o": [
+      "Disminuir el tamaño de la fuente",
+      "Insertar un superíndice",
+      "Aumentar el tamaño de la fuente",
+      "Cambiar mayúsculas y minúsculas"
+    ],
+    "c": 3,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365, existe un buscador:",
+    "o": [
+      "A la derecha de la barra de título",
+      "Debajo de los botones minimizar y restaurar",
+      "Debajo de la regla",
+      "No existe un buscador 14"
+    ],
+    "c": 0,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365, el comando “cerrar”, se encuentra en la pestaña:",
+    "o": [
+      "Inicio",
+      "Archivo",
+      "Disposición",
+      "No existe el comando"
+    ],
+    "c": 1,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365, el comando al que se refiere la pregunta anterior, ¿Qué función tiene?",
+    "o": [
+      "Cerrar un documento",
+      "Cerrar una carpeta",
+      "Cerrar la aplicación Word",
+      "A y C son correctas"
+    ],
+    "c": 0,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365: el comando :",
+    "o": [
+      "Permite insertar un archivo de audio en Word",
+      "Permite una reunión en línea",
+      "Es una herramienta de Word para traducir",
+      "Permite el dictado por Voz"
+    ],
+    "c": 3,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365: el margen superior normal es de:",
+    "o": [
+      "3 centímetros",
+      "2,5 centímetros",
+      "3,5 centímetros",
+      "1,5 centímetros 15"
+    ],
+    "c": 1,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365: al tipo de letra utilizada por Word, se llama:",
+    "o": [
+      "Fuente",
+      "Carácter",
+      "Digito",
+      "Inserción"
+    ],
+    "c": 0,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365, la opción “táctil”:",
+    "o": [
+      "Oculta la cinta de opciones",
+      "Aumenta el tamaño de los comandos",
+      "Aumenta el espacio entre comandos",
+      "Oculta comando de la cinta de opciones"
+    ],
+    "c": 2,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365: el atajo de teclado para subrayar una palabra es:",
+    "o": [
+      "CTRL+N",
+      "ALT+S",
+      "CTRL+S",
+      "CTRL+Y"
+    ],
+    "c": 2,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365: la ruta para activar el icono que se muestra a continuación es:",
+    "o": [
+      "Insertar/Insertar nota al pie",
+      "Correspondencia/insertar nota al final",
+      "Referencia/insertar nota al pie",
+      "Referencia/insertar nota al final"
+    ],
+    "c": 2,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365: ¿En que pestaña de las que se menciona a continuación está el grupo párrafo?",
+    "o": [
+      "Diseño",
+      "Formato",
+      "Inicio",
+      "Archivo"
+    ],
+    "c": 2,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365: ¿Qué comando no se encuentra en el grupo párrafo?",
+    "o": [
+      "Viñetas",
+      "Lista multinivel",
+      "Alineación a la izquierda",
+      "Fuente"
+    ],
+    "c": 3,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365: es un efecto para aplicar a las fuentes:",
+    "o": [
+      "Calibri",
+      "Automático",
+      "Tachado",
+      "SmartArt 17"
+    ],
+    "c": 2,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365, ¿Se puede agregar ecuaciones matemáticas a un documento Word?",
+    "o": [
+      "No",
+      "Sí a través de la pestaña insertar",
+      "Sí, a través de la pestaña referencia",
+      "Sí, a través de la pestaña correspondencia"
+    ],
+    "c": 1,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365: no es un tipo de alineación:",
+    "o": [
+      "Justificar",
+      "Versalita",
+      "Centrar",
+      "Ninguna de las anteriores es un tipo de alineación"
+    ],
+    "c": 1,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365: la ayuda de Word se abre con:",
+    "o": [
+      "F1",
+      "F5",
+      "CTRL+F1",
+      "ALT+F5"
+    ],
+    "c": 0,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365: información sobre las propiedades del documento en el que se trabaja se puede obtener en:",
+    "o": [
+      "La pestaña archivo, haciendo clic sobre la opción información",
+      "La pestaña archivo, haciendo clic sobre la opción cuenta",
+      "La pestaña archivo, haciendo clic sobre la opción propiedades",
+      "La pestaña archivo, haciendo clic sobre la opción datos 18"
+    ],
+    "c": 0,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365, cual es la combinación de teclas para activar la herramienta que se indica a continuación:",
+    "o": [
+      "CTRL+C",
+      "CTRL+Y",
+      "CTRL+X",
+      "CTRL+T"
+    ],
+    "c": 2,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365: la opción COMPARTIR que se encuentra en la pestaña ARCHIVO:",
+    "o": [
+      "Permite compartir con otros usuarios el documento guardado en la nube",
+      "Permite dividir el documento",
+      "Permite combinar dos documentos distintos",
+      "Permite poner al documento una contraseña"
+    ],
+    "c": 0,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365: al abrir un documento, Word:",
+    "o": [
+      "El curso se encuentra al inicio del mismo",
+      "Permite reanudar el documento en el punto donde se dejó al cerrarlo",
+      "A y B son correctas",
+      "A y B no son correctas"
+    ],
+    "c": 0,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365, ¿Qué función tiene el siguiente icono?",
+    "o": [
+      "Color de página",
+      "Marca de agua",
+      "Fondo de página",
+      "Borde de página"
+    ],
+    "c": 0,
+    "ref": "",
+    "exp": ""
+  },
+  {
+    "q": "En Word 365, ¿En que grupo de la pestaña Disposición se puede cambiar la orientación de la página?",
+    "o": [
+      "Configurar documento",
+      "Configurar hoja",
+      "Configurar página",
+      "Organizar página 20"
+    ],
+    "c": 1,
+    "ref": "",
+    "exp": ""
   }
 ]

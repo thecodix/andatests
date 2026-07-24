@@ -99,3 +99,12 @@ class AsistenteMensaje(SQLModel, table=True):
     role: str  # "user" | "assistant"
     content: str
     created_at: datetime = Field(default_factory=datetime.utcnow, index=True)
+
+
+class NotaDia(SQLModel, table=True):
+    """Nota libre y persistente que el usuario asocia a un día del roadmap."""
+    id: Optional[int] = Field(default=None, primary_key=True)
+    usuario_id: int = Field(foreign_key="usuario.id", index=True)
+    fecha: date = Field(index=True)
+    contenido: str
+    updated_at: datetime = Field(default_factory=datetime.utcnow)
