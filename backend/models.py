@@ -4,7 +4,7 @@ from typing import Optional
 
 from sqlalchemy import Column
 from sqlalchemy import Enum as SAEnum
-from sqlalchemy import JSON
+from sqlalchemy import JSON, UniqueConstraint
 from sqlmodel import Field, Relationship, SQLModel
 
 
@@ -108,3 +108,30 @@ class NotaDia(SQLModel, table=True):
     fecha: date = Field(index=True)
     contenido: str
     updated_at: datetime = Field(default_factory=datetime.utcnow)
+
+
+class TarjetaEstado(SQLModel, table=True):
+    """Estado de repetición espaciada (SM-2 simplificado) de una tarjeta para un usuario.
+    Si no existe fila para un (usuario, tarjeta), la tarjeta es "nueva" (nunca repasada)."""
+    __table_args__ = (UniqueConstraint("usuario_id", "tarjeta_id", name="uq_tarjeta_usuario_tarjeta"),)
+
+    id: Optional[int] = Field(default=None, primary_key=True)
+    usuario_id: int = Field(foreign_key="usuario.id", index=True)
+    tarjeta_id: str = Field(foreign_key="tarjeta.id", index=True)
+    ease: float = Field(default=2.5)
+    interval_dias: int = Field(default=0)
+    repeticiones: int = Field(default=0)
+    proxima_revision: date = Field(default_factory=date.today, index=True)
+    ultima_revision: Optional[datetime] = None
+
+
+class Tarjeta(SQLModel, table=True):
+    """Tarjeta de repaso (Anki-style) redactada para poder estudiarse de forma aislada:
+    a diferencia de Pregunta, no depende de ver un listado de opciones A/B/C/D. Generada
+    por el agente tarjetas-generator a partir del temario oficial, no de los exámenes."""
+    id: str = Field(primary_key=True)  # "{tema_id}_{indice}"
+    tema_id: int = Field(foreign_key="tema.id", index=True)
+    frente: str
+    dorso: str
+    ref: str
+    explicacion: Optional[str] = None

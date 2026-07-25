@@ -15,9 +15,10 @@ from sqlmodel import Session, SQLModel
 sys.path.insert(0, os.path.dirname(__file__))
 
 from database import engine
-from models import Pregunta, Tema
+from models import Pregunta, Tarjeta, Tema
 
 BANCO_DIR = os.path.join(os.path.dirname(__file__), "..", "banco")
+TARJETAS_DIR = os.path.join(BANCO_DIR, "tarjetas")
 
 META = [
     (1,  "La Constitución Española de 1978",                        "CE 1978"),
@@ -43,6 +44,7 @@ META = [
 def seed():
     SQLModel.metadata.create_all(engine)
     total_preguntas = 0
+    total_tarjetas = 0
     with Session(engine) as s:
         for orden, (tid, titulo, ley) in enumerate(META):
             s.merge(Tema(id=tid, titulo=titulo, ley=ley, orden=orden))
@@ -68,9 +70,28 @@ def seed():
             total_preguntas += len(preguntas)
             print(f"  Tema {tid:2d}: {len(preguntas)} preguntas")
 
+            tarjetas_path = os.path.join(TARJETAS_DIR, f"tema{tid}.json")
+            if not os.path.exists(tarjetas_path):
+                continue
+
+            with open(tarjetas_path, encoding="utf-8") as f:
+                tarjetas = json.load(f)
+
+            for i, t in enumerate(tarjetas):
+                s.merge(Tarjeta(
+                    id=f"{tid}_{i}",
+                    tema_id=tid,
+                    frente=t["frente"],
+                    dorso=t["dorso"],
+                    ref=t["ref"],
+                    explicacion=t.get("exp"),
+                ))
+            total_tarjetas += len(tarjetas)
+            print(f"           {len(tarjetas)} tarjetas")
+
         s.commit()
 
-    print(f"\nSeed completado: 17 temas, {total_preguntas} preguntas.")
+    print(f"\nSeed completado: 17 temas, {total_preguntas} preguntas, {total_tarjetas} tarjetas.")
 
 
 if __name__ == "__main__":

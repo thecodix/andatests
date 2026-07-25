@@ -1,0 +1,268 @@
+[
+  {
+    "frente": "Según el art. 1.1 de la Ley 39/2015, ¿qué tiene por objeto regular la Ley?",
+    "dorso": "Los requisitos de validez y eficacia de los actos administrativos y el procedimiento administrativo común a todas las AAPP, incluyendo el sancionador y el de reclamación de responsabilidad de las Administraciones Públicas, así como los principios de la iniciativa legislativa y la potestad reglamentaria.",
+    "ref": "Art. 1.1 Ley 39/2015"
+  },
+  {
+    "frente": "¿En qué condiciones pueden incluirse trámites adicionales o distintos a los ya previstos en la Ley 39/2015?",
+    "dorso": "Solo mediante ley, cuando resulte eficaz, proporcionado y necesario para los fines propios del procedimiento, y de manera motivada.",
+    "ref": "Art. 1.2 Ley 39/2015"
+  },
+  {
+    "frente": "Según el art. 2.1, ¿qué cuatro grupos comprende el sector público a efectos de la Ley 39/2015?",
+    "dorso": "La Administración General del Estado; las Administraciones de las Comunidades Autónomas; las Entidades que integran la Administración Local; y el sector público institucional.",
+    "ref": "Art. 2.1 Ley 39/2015"
+  },
+  {
+    "frente": "¿Qué integra el sector público institucional según el art. 2.2?",
+    "dorso": "Los organismos públicos y entidades de derecho público vinculados a las AAPP; las entidades de derecho privado vinculadas a ellas; y las Universidades públicas.",
+    "ref": "Art. 2.2 Ley 39/2015",
+    "exp": "Las Universidades públicas se rigen por su normativa específica y solo supletoriamente por esta Ley."
+  },
+  {
+    "frente": "¿Qué entidades tienen la consideración de Administraciones Públicas según el art. 2.3?",
+    "dorso": "La Administración General del Estado, las Administraciones de las Comunidades Autónomas, las Entidades de la Administración Local, y los organismos públicos y entidades de derecho público vinculados a ellas (no las entidades de derecho privado ni las Universidades).",
+    "ref": "Art. 2.3 Ley 39/2015"
+  },
+  {
+    "frente": "¿Por qué normativa se rigen las Corporaciones de Derecho Público en el ejercicio de funciones públicas atribuidas o delegadas?",
+    "dorso": "Por su normativa específica, y supletoriamente por la Ley 39/2015.",
+    "ref": "Art. 2.4 Ley 39/2015"
+  },
+  {
+    "frente": "¿Qué tres supuestos de capacidad de obrar recoge el art. 3 de la Ley 39/2015?",
+    "dorso": "Personas físicas o jurídicas con capacidad de obrar civil; menores de edad para el ejercicio de derechos que la ley les permite sin asistencia de quien ejerza patria potestad/tutela/curatela (salvo menores incapacitados en esa materia); y grupos de afectados/entidades sin personalidad jurídica cuando una ley lo declare expresamente.",
+    "ref": "Art. 3 Ley 39/2015"
+  },
+  {
+    "frente": "Según el art. 4.1, ¿quiénes se consideran interesados en el procedimiento administrativo?",
+    "dorso": "Quienes lo promuevan como titulares de derechos o intereses legítimos; quienes, sin haberlo iniciado, tengan derechos que puedan resultar afectados por la resolución; y quienes, teniendo intereses legítimos afectados, se personen antes de que haya recaído resolución definitiva.",
+    "ref": "Art. 4.1 Ley 39/2015"
+  },
+  {
+    "frente": "Si la condición de interesado deriva de una relación jurídica transmisible, ¿qué ocurre según el art. 4.3?",
+    "dorso": "El derecho-habiente sucede en esa condición, cualquiera que sea el estado del procedimiento.",
+    "ref": "Art. 4.3 Ley 39/2015"
+  },
+  {
+    "frente": "Cuando en una solicitud figuran varios interesados, ¿con quién se entienden las actuaciones según el art. 7?",
+    "dorso": "Con el representante o el interesado que hayan señalado expresamente y, en su defecto, con el que figure en primer término.",
+    "ref": "Art. 7 Ley 39/2015"
+  },
+  {
+    "frente": "Si durante un procedimiento sin publicidad se detectan nuevas personas con derechos o intereses afectados, ¿qué debe hacer la Administración según el art. 8?",
+    "dorso": "Comunicarles la tramitación del procedimiento.",
+    "ref": "Art. 8 Ley 39/2015"
+  },
+  {
+    "frente": "¿A qué se refiere el art. 14.2 cuando obliga a determinados sujetos a relacionarse electrónicamente con la Administración?",
+    "dorso": "A las personas jurídicas, las entidades sin personalidad jurídica, quienes ejerzan profesión de colegiación obligatoria (incluidos notarios y registradores), quienes representen a un obligado, y los empleados públicos por razón de su condición.",
+    "ref": "Art. 14.2 Ley 39/2015"
+  },
+  {
+    "frente": "¿Puede una persona física cambiar el medio (electrónico o no) elegido para relacionarse con la Administración?",
+    "dorso": "Sí, puede modificarlo en cualquier momento, salvo que esté obligada legalmente a relacionarse por medios electrónicos.",
+    "ref": "Art. 14.1 Ley 39/2015"
+  },
+  {
+    "frente": "Según el art. 15.1, ¿cuál es la lengua de los procedimientos tramitados por la AGE?",
+    "dorso": "El castellano, sin perjuicio de que los interesados puedan usar también la lengua cooficial del territorio de la Comunidad Autónoma donde tenga su sede el órgano.",
+    "ref": "Art. 15.1 Ley 39/2015"
+  },
+  {
+    "frente": "Si varios interesados discrepan sobre la lengua del procedimiento, ¿en qué lengua se tramita según el art. 15.1?",
+    "dorso": "En castellano, aunque los documentos o testimonios que soliciten los interesados se expedirán en la lengua elegida por ellos.",
+    "ref": "Art. 15.1 Ley 39/2015"
+  },
+  {
+    "frente": "¿Qué es el Registro Electrónico General según el art. 16.1?",
+    "dorso": "El registro del que dispone cada Administración donde se hace el asiento de todo documento presentado o recibido en cualquier órgano, organismo o entidad vinculada; también puede anotarse la salida de documentos.",
+    "ref": "Art. 16.1 Ley 39/2015"
+  },
+  {
+    "frente": "Según el art. 16.4, ¿en qué lugares pueden presentarse los documentos dirigidos a los órganos de las AAPP?",
+    "dorso": "En el registro electrónico de la Administración destinataria o de cualquier otro sujeto del art. 2.1; en las oficinas de Correos; en representaciones diplomáticas u oficinas consulares de España en el extranjero; en oficinas de asistencia en materia de registros; o en cualquier otro que establezcan las normas vigentes.",
+    "ref": "Art. 16.4 Ley 39/2015"
+  },
+  {
+    "frente": "¿Qué debe ocurrir con los documentos presentados de manera presencial ante las AAPP según el art. 16.5?",
+    "dorso": "Deben ser digitalizados por la oficina de asistencia en materia de registros donde se presenten, para incorporarse al expediente electrónico, devolviéndose los originales al interesado (salvo excepciones legales).",
+    "ref": "Art. 16.5 Ley 39/2015"
+  },
+  {
+    "frente": "¿Qué obligación de archivo establece el art. 17.1 para cada Administración?",
+    "dorso": "Mantener un archivo electrónico único de los documentos electrónicos correspondientes a procedimientos finalizados.",
+    "ref": "Art. 17.1 Ley 39/2015"
+  },
+  {
+    "frente": "¿En qué consiste el deber de colaboración de las personas con la Administración según el art. 18.1?",
+    "dorso": "Facilitar los informes, inspecciones y otros actos de investigación que la Administración requiera para el ejercicio de sus competencias, salvo que atente contra el honor, la intimidad o suponga revelar datos confidenciales de terceros conocidos por prestación de servicios profesionales.",
+    "ref": "Art. 18.1 Ley 39/2015"
+  },
+  {
+    "frente": "¿Cuándo es obligatoria la comparecencia de las personas ante las oficinas públicas según el art. 19.1?",
+    "dorso": "Solo cuando así esté previsto en una norma con rango de ley.",
+    "ref": "Art. 19.1 Ley 39/2015"
+  },
+  {
+    "frente": "Según el art. 20.1, ¿quiénes son responsables directos de la tramitación de los asuntos administrativos?",
+    "dorso": "Los titulares de las unidades administrativas y el personal al servicio de las AAPP que tengan a su cargo la resolución o despacho de los asuntos.",
+    "ref": "Art. 20.1 Ley 39/2015"
+  },
+  {
+    "frente": "¿Cuál es el plazo máximo por defecto para resolver un procedimiento si su norma reguladora no fija uno, según el art. 21.3?",
+    "dorso": "Tres meses.",
+    "ref": "Art. 21.3 Ley 39/2015"
+  },
+  {
+    "frente": "Según el art. 21.2, ¿qué límite general tiene el plazo máximo para notificar la resolución expresa?",
+    "dorso": "No puede exceder de seis meses, salvo que una norma con rango de ley establezca uno mayor o lo prevea el Derecho de la Unión Europea.",
+    "ref": "Art. 21.2 Ley 39/2015"
+  },
+  {
+    "frente": "¿Desde qué fecha se cuenta el plazo máximo de resolución en un procedimiento iniciado a solicitud del interesado, según el art. 21.3.b?",
+    "dorso": "Desde la fecha en que la solicitud haya tenido entrada en el registro electrónico de la Administración u Organismo competente para tramitarla.",
+    "ref": "Art. 21.3.b Ley 39/2015"
+  },
+  {
+    "frente": "Cita dos causas de suspensión facultativa del plazo máximo para resolver que recoge el art. 22.1.",
+    "dorso": "Por ejemplo: requerimiento de subsanación de deficiencias al interesado, y solicitud de informes preceptivos a otro órgano (que no puede exceder de 3 meses de suspensión).",
+    "ref": "Art. 22.1 Ley 39/2015"
+  },
+  {
+    "frente": "¿Cuál es el plazo máximo de suspensión cuando se solicitan informes preceptivos a otro órgano, según el art. 22.1.d?",
+    "dorso": "No puede exceder en ningún caso de tres meses; si no se recibe el informe en ese plazo, el procedimiento prosigue.",
+    "ref": "Art. 22.1.d Ley 39/2015"
+  },
+  {
+    "frente": "¿Qué límite tiene la ampliación del plazo máximo de resolución y notificación según el art. 23.1?",
+    "dorso": "No puede ser superior al establecido para la tramitación del propio procedimiento, y debe acordarse de forma motivada por el órgano competente para resolver.",
+    "ref": "Art. 23.1 Ley 39/2015"
+  },
+  {
+    "frente": "Según el art. 24.1, ¿qué efecto tiene por defecto el silencio administrativo en los procedimientos iniciados a solicitud del interesado?",
+    "dorso": "Efecto estimatorio, salvo que una norma con rango de ley, de Derecho de la UE o de Derecho internacional establezca lo contrario.",
+    "ref": "Art. 24.1 Ley 39/2015"
+  },
+  {
+    "frente": "Cita tres tipos de procedimientos en los que el silencio administrativo tiene efecto desestimatorio según el art. 24.1.",
+    "dorso": "El ejercicio del derecho de petición (art. 29 CE); los que transfieran al solicitante facultades sobre el dominio o servicio público; y los procedimientos de responsabilidad patrimonial de las AAPP (también los de impugnación de actos/disposiciones y revisión de oficio a instancia de parte).",
+    "ref": "Art. 24.1 Ley 39/2015"
+  },
+  {
+    "frente": "¿Qué consideración tiene a todos los efectos la estimación por silencio administrativo según el art. 24.2?",
+    "dorso": "La de acto administrativo finalizador del procedimiento.",
+    "ref": "Art. 24.2 Ley 39/2015"
+  },
+  {
+    "frente": "En caso de estimación por silencio administrativo, ¿qué puede hacer la Administración con la resolución expresa posterior, según el art. 24.3.a?",
+    "dorso": "Solo puede dictarla si es confirmatoria del acto ya producido por silencio; no puede dictar una resolución expresa que lo contradiga.",
+    "ref": "Art. 24.3.a Ley 39/2015"
+  },
+  {
+    "frente": "¿En qué plazo debe expedirse de oficio el certificado acreditativo del silencio administrativo producido, según el art. 24.4?",
+    "dorso": "En el plazo de quince días desde que expira el plazo máximo para resolver el procedimiento.",
+    "ref": "Art. 24.4 Ley 39/2015"
+  },
+  {
+    "frente": "En procedimientos iniciados de oficio de los que pudiera derivarse el reconocimiento de derechos, ¿qué ocurre si vence el plazo máximo sin resolución expresa, según el art. 25.1.a?",
+    "dorso": "Los interesados que hubieran comparecido pueden entender desestimadas sus pretensiones por silencio administrativo.",
+    "ref": "Art. 25.1.a Ley 39/2015"
+  },
+  {
+    "frente": "En procedimientos de oficio sancionadores o de intervención con efectos desfavorables, ¿qué efecto produce el vencimiento del plazo sin resolución expresa según el art. 25.1.b?",
+    "dorso": "La caducidad del procedimiento; la resolución que la declare ordenará el archivo de las actuaciones.",
+    "ref": "Art. 25.1.b Ley 39/2015"
+  },
+  {
+    "frente": "¿Qué son los documentos públicos administrativos según el art. 26.1?",
+    "dorso": "Los válidamente emitidos por los órganos de las Administraciones Públicas.",
+    "ref": "Art. 26.1 Ley 39/2015"
+  },
+  {
+    "frente": "¿Qué validez tienen las copias auténticas realizadas por una Administración Pública en las demás Administraciones, según el art. 27.1?",
+    "dorso": "Tienen validez en las restantes Administraciones Públicas.",
+    "ref": "Art. 27.1 Ley 39/2015"
+  },
+  {
+    "frente": "¿Qué validez y eficacia tienen las copias auténticas frente a los documentos originales según el art. 27.2?",
+    "dorso": "La misma validez y eficacia que los documentos originales.",
+    "ref": "Art. 27.2 Ley 39/2015"
+  },
+  {
+    "frente": "¿En qué plazo debe expedirse una copia auténtica solicitada por un interesado, según el art. 27.4?",
+    "dorso": "En el plazo de quince días desde la recepción de la solicitud en el registro electrónico de la Administración u Organismo competente (salvo excepciones de la Ley 19/2013).",
+    "ref": "Art. 27.4 Ley 39/2015"
+  },
+  {
+    "frente": "¿Qué derecho tienen los interesados respecto a documentos ya en poder de la Administración, según el art. 28.2?",
+    "dorso": "Derecho a no aportar documentos que ya se encuentren en poder de la Administración actuante o hayan sido elaborados por otra Administración; esta puede consultarlos o recabarlos salvo oposición del interesado (oposición que no cabe en potestades sancionadoras o de inspección).",
+    "ref": "Art. 28.2 Ley 39/2015"
+  },
+  {
+    "frente": "¿En qué plazo deben remitirse los informes preceptivos ya elaborados por otro órgano administrativo, según el art. 28.2?",
+    "dorso": "En el plazo de diez días desde su solicitud.",
+    "ref": "Art. 28.2 Ley 39/2015"
+  },
+  {
+    "frente": "¿A quiénes obligan los términos y plazos establecidos en la Ley 39/2015, según el art. 29?",
+    "dorso": "A las autoridades y personal al servicio de las Administraciones Públicas competentes para la tramitación, así como a los interesados en los procedimientos.",
+    "ref": "Art. 29 Ley 39/2015"
+  },
+  {
+    "frente": "Según el art. 30.1, ¿cuál es la duración máxima que puede tener un plazo expresado en horas antes de tener que expresarse en días?",
+    "dorso": "Veinticuatro horas.",
+    "ref": "Art. 30.1 Ley 39/2015"
+  },
+  {
+    "frente": "Cuando los plazos se señalan por días, ¿qué días se excluyen del cómputo según el art. 30.2?",
+    "dorso": "Los sábados, los domingos y los días declarados festivos (se entiende que los días son hábiles salvo que la ley disponga otro cómputo).",
+    "ref": "Art. 30.2 Ley 39/2015"
+  },
+  {
+    "frente": "Si un plazo se fija en meses o años y en el mes de vencimiento no existe día equivalente al de inicio, ¿cuándo expira el plazo según el art. 30.4?",
+    "dorso": "El plazo expira el último día del mes.",
+    "ref": "Art. 30.4 Ley 39/2015"
+  },
+  {
+    "frente": "¿Qué ocurre si el último día de un plazo es inhábil, según el art. 30.5?",
+    "dorso": "El plazo se entiende prorrogado al primer día hábil siguiente.",
+    "ref": "Art. 30.5 Ley 39/2015"
+  },
+  {
+    "frente": "Si un día es hábil en el municipio del interesado pero inhábil en la sede del órgano administrativo (o al revés), ¿cómo se considera según el art. 30.6?",
+    "dorso": "Se considera inhábil en todo caso.",
+    "ref": "Art. 30.6 Ley 39/2015"
+  },
+  {
+    "frente": "¿Durante cuántas horas al día y cuántos días al año permite presentar documentos el registro electrónico según el art. 31.2.a?",
+    "dorso": "Todos los días del año, durante las veinticuatro horas.",
+    "ref": "Art. 31.2.a Ley 39/2015"
+  },
+  {
+    "frente": "Si un interesado presenta un documento en el registro electrónico en día inhábil, ¿cuándo se entiende realizada la presentación a efectos de cómputo de plazos hábiles, según el art. 31.2.b?",
+    "dorso": "Se entiende realizada en la primera hora del primer día hábil siguiente, salvo que una norma permita expresamente la recepción en día inhábil.",
+    "ref": "Art. 31.2.b Ley 39/2015"
+  },
+  {
+    "frente": "Según el art. 32.1, ¿qué límite tiene la ampliación de plazos que puede conceder la Administración de oficio o a petición del interesado?",
+    "dorso": "No puede exceder de la mitad del plazo original, y solo si las circunstancias lo aconsejan y no se perjudican derechos de terceros.",
+    "ref": "Art. 32.1 Ley 39/2015"
+  },
+  {
+    "frente": "¿Antes de qué momento debe producirse la petición de ampliación de plazo y la decisión sobre ella, según el art. 32.3?",
+    "dorso": "Antes del vencimiento del plazo de que se trate; en ningún caso puede ampliarse un plazo ya vencido.",
+    "ref": "Art. 32.3 Ley 39/2015"
+  },
+  {
+    "frente": "¿En qué consiste la tramitación de urgencia de un procedimiento según el art. 33.1?",
+    "dorso": "Se reducen a la mitad los plazos establecidos para el procedimiento ordinario, salvo los relativos a la presentación de solicitudes y recursos.",
+    "ref": "Art. 33.1 Ley 39/2015"
+  },
+  {
+    "frente": "¿Cabe recurso contra el acuerdo que declara la aplicación de la tramitación de urgencia a un procedimiento, según el art. 33.2?",
+    "dorso": "No, sin perjuicio del recurso que proceda contra la resolución que ponga fin al procedimiento.",
+    "ref": "Art. 33.2 Ley 39/2015"
+  }
+]

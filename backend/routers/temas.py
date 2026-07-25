@@ -10,11 +10,12 @@ from sqlmodel import Session, func, select
 
 from auth import get_current_user
 from database import get_session
-from models import Pregunta, Respuesta, Sesion, Tema, Usuario
+from models import Pregunta, Respuesta, Sesion, Tarjeta, Tema, Usuario
 
 router = APIRouter(tags=["contenido"])
 
 TESTS_ESPECIALES_DIR = os.path.join(os.path.dirname(__file__), "..", "..", "tests_especiales")
+DRAGDROP_DIR = os.path.join(os.path.dirname(__file__), "..", "..", "banco", "dragdrop")
 
 
 class TemaOut(BaseModel):
@@ -37,6 +38,24 @@ class PreguntaOut(BaseModel):
 
 class FalladaOut(PreguntaOut):
     veces: int
+
+
+class TarjetaOut(BaseModel):
+    id: str
+    tema_id: int
+    frente: str
+    dorso: str
+    ref: str
+    explicacion: Optional[str] = None
+
+
+class DragDropEjercicio(BaseModel):
+    tipo: str  # "categorizar" | "ordenar" | "emparejar"
+    enunciado: str
+    ref: str
+    categorias: Optional[list[str]] = None
+    items: Optional[list] = None
+    pares: Optional[list] = None
 
 
 class TestEspecialOut(BaseModel):
@@ -63,6 +82,25 @@ def get_preguntas(tema_id: int, session: Session = Depends(get_session), _: Usua
     if not tema:
         raise HTTPException(404, f"Tema {tema_id} no encontrado")
     return session.exec(select(Pregunta).where(Pregunta.tema_id == tema_id)).all()
+
+
+@router.get("/temas/{tema_id}/tarjetas", response_model=list[TarjetaOut])
+def get_tarjetas(tema_id: int, session: Session = Depends(get_session), _: Usuario = Depends(get_current_user)):
+    tema = session.get(Tema, tema_id)
+    if not tema:
+        raise HTTPException(404, f"Tema {tema_id} no encontrado")
+    return session.exec(select(Tarjeta).where(Tarjeta.tema_id == tema_id)).all()
+
+
+@router.get("/temas/{tema_id}/dragdrop", response_model=list[DragDropEjercicio])
+def get_dragdrop(tema_id: int, _: Usuario = Depends(get_current_user)):
+    """Ejercicios de arrastrar y soltar generados por el agente dragdrop-generator a partir
+    del temario oficial. Contenido estático servido directamente del JSON, sin tabla en DB."""
+    path = os.path.join(DRAGDROP_DIR, f"tema{tema_id}.json")
+    if not os.path.exists(path):
+        return []
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
 
 
 @router.get("/tests-especiales", response_model=list[TestEspecialOut])

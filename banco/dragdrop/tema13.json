@@ -1,0 +1,92 @@
+[
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada órgano de gobierno de la UHU según sea colegiado o unipersonal",
+    "ref": "Tema 13 - Estructura de gobierno UHU",
+    "categorias": ["Colegiado", "Unipersonal"],
+    "items": [
+      { "texto": "Consejo de Gobierno", "categoria": "Colegiado" },
+      { "texto": "Claustro Universitario", "categoria": "Colegiado" },
+      { "texto": "Consejo Social", "categoria": "Colegiado" },
+      { "texto": "Junta de Centro", "categoria": "Colegiado" },
+      { "texto": "Consejo de Departamento", "categoria": "Colegiado" },
+      { "texto": "Rector o Rectora", "categoria": "Unipersonal" },
+      { "texto": "Vicerrectores/as", "categoria": "Unipersonal" },
+      { "texto": "Secretario/a General", "categoria": "Unipersonal" },
+      { "texto": "Gerente", "categoria": "Unipersonal" },
+      { "texto": "Decano/a de Facultad", "categoria": "Unipersonal" },
+      { "texto": "Director/a de Departamento", "categoria": "Unipersonal" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada vicerrectorado de la UHU con una de sus direcciones adscritas",
+    "ref": "Tema 13 - Vicerrectorados y direcciones adscritas",
+    "pares": [
+      { "izquierda": "Vicerrectorado de Investigación y Planificación Estratégica", "derecha": "Dirección de Investigación" },
+      { "izquierda": "Vicerrectorado de Transferencia y Desarrollo Territorial", "derecha": "Dirección de Transferencia" },
+      { "izquierda": "Vicerrectorado de Ordenación Académica y Profesorado", "derecha": "Dirección de Profesorado" },
+      { "izquierda": "Vicerrectorado de Calidad y Concursos Docentes", "derecha": "Dirección de Calidad" },
+      { "izquierda": "Vicerrectorado de Alianzas Internacionales", "derecha": "Dirección de Movilidad y Colaboración Internacional" },
+      { "izquierda": "Vicerrectorado de Estudiantes", "derecha": "Dirección de Acceso y Orientación" },
+      { "izquierda": "Vicerrectorado de Igualdad, Campus Saludable y Justicia Social", "derecha": "Dirección de Igualdad y Atención a la Diversidad" },
+      { "izquierda": "Vicerrectorado de Formación y Desarrollo Profesional", "derecha": "Dirección de Formación e Innovación" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada vicerrectorado de la UHU con otra de sus direcciones adscritas",
+    "ref": "Tema 13 - Vicerrectorados y direcciones adscritas",
+    "pares": [
+      { "izquierda": "Vicerrectorado de Doctorado, Política Lingüística y Biblioteca", "derecha": "Dirección de la Escuela de Doctorado" },
+      { "izquierda": "Vicerrectorado de Campus Sostenible y Transformación Digital", "derecha": "Dirección de Estrategia Digital" },
+      { "izquierda": "Vicerrectorado de Proyección Universitaria", "derecha": "Dirección de Actividades Físicas y Deportivas" },
+      { "izquierda": "Vicerrectorado de Investigación y Planificación Estratégica", "derecha": "Dirección de Proyectos" },
+      { "izquierda": "Vicerrectorado de Transferencia y Desarrollo Territorial", "derecha": "Dirección de Cátedras Externas" },
+      { "izquierda": "Vicerrectorado de Ordenación Académica y Profesorado", "derecha": "Dirección de Planes de Estudio" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada servicio de la UHU con su ubicación principal",
+    "ref": "Tema 13 - Otra información de carácter general",
+    "pares": [
+      { "izquierda": "Registro General", "derecha": "Electrónico (online) y C/ Dr. Cantero Cuadrado, 6" },
+      { "izquierda": "Servicio de Empleo y Emprendimiento (SOIPEA)", "derecha": "Edificio Juan Agustín de Mora, Campus El Carmen" },
+      { "izquierda": "Escuela de Doctorado UHU", "derecha": "Edificio Rectorado, C/ Dr. Cantero Cuadrado, 6" },
+      { "izquierda": "Servicio de Informática y Comunicaciones", "derecha": "Edificio Alan Turing, Campus El Carmen" },
+      { "izquierda": "Servicio de Actividades Físicas y Deportivas", "derecha": "Pabellón Príncipe de Asturias, Campus El Carmen" },
+      { "izquierda": "Aula de Sostenibilidad", "derecha": "Facultad de Ciencias Experimentales, Campus El Carmen" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada Grado según la Facultad de la UHU que lo imparte",
+    "ref": "Tema 13 - Centros y titulaciones",
+    "categorias": ["Facultad de Derecho", "Facultad de Enfermería", "Facultad de Ciencias Experimentales"],
+    "items": [
+      { "texto": "Grado en Derecho", "categoria": "Facultad de Derecho" },
+      { "texto": "Grado en Enfermería", "categoria": "Facultad de Enfermería" },
+      { "texto": "Grado en Medicina", "categoria": "Facultad de Enfermería" },
+      { "texto": "Grado en Física", "categoria": "Facultad de Ciencias Experimentales" },
+      { "texto": "Grado en Química", "categoria": "Facultad de Ciencias Experimentales" },
+      { "texto": "Grado en Geología", "categoria": "Facultad de Ciencias Experimentales" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada servicio según esté adscrito a la Secretaría General o a la Gerencia",
+    "ref": "Tema 13 - Secretaría General y Gerencia",
+    "categorias": ["Secretaría General", "Gerencia"],
+    "items": [
+      { "texto": "Archivo Universitario", "categoria": "Secretaría General" },
+      { "texto": "Asesoría Jurídica", "categoria": "Secretaría General" },
+      { "texto": "Protección de Datos", "categoria": "Secretaría General" },
+      { "texto": "Registro General", "categoria": "Secretaría General" },
+      { "texto": "Área de Contratación e Infraestructura", "categoria": "Gerencia" },
+      { "texto": "Servicio de Recursos Humanos", "categoria": "Gerencia" },
+      { "texto": "Servicio de Prevención de Riesgos Laborales", "categoria": "Gerencia" },
+      { "texto": "Servicio de Gestión Presupuestaria, Planificación Económica y Patrimonio", "categoria": "Gerencia" }
+    ]
+  }
+]

@@ -22,6 +22,10 @@
   .sc-hov { transition: all .16s ease; }
   .sc-hov:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(27,27,34,.08); }
   .sc-opt { transition: all .14s ease; }
+  [data-dd-kind] { cursor: grab; transition: outline .1s ease, transform .1s ease; }
+  [data-dd-kind]:active { cursor: grabbing; }
+  [data-dd-zone] { transition: outline .1s ease, background .1s ease; }
+  .dd-hover { outline: 2px dashed #6B46E5 !important; outline-offset: 2px; }
   ::-webkit-scrollbar { width: 10px; height: 10px; }
   ::-webkit-scrollbar-thumb { background: #DADAE2; border-radius: 8px; border: 3px solid #F7F7FA; }
 </style>
@@ -543,6 +547,182 @@
       </div>
       </sc-if>
 
+      <!-- ===================== TARJETAS (repaso SRS) ===================== -->
+      <sc-if value="{{ isTarjetas }}" hint-placeholder-val="{{ true }}">
+      <div class="sc-screen">
+        <div style="display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:14px;">
+          <div>
+            <h1 style="font-family:'Newsreader',serif; font-weight:500; font-size:32px; margin:0 0 4px; letter-spacing:-.4px;">Tarjetas de repaso</h1>
+            <p style="color:#6B6B78; font-size:14px; margin:0;">🔥 {{ tarjetasRacha }} días de racha · {{ tarjetasPendientesGlobal }} pendientes hoy</p>
+          </div>
+          <sc-if value="{{ tarjetaEnCurso }}" hint-placeholder-val="{{ false }}">
+          <button onClick="{{ salirRepasoTarjetas }}" style="background:none; border:1px solid #ECECF1; color:#9A9AA6; border-radius:10px; padding:9px 16px; font-size:12.5px; font-weight:600; cursor:pointer; font-family:inherit;">Salir del repaso</button>
+          </sc-if>
+        </div>
+
+        <sc-if value="{{ tarjetaEnCurso }}" hint-placeholder-val="{{ false }}">
+        <div style="margin-top:24px; max-width:640px;">
+          <div style="font-size:12.5px; color:#9A9AA6; font-weight:600; margin-bottom:10px;">{{ tarjetaProgreso }}</div>
+          <div onClick="{{ voltearTarjeta }}" style="background:#fff; border:1px solid #ECECF1; border-radius:16px; padding:28px; min-height:220px; display:flex; flex-direction:column; justify-content:center; cursor:pointer;">
+            <div style="font-size:11.5px; color:#9A9AA6; font-weight:600;">{{ tarjetaTemaLabel }}</div>
+            <div style="font-weight:600; font-size:17px; margin-top:10px; line-height:1.5;">{{ tarjetaFrente }}</div>
+            <sc-if value="{{ tarjetaVolteada }}" hint-placeholder-val="{{ false }}">
+            <div style="border-top:1px solid #ECECF1; margin-top:18px; padding-top:16px;">
+              <div style="font-size:14px; color:#2E9E6B; font-weight:600;">✓ {{ tarjetaDorso }}</div>
+              <div style="font-size:12px; color:#6B46E5; font-weight:600; margin-top:4px;">{{ tarjetaRef }}</div>
+              <sc-if value="{{ tarjetaVerCompleta }}" hint-placeholder-val="{{ false }}">
+              <div style="font-size:12.5px; color:#6B6B78; margin-top:10px; line-height:1.5;">{{ tarjetaExplicacion }}</div>
+              </sc-if>
+              <sc-if value="{{ tarjetaMostrarVerMas }}" hint-placeholder-val="{{ false }}">
+              <button onClick="{{ verExplicacionCompleta }}" style="margin-top:10px; background:none; border:none; color:#6B46E5; font-weight:600; font-size:12px; cursor:pointer; font-family:inherit; padding:0;">Ver explicación completa</button>
+              </sc-if>
+            </div>
+            </sc-if>
+            <sc-if value="{{ tarjetaNoVolteada }}" hint-placeholder-val="{{ true }}">
+            <div style="margin-top:18px; font-size:12px; color:#B4B4C0;">Toca la tarjeta para ver la respuesta</div>
+            </sc-if>
+          </div>
+          <sc-if value="{{ tarjetaVolteada }}" hint-placeholder-val="{{ false }}">
+          <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-top:16px;">
+            <button onClick="{{ graduarOtraVez }}" style="background:#FDEAEA; color:#D6455B; border:none; border-radius:11px; padding:13px 0; font-weight:700; font-size:13px; cursor:pointer; font-family:inherit;">Otra vez</button>
+            <button onClick="{{ graduarDificil }}" style="background:#FFF3E0; color:#B8791A; border:none; border-radius:11px; padding:13px 0; font-weight:700; font-size:13px; cursor:pointer; font-family:inherit;">Difícil</button>
+            <button onClick="{{ graduarBien }}" style="background:#E9F7EF; color:#2E9E6B; border:none; border-radius:11px; padding:13px 0; font-weight:700; font-size:13px; cursor:pointer; font-family:inherit;">Bien</button>
+            <button onClick="{{ graduarFacil }}" style="background:#F4F1FE; color:#6B46E5; border:none; border-radius:11px; padding:13px 0; font-weight:700; font-size:13px; cursor:pointer; font-family:inherit;">Fácil</button>
+          </div>
+          </sc-if>
+        </div>
+        </sc-if>
+
+        <sc-if value="{{ tarjetaSinCards }}" hint-placeholder-val="{{ false }}">
+        <div style="margin-top:30px; background:#fff; border:1.5px dashed #E4E4EC; border-radius:14px; padding:46px; text-align:center; color:#9A9AA6;">
+          <div style="font-size:34px;">🎉</div>
+          <div style="font-size:15px; font-weight:600; color:#1B1B22; margin-top:10px;">No hay tarjetas pendientes en ese tema</div>
+          <div style="font-size:13px; margin-top:4px;">Vuelve mañana o repasa otro tema.</div>
+        </div>
+        </sc-if>
+
+        <sc-if value="{{ tarjetaMostrarSelector }}" hint-placeholder-val="{{ true }}">
+        <div style="display:flex; justify-content:flex-end; margin:18px 0;">
+          <button onClick="{{ repasarTodasTarjetas }}" style="background:#6B46E5; color:#fff; border:none; border-radius:12px; padding:13px 22px; font-weight:700; font-size:14px; cursor:pointer; font-family:inherit;">Repasar todo →</button>
+        </div>
+        <div style="display:flex; flex-direction:column; gap:9px;">
+          <sc-for list="{{ tarjetasTemasView }}" as="tt" hint-placeholder-count="6">
+            <div onClick="{{ tt.onClick }}" style="background:#fff; border:1px solid #ECECF1; border-radius:13px; padding:15px 18px; display:flex; align-items:center; gap:16px; cursor:pointer;">
+              <div style="width:22px; font-size:12px; color:#9A9AA6; font-weight:600;">{{ tt.id }}</div>
+              <div style="flex:1; font-size:13.5px; font-weight:500; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">{{ tt.titulo }}</div>
+              <div style="font-size:12px; color:#D6455B; font-weight:600; width:90px; text-align:right;">{{ tt.due }} pendientes</div>
+              <div style="font-size:12px; color:#9A9AA6; width:70px; text-align:right;">{{ tt.nuevas }} nuevas</div>
+            </div>
+          </sc-for>
+        </div>
+        </sc-if>
+      </div>
+      </sc-if>
+
+      <!-- ===================== ARRASTRAR Y SOLTAR ===================== -->
+      <sc-if value="{{ isDragdrop }}" hint-placeholder-val="{{ true }}">
+      <div class="sc-screen">
+        <div style="display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:14px;">
+          <div>
+            <h1 style="font-family:'Newsreader',serif; font-weight:500; font-size:32px; margin:0 0 4px; letter-spacing:-.4px;">Arrastrar y soltar</h1>
+            <p style="color:#6B6B78; font-size:14px; margin:0;">Categoriza, ordena y empareja conceptos del temario.</p>
+          </div>
+          <sc-if value="{{ ddEnCurso }}" hint-placeholder-val="{{ false }}">
+          <button onClick="{{ salirDragDrop }}" style="background:none; border:1px solid #ECECF1; color:#9A9AA6; border-radius:10px; padding:9px 16px; font-size:12.5px; font-weight:600; cursor:pointer; font-family:inherit;">Salir</button>
+          </sc-if>
+        </div>
+
+        <sc-if value="{{ ddEnCurso }}" hint-placeholder-val="{{ false }}">
+        <div style="margin-top:24px; max-width:640px;">
+          <div style="font-size:12.5px; color:#9A9AA6; font-weight:600; margin-bottom:10px;">{{ ddProgreso }}</div>
+          <div style="background:#fff; border:1px solid #ECECF1; border-radius:16px; padding:26px 28px;">
+            <div style="font-weight:600; font-size:16px; line-height:1.5;">{{ ddEnunciado }}</div>
+            <div style="font-size:12px; color:#6B46E5; font-weight:600; margin-top:6px;">{{ ddRef }}</div>
+
+            <sc-if value="{{ ddIsCategorizar }}" hint-placeholder-val="{{ false }}">
+            <div style="margin-top:20px; font-size:11.5px; color:#9A9AA6; font-weight:600;">Arrastra cada elemento a su categoría (o toca uno y luego toca la categoría)</div>
+            <div data-dd-zone="__pool__" style="margin-top:8px; padding:12px; border-radius:12px; min-height:56px; display:flex; flex-wrap:wrap;">
+              <sc-for list="{{ ddPoolView }}" as="it" hint-placeholder-count="8">
+                <div draggable="true" data-dd-kind="categorizar-item" data-dd-texto="{{ it.texto }}" onClick="{{ it.onClick }}" style="{{ it.style }}">{{ it.texto }}</div>
+              </sc-for>
+            </div>
+            <div style="margin-top:14px; display:grid; grid-template-columns:repeat(auto-fit, minmax(170px, 1fr)); gap:12px;">
+              <sc-for list="{{ ddCategoriasView }}" as="cat" hint-placeholder-count="4">
+                <div data-dd-zone="{{ cat.nombre }}" onClick="{{ cat.onClick }}" style="{{ cat.zoneStyle }}">
+                  <div style="font-weight:700; font-size:12.5px; color:#6B46E5; margin-bottom:8px;">{{ cat.nombre }}</div>
+                  <sc-for list="{{ cat.itemsView }}" as="ci" hint-placeholder-count="4">
+                    <div draggable="true" data-dd-kind="categorizar-item" data-dd-texto="{{ ci.texto }}" onClick="{{ ci.onClick }}" style="{{ ci.style }}">{{ ci.texto }}</div>
+                  </sc-for>
+                </div>
+              </sc-for>
+            </div>
+            </sc-if>
+
+            <sc-if value="{{ ddIsOrdenar }}" hint-placeholder-val="{{ false }}">
+            <div style="margin-top:6px; font-size:11.5px; color:#9A9AA6; font-weight:600;">Arrastra para reordenar (o usa las flechas)</div>
+            <div style="margin-top:12px;">
+              <sc-for list="{{ ddOrdenView }}" as="it" hint-placeholder-count="6">
+                <div draggable="true" data-dd-kind="ordenar-item" data-dd-idx="{{ it.idx }}" style="{{ it.style }}">
+                  <span style="flex:1;">{{ it.texto }}</span>
+                  <button onClick="{{ it.onSubir }}" style="background:none; border:1px solid #ECECF1; border-radius:8px; width:28px; height:28px; cursor:pointer; {{ it.subirStyle }}">↑</button>
+                  <button onClick="{{ it.onBajar }}" style="background:none; border:1px solid #ECECF1; border-radius:8px; width:28px; height:28px; cursor:pointer; {{ it.bajarStyle }}">↓</button>
+                </div>
+              </sc-for>
+            </div>
+            </sc-if>
+
+            <sc-if value="{{ ddIsEmparejar }}" hint-placeholder-val="{{ false }}">
+            <div style="margin-top:6px; font-size:11.5px; color:#9A9AA6; font-weight:600;">Arrastra un elemento de la izquierda sobre su pareja de la derecha</div>
+            <div style="margin-top:12px; display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+              <div>
+                <sc-for list="{{ ddIzqView }}" as="it" hint-placeholder-count="6">
+                  <div draggable="true" data-dd-kind="emparejar-izq" data-dd-texto="{{ it.textoRaw }}" onClick="{{ it.onClick }}" style="{{ it.style }}">{{ it.texto }}</div>
+                </sc-for>
+              </div>
+              <div>
+                <sc-for list="{{ ddDerView }}" as="it" hint-placeholder-count="6">
+                  <div draggable="true" data-dd-kind="emparejar-der" data-dd-texto="{{ it.texto }}" onClick="{{ it.onClick }}" style="{{ it.style }}">{{ it.texto }}</div>
+                </sc-for>
+              </div>
+            </div>
+            </sc-if>
+          </div>
+
+          <div style="display:flex; justify-content:flex-end; align-items:center; gap:14px; margin-top:16px;">
+            <sc-if value="{{ ddMostrarComprobar }}" hint-placeholder-val="{{ false }}">
+            <button onClick="{{ comprobarDD }}" style="background:#6B46E5; color:#fff; border:none; border-radius:12px; padding:13px 22px; font-weight:700; font-size:14px; cursor:pointer; font-family:inherit;">Comprobar</button>
+            </sc-if>
+            <sc-if value="{{ ddMostrarSiguiente }}" hint-placeholder-val="{{ false }}">
+            <span style="font-weight:700; font-size:13.5px; color:{{ ddCorrectoColor }};">{{ ddCorrectoLabel }}</span>
+            <button onClick="{{ siguienteDD }}" style="background:#6B46E5; color:#fff; border:none; border-radius:12px; padding:13px 22px; font-weight:700; font-size:14px; cursor:pointer; font-family:inherit;">Siguiente →</button>
+            </sc-if>
+          </div>
+        </div>
+        </sc-if>
+
+        <sc-if value="{{ ddMostrarResumenFinal }}" hint-placeholder-val="{{ false }}">
+        <div style="margin-top:30px; background:#fff; border:1.5px dashed #E4E4EC; border-radius:14px; padding:46px; text-align:center; color:#9A9AA6;">
+          <div style="font-size:34px;">🎉</div>
+          <div style="font-size:15px; font-weight:600; color:#1B1B22; margin-top:10px;">Sesión terminada</div>
+          <div style="font-size:13px; margin-top:4px;">{{ ddResumenTexto }}</div>
+          <button onClick="{{ salirDragDrop }}" style="margin-top:16px; background:#6B46E5; color:#fff; border:none; border-radius:12px; padding:11px 20px; font-weight:700; font-size:13px; cursor:pointer; font-family:inherit;">Volver</button>
+        </div>
+        </sc-if>
+
+        <sc-if value="{{ ddMostrarSelector }}" hint-placeholder-val="{{ true }}">
+        <div style="display:flex; flex-direction:column; gap:9px; margin-top:20px;">
+          <sc-for list="{{ ddTemasView }}" as="dt" hint-placeholder-count="6">
+            <div onClick="{{ dt.onClick }}" style="background:#fff; border:1px solid #ECECF1; border-radius:13px; padding:15px 18px; display:flex; align-items:center; gap:16px; cursor:pointer;">
+              <div style="width:22px; font-size:12px; color:#9A9AA6; font-weight:600;">{{ dt.id }}</div>
+              <div style="flex:1; font-size:13.5px; font-weight:500; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">{{ dt.titulo }}</div>
+              <div style="font-size:12px; color:#9A9AA6; width:110px; text-align:right;">{{ dt.total }} ejercicios</div>
+            </div>
+          </sc-for>
+        </div>
+        </sc-if>
+      </div>
+      </sc-if>
+
       <!-- ===================== RANKING / LOGROS ===================== -->
       <sc-if value="{{ isRanking }}" hint-placeholder-val="{{ true }}">
       <div class="sc-screen">
@@ -888,7 +1068,7 @@ class Component extends DCLogic {
       notas:{}, notaNuevoTexto:'', notaEditId:null, notaEditTexto:'', notaGuardando:false,
       setupMode:'tema', setupTema:1, setupFeedback:'inmediato', setupLen:10,
       test:null, seconds:0, isNarrow:false, fromHistorial:false,
-      loaded:false, TEMAS:[], BANCO:[], testsEspeciales:[],
+      loaded:false, TEMAS:[], BANCO:[], TARJETAS:[], DRAGDROP:[], testsEspeciales:[],
       resumen:{ acierto_global:0, total_hechas:0, total_preguntas:0, prediccion:'0.0',
                 num_falladas:0, racha:0, mejor_racha:0, total_sesiones:0, temas_flojos:0 },
       porTema:[], falladas:[], evolucion:[], calendario:[], ranking:[], vistas:{}, historial:[],
@@ -897,6 +1077,12 @@ class Component extends DCLogic {
       asistenteMensajes:[], asistenteInput:'', asistenteLoading:false, asistenteError:'',
       asistenteTemaAbierto:false, asistenteTemaCargado:null, asistenteQuizPendiente:null,
       asistenteQuizLoading:false,
+      // tarjetas de repaso (Anki-style SRS)
+      tarjetasEstado:{}, tarjetasResumen:{ pendientes:0, racha:0, mejor_racha:0 },
+      tarjetaCola:[], tarjetaIdx:0, tarjetaVolteada:false, tarjetaVerCompleta:false,
+      tarjetaSesionActiva:false, tarjetaVacia:false,
+      // arrastrar y soltar
+      ddSesionActiva:false, ddTerminada:false, ddCola:[], ddIdx:0, ddEstado:{}, ddComprobado:false, ddResultados:[],
     };
   }
 
@@ -920,6 +1106,7 @@ class Component extends DCLogic {
       const t = this.state.test;
       if (t && t.mode==='simulacro' && this.state.screen==='test' && !t.done) this.setState(s=>({seconds:s.seconds+1}));
     }, 1000);
+    this._wireDragDrop();
     if (localStorage.getItem('andatest_token')) this.loadBank();
   }
   componentWillUnmount() { clearInterval(this._timer); }
@@ -969,7 +1156,11 @@ class Component extends DCLogic {
                     resumen:{ acierto_global:0, total_hechas:0, total_preguntas:0, prediccion:'0.0',
                               num_falladas:0, racha:0, mejor_racha:0, total_sesiones:0, temas_flojos:0 },
                     porTema:[], falladas:[], evolucion:[], calendario:[], ranking:[], vistas:{}, historial:[],
-                    notas:{}, notaNuevoTexto:'', notaEditId:null, notaEditTexto:'', roadmapDiaSel:null });
+                    notas:{}, notaNuevoTexto:'', notaEditId:null, notaEditTexto:'', roadmapDiaSel:null,
+                    tarjetasEstado:{}, tarjetasResumen:{ pendientes:0, racha:0, mejor_racha:0 },
+                    tarjetaCola:[], tarjetaIdx:0, tarjetaVolteada:false, tarjetaVerCompleta:false,
+                    tarjetaSesionActiva:false, tarjetaVacia:false,
+                    ddSesionActiva:false, ddTerminada:false, ddCola:[], ddIdx:0, ddEstado:{}, ddComprobado:false, ddResultados:[] });
   }
 
   async loadBank() {
@@ -978,13 +1169,24 @@ class Component extends DCLogic {
       const allPreguntas = await Promise.all(
         temas.map(t => this.apiFetch(`/api/temas/${t.id}/preguntas`).then(r=>r.json()))
       );
+      const allTarjetas = await Promise.all(
+        temas.map(t => this.apiFetch(`/api/temas/${t.id}/tarjetas`).then(r=>r.json()))
+      );
+      const allDragdrop = await Promise.all(
+        temas.map(t => this.apiFetch(`/api/temas/${t.id}/dragdrop`).then(r=>r.json())
+          .then(arr => arr.map(e => ({ ...e, tema_id:t.id }))))
+      );
       const testsEspeciales = await this.apiFetch('/api/tests-especiales').then(r=>r.json());
       const TEMAS = temas.map(t => ({ id:t.id, t:t.titulo, ley:t.ley }));
       const BANCO = allPreguntas.flat().map(p => ({
         id:p.id, q:p.enunciado, o:p.opciones, c:p.correcta,
         ref:p.ref, exp:p.explicacion, t:p.tema_id,
       }));
-      this.setState({ loaded:true, TEMAS, BANCO, testsEspeciales });
+      const TARJETAS = allTarjetas.flat().map(c => ({
+        id:c.id, frente:c.frente, dorso:c.dorso, ref:c.ref, exp:c.explicacion, t:c.tema_id,
+      }));
+      const DRAGDROP = allDragdrop.flat().map((e,i) => ({ ...e, id:`${e.tema_id}_${i}`, t:e.tema_id }));
+      this.setState({ loaded:true, TEMAS, BANCO, TARJETAS, DRAGDROP, testsEspeciales });
     } catch(e) {
       if (e.message !== '401') { console.error('Error cargando banco:', e); this.setState({ loaded:true }); }
     }
@@ -993,7 +1195,7 @@ class Component extends DCLogic {
 
   async refreshStats() {
     try {
-      const [resumen, porTema, falladas, evolucion, calendario, ranking, vistas, historial, notas] = await Promise.all([
+      const [resumen, porTema, falladas, evolucion, calendario, ranking, vistas, historial, notas, tarjEstado, tarjResumen] = await Promise.all([
         this.apiFetch('/api/stats/resumen').then(r=>r.json()),
         this.apiFetch('/api/stats/por-tema').then(r=>r.json()),
         this.apiFetch('/api/falladas').then(r=>r.json()),
@@ -1003,16 +1205,21 @@ class Component extends DCLogic {
         this.apiFetch('/api/stats/vistas').then(r=>r.json()),
         this.apiFetch('/api/sesiones?limit=50').then(r=>r.json()),
         this.apiFetch('/api/notas').then(r=>r.json()),
+        this.apiFetch('/api/tarjetas/estado').then(r=>r.json()),
+        this.apiFetch('/api/tarjetas/resumen').then(r=>r.json()),
       ]);
       const vistasMap = {};
       (vistas||[]).forEach(v=>{ vistasMap[v.pregunta_id] = { veces:v.veces, bien:v.bien, mal:v.mal }; });
       const notasMap = {};
       (notas||[]).forEach(n=>{ (notasMap[n.fecha] = notasMap[n.fecha]||[]).push({ id:n.id, contenido:n.contenido }); });
+      const tarjetasEstado = {};
+      (tarjEstado||[]).forEach(e=>{ tarjetasEstado[e.tarjeta_id] = e; });
       this.setState({
         resumen, porTema,
         falladas: falladas.map(f=>({id:f.id, veces:f.veces})),
         evolucion, calendario, ranking,
         vistas: vistasMap, historial: historial||[], notas: notasMap,
+        tarjetasEstado, tarjetasResumen: tarjResumen || { pendientes:0, racha:0, mejor_racha:0 },
       });
     } catch(e) { if (e.message !== '401') console.error('Error actualizando stats:', e); }
   }
@@ -1059,6 +1266,230 @@ class Component extends DCLogic {
     }
   }
 
+  // ---- Tarjetas de repaso (SRS estilo Anki) ----
+  iniciarRepasoTarjetas(temaId) {
+    const S = this.state;
+    const pool = temaId ? this.tarjBankTema(temaId) : S.TARJETAS;
+    const hoy = this.todayStr();
+    const due = pool.filter(q => { const e = S.tarjetasEstado[q.id]; return e && e.proxima_revision <= hoy; });
+    const dueIds = new Set(due.map(q=>q.id));
+    const nuevas = this.shuffle(pool.filter(q => !S.tarjetasEstado[q.id] && !dueIds.has(q.id))).slice(0, 15);
+    const cola = this.shuffle([...due, ...nuevas]).map(q => q.id);
+    this.setState({
+      tarjetaCola: cola, tarjetaIdx: 0, tarjetaVolteada: false, tarjetaVerCompleta: false,
+      tarjetaSesionActiva: cola.length > 0, tarjetaVacia: cola.length === 0,
+    });
+  }
+  salirRepasoTarjetas() {
+    this.setState({ tarjetaSesionActiva: false, tarjetaCola: [], tarjetaIdx: 0, tarjetaVolteada: false, tarjetaVerCompleta: false, tarjetaVacia: false });
+  }
+  voltearTarjeta() {
+    if (!this.state.tarjetaVolteada) this.setState({ tarjetaVolteada: true });
+  }
+  verExplicacionCompleta() {
+    this.setState({ tarjetaVerCompleta: true });
+  }
+  async graduarTarjeta(grade) {
+    const S = this.state;
+    const id = S.tarjetaCola[S.tarjetaIdx];
+    if (!id) return;
+    try {
+      const res = await this.apiFetch('/api/tarjetas/revisar', {
+        method: 'POST', body: JSON.stringify({ tarjeta_id: id, grade }),
+      });
+      const data = await res.json();
+      const tarjetasEstado = { ...S.tarjetasEstado, [id]: data };
+      const nextIdx = S.tarjetaIdx + 1;
+      const terminada = nextIdx >= S.tarjetaCola.length;
+      this.setState({
+        tarjetasEstado, tarjetaIdx: nextIdx, tarjetaVolteada: false, tarjetaVerCompleta: false,
+        tarjetaSesionActiva: !terminada,
+      });
+      this.apiFetch('/api/tarjetas/resumen').then(r=>r.json())
+        .then(tarjetasResumen=>this.setState({ tarjetasResumen }))
+        .catch(()=>{});
+    } catch(e) {
+      if (e.message !== '401') console.error('Error revisando tarjeta:', e);
+    }
+  }
+
+  // ---- Arrastrar y soltar (categorizar / ordenar / emparejar) ----
+  ddBankTema(id){ return this.state.DRAGDROP.filter(x=>x.t===id); }
+  ddById(id){ return this.state.DRAGDROP.find(x=>x.id===id); }
+  _initDDEstado(ej){
+    if (!ej) return {};
+    if (ej.tipo==='categorizar') return { asign:{}, sel:null };
+    if (ej.tipo==='ordenar') return { orden: this.shuffle(ej.items) };
+    if (ej.tipo==='emparejar') return { selIzq:null, parejas:{}, derechaOrden: this.shuffle(ej.pares.map(p=>p.derecha)) };
+    return {};
+  }
+  iniciarDragDrop(temaId) {
+    const pool = temaId ? this.ddBankTema(temaId) : this.state.DRAGDROP;
+    const cola = this.shuffle(pool).map(e=>e.id);
+    this.setState({
+      ddCola: cola, ddIdx: 0, ddComprobado: false, ddResultados: [], ddTerminada: false,
+      ddSesionActiva: cola.length > 0,
+      ddEstado: cola.length ? this._initDDEstado(this.ddById(cola[0])) : {},
+    });
+  }
+  salirDragDrop() {
+    this.setState({ ddSesionActiva:false, ddCola:[], ddIdx:0, ddEstado:{}, ddComprobado:false, ddResultados:[], ddTerminada:false });
+  }
+  ddSeleccionarItem(texto) {
+    if (this.state.ddComprobado) return;
+    const est = this.state.ddEstado;
+    this.setState({ ddEstado: { ...est, sel: est.sel===texto ? null : texto } });
+  }
+  ddAsignarCategoria(categoria) {
+    const est = this.state.ddEstado;
+    if (!est.sel || this.state.ddComprobado) return;
+    this.setState({ ddEstado: { ...est, asign: { ...est.asign, [est.sel]: categoria }, sel:null } });
+  }
+  ddQuitarItem(texto) {
+    if (this.state.ddComprobado) return;
+    const est = this.state.ddEstado;
+    const asign = { ...est.asign }; delete asign[texto];
+    this.setState({ ddEstado: { ...est, asign, sel:null } });
+  }
+  ddMover(idx, dir) {
+    if (this.state.ddComprobado) return;
+    const est = this.state.ddEstado;
+    const orden = est.orden.slice();
+    const j = idx+dir;
+    if (j<0 || j>=orden.length) return;
+    [orden[idx], orden[j]] = [orden[j], orden[idx]];
+    this.setState({ ddEstado: { ...est, orden } });
+  }
+  ddSeleccionarIzquierda(izq) {
+    if (this.state.ddComprobado) return;
+    const est = this.state.ddEstado;
+    this.setState({ ddEstado: { ...est, selIzq: est.selIzq===izq ? null : izq } });
+  }
+  ddEmparejarCon(der) {
+    const est = this.state.ddEstado;
+    if (!est.selIzq || this.state.ddComprobado) return;
+    this.setState({ ddEstado: { ...est, parejas: { ...est.parejas, [est.selIzq]: der }, selIzq:null } });
+  }
+  ddQuitarPareja(izq) {
+    if (this.state.ddComprobado) return;
+    const est = this.state.ddEstado;
+    const parejas = { ...est.parejas }; delete parejas[izq];
+    this.setState({ ddEstado: { ...est, parejas } });
+  }
+  ddComprobar() {
+    const S = this.state;
+    const ej = this.ddById(S.ddCola[S.ddIdx]);
+    if (!ej) return;
+    const est = S.ddEstado;
+    let correcto = false;
+    if (ej.tipo==='categorizar') correcto = ej.items.every(it => est.asign[it.texto]===it.categoria);
+    else if (ej.tipo==='ordenar') correcto = ej.items.every((t,i)=>est.orden[i]===t);
+    else if (ej.tipo==='emparejar') correcto = ej.pares.every(p => est.parejas[p.izquierda]===p.derecha);
+    this.setState({ ddComprobado:true, ddResultados: [...S.ddResultados, correcto] });
+  }
+  ddSiguiente() {
+    const S = this.state;
+    const nextIdx = S.ddIdx+1;
+    if (nextIdx >= S.ddCola.length) { this.setState({ ddSesionActiva:false, ddTerminada:true }); return; }
+    this.setState({ ddIdx: nextIdx, ddComprobado:false, ddEstado: this._initDDEstado(this.ddById(S.ddCola[nextIdx])) });
+  }
+
+  // Direct mutations used by real native HTML5 drag & drop (see _wireDragDrop) — same
+  // state shape as the click-based ddAsignarCategoria/ddEmparejarCon, just addressed by
+  // an explicit dragged/target value instead of the currently "selected" one.
+  ddAsignarCategoriaDirecta(texto, categoria) {
+    if (this.state.ddComprobado) return;
+    const est = this.state.ddEstado;
+    this.setState({ ddEstado: { ...est, asign: { ...est.asign, [texto]: categoria }, sel:null } });
+  }
+  ddReordenar(fromIdx, toIdx, before) {
+    if (this.state.ddComprobado || fromIdx === toIdx) return;
+    const est = this.state.ddEstado;
+    const orden = est.orden.slice();
+    const moved = orden[fromIdx];
+    orden.splice(fromIdx, 1);
+    let insertAt = toIdx > fromIdx ? toIdx - 1 : toIdx;
+    if (!before) insertAt += 1;
+    insertAt = Math.max(0, Math.min(orden.length, insertAt));
+    orden.splice(insertAt, 0, moved);
+    this.setState({ ddEstado: { ...est, orden } });
+  }
+  ddEmparejarDirecto(izq, der) {
+    if (this.state.ddComprobado) return;
+    const est = this.state.ddEstado;
+    this.setState({ ddEstado: { ...est, parejas: { ...est.parejas, [izq]: der }, selIzq:null } });
+  }
+
+  // Native HTML5 drag & drop for the Arrastrar tab. Wired imperatively via document-level
+  // delegated listeners (not through the DC template's onClick-style attributes) because
+  // support.js's EVENT_MAP only special-cases single-word DOM events (click/change/input/...);
+  // any other "on*" attribute falls back to a generic capitalize-next-letter conversion that
+  // produces the wrong React prop casing for multi-word events (e.g. "ondragstart" becomes
+  // "onDragstart" instead of "onDragStart"), so React never attaches those listeners. Plain
+  // data-* attributes pass through untouched, so we use those to identify items/zones and
+  // hook the real drag events ourselves.
+  _wireDragDrop() {
+    if (this._ddWired) return;
+    this._ddWired = true;
+    document.addEventListener('dragstart', (e) => {
+      const item = e.target.closest('[data-dd-kind]');
+      if (!item) return;
+      this._dragData = {
+        kind: item.getAttribute('data-dd-kind'),
+        texto: item.getAttribute('data-dd-texto'),
+        idx: item.getAttribute('data-dd-idx'),
+      };
+      try { e.dataTransfer.effectAllowed = 'move'; e.dataTransfer.setData('text/plain', this._dragData.texto || ''); } catch(_) {}
+      item.style.opacity = '0.4';
+    });
+    document.addEventListener('dragend', (e) => {
+      const item = e.target.closest('[data-dd-kind]');
+      if (item) item.style.opacity = '';
+      document.querySelectorAll('.dd-hover').forEach(n => n.classList.remove('dd-hover'));
+      this._dragData = null;
+    });
+    document.addEventListener('dragover', (e) => {
+      if (!this._dragData) return;
+      if (e.target.closest('[data-dd-zone]') || e.target.closest('[data-dd-kind]')) e.preventDefault();
+    });
+    document.addEventListener('dragenter', (e) => {
+      if (!this._dragData) return;
+      const target = e.target.closest('[data-dd-zone], [data-dd-kind]');
+      if (target) target.classList.add('dd-hover');
+    });
+    document.addEventListener('dragleave', (e) => {
+      const target = e.target.closest('[data-dd-zone], [data-dd-kind]');
+      if (target) target.classList.remove('dd-hover');
+    });
+    document.addEventListener('drop', (e) => {
+      if (!this._dragData) return;
+      const drag = this._dragData;
+      document.querySelectorAll('.dd-hover').forEach(n => n.classList.remove('dd-hover'));
+      if (drag.kind === 'categorizar-item') {
+        const zone = e.target.closest('[data-dd-zone]');
+        if (!zone) return;
+        e.preventDefault();
+        const cat = zone.getAttribute('data-dd-zone');
+        if (cat === '__pool__') this.ddQuitarItem(drag.texto);
+        else this.ddAsignarCategoriaDirecta(drag.texto, cat);
+      } else if (drag.kind === 'ordenar-item') {
+        const target = e.target.closest('[data-dd-kind="ordenar-item"]');
+        if (!target || target.getAttribute('data-dd-idx') === drag.idx) return;
+        e.preventDefault();
+        const targetIdx = parseInt(target.getAttribute('data-dd-idx'), 10);
+        const rect = target.getBoundingClientRect();
+        const before = e.clientY < rect.top + rect.height/2;
+        this.ddReordenar(parseInt(drag.idx, 10), targetIdx, before);
+      } else if (drag.kind === 'emparejar-izq' || drag.kind === 'emparejar-der') {
+        const targetIzq = e.target.closest('[data-dd-kind="emparejar-izq"]');
+        const targetDer = e.target.closest('[data-dd-kind="emparejar-der"]');
+        e.preventDefault();
+        if (drag.kind === 'emparejar-izq' && targetDer) this.ddEmparejarDirecto(drag.texto, targetDer.getAttribute('data-dd-texto'));
+        else if (drag.kind === 'emparejar-der' && targetIzq) this.ddEmparejarDirecto(targetIzq.getAttribute('data-dd-texto'), drag.texto);
+      }
+    });
+  }
+
   shuffle(a){ const x=a.slice(); for(let i=x.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[x[i],x[j]]=[x[j],x[i]];} return x; }
   letra(i){ return ['A','B','C','D'][i]; }
   fmtTime(s){ const m=Math.floor(s/60), x=s%60; return `${m}:${x<10?'0':''}${x}`; }
@@ -1068,6 +1499,8 @@ class Component extends DCLogic {
   temaTitulo(id){ return this.temaMeta(id).t || ''; }
   bankTema(id){ return this.state.BANCO.filter(q=>q.t===id); }
   qById(id){ return this.state.BANCO.find(q=>q.id===id); }
+  tarjBankTema(id){ return this.state.TARJETAS.filter(x=>x.t===id); }
+  tarjById(id){ return this.state.TARJETAS.find(x=>x.id===id); }
   temaStat(id){ const pt=this.state.porTema.find(x=>x.tema_id===id); return pt ? {attempts:pt.intentos, correct:pt.aciertos, seen:new Array(pt.intentos)} : {attempts:0, correct:0, seen:[]}; }
   temaPct(id){ const s=this.temaStat(id); return s.attempts ? Math.round(s.correct/s.attempts*100) : 0; }
 
@@ -1343,6 +1776,8 @@ class Component extends DCLogic {
       { key:'temas', label:'Temas', icon:'≣' },
       { key:'stats', label:'Estadísticas', icon:'▤' },
       { key:'falladas', label:'Falladas', icon:'✕' },
+      { key:'tarjetas', label:'Tarjetas', icon:'▦' },
+      { key:'dragdrop', label:'Arrastrar', icon:'⇄' },
       { key:'historial', label:'Historial', icon:'◷' },
       { key:'ranking', label:'Ranking', icon:'★' },
       { key:'roadmap', label:'Roadmap', icon:'⏳' },
@@ -1373,6 +1808,120 @@ class Component extends DCLogic {
         onClick:()=>this.openSetup('tema', t.id),
       };
     });
+
+    // TARJETAS VIEW (SRS)
+    const tarjHoy = this.todayStr();
+    const tEstado = S.tarjetasEstado || {};
+    const tarjetasTemasView = TEMAS.map(t=>{
+      const pool = this.tarjBankTema(t.id);
+      const dueIds = new Set();
+      let due = 0, nuevas = 0;
+      pool.forEach(q=>{
+        const e = tEstado[q.id];
+        if (e) { if (e.proxima_revision <= tarjHoy) { due++; dueIds.add(q.id); } }
+        else nuevas++;
+      });
+      const tituloShort = t.t.length>40 ? t.t.slice(0,38)+'…' : t.t;
+      return {
+        id:t.id, titulo:tituloShort, due, nuevas,
+        onClick:()=>this.iniciarRepasoTarjetas(t.id),
+      };
+    });
+    const tarjetaCola = S.tarjetaCola || [];
+    const tarjetaEnCurso = S.tarjetaSesionActiva && tarjetaCola.length>0 && S.tarjetaIdx < tarjetaCola.length;
+    const tarjetaActualQ = tarjetaEnCurso ? this.tarjById(tarjetaCola[S.tarjetaIdx]) : null;
+    const tarjetaResumenOut = tarjetaActualQ ? {
+      tarjetaProgreso: `Tarjeta ${S.tarjetaIdx+1} de ${tarjetaCola.length}`,
+      tarjetaTemaLabel: 'Tema '+tarjetaActualQ.t+' · '+this.temaTitulo(tarjetaActualQ.t).slice(0,32),
+      tarjetaFrente: tarjetaActualQ.frente,
+      tarjetaDorso: tarjetaActualQ.dorso,
+      tarjetaRef: tarjetaActualQ.ref,
+      tarjetaExplicacion: tarjetaActualQ.exp,
+    } : {
+      tarjetaProgreso:'', tarjetaTemaLabel:'', tarjetaFrente:'', tarjetaDorso:'', tarjetaRef:'', tarjetaExplicacion:'',
+    };
+
+    // DRAG & DROP VIEW (categorizar / ordenar / emparejar)
+    const ddTemasView = TEMAS.map(t=>{
+      const total = this.ddBankTema(t.id).length;
+      const tituloShort = t.t.length>40 ? t.t.slice(0,38)+'…' : t.t;
+      return { id:t.id, titulo:tituloShort, total, onClick:()=>this.iniciarDragDrop(t.id) };
+    }).filter(x=>x.total>0);
+
+    const ddCola = S.ddCola || [];
+    const ddEnCurso = S.ddSesionActiva && ddCola.length>0 && S.ddIdx < ddCola.length;
+    const ddEjercicio = ddEnCurso ? this.ddById(ddCola[S.ddIdx]) : null;
+    const ddEstado = S.ddEstado || {};
+    const ddComprobado = S.ddComprobado;
+
+    let ddCategoriasView=[], ddPoolView=[], ddOrdenView=[], ddIzqView=[], ddDerView=[];
+    if (ddEjercicio && ddEjercicio.tipo==='categorizar') {
+      const itemStyle = (it, asignada) => {
+        const sel = ddEstado.sel===it.texto;
+        let border='#ECECF1', bg='#fff', color='#1B1B22';
+        if (ddComprobado) {
+          const ok = asignada===it.categoria;
+          border = ok?'#2E9E6B':'#D6455B'; bg = ok?'#E9F7EF':'#FDEAEA'; color = ok?'#2E9E6B':'#D6455B';
+        } else if (sel) { border=C.v; bg='#F4F1FE'; color=C.v; }
+        return `background:${bg}; border:1.5px solid ${border}; color:${color}; border-radius:10px; padding:9px 14px; font-size:13px; font-weight:600; font-family:inherit; margin:4px;`;
+      };
+      ddPoolView = (ddEjercicio.items||[]).filter(it => !ddEstado.asign || !ddEstado.asign[it.texto]).map(it => ({
+        texto: it.texto,
+        onClick: (e)=> { e.stopPropagation(); this.ddSeleccionarItem(it.texto); },
+        style: itemStyle(it, null),
+      }));
+      ddCategoriasView = (ddEjercicio.categorias||[]).map(c=>({
+        nombre:c, onClick:()=>this.ddAsignarCategoria(c),
+        zoneStyle:`background:#FAFAFC; border:2px dashed #E4E4EC; border-radius:12px; padding:12px; min-height:70px;`,
+        itemsView: (ddEjercicio.items||[]).filter(it => ddEstado.asign && ddEstado.asign[it.texto]===c).map(it => ({
+          texto: it.texto,
+          onClick: (e)=> { e.stopPropagation(); this.ddQuitarItem(it.texto); },
+          style: itemStyle(it, ddEstado.asign[it.texto]),
+        })),
+      }));
+    } else if (ddEjercicio && ddEjercicio.tipo==='ordenar') {
+      ddOrdenView = (ddEstado.orden||[]).map((texto,i)=>{
+        let border='#ECECF1', bg='#fff';
+        if (ddComprobado) { const ok = ddEjercicio.items[i]===texto; border=ok?'#2E9E6B':'#D6455B'; bg=ok?'#E9F7EF':'#FDEAEA'; }
+        return {
+          texto, idx:i,
+          subirStyle:`opacity:${i===0?0.3:1};`, bajarStyle:`opacity:${i===ddEstado.orden.length-1?0.3:1};`,
+          onSubir:()=>this.ddMover(i,-1), onBajar:()=>this.ddMover(i,1),
+          style:`background:${bg}; border:1.5px solid ${border}; border-radius:10px; padding:11px 14px; font-size:13.5px; font-weight:600; display:flex; align-items:center; gap:12px; margin-bottom:8px;`,
+        };
+      });
+    } else if (ddEjercicio && ddEjercicio.tipo==='emparejar') {
+      ddIzqView = (ddEjercicio.pares||[]).map(p=>{
+        const asignada = ddEstado.parejas ? ddEstado.parejas[p.izquierda] : null;
+        const sel = ddEstado.selIzq===p.izquierda;
+        let border='#ECECF1', bg='#fff', color='#1B1B22';
+        if (ddComprobado) { const ok = asignada===p.derecha; border=ok?'#2E9E6B':'#D6455B'; bg=ok?'#E9F7EF':'#FDEAEA'; color=ok?'#2E9E6B':'#D6455B'; }
+        else if (sel) { border=C.v; bg='#F4F1FE'; color=C.v; }
+        return {
+          texto: p.izquierda + (asignada && !ddComprobado ? ` ↔ ${asignada}` : ''),
+          textoRaw: p.izquierda,
+          onClick: ()=> (asignada && !ddComprobado) ? this.ddQuitarPareja(p.izquierda) : this.ddSeleccionarIzquierda(p.izquierda),
+          style:`background:${bg}; border:1.5px solid ${border}; color:${color}; border-radius:10px; padding:10px 14px; font-size:13px; font-weight:600; font-family:inherit; margin-bottom:6px; display:block; width:100%; text-align:left;`,
+        };
+      });
+      const usadas = new Set(Object.values(ddEstado.parejas||{}));
+      ddDerView = (ddEstado.derechaOrden||[]).map(texto=>{
+        const usada = usadas.has(texto);
+        return {
+          texto,
+          onClick: ()=> this.ddEmparejarCon(texto),
+          style:`background:${usada?'#F4F1FE':'#fff'}; border:1.5px solid ${usada?C.v:'#ECECF1'}; color:${usada?C.v:'#1B1B22'}; border-radius:10px; padding:10px 14px; font-size:13px; font-weight:600; font-family:inherit; margin-bottom:6px; display:block; width:100%; text-align:left;`,
+        };
+      });
+    }
+    const ddResultados = S.ddResultados || [];
+    const ddCorrecto = ddResultados.length ? ddResultados[ddResultados.length-1] : false;
+    const ddCorrectoColor = ddCorrecto ? '#2E9E6B' : '#D6455B';
+    const ddCorrectoLabel = ddCorrecto ? '✓ Correcto' : '✕ Hay errores';
+    const ddAciertos = ddResultados.filter(Boolean).length;
+    const ddMostrarSelector = !ddEnCurso && !S.ddTerminada;
+    const ddMostrarResumenFinal = !ddEnCurso && S.ddTerminada;
+
 
     // EVOLUTION CHART
     const H = S.evolucion || [], n = H.length, pad=12, W=560;
@@ -1426,7 +1975,7 @@ class Component extends DCLogic {
       isInicio:screen==='inicio', isTemas:screen==='temas', isSetup:screen==='setup',
       isTest:screen==='test', isResults:screen==='results', isStats:screen==='stats',
       isFalladas:screen==='falladas', isRanking:screen==='ranking', isHistorial:screen==='historial',
-      isRoadmap:screen==='roadmap',
+      isRoadmap:screen==='roadmap', isTarjetas:screen==='tarjetas', isDragdrop:screen==='dragdrop',
       temasView, evolPoints, evolArea, evolDots, calendario, diasMes,
       hasHistorial: n>0, noHistorial: n===0,
       totalPreguntas, totalHechas, aciertoGlobal, prediccion, numFalladas,
@@ -1435,6 +1984,38 @@ class Component extends DCLogic {
       openFalladas:()=>this.go('falladas'),
       resetProgress:()=>this.resetProgress(),
       globalBarStyle:`height:100%; width:${totalPreguntas?Math.round(totalHechas/totalPreguntas*100):0}%; background:${C.v}; border-radius:6px;`,
+      // tarjetas
+      tarjetasTemasView, tarjetaEnCurso, tarjetaMostrarSelector: !tarjetaEnCurso,
+      tarjetasPendientesGlobal: (S.tarjetasResumen && S.tarjetasResumen.pendientes) || 0,
+      tarjetasRacha: (S.tarjetasResumen && S.tarjetasResumen.racha) || 0,
+      tarjetaVolteada: S.tarjetaVolteada, tarjetaNoVolteada: !S.tarjetaVolteada,
+      tarjetaVerCompleta: S.tarjetaVerCompleta, tarjetaMostrarVerMas: S.tarjetaVolteada && !S.tarjetaVerCompleta,
+      tarjetaSinCards: !tarjetaEnCurso && S.tarjetaVacia,
+      ...tarjetaResumenOut,
+      salirRepasoTarjetas:()=>this.salirRepasoTarjetas(),
+      repasarTodasTarjetas:()=>this.iniciarRepasoTarjetas(null),
+      voltearTarjeta:()=>this.voltearTarjeta(),
+      verExplicacionCompleta:()=>this.verExplicacionCompleta(),
+      graduarOtraVez:()=>this.graduarTarjeta(0),
+      graduarDificil:()=>this.graduarTarjeta(1),
+      graduarBien:()=>this.graduarTarjeta(2),
+      graduarFacil:()=>this.graduarTarjeta(3),
+      // arrastrar y soltar
+      ddTemasView, ddEnCurso, ddMostrarSelector, ddMostrarResumenFinal,
+      ddProgreso: ddEjercicio ? `Ejercicio ${S.ddIdx+1} de ${ddCola.length}` : '',
+      ddEnunciado: ddEjercicio ? ddEjercicio.enunciado : '',
+      ddRef: ddEjercicio ? ddEjercicio.ref : '',
+      ddIsCategorizar: !!ddEjercicio && ddEjercicio.tipo==='categorizar',
+      ddIsOrdenar: !!ddEjercicio && ddEjercicio.tipo==='ordenar',
+      ddIsEmparejar: !!ddEjercicio && ddEjercicio.tipo==='emparejar',
+      ddCategoriasView, ddPoolView, ddOrdenView, ddIzqView, ddDerView,
+      ddMostrarComprobar: ddEnCurso && !ddComprobado,
+      ddMostrarSiguiente: ddEnCurso && ddComprobado,
+      ddCorrectoColor, ddCorrectoLabel,
+      ddResumenTexto: `${ddAciertos} de ${ddResultados.length} correctos`,
+      comprobarDD:()=>this.ddComprobar(),
+      siguienteDD:()=>this.ddSiguiente(),
+      salirDragDrop:()=>this.salirDragDrop(),
     };
 
     // DASHBOARD
