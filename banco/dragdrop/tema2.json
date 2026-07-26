@@ -1,0 +1,116 @@
+[
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada entidad según tenga o no la consideración de Administración Pública a efectos de la Ley 39/2015",
+    "ref": "Ley 39/2015, Art. 2",
+    "categorias": ["Es Administración Pública", "Sector público, pero NO Administración Pública"],
+    "items": [
+      { "texto": "Administración General del Estado", "categoria": "Es Administración Pública" },
+      { "texto": "Administraciones de las Comunidades Autónomas", "categoria": "Es Administración Pública" },
+      { "texto": "Entidades que integran la Administración Local", "categoria": "Es Administración Pública" },
+      { "texto": "Organismos públicos y entidades de derecho público vinculados a las AAPP", "categoria": "Es Administración Pública" },
+      { "texto": "Entidades de derecho privado vinculadas a las AAPP", "categoria": "Sector público, pero NO Administración Pública" },
+      { "texto": "Universidades públicas", "categoria": "Sector público, pero NO Administración Pública" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada causa de suspensión del plazo máximo para resolver según sea potestativa (el plazo «podrá» suspenderse) o automática (el plazo «se suspenderá»)",
+    "ref": "Ley 39/2015, Art. 22",
+    "categorias": ["Suspensión potestativa (Art. 22.1)", "Suspensión automática (Art. 22.2)"],
+    "items": [
+      { "texto": "Requerimiento al interesado para subsanación de deficiencias", "categoria": "Suspensión potestativa (Art. 22.1)" },
+      { "texto": "Solicitud de pronunciamiento previo y preceptivo de un órgano de la UE", "categoria": "Suspensión potestativa (Art. 22.1)" },
+      { "texto": "Solicitud de informes preceptivos a otro órgano (máx. 3 meses)", "categoria": "Suspensión potestativa (Art. 22.1)" },
+      { "texto": "Realización de pruebas técnicas o análisis contradictorios propuestos por los interesados", "categoria": "Suspensión potestativa (Art. 22.1)" },
+      { "texto": "Requerimiento a otra Administración para que anule un acto ilegal que constituye la base del procedimiento", "categoria": "Suspensión automática (Art. 22.2)" },
+      { "texto": "Actuación complementaria acordada por el órgano competente (Art. 87)", "categoria": "Suspensión automática (Art. 22.2)" },
+      { "texto": "Recusación promovida por los interesados", "categoria": "Suspensión automática (Art. 22.2)" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada supuesto según el sentido del silencio administrativo en procedimientos iniciados a solicitud del interesado (estimatorio o desestimatorio)",
+    "ref": "Ley 39/2015, Art. 24",
+    "categorias": ["Silencio estimatorio (positivo)", "Silencio desestimatorio (negativo)"],
+    "items": [
+      { "texto": "Regla general en procedimientos a solicitud del interesado", "categoria": "Silencio estimatorio (positivo)" },
+      { "texto": "Recurso de alzada interpuesto contra la desestimación por silencio de una solicitud anterior", "categoria": "Silencio estimatorio (positivo)" },
+      { "texto": "Procedimientos relativos al ejercicio del derecho de petición (art. 29 CE)", "categoria": "Silencio desestimatorio (negativo)" },
+      { "texto": "Estimación que transfiera facultades relativas al dominio público o al servicio público", "categoria": "Silencio desestimatorio (negativo)" },
+      { "texto": "Actividades que puedan dañar el medio ambiente", "categoria": "Silencio desestimatorio (negativo)" },
+      { "texto": "Procedimientos de responsabilidad patrimonial de las AAPP", "categoria": "Silencio desestimatorio (negativo)" },
+      { "texto": "Procedimientos de impugnación de actos y disposiciones", "categoria": "Silencio desestimatorio (negativo)" },
+      { "texto": "Procedimientos de revisión de oficio iniciados a solicitud de los interesados", "categoria": "Silencio desestimatorio (negativo)" }
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena los pasos del tratamiento de documentos presentados de manera presencial ante las Administraciones Públicas",
+    "ref": "Ley 39/2015, Art. 16.5",
+    "items": [
+      "El interesado presenta los documentos de manera presencial ante la Administración",
+      "La oficina de asistencia en materia de registros digitaliza los documentos",
+      "Los documentos digitalizados se incorporan al expediente administrativo electrónico",
+      "Se devuelven los originales al interesado"
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena las reglas aplicables al cómputo de un plazo señalado por días hábiles, desde la notificación hasta su vencimiento",
+    "ref": "Ley 39/2015, Art. 30",
+    "items": [
+      "Se produce la notificación o publicación del acto",
+      "El plazo se cuenta a partir del día siguiente a la notificación",
+      "Se excluyen del cómputo los sábados, domingos y los declarados festivos",
+      "Si el último día del plazo es inhábil, se entiende prorrogado al primer día hábil siguiente"
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada plazo con el supuesto al que se aplica en la Ley 39/2015",
+    "ref": "Ley 39/2015, Arts. 21, 24, 27, 32 y 33",
+    "pares": [
+      { "izquierda": "3 meses", "derecha": "Plazo máximo por defecto cuando la norma no lo fija" },
+      { "izquierda": "6 meses", "derecha": "Límite máximo del plazo sin norma con rango de ley" },
+      { "izquierda": "15 días", "derecha": "Expedición del certificado acreditativo del silencio" },
+      { "izquierda": "10 días", "derecha": "Comunicar al interesado la recepción de su solicitud" },
+      { "izquierda": "Reducción a la mitad", "derecha": "Efecto de la tramitación de urgencia sobre los plazos" },
+      { "izquierda": "Ampliación de no más de la mitad", "derecha": "Límite máximo de la ampliación de plazos" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada tipo de copia con su requisito principal de autenticidad según la Ley 39/2015",
+    "ref": "Ley 39/2015, Art. 27.3",
+    "pares": [
+      { "izquierda": "Copia electrónica de documento electrónico", "derecha": "Incluir metadatos que acrediten su condición de copia" },
+      { "izquierda": "Copia electrónica de documento en soporte papel", "derecha": "Digitalización previa del documento e inclusión de metadatos" },
+      { "izquierda": "Copia en papel de documento electrónico", "derecha": "Código generado electrónicamente u otro sistema de verificación" },
+      { "izquierda": "Copia en papel de documento original en papel", "derecha": "Puesta de manifiesto electrónica o copia auténtica del documento electrónico en poder de la Administración" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada regla de cómputo con el tipo de plazo o procedimiento al que se aplica",
+    "ref": "Ley 39/2015, Arts. 21.3 y 30",
+    "pares": [
+      { "izquierda": "De hora en hora y de minuto en minuto desde la notificación", "derecha": "Plazos señalados por horas" },
+      { "izquierda": "Se excluyen sábados, domingos y festivos", "derecha": "Plazos señalados por días (hábiles)" },
+      { "izquierda": "Concluye el mismo día del mes o año de vencimiento", "derecha": "Plazos señalados por meses o años" },
+      { "izquierda": "Desde la fecha del acuerdo de iniciación", "derecha": "Procedimientos iniciados de oficio" },
+      { "izquierda": "Desde la entrada de la solicitud en el registro electrónico del órgano competente", "derecha": "Procedimientos iniciados a solicitud del interesado" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada tipo de interesado del art. 4 con su condición o requisito para ser considerado como tal",
+    "ref": "Ley 39/2015, Art. 4",
+    "pares": [
+      { "izquierda": "Quienes promuevan el procedimiento", "derecha": "Ser titulares de derechos o intereses legítimos individuales o colectivos" },
+      { "izquierda": "Quienes no iniciaron el procedimiento", "derecha": "Tener derechos que puedan resultar afectados por la resolución" },
+      { "izquierda": "Quienes se personan antes de la resolución definitiva", "derecha": "Tener intereses legítimos que puedan resultar afectados" },
+      { "izquierda": "El derecho-habiente del interesado", "derecha": "Sucede en la condición por relación jurídica transmisible, en cualquier estado del procedimiento" }
+    ]
+  }
+]

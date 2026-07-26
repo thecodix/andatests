@@ -1,0 +1,131 @@
+[
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada entidad según tenga o no la consideración de Administración Pública (art. 2 Ley 40/2015)",
+    "ref": "Ley 40/2015, art. 2",
+    "categorias": ["Tiene consideración de Administración Pública", "Sector público pero NO es Administración Pública"],
+    "items": [
+      { "texto": "La Administración General del Estado", "categoria": "Tiene consideración de Administración Pública" },
+      { "texto": "Las Administraciones de las Comunidades Autónomas", "categoria": "Tiene consideración de Administración Pública" },
+      { "texto": "Las Entidades que integran la Administración Local", "categoria": "Tiene consideración de Administración Pública" },
+      { "texto": "Organismos públicos y entidades de derecho público vinculados o dependientes de las AAPP", "categoria": "Tiene consideración de Administración Pública" },
+      { "texto": "Entidades de derecho privado vinculadas o dependientes de las AAPP", "categoria": "Sector público pero NO es Administración Pública" },
+      { "texto": "Las Universidades públicas", "categoria": "Sector público pero NO es Administración Pública" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada función según corresponda al Presidente o al Secretario de un órgano colegiado de la AGE (art. 19)",
+    "ref": "Ley 40/2015, art. 19",
+    "categorias": ["Presidente", "Secretario"],
+    "items": [
+      { "texto": "Ostentar la representación del órgano", "categoria": "Presidente" },
+      { "texto": "Acordar la convocatoria de las sesiones y fijar el orden del día", "categoria": "Presidente" },
+      { "texto": "Presidir las sesiones y moderar los debates", "categoria": "Presidente" },
+      { "texto": "Dirimir con su voto los empates", "categoria": "Presidente" },
+      { "texto": "Visar las actas y certificaciones de los acuerdos", "categoria": "Presidente" },
+      { "texto": "Efectuar la convocatoria de las sesiones por orden del Presidente", "categoria": "Secretario" },
+      { "texto": "Recibir los actos de comunicación de los miembros con el órgano", "categoria": "Secretario" },
+      { "texto": "Preparar el despacho de los asuntos y redactar las actas", "categoria": "Secretario" },
+      { "texto": "Expedir certificaciones de consultas, dictámenes y acuerdos", "categoria": "Secretario" },
+      { "texto": "Velar por la legalidad formal y material de las actuaciones del órgano", "categoria": "Secretario" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada figura de alteración del ejercicio de competencias según requiera o no publicación en un Boletín Oficial",
+    "ref": "Ley 40/2015, arts. 9-13",
+    "categorias": ["Requiere publicación en Boletín Oficial", "NO requiere publicación"],
+    "items": [
+      { "texto": "Delegación de competencias", "categoria": "Requiere publicación en Boletín Oficial" },
+      { "texto": "Revocación de la delegación de competencias", "categoria": "Requiere publicación en Boletín Oficial" },
+      { "texto": "Encomienda de gestión entre órganos de la misma Administración", "categoria": "Requiere publicación en Boletín Oficial" },
+      { "texto": "Encomienda de gestión entre órganos de distintas Administraciones", "categoria": "Requiere publicación en Boletín Oficial" },
+      { "texto": "Delegación de firma", "categoria": "NO requiere publicación" },
+      { "texto": "Suplencia", "categoria": "NO requiere publicación" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada plazo de prescripción según su duración (art. 30, cuando la ley sectorial no fija plazos)",
+    "ref": "Ley 40/2015, art. 30.1",
+    "categorias": ["3 años", "2 años", "1 año", "6 meses"],
+    "items": [
+      { "texto": "Prescripción de infracciones muy graves", "categoria": "3 años" },
+      { "texto": "Prescripción de sanciones impuestas por faltas muy graves", "categoria": "3 años" },
+      { "texto": "Prescripción de infracciones graves", "categoria": "2 años" },
+      { "texto": "Prescripción de sanciones impuestas por faltas graves", "categoria": "2 años" },
+      { "texto": "Prescripción de sanciones impuestas por faltas leves", "categoria": "1 año" },
+      { "texto": "Prescripción de infracciones leves", "categoria": "6 meses" }
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena las fases del procedimiento de exigencia de responsabilidad patrimonial a autoridades y personal (art. 36.4)",
+    "ref": "Ley 40/2015, art. 36.4",
+    "items": [
+      "Acuerdo del órgano competente, notificado a los interesados",
+      "Alegaciones durante un plazo de 15 días",
+      "Práctica de las pruebas admitidas durante un plazo de 15 días",
+      "Audiencia durante un plazo de 10 días",
+      "Formulación de la propuesta de resolución en 5 días",
+      "Resolución por el órgano competente en 5 días"
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena los pasos del procedimiento de recusación (art. 24)",
+    "ref": "Ley 40/2015, art. 24",
+    "items": [
+      "El interesado plantea la recusación por escrito expresando la causa",
+      "Al día siguiente, el recusado manifiesta a su superior si concurre la causa",
+      "Si la reconoce, el superior acuerda su sustitución acto seguido",
+      "Si la niega, el superior resuelve en el plazo de 3 días"
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena los hitos de eficacia de los convenios suscritos por la AGE tras su formalización (art. 48.8)",
+    "ref": "Ley 40/2015, art. 48.8",
+    "items": [
+      "Perfeccionamiento del convenio por prestación del consentimiento de las partes",
+      "Inscripción en el Registro Electrónico estatal (plazo de 5 días hábiles desde formalización)",
+      "Publicación en el BOE (plazo de 10 días hábiles desde formalización)"
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada figura de alteración del ejercicio de competencias con su rasgo distintivo",
+    "ref": "Ley 40/2015, arts. 9-13",
+    "pares": [
+      { "izquierda": "Delegación de competencias", "derecha": "Ejercicio transferido a otro órgano; requiere publicación en BO" },
+      { "izquierda": "Avocación", "derecha": "El superior atrae para sí un asunto del inferior; acuerdo motivado no recurrible" },
+      { "izquierda": "Encomienda de gestión", "derecha": "Solo actividades de carácter material o técnico; no supone cesión de titularidad" },
+      { "izquierda": "Delegación de firma", "derecha": "Solo se delega la firma; no altera la competencia ni requiere publicación" },
+      { "izquierda": "Suplencia", "derecha": "Sustitución temporal por vacante, ausencia o enfermedad; no altera la competencia" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada tipo de convenio (art. 47.2) con las partes que lo firman",
+    "ref": "Ley 40/2015, art. 47.2",
+    "pares": [
+      { "izquierda": "Convenio interadministrativo", "derecha": "Firmado entre dos o más AAPP, o entre organismos de distintas Administraciones" },
+      { "izquierda": "Convenio intradministrativo", "derecha": "Firmado entre organismos públicos o entidades de una misma Administración" },
+      { "izquierda": "Convenio con sujeto de Derecho privado", "derecha": "Firmado entre una AP u organismo público y un sujeto privado" },
+      { "izquierda": "Convenio con sujeto de Derecho internacional", "derecha": "Firmado entre AAPP y órganos o entes de un sujeto de Derecho internacional" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada concepto de administración electrónica con su definición legal",
+    "ref": "Ley 40/2015, arts. 38-42",
+    "pares": [
+      { "izquierda": "Sede electrónica", "derecha": "Dirección electrónica cuya titularidad corresponde a una AP, disponible a través de redes de telecomunicaciones" },
+      { "izquierda": "Portal de internet", "derecha": "Punto de acceso electrónico que permite el acceso a información publicada y, en su caso, a la sede electrónica" },
+      { "izquierda": "Actuación administrativa automatizada", "derecha": "Acto realizado íntegramente por medios electrónicos sin intervención directa de empleado público" },
+      { "izquierda": "Sello electrónico", "derecha": "Certificado electrónico reconocido o cualificado que identifica a la AP, órgano u organismo" },
+      { "izquierda": "Código seguro de verificación", "derecha": "Vinculado a la AP; permite comprobar la integridad del documento accediendo a la sede electrónica" }
+    ]
+  }
+]

@@ -1,0 +1,108 @@
+[
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada forma de iniciación del procedimiento administrativo según sea de oficio o a solicitud del interesado",
+    "ref": "Ley 39/2015, Arts. 54, 58 y 69",
+    "categorias": ["Iniciación de oficio", "Iniciación a solicitud del interesado"],
+    "items": [
+      { "texto": "Propia iniciativa del órgano competente", "categoria": "Iniciación de oficio" },
+      { "texto": "Orden superior de un órgano jerárquicamente superior", "categoria": "Iniciación de oficio" },
+      { "texto": "Petición razonada de otros órganos", "categoria": "Iniciación de oficio" },
+      { "texto": "Denuncia", "categoria": "Iniciación de oficio" },
+      { "texto": "Solicitud del interesado (art. 66)", "categoria": "Iniciación a solicitud del interesado" },
+      { "texto": "Declaración responsable", "categoria": "Iniciación a solicitud del interesado" },
+      { "texto": "Comunicación", "categoria": "Iniciación a solicitud del interesado" }
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena las fases del procedimiento administrativo común según la Ley 39/2015",
+    "ref": "Ley 39/2015, Capítulos II-V del Título IV",
+    "items": ["Iniciación", "Ordenación", "Instrucción", "Finalización"]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada forma de iniciación de oficio del procedimiento con su definición legal",
+    "ref": "Ley 39/2015, Arts. 58-62",
+    "pares": [
+      { "izquierda": "Propia iniciativa", "derecha": "Conocimiento directo o indirecto de las circunstancias por el órgano competente para iniciar" },
+      { "izquierda": "Orden superior", "derecha": "Emitida por un órgano administrativo superior jerárquico del competente para iniciar" },
+      { "izquierda": "Petición razonada", "derecha": "Propuesta de inicio formulada por un órgano que no tiene competencia para iniciar el procedimiento" },
+      { "izquierda": "Denuncia", "derecha": "Acto por el que cualquier persona pone en conocimiento de un órgano administrativo la existencia de un hecho" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada elemento según forme o no parte del expediente administrativo",
+    "ref": "Ley 39/2015, Art. 70",
+    "categorias": ["Forma parte del expediente", "NO forma parte del expediente"],
+    "items": [
+      { "texto": "Documentos", "categoria": "Forma parte del expediente" },
+      { "texto": "Pruebas", "categoria": "Forma parte del expediente" },
+      { "texto": "Dictámenes", "categoria": "Forma parte del expediente" },
+      { "texto": "Acuerdos", "categoria": "Forma parte del expediente" },
+      { "texto": "Notificaciones", "categoria": "Forma parte del expediente" },
+      { "texto": "Informes preceptivos solicitados antes de la resolución", "categoria": "Forma parte del expediente" },
+      { "texto": "Notas y borradores", "categoria": "NO forma parte del expediente" },
+      { "texto": "Opiniones y resúmenes", "categoria": "NO forma parte del expediente" },
+      { "texto": "Comunicaciones e informes internos entre órganos", "categoria": "NO forma parte del expediente" },
+      { "texto": "Juicios de valor emitidos por las Administraciones", "categoria": "NO forma parte del expediente" },
+      { "texto": "Información contenida en aplicaciones, ficheros y bases de datos", "categoria": "NO forma parte del expediente" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada plazo con el trámite al que corresponde en el procedimiento administrativo común",
+    "ref": "Ley 39/2015, Arts. 68, 77, 82, 83, 87 y 95",
+    "pares": [
+      { "izquierda": "10 días", "derecha": "Subsanación de la solicitud del interesado" },
+      { "izquierda": "15 días", "derecha": "Plazo máximo del trámite de audiencia" },
+      { "izquierda": "30 días", "derecha": "Plazo máximo del período de prueba" },
+      { "izquierda": "20 días", "derecha": "Plazo mínimo para alegaciones en información pública" },
+      { "izquierda": "7 días", "derecha": "Alegaciones tras actuaciones complementarias" },
+      { "izquierda": "3 meses", "derecha": "Paralización del interesado para declarar la caducidad" }
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena los trámites principales de la fase de instrucción del procedimiento hasta la resolución",
+    "ref": "Ley 39/2015, Arts. 77-88",
+    "items": ["Período de prueba", "Solicitud de informes", "Trámite de audiencia", "Propuesta de resolución", "Resolución"]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada forma de terminación del procedimiento con su descripción",
+    "ref": "Ley 39/2015, Arts. 84-95",
+    "pares": [
+      { "izquierda": "Desistimiento", "derecha": "El interesado abandona su solicitud, sin renunciar al derecho subyacente" },
+      { "izquierda": "Renuncia", "derecha": "El interesado abandona el derecho en que se funda la solicitud" },
+      { "izquierda": "Caducidad", "derecha": "Archivo por paralización imputable al interesado durante tres meses tras advertencia" },
+      { "izquierda": "Terminación convencional", "derecha": "Acuerdos, pactos, convenios o contratos que satisfacen el interés público" },
+      { "izquierda": "Imposibilidad material", "derecha": "Causas sobrevenidas que impiden continuar el procedimiento" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada requisito según pertenezca al contenido general de toda solicitud o sea requisito adicional específico de la solicitud de responsabilidad patrimonial",
+    "ref": "Ley 39/2015, Arts. 66 y 67",
+    "categorias": ["Contenido general de la solicitud (Art. 66)", "Requisito adicional en responsabilidad patrimonial (Art. 67)"],
+    "items": [
+      { "texto": "Nombre y apellidos del interesado", "categoria": "Contenido general de la solicitud (Art. 66)" },
+      { "texto": "Medio electrónico o lugar físico para notificaciones", "categoria": "Contenido general de la solicitud (Art. 66)" },
+      { "texto": "Hechos, razones y petición", "categoria": "Contenido general de la solicitud (Art. 66)" },
+      { "texto": "Lugar y fecha", "categoria": "Contenido general de la solicitud (Art. 66)" },
+      { "texto": "Firma del solicitante", "categoria": "Contenido general de la solicitud (Art. 66)" },
+      { "texto": "Órgano, centro o unidad administrativa a la que se dirige", "categoria": "Contenido general de la solicitud (Art. 66)" },
+      { "texto": "Especificación de las lesiones producidas", "categoria": "Requisito adicional en responsabilidad patrimonial (Art. 67)" },
+      { "texto": "Presunta relación de causalidad con el funcionamiento del servicio público", "categoria": "Requisito adicional en responsabilidad patrimonial (Art. 67)" },
+      { "texto": "Evaluación económica de la responsabilidad, si fuera posible", "categoria": "Requisito adicional en responsabilidad patrimonial (Art. 67)" },
+      { "texto": "Momento en que la lesión efectivamente se produjo", "categoria": "Requisito adicional en responsabilidad patrimonial (Art. 67)" }
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena las fases del procedimiento sancionador desde las diligencias iniciales hasta la resolución",
+    "ref": "Ley 39/2015, Arts. 55, 63, 64, 89 y 90",
+    "items": ["Actuaciones previas", "Acuerdo de iniciación", "Instrucción", "Propuesta de resolución", "Resolución"]
+  }
+]

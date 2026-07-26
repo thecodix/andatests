@@ -1,0 +1,139 @@
+[
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada concepto según sea un valor superior del ordenamiento jurídico (Art. 1.1) o un principio garantizado por la Constitución (Art. 9.3)",
+    "ref": "CE, Arts. 1.1 y 9.3",
+    "categorias": ["Valor superior (Art. 1.1)", "Principio del Art. 9.3"],
+    "items": [
+      { "texto": "Libertad", "categoria": "Valor superior (Art. 1.1)" },
+      { "texto": "Justicia", "categoria": "Valor superior (Art. 1.1)" },
+      { "texto": "Igualdad", "categoria": "Valor superior (Art. 1.1)" },
+      { "texto": "Pluralismo político", "categoria": "Valor superior (Art. 1.1)" },
+      { "texto": "Principio de legalidad", "categoria": "Principio del Art. 9.3" },
+      { "texto": "Jerarquía normativa", "categoria": "Principio del Art. 9.3" },
+      { "texto": "Publicidad de las normas", "categoria": "Principio del Art. 9.3" },
+      { "texto": "Seguridad jurídica", "categoria": "Principio del Art. 9.3" },
+      { "texto": "Responsabilidad", "categoria": "Principio del Art. 9.3" },
+      { "texto": "Interdicción de la arbitrariedad de los poderes públicos", "categoria": "Principio del Art. 9.3" }
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena la estructura interna del Título I de la Constitución (capítulos y secciones, de inicio a fin)",
+    "ref": "CE, Título I (Arts. 10-55)",
+    "items": [
+      "Cap. Primero: De los españoles y los extranjeros",
+      "Cap. Segundo, Sección 1.ª: Derechos fundamentales y libertades públicas",
+      "Cap. Segundo, Sección 2.ª: Derechos y deberes de los ciudadanos",
+      "Cap. Tercero: Principios rectores de la política social y económica",
+      "Cap. Cuarto: Garantías de las libertades y derechos fundamentales",
+      "Cap. Quinto: Suspensión de los derechos y libertades"
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada artículo del Título Preliminar con la materia que regula",
+    "ref": "CE, Título Preliminar (Arts. 1-9)",
+    "pares": [
+      { "izquierda": "Artículo 1", "derecha": "Estado social y democrático de Derecho; valores superiores" },
+      { "izquierda": "Artículo 2", "derecha": "Unidad de la Nación y derecho a la autonomía" },
+      { "izquierda": "Artículo 3", "derecha": "Lenguas oficiales" },
+      { "izquierda": "Artículo 4", "derecha": "La bandera de España" },
+      { "izquierda": "Artículo 6", "derecha": "Los partidos políticos" },
+      { "izquierda": "Artículo 8", "derecha": "Las Fuerzas Armadas" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada derecho según pertenezca a la Sección 1.ª (Derechos fundamentales y libertades públicas) o a la Sección 2.ª (Derechos y deberes de los ciudadanos) del Capítulo Segundo del Título I",
+    "ref": "CE, Título I, Cap. 2, Secciones 1.ª y 2.ª",
+    "categorias": ["Sección 1.ª (Arts. 15-29)", "Sección 2.ª (Arts. 30-38)"],
+    "items": [
+      { "texto": "Derecho a la vida (Art. 15)", "categoria": "Sección 1.ª (Arts. 15-29)" },
+      { "texto": "Libertad ideológica y religiosa (Art. 16)", "categoria": "Sección 1.ª (Arts. 15-29)" },
+      { "texto": "Derecho a la educación (Art. 27)", "categoria": "Sección 1.ª (Arts. 15-29)" },
+      { "texto": "Derecho de reunión (Art. 21)", "categoria": "Sección 1.ª (Arts. 15-29)" },
+      { "texto": "Derecho de huelga (Art. 28.2)", "categoria": "Sección 1.ª (Arts. 15-29)" },
+      { "texto": "Derecho y deber de defender a España (Art. 30)", "categoria": "Sección 2.ª (Arts. 30-38)" },
+      { "texto": "Deber de contribuir al gasto público (Art. 31)", "categoria": "Sección 2.ª (Arts. 30-38)" },
+      { "texto": "Derecho a la propiedad privada (Art. 33)", "categoria": "Sección 2.ª (Arts. 30-38)" },
+      { "texto": "Derecho al trabajo (Art. 35)", "categoria": "Sección 2.ª (Arts. 30-38)" },
+      { "texto": "Libertad de empresa (Art. 38)", "categoria": "Sección 2.ª (Arts. 30-38)" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada institución del Título IV con su función constitucional",
+    "ref": "CE, Título IV (Arts. 97-107)",
+    "pares": [
+      { "izquierda": "El Gobierno (Art. 97)", "derecha": "Dirige la política interior y exterior, ejerce la función ejecutiva y la potestad reglamentaria" },
+      { "izquierda": "Presidente del Gobierno (Art. 98)", "derecha": "Dirige la acción del Gobierno y coordina las funciones de sus miembros" },
+      { "izquierda": "Administración Pública (Art. 103)", "derecha": "Sirve con objetividad los intereses generales" },
+      { "izquierda": "Fuerzas y Cuerpos de Seguridad (Art. 104)", "derecha": "Proteger el libre ejercicio de derechos y libertades y garantizar la seguridad ciudadana" },
+      { "izquierda": "Los Tribunales (Art. 106)", "derecha": "Controlan la potestad reglamentaria y la legalidad de la actuación administrativa" },
+      { "izquierda": "Consejo de Estado (Art. 107)", "derecha": "Supremo órgano consultivo del Gobierno" }
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena las fases del proceso de investidura del Presidente del Gobierno (Art. 99 CE)",
+    "ref": "CE, Art. 99",
+    "items": [
+      "El Rey consulta con los representantes de los grupos políticos con representación parlamentaria",
+      "El Rey propone un candidato a la Presidencia a través del Presidente del Congreso",
+      "El candidato expone su programa político ante el Congreso y solicita la confianza",
+      "Primera votación: se requiere mayoría absoluta del Congreso",
+      "Si no la obtiene, nueva votación 48 horas después: basta mayoría simple"
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada derecho según pueda o no ser suspendido en los estados de excepción o de sitio (Art. 55.1 CE)",
+    "ref": "CE, Art. 55.1",
+    "categorias": ["Suspendible", "No suspendible"],
+    "items": [
+      { "texto": "Libertad y seguridad personal (Art. 17)", "categoria": "Suspendible" },
+      { "texto": "Inviolabilidad del domicilio (Art. 18.2)", "categoria": "Suspendible" },
+      { "texto": "Secreto de las comunicaciones (Art. 18.3)", "categoria": "Suspendible" },
+      { "texto": "Libertad de residencia y circulación (Art. 19)", "categoria": "Suspendible" },
+      { "texto": "Derecho de reunión (Art. 21)", "categoria": "Suspendible" },
+      { "texto": "Derecho de huelga (Art. 28.2)", "categoria": "Suspendible" },
+      { "texto": "Derecho a la vida (Art. 15)", "categoria": "No suspendible" },
+      { "texto": "Libertad ideológica y religiosa (Art. 16)", "categoria": "No suspendible" },
+      { "texto": "Derecho a la tutela judicial efectiva (Art. 24)", "categoria": "No suspendible" },
+      { "texto": "Derecho a la educación (Art. 27)", "categoria": "No suspendible" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada derecho fundamental de la Sección 1.ª con el artículo de la CE que lo reconoce",
+    "ref": "CE, Título I, Cap. 2, Sección 1.ª (Arts. 15-29)",
+    "pares": [
+      { "izquierda": "Derecho a la vida e integridad física y moral", "derecha": "Artículo 15" },
+      { "izquierda": "Derecho a la libertad y a la seguridad", "derecha": "Artículo 17" },
+      { "izquierda": "Derecho al honor, a la intimidad y a la propia imagen", "derecha": "Artículo 18" },
+      { "izquierda": "Libertad de expresión e información", "derecha": "Artículo 20" },
+      { "izquierda": "Derecho a la participación en asuntos públicos", "derecha": "Artículo 23" },
+      { "izquierda": "Derecho a la tutela judicial efectiva", "derecha": "Artículo 24" },
+      { "izquierda": "Derecho a la educación", "derecha": "Artículo 27" },
+      { "izquierda": "Derecho a sindicarse libremente y derecho de huelga", "derecha": "Artículo 28" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada principio según sea un principio de actuación de la Administración Pública (Art. 103 CE) o un principio garantizado por el Art. 9.3 CE",
+    "ref": "CE, Arts. 9.3 y 103.1",
+    "categorias": ["Principio de la Administración (Art. 103)", "Principio del Art. 9.3"],
+    "items": [
+      { "texto": "Eficacia", "categoria": "Principio de la Administración (Art. 103)" },
+      { "texto": "Jerarquía", "categoria": "Principio de la Administración (Art. 103)" },
+      { "texto": "Descentralización", "categoria": "Principio de la Administración (Art. 103)" },
+      { "texto": "Desconcentración", "categoria": "Principio de la Administración (Art. 103)" },
+      { "texto": "Coordinación", "categoria": "Principio de la Administración (Art. 103)" },
+      { "texto": "Publicidad de las normas", "categoria": "Principio del Art. 9.3" },
+      { "texto": "Seguridad jurídica", "categoria": "Principio del Art. 9.3" },
+      { "texto": "Irretroactividad de disposiciones sancionadoras no favorables", "categoria": "Principio del Art. 9.3" },
+      { "texto": "Interdicción de la arbitrariedad", "categoria": "Principio del Art. 9.3" }
+    ]
+  }
+]

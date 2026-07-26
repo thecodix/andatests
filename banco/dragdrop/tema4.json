@@ -1,0 +1,109 @@
+[
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada característica según el recurso administrativo al que corresponde",
+    "ref": "Ley 39/2015, arts. 121-126",
+    "categorias": ["Recurso de alzada", "Recurso potestativo de reposición", "Recurso extraordinario de revisión"],
+    "items": [
+      { "texto": "Se dirige contra actos que no ponen fin a la vía administrativa", "categoria": "Recurso de alzada" },
+      { "texto": "Se interpone ante el órgano superior jerárquico del que dictó el acto", "categoria": "Recurso de alzada" },
+      { "texto": "Contra su resolución no cabe ningún otro recurso administrativo, salvo el de revisión", "categoria": "Recurso de alzada" },
+      { "texto": "Es potestativo y alternativo a la vía contencioso-administrativa", "categoria": "Recurso potestativo de reposición" },
+      { "texto": "Se dirige contra actos que ponen fin a la vía administrativa", "categoria": "Recurso potestativo de reposición" },
+      { "texto": "Contra su resolución no podrá interponerse de nuevo dicho recurso", "categoria": "Recurso potestativo de reposición" },
+      { "texto": "Se dirige contra actos firmes en vía administrativa", "categoria": "Recurso extraordinario de revisión" },
+      { "texto": "Requiere que concurra alguna de las causas tasadas del art. 125.1", "categoria": "Recurso extraordinario de revisión" },
+      { "texto": "Puede inadmitirse a trámite motivadamente sin dictamen del Consejo de Estado", "categoria": "Recurso extraordinario de revisión" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada plazo según su duración: 1 mes o 3 meses",
+    "ref": "Ley 39/2015, arts. 122, 124 y 126",
+    "categorias": ["1 mes", "3 meses"],
+    "items": [
+      { "texto": "Plazo de interposición del recurso de alzada (acto expreso)", "categoria": "1 mes" },
+      { "texto": "Plazo de interposición del recurso de reposición (acto expreso)", "categoria": "1 mes" },
+      { "texto": "Plazo máximo para dictar y notificar la resolución del recurso de reposición", "categoria": "1 mes" },
+      { "texto": "Plazo máximo para dictar y notificar la resolución del recurso de alzada", "categoria": "3 meses" },
+      { "texto": "Plazo máximo para dictar y notificar la resolución del recurso extraordinario de revisión", "categoria": "3 meses" },
+      { "texto": "Plazo de interposición del recurso de revisión (causas b, c y d del art. 125.1)", "categoria": "3 meses" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Indica cuáles son causas tasadas del recurso extraordinario de revisión (art. 125.1) y cuáles no lo son",
+    "ref": "Ley 39/2015, art. 125.1",
+    "categorias": ["Es causa del art. 125.1", "NO es causa del art. 125.1"],
+    "items": [
+      { "texto": "Error de hecho que resulte de los propios documentos incorporados al expediente", "categoria": "Es causa del art. 125.1" },
+      { "texto": "Documentos de valor esencial posteriores que evidencien el error de la resolución recurrida", "categoria": "Es causa del art. 125.1" },
+      { "texto": "Documentos o testimonios declarados falsos por sentencia judicial firme", "categoria": "Es causa del art. 125.1" },
+      { "texto": "Prevaricación, cohecho, violencia, maquinación fraudulenta u otra conducta punible declarada por sentencia firme", "categoria": "Es causa del art. 125.1" },
+      { "texto": "Error de derecho en la aplicación o interpretación de la norma", "categoria": "NO es causa del art. 125.1" },
+      { "texto": "Aparición de nuevos testigos no oídos durante el procedimiento", "categoria": "NO es causa del art. 125.1" },
+      { "texto": "Infracción de las normas reguladoras del procedimiento administrativo", "categoria": "NO es causa del art. 125.1" },
+      { "texto": "Incongruencia de la resolución con las pretensiones formuladas por el interesado", "categoria": "NO es causa del art. 125.1" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada supuesto de interposición según si tiene plazo cerrado o puede interponerse en cualquier momento",
+    "ref": "Ley 39/2015, arts. 122, 124 y 125",
+    "categorias": ["Puede interponerse en cualquier momento", "Tiene plazo cerrado de interposición"],
+    "items": [
+      { "texto": "Recurso de alzada contra acto presunto (silencio administrativo)", "categoria": "Puede interponerse en cualquier momento" },
+      { "texto": "Recurso de reposición contra acto presunto (no expreso)", "categoria": "Puede interponerse en cualquier momento" },
+      { "texto": "Recurso de alzada contra acto expreso (1 mes)", "categoria": "Tiene plazo cerrado de interposición" },
+      { "texto": "Recurso de reposición contra acto expreso (1 mes)", "categoria": "Tiene plazo cerrado de interposición" },
+      { "texto": "Recurso extraordinario de revisión por error de hecho (4 años)", "categoria": "Tiene plazo cerrado de interposición" },
+      { "texto": "Recurso extraordinario de revisión por causas b), c) o d) del art. 125.1 (3 meses)", "categoria": "Tiene plazo cerrado de interposición" }
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena estos plazos del régimen de recursos administrativos de menor a mayor duración",
+    "ref": "Ley 39/2015, arts. 121, 122, 124 y 125",
+    "items": [
+      "10 días: plazo para remitir el recurso de alzada al órgano competente",
+      "1 mes: plazo máximo para resolver el recurso de reposición",
+      "3 meses: plazo máximo para resolver el recurso de alzada",
+      "4 años: plazo de interposición del recurso de revisión por error de hecho (art. 125.1.a)"
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena las fases de tramitación del recurso de alzada cuando se interpone ante el órgano que dictó el acto",
+    "ref": "Ley 39/2015, arts. 121 y 122",
+    "items": [
+      "El interesado interpone recurso de alzada ante el órgano que dictó el acto impugnado",
+      "El órgano que dictó el acto remite el recurso al superior jerárquico en 10 días, con informe y copia del expediente",
+      "El órgano superior jerárquico competente dicta y notifica la resolución (plazo máximo: 3 meses)",
+      "Contra la resolución no cabe otro recurso administrativo, salvo el extraordinario de revisión"
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada artículo de la Ley 39/2015 con su contenido",
+    "ref": "Ley 39/2015, arts. 121-126",
+    "pares": [
+      { "izquierda": "Art. 121", "derecha": "Objeto del recurso de alzada" },
+      { "izquierda": "Art. 122", "derecha": "Plazos del recurso de alzada" },
+      { "izquierda": "Art. 123", "derecha": "Objeto y naturaleza del recurso de reposición" },
+      { "izquierda": "Art. 124", "derecha": "Plazos del recurso de reposición" },
+      { "izquierda": "Art. 125", "derecha": "Objeto y plazos del recurso extraordinario de revisión" },
+      { "izquierda": "Art. 126", "derecha": "Resolución del recurso extraordinario de revisión" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada situación con la vía de impugnación que procede según la Ley 39/2015",
+    "ref": "Ley 39/2015, arts. 121, 123 y 125",
+    "pares": [
+      { "izquierda": "Acto que no pone fin a la vía administrativa", "derecha": "Recurso de alzada" },
+      { "izquierda": "Acto que pone fin a la vía administrativa (opción potestativa en vía administrativa)", "derecha": "Recurso de reposición" },
+      { "izquierda": "Acto que pone fin a la vía administrativa (impugnación directa en sede judicial)", "derecha": "Recurso contencioso-administrativo" },
+      { "izquierda": "Acto firme en vía administrativa cuando concurre causa del art. 125.1", "derecha": "Recurso extraordinario de revisión" }
+    ]
+  }
+]
