@@ -1855,13 +1855,11 @@ class Component extends DCLogic {
     const ddComprobado = S.ddComprobado;
 
     let ddCategoriasView=[], ddPoolView=[], ddOrdenView=[], ddIzqView=[], ddDerView=[];
-    // Paleta de colores para marcar visualmente categorías/parejas — pensado para que
+    // Azul oscuro para marcar visualmente lo ya colocado/emparejado — pensado para que
     // el móvil (donde el drag nativo no funciona por tacto) pueda resolver el ejercicio
-    // solo con toques, viendo a simple vista qué va con qué por color, sin depender de arrastrar.
-    const DD_PALETTE = ['#6B46E5','#2E9E6B','#E0922F','#D6455B','#1E88A8','#8E5B3D','#C2469B','#4C6EF5','#3D8B6E','#B5651D'];
+    // solo con toques, sin depender de arrastrar.
+    const DD_AZUL = '#1E3A8A';
     if (ddEjercicio && ddEjercicio.tipo==='categorizar') {
-      const catColor = {};
-      (ddEjercicio.categorias||[]).forEach((c,i)=> catColor[c] = DD_PALETTE[i % DD_PALETTE.length]);
       const itemStyle = (it, asignada) => {
         const sel = ddEstado.sel===it.texto;
         if (ddComprobado) {
@@ -1870,7 +1868,7 @@ class Component extends DCLogic {
           return `background:${c}18; border:1.5px solid ${c}; color:${c}; border-radius:10px; padding:9px 14px; font-size:13px; font-weight:600; font-family:inherit; margin:4px;`;
         }
         if (sel) return `background:${C.v}; border:1.5px solid ${C.v}; color:#fff; border-radius:10px; padding:9px 14px; font-size:13px; font-weight:700; font-family:inherit; margin:4px;`;
-        if (asignada) { const c = catColor[asignada]; return `background:${c}18; border:1.5px solid ${c}; color:${c}; border-radius:10px; padding:9px 14px; font-size:13px; font-weight:600; font-family:inherit; margin:4px;`; }
+        if (asignada) return `background:${DD_AZUL}18; border:1.5px solid ${DD_AZUL}; color:${DD_AZUL}; border-radius:10px; padding:9px 14px; font-size:13px; font-weight:600; font-family:inherit; margin:4px;`;
         return `background:#fff; border:1.5px solid #ECECF1; color:#1B1B22; border-radius:10px; padding:9px 14px; font-size:13px; font-weight:600; font-family:inherit; margin:4px;`;
       };
       ddPoolView = (ddEjercicio.items||[]).filter(it => !ddEstado.asign || !ddEstado.asign[it.texto]).map(it => ({
@@ -1880,8 +1878,8 @@ class Component extends DCLogic {
       }));
       ddCategoriasView = (ddEjercicio.categorias||[]).map(c=>({
         nombre:c, onClick:()=>this.ddAsignarCategoria(c),
-        headerStyle:`font-weight:700; font-size:12.5px; color:${catColor[c]}; margin-bottom:8px;`,
-        zoneStyle:`background:${catColor[c]}0D; border:2px dashed ${catColor[c]}55; border-radius:12px; padding:12px; min-height:70px;`,
+        headerStyle:`font-weight:700; font-size:12.5px; color:#5A5A66; margin-bottom:8px;`,
+        zoneStyle:`background:#FAFAFC; border:2px dashed #D8D8E2; border-radius:12px; padding:12px; min-height:70px;`,
         itemsView: (ddEjercicio.items||[]).filter(it => ddEstado.asign && ddEstado.asign[it.texto]===c).map(it => ({
           texto: it.texto,
           onClick: (e)=> { e.stopPropagation(); this.ddQuitarItem(it.texto); },
@@ -1902,11 +1900,12 @@ class Component extends DCLogic {
     } else if (ddEjercicio && ddEjercicio.tipo==='emparejar') {
       const izqIndex = {};
       (ddEjercicio.pares||[]).forEach((p,i)=> izqIndex[p.izquierda] = i);
-      const pairColor = (izq) => DD_PALETTE[(izqIndex[izq]||0) % DD_PALETTE.length];
       const parejas = ddEstado.parejas || {};
       const derToIzq = {};
       Object.keys(parejas).forEach(izq => { derToIzq[parejas[izq]] = izq; });
-      ddIzqView = (ddEjercicio.pares||[]).map(p=>{
+      const derLetra = {};
+      (ddEstado.derechaOrden||[]).forEach((texto,i)=> derLetra[texto] = String.fromCharCode(97+i));
+      ddIzqView = (ddEjercicio.pares||[]).map((p,i)=>{
         const asignada = parejas[p.izquierda];
         const sel = ddEstado.selIzq===p.izquierda;
         let style;
@@ -1917,27 +1916,28 @@ class Component extends DCLogic {
         } else if (sel) {
           style = `background:${C.v}; border:1.5px solid ${C.v}; color:#fff; font-weight:700;`;
         } else if (asignada) {
-          const c = pairColor(p.izquierda);
-          style = `background:${c}18; border:1.5px solid ${c}; color:${c};`;
+          style = `background:${DD_AZUL}18; border:1.5px solid ${DD_AZUL}; color:${DD_AZUL};`;
         } else {
           style = `background:#fff; border:1.5px solid #ECECF1; color:#1B1B22;`;
         }
+        const numero = (i+1) + '. ';
         return {
-          texto: p.izquierda + (asignada && !ddComprobado ? ` ↔ ${asignada}` : ''),
+          texto: numero + p.izquierda + (asignada && !ddComprobado ? ` → (${derLetra[asignada]||'?'})` : ''),
           textoRaw: p.izquierda,
           onClick: ()=> (asignada && !ddComprobado) ? this.ddQuitarPareja(p.izquierda) : this.ddSeleccionarIzquierda(p.izquierda),
           style: `${style} border-radius:10px; padding:10px 14px; font-size:13px; font-weight:600; font-family:inherit; margin-bottom:6px; display:block; width:100%; text-align:left;`,
         };
       });
-      ddDerView = (ddEstado.derechaOrden||[]).map(texto=>{
+      ddDerView = (ddEstado.derechaOrden||[]).map((texto,i)=>{
         const izqMatched = derToIzq[texto];
         const usada = !!izqMatched;
-        const c = usada ? pairColor(izqMatched) : null;
         const style = usada
-          ? `background:${c}18; border:1.5px solid ${c}; color:${c};`
+          ? `background:${DD_AZUL}18; border:1.5px solid ${DD_AZUL}; color:${DD_AZUL};`
           : `background:#fff; border:1.5px solid #ECECF1; color:#1B1B22;`;
+        const letra = String.fromCharCode(97+i) + '. ';
+        const numero = usada ? (izqIndex[izqMatched]+1) : null;
         return {
-          texto,
+          texto: letra + texto + (usada ? ` → (${numero})` : ''),
           onClick: ()=> this.ddEmparejarCon(texto),
           style: `${style} border-radius:10px; padding:10px 14px; font-size:13px; font-weight:600; font-family:inherit; margin-bottom:6px; display:block; width:100%; text-align:left;`,
         };
