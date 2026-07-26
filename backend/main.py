@@ -15,7 +15,7 @@ from config import settings
 from database import engine
 from logging_config import configure_logging
 from rate_limit import limiter
-from routers import asistente, auth, notas, ranking, sesiones, stats, tarjetas, temas
+from routers import asistente, auth, notas, oposiciones, ranking, sesiones, stats, tarjetas, temas
 
 configure_logging()
 logger = logging.getLogger("andatest")
@@ -45,6 +45,7 @@ app.add_middleware(
 
 app.include_router(auth.router, prefix="/api")
 app.include_router(temas.router, prefix="/api")
+app.include_router(oposiciones.router, prefix="/api")
 app.include_router(sesiones.router, prefix="/api")
 app.include_router(stats.router, prefix="/api")
 app.include_router(ranking.router, prefix="/api")

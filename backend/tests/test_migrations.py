@@ -11,6 +11,7 @@ BACKEND_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 EXPECTED_TABLES = {
     "tema", "usuario", "asistentemensaje", "asistenteuso", "notadia",
     "pregunta", "sesion", "tarjeta", "respuesta", "tarjetaestado",
+    "oposicion", "usuariooposicion",
 }
 
 
@@ -41,6 +42,12 @@ def test_alembic_upgrade_head_crea_el_esquema_completo_en_bd_limpia():
 
             usuario_cols = {row[1] for row in con.execute("pragma table_info(usuario)")}
             assert {"pregunta_seguridad", "respuesta_seguridad_hash"} <= usuario_cols
+
+            tema_cols = {row[1] for row in con.execute("pragma table_info(tema)")}
+            assert "oposicion_id" in tema_cols
+
+            oposiciones = list(con.execute("select id, slug from oposicion"))
+            assert (1, "aux-admin-c2-uhu") in oposiciones
         finally:
             con.close()
     finally:

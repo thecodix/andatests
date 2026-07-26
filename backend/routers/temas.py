@@ -10,7 +10,7 @@ from sqlmodel import Session, func, select
 
 from auth import get_current_user
 from database import get_session
-from models import Pregunta, Respuesta, Sesion, Tarjeta, Tema, Usuario
+from models import Pregunta, Respuesta, Sesion, Tarjeta, Tema, Usuario, UsuarioOposicion
 
 router = APIRouter(tags=["contenido"])
 
@@ -67,8 +67,28 @@ class TestEspecialOut(BaseModel):
 
 
 @router.get("/temas", response_model=list[TemaOut])
-def get_temas(session: Session = Depends(get_session), _: Usuario = Depends(get_current_user)):
-    temas = session.exec(select(Tema).order_by(Tema.orden)).all()
+def get_temas(
+    oposicion_id: Optional[int] = Query(default=None),
+    session: Session = Depends(get_session),
+    current_user: Usuario = Depends(get_current_user),
+):
+    """Por defecto devuelve los temas de la oposición favorita del usuario.
+    Si se pasa `oposicion_id`, tiene que ser una de las que el usuario ha
+    añadido a su cuenta (no se puede "espiar" contenido de una oposición
+    ajena solo cambiando el query param)."""
+    mis_oposiciones = session.exec(
+        select(UsuarioOposicion).where(UsuarioOposicion.usuario_id == current_user.id)
+    ).all()
+    ids_permitidos = {uo.oposicion_id for uo in mis_oposiciones}
+    if oposicion_id is None:
+        favorita = next((uo for uo in mis_oposiciones if uo.favorita), None)
+        oposicion_id = favorita.oposicion_id if favorita else 1
+    elif oposicion_id not in ids_permitidos:
+        raise HTTPException(403, "No tienes añadida esa oposición")
+
+    temas = session.exec(
+        select(Tema).where(Tema.oposicion_id == oposicion_id).order_by(Tema.orden)
+    ).all()
     result = []
     for t in temas:
         count = session.exec(select(func.count()).where(Pregunta.tema_id == t.id)).one()

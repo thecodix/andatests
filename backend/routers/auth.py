@@ -11,7 +11,7 @@ from auth import (
     verify_respuesta_seguridad,
 )
 from database import get_session
-from models import Usuario
+from models import Oposicion, Usuario, UsuarioOposicion
 from rate_limit import limiter
 
 router = APIRouter(prefix="/auth", tags=["auth"])
@@ -25,6 +25,10 @@ class RegisterIn(BaseModel):
     email: EmailStr
     nombre: str
     password: str
+    # Por defecto la oposición ya existente: el frontend todavía no manda este
+    # campo (selector pendiente), así que el registro actual sigue funcionando
+    # igual hasta que se añada el selector de oposición al formulario.
+    oposicion_id: int = 1
     pregunta_seguridad: str
     respuesta_seguridad: str
 
@@ -99,6 +103,9 @@ def register(request: Request, body: RegisterIn, session: Session = Depends(get_
     existing = session.exec(select(Usuario).where(Usuario.email == body.email)).first()
     if existing:
         raise HTTPException(status.HTTP_409_CONFLICT, "Email ya registrado")
+    oposicion = session.get(Oposicion, body.oposicion_id)
+    if not oposicion:
+        raise HTTPException(status.HTTP_404_NOT_FOUND, "Oposición no encontrada")
     user = Usuario(
         email=body.email,
         nombre=body.nombre,
@@ -109,6 +116,8 @@ def register(request: Request, body: RegisterIn, session: Session = Depends(get_
     session.add(user)
     session.commit()
     session.refresh(user)
+    session.add(UsuarioOposicion(usuario_id=user.id, oposicion_id=oposicion.id, favorita=True))
+    session.commit()
     return TokenOut(access_token=create_access_token(user.id), nombre=user.nombre)
 
 

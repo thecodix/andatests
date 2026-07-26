@@ -22,16 +22,26 @@ os.close(_fd)
 os.environ["DATABASE_URL"] = f"sqlite:///{_DB_PATH}"
 
 from fastapi.testclient import TestClient  # noqa: E402
-from sqlmodel import SQLModel  # noqa: E402
+from sqlmodel import Session, SQLModel  # noqa: E402
 
 import main as main_module  # noqa: E402
 from database import engine  # noqa: E402
+from models import Oposicion  # noqa: E402
 from rate_limit import limiter  # noqa: E402
 
 
 @pytest.fixture()
 def client():
     SQLModel.metadata.create_all(engine)
+    with Session(engine) as s:
+        # Espeja el backfill que hace la migración de Alembic en producción:
+        # la oposición 1 (la única existente hasta ahora) siempre existe.
+        s.add(Oposicion(
+            id=1,
+            slug="aux-admin-c2-uhu",
+            nombre="Escala Auxiliar Administrativa C2 · Universidad de Huelva",
+        ))
+        s.commit()
     with TestClient(main_module.app) as test_client:
         yield test_client
     SQLModel.metadata.drop_all(engine)

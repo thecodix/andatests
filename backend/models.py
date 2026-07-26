@@ -25,13 +25,26 @@ class FeedbackMode(str, Enum):
 # ---------------------------------------------------------------------------
 
 
+class Oposicion(SQLModel, table=True):
+    """Agrupa un temario/banco de preguntas independiente (p.ej. una oposición distinta
+    a la Escala Auxiliar Administrativa C2 de la UHU). Cada `Tema` pertenece a una."""
+    id: int = Field(primary_key=True)
+    slug: str = Field(unique=True, index=True)
+    nombre: str
+    descripcion: Optional[str] = None
+
+    temas: list["Tema"] = Relationship(back_populates="oposicion")
+
+
 class Tema(SQLModel, table=True):
     id: int = Field(primary_key=True)
     titulo: str
     ley: str
     orden: int
+    oposicion_id: int = Field(default=1, foreign_key="oposicion.id", index=True)
 
     preguntas: list["Pregunta"] = Relationship(back_populates="tema")
+    oposicion: Optional[Oposicion] = Relationship(back_populates="temas")
 
 
 class Pregunta(SQLModel, table=True):
@@ -60,6 +73,22 @@ class Usuario(SQLModel, table=True):
     created_at: datetime = Field(default_factory=datetime.utcnow)
 
     sesiones: list["Sesion"] = Relationship(back_populates="usuario")
+    oposiciones: list["UsuarioOposicion"] = Relationship(back_populates="usuario")
+
+
+class UsuarioOposicion(SQLModel, table=True):
+    """Oposiciones que un usuario ha añadido a su cuenta (puede tener varias);
+    `favorita` marca cuál se carga por defecto al entrar. Solo una favorita
+    por usuario, se garantiza a nivel de aplicación, no de constraint de BD."""
+    __table_args__ = (UniqueConstraint("usuario_id", "oposicion_id", name="uq_usuario_oposicion"),)
+
+    id: Optional[int] = Field(default=None, primary_key=True)
+    usuario_id: int = Field(foreign_key="usuario.id", index=True)
+    oposicion_id: int = Field(foreign_key="oposicion.id", index=True)
+    favorita: bool = Field(default=False)
+    created_at: datetime = Field(default_factory=datetime.utcnow)
+
+    usuario: Optional[Usuario] = Relationship(back_populates="oposiciones")
 
 
 class Sesion(SQLModel, table=True):
