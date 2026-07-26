@@ -25,9 +25,9 @@ class RegisterIn(BaseModel):
     email: EmailStr
     nombre: str
     password: str
-    # Por defecto la oposición ya existente: el frontend todavía no manda este
-    # campo (selector pendiente), así que el registro actual sigue funcionando
-    # igual hasta que se añada el selector de oposición al formulario.
+    # Por defecto la oposición ya existente (id=1): si el frontend no manda
+    # este campo (p.ej. llamadas directas a la API), el registro sigue
+    # funcionando igual que antes de introducir el selector de oposición.
     oposicion_id: int = 1
     pregunta_seguridad: str
     respuesta_seguridad: str

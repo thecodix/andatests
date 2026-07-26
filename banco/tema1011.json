@@ -1,0 +1,650 @@
+[
+  {
+    "q": "El artículo 41 de la Constitución Española dice:",
+    "o": [
+      "El Estado garantizará un régimen público de Seguridad Social para todos los españoles, que garantice la asistencia y prestaciones sociales suficientes ante situaciones de necesidad, especialmente en caso de desempleo. La asistencia y prestaciones complementarias serán libres.",
+      "Los poderes públicos garantizarán un régimen público unitario de Seguridad Social para todos los españoles, que garantice la atención sanitaria y prestaciones sociales suficientes ante situaciones de necesidad, especialmente en caso de desempleo. La asistencia y prestaciones complementarias serán libres.",
+      "Los poderes públicos mantendrán un régimen público de Seguridad Social para todos los ciudadanos, que garantice la asistencia y prestaciones sociales suficientes ante situaciones de necesidad, especialmente en caso de desempleo. La asistencia y prestaciones complementarias serán libres.",
+      "Ninguna es cierta"
+    ],
+    "c": 2,
+    "ref": "Art. 41 CE",
+    "exp": "El art. 41 CE habla de \"poderes públicos\" (no solo el Estado) y de \"todos los ciudadanos\" (no solo los españoles), manteniendo un régimen público de Seguridad Social."
+  },
+  {
+    "q": "La norma que aprueba el texto refundido de la Ley General de la Seguridad Social es:",
+    "o": [
+      "Real Decreto-Ley 6/2015, de 30 de octubre",
+      "Real Decreto Legislativo 8/2015, de 30 de octubre",
+      "Ley 12/2015, de 30 de octubre",
+      "Ninguna es cierta"
+    ],
+    "c": 1,
+    "ref": "RDLeg 8/2015",
+    "exp": "El texto refundido de la LGSS se aprueba por el Real Decreto Legislativo 8/2015, de 30 de octubre."
+  },
+  {
+    "q": "Las Cortes formaron una comisión denominada el Pacto de Toledo para estudiar la situación del Sistema de Seguridad Social y proponer líneas de actuación y recomendaciones diseñadas para garantizar su futura sostenibilidad, ¿en qué año se publicó el primer informe?",
+    "o": [
+      "1991",
+      "1995",
+      "1997",
+      "2001"
+    ],
+    "c": 1,
+    "ref": "Pacto de Toledo",
+    "exp": "El primer informe del Pacto de Toledo se publicó en 1995."
+  },
+  {
+    "q": "Según el Real Decreto 501/2024, de 21 de mayo, por el que se desarrolla la estructura orgánica básica del Ministerio de Inclusión, Seguridad Social y Migraciones, quedan adscritos a la Secretaría de Estado de la Seguridad Social y Pensiones:",
+    "o": [
+      "El Instituto Nacional de la Seguridad Social",
+      "La Gerencia de Informática de la Seguridad Social",
+      "El Servicio Jurídico de la Administración de la Seguridad Social",
+      "Todas son ciertas"
+    ],
+    "c": 3,
+    "ref": "RD 501/2024",
+    "exp": "La clave del examen marca D (todas ciertas), aunque el propio anotador señala que a la Secretaría de Estado también quedan adscritos el Instituto Social de la Marina y la Tesorería General de la Seguridad Social, no mencionados en las opciones."
+  },
+  {
+    "q": "No forma parte del Sistema de Seguridad Social:",
+    "o": [
+      "Instituto de Mayores y Servicios Sociales",
+      "Centros de Valoración Discapacidad",
+      "Servicio Público de Empleo Estatal",
+      "Instituto Nacional de Gestión Sanitaria"
+    ],
+    "c": 1,
+    "ref": "Estructura Seguridad Social",
+    "exp": "Los Centros de Valoración de Discapacidad dependen de las Comunidades Autónomas (IMSERSO transferido), no forman parte de las entidades gestoras estatales del sistema."
+  },
+  {
+    "q": "Según el artículo 2 de la Ley General de Seguridad Social (LGSS), el sistema de la Seguridad Social, configurado por la acción protectora en sus modalidades contributiva y no contributiva, se fundamenta en los principios de:",
+    "o": [
+      "Universalidad, unidad, solidaridad e igualdad",
+      "Accesibilidad, solidaridad y universalidad",
+      "Igualdad, coordinación, solidaridad y unidad",
+      "Coordinación, eficacia, solidaridad y equidad"
+    ],
+    "c": 0,
+    "ref": "Art. 2 LGSS",
+    "exp": "El art. 2 LGSS enumera los principios de universalidad, unidad, solidaridad e igualdad."
+  },
+  {
+    "q": "Según el artículo 10 de la LGSS, NO recoge como un régimen especial:",
+    "o": [
+      "Trabajadores por cuenta propia o autónomos",
+      "Funcionarios públicos, civiles y militares",
+      "Estudiantes",
+      "Trabajadores del campo"
+    ],
+    "c": 3,
+    "ref": "Art. 10 LGSS",
+    "exp": "Los trabajadores del campo se integraron en el Régimen General (Sistema Especial Agrario), no constituyen un régimen especial propio actual."
+  },
+  {
+    "q": "Las pensiones contributivas se han revalorizado en 2025:",
+    "o": [
+      "2.5%",
+      "2.8%",
+      "3.1%",
+      "3.4%"
+    ],
+    "c": 1,
+    "ref": "Revalorización pensiones 2025",
+    "exp": "Las pensiones contributivas se revalorizaron un 2.8% en 2025."
+  },
+  {
+    "q": "Según el artículo 58 de la LGSS, sobre la Revalorización y garantía de mantenimiento del poder adquisitivo de las pensiones, recoge que todas las pensiones de Seguridad Social, en su modalidad contributiva, incluido el complemento de brecha de género, se revalorizarán al comienzo de cada año en el porcentaje equivalente al valor medio de las tasas de variación interanual expresadas en tanto por ciento del:",
+    "o": [
+      "Índice de Precios al Consumo de los doce meses previos a diciembre del año anterior",
+      "Índice de Precios al Consumo del mes en el que se aprueben los presupuestos",
+      "Índice de Precios al Consumo previsto para el año siguiente según las previsiones establecidas al respecto",
+      "Ninguna es cierta"
+    ],
+    "c": 0,
+    "ref": "Art. 58 LGSS",
+    "exp": "La revalorización se calcula sobre el valor medio de las tasas de variación interanual del IPC de los doce meses previos a diciembre del año anterior."
+  },
+  {
+    "q": "De las siguientes situaciones especiales de IT, ¿cuál ha sido la última en aprobarse?",
+    "o": [
+      "Aquellas en que pueda encontrarse la mujer en caso de menstruación incapacitante secundaria",
+      "Las debidas a la interrupción del embarazo, voluntaria o no, mientras reciba asistencia sanitaria por el Servicio Público de Salud y esté impedida para el trabajo",
+      "La de gestación de la mujer trabajadora desde el día primero de la semana trigésima novena",
+      "La situación en la que se encuentre la persona trabajadora donante de órganos o tejidos para su trasplante"
+    ],
+    "c": 3,
+    "ref": "Situaciones especiales de IT",
+    "exp": "Según la clave del examen, la situación especial de IT para personas donantes de órganos/tejidos para trasplante es la más reciente (desde marzo de 2025); la de menstruación incapacitante secundaria es de junio de 2023."
+  },
+  {
+    "q": "Respecto a la IT NO es cierto que:",
+    "o": [
+      "Uno de los requisitos es estar en situación de alta",
+      "Hay que tener cotizados 180 días dentro de los 5 años inmediatamente anteriores al hecho causante, en caso de enfermedad común",
+      "No se exige período previo de cotización en caso de accidente, sea o no de trabajo, y de enfermedad profesional",
+      "El plazo máximo es de 360 días"
+    ],
+    "c": 3,
+    "ref": "Incapacidad Temporal (IT)",
+    "exp": "El plazo máximo de la IT es de 365 días (no 360), con posibilidad de prórroga de 6 meses adicionales con carácter excepcional."
+  },
+  {
+    "q": "Para acceder al permiso de nacimiento y cuidado del menor, en los casos de acogimiento familiar debe ser de una duración:",
+    "o": [
+      "No inferior a un año",
+      "No inferior a dos años",
+      "No inferior a tres años",
+      "No se establece temporalidad"
+    ],
+    "c": 0,
+    "ref": "Permiso de nacimiento y cuidado del menor",
+    "exp": "En acogimiento familiar se exige que este tenga una duración no inferior a un año."
+  },
+  {
+    "q": "Continuando con el permiso por nacimiento y cuidado del menor, el tiempo de cotización exigido para la persona trabajadora menor de 21 años es:",
+    "o": [
+      "90 días dentro de los 7 años inmediatamente anteriores al momento del inicio del descanso o, alternativamente",
+      "180 días cotizados a lo largo de su vida laboral con anterioridad a dicha fecha",
+      "180 días dentro de los 7 años inmediatamente anteriores al momento del inicio del descanso",
+      "No se exige periodo mínimo de cotización"
+    ],
+    "c": 3,
+    "ref": "Permiso de nacimiento y cuidado del menor",
+    "exp": "Para las personas trabajadoras menores de 21 años en la fecha del parto/hecho causante no se exige periodo mínimo de cotización."
+  },
+  {
+    "q": "Es posible adelantar 4 semanas el permiso por nacimiento y cuidado del menor para:",
+    "o": [
+      "Cualquiera de los progenitores, pero solo lo disfrutará uno de ellos",
+      "Cualquiera de los progenitores, y podrán disfrutarlo a la vez",
+      "Solo para la madre biológica",
+      "Ninguna es cierta"
+    ],
+    "c": 2,
+    "ref": "Permiso de nacimiento y cuidado del menor",
+    "exp": "El adelanto de 4 semanas antes de la fecha previsible del parto está previsto para la madre biológica."
+  },
+  {
+    "q": "Tras los cambios de normativa, el permiso de nacimiento y cuidado del menor tendrá una duración máxima de 19 semanas, pero en los casos de monoparentalidad será de:",
+    "o": [
+      "24 semanas",
+      "26 semanas",
+      "28 semanas",
+      "32 semanas"
+    ],
+    "c": 3,
+    "ref": "Permiso de nacimiento y cuidado del menor - familias monoparentales",
+    "exp": "En familias monoparentales el permiso se amplía hasta las 32 semanas."
+  },
+  {
+    "q": "El Real Decreto-ley 9/2025, de 29 de julio, establece dos semanas, para el cuidado del menor, que podrán distribuirse a voluntad de la persona trabajadora, en períodos semanales de forma acumulada o interrumpida hasta que el hijo, la hija o el menor cumpla los:",
+    "o": [
+      "12 meses",
+      "Dos años",
+      "Cinco años",
+      "Ocho años"
+    ],
+    "c": 3,
+    "ref": "RDL 9/2025",
+    "exp": "Las dos semanas adicionales de cuidado podrán disfrutarse hasta que el menor cumpla ocho años."
+  },
+  {
+    "q": "De las siguientes opciones cual identificas como la Incapacidad permanente que inhabilita al trabajador para la realización de todas o de las fundamentales tareas de su profesión habitual, pero permite que pueda dedicarse a otra distinta:",
+    "o": [
+      "Incapacidad permanente parcial",
+      "Incapacidad permanente total",
+      "Incapacidad permanente absoluta",
+      "Gran incapacidad"
+    ],
+    "c": 1,
+    "ref": "Incapacidad permanente total",
+    "exp": "La incapacidad permanente total inhabilita para la profesión habitual pero permite dedicarse a otra distinta."
+  },
+  {
+    "q": "La Incapacidad permanente total permite solicitar un incremento del 20% en la cuantía de la pensión al cumplir:",
+    "o": [
+      "50 años",
+      "55 años",
+      "60 años",
+      "65 años"
+    ],
+    "c": 1,
+    "ref": "Incapacidad permanente total cualificada",
+    "exp": "El incremento del 20% (IPT cualificada) puede solicitarse al cumplir 55 años."
+  },
+  {
+    "q": "Para acceder a la pensión de jubilación íntegra con 65 años es preciso tener una cotización de:",
+    "o": [
+      "35 años",
+      "38 años y medio",
+      "40 años",
+      "42 años y medio"
+    ],
+    "c": 1,
+    "ref": "Jubilación - periodo de cotización",
+    "exp": "Para jubilarse con 65 años y percibir el 100% de la base reguladora se exigen 38 años y medio cotizados."
+  },
+  {
+    "q": "Sobre el periodo de cómputo para calcular la pensión de jubilación es CIERTO, que:",
+    "o": [
+      "El periodo de carencia exigido es de 15 años",
+      "Para hacer el cálculo de la pensión se utilizan los últimos 25 años",
+      "A partir de 2027, además, se podrá optar por considerar en el periodo de cómputo los últimos 29 años, eliminando los 2 peores años de cotización",
+      "Todas son ciertas"
+    ],
+    "c": 3,
+    "ref": "Jubilación - base reguladora",
+    "exp": "Las tres afirmaciones son ciertas: carencia de 15 años, cómputo de los últimos 25 años, y a partir de 2027 la opción de los últimos 29 años eliminando los 2 peores."
+  },
+  {
+    "q": "La pensión de jubilación anticipada por discapacidad del 65% se realiza aplicando unos coeficientes reductores de la edad, pero en ningún caso dará lugar a que el interesado pueda acceder a la pensión de jubilación con una edad inferior a la de:",
+    "o": [
+      "Cincuenta y dos años",
+      "Cincuenta y seis años",
+      "Cincuenta y ocho años",
+      "Sesenta años"
+    ],
+    "c": 0,
+    "ref": "Jubilación anticipada por discapacidad",
+    "exp": "El límite mínimo de edad, aplicando los coeficientes reductores, es de cincuenta y dos años."
+  },
+  {
+    "q": "Continuando con la pregunta anterior, el Real Decreto 1539/2003, de 5 de diciembre, por el que se establecen coeficientes reductores de la edad de jubilación a favor de los trabajadores que acreditan un grado importante de discapacidad, establece que para aplicar el coeficiente reductor del 0.50 es necesario tener reconocido:",
+    "o": [
+      "Un grado de discapacidad del 65%",
+      "Un grado de discapacidad del 75%",
+      "Un grado de discapacidad del 65% y la necesidad del concurso de otra persona para la realización de los actos esenciales de la vida ordinaria",
+      "Un grado de discapacidad del 75% y la necesidad del concurso de otra persona para la realización de los actos esenciales de la vida ordinaria"
+    ],
+    "c": 2,
+    "ref": "RD 1539/2003",
+    "exp": "El coeficiente reductor de 0,50 exige un grado de discapacidad del 65% junto con la necesidad de concurso de otra persona para actos esenciales de la vida ordinaria."
+  },
+  {
+    "q": "¿Qué norma desarrolla la Ley General de la Seguridad Social en cuanto a la anticipación de la jubilación de los trabajadores con discapacidad en grado igual o superior al 45 por ciento?",
+    "o": [
+      "Ley 14/2007, de 4 de diciembre",
+      "Ley 26/2008, de 4 de diciembre",
+      "Real Decreto 1851/2009, de 4 de diciembre",
+      "Real Decreto 173/2011, de 4 de diciembre"
+    ],
+    "c": 2,
+    "ref": "RD 1851/2009",
+    "exp": "El RD 1851/2009 desarrolla esta anticipación de jubilación; el precepto correspondiente en la LGSS actual es el art. 206 bis (antes art. 161 en el texto refundido anterior)."
+  },
+  {
+    "q": "Continuando con la pregunta anterior, esta norma establece que su contenido se aplicará a las personas trabajadoras por cuenta ajena y por cuenta propia incluidas en cualquiera de los regímenes que integran el sistema de la Seguridad Social que acrediten que, a lo largo de su vida laboral, han trabajado un tiempo efectivo equivalente, al menos, al período mínimo de cotización que se exige para poder acceder a la pensión de jubilación, estando afectados durante ese tiempo por alguna de las patologías generadoras de discapacidad enumeradas en el anexo y dentro de ese período durante:",
+    "o": [
+      "Al menos cinco años con un grado de discapacidad igual o superior al 45 por ciento, y que una de las patologías específicas alcance un 33%",
+      "Al menos diez años con un grado de discapacidad igual o superior al 45 por ciento, y que una de las patologías específicas alcance un 45%, en los últimos cinco años",
+      "Al menos cinco años con un grado de discapacidad igual o superior al 45 por ciento, y que incluya una de las patologías establecidas",
+      "Ninguna es correcta"
+    ],
+    "c": 0,
+    "ref": "RD 1851/2009",
+    "exp": "Se exige al menos cinco años con discapacidad igual o superior al 45%, con alguna patología específica alcanzando el 33%."
+  },
+  {
+    "q": "En relación a la pensión de viudedad de parejas de hecho se reconocerá como pareja de hecho la constituida, con análoga relación de afectividad a la conyugal, por quienes, no hallándose impedidos para contraer matrimonio, no tengan vínculo matrimonial con otra persona ni constituida pareja de hecho, y acrediten, mediante el correspondiente certificado de empadronamiento, una convivencia estable y notoria con carácter inmediato al fallecimiento del causante y con una duración ininterrumpida, salvo que existan hijos en común, de:",
+    "o": [
+      "No inferior a dos años",
+      "No inferior a tres años",
+      "No inferior a cuatro años",
+      "No inferior a cinco años"
+    ],
+    "c": 3,
+    "ref": "Pensión de viudedad - parejas de hecho",
+    "exp": "Se exige una convivencia estable y notoria de duración ininterrumpida no inferior a cinco años."
+  },
+  {
+    "q": "La pensión de orfandad podrá percibirse hasta los 25 años, en el caso de que el huérfano no efectúe un trabajo lucrativo por cuenta ajena o propia, o cuando realizándolo, los ingresos que obtenga resulten inferiores, en cómputo anual, a la cuantía vigente:",
+    "o": [
+      "Del IPREM",
+      "Del SMI",
+      "De la cuantía anual de la PNC",
+      "De la cuantía anual de la pensión mínima de la seguridad social"
+    ],
+    "c": 1,
+    "ref": "Pensión de orfandad",
+    "exp": "El límite de ingresos para mantener la pensión de orfandad hasta los 25 años se referencia al SMI vigente."
+  },
+  {
+    "q": "La prestación de orfandad establece que tendrán derecho, en régimen de igualdad, cada uno de los hijos e hijas de la causante fallecida, cuando el fallecimiento se hubiera producido por violencia contra la mujer, y se hallen en circunstancias equiparables a una orfandad absoluta sin reunir los requisitos para causar una pensión de orfandad. La cuantía de esta prestación será:",
+    "o": [
+      "El 70% de su base reguladora, siempre que los rendimientos de la unidad familiar de convivencia, dividido por el número de miembros, no superen en cómputo anual el 75% del SMI vigente, excluida la parte proporcional de las pagas extraordinarias",
+      "El 50% de su base reguladora, siempre que los rendimientos de la unidad familiar de convivencia, dividido por el número de miembros, no superen en cómputo anual el 100% del SMI vigente, excluida la parte proporcional de las pagas extraordinarias",
+      "El 40% de su base reguladora, siempre que los rendimientos de la unidad familiar de convivencia, dividido por el número de miembros, no superen en cómputo anual el 70% del SMI vigente, excluida la parte proporcional de las pagas extraordinarias",
+      "Ninguna es correcta"
+    ],
+    "c": 0,
+    "ref": "Prestación de orfandad - víctimas de violencia contra la mujer",
+    "exp": "La cuantía de esta prestación especial de orfandad es del 70% de la base reguladora, con el límite de ingresos del 75% del SMI vigente."
+  },
+  {
+    "q": "Según el artículo 230 de la LGSS, el derecho al reconocimiento de las prestaciones por muerte y supervivencia, con excepción del auxilio por defunción, tiene una prescripción de:",
+    "o": [
+      "Tres meses desde el hecho causante",
+      "Seis meses desde el hecho causante",
+      "Un año desde el hecho causante",
+      "Ninguna es cierta, el derecho será imprescriptible"
+    ],
+    "c": 3,
+    "ref": "Art. 230 LGSS",
+    "exp": "El derecho al reconocimiento de las prestaciones por muerte y supervivencia (salvo el auxilio por defunción) es imprescriptible."
+  },
+  {
+    "q": "En relación a la prestación familiar por hijo a cargo, para acceder a la cuantía máxima en caso de discapacidad debe contar con:",
+    "o": [
+      "65% de discapacidad y algún grado de dependencia",
+      "75% de discapacidad y algún grado de dependencia",
+      "Solo necesita el 75% de discapacidad",
+      "Ninguna es correcta"
+    ],
+    "c": 1,
+    "ref": "Prestación familiar por hijo a cargo",
+    "exp": "La cuantía máxima exige un 75% de discapacidad junto con algún grado de dependencia."
+  },
+  {
+    "q": "Continuando con la pregunta anterior, la cuantía de esta modalidad es de:",
+    "o": [
+      "746.60€ mensuales por 12 pagas",
+      "751.60€ mensuales por 14 pagas",
+      "725.60€ mensuales por 12 pagas",
+      "714.60€ mensuales por 14 pagas"
+    ],
+    "c": 2,
+    "ref": "Prestación familiar por hijo a cargo - cuantía",
+    "exp": "La cuantía de esta modalidad (75% discapacidad + dependencia) es de 725,60€ mensuales por 12 pagas."
+  },
+  {
+    "q": "La prestación familiar por parto múltiple establece una cuantía para los casos de nacimiento de 3 hijos de:",
+    "o": [
+      "Cuatro veces el importe mensual del SMI",
+      "Cuatro veces el importe anual del SMI",
+      "Ocho veces el importe mensual del SMI",
+      "Cuatro veces el importe anual del SMI"
+    ],
+    "c": 2,
+    "ref": "Prestación familiar por parto múltiple",
+    "exp": "Según la clave del examen, para 3 hijos corresponden ocho veces el SMI mensual (dos nacimientos suponen 4 veces, y 4 o más hijos suponen 12 veces)."
+  },
+  {
+    "q": "La Ley 19/2021, de 20 de diciembre, por la que se establece el ingreso mínimo vital, establece en su artículo 4 que no se exigirá el requisito de tener al menos 23 años, a las personas entre 18 y 22 años que (selecciona la respuesta INCORRECTA):",
+    "o": [
+      "Sean mujeres víctimas de violencia de género o de trata de seres humanos",
+      "Sean mujeres víctimas de explotación sexual",
+      "Que provengan de centros residenciales de protección de menores de las diferentes Comunidades Autónomas habiendo estado bajo la tutela de Entidades Públicas de protección de menores dentro de los tres años anteriores a la mayoría de edad, o sean huérfanos absolutos, siempre que vivan solos sin integrarse en una unidad de convivencia",
+      "Que provengan de un centro penitenciario por haber sido liberados de prisión, siempre que la privación de libertad haya sido por tiempo superior a dos años"
+    ],
+    "c": 3,
+    "ref": "Art. 4 Ley 19/2021 (IMV)",
+    "exp": "La excepción para personas liberadas de un centro penitenciario exige que la privación de libertad haya sido por tiempo superior a un año, no a dos años como dice la opción D."
+  },
+  {
+    "q": "Según el artículo 6 de la Ley 19/2021, se considera unidad de convivencia la constituida por todas las personas que residan en un mismo domicilio y que estén unidas entre sí por vínculo matrimonial, como pareja de hecho o por vínculo:",
+    "o": [
+      "Hasta el primer grado de consanguinidad, afinidad, adopción, y otras personas con las que convivan en virtud de guarda con fines de adopción o acogimiento familiar permanente",
+      "Hasta el segundo grado de consanguinidad, afinidad, adopción, y otras personas con las que convivan en virtud de guarda con fines de adopción o acogimiento familiar permanente",
+      "Hasta el tercer grado de consanguinidad, afinidad, adopción, y otras personas con las que convivan en virtud de guarda con fines de adopción o acogimiento familiar permanente",
+      "Hasta segundo grado de consanguinidad y otras personas con las que convivan en virtud de guarda con fines de adopción o acogimiento familiar permanente"
+    ],
+    "c": 1,
+    "ref": "Art. 6 Ley 19/2021 (IMV)",
+    "exp": "La unidad de convivencia se extiende hasta el segundo grado de consanguinidad, afinidad o adopción."
+  },
+  {
+    "q": "Continuando con el IMV, en el caso de parejas de hecho NO es cierto que:",
+    "o": [
+      "Se acredita mediante certificación de la inscripción en alguno de los registros específicos existentes en las comunidades autónomas o ayuntamientos del lugar de residencia, o documento público en el que conste la constitución de dicha pareja",
+      "Tanto la mencionada inscripción como la formalización del correspondiente documento público deberán haberse producido con una antelación mínima de dos años con respecto a la fecha de la solicitud de la prestación",
+      "Es precisa la inscripción, aunque tengan hijos comunes",
+      "No es precisa la convivencia de dos años si tienen hijos comunes"
+    ],
+    "c": 2,
+    "ref": "IMV - parejas de hecho",
+    "exp": "Cuando existen hijos comunes tampoco es precisa la inscripción registral, por lo que la afirmación de la opción C no es cierta."
+  },
+  {
+    "q": "Se podrá mantener la residencia habitual en España aun cuando haya tenido estancias en el extranjero, siempre que estas:",
+    "o": [
+      "No superen los sesenta días naturales a lo largo de cada año natural o cuando la ausencia del territorio español esté motivada por causas de enfermedad debidamente justificadas, no superiores a noventa días",
+      "No superen los noventa días naturales a lo largo de cada año natural o cuando la ausencia del territorio español esté motivada por causas de enfermedad debidamente justificadas",
+      "No superen los noventa días naturales a lo largo de cada año natural o cuando la ausencia del territorio español esté motivada por causas de enfermedad debidamente justificadas, que no superen los ciento ochenta días",
+      "Ninguna es correcta"
+    ],
+    "c": 1,
+    "ref": "IMV - residencia habitual en España",
+    "exp": "Se admite mantener la residencia habitual con estancias en el extranjero que no superen los noventa días naturales al año, o motivadas por enfermedad justificada."
+  },
+  {
+    "q": "Según el artículo 11, sobre la situación de vulnerabilidad económica, establece que no concurre este requisito cuando la persona beneficiaria individual sea titular de un patrimonio neto valorado, de acuerdo con los criterios que se contemplan en el artículo 20, en un importe igual o superior a:",
+    "o": [
+      "Tres veces la cuantía correspondiente de renta garantizada por el ingreso mínimo vital para una persona beneficiaria individual",
+      "Seis veces la cuantía correspondiente de renta garantizada por el ingreso mínimo vital para una persona beneficiaria individual",
+      "Tres veces el SMI excluidas las pagas extras",
+      "Seis veces el SMI, incluidas las pagas extras"
+    ],
+    "c": 0,
+    "ref": "Art. 11 Ley 19/2021 (IMV)",
+    "exp": "No concurre vulnerabilidad económica cuando el patrimonio neto sea igual o superior a tres veces la renta garantizada del IMV para persona individual."
+  },
+  {
+    "q": "Según el artículo 20 de la Ley 19/2021, se exceptúan del cómputo de rentas (seleccione la respuesta INCORRECTA):",
+    "o": [
+      "Las ayudas para el estudio",
+      "Las ayudas de vivienda, tanto por alquiler como para adquisición",
+      "La pensión de orfandad",
+      "El subsidio no contributivo por desempleo, cuando a la fecha de solicitud de la prestación se hubiera extinguido"
+    ],
+    "c": 2,
+    "ref": "Art. 20 Ley 19/2021 (IMV)",
+    "exp": "La pensión de orfandad sí computa como renta a efectos del IMV, por lo que no está entre las rentas exceptuadas."
+  },
+  {
+    "q": "Continuando con el IMV, para la determinación de la cuantía, en los casos de unidad de convivencia, la cuantía mensual se incrementa:",
+    "o": [
+      "En un 20 por ciento por miembro adicional a partir del segundo hasta un máximo del 230 por ciento",
+      "En un 30 por ciento por miembro adicional a partir del segundo hasta un máximo del 220 por ciento",
+      "En un 40 por ciento por miembro adicional a partir del segundo hasta un máximo del 260 por ciento",
+      "Ninguna es cierta"
+    ],
+    "c": 1,
+    "ref": "IMV - cuantía unidad de convivencia",
+    "exp": "La cuantía mensual se incrementa un 30% por miembro adicional a partir del segundo, hasta un máximo del 220%."
+  },
+  {
+    "q": "El artículo 19 de la Ley 19/2021, sobre el reintegro de prestaciones indebidamente percibidas, establece que el Instituto Nacional de la Seguridad Social podrá revisar de oficio, en perjuicio de los beneficiarios, los actos relativos a la prestación de ingreso mínimo vital, siempre que dicha revisión se efectúe dentro del plazo máximo, desde que se dictó la resolución administrativa que no hubiere sido impugnada:",
+    "o": [
+      "De dos años",
+      "De tres años",
+      "De cuatro años",
+      "De cinco años"
+    ],
+    "c": 2,
+    "ref": "Art. 19 Ley 19/2021 (IMV)",
+    "exp": "El plazo máximo para la revisión de oficio es de cuatro años."
+  },
+  {
+    "q": "Las personas integrantes de la unidad de convivencia estarán obligadas a:",
+    "o": [
+      "Comunicar el fallecimiento del titular",
+      "Poner en conocimiento de la administración cualquier hecho que distorsione el fin de la prestación otorgada",
+      "Presentar anualmente declaración correspondiente al Impuesto sobre la Renta de las Personas Físicas",
+      "Todas son ciertas"
+    ],
+    "c": 3,
+    "ref": "IMV - obligaciones de los beneficiarios",
+    "exp": "Las tres obligaciones enumeradas son ciertas para los integrantes de la unidad de convivencia."
+  },
+  {
+    "q": "El 1 de enero de 2023 entró en vigor el incentivo al empleo del Ingreso Mínimo Vital, que permite compatibilizar el cobro íntegro de la prestación, siempre que los ingresos sean inferiores:",
+    "o": [
+      "Al 40% de la renta garantizada para la Unidad de Convivencia",
+      "Al 50% de la renta garantizada para la Unidad de Convivencia",
+      "Al 60% de la renta garantizada para la Unidad de Convivencia",
+      "Al 70% de la renta garantizada para la Unidad de Convivencia"
+    ],
+    "c": 2,
+    "ref": "IMV - incentivo al empleo",
+    "exp": "El incentivo al empleo permite compatibilizar el cobro íntegro de la prestación cuando los ingresos son inferiores al 60% de la renta garantizada."
+  },
+  {
+    "q": "La cuantía actual para una unidad de convivencia formada por un adulto y dos menores, dos adultos y un menor, o tres adultos, es de:",
+    "o": [
+      "856,46",
+      "1.054,10",
+      "1.251,75",
+      "1.449,39"
+    ],
+    "c": 1,
+    "ref": "IMV - cuantías 2025",
+    "exp": "La cuantía para esa composición de unidad de convivencia es de 1.054,10€."
+  },
+  {
+    "q": "Entre los requisitos para percibir la pensión de incapacidad no contributiva que establece el artículo 363 de la LGSS están (seleccione la respuesta INCORRECTA):",
+    "o": [
+      "Ser mayor de dieciocho y menor de sesenta y cinco años de edad",
+      "Residir legalmente en territorio español y haberlo hecho durante diez años, de los cuales cinco deberán ser inmediatamente anteriores a la fecha de solicitud de la pensión",
+      "Estar afectadas por una discapacidad o por una enfermedad crónica, en un grado igual o superior al 65 por ciento",
+      "Carecer de rentas o ingresos suficientes"
+    ],
+    "c": 1,
+    "ref": "Art. 363 LGSS",
+    "exp": "El requisito de residencia exige cinco años inmediatamente anteriores a la solicitud (no diez), dentro de un periodo total de residencia de diez años."
+  },
+  {
+    "q": "La LGSS establece, en relación a las pensiones no contributivas, que existirá unidad económica en todos los casos de convivencia de un beneficiario con otras personas, sean o no beneficiarias, unidas con aquel por:",
+    "o": [
+      "Matrimonio o por lazos de parentesco de consanguinidad hasta el segundo grado",
+      "Matrimonio o por lazos de parentesco de consanguinidad hasta el tercer grado",
+      "Matrimonio o por lazos de parentesco hasta primer grado de consanguinidad, afinidad, adopción, y otras personas con las que convivan en virtud de guarda con fines de adopción o acogimiento familiar permanente",
+      "Matrimonio o por lazos de parentesco hasta segundo grado de consanguinidad, afinidad, adopción, y otras personas con las que convivan en virtud de guarda con fines de adopción o acogimiento familiar permanente"
+    ],
+    "c": 0,
+    "ref": "Pensiones no contributivas - unidad económica",
+    "exp": "La unidad económica se define por matrimonio o parentesco de consanguinidad hasta el segundo grado."
+  },
+  {
+    "q": "Según la distinción que establece la normativa de PNC, el límite de ingresos permitidos a la unidad de convivencia será menor, si el solicitante convive únicamente con:",
+    "o": [
+      "Madre",
+      "Suegro",
+      "Hijo",
+      "Hermano"
+    ],
+    "c": 3,
+    "ref": "PNC - límite de ingresos según parentesco",
+    "exp": "Cuando la convivencia es únicamente con un hermano, el límite de ingresos permitido es menor que con parientes en primer grado."
+  },
+  {
+    "q": "En las PNC se permite a los beneficiarios disponer, sin que afecte a la cuantía a percibir, de las rentas o ingresos anuales siempre que los mismos no excedan del:",
+    "o": [
+      "35% del importe, en cómputo anual, de la pensión no contributiva",
+      "35% del IPREM anual",
+      "40% del importe, en cómputo anual, de la pensión no contributiva",
+      "40% del IPREM anual"
+    ],
+    "c": 0,
+    "ref": "PNC - compatibilidad de rentas",
+    "exp": "El límite de rentas compatibles sin afectar a la cuantía es del 35% del importe anual de la pensión no contributiva."
+  },
+  {
+    "q": "Tras las últimas reformas realizadas por la Seguridad Social en relación a la jubilación, el requisito actual para acceder a una pensión de jubilación no contributiva:",
+    "o": [
+      "65 años",
+      "66 años y tres meses",
+      "66 años y ocho meses",
+      "67 años"
+    ],
+    "c": 0,
+    "ref": "Jubilación no contributiva - edad",
+    "exp": "La pensión de jubilación no contributiva se puede solicitar a los 65 años."
+  },
+  {
+    "q": "Cuando el beneficiario sea titular de una pensión de incapacidad y cumpla la edad para acceso a la pensión de jubilación el titular debe:",
+    "o": [
+      "Presentar una nueva solicitud de pensión de jubilación",
+      "Presentar un escrito comunicando el cumplimiento de la edad para que modifiquen la modalidad",
+      "Continuará con la misma modalidad, no se efectúan cambios",
+      "Las pensiones de invalidez pasarán a denominarse pensiones de jubilación cuando sus beneficiarios cumplan la edad, de forma automática"
+    ],
+    "c": 3,
+    "ref": "Conversión de pensión de incapacidad en jubilación",
+    "exp": "Al cumplir la edad de jubilación, la pensión de incapacidad se denomina automáticamente pensión de jubilación, sin necesidad de nueva solicitud ni trámite."
+  },
+  {
+    "q": "Una de las obligaciones de los perceptores de las pensiones de incapacidad no contributiva es que estarán obligados a comunicar a la entidad que les abone la prestación cualquier variación de su situación de convivencia, estado civil, residencia y cuantas puedan tener incidencia en la conservación o la cuantía de aquellas, en el plazo de:",
+    "o": [
+      "15 días",
+      "30 días",
+      "60 días",
+      "No establece plazo"
+    ],
+    "c": 1,
+    "ref": "Pensión de incapacidad no contributiva - obligaciones",
+    "exp": "El plazo para comunicar variaciones que afecten a la pensión es de 30 días."
+  },
+  {
+    "q": "Respecto a los ingresos no computables, es INCORRECTA la siguiente opción:",
+    "o": [
+      "Prestación económica por hijo o hija a cargo",
+      "Las prestaciones económicas y en especie otorgadas al amparo de la Ley 39/2006, de 14 de diciembre, de promoción de la autonomía personal y atención a las personas en situación de dependencia",
+      "Las prestaciones autonómicas de garantía de ingresos mínimos de inserción",
+      "Rendimiento de actividades artísticas que no excedan el SMI"
+    ],
+    "c": 2,
+    "ref": "PNC - ingresos no computables",
+    "exp": "Las prestaciones autonómicas de garantía de ingresos mínimos de inserción sí se computan como ingresos, por lo que no están entre los ingresos no computables."
+  },
+  {
+    "q": "Respecto a las cuantías se establece, en caso de tener derecho a la pensión, una mínima que no podrá ser inferior a:",
+    "o": [
+      "25% de la cuantía de la pensión íntegra PNC",
+      "35% de la cuantía de la pensión íntegra PNC",
+      "25% de la cuantía del SMI mensual",
+      "35% de la cuantía del SMI mensual"
+    ],
+    "c": 0,
+    "ref": "PNC - cuantía mínima",
+    "exp": "La cuantía mínima de la pensión no podrá ser inferior al 25% de la cuantía íntegra de la PNC."
+  },
+  {
+    "q": "La cuantía máxima para 2025, mensual es:",
+    "o": [
+      "480€",
+      "505.80€",
+      "564.70€",
+      "576.20€"
+    ],
+    "c": 2,
+    "ref": "PNC - cuantía máxima 2025",
+    "exp": "La cuantía máxima mensual de la PNC para 2025 es de 564,70€."
+  },
+  {
+    "q": "El artículo 366 de la LGSS, sobre la compatibilidad de las pensiones, establece que los titulares de la pensión de incapacidad no contributiva podrán trabajar (señale la respuesta INCORRECTA):",
+    "o": [
+      "Durante los cinco años siguientes desde el comienzo de la percepción de la pensión",
+      "La suma de los ingresos no podrá superar, en cómputo anual, al importe, también en cómputo anual, de la suma del indicador público de renta de efectos múltiples, excluidas las pagas extraordinarias y la pensión de incapacidad no contributiva vigentes en cada momento",
+      "En caso de exceder de dicha cuantía, se minorará el importe de la pensión en la cuantía que resulte necesaria para no sobrepasar dicho límite",
+      "Esta reducción no afectará al complemento del 50%"
+    ],
+    "c": 0,
+    "ref": "Art. 366 LGSS",
+    "exp": "El plazo de compatibilidad entre trabajo y pensión de incapacidad no contributiva es de cuatro años desde que empezó a trabajar, no de cinco."
+  },
+  {
+    "q": "La disposición adicional vigésima quinta de la LGSS establece que, a los efectos de la aplicación de esta ley, se entenderá que están afectadas por una discapacidad, aquellas personas para las que, como medida de apoyo a su capacidad jurídica y mediante resolución judicial, se haya nombrado un curador con facultades de representación plenas para todos los actos jurídicos, se asimilará a:",
+    "o": [
+      "33%",
+      "65%",
+      "75%",
+      "Te asegura valoración en el CVO antes de tres meses"
+    ],
+    "c": 1,
+    "ref": "Disp. Adicional 25ª LGSS",
+    "exp": "Se asimila a un grado de discapacidad del 65% a quienes tengan nombrado curador con facultades de representación plenas."
+  }
+]

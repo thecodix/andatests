@@ -64,6 +64,16 @@
           <div style="font-size:13px; font-weight:600; color:#6B6B78; margin-bottom:6px;">Nombre</div>
           <input onInput="{{ onNombre }}" value="{{ authNombre }}" placeholder="Tu nombre" aria-label="Nombre" style="width:100%; border:1.5px solid #ECECF1; border-radius:11px; padding:12px 14px; font-size:14px; font-family:inherit; outline:none; box-sizing:border-box;" />
         </div>
+        <sc-if value="{{ showOposicionSelector }}" hint-placeholder-val="{{ false }}">
+        <div style="margin-bottom:14px;">
+          <div style="font-size:13px; font-weight:600; color:#6B6B78; margin-bottom:6px;">Oposición</div>
+          <div style="display:flex; flex-wrap:wrap;">
+            <sc-for list="{{ authOposicionesView }}" as="op" hint-placeholder-count="2">
+              <button type="button" onClick="{{ op.onClick }}" style="{{ op.style }}">{{ op.label }}</button>
+            </sc-for>
+          </div>
+        </div>
+        </sc-if>
         <div style="margin-bottom:14px;">
           <div style="font-size:13px; font-weight:600; color:#6B6B78; margin-bottom:6px;">Pregunta de seguridad</div>
           <input onInput="{{ onAuthPreguntaSeg }}" value="{{ authPreguntaSeg }}" placeholder="p.ej. ¿Nombre de tu primera mascota?" aria-label="Pregunta de seguridad" style="width:100%; border:1.5px solid #ECECF1; border-radius:11px; padding:12px 14px; font-size:14px; font-family:inherit; outline:none; box-sizing:border-box;" />
@@ -162,6 +172,19 @@
             </sc-for>
           </div>
         </div>
+
+        <!-- SELECTOR DE OPOSICIÓN -->
+        <sc-if value="{{ showOposicionSwitcher }}" hint-placeholder-val="{{ false }}">
+        <div style="margin-top:14px; display:flex; align-items:center; flex-wrap:wrap; gap:6px;">
+          <span style="font-size:11.5px; color:#9A9AA6; font-weight:600; text-transform:uppercase; letter-spacing:.3px; margin-right:2px;">Oposición:</span>
+          <sc-for list="{{ misOposicionesView }}" as="o" hint-placeholder-count="2">
+            <button onClick="{{ o.onClick }}" style="{{ o.style }}">{{ o.label }}</button>
+          </sc-for>
+          <sc-for list="{{ oposicionesParaAnadirView }}" as="op" hint-placeholder-count="1">
+            <button onClick="{{ op.onClick }}" style="border-radius:9px; padding:7px 13px; font-size:12.5px; font-weight:600; font-family:inherit; cursor:pointer; background:#fff; color:#6B46E5; border:1.5px dashed #DADAE2;">{{ op.label }}</button>
+          </sc-for>
+        </div>
+        </sc-if>
 
         <!-- CUENTA ATRÁS AL EXAMEN (visible en las 3 pestañas) -->
         <div style="margin-top:18px; background:linear-gradient(135deg,#1B1B22,#2E2E3A); border-radius:16px; padding:20px 26px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:14px; color:#fff;">
@@ -1097,9 +1120,11 @@ class Component extends DCLogic {
       // auth
       authScreen: localStorage.getItem('andatest_token') ? null : 'login',
       authMode: 'login', authEmail:'', authNombre:'', authPassword:'', authError:'', authLoading:false,
-      authPreguntaSeg:'', authRespuestaSeg:'',
+      authPreguntaSeg:'', authRespuestaSeg:'', authOposicionId:1,
       resetStep:'idle', resetPreguntaTexto:'', resetRespuesta:'', resetNuevaPassword:'',
       nombreUsuario: localStorage.getItem('andatest_nombre') || '',
+      // oposiciones (multi-oposición)
+      oposicionesDisponibles:[], misOposiciones:[], cambiandoOposicion:false,
       // app
       screen:'inicio', dashVar:'a',
       roadmapVista:'mes', roadmapMesOffset:0, roadmapSemanaOffset:0, roadmapDiaSel:null,
@@ -1145,17 +1170,18 @@ class Component extends DCLogic {
       if (t && t.mode==='simulacro' && this.state.screen==='test' && !t.done) this.setState(s=>({seconds:s.seconds+1}));
     }, 1000);
     this._wireDragDrop();
-    if (localStorage.getItem('andatest_token')) this.loadBank();
+    this.cargarOposicionesDisponibles();
+    if (localStorage.getItem('andatest_token')) { this.loadBank(); this.cargarMisOposiciones(); }
   }
   componentWillUnmount() { clearInterval(this._timer); }
 
   async submitAuth() {
-    const { authMode, authEmail, authPassword, authNombre, authPreguntaSeg, authRespuestaSeg } = this.state;
+    const { authMode, authEmail, authPassword, authNombre, authPreguntaSeg, authRespuestaSeg, authOposicionId } = this.state;
     this.setState({ authLoading:true, authError:'' });
     try {
       const body = authMode==='login'
         ? { email:authEmail, password:authPassword }
-        : { email:authEmail, nombre:authNombre, password:authPassword, pregunta_seguridad:authPreguntaSeg, respuesta_seguridad:authRespuestaSeg };
+        : { email:authEmail, nombre:authNombre, password:authPassword, pregunta_seguridad:authPreguntaSeg, respuesta_seguridad:authRespuestaSeg, oposicion_id:authOposicionId };
       const res = await fetch(`/api/auth/${authMode}`, {
         method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(body),
       });
@@ -1165,7 +1191,54 @@ class Component extends DCLogic {
       localStorage.setItem('andatest_nombre', data.nombre);
       this.setState({ authScreen:null, authLoading:false, nombreUsuario:data.nombre });
       this.loadBank();
+      this.cargarMisOposiciones();
     } catch(e) { this.setState({ authError:'Error de conexión', authLoading:false }); }
+  }
+
+  async cargarOposicionesDisponibles() {
+    try {
+      const list = await fetch('/api/oposiciones').then(r=>r.json());
+      const actual = this.state.oposicionesDisponibles.map(o=>o.id).join(',');
+      this.setState(s => ({
+        oposicionesDisponibles: list,
+        authOposicionId: list.some(o=>o.id===s.authOposicionId) ? s.authOposicionId : ((list[0] && list[0].id) || 1),
+      }));
+    } catch(e) { /* selector de registro se queda con el valor por defecto (1) */ }
+  }
+
+  async cargarMisOposiciones() {
+    try {
+      const list = await this.apiFetch('/api/me/oposiciones').then(r=>r.json());
+      this.setState({ misOposiciones: list });
+    } catch(e) { if (e.message !== '401') console.error('Error cargando mis oposiciones:', e); }
+  }
+
+  async cambiarOposicionFavorita(id) {
+    const favoritaActual = (this.state.misOposiciones.find(o=>o.favorita) || {}).id;
+    if (id === favoritaActual || this.state.cambiandoOposicion) return;
+    this.setState({ cambiandoOposicion:true });
+    try {
+      const list = await this.apiFetch(`/api/me/oposiciones/${id}/favorita`, { method:'PUT' }).then(r=>r.json());
+      this.setState({ misOposiciones:list, cambiandoOposicion:false, loaded:false });
+      await this.loadBank();
+    } catch(e) {
+      this.setState({ cambiandoOposicion:false });
+      if (e.message !== '401') console.error('Error cambiando de oposición:', e);
+    }
+  }
+
+  async anadirOposicion(id) {
+    if (this.state.cambiandoOposicion) return;
+    this.setState({ cambiandoOposicion:true });
+    try {
+      const list = await this.apiFetch('/api/me/oposiciones', { method:'POST', body:JSON.stringify({ oposicion_id:id }) }).then(r=>r.json());
+      const nueva = list.find(o=>o.id===id);
+      this.setState({ misOposiciones:list, cambiandoOposicion:false });
+      if (nueva && nueva.favorita) { this.setState({ loaded:false }); await this.loadBank(); }
+    } catch(e) {
+      this.setState({ cambiandoOposicion:false });
+      if (e.message !== '401') console.error('Error añadiendo oposición:', e);
+    }
   }
 
   async iniciarResetPassword() {
@@ -1199,6 +1272,7 @@ class Component extends DCLogic {
       this.setState({ authScreen:null, authLoading:false, nombreUsuario:data.nombre, authPassword:'',
                       resetStep:'idle', resetPreguntaTexto:'', resetRespuesta:'', resetNuevaPassword:'' });
       this.loadBank();
+      this.cargarMisOposiciones();
     } catch(e) { this.setState({ authError:'Error de conexión', authLoading:false }); }
   }
 
@@ -1222,6 +1296,7 @@ class Component extends DCLogic {
     this.setState({ authScreen:'login', authEmail:'', authPassword:'', authNombre:'', authError:'',
                     authPreguntaSeg:'', authRespuestaSeg:'',
                     resetStep:'idle', resetPreguntaTexto:'', resetRespuesta:'', resetNuevaPassword:'',
+                    misOposiciones:[], cambiandoOposicion:false,
                     screen:'inicio', loaded:false, TEMAS:[], BANCO:[], testsEspeciales:[],
                     resumen:{ acierto_global:0, total_hechas:0, total_preguntas:0, prediccion:'0.0',
                               num_falladas:0, racha:0, mejor_racha:0, total_sesiones:0, temas_flojos:0 },
@@ -2073,6 +2148,15 @@ class Component extends DCLogic {
       onResetNuevaPassword: e=>this.setState({resetNuevaPassword:e.target.value}),
       onConfirmarReset: ()=>this.confirmarResetPassword(),
       onCancelarReset: ()=>this.cancelarResetPassword(),
+      showOposicionSelector: !isLogin && (S.oposicionesDisponibles||[]).length > 1,
+      authOposicionesView: (S.oposicionesDisponibles||[]).map(op=>{
+        const activa = op.id === S.authOposicionId;
+        return {
+          id:op.id, label:op.nombre,
+          onClick: ()=>this.setState({authOposicionId:op.id}),
+          style: `border-radius:9px; padding:8px 13px; font-size:12.5px; font-weight:600; font-family:inherit; cursor:pointer; margin:0 6px 6px 0; ${activa ? `background:${C.v}; color:#fff; border:1.5px solid ${C.v};` : `background:#fff; color:#6B6B78; border:1.5px solid #ECECF1;`}`,
+        };
+      }),
     };
 
     const out = {
@@ -2139,6 +2223,19 @@ class Component extends DCLogic {
       style:`border:none; border-radius:8px; padding:7px 15px; font-family:inherit; font-size:13px; font-weight:600; cursor:pointer; background:${S.dashVar===d.key?C.v:'transparent'}; color:${S.dashVar===d.key?'#fff':'#6B6B78'};`,
     }));
     out.dashA = S.dashVar==='a'; out.dashB = S.dashVar==='b'; out.dashC = S.dashVar==='c';
+
+    // SELECTOR DE OPOSICIÓN (pantalla de inicio)
+    const misOposIds = new Set((S.misOposiciones||[]).map(o=>o.id));
+    out.misOposicionesView = (S.misOposiciones||[]).map(o=>({
+      id:o.id, label:o.nombre + (o.favorita ? ' ✓' : ''),
+      onClick:()=>this.cambiarOposicionFavorita(o.id),
+      style:`border-radius:9px; padding:7px 13px; font-size:12.5px; font-weight:600; font-family:inherit; cursor:${o.favorita?'default':'pointer'}; ${o.favorita ? `background:${C.v}; color:#fff; border:1.5px solid ${C.v};` : `background:#fff; color:#6B6B78; border:1.5px solid #ECECF1;`}`,
+    }));
+    out.oposicionesParaAnadirView = (S.oposicionesDisponibles||[]).filter(op=>!misOposIds.has(op.id)).map(op=>({
+      id:op.id, label:`+ ${op.nombre}`,
+      onClick:()=>this.anadirOposicion(op.id),
+    }));
+    out.showOposicionSwitcher = out.misOposicionesView.length + out.oposicionesParaAnadirView.length > 1;
 
     const temasFlojos = R.temas_flojos || 0;
     out.kpis = [

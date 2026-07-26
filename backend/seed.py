@@ -50,6 +50,16 @@ OPOSICIONES = [
             (17, "Microsoft 365: Excel",                                    "Microsoft 365"),
         ],
     },
+    {
+        "id": 2,
+        "slug": "opo2",
+        "nombre": "OPO2",
+        "descripcion": "Segunda oposición soportada por Andatest (en preparación, temario ampliándose).",
+        "temas": [
+            (1011, "Seguridad Social",           "T.E. LGSS (RDLeg 8/2015)"),
+            (1029, "Infancia y Adolescencia II",  "Ley 4/2021 IAA / LOPJM / LORPM"),
+        ],
+    },
 ]
 
 

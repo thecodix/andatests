@@ -1,6 +1,6 @@
 """Tests para el soporte multi-oposición: listado público, añadir/marcar
 favorita en la cuenta de un usuario, y el filtrado de /api/temas."""
-from sqlmodel import Session
+from sqlmodel import Session, select
 
 from database import engine
 from models import Oposicion, Tema
@@ -126,3 +126,71 @@ def test_temas_con_oposicion_id_explicito_anadida_funciona(client):
     assert res.status_code == 200
     ids = {t["id"] for t in res.json()}
     assert ids == {1001}
+
+
+# ---------------------------------------------------------------------------
+# Selector de oposición en el registro (elegir explícitamente `oposicion_id`
+# en el formulario, en vez de aceptar el valor por defecto = 1).
+# ---------------------------------------------------------------------------
+
+def test_registro_eligiendo_otra_oposicion_directamente_la_marca_favorita(client):
+    _crear_segunda_oposicion()
+    res = _register(client, oposicion_id=1001)
+    assert res.status_code == 201
+    token = res.json()["access_token"]
+
+    mis = client.get("/api/me/oposiciones", headers={"Authorization": f"Bearer {token}"}).json()
+    assert len(mis) == 1
+    assert mis[0]["id"] == 1001
+    assert mis[0]["favorita"] is True
+
+    # Carga los temas de la oposición elegida en el registro, no la 1.
+    res = client.get("/api/temas", headers={"Authorization": f"Bearer {token}"})
+    assert res.status_code == 200
+    ids = {t["id"] for t in res.json()}
+    assert ids == {1001}
+
+
+def test_registro_sin_elegir_oposicion_sigue_yendo_a_la_1_como_antes(client):
+    """Regresión explícita: un registro que no manda `oposicion_id` (frontend
+    viejo, script, llamada directa a la API...) debe comportarse exactamente
+    igual que antes de añadir el selector."""
+    _crear_segunda_oposicion()
+    res = _register(client)
+    assert res.status_code == 201
+    token = res.json()["access_token"]
+
+    mis = client.get("/api/me/oposiciones", headers={"Authorization": f"Bearer {token}"}).json()
+    assert len(mis) == 1
+    assert mis[0]["id"] == 1
+    assert mis[0]["favorita"] is True
+
+
+def test_registro_con_oposicion_id_inexistente_da_404(client):
+    res = _register(client, oposicion_id=999)
+    assert res.status_code == 404
+
+
+# ---------------------------------------------------------------------------
+# El seed real de OPO2 (backend/seed.py) crea la oposición 2 con los temas
+# 1011 y 1029 sin tocar ni duplicar los 17 temas ya existentes de la
+# oposición 1 — esto es lo que de verdad popula la BD en desarrollo/producción.
+# ---------------------------------------------------------------------------
+
+def test_seed_real_crea_opo2_con_sus_dos_temas_sin_afectar_oposicion_1(client):
+    import seed as seed_module
+
+    seed_module.seed()
+
+    with Session(engine) as session:
+        opo2 = session.get(Oposicion, 2)
+        assert opo2 is not None
+        assert opo2.slug == "opo2"
+        assert opo2.nombre == "OPO2"
+
+        temas_opo2 = session.exec(select(Tema).where(Tema.oposicion_id == 2)).all()
+        assert {t.id for t in temas_opo2} == {1011, 1029}
+
+        temas_opo1 = session.exec(select(Tema).where(Tema.oposicion_id == 1)).all()
+        assert len(temas_opo1) == 17
+

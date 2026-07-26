@@ -1,0 +1,566 @@
+[
+  {
+    "q": "¿Qué artículo regula el interés superior del menor en la Ley Orgánica 1/1996?",
+    "o": [
+      "Artículo 2",
+      "Artículo 3",
+      "Artículo 5",
+      "Artículo 6"
+    ],
+    "c": 0,
+    "ref": "Art. 2 LO 1/1996",
+    "exp": "El art. 2 de la LOPJM regula el interés superior del menor."
+  },
+  {
+    "q": "El artículo 11 de la Ley Orgánica 1/1996 establece los principios rectores de la actuación de los poderes públicos en relación con los menores: señala la respuesta incorrecta.",
+    "o": [
+      "El mantenimiento en su familia de origen, salvo que no sea conveniente para su interés",
+      "El carácter rehabilitador de todas las medidas que se adopten",
+      "La objetividad, imparcialidad y seguridad jurídica en la actuación protectora, garantizando el carácter colegiado e interdisciplinar en la adopción de medidas que les afecten",
+      "La protección contra toda forma de violencia"
+    ],
+    "c": 1,
+    "ref": "Art. 11 LO 1/1996",
+    "exp": "El art. 11 habla del carácter educativo (no rehabilitador) de todas las medidas que se adopten en el ámbito de la protección a la infancia."
+  },
+  {
+    "q": "La LOPJM recoge que la Entidad Pública podrá asumir, en cumplimiento de la obligación de prestar la atención inmediata, de acuerdo con lo establecido en el artículo 172.4 del Código Civil:",
+    "o": [
+      "El desamparo provisional",
+      "La guarda administrativa",
+      "La guarda provisional",
+      "La guarda judicial"
+    ],
+    "c": 2,
+    "ref": "Art. 172.4 CC",
+    "exp": "La atención inmediata se presta a través de la guarda provisional."
+  },
+  {
+    "q": "El artículo 14 bis de la LO 1/1996 de PJM establece que la atención en casos de urgencia: señala la correcta.",
+    "o": [
+      "Está sujeta a la declaración del desamparo provisional",
+      "No está sujeta a requisitos procedimentales ni de forma",
+      "Está sujeta a la declaración de situación de riesgo",
+      "Ninguna es correcta"
+    ],
+    "c": 1,
+    "ref": "Art. 14 bis LO 1/1996",
+    "exp": "El art. 14 bis LOPJM (introducido por la LO 8/2021) establece que la atención en las situaciones de urgencia no estará sujeta a requisitos procedimentales ni de forma alguno."
+  },
+  {
+    "q": "De acuerdo con el art. 18 de la LOPJM se entenderá que existe situación de desamparo cuando: señala la incorrecta.",
+    "o": [
+      "El abandono del menor, bien porque falten las personas a las que por ley corresponde el ejercicio de la guarda, o bien porque éstas no quieran o no puedan ejercerla",
+      "La inducción a la mendicidad, delincuencia o prostitución",
+      "La ausencia de escolarización o falta de asistencia reiterada y no justificada adecuadamente al centro educativo y la permisividad continuada o la inducción al absentismo escolar durante las etapas de escolarización obligatoria",
+      "La situación de pobreza de los progenitores, tutores o guardadores"
+    ],
+    "c": 3,
+    "ref": "Art. 18 LO 1/1996",
+    "exp": "La mera situación de pobreza de los progenitores, tutores o guardadores no podrá ser considerada nunca justificación suficiente para la separación del menor de su familia de origen."
+  },
+  {
+    "q": "El art. 19 bis de la LOPJM establece que para acordar el retorno del menor desamparado a su familia de origen será imprescindible: señala la incorrecta.",
+    "o": [
+      "Que se haya comprobado una evolución positiva de la misma, objetivamente suficiente para restablecer la convivencia familiar",
+      "Que se hayan mantenido los vínculos durante al menos los dos años desde la declaración de la guarda administrativa",
+      "Que se constate que el retorno no supone riesgos relevantes para el menor a través del correspondiente informe técnico",
+      "Que concurra el propósito de desempeñar las responsabilidades parentales adecuadamente"
+    ],
+    "c": 1,
+    "ref": "Art. 19 bis LO 1/1996",
+    "exp": "El mantenimiento de vínculos durante dos años desde la guarda administrativa no es uno de los requisitos exigidos por el art. 19 bis para el retorno."
+  },
+  {
+    "q": "De acuerdo con el art. 20 de la LOPJM, el acogimiento familiar se formalizará por:",
+    "o": [
+      "Resolución de la Entidad Pública que tenga la tutela o la guarda, previa valoración de la adecuación de la familia para el acogimiento",
+      "Resolución del Ministerio Fiscal",
+      "Resolución judicial",
+      "Todas son correctas"
+    ],
+    "c": 0,
+    "ref": "Art. 20 LO 1/1996",
+    "exp": "El acogimiento familiar se formaliza por resolución de la Entidad Pública que ostente la tutela o guarda del menor."
+  },
+  {
+    "q": "El artículo 20 bis de la LOPJM establece los derechos y deberes de los acogedores familiares, son deberes de los acogedores: señala la incorrecta.",
+    "o": [
+      "Cooperar con la Entidad Pública en los planes de actuación y seguimiento establecidos para el acogimiento",
+      "Oír al menor siempre antes de tomar decisiones que le afecten",
+      "Asegurar la plena participación del menor en la vida de familia",
+      "Respetar y facilitar las relaciones con la familia de origen del menor"
+    ],
+    "c": 0,
+    "ref": "Art. 20 bis LO 1/1996",
+    "exp": "Cooperar con la Entidad Pública en los planes de actuación y seguimiento es un derecho de los acogedores, no un deber."
+  },
+  {
+    "q": "En relación a los menores en acogimiento residencial, las Entidades Públicas y los servicios y centros donde se encuentren tendrán las siguientes obligaciones básicas: señala la incorrecta.",
+    "o": [
+      "Potenciarán las salidas de los menores en fines de semana y períodos vacacionales con sus familias de origen",
+      "Establecerán los necesarios mecanismos de coordinación con los servicios sociales especializados para el seguimiento y ajuste de las medidas de protección",
+      "Fomentarán la convivencia y la relación entre hermanos siempre que ello redunde en interés de los menores",
+      "Ser parte en todos los procesos de oposición a las medidas de protección y a la declaración de situación de desamparo del menor acogido"
+    ],
+    "c": 3,
+    "ref": "Obligaciones básicas de centros de acogimiento residencial",
+    "exp": "El listado de obligaciones básicas del art. 21 LOPJM (proyecto socioeducativo individual, convivencia entre hermanos, acogimiento en la provincia de origen, coordinación con servicios sociales, etc.) no incluye ser parte en los procesos de oposición a las medidas de protección y desamparo, que corresponde al Ministerio Fiscal y a la Entidad Pública."
+  },
+  {
+    "q": "De acuerdo con el artículo 21 ter de la LOPJM, las medidas de contención no podrán aplicarse a: señala la respuesta incorrecta.",
+    "o": [
+      "A personas menores de trece años",
+      "A las menores gestantes",
+      "A las menores hasta seis meses después de la terminación del embarazo",
+      "A las madres lactantes"
+    ],
+    "c": 0,
+    "ref": "Art. 21 ter LO 1/1996",
+    "exp": "Las medidas de contención no podrán aplicarse a personas menores de catorce años, no de trece como dice la opción A."
+  },
+  {
+    "q": "De acuerdo con el art. 29 de la LOPJM el aislamiento provisional de un menor mediante su permanencia en un espacio adecuado del que se impida su salida solo podrá utilizarse en prevención de actos violentos, autolesiones, lesiones a otros menores residentes y no podrá exceder de:",
+    "o": [
+      "Tres horas consecutivas",
+      "Tres horas alternas",
+      "Cuatro horas consecutivas",
+      "Dos horas alternas"
+    ],
+    "c": 0,
+    "ref": "Art. 29 LO 1/1996",
+    "exp": "El aislamiento provisional no podrá exceder de tres horas consecutivas."
+  },
+  {
+    "q": "De acuerdo con el art. 1 Ley Orgánica 8/2021, de 4 de junio, de protección integral a la infancia y la adolescencia frente a la violencia, las medidas de protección integral incluirán: señala la incorrecta.",
+    "o": [
+      "Detección precoz",
+      "Protección",
+      "Visibilización",
+      "Reparación del daño"
+    ],
+    "c": 2,
+    "ref": "Art. 1 LO 8/2021",
+    "exp": "La LO 8/2021 no incluye la \"visibilización\" entre las medidas de protección integral enumeradas en su art. 1."
+  },
+  {
+    "q": "El modelo Barnahus es un modelo diseñado para:",
+    "o": [
+      "Atender de manera integral, interdisciplinar y centralizada a NNA víctimas de violencia sexual",
+      "Atender a NNA víctimas de violencia física",
+      "Atender a niñas y adolescentes víctimas de violencia vicaria",
+      "Todas son correctas"
+    ],
+    "c": 0,
+    "ref": "Modelo Barnahus",
+    "exp": "El modelo Barnahus está diseñado para atender de forma integral, interdisciplinar y centralizada a NNA víctimas de violencia sexual."
+  },
+  {
+    "q": "La Estrategia para la erradicación de la violencia sobre la infancia y la adolescencia ha sido aprobada en:",
+    "o": [
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "c": 1,
+    "ref": "Estrategia erradicación violencia infancia",
+    "exp": "La Estrategia se aprobó en 2022."
+  },
+  {
+    "q": "De acuerdo con el art. 43 de la LOPIVI corresponderá a los servicios sociales de atención primaria: señala la respuesta incorrecta.",
+    "o": [
+      "La recogida de la información sobre los posibles casos de violencia",
+      "Concretar, con la participación de los y las profesionales correspondientes, el análisis interdisciplinar del caso",
+      "La atención integral para la recuperación del NNA",
+      "Establecer de forma coordinada con la entidad pública de protección a la infancia, las vías para apoyar a la familia en el ejercicio positivo de sus funciones parentales de protección"
+    ],
+    "c": 2,
+    "ref": "Art. 43 LOPIVI",
+    "exp": "La atención integral para la recuperación del NNA no corresponde a los servicios sociales de atención primaria conforme al art. 43 LOPIVI."
+  },
+  {
+    "q": "El órgano de cooperación entre las administraciones públicas en materia de protección y desarrollo de la infancia y la adolescencia establecido en el art. 7 de la LOPIVI se denomina:",
+    "o": [
+      "Consejo Asesor de Infancia y Adolescencia",
+      "Conferencia Sectorial de infancia y adolescencia",
+      "Observatorio estatal de infancia",
+      "Ninguna es correcta"
+    ],
+    "c": 1,
+    "ref": "Art. 7 LOPIVI",
+    "exp": "El órgano de cooperación es la Conferencia Sectorial de infancia y adolescencia."
+  },
+  {
+    "q": "De acuerdo con el art. 172 del Código Civil, cuál de las siguientes afirmaciones es incorrecta:",
+    "o": [
+      "La resolución administrativa que declare la situación de desamparo y las medidas adoptadas se notificará en legal forma a los progenitores de forma inmediata sin que sobrepase el plazo máximo de cuarenta y ocho horas",
+      "La asunción de la tutela atribuida a la Entidad Pública lleva consigo la suspensión de la patria potestad o de la tutela ordinaria",
+      "La Entidad Pública cesará en la tutela que ostente sobre los menores declarados en situación de desamparo cuando hayan transcurrido seis meses desde que el menor abandonó voluntariamente el centro de protección, encontrándose en paradero desconocido",
+      "Durante el plazo de dos años desde la notificación de la resolución administrativa los progenitores podrán solicitar a la Entidad Pública que cese la suspensión y quede revocada tal declaración"
+    ],
+    "c": 2,
+    "ref": "Art. 172 CC",
+    "exp": "El cese de la tutela por abandono voluntario en paradero desconocido opera transcurridos doce meses (no seis, como afirma la opción C, ni dos años, que es el plazo de otro supuesto distinto: el derecho de los progenitores a solicitar el cese de la suspensión, recogido en la opción D)."
+  },
+  {
+    "q": "De acuerdo con el artículo 172 bis de CC, cuando los progenitores, por circunstancias graves y transitorias debidamente acreditadas, no puedan cuidar al menor, podrán solicitar de la Entidad Pública que ésta asuma su guarda durante el tiempo necesario, que no podrá sobrepasar:",
+    "o": [
+      "Dos años como plazo máximo de cuidado temporal del menor, salvo que el interés superior del menor aconseje, excepcionalmente, la prórroga de las medidas",
+      "Un año como plazo máximo de cuidado temporal del menor, salvo que el interés superior del menor aconseje, excepcionalmente, la prórroga de las medidas",
+      "Tres años como plazo máximo de cuidado temporal del menor, salvo que el interés superior del menor aconseje, excepcionalmente, la prórroga de las medidas",
+      "Ninguna es correcta"
+    ],
+    "c": 0,
+    "ref": "Art. 172 bis CC",
+    "exp": "El plazo máximo de la guarda solicitada por los progenitores es de dos años, prorrogable excepcionalmente."
+  },
+  {
+    "q": "De acuerdo con el art. 173 del CC, en el acogimiento familiar será necesario el consentimiento: señala la incorrecta.",
+    "o": [
+      "De los acogedores",
+      "Del menor acogido si tuviera suficiente madurez",
+      "Del menor si fuera mayor de doce años",
+      "De los progenitores"
+    ],
+    "c": 3,
+    "ref": "Art. 173 CC",
+    "exp": "El consentimiento de los progenitores no es exigible cuando estos han sido privados de la patria potestad o el menor está en situación de desamparo."
+  },
+  {
+    "q": "De acuerdo con el art. 174 del CC, el Ministerio Fiscal habrá de comprobar la situación del menor y promover ante la Entidad Pública o el Juez, según proceda, las medidas de protección que estime necesarias al menos:",
+    "o": [
+      "Trimestralmente",
+      "Semestralmente",
+      "Anualmente",
+      "Cuatrimestralmente"
+    ],
+    "c": 1,
+    "ref": "Art. 174 CC",
+    "exp": "El Ministerio Fiscal debe comprobar la situación del menor al menos semestralmente."
+  },
+  {
+    "q": "En el artículo 81 de la Ley 4/2021 de Infancia y Adolescencia de Andalucía, los criterios de actuación por los que se deberán regir las administraciones públicas de Andalucía para el cumplimiento de los objetivos de la Ley:",
+    "o": [
+      "Para la valoración y toma de decisiones respecto a las niñas, niños y adolescentes, se aplicarán los instrumentos técnicos validados",
+      "Se procurarán intervenciones mínimas y se otorgará prioridad a la actuación en su entorno familiar",
+      "La existencia de relaciones personales de la niña, niño o adolescente con su familia de origen no será impedimento para una posible propuesta de guarda con fines de adopción",
+      "Se garantizará el acceso a la información sobre los orígenes biológicos a las personas que hayan sido adoptadas, siempre que sean mayores de edad"
+    ],
+    "c": 3,
+    "ref": "Art. 81 Ley 4/2021 (Andalucía)",
+    "exp": "Entre los criterios de actuación del art. 81 se incluye garantizar el acceso a la información sobre los orígenes biológicos a los adoptados mayores de edad."
+  },
+  {
+    "q": "En el artículo 92 de la Ley 4/2021, de 27 de julio, de Infancia y Adolescencia de Andalucía, que regula la Atención Inmediata, el plazo para proceder al inicio del procedimiento de declaración de situación de desamparo si no se hubiera podido clarificar la situación será:",
+    "o": [
+      "Tres meses desde que se le proporcionó la atención inmediata",
+      "Dos meses desde que se le proporcionó la atención inmediata",
+      "Un mes desde que se le proporcionó la atención inmediata",
+      "Ninguna es correcta"
+    ],
+    "c": 0,
+    "ref": "Art. 92 Ley 4/2021 (Andalucía)",
+    "exp": "El plazo para iniciar el procedimiento de desamparo si no se ha clarificado la situación es de tres meses desde la atención inmediata."
+  },
+  {
+    "q": "El plazo establecido en el art. 93 de la Ley 4/2021 de IAA para asumir la guarda provisional de la niña, niño o adolescente, cuando así lo considere necesario para ejercer su protección, será:",
+    "o": [
+      "Máximo de diez días hábiles, a partir de la fecha en que la persona menor pasa a su disposición",
+      "Máximo de siete días naturales, a partir de la fecha en que la persona menor pasa a su disposición",
+      "Máximo de quince días naturales, a partir de la fecha en que la persona menor pasa a su disposición",
+      "Máximo de diez días naturales, a partir de la fecha en que la persona menor pasa a su disposición"
+    ],
+    "c": 1,
+    "ref": "Art. 93 Ley 4/2021 (Andalucía)",
+    "exp": "El plazo máximo para asumir la guarda provisional es de siete días naturales."
+  },
+  {
+    "q": "De acuerdo con el artículo anterior, la resolución administrativa que declare la guarda provisional supondrá: señala la respuesta correcta.",
+    "o": [
+      "La suspensión inmediata y provisional de los derechos inherentes a su guarda y custodia a los titulares de la patria potestad",
+      "La suspensión de la patria potestad",
+      "La suspensión de la tutela ordinaria",
+      "La suspensión de las relaciones familiares y del régimen de visitas"
+    ],
+    "c": 0,
+    "ref": "Art. 93 Ley 4/2021 (Andalucía)",
+    "exp": "La guarda provisional supone la suspensión inmediata y provisional de los derechos inherentes a la guarda y custodia, no de la patria potestad completa."
+  },
+  {
+    "q": "En el artículo 95 de la Ley 4/2021 se regula el procedimiento para la declaración de situación de desamparo, de las siguientes afirmaciones cuál es la respuesta incorrecta.",
+    "o": [
+      "Durante la instrucción del procedimiento administrativo será preceptivo un informe diagnóstico de la situación del menor que incluya propuesta motivada de medida de protección",
+      "El plazo máximo para dictar la resolución será de tres meses",
+      "Cuando existan circunstancias que pongan en grave riesgo su integridad física o psíquica, la Entidad Pública podrá declarar la situación de desamparo provisional como medida cautelar",
+      "La resolución del procedimiento se adoptará por la persona titular de la Delegación Territorial con competencias en protección de menores"
+    ],
+    "c": 3,
+    "ref": "Art. 95 Ley 4/2021 (Andalucía)",
+    "exp": "La resolución del procedimiento de desamparo se adopta por un órgano colegiado, no por la persona titular de la Delegación Territorial."
+  },
+  {
+    "q": "El Plan individualizado de protección previsto en el art. 97 de la Ley 4/2021 de IAA no podrá tener una duración superior a:",
+    "o": [
+      "Dos años",
+      "Un año",
+      "Dieciocho meses",
+      "No está establecido plazo alguno"
+    ],
+    "c": 1,
+    "ref": "Art. 97 Ley 4/2021 (Andalucía)",
+    "exp": "El Plan individualizado de protección no podrá tener una duración superior a un año."
+  },
+  {
+    "q": "En el artículo anterior también se establece que cuando se proceda a la reintegración familiar, la Entidad Pública realizará un seguimiento de apoyo a la familia y al hijo o hija, a través de los servicios sociales de la Administración Local durante un periodo mínimo de:",
+    "o": [
+      "Quince meses desde el cese de la medida",
+      "Un dos desde el cese de la medida",
+      "Un año desde el cese de la medida",
+      "Seis meses desde el cese de la medida"
+    ],
+    "c": 2,
+    "ref": "Art. 97 Ley 4/2021 (Andalucía)",
+    "exp": "El examen original no marcó la respuesta con una X; se ha estimado \"un año\" como periodo mínimo de seguimiento tras la reintegración familiar — pendiente de confirmar contra el temario."
+  },
+  {
+    "q": "El art. 24 del Decreto 42/2002, de 12 de febrero, del régimen de desamparo, tutela y guarda administrativa establece que los padres, tutores o guardadores dispondrán de un plazo a contar desde el siguiente a la notificación de la iniciación del procedimiento para aportar cuantas alegaciones y documentos estimen convenientes de:",
+    "o": [
+      "Diez días naturales",
+      "Quince días hábiles",
+      "Treinta días hábiles",
+      "Cinco días naturales"
+    ],
+    "c": 1,
+    "ref": "Art. 24 Decreto 42/2002",
+    "exp": "El plazo para presentar alegaciones y documentos en esta fase es de quince días hábiles."
+  },
+  {
+    "q": "El artículo 26 del Decreto anterior establece que una vez instruido el procedimiento, e inmediatamente antes de redactar la propuesta de resolución, se pondrá de manifiesto a los padres, tutores o guardadores de los menores a fin de que puedan presentar las alegaciones y documentos que estimen conveniente por un plazo de:",
+    "o": [
+      "Diez días hábiles",
+      "Quince días naturales",
+      "Treinta días hábiles",
+      "Cinco días naturales"
+    ],
+    "c": 0,
+    "ref": "Art. 26 Decreto 42/2002",
+    "exp": "El plazo del trámite de audiencia previo a la propuesta de resolución es de diez días hábiles."
+  },
+  {
+    "q": "En el artículo 44 del Decreto 42/2002 se establece que las medidas de protección se dejarán sin efecto en los siguientes casos: señala la respuesta incorrecta.",
+    "o": [
+      "Desaparición de las circunstancias que dieron lugar a la adopción de la medida y conveniencia de la integración de los menores en su ámbito familiar",
+      "Fallecimiento de los menores",
+      "Emancipación",
+      "Constitución de la guarda con fines de adopción"
+    ],
+    "c": 3,
+    "ref": "Art. 44 Decreto 42/2002",
+    "exp": "La constitución de la guarda con fines de adopción no es, por sí sola, una causa de cese de las medidas de protección conforme al art. 44."
+  },
+  {
+    "q": "De acuerdo con el artículo 108 de la Ley 4/2021 el acogimiento residencial se acordará por: señala la respuesta correcta.",
+    "o": [
+      "Por decisión del Ministerio Fiscal",
+      "Por decisión judicial",
+      "Por decisión de progenitores, tutores o guardadores",
+      "Todas son correctas"
+    ],
+    "c": 1,
+    "ref": "Art. 108 Ley 4/2021 (Andalucía)",
+    "exp": "El acogimiento residencial se acuerda por decisión judicial."
+  },
+  {
+    "q": "De acuerdo con el artículo anterior el acogimiento residencial no se acordará para los menores de:",
+    "o": [
+      "Trece años",
+      "Catorce años",
+      "Tres años",
+      "Seis años"
+    ],
+    "c": 0,
+    "ref": "Art. 108 Ley 4/2021 (Andalucía)",
+    "exp": "El acogimiento residencial no se acordará, con carácter general, para menores de trece años."
+  },
+  {
+    "q": "En el artículo 31 del Decreto 355/2003, de 16 de diciembre, del Acogimiento Residencial de Menores, se establece que cuando un menor se ausente sin autorización del Centro o no regrese al mismo tras un permiso o actividad exterior programada, la dirección del centro deberá ponerlo en conocimiento de forma inmediata a las Fuerzas y Cuerpos de Seguridad y al Servicio especializado de protección de menores, si dicha ausencia durase más de:",
+    "o": [
+      "12 horas",
+      "24 horas",
+      "36 horas",
+      "48 horas"
+    ],
+    "c": 1,
+    "ref": "Art. 31 Decreto 355/2003",
+    "exp": "La ausencia debe comunicarse de forma inmediata a las Fuerzas y Cuerpos de Seguridad si dura más de 24 horas."
+  },
+  {
+    "q": "De acuerdo con el artículo 32 del Decreto anterior el procedimiento de cambio de centro se sujetará a la siguiente tramitación: señala la respuesta incorrecta.",
+    "o": [
+      "Las propuestas de cambio de centro se promoverán siempre por los servicios especializados de protección de menores",
+      "Siempre que sea posible se facilitará un primer contacto del menor con su nuevo centro",
+      "El cambio definitivo de centro se realizará con el acompañamiento del menor por parte de un educador del centro de protección",
+      "Audiencia del menor si hubiera cumplido los doce años, pudiendo ser oído de edad inferior, en función de su edad y grado de madurez"
+    ],
+    "c": 0,
+    "ref": "Art. 32 Decreto 355/2003",
+    "exp": "Las propuestas de cambio de centro no se promueven siempre por los servicios especializados; también pueden originarse por otras vías (p.ej. el propio centro)."
+  },
+  {
+    "q": "El art. 132 de la Ley 4/2021 establece que los programas de preparación para la vida independiente irán destinados tanto a la población menor de edad con una medida de protección como a las personas que han estado bajo la tutela de la Junta de Andalucía como máximo hasta:",
+    "o": [
+      "Los veintiún años",
+      "Los veinticinco años",
+      "Los veintiséis años",
+      "Ninguna es correcta"
+    ],
+    "c": 1,
+    "ref": "Art. 132 Ley 4/2021 (Andalucía)",
+    "exp": "Los programas de preparación para la vida independiente se extienden como máximo hasta los veinticinco años."
+  },
+  {
+    "q": "Los programas y medidas que se establecen en el III Plan de Infancia y Adolescencia de Andalucía 2024-2027 y que están incluidos en el Área prioritaria 7 Mejora del sistema de atención y protección a la infancia y adolescencia son entre otros: señala la incorrecta.",
+    "o": [
+      "Campañas de sensibilización para el acogimiento familiar de menores, la adopción y la colaboración",
+      "Campaña de sensibilización para la protección de la infancia y la adolescencia",
+      "Acompañamiento al acogimiento familiar y la adopción",
+      "Programa de respiro familiar"
+    ],
+    "c": 1,
+    "ref": "III Plan de Infancia y Adolescencia de Andalucía 2024-2027",
+    "exp": "La campaña de sensibilización genérica para la protección de la infancia no figura entre las medidas específicas de esa área prioritaria del III Plan."
+  },
+  {
+    "q": "De acuerdo con el art. 182 del CC, las Entidades Públicas asegurarán la conservación de la información de que dispongan relativa a los orígenes del menor, en particular la información respecto a la identidad de sus progenitores, así como la historia médica del menor y de su familia, y se conservarán durante:",
+    "o": [
+      "Al menos diez años con posterioridad al momento en que la adopción se haya hecho definitiva",
+      "Al menos veinte años con posterioridad al momento en que la adopción se haya hecho definitiva",
+      "Al menos cincuenta años con posterioridad al momento en que la adopción se haya hecho definitiva",
+      "Ninguna es correcta"
+    ],
+    "c": 2,
+    "ref": "Art. 182 CC",
+    "exp": "La información sobre los orígenes del menor se conservará durante al menos cincuenta años tras la adopción definitiva."
+  },
+  {
+    "q": "En el art. 4 de la LO 5/2000 de Responsabilidad Penal de los Menores, se establece que se garantizará especialmente que las declaraciones o interrogatorios de las partes acusadoras, testigos o peritos se realicen de forma telemática en los siguientes supuestos. Señala la incorrecta:",
+    "o": [
+      "Cuando sean víctimas de violencia de género",
+      "Cuando sean víctimas de violencia sexual",
+      "Cuando sean víctimas de trata de seres humanos",
+      "Cuando sean víctimas menores de 12 años"
+    ],
+    "c": 3,
+    "ref": "Art. 4 LO 5/2000",
+    "exp": "El umbral de edad que establece el art. 4 LORPM para esta garantía especial no es el de menores de 12 años."
+  },
+  {
+    "q": "De acuerdo con el art. 7 de la LO 5/2000 de RPM la medida consistente en la reprensión de la persona llevada a cabo por el Juez de Menores y dirigida a hacerle comprender la gravedad de los hechos cometidos y las consecuencias que los mismos han tenido o podrían haber tenido, instándole a no volver a cometer tales hechos en el futuro se denomina:",
+    "o": [
+      "Amonestación",
+      "Prestación en beneficio de la comunidad",
+      "Libertad vigilada",
+      "Ninguna es correcta"
+    ],
+    "c": 0,
+    "ref": "Art. 7 LO 5/2000",
+    "exp": "Esta medida se denomina amonestación."
+  },
+  {
+    "q": "De acuerdo con el art. 44 de la LO 5/2000 la aprobación de los programas de ejecución de las medidas es una competencia atribuida al:",
+    "o": [
+      "Ministerio Fiscal",
+      "Entidad Pública",
+      "Juez de Menores",
+      "Al Equipo Técnico"
+    ],
+    "c": 2,
+    "ref": "Art. 44 LO 5/2000",
+    "exp": "La aprobación de los programas de ejecución de las medidas corresponde al Juez de Menores."
+  },
+  {
+    "q": "En el art. 56 de la LORPM se reconocen los derechos que tienen los menores internados, entre los que se encuentran, señala la respuesta incorrecta:",
+    "o": [
+      "Derecho a estar en el centro más cercano a su domicilio",
+      "Derecho a comunicarse reservadamente con sus letrados, con el Juez de Menores competente, con el Ministerio Fiscal y con los servicios de Inspección de centros de internamiento",
+      "Derecho al ejercicio de los derechos civiles, políticos, sociales, religiosos, económicos y culturales que les correspondan",
+      "Participar en las actividades formativas, educativas y laborales establecidas en función de su situación personal a fin de preparar su vida en libertad"
+    ],
+    "c": 3,
+    "ref": "Art. 56 LORPM",
+    "exp": "Participar en las actividades formativas, educativas y laborales es un deber de los menores internados, no un derecho reconocido en el art. 56."
+  },
+  {
+    "q": "El art. 10 del Real Decreto 1774/2004, de 30 de julio, por el que se aprueba el Reglamento de la Ley Orgánica 5/2000, de 12 de enero, reguladora de la responsabilidad penal de los menores, se establece que en la medida de libertad vigilada y en las medidas de internamiento, el profesional o el centro designado elaborarán el programa individualizado de ejecución en el plazo de:",
+    "o": [
+      "20 días desde el inicio de aquellas, prorrogable previa autorización judicial",
+      "30 días desde el inicio de aquellas, prorrogable previa autorización judicial",
+      "10 días desde el inicio de aquellas, prorrogable previa autorización judicial",
+      "5 días desde el inicio de aquellas, prorrogable previa autorización judicial"
+    ],
+    "c": 0,
+    "ref": "Art. 10 RD 1774/2004",
+    "exp": "El programa individualizado de ejecución se elaborará en el plazo de 20 días desde el inicio de la medida, prorrogable con autorización judicial."
+  },
+  {
+    "q": "De acuerdo con la LORPM las menores internadas podrán tener en su compañía, dentro del centro, a sus hijos menores de tres años, siempre y cuando:",
+    "o": [
+      "En el momento del ingreso o una vez ingresada, la madre lo solicite expresamente a la entidad pública o a la dirección del centro",
+      "Se acredite fehacientemente la filiación",
+      "A criterio de la entidad pública, dicha situación no entrañe riesgo para los hijos y lo autorice el Juez de Menores",
+      "Todas son incorrectas"
+    ],
+    "c": 3,
+    "ref": "LORPM - menores internadas con hijos",
+    "exp": "Las cuatro condiciones (solicitud de la madre, acreditación de la filiación, ausencia de riesgo para los hijos y autorización del juez de menores) se exigen conjuntamente, no de forma alternativa o individual, por lo que ninguna de ellas, tomada aisladamente, es \"la\" condición correcta y completa."
+  },
+  {
+    "q": "Igualmente la LO 5/2000 establece una serie de principios a los que habrán de ajustarse los profesionales, organismos e instituciones que intervengan en la ejecución de las medidas impuestas por los Jueces de Menores, estos principios son entre otros: señala la respuesta correcta.",
+    "o": [
+      "El superior interés del menor de edad sobre cualquier otro interés concurrente",
+      "El respeto al libre desarrollo de la personalidad del menor",
+      "La prioridad de las actuaciones en el propio entorno familiar y social, siempre que no sea perjudicial para el interés del menor",
+      "Todas son correctas"
+    ],
+    "c": 3,
+    "ref": "LO 5/2000 - principios de ejecución",
+    "exp": "Los tres principios enumerados son ciertos y forman parte de los principios de ejecución de la LO 5/2000."
+  },
+  {
+    "q": "Las medidas que podrán imponer el Juez de Menores serán, señala la respuesta correcta:",
+    "o": [
+      "Libertad vigilada",
+      "Amonestación",
+      "Inhabilitación absoluta",
+      "Todas son correctas"
+    ],
+    "c": 3,
+    "ref": "LO 5/2000 - medidas",
+    "exp": "Las tres son medidas que puede imponer el Juez de Menores conforme a la LO 5/2000."
+  },
+  {
+    "q": "Los deberes de los menores que se encuentran cumpliendo medida de internamiento de acuerdo con la LO 5/2000 son: señala la respuesta incorrecta.",
+    "o": [
+      "Recibir la enseñanza básica obligatoria que legalmente les corresponda",
+      "Recibir una formación laboral adecuada, a un trabajo remunerado, dentro de las disponibilidades de la entidad pública, y a las prestaciones sociales que pudieran corresponderles, cuando alcancen la edad legalmente establecida",
+      "Utilizar adecuadamente las instalaciones del centro y los medios materiales que se pongan a su disposición",
+      "Colaborar en la consecución de una actividad ordenada en el interior del centro y mantener una actitud de respeto y consideración hacia todos, dentro y fuera del centro, en especial hacia las autoridades, los trabajadores del centro y los demás menores internados"
+    ],
+    "c": 1,
+    "ref": "LO 5/2000 - deberes de los menores internados",
+    "exp": "Recibir formación laboral y prestaciones sociales es un derecho de los menores internados, no un deber."
+  },
+  {
+    "q": "De acuerdo con el artículo 45 de la LO 5/2000 la competencia administrativa para la ejecución de las medidas adoptadas por los Jueces de Menores en sus sentencias firmes es de:",
+    "o": [
+      "Las Comunidades Autónomas y de las Ciudades de Ceuta y Melilla",
+      "Las Comunidades Autónomas",
+      "Las Comunidades Autónomas y las entidades colaboradoras en la ejecución de las medidas",
+      "Las Administraciones Públicas"
+    ],
+    "c": 0,
+    "ref": "Art. 45 LO 5/2000",
+    "exp": "La competencia administrativa para la ejecución de las medidas corresponde a las Comunidades Autónomas y a las Ciudades de Ceuta y Melilla."
+  }
+]
