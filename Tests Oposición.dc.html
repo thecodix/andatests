@@ -38,6 +38,12 @@
   .dd-hover { outline: 2px dashed #6B46E5 !important; outline-offset: 2px; }
   ::-webkit-scrollbar { width: 10px; height: 10px; }
   ::-webkit-scrollbar-thumb { background: #DADAE2; border-radius: 8px; border: 3px solid #F7F7FA; }
+  /* Accesibilidad: #9A9AA6 y #B4B4C0 no llegan al contraste mínimo AA (4.5:1)
+     sobre fondo blanco/claro para texto normal. Se sustituyen por un gris más
+     oscuro que sí lo cumple, sin tocar cada declaración inline una a una
+     (muchas se generan dinámicamente en JS con ese mismo color literal). */
+  [style*="color:#9A9AA6"], [style*="color:#B4B4C0"] { color: #6B6B78 !important; }
+  [data-dd-kind]:focus-visible, [data-dd-zone]:focus-visible, [role="button"]:focus-visible { outline: 2px solid #6B46E5; outline-offset: 2px; }
 </style>
 <script src="banco.js"></script>
 </helmet>
@@ -56,25 +62,25 @@
       <sc-if value="{{ showNombre }}" hint-placeholder-val="{{ false }}">
         <div style="margin-bottom:14px;">
           <div style="font-size:13px; font-weight:600; color:#6B6B78; margin-bottom:6px;">Nombre</div>
-          <input onInput="{{ onNombre }}" value="{{ authNombre }}" placeholder="Tu nombre" style="width:100%; border:1.5px solid #ECECF1; border-radius:11px; padding:12px 14px; font-size:14px; font-family:inherit; outline:none; box-sizing:border-box;" />
+          <input onInput="{{ onNombre }}" value="{{ authNombre }}" placeholder="Tu nombre" aria-label="Nombre" style="width:100%; border:1.5px solid #ECECF1; border-radius:11px; padding:12px 14px; font-size:14px; font-family:inherit; outline:none; box-sizing:border-box;" />
         </div>
         <div style="margin-bottom:14px;">
           <div style="font-size:13px; font-weight:600; color:#6B6B78; margin-bottom:6px;">Pregunta de seguridad</div>
-          <input onInput="{{ onAuthPreguntaSeg }}" value="{{ authPreguntaSeg }}" placeholder="p.ej. ¿Nombre de tu primera mascota?" style="width:100%; border:1.5px solid #ECECF1; border-radius:11px; padding:12px 14px; font-size:14px; font-family:inherit; outline:none; box-sizing:border-box;" />
+          <input onInput="{{ onAuthPreguntaSeg }}" value="{{ authPreguntaSeg }}" placeholder="p.ej. ¿Nombre de tu primera mascota?" aria-label="Pregunta de seguridad" style="width:100%; border:1.5px solid #ECECF1; border-radius:11px; padding:12px 14px; font-size:14px; font-family:inherit; outline:none; box-sizing:border-box;" />
         </div>
         <div style="margin-bottom:14px;">
           <div style="font-size:13px; font-weight:600; color:#6B6B78; margin-bottom:6px;">Respuesta</div>
-          <input onInput="{{ onAuthRespuestaSeg }}" value="{{ authRespuestaSeg }}" placeholder="Tu respuesta" style="width:100%; border:1.5px solid #ECECF1; border-radius:11px; padding:12px 14px; font-size:14px; font-family:inherit; outline:none; box-sizing:border-box;" />
+          <input onInput="{{ onAuthRespuestaSeg }}" value="{{ authRespuestaSeg }}" placeholder="Tu respuesta" aria-label="Respuesta a la pregunta de seguridad" style="width:100%; border:1.5px solid #ECECF1; border-radius:11px; padding:12px 14px; font-size:14px; font-family:inherit; outline:none; box-sizing:border-box;" />
           <div style="font-size:11.5px; color:#9A9AA6; margin-top:5px;">La necesitarás para restablecer tu contraseña si la olvidas.</div>
         </div>
       </sc-if>
       <div style="margin-bottom:14px;">
         <div style="font-size:13px; font-weight:600; color:#6B6B78; margin-bottom:6px;">Email</div>
-        <input onInput="{{ onEmail }}" value="{{ authEmail }}" type="email" placeholder="tu@email.com" style="width:100%; border:1.5px solid #ECECF1; border-radius:11px; padding:12px 14px; font-size:14px; font-family:inherit; outline:none; box-sizing:border-box;" />
+        <input onInput="{{ onEmail }}" value="{{ authEmail }}" type="email" placeholder="tu@email.com" aria-label="Email" style="width:100%; border:1.5px solid #ECECF1; border-radius:11px; padding:12px 14px; font-size:14px; font-family:inherit; outline:none; box-sizing:border-box;" />
       </div>
       <div style="margin-bottom:22px;">
         <div style="font-size:13px; font-weight:600; color:#6B6B78; margin-bottom:6px;">Contraseña</div>
-        <input onInput="{{ onPassword }}" value="{{ authPassword }}" type="password" placeholder="••••••••" style="width:100%; border:1.5px solid #ECECF1; border-radius:11px; padding:12px 14px; font-size:14px; font-family:inherit; outline:none; box-sizing:border-box;" />
+        <input onInput="{{ onPassword }}" value="{{ authPassword }}" type="password" placeholder="••••••••" aria-label="Contraseña" style="width:100%; border:1.5px solid #ECECF1; border-radius:11px; padding:12px 14px; font-size:14px; font-family:inherit; outline:none; box-sizing:border-box;" />
       </div>
       <sc-if value="{{ authError }}" hint-placeholder-val="{{ '' }}">
         <div style="background:#FCEDEF; border:1px solid #F4C9CF; border-radius:10px; padding:10px 14px; font-size:13px; color:#8E2333; margin-bottom:16px;">{{ authError }}</div>
@@ -88,8 +94,8 @@
         <sc-if value="{{ resetEnCurso }}" hint-placeholder-val="{{ false }}">
         <div style="margin-top:14px; padding-top:14px; border-top:1px solid #ECECF1;">
           <div style="font-size:12.5px; font-weight:600; color:#6B6B78; margin-bottom:8px;">{{ resetPreguntaTexto }}</div>
-          <input onInput="{{ onResetRespuesta }}" value="{{ resetRespuesta }}" type="text" placeholder="Tu respuesta" style="width:100%; border:1.5px solid #ECECF1; border-radius:11px; padding:10px 12px; font-size:13.5px; font-family:inherit; outline:none; box-sizing:border-box; margin-bottom:8px;" />
-          <input onInput="{{ onResetNuevaPassword }}" value="{{ resetNuevaPassword }}" type="password" placeholder="Nueva contraseña (mín. 8 caracteres)" style="width:100%; border:1.5px solid #ECECF1; border-radius:11px; padding:10px 12px; font-size:13.5px; font-family:inherit; outline:none; box-sizing:border-box; margin-bottom:10px;" />
+          <input onInput="{{ onResetRespuesta }}" value="{{ resetRespuesta }}" type="text" placeholder="Tu respuesta" aria-label="Tu respuesta a la pregunta de seguridad" style="width:100%; border:1.5px solid #ECECF1; border-radius:11px; padding:10px 12px; font-size:13.5px; font-family:inherit; outline:none; box-sizing:border-box; margin-bottom:8px;" />
+          <input onInput="{{ onResetNuevaPassword }}" value="{{ resetNuevaPassword }}" type="password" placeholder="Nueva contraseña (mín. 8 caracteres)" aria-label="Nueva contraseña" style="width:100%; border:1.5px solid #ECECF1; border-radius:11px; padding:10px 12px; font-size:13.5px; font-family:inherit; outline:none; box-sizing:border-box; margin-bottom:10px;" />
           <button onClick="{{ onConfirmarReset }}" style="width:100%; background:#6B46E5; color:#fff; border:none; border-radius:11px; padding:11px; font-weight:700; font-size:13.5px; cursor:pointer; font-family:inherit; margin-bottom:6px;">Restablecer contraseña</button>
           <button onClick="{{ onCancelarReset }}" style="width:100%; background:none; border:none; color:#9A9AA6; font-size:12px; cursor:pointer; font-family:inherit;">Cancelar</button>
         </div>
@@ -313,7 +319,7 @@
             <h3 style="margin:0 0 16px; font-size:16px; font-weight:700;">Acierto por tema</h3>
             <div style="display:flex; align-items:flex-end; gap:6px; height:150px;">
               <sc-for list="{{ temasView }}" as="t" hint-placeholder-count="17">
-                <div onClick="{{ t.onClick }}" title="{{ t.titulo }}" style="flex:1; display:flex; flex-direction:column; align-items:center; gap:6px; cursor:pointer;">
+                <div onClick="{{ t.onClick }}" onKeyDown="{{ onCardKeyDown }}" role="button" tabindex="0" title="{{ t.titulo }}" style="flex:1; display:flex; flex-direction:column; align-items:center; gap:6px; cursor:pointer;">
                   <div style="{{ t.colBarStyle }}"></div>
                   <div style="font-size:10px; color:#9A9AA6;">{{ t.id }}</div>
                 </div>
@@ -332,7 +338,7 @@
         <p style="color:#6B6B78; font-size:14px; margin:0 0 24px;">Temario de la Escala Auxiliar Administrativa (C2) de la Universidad de Huelva.</p>
         <div style="display:flex; flex-direction:column; gap:10px;">
           <sc-for list="{{ temasView }}" as="t" hint-placeholder-count="17">
-            <div onClick="{{ t.onClick }}" class="sc-hov" style="background:#fff; border:1px solid #ECECF1; border-radius:14px; padding:18px 20px; display:flex; align-items:center; gap:18px; cursor:pointer;">
+            <div onClick="{{ t.onClick }}" onKeyDown="{{ onCardKeyDown }}" role="button" tabindex="0" class="sc-hov" style="background:#fff; border:1px solid #ECECF1; border-radius:14px; padding:18px 20px; display:flex; align-items:center; gap:18px; cursor:pointer;">
               <div style="{{ t.numStyle }}">{{ t.id }}</div>
               <div style="flex:1; min-width:0;">
                 <div style="font-weight:600; font-size:15px; letter-spacing:-.1px;">{{ t.titulo }}</div>
@@ -402,7 +408,7 @@
       <sc-if value="{{ isTest }}" hint-placeholder-val="{{ true }}">
       <div class="sc-screen" style="max-width:720px; margin:0 auto;">
         <div style="display:flex; align-items:center; gap:16px; margin-bottom:10px;">
-          <button onClick="{{ quitTest }}" style="background:none; border:none; color:#9A9AA6; font-size:20px; cursor:pointer; line-height:1;">✕</button>
+          <button onClick="{{ quitTest }}" aria-label="Salir del test" style="background:none; border:none; color:#9A9AA6; font-size:20px; cursor:pointer; line-height:1;">✕</button>
           <div style="flex:1; height:8px; background:#ECECF1; border-radius:6px; overflow:hidden;"><div style="{{ testProgressStyle }}"></div></div>
           <sc-if value="{{ isSimulacro }}" hint-placeholder-val="{{ true }}">
             <div style="font-family:'Newsreader',serif; font-weight:600; font-size:17px; color:{{ timerColor }}; min-width:64px; text-align:right;">{{ timerLabel }}</div>
@@ -525,7 +531,7 @@
           <h3 style="margin:0 0 18px; font-size:16px; font-weight:700;">Detalle por tema</h3>
           <div style="display:flex; flex-direction:column; gap:13px;">
             <sc-for list="{{ temasView }}" as="t" hint-placeholder-count="17">
-              <div onClick="{{ t.onClick }}" style="display:flex; align-items:center; gap:14px; cursor:pointer;">
+              <div onClick="{{ t.onClick }}" onKeyDown="{{ onCardKeyDown }}" role="button" tabindex="0" style="display:flex; align-items:center; gap:14px; cursor:pointer;">
                 <div style="width:22px; font-size:12px; color:#9A9AA6; font-weight:600;">{{ t.id }}</div>
                 <div style="width:240px; font-size:13px; font-weight:500; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">{{ t.tituloShort }}</div>
                 <div style="flex:1; height:9px; background:#F0EFF5; border-radius:6px; overflow:hidden;"><div style="{{ t.barStyle }}"></div></div>
@@ -593,7 +599,7 @@
         <sc-if value="{{ tarjetaEnCurso }}" hint-placeholder-val="{{ false }}">
         <div style="margin-top:24px; max-width:640px;">
           <div style="font-size:12.5px; color:#9A9AA6; font-weight:600; margin-bottom:10px;">{{ tarjetaProgreso }}</div>
-          <div onClick="{{ voltearTarjeta }}" style="background:#fff; border:1px solid #ECECF1; border-radius:16px; padding:28px; min-height:220px; display:flex; flex-direction:column; justify-content:center; cursor:pointer;">
+          <div onClick="{{ voltearTarjeta }}" onKeyDown="{{ onCardKeyDown }}" role="button" tabindex="0" style="background:#fff; border:1px solid #ECECF1; border-radius:16px; padding:28px; min-height:220px; display:flex; flex-direction:column; justify-content:center; cursor:pointer;">
             <div style="font-size:11.5px; color:#9A9AA6; font-weight:600;">{{ tarjetaTemaLabel }}</div>
             <div style="font-weight:600; font-size:17px; margin-top:10px; line-height:1.5;">{{ tarjetaFrente }}</div>
             <sc-if value="{{ tarjetaVolteada }}" hint-placeholder-val="{{ false }}">
@@ -637,7 +643,7 @@
         </div>
         <div style="display:flex; flex-direction:column; gap:9px;">
           <sc-for list="{{ tarjetasTemasView }}" as="tt" hint-placeholder-count="6">
-            <div onClick="{{ tt.onClick }}" style="background:#fff; border:1px solid #ECECF1; border-radius:13px; padding:15px 18px; display:flex; align-items:center; gap:16px; cursor:pointer;">
+            <div onClick="{{ tt.onClick }}" onKeyDown="{{ onCardKeyDown }}" role="button" tabindex="0" style="background:#fff; border:1px solid #ECECF1; border-radius:13px; padding:15px 18px; display:flex; align-items:center; gap:16px; cursor:pointer;">
               <div style="width:22px; font-size:12px; color:#9A9AA6; font-weight:600;">{{ tt.id }}</div>
               <div style="flex:1; font-size:13.5px; font-weight:500; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">{{ tt.titulo }}</div>
               <div style="font-size:12px; color:#D6455B; font-weight:600; width:90px; text-align:right;">{{ tt.due }} pendientes</div>
@@ -673,15 +679,15 @@
             <div style="margin-top:20px; font-size:11.5px; color:#9A9AA6; font-weight:600;">Arrastra cada elemento a su categoría (o toca uno y luego toca la categoría)</div>
             <div data-dd-zone="__pool__" style="margin-top:8px; padding:12px; border-radius:12px; min-height:56px; display:flex; flex-wrap:wrap;">
               <sc-for list="{{ ddPoolView }}" as="it" hint-placeholder-count="8">
-                <div draggable="true" data-dd-kind="categorizar-item" data-dd-texto="{{ it.texto }}" onClick="{{ it.onClick }}" style="{{ it.style }}">{{ it.texto }}</div>
+                <div draggable="true" data-dd-kind="categorizar-item" data-dd-texto="{{ it.texto }}" onClick="{{ it.onClick }}" onKeyDown="{{ onCardKeyDown }}" role="button" tabindex="0" style="{{ it.style }}">{{ it.texto }}</div>
               </sc-for>
             </div>
             <div style="margin-top:14px; display:grid; grid-template-columns:repeat(auto-fit, minmax(170px, 1fr)); gap:12px;">
               <sc-for list="{{ ddCategoriasView }}" as="cat" hint-placeholder-count="4">
-                <div data-dd-zone="{{ cat.nombre }}" onClick="{{ cat.onClick }}" style="{{ cat.zoneStyle }}">
+                <div data-dd-zone="{{ cat.nombre }}" onClick="{{ cat.onClick }}" onKeyDown="{{ onCardKeyDown }}" role="button" tabindex="0" style="{{ cat.zoneStyle }}">
                   <div style="{{ cat.headerStyle }}">{{ cat.nombre }}</div>
                   <sc-for list="{{ cat.itemsView }}" as="ci" hint-placeholder-count="4">
-                    <div draggable="true" data-dd-kind="categorizar-item" data-dd-texto="{{ ci.texto }}" onClick="{{ ci.onClick }}" style="{{ ci.style }}">{{ ci.texto }}</div>
+                    <div draggable="true" data-dd-kind="categorizar-item" data-dd-texto="{{ ci.texto }}" onClick="{{ ci.onClick }}" onKeyDown="{{ onCardKeyDown }}" role="button" tabindex="0" style="{{ ci.style }}">{{ ci.texto }}</div>
                   </sc-for>
                 </div>
               </sc-for>
@@ -694,8 +700,8 @@
               <sc-for list="{{ ddOrdenView }}" as="it" hint-placeholder-count="6">
                 <div draggable="true" data-dd-kind="ordenar-item" data-dd-idx="{{ it.idx }}" style="{{ it.style }}">
                   <span style="flex:1;">{{ it.texto }}</span>
-                  <button onClick="{{ it.onSubir }}" style="background:none; border:1px solid #ECECF1; border-radius:8px; width:28px; height:28px; cursor:pointer; {{ it.subirStyle }}">↑</button>
-                  <button onClick="{{ it.onBajar }}" style="background:none; border:1px solid #ECECF1; border-radius:8px; width:28px; height:28px; cursor:pointer; {{ it.bajarStyle }}">↓</button>
+                  <button onClick="{{ it.onSubir }}" aria-label="Subir" style="background:none; border:1px solid #ECECF1; border-radius:8px; width:28px; height:28px; cursor:pointer; {{ it.subirStyle }}">↑</button>
+                  <button onClick="{{ it.onBajar }}" aria-label="Bajar" style="background:none; border:1px solid #ECECF1; border-radius:8px; width:28px; height:28px; cursor:pointer; {{ it.bajarStyle }}">↓</button>
                 </div>
               </sc-for>
             </div>
@@ -706,12 +712,12 @@
             <div style="margin-top:12px; display:grid; grid-template-columns:1fr 1fr; gap:16px;">
               <div>
                 <sc-for list="{{ ddIzqView }}" as="it" hint-placeholder-count="6">
-                  <div draggable="true" data-dd-kind="emparejar-izq" data-dd-texto="{{ it.textoRaw }}" onClick="{{ it.onClick }}" style="{{ it.style }}">{{ it.texto }}</div>
+                  <div draggable="true" data-dd-kind="emparejar-izq" data-dd-texto="{{ it.textoRaw }}" onClick="{{ it.onClick }}" onKeyDown="{{ onCardKeyDown }}" role="button" tabindex="0" style="{{ it.style }}">{{ it.texto }}</div>
                 </sc-for>
               </div>
               <div>
                 <sc-for list="{{ ddDerView }}" as="it" hint-placeholder-count="6">
-                  <div draggable="true" data-dd-kind="emparejar-der" data-dd-texto="{{ it.texto }}" onClick="{{ it.onClick }}" style="{{ it.style }}">{{ it.texto }}</div>
+                  <div draggable="true" data-dd-kind="emparejar-der" data-dd-texto="{{ it.texto }}" onClick="{{ it.onClick }}" onKeyDown="{{ onCardKeyDown }}" role="button" tabindex="0" style="{{ it.style }}">{{ it.texto }}</div>
                 </sc-for>
               </div>
             </div>
@@ -742,7 +748,7 @@
         <sc-if value="{{ ddMostrarSelector }}" hint-placeholder-val="{{ true }}">
         <div style="display:flex; flex-direction:column; gap:9px; margin-top:20px;">
           <sc-for list="{{ ddTemasView }}" as="dt" hint-placeholder-count="6">
-            <div onClick="{{ dt.onClick }}" style="background:#fff; border:1px solid #ECECF1; border-radius:13px; padding:15px 18px; display:flex; align-items:center; gap:16px; cursor:pointer;">
+            <div onClick="{{ dt.onClick }}" onKeyDown="{{ onCardKeyDown }}" role="button" tabindex="0" style="background:#fff; border:1px solid #ECECF1; border-radius:13px; padding:15px 18px; display:flex; align-items:center; gap:16px; cursor:pointer;">
               <div style="width:22px; font-size:12px; color:#9A9AA6; font-weight:600;">{{ dt.id }}</div>
               <div style="flex:1; font-size:13.5px; font-weight:500; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">{{ dt.titulo }}</div>
               <div style="font-size:12px; color:#9A9AA6; width:110px; text-align:right;">{{ dt.total }} ejercicios</div>
@@ -803,7 +809,7 @@
         </sc-if>
         <div style="display:flex; flex-direction:column; gap:10px;">
           <sc-for list="{{ historialView }}" as="h" hint-placeholder-count="6">
-            <div onClick="{{ h.onClick }}" style="background:#fff; border:1px solid #ECECF1; border-radius:13px; padding:15px 18px; display:flex; align-items:center; gap:16px; flex-wrap:wrap; cursor:pointer;">
+            <div onClick="{{ h.onClick }}" onKeyDown="{{ onCardKeyDown }}" role="button" tabindex="0" style="background:#fff; border:1px solid #ECECF1; border-radius:13px; padding:15px 18px; display:flex; align-items:center; gap:16px; flex-wrap:wrap; cursor:pointer;">
               <div style="flex:1; min-width:140px;">
                 <div style="font-weight:600; font-size:14.5px;">{{ h.modo }} <span style="color:#9A9AA6; font-weight:500;">· {{ h.tema }}</span></div>
                 <div style="font-size:12px; color:#9A9AA6; margin-top:3px;">{{ h.fecha }}</div>
@@ -901,9 +907,9 @@
           <sc-if value="{{ roadmapVistaMes }}" hint-placeholder-val="{{ true }}">
           <div style="margin-top:16px;">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
-              <button onClick="{{ roadmapMesPrev }}" style="background:#F4F1FE; color:#6B46E5; border:none; border-radius:8px; width:30px; height:30px; font-weight:700; cursor:pointer; font-family:inherit;">←</button>
+              <button onClick="{{ roadmapMesPrev }}" aria-label="Mes anterior" style="background:#F4F1FE; color:#6B46E5; border:none; border-radius:8px; width:30px; height:30px; font-weight:700; cursor:pointer; font-family:inherit;">←</button>
               <div style="font-weight:700; font-size:14px;">{{ roadmapMesLabel }}</div>
-              <button onClick="{{ roadmapMesNext }}" style="background:#F4F1FE; color:#6B46E5; border:none; border-radius:8px; width:30px; height:30px; font-weight:700; cursor:pointer; font-family:inherit;">→</button>
+              <button onClick="{{ roadmapMesNext }}" aria-label="Mes siguiente" style="background:#F4F1FE; color:#6B46E5; border:none; border-radius:8px; width:30px; height:30px; font-weight:700; cursor:pointer; font-family:inherit;">→</button>
             </div>
             <div style="display:grid; grid-template-columns:repeat(7,1fr); gap:6px; margin-bottom:6px;">
               <sc-for list="{{ roadmapDiasSemanaLbl }}" as="dl" hint-placeholder-count="7">
@@ -912,7 +918,7 @@
             </div>
             <div style="display:grid; grid-template-columns:repeat(7,1fr); gap:6px;">
               <sc-for list="{{ roadmapMesCeldas }}" as="c" hint-placeholder-count="35">
-                <div onClick="{{ c.onClick }}" style="{{ c.style }}">
+                <div onClick="{{ c.onClick }}" onKeyDown="{{ onCardKeyDown }}" role="button" tabindex="0" style="{{ c.style }}">
                   <div>{{ c.num }}</div>
                   <div style="{{ c.dotStyle }}"></div>
                   <sc-if value="{{ c.hasNota }}" hint-placeholder-val="{{ false }}">
@@ -928,13 +934,13 @@
           <sc-if value="{{ roadmapVistaSemana }}" hint-placeholder-val="{{ false }}">
           <div style="margin-top:16px;">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
-              <button onClick="{{ roadmapSemanaPrev }}" style="background:#F4F1FE; color:#6B46E5; border:none; border-radius:8px; width:30px; height:30px; font-weight:700; cursor:pointer; font-family:inherit;">←</button>
+              <button onClick="{{ roadmapSemanaPrev }}" aria-label="Semana anterior" style="background:#F4F1FE; color:#6B46E5; border:none; border-radius:8px; width:30px; height:30px; font-weight:700; cursor:pointer; font-family:inherit;">←</button>
               <div style="font-weight:700; font-size:14px;">{{ roadmapSemanaLabel }}</div>
-              <button onClick="{{ roadmapSemanaNext }}" style="background:#F4F1FE; color:#6B46E5; border:none; border-radius:8px; width:30px; height:30px; font-weight:700; cursor:pointer; font-family:inherit;">→</button>
+              <button onClick="{{ roadmapSemanaNext }}" aria-label="Semana siguiente" style="background:#F4F1FE; color:#6B46E5; border:none; border-radius:8px; width:30px; height:30px; font-weight:700; cursor:pointer; font-family:inherit;">→</button>
             </div>
             <div style="display:grid; grid-template-columns:repeat(7,1fr); gap:8px;">
               <sc-for list="{{ roadmapSemanaCeldas }}" as="c" hint-placeholder-count="7">
-                <div onClick="{{ c.onClick }}" style="{{ c.style }}">
+                <div onClick="{{ c.onClick }}" onKeyDown="{{ onCardKeyDown }}" role="button" tabindex="0" style="{{ c.style }}">
                   <div style="font-size:10px; color:#9A9AA6; font-weight:700;">{{ c.diaLbl }}</div>
                   <div style="font-weight:700; font-size:15px;">{{ c.num }}</div>
                   <sc-for list="{{ c.eventos }}" as="e" hint-placeholder-count="1">
@@ -973,7 +979,7 @@
                 <sc-for list="{{ roadmapDiaSelNotas }}" as="n" hint-placeholder-count="2">
                   <div style="background:#fff; border:1px solid #ECECF1; border-radius:9px; padding:8px 10px;">
                     <sc-if value="{{ n.enEdicion }}" hint-placeholder-val="{{ false }}">
-                      <input onInput="{{ n.onEditInput }}" value="{{ n.editTexto }}" type="text" style="width:100%; border:1.5px solid #6B46E5; border-radius:8px; padding:7px 9px; font-size:12.5px; font-family:inherit; outline:none; box-sizing:border-box; margin-bottom:6px;" />
+                      <input onInput="{{ n.onEditInput }}" value="{{ n.editTexto }}" type="text" aria-label="Editar nota" style="width:100%; border:1.5px solid #6B46E5; border-radius:8px; padding:7px 9px; font-size:12.5px; font-family:inherit; outline:none; box-sizing:border-box; margin-bottom:6px;" />
                       <div style="display:flex; justify-content:flex-end; gap:8px;">
                         <button onClick="{{ n.onCancelarEdit }}" style="background:none; border:none; color:#9A9AA6; font-size:12px; cursor:pointer; font-family:inherit;">Cancelar</button>
                         <button onClick="{{ n.onGuardarEdit }}" style="background:#6B46E5; color:#fff; border:none; border-radius:7px; padding:6px 12px; font-family:inherit; font-size:12px; font-weight:700; cursor:pointer;">Guardar</button>
@@ -983,8 +989,8 @@
                       <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:8px;">
                         <div style="font-size:12.5px; line-height:1.45; flex:1;">{{ n.contenido }}</div>
                         <div style="display:flex; gap:2px; flex:none;">
-                          <button onClick="{{ n.onEditar }}" title="Editar" style="background:none; border:none; color:#9A9AA6; cursor:pointer; font-size:13px; padding:2px 5px;">✏️</button>
-                          <button onClick="{{ n.onBorrar }}" title="Borrar" style="background:none; border:none; color:#C8C8D2; cursor:pointer; font-size:13px; padding:2px 5px;">🗑️</button>
+                          <button onClick="{{ n.onEditar }}" title="Editar" aria-label="Editar nota" style="background:none; border:none; color:#9A9AA6; cursor:pointer; font-size:13px; padding:2px 5px;">✏️</button>
+                          <button onClick="{{ n.onBorrar }}" title="Borrar" aria-label="Borrar nota" style="background:none; border:none; color:#C8C8D2; cursor:pointer; font-size:13px; padding:2px 5px;">🗑️</button>
                         </div>
                       </div>
                     </sc-if>
@@ -992,7 +998,7 @@
                 </sc-for>
               </div>
               <div style="display:flex; gap:8px;">
-                <input onInput="{{ onNotaNuevoInput }}" value="{{ notaNuevoTexto }}" type="text" placeholder="Añadir una nota nueva…" style="flex:1; border:1.5px solid #ECECF1; border-radius:10px; padding:9px 11px; font-size:13px; font-family:inherit; outline:none; box-sizing:border-box;" />
+                <input onInput="{{ onNotaNuevoInput }}" value="{{ notaNuevoTexto }}" type="text" placeholder="Añadir una nota nueva…" aria-label="Añadir una nota nueva" style="flex:1; border:1.5px solid #ECECF1; border-radius:10px; padding:9px 11px; font-size:13px; font-family:inherit; outline:none; box-sizing:border-box;" />
                 <button onClick="{{ onAnadirNota }}" style="background:#6B46E5; color:#fff; border:none; border-radius:8px; padding:0 16px; font-family:inherit; font-size:13px; font-weight:700; cursor:pointer;">Añadir</button>
               </div>
             </div>
@@ -1026,7 +1032,7 @@
     <div style="background:#6B46E5; color:#fff; padding:13px 16px;">
       <div style="display:flex; justify-content:space-between; align-items:center;">
         <div style="font-weight:700; font-size:14px;">🧑‍🎓 Asistente de estudio</div>
-        <button onClick="{{ cerrarAsistenteBtn }}" style="background:none; border:none; color:#fff; font-size:17px; cursor:pointer; padding:2px 4px; line-height:1;">✕</button>
+        <button onClick="{{ cerrarAsistenteBtn }}" aria-label="Cerrar asistente" style="background:none; border:none; color:#fff; font-size:17px; cursor:pointer; padding:2px 4px; line-height:1;">✕</button>
       </div>
       <div style="font-size:11.5px; opacity:.85; margin-top:2px;">{{ asistenteTemaLabel }}</div>
     </div>
@@ -1073,8 +1079,8 @@
       </sc-if>
     </div>
     <div style="border-top:1px solid #ECECF1; padding:10px 12px; display:flex; gap:8px;">
-      <input onInput="{{ onAsistenteInput }}" value="{{ asistenteInput }}" placeholder="Escribe tu pregunta…" style="flex:1; border:1.5px solid #ECECF1; border-radius:11px; padding:10px 12px; font-size:13px; font-family:inherit; outline:none; box-sizing:border-box;" />
-      <button onClick="{{ enviarAsistenteBtn }}" style="background:#6B46E5; color:#fff; border:none; border-radius:11px; padding:0 16px; font-weight:700; cursor:pointer; font-family:inherit;">→</button>
+      <input onInput="{{ onAsistenteInput }}" value="{{ asistenteInput }}" placeholder="Escribe tu pregunta…" aria-label="Escribe tu pregunta al asistente" style="flex:1; border:1.5px solid #ECECF1; border-radius:11px; padding:10px 12px; font-size:13px; font-family:inherit; outline:none; box-sizing:border-box;" />
+      <button onClick="{{ enviarAsistenteBtn }}" aria-label="Enviar pregunta" style="background:#6B46E5; color:#fff; border:none; border-radius:11px; padding:0 16px; font-weight:700; cursor:pointer; font-family:inherit;">→</button>
     </div>
   </div>
   </sc-if>
@@ -1198,6 +1204,16 @@ class Component extends DCLogic {
 
   cancelarResetPassword() {
     this.setState({ resetStep:'idle', resetPreguntaTexto:'', resetRespuesta:'', resetNuevaPassword:'', authError:'' });
+  }
+
+  // Permite activar con teclado (Enter/Espacio) las tarjetas/filas clicables
+  // que no son <button> nativos (listas de temas, tarjetas, arrastrar-soltar,
+  // historial...). Reenvía a la misma acción ya ligada al click del elemento.
+  onCardKeyDown(e) {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      e.currentTarget.click();
+    }
   }
 
   logout() {
