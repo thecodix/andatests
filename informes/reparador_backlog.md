@@ -45,11 +45,12 @@ Lista ordenada por prioridad (arriba = primero). El agente `reparador` resuelve 
 **Tests:** sí — `backend/tests/test_migrations.py` (nuevo): ejecuta `alembic upgrade head` (vía subprocess, con su propio proceso Python para no interferir con el `engine`/`DATABASE_URL` ya cacheados por el resto de la suite) contra una BD SQLite limpia y comprueba que las 10 tablas esperadas existen y que `usuario` tiene las columnas de pregunta de seguridad. Suite completa: 17 passed (16 de antes + 1 nuevo).
 
 ## 6. CI básica (GitHub Actions) ejecutando la suite de tests
-**Estado:** [ ] pendiente
+**Estado:** [x] hecho
 **Área:** testing
 **Contexto:** no existe ningún workflow de CI; los tests que vaya añadiendo `reparador` (y futuros) solo se ejecutan si alguien se acuerda de correrlos a mano.
 **Criterio de aceptación:** un workflow en `.github/workflows/` que instale dependencias de `backend/` con `uv` y ejecute `pytest` en cada push/PR.
-**Tests:** N/A (esto ES la infraestructura de tests) — verificar localmente que el comando que usará el workflow funciona (`uv run pytest`) antes de darlo por bueno.
+**Resuelto:** 2026-07-26 — creado `.github/workflows/backend-tests.yml`: en cada push/PR a `master`, instala `uv` (acción oficial `astral-sh/setup-uv`), ejecuta `uv sync --all-groups` (incluye el grupo `dev` con `pytest`) y `uv run pytest -v` sobre `backend/`, en `ubuntu-latest`. Verificado localmente que `uv sync --all-groups` funciona; `uv run pytest` en sí no se pudo verificar literalmente en local por el problema conocido de Windows/antivirus (`Acceso denegado, os error 5`, ver `CLAUDE.md`/memoria de repo — específico de este entorno Windows, no ocurre en runners Linux de GitHub Actions), pero se verificó de forma equivalente con `uv run python -m pytest` (17 passed) para confirmar que la suite y las dependencias están correctas.
+**Tests:** N/A (esto ES la infraestructura de tests) — se verificó localmente la suite completa antes de dar el workflow por bueno; la validación definitiva de que el workflow en sí funciona ocurrirá en el primer push/PR a GitHub.
 
 ## 7. Logging estructurado y captura de errores en backend
 **Estado:** [ ] pendiente
