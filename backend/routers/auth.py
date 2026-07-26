@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi import APIRouter, Depends, HTTPException, Request, status
 from pydantic import BaseModel, EmailStr, field_validator
 from sqlmodel import Session, select
 
@@ -12,6 +12,7 @@ from auth import (
 )
 from database import get_session
 from models import Usuario
+from rate_limit import limiter
 
 router = APIRouter(prefix="/auth", tags=["auth"])
 
@@ -86,7 +87,8 @@ class MeOut(BaseModel):
 
 
 @router.post("/register", response_model=TokenOut, status_code=201)
-def register(body: RegisterIn, session: Session = Depends(get_session)):
+@limiter.limit("10/hour")
+def register(request: Request, body: RegisterIn, session: Session = Depends(get_session)):
     existing = session.exec(select(Usuario).where(Usuario.email == body.email)).first()
     if existing:
         raise HTTPException(status.HTTP_409_CONFLICT, "Email ya registrado")
@@ -104,7 +106,8 @@ def register(body: RegisterIn, session: Session = Depends(get_session)):
 
 
 @router.post("/login", response_model=TokenOut)
-def login(body: LoginIn, session: Session = Depends(get_session)):
+@limiter.limit("5/minute")
+def login(request: Request, body: LoginIn, session: Session = Depends(get_session)):
     user = session.exec(select(Usuario).where(Usuario.email == body.email)).first()
     if not user or not verify_password(body.password, user.hashed_password):
         raise HTTPException(status.HTTP_401_UNAUTHORIZED, "Email o contraseña incorrectos")
@@ -112,7 +115,8 @@ def login(body: LoginIn, session: Session = Depends(get_session)):
 
 
 @router.post("/reset-password/pregunta", response_model=PreguntaSeguridadOut)
-def obtener_pregunta_seguridad(body: ResetIn, session: Session = Depends(get_session)):
+@limiter.limit("5/minute")
+def obtener_pregunta_seguridad(request: Request, body: ResetIn, session: Session = Depends(get_session)):
     """Primer paso del reseteo: devuelve la pregunta de seguridad del usuario,
     necesaria para poder responderla en el segundo paso."""
     user = session.exec(select(Usuario).where(Usuario.email == body.email)).first()
@@ -122,7 +126,8 @@ def obtener_pregunta_seguridad(body: ResetIn, session: Session = Depends(get_ses
 
 
 @router.post("/reset-password", response_model=TokenOut)
-def reset_password(body: ResetPasswordIn, session: Session = Depends(get_session)):
+@limiter.limit("5/minute")
+def reset_password(request: Request, body: ResetPasswordIn, session: Session = Depends(get_session)):
     """Segundo paso del reseteo: verifica la respuesta de seguridad y, si
     coincide, establece la nueva contraseña elegida por el usuario."""
     user = session.exec(select(Usuario).where(Usuario.email == body.email)).first()

@@ -13,11 +13,12 @@ Lista ordenada por prioridad (arriba = primero). El agente `reparador` resuelve 
 **Tests:** sí — `backend/tests/test_auth.py` (9 tests): registro exige pregunta/respuesta, login, pregunta desconocida da 404, pregunta configurada se devuelve correctamente, respuesta incorrecta falla sin tocar la contraseña, respuesta correcta cambia la contraseña (antigua deja de funcionar), normalización de mayúsculas/espacios en la respuesta, contraseña nueva demasiado corta se rechaza, y `PUT /auth/security-question` para cuentas ya autenticadas. Toda la suite (`uv run python -m pytest`) pasa (9 passed). Se creó la infraestructura de tests de `backend/` desde cero (`pytest` como dev-dependency, `backend/tests/conftest.py` con un engine SQLite temporal compartido para toda la sesión de test, nunca `backend/andatest.db`).
 
 ## 2. Rate limiting en endpoints de autenticación
-**Estado:** [ ] pendiente
+**Estado:** [x] hecho
 **Área:** seguridad
 **Contexto:** `backend/routers/auth.py` — `/auth/login`, `/auth/register` y `/auth/reset-password` no tienen ningún límite de intentos, lo que permite fuerza bruta de contraseñas y abuso del endpoint de registro/reset.
 **Criterio de aceptación:** los tres endpoints tienen un límite razonable de peticiones por IP/tiempo (p.ej. vía `slowapi` u otra librería ligera compatible con FastAPI), devolviendo 429 al superarlo.
-**Tests:** sí — test que dispare más peticiones que el límite y confirme el 429.
+**Resuelto:** 2026-07-26 — añadido `slowapi` (dependencia nueva en `backend/pyproject.toml`) con un `Limiter` compartido en `backend/rate_limit.py` (en memoria del proceso, sin Redis — suficiente para el despliegue actual de una sola instancia en Render) y registrado en `main.py` (`app.state.limiter`, exception handler de `RateLimitExceeded` → 429, `SlowAPIMiddleware`). Límites aplicados con `@limiter.limit(...)` por IP a los cuatro endpoints de `backend/routers/auth.py` que forman la superficie de ataque no autenticada del flujo de auth (creció respecto al texto original del ítem tras el ítem 1): `/auth/login` (5/min), `/auth/register` (10/hora), `/auth/reset-password/pregunta` (5/min) y `/auth/reset-password` (5/min). `PUT /auth/security-question` se dejó fuera del alcance por requerir ya autenticación (superficie de ataque mucho menor). Umbrales y ausencia de Redis decididos con el usuario antes de implementar.
+**Tests:** sí — `backend/tests/test_rate_limit.py` (4 tests nuevos): cada endpoint devuelve 429 al superar su límite tras agotar las peticiones permitidas dentro de la ventana. Se añadió un fixture `autouse` en `backend/tests/conftest.py` que resetea el `Limiter` (`limiter.reset()`) antes/después de cada test para que los contadores en memoria no se contaminen entre tests. Suite completa (`uv run python -m pytest`, vía `python -m pytest`): 13 passed (9 de antes + 4 nuevos).
 
 ## 3. Política mínima de contraseñas en registro
 **Estado:** [ ] pendiente

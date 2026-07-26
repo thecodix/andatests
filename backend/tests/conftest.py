@@ -26,6 +26,7 @@ from sqlmodel import SQLModel  # noqa: E402
 
 import main as main_module  # noqa: E402
 from database import engine  # noqa: E402
+from rate_limit import limiter  # noqa: E402
 
 
 @pytest.fixture()
@@ -34,6 +35,17 @@ def client():
     with TestClient(main_module.app) as test_client:
         yield test_client
     SQLModel.metadata.drop_all(engine)
+
+
+@pytest.fixture(autouse=True)
+def _reset_rate_limiter():
+    # Los contadores del limiter viven en memoria del propio proceso, fuera
+    # del ciclo create_all/drop_all de cada test. Sin este reset, un test que
+    # agote un límite (p.ej. el propio test de rate limiting) contaminaría
+    # los tests siguientes que reutilizan el mismo endpoint.
+    limiter.reset()
+    yield
+    limiter.reset()
 
 
 def pytest_sessionfinish(session, exitstatus):
