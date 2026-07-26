@@ -53,11 +53,12 @@ Lista ordenada por prioridad (arriba = primero). El agente `reparador` resuelve 
 **Tests:** N/A (esto ES la infraestructura de tests) — se verificó localmente la suite completa antes de dar el workflow por bueno; la validación definitiva de que el workflow en sí funciona ocurrirá en el primer push/PR a GitHub.
 
 ## 7. Logging estructurado y captura de errores en backend
-**Estado:** [ ] pendiente
+**Estado:** [x] hecho
 **Área:** operación
 **Contexto:** el backend no tiene logging estructurado ni captura de excepciones no controladas (p.ej. fallos de la API de Groq en el asistente, errores 500 en producción) — hoy solo se detectan si un usuario avisa.
 **Criterio de aceptación:** logging básico configurado (nivel/formato coherente) y un hook opcional de captura de errores (p.ej. Sentry, activable solo si hay DSN configurado por variable de entorno, sin romper nada si no la hay).
 **Tests:** parcial — test de que la app arranca igual con y sin la variable de entorno del proveedor de errores configurada.
+**Resuelto:** 2026-07-26 — se preguntó al usuario y se decidió alcance reducido: solo logging a stdout (texto plano, nivel+timestamp+logger+mensaje) vía `logging.basicConfig`, sin servicio externo de captura de errores (Sentry, etc.) por ahora. Añadido `backend/logging_config.py` (`configure_logging()`), invocado desde `backend/main.py`; añadido un `@app.exception_handler(Exception)` global que loguea con `logger.exception(...)` y devuelve un 500 genérico (`{"detail": "Error interno del servidor"}`) sin filtrar detalles internos al cliente. Añadidos `logger.warning(...)` en los dos puntos de fallo de la API de Groq en `backend/routers/asistente.py` (`/asistente/chat` y `/asistente/pregunta-personalizada`). Tests nuevos en `backend/tests/test_logging.py`: arranque de la app (`/api/health`) y verificación de que una excepción no controlada en un endpoint real devuelve 500 genérico y queda registrada en el log (usando un `TestClient` local con `raise_server_exceptions=False`, ya que el fixture `client` compartido re-lanza la excepción hacia el test por defecto). Suite completa: 19/19 tests pasan.
 
 ## 8. PWA: manifest + service worker básico
 **Estado:** [ ] pendiente

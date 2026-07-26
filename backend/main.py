@@ -1,9 +1,10 @@
 from contextlib import asynccontextmanager
 from pathlib import Path
+import logging
 
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from slowapi import _rate_limit_exceeded_handler
 from slowapi.errors import RateLimitExceeded
@@ -12,8 +13,12 @@ from sqlmodel import SQLModel
 
 from config import settings
 from database import engine
+from logging_config import configure_logging
 from rate_limit import limiter
 from routers import asistente, auth, notas, ranking, sesiones, stats, tarjetas, temas
+
+configure_logging()
+logger = logging.getLogger("andatest")
 
 FRONTEND_DIR = Path(__file__).parent.parent
 
@@ -51,6 +56,12 @@ app.include_router(tarjetas.router, prefix="/api")
 @app.get("/api/health")
 def health():
     return {"status": "ok"}
+
+
+@app.exception_handler(Exception)
+async def unhandled_exception_handler(request: Request, exc: Exception):
+    logger.exception("Error no controlado en %s %s", request.method, request.url.path)
+    return JSONResponse(status_code=500, content={"detail": "Error interno del servidor"})
 
 
 @app.get("/", include_in_schema=False)

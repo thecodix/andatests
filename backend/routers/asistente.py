@@ -1,5 +1,6 @@
 from datetime import date
 import json
+import logging
 
 from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel
@@ -13,6 +14,7 @@ from database import get_session
 from models import AsistenteMensaje, AsistenteUso, Pregunta, Tema, Usuario
 
 router = APIRouter(prefix="/asistente", tags=["asistente"])
+logger = logging.getLogger("andatest.asistente")
 
 SYSTEM_BASE = (
     "Eres el tutor de estudio de Andatest, una app para preparar la oposición de "
@@ -137,6 +139,7 @@ def chat(
     try:
         respuesta = llm.ask_groq(system=system, historial=historial_msgs, mensaje=body.mensaje)
     except llm.LLMError as e:
+        logger.warning("Fallo llamando a Groq en /asistente/chat (tema %s): %s", body.tema_id, e)
         raise HTTPException(502, str(e))
 
     _guarda_mensaje(session, current_user.id, body.tema_id, "user", body.mensaje)
@@ -179,6 +182,7 @@ def pregunta_personalizada(
     try:
         raw = llm.ask_groq(system=system, historial=[], mensaje="Genera la pregunta.", max_tokens=600, json_mode=True)
     except llm.LLMError as e:
+        logger.warning("Fallo llamando a Groq en /asistente/pregunta-personalizada (tema %s): %s", body.tema_id, e)
         raise HTTPException(502, str(e))
 
     try:
