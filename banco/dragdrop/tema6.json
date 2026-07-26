@@ -1,0 +1,154 @@
+[
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada rasgo según la clase de empleado público a la que define",
+    "ref": "TREBEP, arts. 9-12",
+    "categorias": ["Funcionarios de carrera", "Funcionarios interinos", "Personal laboral", "Personal eventual"],
+    "items": [
+      { "texto": "Vinculados por relación estatutaria para servicios profesionales retribuidos de carácter permanente", "categoria": "Funcionarios de carrera" },
+      { "texto": "Les corresponde en exclusiva el ejercicio de potestades públicas", "categoria": "Funcionarios de carrera" },
+      { "texto": "Nombrados con carácter temporal por razones de necesidad y urgencia", "categoria": "Funcionarios interinos" },
+      { "texto": "Su nombramiento no da lugar al reconocimiento de la condición de funcionario de carrera", "categoria": "Funcionarios interinos" },
+      { "texto": "Vinculados mediante contrato de trabajo formalizado por escrito", "categoria": "Personal laboral" },
+      { "texto": "Pueden ser fijos, por tiempo indefinido o temporales", "categoria": "Personal laboral" },
+      { "texto": "Solo realizan funciones de confianza o asesoramiento especial", "categoria": "Personal eventual" },
+      { "texto": "Su nombramiento y cese son libres; cesan cuando cesa la autoridad a la que asesoran", "categoria": "Personal eventual" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada circunstancia de nombramiento de funcionarios interinos con su plazo máximo (art. 10.1)",
+    "ref": "TREBEP, art. 10.1",
+    "pares": [
+      { "izquierda": "Plazas vacantes no cubiertas por funcionarios de carrera", "derecha": "Máximo 3 años" },
+      { "izquierda": "Sustitución transitoria de los titulares", "derecha": "El tiempo estrictamente necesario" },
+      { "izquierda": "Ejecución de programas de carácter temporal", "derecha": "Máximo 3 años, ampliable hasta 12 meses más" },
+      { "izquierda": "Exceso o acumulación de tareas", "derecha": "Máximo 9 meses dentro de un período de 18 meses" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada derecho según sea un derecho individual (art. 14) o un derecho individual ejercido colectivamente (art. 15)",
+    "ref": "TREBEP, arts. 14-15",
+    "categorias": ["Derecho individual (art. 14)", "Derecho individual ejercido colectivamente (art. 15)"],
+    "items": [
+      { "texto": "Inamovilidad en la condición de funcionario de carrera", "categoria": "Derecho individual (art. 14)" },
+      { "texto": "Progresión en la carrera profesional y promoción interna", "categoria": "Derecho individual (art. 14)" },
+      { "texto": "Percibir retribuciones e indemnizaciones por razón del servicio", "categoria": "Derecho individual (art. 14)" },
+      { "texto": "Formación continua y actualización permanente de conocimientos", "categoria": "Derecho individual (art. 14)" },
+      { "texto": "Vacaciones, descansos, permisos y licencias", "categoria": "Derecho individual (art. 14)" },
+      { "texto": "Libertad sindical", "categoria": "Derecho individual ejercido colectivamente (art. 15)" },
+      { "texto": "Negociación colectiva y participación en condiciones de trabajo", "categoria": "Derecho individual ejercido colectivamente (art. 15)" },
+      { "texto": "Ejercicio de la huelga", "categoria": "Derecho individual ejercido colectivamente (art. 15)" },
+      { "texto": "Planteamiento de conflictos colectivos de trabajo", "categoria": "Derecho individual ejercido colectivamente (art. 15)" },
+      { "texto": "Derecho de reunión (art. 46)", "categoria": "Derecho individual ejercido colectivamente (art. 15)" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada permiso del art. 48 con su duración",
+    "ref": "TREBEP, art. 48",
+    "pares": [
+      { "izquierda": "Traslado de domicilio sin cambio de residencia", "derecha": "1 día" },
+      { "izquierda": "Fallecimiento de familiar de 2º grado en la misma localidad", "derecha": "2 días hábiles" },
+      { "izquierda": "Fallecimiento del cónyuge o familiar de 1er grado en la misma localidad", "derecha": "3 días hábiles" },
+      { "izquierda": "Accidente o enfermedad grave de familiar de 2º grado", "derecha": "4 días hábiles" },
+      { "izquierda": "Accidente o enfermedad grave del cónyuge o familiar de 1er grado", "derecha": "5 días hábiles" },
+      { "izquierda": "Asuntos particulares", "derecha": "6 días al año" },
+      { "izquierda": "Matrimonio o constitución formalizada de pareja de hecho", "derecha": "15 días" }
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena los requisitos sucesivos para adquirir la condición de funcionario de carrera (art. 62)",
+    "ref": "TREBEP, art. 62",
+    "items": [
+      "Superación del proceso selectivo",
+      "Nombramiento por el órgano o autoridad competente, publicado en el Diario Oficial",
+      "Acto de acatamiento de la Constitución y, en su caso, del Estatuto de Autonomía",
+      "Toma de posesión dentro del plazo establecido"
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada colectivo según el TREBEP se le aplique directamente (art. 2) o solo cuando lo disponga su legislación específica (art. 4)",
+    "ref": "TREBEP, arts. 2 y 4",
+    "categorias": ["Aplicación directa del TREBEP (art. 2)", "Solo cuando lo disponga su legislación específica (art. 4)"],
+    "items": [
+      { "texto": "Personal de la Administración General del Estado", "categoria": "Aplicación directa del TREBEP (art. 2)" },
+      { "texto": "Personal de las Universidades Públicas", "categoria": "Aplicación directa del TREBEP (art. 2)" },
+      { "texto": "Personal de las Administraciones de las Entidades Locales", "categoria": "Aplicación directa del TREBEP (art. 2)" },
+      { "texto": "Personal de organismos públicos con personalidad jurídica propia vinculados a una AP", "categoria": "Aplicación directa del TREBEP (art. 2)" },
+      { "texto": "Personal funcionario de las Cortes Generales", "categoria": "Solo cuando lo disponga su legislación específica (art. 4)" },
+      { "texto": "Jueces, Magistrados y Fiscales", "categoria": "Solo cuando lo disponga su legislación específica (art. 4)" },
+      { "texto": "Personal militar de las Fuerzas Armadas", "categoria": "Solo cuando lo disponga su legislación específica (art. 4)" },
+      { "texto": "Personal del Centro Nacional de Inteligencia", "categoria": "Solo cuando lo disponga su legislación específica (art. 4)" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada modalidad de jubilación o rehabilitación con su rasgo definitorio (arts. 67-68)",
+    "ref": "TREBEP, arts. 67-68",
+    "pares": [
+      { "izquierda": "Jubilación voluntaria", "derecha": "A solicitud del interesado, cumpliendo los requisitos del Régimen de Seguridad Social aplicable" },
+      { "izquierda": "Jubilación forzosa", "derecha": "De oficio al cumplir 65 años; puede solicitarse prolongación hasta los 70" },
+      { "izquierda": "Jubilación por incapacidad permanente", "derecha": "Por declaración de incapacidad para las funciones propias de su cuerpo o escala" },
+      { "izquierda": "Rehabilitación tras jubilación por incapacidad", "derecha": "Desaparecida la causa, el interesado solicita y se le concede la rehabilitación" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada deber según sea un principio ético (art. 53) o un principio de conducta (art. 54)",
+    "ref": "TREBEP, arts. 53-54",
+    "categorias": ["Principio ético (art. 53)", "Principio de conducta (art. 54)"],
+    "items": [
+      { "texto": "Se abstendrán en asuntos en los que tengan un interés personal", "categoria": "Principio ético (art. 53)" },
+      { "texto": "No aceptarán ningún trato de favor o situación que implique privilegio injustificado", "categoria": "Principio ético (art. 53)" },
+      { "texto": "Guardarán secreto de las materias clasificadas", "categoria": "Principio ético (art. 53)" },
+      { "texto": "Actuarán de acuerdo con los principios de eficacia, economía y eficiencia", "categoria": "Principio ético (art. 53)" },
+      { "texto": "Tratarán con atención y respeto a ciudadanos, superiores y restantes empleados públicos", "categoria": "Principio de conducta (art. 54)" },
+      { "texto": "Obedecerán las instrucciones de los superiores, salvo infracción manifiesta del ordenamiento", "categoria": "Principio de conducta (art. 54)" },
+      { "texto": "Administrarán los recursos y bienes públicos con austeridad", "categoria": "Principio de conducta (art. 54)" },
+      { "texto": "Garantizarán la atención al ciudadano en la lengua oficial que lo solicite", "categoria": "Principio de conducta (art. 54)" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada supuesto de ampliación del permiso por nacimiento (art. 49) con su duración adicional",
+    "ref": "TREBEP, art. 49.a-c",
+    "pares": [
+      { "izquierda": "Parto prematuro o neonato hospitalizado", "derecha": "Tantos días como dure la hospitalización, máximo 13 semanas adicionales" },
+      { "izquierda": "Discapacidad del hijo o hija", "derecha": "2 semanas más para ambos progenitores" },
+      { "izquierda": "Parto múltiple (a partir del segundo hijo)", "derecha": "1 semana más por cada hijo adicional, para cada progenitor" },
+      { "izquierda": "Monoparentalidad (única persona progenitora)", "derecha": "El permiso total será de 32 semanas (en vez de 19)" },
+      { "izquierda": "Fallecimiento del hijo o hija", "derecha": "El período no se reduce, salvo reincorporación voluntaria tras las 6 semanas obligatorias" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada supuesto según sea causa de pérdida de la condición de funcionario de carrera (art. 63) o causa de fin de la relación de interinidad (art. 10.3)",
+    "ref": "TREBEP, arts. 63 y 10.3",
+    "categorias": ["Pérdida de la condición de funcionario de carrera (art. 63)", "Fin de la relación de interinidad (art. 10.3)"],
+    "items": [
+      { "texto": "Renuncia a la condición de funcionario", "categoria": "Pérdida de la condición de funcionario de carrera (art. 63)" },
+      { "texto": "Pérdida de la nacionalidad", "categoria": "Pérdida de la condición de funcionario de carrera (art. 63)" },
+      { "texto": "Jubilación total del funcionario", "categoria": "Pérdida de la condición de funcionario de carrera (art. 63)" },
+      { "texto": "Sanción disciplinaria de separación del servicio (firme)", "categoria": "Pérdida de la condición de funcionario de carrera (art. 63)" },
+      { "texto": "Pena de inhabilitación absoluta o especial (firme)", "categoria": "Pérdida de la condición de funcionario de carrera (art. 63)" },
+      { "texto": "Cobertura reglada del puesto por funcionario de carrera", "categoria": "Fin de la relación de interinidad (art. 10.3)" },
+      { "texto": "Supresión o amortización del puesto por razones organizativas", "categoria": "Fin de la relación de interinidad (art. 10.3)" },
+      { "texto": "Finalización del plazo autorizado en el nombramiento", "categoria": "Fin de la relación de interinidad (art. 10.3)" },
+      { "texto": "Finalización de la causa que dio lugar al nombramiento", "categoria": "Fin de la relación de interinidad (art. 10.3)" }
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena la distribución temporal del permiso por nacimiento para la madre biológica (art. 49.a)",
+    "ref": "TREBEP, art. 49.a",
+    "items": [
+      "6 semanas obligatorias, inmediatamente posteriores al parto, a jornada completa",
+      "11 semanas a voluntad de la madre, acumuladas o interrumpidas, hasta que el hijo cumpla 12 meses",
+      "2 semanas para cuidado del menor, acumuladas o interrumpidas, hasta que el hijo cumpla 8 años"
+    ]
+  }
+]

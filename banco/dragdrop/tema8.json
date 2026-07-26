@@ -1,0 +1,116 @@
+[
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada tipo de dato personal según el nivel de protección exigido por el art. 15 para autorizar el acceso a información que los contenga",
+    "ref": "Ley 19/2013, art. 15.1",
+    "categorias": ["Consentimiento expreso y por escrito del afectado", "Consentimiento expreso del afectado o norma con rango de ley"],
+    "items": [
+      { "texto": "Ideología", "categoria": "Consentimiento expreso y por escrito del afectado" },
+      { "texto": "Afiliación sindical", "categoria": "Consentimiento expreso y por escrito del afectado" },
+      { "texto": "Religión", "categoria": "Consentimiento expreso y por escrito del afectado" },
+      { "texto": "Creencias", "categoria": "Consentimiento expreso y por escrito del afectado" },
+      { "texto": "Origen racial", "categoria": "Consentimiento expreso del afectado o norma con rango de ley" },
+      { "texto": "Salud", "categoria": "Consentimiento expreso del afectado o norma con rango de ley" },
+      { "texto": "Vida sexual", "categoria": "Consentimiento expreso del afectado o norma con rango de ley" },
+      { "texto": "Datos genéticos o biométricos", "categoria": "Consentimiento expreso del afectado o norma con rango de ley" },
+      { "texto": "Infracciones penales o administrativas sin amonestación pública", "categoria": "Consentimiento expreso del afectado o norma con rango de ley" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada actuación del procedimiento de acceso según el plazo que le asigna la Ley 19/2013",
+    "ref": "Ley 19/2013, arts. 19, 20, 22 y 24",
+    "categorias": ["10 días", "15 días", "1 mes", "3 meses"],
+    "items": [
+      { "texto": "Concretar la solicitud cuando no identifica suficientemente la información (art. 19.2)", "categoria": "10 días" },
+      { "texto": "Otorgar el acceso cuando no es posible en el momento de la notificación (art. 22.1)", "categoria": "10 días" },
+      { "texto": "Alegaciones de terceros cuyos derechos puedan verse afectados (art. 19.3)", "categoria": "15 días" },
+      { "texto": "Resolver y notificar la solicitud de acceso (art. 20.1)", "categoria": "1 mes" },
+      { "texto": "Interponer reclamación ante el Consejo de Transparencia y Buen Gobierno (art. 24.2)", "categoria": "1 mes" },
+      { "texto": "Resolver y notificar la reclamación por el Consejo de Transparencia y Buen Gobierno (art. 24.4)", "categoria": "3 meses" }
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena las fases del procedimiento de ejercicio del derecho de acceso a la información pública según la Ley 19/2013",
+    "ref": "Ley 19/2013, arts. 17-22",
+    "items": [
+      "Presentación de la solicitud de acceso (art. 17)",
+      "Admisión o inadmisión a trámite (art. 18)",
+      "Tramitación: subsanación, audiencia a terceros, remisión (art. 19)",
+      "Resolución concediendo o denegando el acceso (art. 20)",
+      "Formalización del acceso (art. 22)"
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada situación del procedimiento de acceso con la consecuencia que prevé la Ley 19/2013",
+    "ref": "Ley 19/2013, arts. 19, 20 y 22",
+    "pares": [
+      { "izquierda": "La solicitud no identifica suficientemente la información", "derecha": "Se pide concretar en 10 días con apercibimiento de desistimiento" },
+      { "izquierda": "La información puede afectar a derechos de terceros identificados", "derecha": "Se concede 15 días de alegaciones y se suspende el plazo de resolución" },
+      { "izquierda": "La solicitud se dirige a un órgano que no tiene la información pero conoce al competente", "derecha": "Se remite al competente y se informa al solicitante" },
+      { "izquierda": "Transcurre el plazo máximo para resolver sin resolución expresa", "derecha": "Se entiende desestimada la solicitud (silencio negativo)" },
+      { "izquierda": "La información fue elaborada en su integridad por otro sujeto", "derecha": "Se remite la solicitud a éste para que decida sobre el acceso" },
+      { "izquierda": "Se concede acceso habiendo existido oposición de tercero", "derecha": "El acceso solo se ejecuta tras transcurrir el plazo de recurso contencioso sin formalizarse" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada supuesto según sea un límite al derecho de acceso (art. 14) o una causa de inadmisión de la solicitud (art. 18)",
+    "ref": "Ley 19/2013, arts. 14 y 18",
+    "categorias": ["Límite al acceso (art. 14)", "Causa de inadmisión (art. 18)"],
+    "items": [
+      { "texto": "Perjuicio para la seguridad nacional", "categoria": "Límite al acceso (art. 14)" },
+      { "texto": "Perjuicio para la defensa", "categoria": "Límite al acceso (art. 14)" },
+      { "texto": "Perjuicio para las relaciones exteriores", "categoria": "Límite al acceso (art. 14)" },
+      { "texto": "Perjuicio para el secreto profesional y la propiedad intelectual e industrial", "categoria": "Límite al acceso (art. 14)" },
+      { "texto": "Perjuicio para las funciones administrativas de vigilancia, inspección y control", "categoria": "Límite al acceso (art. 14)" },
+      { "texto": "Información en curso de elaboración o de publicación general", "categoria": "Causa de inadmisión (art. 18)" },
+      { "texto": "Información auxiliar o de apoyo (notas, borradores, informes internos)", "categoria": "Causa de inadmisión (art. 18)" },
+      { "texto": "Información cuya divulgación requiere una acción previa de reelaboración", "categoria": "Causa de inadmisión (art. 18)" },
+      { "texto": "Solicitud dirigida a órgano que no tiene la información y se desconoce el competente", "categoria": "Causa de inadmisión (art. 18)" },
+      { "texto": "Solicitudes manifiestamente repetitivas o de carácter abusivo", "categoria": "Causa de inadmisión (art. 18)" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada aspecto de la reclamación ante el Consejo de Transparencia y Buen Gobierno con su contenido (art. 24)",
+    "ref": "Ley 19/2013, art. 24",
+    "pares": [
+      { "izquierda": "Carácter de la reclamación", "derecha": "Potestativa y previa a la vía contencioso-administrativa" },
+      { "izquierda": "Plazo de interposición", "derecha": "1 mes desde la notificación del acto o desde los efectos del silencio" },
+      { "izquierda": "Plazo máximo para resolver y notificar", "derecha": "3 meses" },
+      { "izquierda": "Sentido del silencio si no se resuelve en plazo", "derecha": "Desestimatorio (reclamación desestimada)" },
+      { "izquierda": "Publicación de resoluciones", "derecha": "Por medios electrónicos, previa disociación de datos personales" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada elemento según sea contenido obligatorio o potestativo de la solicitud de acceso a la información (art. 17)",
+    "ref": "Ley 19/2013, art. 17.1-3",
+    "categorias": ["Contenido obligatorio", "Contenido potestativo"],
+    "items": [
+      { "texto": "Identidad del solicitante", "categoria": "Contenido obligatorio" },
+      { "texto": "Información que se solicita", "categoria": "Contenido obligatorio" },
+      { "texto": "Dirección de contacto, preferentemente electrónica", "categoria": "Contenido obligatorio" },
+      { "texto": "Dirigirse al titular del órgano o entidad que posea la información", "categoria": "Contenido obligatorio" },
+      { "texto": "Modalidad preferida para acceder a la información", "categoria": "Contenido potestativo" },
+      { "texto": "Motivación de la solicitud", "categoria": "Contenido potestativo" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada artículo del Capítulo III de la Ley 19/2013 con la materia que regula",
+    "ref": "Ley 19/2013, arts. 12-24",
+    "pares": [
+      { "izquierda": "Artículo 14", "derecha": "Límites al derecho de acceso" },
+      { "izquierda": "Artículo 15", "derecha": "Protección de datos personales" },
+      { "izquierda": "Artículo 17", "derecha": "Solicitud de acceso a la información" },
+      { "izquierda": "Artículo 18", "derecha": "Causas de inadmisión" },
+      { "izquierda": "Artículo 20", "derecha": "Resolución" },
+      { "izquierda": "Artículo 21", "derecha": "Unidades de información" },
+      { "izquierda": "Artículo 24", "derecha": "Reclamación ante el Consejo de Transparencia y Buen Gobierno" }
+    ]
+  }
+]

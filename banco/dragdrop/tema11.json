@@ -1,0 +1,126 @@
+[
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada elemento según sea una FUNCIÓN de la Universidad (art. 2) o un aspecto que COMPRENDE su AUTONOMÍA (art. 3)",
+    "ref": "Estatutos UHU, arts. 2 y 3",
+    "categorias": ["Función (art. 2)", "Autonomía (art. 3)"],
+    "items": [
+      { "texto": "La creación, desarrollo, transmisión y crítica de la ciencia, de la técnica y de la cultura", "categoria": "Función (art. 2)" },
+      { "texto": "La difusión del conocimiento y la cultura a través de la extensión universitaria y la formación a lo largo de toda la vida", "categoria": "Función (art. 2)" },
+      { "texto": "El apoyo científico y técnico al desarrollo cultural, social y económico, con especial atención al de Huelva y Andalucía", "categoria": "Función (art. 2)" },
+      { "texto": "La creación de un espacio de conciencia humanitaria y solidaria para una educación integral en valores humanos", "categoria": "Función (art. 2)" },
+      { "texto": "La elaboración y reforma de sus Estatutos y demás normas de organización y funcionamiento internos", "categoria": "Autonomía (art. 3)" },
+      { "texto": "La elección, designación y remoción de los correspondientes órganos de gobierno y representación", "categoria": "Autonomía (art. 3)" },
+      { "texto": "La elaboración, aprobación y gestión de sus presupuestos y la administración de sus bienes", "categoria": "Autonomía (art. 3)" },
+      { "texto": "La admisión, régimen de permanencia y verificación de conocimientos de los estudiantes", "categoria": "Autonomía (art. 3)" },
+      { "texto": "La expedición de títulos de carácter oficial y validez en todo el territorio nacional", "categoria": "Autonomía (art. 3)" },
+      { "texto": "La preparación para el ejercicio de actividades profesionales que exijan la aplicación de conocimientos y métodos científicos", "categoria": "Función (art. 2)" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada artículo del Título Preliminar con el aspecto que regula",
+    "ref": "Estatutos UHU, arts. 1-7",
+    "pares": [
+      { "izquierda": "Artículo 1", "derecha": "Naturaleza jurídica, régimen de autonomía y adecuación al EEES" },
+      { "izquierda": "Artículo 2", "derecha": "Funciones de la Universidad como institución pública al servicio de la sociedad" },
+      { "izquierda": "Artículo 3", "derecha": "Contenido de la autonomía universitaria (competencias que comprende)" },
+      { "izquierda": "Artículo 4", "derecha": "Principio de libertad académica y sus manifestaciones" },
+      { "izquierda": "Artículo 5", "derecha": "Capacidad jurídica, organización del gobierno y patrimonio propio" },
+      { "izquierda": "Artículo 6", "derecha": "Denominación oficial, emblemas, símbolos y sello" },
+      { "izquierda": "Artículo 7", "derecha": "Sede central y posibilidad de establecer sedes o delegaciones" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada elemento según pertenezca a la denominación/leyendas OFICIALES que utiliza la Universidad o a las que aparecen en su SELLO (art. 6)",
+    "ref": "Estatutos UHU, art. 6",
+    "categorias": ["Denominación oficial o leyenda en emblemas", "Leyenda dentro del sello"],
+    "items": [
+      { "texto": "Universidad de Huelva", "categoria": "Denominación oficial o leyenda en emblemas" },
+      { "texto": "Universidad Onubense", "categoria": "Denominación oficial o leyenda en emblemas" },
+      { "texto": "Vniversitas Onubensis", "categoria": "Denominación oficial o leyenda en emblemas" },
+      { "texto": "Vniversitas Onvbensis", "categoria": "Leyenda dentro del sello" },
+      { "texto": "Sapere Avde", "categoria": "Leyenda dentro del sello" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada elemento del sello de la Universidad con lo que simboliza o representa (art. 6)",
+    "ref": "Estatutos UHU, art. 6",
+    "pares": [
+      { "izquierda": "El círculo", "derecha": "Representa el saber" },
+      { "izquierda": "Las tres circunferencias concéntricas", "derecha": "Expresan las relaciones existentes entre todos los campos del conocimiento" },
+      { "izquierda": "Los cuatro campos", "derecha": "Divisiones del círculo creadas por las tres circunferencias" },
+      { "izquierda": "Los seis sectores de las circunferencias menores", "derecha": "Simbolizan las diferentes Áreas de conocimiento" },
+      { "izquierda": "El radio ligeramente doblado", "derecha": "Evidencia que la división del conocimiento entre Áreas no es terminante" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada aspecto según corresponda a lo que la autonomía de la UHU comprende respecto al PERSONAL o respecto a los ESTUDIANTES (art. 3)",
+    "ref": "Estatutos UHU, art. 3",
+    "categorias": ["Personal (PDI y PAS)", "Estudiantes"],
+    "items": [
+      { "texto": "Selección", "categoria": "Personal (PDI y PAS)" },
+      { "texto": "Formación", "categoria": "Personal (PDI y PAS)" },
+      { "texto": "Promoción", "categoria": "Personal (PDI y PAS)" },
+      { "texto": "Determinación de las condiciones en que han de desarrollar sus actividades", "categoria": "Personal (PDI y PAS)" },
+      { "texto": "Admisión", "categoria": "Estudiantes" },
+      { "texto": "Régimen de permanencia", "categoria": "Estudiantes" },
+      { "texto": "Verificación de conocimientos", "categoria": "Estudiantes" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada principio o valor con el artículo de los Estatutos en que se menciona y su contexto",
+    "ref": "Estatutos UHU, arts. 2 y 4",
+    "pares": [
+      { "izquierda": "Libertad, justicia, igualdad y pluralismo", "derecha": "Principios para la formación integral de los miembros de la UHU (art. 2)" },
+      { "izquierda": "Libertad de cátedra", "derecha": "Manifestación del principio de libertad académica (art. 4)" },
+      { "izquierda": "Libertad de investigación", "derecha": "Manifestación del principio de libertad académica (art. 4)" },
+      { "izquierda": "Libertad de estudio", "derecha": "Manifestación del principio de libertad académica (art. 4)" },
+      { "izquierda": "Transformación, progreso social, desarrollo intelectual y material de los pueblos", "derecha": "Lo que la Universidad persigue ser como instrumento eficaz (art. 2)" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada afirmación según sea VERDADERA o FALSA respecto a lo que establece el artículo 5 de los Estatutos",
+    "ref": "Estatutos UHU, art. 5",
+    "categorias": ["Verdadero", "Falso"],
+    "items": [
+      { "texto": "La UHU es una Universidad Pública con plena capacidad jurídica", "categoria": "Verdadero" },
+      { "texto": "Puede realizar toda clase de actos de gestión y disposición", "categoria": "Verdadero" },
+      { "texto": "Tiene patrimonio, presupuesto y contabilidad propios", "categoria": "Verdadero" },
+      { "texto": "Son independientes de los del Estado y de los de la Comunidad Autónoma", "categoria": "Verdadero" },
+      { "texto": "En su gobierno queda asegurada solo la representación de la comunidad universitaria, sin participación de la sociedad", "categoria": "Falso" },
+      { "texto": "La capacidad jurídica de la UHU es ilimitada, sin ninguna limitación", "categoria": "Falso" },
+      { "texto": "El presupuesto de la UHU depende del de la Comunidad Autónoma Andaluza", "categoria": "Falso" }
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena las funciones de la Universidad (art. 2) en el orden en que aparecen en los Estatutos (letras a-f)",
+    "ref": "Estatutos UHU, art. 2.2",
+    "items": [
+      "Creación, desarrollo, transmisión y crítica de la ciencia, la técnica y la cultura",
+      "Preparación para el ejercicio de actividades profesionales (conocimientos y métodos científicos, creación artística)",
+      "Difusión, valorización y transferencia del conocimiento al servicio de la cultura, calidad de vida y desarrollo económico",
+      "Difusión del conocimiento y la cultura a través de la extensión universitaria y formación a lo largo de toda la vida",
+      "Apoyo científico y técnico al desarrollo cultural, social y económico (especial atención a Huelva y Andalucía)",
+      "Creación de un espacio de conciencia humanitaria y solidaria para educación integral en valores humanos"
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada característica de la UHU con el artículo que la establece",
+    "ref": "Estatutos UHU, arts. 1, 5, 6 y 7",
+    "pares": [
+      { "izquierda": "Entidad de Derecho público con personalidad jurídica y patrimonio propio", "derecha": "Artículo 1" },
+      { "izquierda": "Plena capacidad jurídica para actos de gestión y disposición", "derecha": "Artículo 5" },
+      { "izquierda": "Denominación oficial: «Universidad de Huelva»", "derecha": "Artículo 6" },
+      { "izquierda": "Sede central en la ciudad de Huelva", "derecha": "Artículo 7" },
+      { "izquierda": "Régimen de autonomía conforme al art. 27.10 de la Constitución", "derecha": "Artículo 1" }
+    ]
+  }
+]

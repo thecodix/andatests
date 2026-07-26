@@ -1,0 +1,125 @@
+[
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada medida según pertenezca al ámbito de la enseñanza universitaria (arts. 20-21 bis) o al del empleo en el sector público andaluz (arts. 31-33)",
+    "ref": "Ley 12/2007, arts. 20-21 bis y 31-33",
+    "categorias": ["Enseñanza universitaria (arts. 20-21 bis)", "Sector público (arts. 31-33)"],
+    "items": [
+      { "texto": "Incluir enseñanzas obligatorias en materia de igualdad en planes de estudios universitarios", "categoria": "Enseñanza universitaria (arts. 20-21 bis)" },
+      { "texto": "Dotarse de una unidad de igualdad de género con estructura propia y suficiente", "categoria": "Enseñanza universitaria (arts. 20-21 bis)" },
+      { "texto": "Elaborar y aprobar un plan de igualdad y prevención de la discriminación cuatrienal", "categoria": "Enseñanza universitaria (arts. 20-21 bis)" },
+      { "texto": "Promover la creación de cátedras sobre estudios de género y violencia sexista", "categoria": "Enseñanza universitaria (arts. 20-21 bis)" },
+      { "texto": "Incluir materias relativas a la normativa sobre igualdad y violencia de género en temarios de pruebas selectivas", "categoria": "Sector público (arts. 31-33)" },
+      { "texto": "Garantizar la formación de su personal sobre igualdad y violencia de género", "categoria": "Sector público (arts. 31-33)" },
+      { "texto": "Acompañar las ofertas de empleo público de una evaluación del impacto por razón de género", "categoria": "Sector público (arts. 31-33)" },
+      { "texto": "Elaborar planes de igualdad en el empleo cada cuatro años", "categoria": "Sector público (arts. 31-33)" },
+      { "texto": "Adoptar medidas de protección frente al acoso sexual y al acoso por razón de sexo", "categoria": "Sector público (arts. 31-33)" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada obligación o medida con el sujeto al que la Ley 12/2007 se la atribuye expresamente",
+    "ref": "Ley 12/2007, arts. 20, 21, 21 bis y 31",
+    "pares": [
+      { "izquierda": "Fomentar la igualdad de oportunidades con relación a la carrera profesional", "derecha": "El sistema universitario andaluz" },
+      { "izquierda": "Fomentar el apoyo a la formación y a la investigación en materia de igualdad", "derecha": "Las Administraciones públicas de Andalucía" },
+      { "izquierda": "Establecer mecanismos para eliminar sesgos de género en selección y evaluación del personal investigador", "derecha": "Los agentes del Sistema Andaluz del Conocimiento del sector público" },
+      { "izquierda": "Incluir materias sobre igualdad y violencia de género en los temarios de pruebas selectivas", "derecha": "La Administración de la Junta de Andalucía" },
+      { "izquierda": "Promover la participación de las mujeres en ciencia, tecnología, innovación e investigación", "derecha": "Las Administraciones públicas de Andalucía" },
+      { "izquierda": "Promover la creación de cátedras sobre estudios de género y violencia sexista", "derecha": "El sistema universitario andaluz" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada contenido obligatorio en la enseñanza según se exija en Ciencias Sociales y Jurídicas (grado, máster y doctorado) o específicamente en Ciencias de la Educación",
+    "ref": "Ley 12/2007, art. 20.2",
+    "categorias": ["Ciencias Sociales y Jurídicas (grado, máster, doctorado)", "Ciencias de la Educación (obligado cumplimiento)"],
+    "items": [
+      { "texto": "Enseñanzas obligatorias en materia de igualdad entre mujeres y hombres", "categoria": "Ciencias Sociales y Jurídicas (grado, máster, doctorado)" },
+      { "texto": "Contenidos de coeducación", "categoria": "Ciencias de la Educación (obligado cumplimiento)" },
+      { "texto": "Contenidos de prevención de la violencia de género", "categoria": "Ciencias de la Educación (obligado cumplimiento)" },
+      { "texto": "Contenidos de igualdad", "categoria": "Ciencias de la Educación (obligado cumplimiento)" },
+      { "texto": "Módulo específico de coeducación en el acceso a la función pública docente", "categoria": "Ciencias de la Educación (obligado cumplimiento)" },
+      { "texto": "Módulo de prevención de la violencia de género en el acceso a la función pública docente", "categoria": "Ciencias de la Educación (obligado cumplimiento)" },
+      { "texto": "Módulo de promoción de la igualdad en el acceso a la función pública docente", "categoria": "Ciencias de la Educación (obligado cumplimiento)" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada función o finalidad con la estructura o instrumento al que corresponde según la Ley 12/2007",
+    "ref": "Ley 12/2007, arts. 20, 21 bis y 32",
+    "pares": [
+      { "izquierda": "Impulsar, coordinar y evaluar la implementación de la perspectiva de género en la universidad", "derecha": "Unidad de igualdad de género (art. 20.4)" },
+      { "izquierda": "Prevenir y responder ante los casos de acoso en la comunidad universitaria", "derecha": "Unidad de igualdad de género (art. 20.4)" },
+      { "izquierda": "Implicar al proyecto educativo, laboral, investigador y social de la universidad", "derecha": "Plan de igualdad y prevención de la discriminación universitario (art. 20.5)" },
+      { "izquierda": "Establecer objetivos de igualdad de trato y oportunidades en el empleo público", "derecha": "Planes de igualdad en el empleo de la Admón. de la Junta (art. 32)" },
+      { "izquierda": "Incluir medidas de conciliación de la vida laboral con la familiar y personal", "derecha": "Planes de igualdad en el empleo de la Admón. de la Junta (art. 32)" },
+      { "izquierda": "Adoptar planes con medidas incentivadoras para centros que avancen en indicadores de género", "derecha": "Organismos públicos de investigación del SAC (art. 21 bis.5)" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada ámbito de actuación según corresponda al art. 21 (Proyectos de investigación) o al art. 21 bis (Mujeres en la ciencia, tecnología, innovación e investigación)",
+    "ref": "Ley 12/2007, arts. 21 y 21 bis",
+    "categorias": ["Art. 21 – Proyectos de investigación", "Art. 21 bis – Mujeres en ciencia, tecnología, innovación e investigación"],
+    "items": [
+      { "texto": "Impulsar la presencia equilibrada de mujeres y hombres en investigación, ciencia y tecnología", "categoria": "Art. 21 – Proyectos de investigación" },
+      { "texto": "Reconocer los estudios de género como mérito en la evaluación de la actividad docente e investigadora", "categoria": "Art. 21 – Proyectos de investigación" },
+      { "texto": "Velar por que los proyectos de investigación con resultados para las personas tengan perspectiva de género", "categoria": "Art. 21 – Proyectos de investigación" },
+      { "texto": "Promover la creación de cátedras sobre estudios de género y violencia sexista", "categoria": "Art. 21 – Proyectos de investigación" },
+      { "texto": "Incorporar la perspectiva de género como dimensión transversal en I+D+i", "categoria": "Art. 21 bis – Mujeres en ciencia, tecnología, innovación e investigación" },
+      { "texto": "Fomentar la presencia paritaria de mujeres en eventos científicos, académicos e institucionales", "categoria": "Art. 21 bis – Mujeres en ciencia, tecnología, innovación e investigación" },
+      { "texto": "Eliminar sesgos de género en procedimientos de selección y evaluación del personal investigador", "categoria": "Art. 21 bis – Mujeres en ciencia, tecnología, innovación e investigación" },
+      { "texto": "Evitar el sesgo de género en procedimientos de concesión de ayudas públicas a la investigación", "categoria": "Art. 21 bis – Mujeres en ciencia, tecnología, innovación e investigación" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada plan o instrumento de igualdad con su periodicidad o carácter temporal según la Ley 12/2007",
+    "ref": "Ley 12/2007, arts. 20.5 y 32",
+    "pares": [
+      { "izquierda": "Plan de igualdad y prevención de la discriminación de las universidades", "derecha": "Carácter cuatrienal" },
+      { "izquierda": "Planes de igualdad en el empleo de la Admón. de la Junta de Andalucía", "derecha": "Cada cuatro años" },
+      { "izquierda": "Evaluación y medidas correctoras de los planes de igualdad en el empleo", "derecha": "Cada cuatro años" },
+      { "izquierda": "Plan de igualdad universitario: asesoramiento del IAM", "derecha": "De ser preciso (no obligatorio)" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada medida del art. 31 según se refiera al acceso al empleo público o a la formación del personal ya empleado",
+    "ref": "Ley 12/2007, art. 31",
+    "categorias": ["Acceso al empleo público", "Formación del personal"],
+    "items": [
+      { "texto": "Incluir materias relativas a igualdad y violencia de género en los temarios de pruebas selectivas", "categoria": "Acceso al empleo público" },
+      { "texto": "Acompañar las ofertas de empleo público de la evaluación del impacto por razón de género en la MAIN", "categoria": "Acceso al empleo público" },
+      { "texto": "Criterio de desempate a favor del sexo con presencia inferior al 40 % en el cuerpo o escala", "categoria": "Acceso al empleo público" },
+      { "texto": "Garantizar la formación del personal sobre igualdad y violencia de género", "categoria": "Formación del personal" },
+      { "texto": "Integrar la perspectiva de género de manera transversal en los contenidos de la formación", "categoria": "Formación del personal" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada medida del art. 20 según se dirija al conjunto del sistema universitario andaluz o específicamente a cada universidad pública de Andalucía",
+    "ref": "Ley 12/2007, art. 20",
+    "categorias": ["Sistema universitario andaluz", "Cada universidad pública"],
+    "items": [
+      { "texto": "Fomentar la igualdad de oportunidades con relación a la carrera profesional", "categoria": "Sistema universitario andaluz" },
+      { "texto": "Adoptar medidas para incluir enseñanzas obligatorias de igualdad en planes de estudios", "categoria": "Sistema universitario andaluz" },
+      { "texto": "Impulsar medidas para la representación equilibrada en órganos colegiados y comisiones de selección", "categoria": "Sistema universitario andaluz" },
+      { "texto": "Adoptar acciones para consolidar los estudios de género en docencia e investigación", "categoria": "Sistema universitario andaluz" },
+      { "texto": "Dotarse de una unidad de igualdad de género con estructura propia y suficiente", "categoria": "Cada universidad pública" },
+      { "texto": "Elaborar y aprobar un plan de igualdad y prevención de la discriminación cuatrienal", "categoria": "Cada universidad pública" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada criterio de desempate o acción positiva del art. 31.4 con su condición de aplicación",
+    "ref": "Ley 12/2007, art. 31.4",
+    "pares": [
+      { "izquierda": "Prioridad del sexo menos representado como criterio de desempate", "derecha": "Presencia inferior al 40 % en el cuerpo, escala o categoría" },
+      { "izquierda": "Momento de referencia para medir la infrarrepresentación", "derecha": "El de la aprobación de la oferta de empleo público" },
+      { "izquierda": "Ámbito de aplicación de la medida", "derecha": "Admón. de la Junta, sus agencias y entidades instrumentales" },
+      { "izquierda": "Requisito previo a la incorporación de la medida", "derecha": "Previa negociación de acuerdo con la normativa aplicable" }
+    ]
+  }
+]

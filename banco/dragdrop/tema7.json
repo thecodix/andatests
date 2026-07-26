@@ -1,0 +1,102 @@
+[
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada derecho del Título III con el artículo del RGPD al que remite la LOPDGDD",
+    "ref": "LOPDGDD, arts. 13-18",
+    "pares": [
+      { "izquierda": "Derecho de acceso", "derecha": "Art. 15 del RGPD" },
+      { "izquierda": "Derecho de rectificación", "derecha": "Art. 16 del RGPD" },
+      { "izquierda": "Derecho de supresión", "derecha": "Art. 17 del RGPD" },
+      { "izquierda": "Derecho a la limitación del tratamiento", "derecha": "Art. 18 del RGPD" },
+      { "izquierda": "Derecho a la portabilidad", "derecha": "Art. 20 del RGPD" },
+      { "izquierda": "Derecho de oposición", "derecha": "Arts. 21 y 22 del RGPD" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada derecho con la particularidad que añade la LOPDGDD respecto al RGPD",
+    "ref": "LOPDGDD, arts. 13-16",
+    "pares": [
+      { "izquierda": "Derecho de acceso (art. 13)", "derecha": "Repetitivo si se ejerce más de 1 vez en 6 meses sin causa legítima" },
+      { "izquierda": "Derecho de rectificación (art. 14)", "derecha": "El afectado debe indicar los datos, la corrección y acompañar documentación justificativa" },
+      { "izquierda": "Derecho de supresión (art. 15)", "derecha": "El responsable puede conservar datos identificativos para impedir mercadotecnia directa futura" },
+      { "izquierda": "Derecho a la limitación (art. 16)", "derecha": "Debe constar claramente en los sistemas de información del responsable" }
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena los derechos del Capítulo II del Título III tal como aparecen en la LOPDGDD (arts. 13-18)",
+    "ref": "LOPDGDD, arts. 13-18",
+    "items": ["Derecho de acceso", "Derecho de rectificación", "Derecho de supresión", "Derecho a la limitación del tratamiento", "Derecho a la portabilidad", "Derecho de oposición"]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada elemento de la información básica según deba facilitarse siempre o solo cuando los datos NO se obtienen del afectado (art. 11)",
+    "ref": "LOPDGDD, art. 11.2 y 11.3",
+    "categorias": ["Siempre (art. 11.2)", "Solo cuando datos NO obtenidos del afectado (art. 11.3)"],
+    "items": [
+      { "texto": "Identidad del responsable del tratamiento y de su representante", "categoria": "Siempre (art. 11.2)" },
+      { "texto": "Finalidad del tratamiento", "categoria": "Siempre (art. 11.2)" },
+      { "texto": "Posibilidad de ejercer los derechos de los arts. 15 a 22 del RGPD", "categoria": "Siempre (art. 11.2)" },
+      { "texto": "Dirección electrónica u otro medio para acceder a la restante información", "categoria": "Siempre (art. 11.2)" },
+      { "texto": "Las categorías de datos objeto de tratamiento", "categoria": "Solo cuando datos NO obtenidos del afectado (art. 11.3)" },
+      { "texto": "Las fuentes de las que procedieran los datos", "categoria": "Solo cuando datos NO obtenidos del afectado (art. 11.3)" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada afirmación según se refiera al deber de confidencialidad (art. 5) o al consentimiento del afectado (art. 6)",
+    "ref": "LOPDGDD, arts. 5-6",
+    "categorias": ["Deber de confidencialidad (art. 5)", "Consentimiento del afectado (art. 6)"],
+    "items": [
+      { "texto": "Sujetos: responsables, encargados y todas las personas que intervengan en cualquier fase del tratamiento", "categoria": "Deber de confidencialidad (art. 5)" },
+      { "texto": "Complementaria de los deberes de secreto profesional", "categoria": "Deber de confidencialidad (art. 5)" },
+      { "texto": "Se mantiene aun cuando hubiese finalizado la relación del obligado con el responsable o encargado", "categoria": "Deber de confidencialidad (art. 5)" },
+      { "texto": "Referida al art. 5.1.f) del RGPD", "categoria": "Deber de confidencialidad (art. 5)" },
+      { "texto": "Manifestación de voluntad libre, específica, informada e inequívoca", "categoria": "Consentimiento del afectado (art. 6)" },
+      { "texto": "Para pluralidad de finalidades debe constar específica e inequívocamente que se otorga para todas", "categoria": "Consentimiento del afectado (art. 6)" },
+      { "texto": "No puede supeditarse la ejecución del contrato a consentir fines no relacionados con la relación contractual", "categoria": "Consentimiento del afectado (art. 6)" },
+      { "texto": "Puede prestarse mediante una declaración o una clara acción afirmativa", "categoria": "Consentimiento del afectado (art. 6)" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada disposición general del ejercicio de derechos (art. 12) con su contenido",
+    "ref": "LOPDGDD, art. 12",
+    "pares": [
+      { "izquierda": "Forma de ejercicio", "derecha": "Directamente o por medio de representante legal o voluntario" },
+      { "izquierda": "Prueba del deber de respuesta", "derecha": "Recae sobre el responsable del tratamiento" },
+      { "izquierda": "Derechos de menores de 14 años", "derecha": "Los ejercen los titulares de la patria potestad en su nombre y representación" },
+      { "izquierda": "Coste de las actuaciones", "derecha": "Gratuitas, salvo lo previsto en arts. 12.5 y 15.3 del RGPD" },
+      { "izquierda": "Tramitación por el encargado", "derecha": "Solo si se establece en el contrato o acto jurídico que les vincule" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada tipo de dato según pertenezca a las categorías especiales (art. 9) o a los datos de naturaleza penal (art. 10)",
+    "ref": "LOPDGDD, arts. 9-10",
+    "categorias": ["Categoría especial (art. 9)", "Naturaleza penal (art. 10)"],
+    "items": [
+      { "texto": "Ideología", "categoria": "Categoría especial (art. 9)" },
+      { "texto": "Afiliación sindical", "categoria": "Categoría especial (art. 9)" },
+      { "texto": "Religión", "categoria": "Categoría especial (art. 9)" },
+      { "texto": "Orientación sexual", "categoria": "Categoría especial (art. 9)" },
+      { "texto": "Creencias", "categoria": "Categoría especial (art. 9)" },
+      { "texto": "Origen racial o étnico", "categoria": "Categoría especial (art. 9)" },
+      { "texto": "Condenas e infracciones penales", "categoria": "Naturaleza penal (art. 10)" },
+      { "texto": "Procedimientos penales conexos", "categoria": "Naturaleza penal (art. 10)" },
+      { "texto": "Medidas cautelares y de seguridad conexas", "categoria": "Naturaleza penal (art. 10)" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada base legal del tratamiento con el requisito que exige la LOPDGDD",
+    "ref": "LOPDGDD, arts. 6, 8 y 9",
+    "pares": [
+      { "izquierda": "Consentimiento del afectado (art. 6)", "derecha": "Manifestación libre, específica, informada e inequívoca mediante declaración o acción afirmativa" },
+      { "izquierda": "Obligación legal (art. 8.1)", "derecha": "Prevista en norma de Derecho de la UE o norma con rango de ley" },
+      { "izquierda": "Misión de interés público o poderes públicos (art. 8.2)", "derecha": "Competencia atribuida por norma con rango de ley" },
+      { "izquierda": "Categorías especiales — letras g), h), i) del art. 9.2 RGPD (art. 9.2)", "derecha": "Amparados en norma con rango de ley, que puede establecer requisitos adicionales de seguridad y confidencialidad" }
+    ]
+  }
+]

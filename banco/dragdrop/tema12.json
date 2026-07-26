@@ -1,0 +1,138 @@
+[
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada título universitario oficial con su nivel equivalente en el MECES",
+    "ref": "RD 822/2021, arts. 3.4, 13.5, 16.5, 19.3",
+    "pares": [
+      { "izquierda": "Grado (estándar)", "derecha": "MECES 2" },
+      { "izquierda": "Grado ≥300 ECTS con directrices europeas y 60 créditos de Máster", "derecha": "MECES 3 (previa solicitud al Consejo de Universidades)" },
+      { "izquierda": "Máster Universitario", "derecha": "MECES 3" },
+      { "izquierda": "Doctorado", "derecha": "MECES 4" }
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena los procedimientos de aseguramiento de la calidad de los títulos universitarios oficiales según el art. 1.2 del RD 822/2021",
+    "ref": "RD 822/2021, art. 1.2",
+    "items": [
+      "Verificación del plan de estudios",
+      "Acreditación inicial e inscripción en el RUCT",
+      "Seguimiento",
+      "Modificación",
+      "Renovación de la acreditación"
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena las fases del proceso desde la elaboración del plan de estudios hasta la inscripción del título oficial",
+    "ref": "RD 822/2021, arts. 5.3, 5.4 y 1.2",
+    "items": [
+      "Elaboración del plan de estudios por la universidad",
+      "Aprobación por los órganos de gobierno de la universidad",
+      "Presentación de la memoria para verificación",
+      "Verificación por el Consejo de Universidades",
+      "Inscripción del título en el RUCT"
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada característica según la modalidad docente a la que corresponde",
+    "ref": "RD 822/2021, art. 14.7",
+    "categorias": ["Presencial", "Híbrida", "Virtual"],
+    "items": [
+      { "texto": "Toda la actividad lectiva en el mismo espacio físico (aulas, laboratorios, espacios especializados)", "categoria": "Presencial" },
+      { "texto": "Interacción profesorado-estudiantado sin requerir presencia física en el mismo espacio", "categoria": "Virtual" },
+      { "texto": "También denominada semipresencial", "categoria": "Híbrida" },
+      { "texto": "Combina asignaturas o materias en modalidad presencial y virtual", "categoria": "Híbrida" },
+      { "texto": "Entre el 40% y el 60% de la carga crediticia total es no presencial", "categoria": "Híbrida" },
+      { "texto": "También denominada no presencial", "categoria": "Virtual" },
+      { "texto": "Al menos el 80% de los créditos ECTS se imparten sin presencialidad", "categoria": "Virtual" },
+      { "texto": "Basada en el uso intensivo de tecnologías digitales de la información y la comunicación", "categoria": "Virtual" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada elemento según sea un principio rector del diseño de los planes de estudios (art. 4.1) o un valor/objetivo transversal (art. 4.2)",
+    "ref": "RD 822/2021, art. 4",
+    "categorias": ["Principio rector del diseño", "Valor u objetivo transversal"],
+    "items": [
+      { "texto": "Rigor académico del proyecto formativo", "categoria": "Principio rector del diseño" },
+      { "texto": "Concordancia con el cariz generalista o especializado del ciclo", "categoria": "Principio rector del diseño" },
+      { "texto": "Coherencia entre objetivos formativos, competencias y sistemas de evaluación", "categoria": "Principio rector del diseño" },
+      { "texto": "Comprensibilidad social", "categoria": "Principio rector del diseño" },
+      { "texto": "Respeto a los derechos humanos y valores democráticos", "categoria": "Valor u objetivo transversal" },
+      { "texto": "Respeto a la igualdad de género", "categoria": "Valor u objetivo transversal" },
+      { "texto": "Accesibilidad universal y diseño para todas las personas", "categoria": "Valor u objetivo transversal" },
+      { "texto": "Sostenibilidad y cambio climático", "categoria": "Valor u objetivo transversal" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada elemento del plan de estudios de Grado (240 ECTS) con su valor numérico según el RD 822/2021",
+    "ref": "RD 822/2021, arts. 13.3, 14.1, 14.4, 14.5, 14.6",
+    "pares": [
+      { "izquierda": "Créditos totales de un Grado estándar", "derecha": "240 ECTS" },
+      { "izquierda": "Formación básica mínima", "derecha": "60 créditos" },
+      { "izquierda": "Créditos mínimos del TFG", "derecha": "6 créditos" },
+      { "izquierda": "Créditos máximos del TFG", "derecha": "24 créditos" },
+      { "izquierda": "Máximo de prácticas externas curriculares", "derecha": "25% del total de créditos" },
+      { "izquierda": "Mínimo de una mención", "derecha": "20% de la carga total de créditos" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada elemento del plan de estudios de Máster Universitario con su valor según el RD 822/2021",
+    "ref": "RD 822/2021, arts. 16.4, 17.1, 17.3, 17.4, 18.5",
+    "pares": [
+      { "izquierda": "Créditos totales posibles del plan de estudios", "derecha": "60, 90 o 120 ECTS" },
+      { "izquierda": "Créditos mínimos del TFM", "derecha": "6 créditos ECTS" },
+      { "izquierda": "Créditos máximos del TFM", "derecha": "30 créditos ECTS" },
+      { "izquierda": "Máximo de prácticas externas", "derecha": "Un tercio de la carga crediticia total" },
+      { "izquierda": "Créditos máximos de una Especialidad", "derecha": "50% del total de créditos" },
+      { "izquierda": "Máximo de complementos formativos en admisión", "derecha": "20% de la carga crediticia" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada elemento según deba figurar obligatoriamente en el plan de estudios de Grado o pueda incorporarse opcionalmente",
+    "ref": "RD 822/2021, art. 14.2",
+    "categorias": ["Obligatorio en el plan de estudios", "Incorporable opcionalmente"],
+    "items": [
+      { "texto": "Materias o asignaturas de formación básica", "categoria": "Obligatorio en el plan de estudios" },
+      { "texto": "Materias o asignaturas obligatorias", "categoria": "Obligatorio en el plan de estudios" },
+      { "texto": "Materias o asignaturas optativas", "categoria": "Obligatorio en el plan de estudios" },
+      { "texto": "Trabajo de Fin de Grado (TFG)", "categoria": "Obligatorio en el plan de estudios" },
+      { "texto": "Prácticas académicas externas", "categoria": "Incorporable opcionalmente" },
+      { "texto": "Seminarios", "categoria": "Incorporable opcionalmente" },
+      { "texto": "Trabajos dirigidos", "categoria": "Incorporable opcionalmente" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada característica según corresponda al ciclo de Grado o al de Máster Universitario",
+    "ref": "RD 822/2021, arts. 13, 14, 16, 17",
+    "categorias": ["Grado", "Máster Universitario"],
+    "items": [
+      { "texto": "Formación básica y generalista del estudiante", "categoria": "Grado" },
+      { "texto": "Formación avanzada, de carácter especializado o multidisciplinar", "categoria": "Máster Universitario" },
+      { "texto": "Créditos totales: 240, 300 o 360 ECTS", "categoria": "Grado" },
+      { "texto": "Créditos totales: 60, 90 o 120 ECTS", "categoria": "Máster Universitario" },
+      { "texto": "Prácticas externas: máximo 25% del total de créditos", "categoria": "Grado" },
+      { "texto": "Prácticas externas: máximo un tercio de la carga total", "categoria": "Máster Universitario" },
+      { "texto": "Incluye créditos de formación básica obligatoria", "categoria": "Grado" },
+      { "texto": "Puede incluir complementos formativos de hasta el 20%", "categoria": "Máster Universitario" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada supuesto de reconocimiento o transferencia de créditos con su límite porcentual según el art. 10",
+    "ref": "RD 822/2021, art. 10",
+    "pares": [
+      { "izquierda": "Experiencia profesional o estudios universitarios no oficiales", "derecha": "Máximo 15% del total de créditos del título" },
+      { "izquierda": "Actividades universitarias (cooperación, culturales, deportivas, representación)", "derecha": "Máximo 10% del total de créditos del plan de estudios" },
+      { "izquierda": "Convenio con centro de FP de grado superior (en Grado)", "derecha": "Hasta el 25% de la carga crediticia total" },
+      { "izquierda": "Créditos de formación básica del mismo campo de estudio (en Grado)", "derecha": "Hasta la totalidad de dichos créditos" },
+      { "izquierda": "Título no oficial extinguido y reemplazado por el oficial", "derecha": "Puede superar el 15% hasta incluso la totalidad" }
+    ]
+  }
+]

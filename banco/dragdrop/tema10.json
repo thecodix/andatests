@@ -1,0 +1,155 @@
+[
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada órgano de la universidad pública según sea colegiado o unipersonal (art. 44 LOSU)",
+    "ref": "LOSU, art. 44",
+    "categorias": ["Órgano colegiado", "Órgano unipersonal"],
+    "items": [
+      { "texto": "Claustro Universitario", "categoria": "Órgano colegiado" },
+      { "texto": "Consejo de Gobierno", "categoria": "Órgano colegiado" },
+      { "texto": "Consejo Social", "categoria": "Órgano colegiado" },
+      { "texto": "Consejo de Estudiantes", "categoria": "Órgano colegiado" },
+      { "texto": "Rector o Rectora", "categoria": "Órgano unipersonal" },
+      { "texto": "Vicerrectores o Vicerrectoras", "categoria": "Órgano unipersonal" },
+      { "texto": "Secretario o Secretaria General", "categoria": "Órgano unipersonal" },
+      { "texto": "Gerente", "categoria": "Órgano unipersonal" },
+      { "texto": "Decanos o Decanas de Facultades", "categoria": "Órgano unipersonal" },
+      { "texto": "Directores o Directoras de Departamentos", "categoria": "Órgano unipersonal" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada órgano con su definición legal según la LOSU",
+    "ref": "LOSU, arts. 45-50",
+    "pares": [
+      { "izquierda": "Claustro Universitario", "derecha": "Máximo órgano de representación y participación de la comunidad universitaria" },
+      { "izquierda": "Consejo de Gobierno", "derecha": "Máximo órgano de gobierno de la universidad" },
+      { "izquierda": "Consejo Social", "derecha": "Órgano de participación y representación de la sociedad" },
+      { "izquierda": "Consejo de Estudiantes", "derecha": "Órgano colegiado superior de representación y coordinación del estudiantado" },
+      { "izquierda": "Rector o Rectora", "derecha": "Ejerce las funciones de dirección, gobierno y gestión; ostenta la representación de la universidad" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada función según corresponda al Claustro Universitario o al Consejo de Gobierno",
+    "ref": "LOSU, arts. 45 y 46",
+    "categorias": ["Claustro Universitario", "Consejo de Gobierno"],
+    "items": [
+      { "texto": "Elaborar y aprobar los Estatutos de la universidad", "categoria": "Claustro Universitario" },
+      { "texto": "Convocar con carácter extraordinario elecciones a Rector/a (a iniciativa de 1/3 de sus componentes)", "categoria": "Claustro Universitario" },
+      { "texto": "Elegir a los representantes del Claustro en otros órganos de gobierno", "categoria": "Claustro Universitario" },
+      { "texto": "Elaborar y modificar su reglamento de funcionamiento", "categoria": "Claustro Universitario" },
+      { "texto": "Promover y aprobar los planes estratégicos a propuesta del Equipo de Gobierno", "categoria": "Consejo de Gobierno" },
+      { "texto": "Aprobar la oferta y la programación docente de la universidad", "categoria": "Consejo de Gobierno" },
+      { "texto": "Aprobar las convocatorias de plazas y la RPT del PDI y PTGAS", "categoria": "Consejo de Gobierno" },
+      { "texto": "Proponer al Consejo Social la aprobación de los presupuestos", "categoria": "Consejo de Gobierno" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada cargo del Equipo de Gobierno con el requisito exigido para su nombramiento",
+    "ref": "LOSU, arts. 50 y 51",
+    "pares": [
+      { "izquierda": "Rector o Rectora", "derecha": "PDI permanente doctor a tiempo completo con méritos de investigación, docencia y gestión" },
+      { "izquierda": "Vicerrectores/as", "derecha": "Funcionarios de cuerpos docentes universitarios o Profesorado Permanente Laboral" },
+      { "izquierda": "Secretario/a General", "derecha": "PDI funcionario doctor o PTGAS funcionario con titulación universitaria" },
+      { "izquierda": "Gerente", "derecha": "Criterios de competencia profesional y experiencia en gestión; nombrado de acuerdo con el Consejo Social" }
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena las fases del proceso de aprobación de los Estatutos de una universidad pública",
+    "ref": "LOSU, art. 38",
+    "items": [
+      "Elaboración de los Estatutos por la universidad",
+      "Informe de legalidad por la Comunidad Autónoma (plazo de 4 meses)",
+      "Aprobación por la Comunidad Autónoma",
+      "Publicación en el diario oficial de la Comunidad Autónoma",
+      "Publicación en el Boletín Oficial del Estado"
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena las fases del proceso de elección del Rector o la Rectora",
+    "ref": "LOSU, art. 51",
+    "items": [
+      "Presentación de candidaturas (PDI permanente doctor a tiempo completo)",
+      "Primera vuelta por sufragio universal ponderado de toda la comunidad universitaria",
+      "Segunda vuelta entre los dos candidatos más votados (si nadie logra mayoría absoluta ponderada)",
+      "Proclamación del candidato con mayoría simple de votos ponderados",
+      "Nombramiento por el órgano correspondiente de la Comunidad Autónoma"
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada centro o estructura según su creación/modificación/supresión sea competencia de la Comunidad Autónoma o de la propia universidad",
+    "ref": "LOSU, arts. 41 y 42",
+    "categorias": ["Comunidad Autónoma (a iniciativa de la universidad)", "La propia universidad"],
+    "items": [
+      { "texto": "Facultades", "categoria": "Comunidad Autónoma (a iniciativa de la universidad)" },
+      { "texto": "Escuelas", "categoria": "Comunidad Autónoma (a iniciativa de la universidad)" },
+      { "texto": "Adscripción de centros docentes a universidades públicas", "categoria": "Comunidad Autónoma (a iniciativa de la universidad)" },
+      { "texto": "Departamentos", "categoria": "La propia universidad" },
+      { "texto": "Institutos universitarios de investigación", "categoria": "La propia universidad" },
+      { "texto": "Escuelas de doctorado", "categoria": "La propia universidad" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada unidad básica de la universidad con su función principal según la LOSU",
+    "ref": "LOSU, art. 43",
+    "pares": [
+      { "izquierda": "Unidad de igualdad", "derecha": "Asesorar, coordinar y evaluar la incorporación transversal de la igualdad entre mujeres y hombres" },
+      { "izquierda": "Unidad de diversidad", "derecha": "Coordinar e incluir transversalmente las políticas de inclusión y antidiscriminación; servicio de atención a la discapacidad" },
+      { "izquierda": "Defensoría universitaria", "derecha": "Velar por el respeto de derechos y libertades ante los órganos y servicios universitarios; mediación y conciliación" },
+      { "izquierda": "Inspección de servicios", "derecha": "Velar por el correcto funcionamiento de los servicios; incoación e instrucción de expedientes disciplinarios" },
+      { "izquierda": "Servicios de salud y acompañamiento", "derecha": "Orientación psicopedagógica, prevención y fomento del bienestar emocional de la comunidad universitaria" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada función según corresponda al Consejo Social o al Consejo de Estudiantes",
+    "ref": "LOSU, arts. 47 y 48",
+    "categorias": ["Consejo Social", "Consejo de Estudiantes"],
+    "items": [
+      { "texto": "Aprobar los presupuestos de la universidad y de los entes dependientes", "categoria": "Consejo Social" },
+      { "texto": "Aprobar las cuentas anuales de la universidad", "categoria": "Consejo Social" },
+      { "texto": "Informar con carácter previo la oferta de titulaciones oficiales y formación permanente", "categoria": "Consejo Social" },
+      { "texto": "Promover la captación de recursos económicos para la universidad", "categoria": "Consejo Social" },
+      { "texto": "Aprobar las asignaciones de complementos retributivos", "categoria": "Consejo Social" },
+      { "texto": "Defender los intereses del estudiantado en los órganos de gobierno", "categoria": "Consejo de Estudiantes" },
+      { "texto": "Velar por el cumplimiento y respeto de los derechos y deberes del estudiantado", "categoria": "Consejo de Estudiantes" },
+      { "texto": "Fomentar el asociacionismo estudiantil y la participación en la vida universitaria", "categoria": "Consejo de Estudiantes" },
+      { "texto": "Realizar propuestas a los órganos de gobierno para su inclusión en el orden del día", "categoria": "Consejo de Estudiantes" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada criterio de la carrera profesional del PTGAS según corresponda a la progresión de grado (sin cambiar de puesto) o al ascenso en la estructura de puestos",
+    "ref": "LOSU, art. 90.2",
+    "categorias": ["Progresión de grado (sin cambiar de puesto)", "Ascenso en la estructura de puestos"],
+    "items": [
+      { "texto": "Trayectoria y actuación profesional", "categoria": "Progresión de grado (sin cambiar de puesto)" },
+      { "texto": "Calidad de los trabajos realizados", "categoria": "Progresión de grado (sin cambiar de puesto)" },
+      { "texto": "Conocimientos adquiridos", "categoria": "Progresión de grado (sin cambiar de puesto)" },
+      { "texto": "Formación acreditada", "categoria": "Progresión de grado (sin cambiar de puesto)" },
+      { "texto": "Evaluación del desempeño", "categoria": "Progresión de grado (sin cambiar de puesto)" },
+      { "texto": "Valoración de méritos", "categoria": "Ascenso en la estructura de puestos" },
+      { "texto": "Grado de especialización", "categoria": "Ascenso en la estructura de puestos" },
+      { "texto": "Aptitudes por razón de la especificidad de la función desempeñada", "categoria": "Ascenso en la estructura de puestos" },
+      { "texto": "Experiencia adquirida", "categoria": "Ascenso en la estructura de puestos" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada función relativa a la creación de universidades y calidad del sistema con el sujeto responsable según la LOSU",
+    "ref": "LOSU, arts. 4 y 5",
+    "pares": [
+      { "izquierda": "Determinar condiciones y requisitos básicos para la creación de universidades (por real decreto)", "derecha": "Gobierno" },
+      { "izquierda": "Emitir informe preceptivo previo a la creación de universidades", "derecha": "Conferencia General de Política Universitaria" },
+      { "izquierda": "Autorizar el inicio de actividades y supervisar periódicamente su cumplimiento", "derecha": "Órganos competentes de la Comunidad Autónoma" },
+      { "izquierda": "Acreditación del profesorado, acreditación institucional y evaluación de titulaciones", "derecha": "ANECA y agencias de evaluación de las CCAA inscritas en EQAR" },
+      { "izquierda": "Garantizar la calidad académica de sus centros mediante sistemas internos de garantía de calidad", "derecha": "Universidades" }
+    ]
+  }
+]
