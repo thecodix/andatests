@@ -52,6 +52,11 @@ class Usuario(SQLModel, table=True):
     email: str = Field(unique=True, index=True)
     nombre: str
     hashed_password: str
+    # Pregunta de seguridad para verificar la identidad al restablecer la contraseña.
+    # Nullable porque las cuentas creadas antes de esta funcionalidad no la tienen
+    # todavía configurada (deben añadirla vía PUT /api/auth/security-question).
+    pregunta_seguridad: Optional[str] = Field(default=None)
+    respuesta_seguridad_hash: Optional[str] = Field(default=None)
     created_at: datetime = Field(default_factory=datetime.utcnow)
 
     sesiones: list["Sesion"] = Relationship(back_populates="usuario")

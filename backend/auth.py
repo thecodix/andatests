@@ -25,6 +25,20 @@ def verify_password(plain: str, hashed: str) -> bool:
     return bcrypt.checkpw(plain.encode(), hashed.encode())
 
 
+def _normalize_respuesta(respuesta: str) -> str:
+    """Normaliza la respuesta de seguridad (espacios/mayúsculas no deberían
+    importar para que el usuario pueda recordarla con facilidad)."""
+    return respuesta.strip().lower()
+
+
+def hash_respuesta_seguridad(respuesta: str) -> str:
+    return hash_password(_normalize_respuesta(respuesta))
+
+
+def verify_respuesta_seguridad(plain: str, hashed: str) -> bool:
+    return verify_password(_normalize_respuesta(plain), hashed)
+
+
 def create_access_token(user_id: int) -> str:
     expire = datetime.now(timezone.utc) + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
     return jwt.encode({"sub": str(user_id), "exp": expire}, settings.secret_key, algorithm=ALGORITHM)

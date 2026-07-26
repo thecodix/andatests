@@ -1,0 +1,84 @@
+# Backlog priorizado — agente `reparador`
+
+Lista ordenada por prioridad (arriba = primero). El agente `reparador` resuelve **un ítem por invocación**, empezando siempre por el primero que no esté `[x]` hecho. No reordenar manualmente salvo decisión explícita.
+
+---
+
+## 1. Reset de contraseña sin verificación de identidad (account takeover)
+**Estado:** [x] hecho
+**Área:** seguridad
+**Contexto:** `backend/routers/auth.py`, endpoint `POST /auth/reset-password`. Resetea la contraseña de cualquier email existente a un valor fijo y público (`"test1234"`) sin exigir ninguna prueba de que quien llama es el dueño de esa cuenta (ni token por email, ni pregunta de seguridad). Cualquiera que conozca o adivine el email de otro usuario puede tomar el control total de su cuenta en dos peticiones HTTP.
+**Criterio de aceptación:** el reseteo de contraseña exige alguna prueba de posesión del email (token de un solo uso con expiración corta enviado por correo, o al menos un flujo de dos pasos) antes de cambiar la contraseña. Si no hay proveedor de email configurado todavía, preguntar al usuario cómo prefiere resolverlo (posponer con un aviso claro, usar un proveedor concreto, u otro mecanismo transitorio) antes de implementar nada.
+**Resuelto:** 2026-07-26 — sustituido el reseteo a contraseña fija por un flujo de dos pasos con pregunta de seguridad (elegida por el usuario en el registro): `POST /auth/reset-password/pregunta` devuelve la pregunta configurada, `POST /auth/reset-password` exige la respuesta correcta + una nueva contraseña (mín. 8 caracteres) elegida por el usuario. Nuevo endpoint `PUT /auth/security-question` para que cuentas ya existentes (creadas antes de este cambio, sin pregunta configurada) puedan configurarla una vez logueadas. Añadidas columnas nullable `pregunta_seguridad`/`respuesta_seguridad_hash` a `Usuario` con una migración Alembic real (`a1c8f3d2e9b4`) verificada tanto contra una BD nueva vacía como contra una tabla `usuario` ya existente con datos. Frontend actualizado: registro pide pregunta+respuesta, y "he olvidado mi contraseña" ahora es un flujo de dos pasos en vez del antiguo botón de un clic. Nota: las cuentas preexistentes sin pregunta configurada no podrán auto-recuperar su contraseña hasta usar `PUT /auth/security-question` (no hay UI de ajustes todavía para eso — queda como posible futuro ítem, no bloquea este).
+**Tests:** sí — `backend/tests/test_auth.py` (9 tests): registro exige pregunta/respuesta, login, pregunta desconocida da 404, pregunta configurada se devuelve correctamente, respuesta incorrecta falla sin tocar la contraseña, respuesta correcta cambia la contraseña (antigua deja de funcionar), normalización de mayúsculas/espacios en la respuesta, contraseña nueva demasiado corta se rechaza, y `PUT /auth/security-question` para cuentas ya autenticadas. Toda la suite (`uv run python -m pytest`) pasa (9 passed). Se creó la infraestructura de tests de `backend/` desde cero (`pytest` como dev-dependency, `backend/tests/conftest.py` con un engine SQLite temporal compartido para toda la sesión de test, nunca `backend/andatest.db`).
+
+## 2. Rate limiting en endpoints de autenticación
+**Estado:** [ ] pendiente
+**Área:** seguridad
+**Contexto:** `backend/routers/auth.py` — `/auth/login`, `/auth/register` y `/auth/reset-password` no tienen ningún límite de intentos, lo que permite fuerza bruta de contraseñas y abuso del endpoint de registro/reset.
+**Criterio de aceptación:** los tres endpoints tienen un límite razonable de peticiones por IP/tiempo (p.ej. vía `slowapi` u otra librería ligera compatible con FastAPI), devolviendo 429 al superarlo.
+**Tests:** sí — test que dispare más peticiones que el límite y confirme el 429.
+
+## 3. Política mínima de contraseñas en registro
+**Estado:** [ ] pendiente
+**Área:** seguridad
+**Contexto:** `backend/routers/auth.py`, `RegisterIn.password` no tiene validación de longitud/complejidad mínima — acepta contraseñas triviales o vacías.
+**Criterio de aceptación:** `register` rechaza contraseñas por debajo de una longitud mínima razonable (p.ej. 8 caracteres) con un 422 claro.
+**Tests:** sí — test de registro con contraseña corta (debe fallar) y válida (debe pasar).
+
+## 4. Enumeración de usuarios vía mensajes de error
+**Estado:** [ ] pendiente
+**Área:** seguridad
+**Contexto:** `backend/routers/auth.py` — `reset-password` devuelve 404 "No existe ningún usuario con ese email", y `register` devuelve 409 "Email ya registrado". Ambos permiten a un atacante confirmar qué emails están registrados en el sistema.
+**Criterio de aceptación:** las respuestas no revelan si el email existe o no (mensaje genérico + mismo status/tiempo de respuesta aproximado en los casos que lo permitan sin romper la UX del formulario). Evaluar caso por caso: en `register` puede ser aceptable mantener el aviso (es una decisión de producto habitual), pero `reset-password` debería ser neutro. Si hay dudas de producto, preguntar antes de decidir.
+**Tests:** sí — test que confirme que la respuesta no distingue email existente/inexistente donde se decida aplicar el cambio.
+
+## 5. Migraciones Alembic reales (sustituir el `upgrade()` no-op)
+**Estado:** [ ] pendiente
+**Área:** fiabilidad
+**Contexto:** `backend/alembic/` tiene versiones placeholder que no hacen nada; el esquema se sincroniza vía `SQLModel.metadata.create_all()` en cada arranque, que solo puede AÑADIR tablas nuevas, nunca alterar columnas existentes (ya obligó a borrar tablas a mano al cambiar `Tarjeta`/`TarjetaEstado`, ver memoria de repo). En producción con usuarios reales esto es peligroso para el próximo cambio de esquema.
+**Criterio de aceptación:** al menos la migración inicial genera el esquema real desde los modelos actuales (`alembic revision --autogenerate` o equivalente), y queda documentado el flujo a seguir para futuros cambios de esquema (nueva migración autogenerada + revisión manual, en vez de `create_all` a ciegas).
+**Tests:** parcial — no son unit tests tradicionales; validar con un test que ejecute `alembic upgrade head` contra una BD limpia y compruebe que las tablas quedan creadas correctamente.
+
+## 6. CI básica (GitHub Actions) ejecutando la suite de tests
+**Estado:** [ ] pendiente
+**Área:** testing
+**Contexto:** no existe ningún workflow de CI; los tests que vaya añadiendo `reparador` (y futuros) solo se ejecutan si alguien se acuerda de correrlos a mano.
+**Criterio de aceptación:** un workflow en `.github/workflows/` que instale dependencias de `backend/` con `uv` y ejecute `pytest` en cada push/PR.
+**Tests:** N/A (esto ES la infraestructura de tests) — verificar localmente que el comando que usará el workflow funciona (`uv run pytest`) antes de darlo por bueno.
+
+## 7. Logging estructurado y captura de errores en backend
+**Estado:** [ ] pendiente
+**Área:** operación
+**Contexto:** el backend no tiene logging estructurado ni captura de excepciones no controladas (p.ej. fallos de la API de Groq en el asistente, errores 500 en producción) — hoy solo se detectan si un usuario avisa.
+**Criterio de aceptación:** logging básico configurado (nivel/formato coherente) y un hook opcional de captura de errores (p.ej. Sentry, activable solo si hay DSN configurado por variable de entorno, sin romper nada si no la hay).
+**Tests:** parcial — test de que la app arranca igual con y sin la variable de entorno del proveedor de errores configurada.
+
+## 8. PWA: manifest + service worker básico
+**Estado:** [ ] pendiente
+**Área:** producto
+**Contexto:** `Tests Oposición.dc.html` no tiene `manifest.json` ni service worker — no es instalable como app y no cachea nada para uso offline, pese a ser una app pensada para estudiar en el móvil en ratos sueltos.
+**Criterio de aceptación:** manifest válido (icono, nombre, colores) + service worker que cachee al menos los assets estáticos y, si es viable sin complicar demasiado, el banco de preguntas ya descargado para el tema activo.
+**Tests:** no aplica de forma significativa (es frontend estático) — validar manualmente que la app se puede instalar y que carga con la red desactivada tras la primera visita.
+
+## 9. Backups automatizados de la base de datos de producción
+**Estado:** [ ] pendiente
+**Área:** operación
+**Contexto:** no hay ninguna estrategia documentada de backup para la base de datos de producción (Postgres/Neon vía Render) — es un punto único de fallo para el progreso de todos los usuarios.
+**Criterio de aceptación:** backups automáticos configurados (si el proveedor los ofrece nativamente, documentar cómo activarlos; si no, un script/cron mínimo) y documentado en `CLAUDE.md`/memoria de repo cómo restaurar desde uno.
+**Tests:** no aplica (es configuración de infraestructura, no código) — este ítem probablemente requiera preguntar al usuario qué proveedor/plan tiene antes de tocar nada.
+
+## 10. Accesibilidad básica del frontend (ARIA, contraste, foco)
+**Estado:** [ ] pendiente
+**Área:** producto
+**Contexto:** no se ha revisado accesibilidad en `Tests Oposición.dc.html` (labels ARIA, orden de foco por teclado, contraste de color en textos secundarios).
+**Criterio de aceptación:** una pasada dirigida (no exhaustiva) que corrija los problemas más evidentes: labels en controles interactivos sin texto visible, contraste mínimo AA en textos, navegación por teclado en el modo test.
+**Tests:** no aplica de forma significativa (frontend visual) — validar manualmente con el checklist de accesibilidad básico.
+
+---
+
+## Candidatos sin priorizar todavía (no tocar sin promoverlos antes a un ítem numerado arriba)
+- Recordatorios/notificaciones para mantener la racha de estudio.
+- Modo oscuro.
+- Revisar con `tema-validator` los temas sin informe de validación reciente en `informes/`.
+- Ampliar contenido de preguntas reales de los temas 16/17 (hoy muy escaso) si aparecen exámenes nuevos.

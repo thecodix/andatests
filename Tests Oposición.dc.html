@@ -48,6 +48,15 @@
           <div style="font-size:13px; font-weight:600; color:#6B6B78; margin-bottom:6px;">Nombre</div>
           <input onInput="{{ onNombre }}" value="{{ authNombre }}" placeholder="Tu nombre" style="width:100%; border:1.5px solid #ECECF1; border-radius:11px; padding:12px 14px; font-size:14px; font-family:inherit; outline:none; box-sizing:border-box;" />
         </div>
+        <div style="margin-bottom:14px;">
+          <div style="font-size:13px; font-weight:600; color:#6B6B78; margin-bottom:6px;">Pregunta de seguridad</div>
+          <input onInput="{{ onAuthPreguntaSeg }}" value="{{ authPreguntaSeg }}" placeholder="p.ej. ¿Nombre de tu primera mascota?" style="width:100%; border:1.5px solid #ECECF1; border-radius:11px; padding:12px 14px; font-size:14px; font-family:inherit; outline:none; box-sizing:border-box;" />
+        </div>
+        <div style="margin-bottom:14px;">
+          <div style="font-size:13px; font-weight:600; color:#6B6B78; margin-bottom:6px;">Respuesta</div>
+          <input onInput="{{ onAuthRespuestaSeg }}" value="{{ authRespuestaSeg }}" placeholder="Tu respuesta" style="width:100%; border:1.5px solid #ECECF1; border-radius:11px; padding:12px 14px; font-size:14px; font-family:inherit; outline:none; box-sizing:border-box;" />
+          <div style="font-size:11.5px; color:#9A9AA6; margin-top:5px;">La necesitarás para restablecer tu contraseña si la olvidas.</div>
+        </div>
       </sc-if>
       <div style="margin-bottom:14px;">
         <div style="font-size:13px; font-weight:600; color:#6B6B78; margin-bottom:6px;">Email</div>
@@ -63,7 +72,18 @@
       <button onClick="{{ onSubmitAuth }}" style="width:100%; background:#6B46E5; color:#fff; border:none; border-radius:12px; padding:14px; font-weight:700; font-size:15px; cursor:pointer; font-family:inherit;">{{ authBtnLabel }}</button>
       <button onClick="{{ authToggle }}" style="width:100%; background:none; border:none; color:#9A9AA6; font-size:13px; margin-top:14px; cursor:pointer; font-family:inherit;">{{ authToggleLabel }}</button>
       <sc-if value="{{ showReset }}" hint-placeholder-val="{{ true }}">
-      <button onClick="{{ onResetPassword }}" style="width:100%; background:none; border:none; color:#B4B4C0; font-size:12px; margin-top:8px; cursor:pointer; font-family:inherit; text-decoration:underline;">He olvidado mi contraseña — restablecer a test1234</button>
+        <sc-if value="{{ resetIdle }}" hint-placeholder-val="{{ true }}">
+        <button onClick="{{ onIniciarReset }}" style="width:100%; background:none; border:none; color:#B4B4C0; font-size:12px; margin-top:8px; cursor:pointer; font-family:inherit; text-decoration:underline;">He olvidado mi contraseña</button>
+        </sc-if>
+        <sc-if value="{{ resetEnCurso }}" hint-placeholder-val="{{ false }}">
+        <div style="margin-top:14px; padding-top:14px; border-top:1px solid #ECECF1;">
+          <div style="font-size:12.5px; font-weight:600; color:#6B6B78; margin-bottom:8px;">{{ resetPreguntaTexto }}</div>
+          <input onInput="{{ onResetRespuesta }}" value="{{ resetRespuesta }}" type="text" placeholder="Tu respuesta" style="width:100%; border:1.5px solid #ECECF1; border-radius:11px; padding:10px 12px; font-size:13.5px; font-family:inherit; outline:none; box-sizing:border-box; margin-bottom:8px;" />
+          <input onInput="{{ onResetNuevaPassword }}" value="{{ resetNuevaPassword }}" type="password" placeholder="Nueva contraseña (mín. 8 caracteres)" style="width:100%; border:1.5px solid #ECECF1; border-radius:11px; padding:10px 12px; font-size:13.5px; font-family:inherit; outline:none; box-sizing:border-box; margin-bottom:10px;" />
+          <button onClick="{{ onConfirmarReset }}" style="width:100%; background:#6B46E5; color:#fff; border:none; border-radius:11px; padding:11px; font-weight:700; font-size:13.5px; cursor:pointer; font-family:inherit; margin-bottom:6px;">Restablecer contraseña</button>
+          <button onClick="{{ onCancelarReset }}" style="width:100%; background:none; border:none; color:#9A9AA6; font-size:12px; cursor:pointer; font-family:inherit;">Cancelar</button>
+        </div>
+        </sc-if>
       </sc-if>
     </div>
   </div>
@@ -1061,6 +1081,8 @@ class Component extends DCLogic {
       // auth
       authScreen: localStorage.getItem('andatest_token') ? null : 'login',
       authMode: 'login', authEmail:'', authNombre:'', authPassword:'', authError:'', authLoading:false,
+      authPreguntaSeg:'', authRespuestaSeg:'',
+      resetStep:'idle', resetPreguntaTexto:'', resetRespuesta:'', resetNuevaPassword:'',
       nombreUsuario: localStorage.getItem('andatest_nombre') || '',
       // app
       screen:'inicio', dashVar:'a',
@@ -1112,12 +1134,12 @@ class Component extends DCLogic {
   componentWillUnmount() { clearInterval(this._timer); }
 
   async submitAuth() {
-    const { authMode, authEmail, authPassword, authNombre } = this.state;
+    const { authMode, authEmail, authPassword, authNombre, authPreguntaSeg, authRespuestaSeg } = this.state;
     this.setState({ authLoading:true, authError:'' });
     try {
       const body = authMode==='login'
         ? { email:authEmail, password:authPassword }
-        : { email:authEmail, nombre:authNombre, password:authPassword };
+        : { email:authEmail, nombre:authNombre, password:authPassword, pregunta_seguridad:authPreguntaSeg, respuesta_seguridad:authRespuestaSeg };
       const res = await fetch(`/api/auth/${authMode}`, {
         method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(body),
       });
@@ -1130,28 +1152,50 @@ class Component extends DCLogic {
     } catch(e) { this.setState({ authError:'Error de conexión', authLoading:false }); }
   }
 
-  async resetPassword() {
+  async iniciarResetPassword() {
     const email = (this.state.authEmail || '').trim();
-    if (!email) { this.setState({ authError:'Escribe tu email para restablecer la contraseña.' }); return; }
-    if (!confirm(`Se restablecerá la contraseña de ${email} a "test1234". ¿Continuar?`)) return;
+    if (!email) { this.setState({ authError:'Escribe tu email arriba para restablecer la contraseña.' }); return; }
+    this.setState({ authLoading:true, authError:'' });
+    try {
+      const res = await fetch('/api/auth/reset-password/pregunta', {
+        method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({ email }),
+      });
+      const data = await res.json();
+      if (!res.ok) { this.setState({ authError: data.detail || 'Error', authLoading:false }); return; }
+      this.setState({ resetStep:'pregunta', resetPreguntaTexto:data.pregunta_seguridad, resetRespuesta:'', resetNuevaPassword:'', authLoading:false });
+    } catch(e) { this.setState({ authError:'Error de conexión', authLoading:false }); }
+  }
+
+  async confirmarResetPassword() {
+    const email = (this.state.authEmail || '').trim();
+    const { resetRespuesta, resetNuevaPassword } = this.state;
+    if (!resetRespuesta.trim() || !resetNuevaPassword) { this.setState({ authError:'Rellena la respuesta y la nueva contraseña.' }); return; }
     this.setState({ authLoading:true, authError:'' });
     try {
       const res = await fetch('/api/auth/reset-password', {
-        method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({ email }),
+        method:'POST', headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({ email, respuesta_seguridad:resetRespuesta, nueva_password:resetNuevaPassword }),
       });
       const data = await res.json();
       if (!res.ok) { this.setState({ authError: data.detail || 'Error', authLoading:false }); return; }
       localStorage.setItem('andatest_token', data.access_token);
       localStorage.setItem('andatest_nombre', data.nombre);
-      this.setState({ authScreen:null, authLoading:false, nombreUsuario:data.nombre, authPassword:'' });
+      this.setState({ authScreen:null, authLoading:false, nombreUsuario:data.nombre, authPassword:'',
+                      resetStep:'idle', resetPreguntaTexto:'', resetRespuesta:'', resetNuevaPassword:'' });
       this.loadBank();
     } catch(e) { this.setState({ authError:'Error de conexión', authLoading:false }); }
+  }
+
+  cancelarResetPassword() {
+    this.setState({ resetStep:'idle', resetPreguntaTexto:'', resetRespuesta:'', resetNuevaPassword:'', authError:'' });
   }
 
   logout() {
     localStorage.removeItem('andatest_token');
     localStorage.removeItem('andatest_nombre');
     this.setState({ authScreen:'login', authEmail:'', authPassword:'', authNombre:'', authError:'',
+                    authPreguntaSeg:'', authRespuestaSeg:'',
+                    resetStep:'idle', resetPreguntaTexto:'', resetRespuesta:'', resetNuevaPassword:'',
                     screen:'inicio', loaded:false, TEMAS:[], BANCO:[], testsEspeciales:[],
                     resumen:{ acierto_global:0, total_hechas:0, total_preguntas:0, prediccion:'0.0',
                               num_falladas:0, racha:0, mejor_racha:0, total_sesiones:0, temas_flojos:0 },
@@ -1982,15 +2026,27 @@ class Component extends DCLogic {
       authToggleLabel: isLogin ? '¿No tienes cuenta? Regístrate' : '¿Ya tienes cuenta? Inicia sesión',
       authToggle: ()=>this.setState({ authMode: isLogin?'register':'login', authError:'' }),
       authEmail: S.authEmail, authPassword: S.authPassword, authNombre: S.authNombre,
+      authPreguntaSeg: S.authPreguntaSeg, authRespuestaSeg: S.authRespuestaSeg,
       authError: S.authError, authLoading: S.authLoading,
       onEmail: e=>this.setState({authEmail:e.target.value}),
       onNombre: e=>this.setState({authNombre:e.target.value}),
       onPassword: e=>this.setState({authPassword:e.target.value}),
+      onAuthPreguntaSeg: e=>this.setState({authPreguntaSeg:e.target.value}),
+      onAuthRespuestaSeg: e=>this.setState({authRespuestaSeg:e.target.value}),
       onSubmitAuth: ()=>this.submitAuth(),
       authBtnLabel: S.authLoading ? 'Cargando…' : (isLogin ? 'Entrar' : 'Registrarse'),
       showNombre: !isLogin,
       showReset: isLogin,
-      onResetPassword: ()=>this.resetPassword(),
+      resetIdle: S.resetStep==='idle',
+      resetEnCurso: S.resetStep==='pregunta',
+      resetPreguntaTexto: S.resetPreguntaTexto,
+      resetRespuesta: S.resetRespuesta,
+      resetNuevaPassword: S.resetNuevaPassword,
+      onIniciarReset: ()=>this.iniciarResetPassword(),
+      onResetRespuesta: e=>this.setState({resetRespuesta:e.target.value}),
+      onResetNuevaPassword: e=>this.setState({resetNuevaPassword:e.target.value}),
+      onConfirmarReset: ()=>this.confirmarResetPassword(),
+      onCancelarReset: ()=>this.cancelarResetPassword(),
     };
 
     const out = {
