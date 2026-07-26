@@ -1,5 +1,10 @@
 """Tests for backend/routers/auth.py — registration, login, and the two-step
 security-question password reset flow (replaces the old fixed-password reset)."""
+from sqlmodel import Session
+
+from auth import hash_password
+from database import engine
+from models import Usuario
 
 
 def _register(client, email="ana@example.com", password="unaClaveSegura1",
@@ -47,6 +52,21 @@ def test_register_and_login(client):
 def test_reset_password_pregunta_desconocida_da_404(client):
     res = client.post("/api/auth/reset-password/pregunta", json={"email": "no_existe@example.com"})
     assert res.status_code == 404
+
+
+def test_reset_password_pregunta_no_distingue_email_inexistente_de_cuenta_sin_pregunta(client):
+    # Cuenta "legado" simulando una creada antes del ítem 1 (sin pregunta de
+    # seguridad configurada) — no debe poder distinguirse de un email que
+    # directamente no existe, para no permitir enumerar cuentas registradas.
+    with Session(engine) as session:
+        session.add(Usuario(email="legado@example.com", nombre="Legado", hashed_password=hash_password("algo12345678")))
+        session.commit()
+
+    res_inexistente = client.post("/api/auth/reset-password/pregunta", json={"email": "no_existe_de_verdad@example.com"})
+    res_sin_pregunta = client.post("/api/auth/reset-password/pregunta", json={"email": "legado@example.com"})
+
+    assert res_inexistente.status_code == res_sin_pregunta.status_code == 404
+    assert res_inexistente.json()["detail"] == res_sin_pregunta.json()["detail"]
 
 
 def test_reset_password_pregunta_devuelve_la_pregunta_configurada(client):

@@ -29,11 +29,12 @@ Lista ordenada por prioridad (arriba = primero). El agente `reparador` resuelve 
 **Tests:** sí — `backend/tests/test_auth.py`: `test_register_rechaza_contrasena_demasiado_corta` (7 caracteres → 422) y `test_register_acepta_contrasena_de_longitud_minima` (8 caracteres → 201). Suite completa: 15 passed (13 de antes + 2 nuevos).
 
 ## 4. Enumeración de usuarios vía mensajes de error
-**Estado:** [ ] pendiente
+**Estado:** [x] hecho
 **Área:** seguridad
 **Contexto:** `backend/routers/auth.py` — `reset-password` devuelve 404 "No existe ningún usuario con ese email", y `register` devuelve 409 "Email ya registrado". Ambos permiten a un atacante confirmar qué emails están registrados en el sistema.
 **Criterio de aceptación:** las respuestas no revelan si el email existe o no (mensaje genérico + mismo status/tiempo de respuesta aproximado en los casos que lo permitan sin romper la UX del formulario). Evaluar caso por caso: en `register` puede ser aceptable mantener el aviso (es una decisión de producto habitual), pero `reset-password` debería ser neutro. Si hay dudas de producto, preguntar antes de decidir.
-**Tests:** sí — test que confirme que la respuesta no distingue email existente/inexistente donde se decida aplicar el cambio.
+**Resuelto:** 2026-07-26 — al re-analizar el contexto, `reset-password/pregunta` y `reset-password` ya devuelven el mismo mensaje genérico (`SIN_PREGUNTA_SEGURIDAD`, 404) tanto si el email no existe como si existe pero no tiene pregunta de seguridad configurada — esto quedó resuelto como efecto colateral del ítem 1, sin necesitar cambios adicionales de código. Se preguntó al usuario sobre el 409 "Email ya registrado" de `register`: decidió mantenerlo tal cual (patrón de UX estándar, decisión de producto explícita), así que no se tocó.
+**Tests:** sí — nuevo test `test_reset_password_pregunta_no_distingue_email_inexistente_de_cuenta_sin_pregunta` en `backend/tests/test_auth.py`: crea una cuenta "legado" sin pregunta de seguridad directamente en BD (simulando una cuenta previa al ítem 1) y confirma que `reset-password/pregunta` devuelve exactamente el mismo status (404) y mensaje que un email que no existe en absoluto. Suite completa: 16 passed (15 de antes + 1 nuevo).
 
 ## 5. Migraciones Alembic reales (sustituir el `upgrade()` no-op)
 **Estado:** [ ] pendiente
