@@ -1,0 +1,426 @@
+[
+  {
+    "frente": "¿Qué constituye el Presupuesto de la Universidad de Huelva según el art. 4 de las Bases de Ejecución Presupuestaria?",
+    "dorso": "La expresión cifrada, conjunta y sistemática de las obligaciones que, como máximo, puede reconocer la Universidad y de los derechos que prevea liquidar durante el correspondiente ejercicio.",
+    "ref": "Art. 4.1 Bases Ejecución Presupuestaria UHU",
+    "exp": "Palabras clave: «cifrada, conjunta, sistemática», «como máximo» para obligaciones, «prevea liquidar» para derechos."
+  },
+  {
+    "frente": "¿Qué dos estados contiene el Presupuesto de la UHU?",
+    "dorso": "El Estado de Gastos (créditos necesarios para atender las obligaciones) y el Estado de Ingresos (estimaciones de los derechos económicos a liquidar).",
+    "ref": "Art. 4.2 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Qué clasificaciones aplica el Estado de Gastos del presupuesto de la UHU?",
+    "dorso": "Clasificación orgánica, funcional y económica.",
+    "ref": "Art. 4.2.a Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Qué clasificaciones aplica el Estado de Ingresos del presupuesto de la UHU?",
+    "dorso": "Clasificación orgánica y económica (no aplica la funcional).",
+    "ref": "Art. 4.2.b Bases Ejecución Presupuestaria UHU",
+    "exp": "Diferencia clave con el Estado de Gastos: el de Ingresos NO tiene clasificación funcional."
+  },
+  {
+    "frente": "¿En qué consiste la clasificación orgánica del Estado de Gastos?",
+    "dorso": "Imputa el gasto en función del órgano o unidad que lo realiza. Los créditos se distribuyen por Centros de Gasto (Centros, Departamentos, Servicios, Proyectos, Grupos y Contratos de Investigación, programas de postgrado, cursos, seminarios, etc.).",
+    "ref": "Art. 5 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿En qué consiste la clasificación funcional del Estado de Gastos?",
+    "dorso": "Agrupa los créditos para gastos en atención de la finalidad y objetivos perseguidos, dentro de una estructura de programas (objetivos académicos, de gestión e investigación).",
+    "ref": "Art. 5 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿En qué consiste la clasificación económica del Estado de Gastos?",
+    "dorso": "Ordena los créditos en atención a la naturaleza económica del gasto y a la codificación de capítulo, artículo, concepto, subconcepto y partida.",
+    "ref": "Art. 5 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Quién puede establecer nuevos códigos para una mejor contabilización de gastos o ingresos?",
+    "dorso": "El Gerente.",
+    "ref": "Arts. 5 y 6 Bases Ejecución Presupuestaria UHU",
+    "exp": "Debe tener en cuenta la Orden de la Consejería de Economía y Hacienda de 28 de abril de 2006."
+  },
+  {
+    "frente": "¿Qué son los créditos presupuestarios según el art. 7?",
+    "dorso": "Cada una de las asignaciones individualizadas de gastos que figuran en el Presupuesto de la Universidad, puestas a disposición de las unidades de gasto, para la cobertura de las necesidades para las que hayan sido aprobados.",
+    "ref": "Art. 7.1 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Quién puede supeditar la disponibilidad de todos los créditos iniciales o incorporados a la efectiva materialización de los ingresos que los financien?",
+    "dorso": "El Rector.",
+    "ref": "Art. 7.2 Bases Ejecución Presupuestaria UHU",
+    "exp": "También puede acordar la no disponibilidad o baja por anulación para garantizar la estabilidad presupuestaria."
+  },
+  {
+    "frente": "¿En qué consiste la limitación cualitativa de los créditos (art. 8)?",
+    "dorso": "Los créditos para gastos se destinarán exclusivamente a la finalidad específica para la que hayan sido autorizados al aprobarse el Presupuesto o las modificaciones presupuestarias.",
+    "ref": "Art. 8 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿En qué consiste la limitación cuantitativa de los créditos (art. 9)?",
+    "dorso": "No podrán adquirirse compromisos de gasto por cuantía superior al importe de los créditos autorizados en el estado de gastos.",
+    "ref": "Art. 9 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Qué consecuencia tienen los actos administrativos que infrinjan la limitación cuantitativa de los créditos?",
+    "dorso": "Son nulos de pleno derecho, sin perjuicio de las responsabilidades a que haya lugar.",
+    "ref": "Art. 9 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿En qué consiste la limitación temporal de los créditos (art. 10)?",
+    "dorso": "Con cargo a los créditos del Estado de Gastos, solo podrán contraerse obligaciones derivadas de gastos que se realicen en el año natural del propio ejercicio presupuestario.",
+    "ref": "Art. 10 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Qué dos excepciones a la limitación temporal permite el art. 10, aplicándose al presupuesto vigente en el momento de expedición de los justificantes?",
+    "dorso": "a) Las obligaciones por liquidación de atrasos a favor del personal que perciba retribuciones con cargo al Presupuesto de la Universidad; b) Con carácter excepcional y a iniciativa de la Unidad de Gasto, el reconocimiento con cargo al ejercicio corriente de obligaciones generadas en ejercicios anteriores como consecuencia de compromisos de gastos debidamente adquiridos.",
+    "ref": "Art. 10 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Cómo vinculan los créditos del Estado de Gastos respecto a la clasificación orgánica?",
+    "dorso": "Por unidad orgánica responsable.",
+    "ref": "Art. 11 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Cómo vinculan los créditos del Estado de Gastos respecto a la clasificación funcional?",
+    "dorso": "Según programa de gasto.",
+    "ref": "Art. 11 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Cómo vinculan los créditos del Estado de Gastos respecto a la clasificación económica?",
+    "dorso": "A nivel de artículo, con la excepción de los créditos del Capítulo 1 (Gastos de Personal) y del Capítulo 2 (Gastos Corrientes en Bienes y Servicios), que vinculan a nivel de capítulo.",
+    "ref": "Art. 11 Bases Ejecución Presupuestaria UHU",
+    "exp": "Pregunta muy frecuente: Cap. 1 y Cap. 2 vinculan a nivel de CAPÍTULO; el resto, a nivel de ARTÍCULO."
+  },
+  {
+    "frente": "¿Qué requisitos deben cumplirse para adquirir compromisos de gastos plurianuales (art. 12)?",
+    "dorso": "Que su ejecución se inicie en el propio ejercicio y que se encuentren en alguno de los supuestos del art. 12.1 (inversiones, contratos de suministros/servicios, arrendamientos de inmuebles, cargas financieras por endeudamiento, subvenciones y transferencias corrientes).",
+    "ref": "Art. 12.1 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Cuáles son los 5 supuestos que permiten gastos plurianuales según el art. 12.1?",
+    "dorso": "a) Inversiones y transferencias y subvenciones de capital; b) Contratos de suministros, servicios y otros contratos cuando no puedan ser estipulados o resulten antieconómicos por plazo de un año; c) Arrendamientos de bienes inmuebles; d) Cargas financieras de operaciones de endeudamiento; e) Subvenciones y otras transferencias corrientes.",
+    "ref": "Art. 12.1 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿A cuántos ejercicios máximo pueden aplicarse los gastos plurianuales de inversiones, contratos de suministros/servicios y subvenciones corrientes (apartados a, b y e)?",
+    "dorso": "No más de 6 ejercicios.",
+    "ref": "Art. 12.3 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿A cuántos ejercicios máximo pueden aplicarse los gastos plurianuales por arrendamientos de bienes inmuebles (apartado c)?",
+    "dorso": "No más de 10 ejercicios.",
+    "ref": "Art. 12.3 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Cuáles son los porcentajes máximos acumulados para gastos plurianuales de inversiones y arrendamientos de inmuebles (apartados a y c) sobre el crédito del ejercicio corriente?",
+    "dorso": "1.º ejercicio siguiente: 80%; 2.º: 70%; 3.º: 60%; 4.º: 50%; 5.º: 50%; 6.º: 50%; ejercicios posteriores al 6.º (solo para arrendamientos de inmuebles): 50%.",
+    "ref": "Art. 12.4 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Cuáles son los porcentajes máximos acumulados para gastos plurianuales de contratos de suministros/servicios y subvenciones corrientes (apartados b y e) sobre el crédito del ejercicio corriente?",
+    "dorso": "1.º ejercicio siguiente: 60%; 2.º: 50%; 3.º: 40%; 4.º: 30%; 5.º: 30%; 6.º: 30%.",
+    "ref": "Art. 12.5 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿A qué se subordina la autorización o realización de los gastos de carácter plurianual?",
+    "dorso": "Al crédito que para cada ejercicio autorice el presupuesto de la Universidad de Huelva.",
+    "ref": "Art. 12.2 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿A qué están sujetos los expedientes de tramitación anticipada del art. 13?",
+    "dorso": "A los límites y demás requisitos establecidos para los gastos de carácter plurianual (art. 12), según su naturaleza.",
+    "ref": "Art. 13 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Bajo qué principio debe realizarse toda modificación del Presupuesto?",
+    "dorso": "Bajo el mantenimiento del principio de estabilidad presupuestaria.",
+    "ref": "Art. 14.2 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "Si una modificación de crédito supone un incremento del volumen global del Estado de Gastos, ¿cómo debe financiarse?",
+    "dorso": "Con mayores ingresos, a fin de preservar el equilibrio presupuestario.",
+    "ref": "Art. 14.2 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Quién inicia los expedientes de modificación de crédito?",
+    "dorso": "Se inician a propuesta del centro de gasto o unidad orgánica que tenga a su cargo la ejecución de los créditos correspondientes.",
+    "ref": "Art. 14.4 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Con la consideración positiva de quién deben contar los expedientes de modificación presupuestaria antes de elevarse al órgano competente?",
+    "dorso": "Del Gerente, quien los eleva al órgano competente para someterlos a aprobación.",
+    "ref": "Art. 14.4 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Qué documentación mínima debe incluir todo expediente de modificación presupuestaria?",
+    "dorso": "a) Memoria (modelo de «Solicitud de Modificación Presupuestaria»), con: clase de modificación, aplicaciones afectadas, normas legales en que se basa, y recursos previstos para financiar el mayor gasto; b) Resolución o acuerdo de aprobación por el órgano competente.",
+    "ref": "Art. 14.5 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Cuáles son los 5 tipos de modificaciones presupuestarias (art. 15)?",
+    "dorso": "a) Transferencias de crédito; b) Generaciones de crédito; c) Incorporaciones de crédito; d) Créditos extraordinarios y suplementos de crédito; e) Bajas por anulación.",
+    "ref": "Art. 15 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿En qué consiste una transferencia de crédito?",
+    "dorso": "Es un trasvase de recursos entre diferentes aplicaciones presupuestarias de gasto que rompe las vinculaciones jurídicas existentes: traslada créditos de una aplicación a otra sin aumentar el importe conjunto de los créditos concedidos, variando solo su distribución.",
+    "ref": "Art. 16.1 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Quién aprueba las transferencias de crédito entre los diversos conceptos de capítulos de operaciones corrientes y de operaciones de capital?",
+    "dorso": "El Rector, por delegación del Consejo de Gobierno.",
+    "ref": "Art. 16.2 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Quién aprueba las transferencias de gastos corrientes a gastos de capital y viceversa?",
+    "dorso": "El Presidente del Consejo Social, por delegación del Pleno de este órgano.",
+    "ref": "Art. 16.3 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Qué movimientos de crédito NO tienen carácter de transferencia de crédito?",
+    "dorso": "Los movimientos internos o redistribuciones de crédito entre distintas Unidades de Gasto que impliquen únicamente el trasvase de dotaciones presupuestarias dentro de una misma clasificación económica y funcional.",
+    "ref": "Art. 16.4 Bases Ejecución Presupuestaria UHU",
+    "exp": "Estos se llevan a cabo por el Servicio de Asuntos Económicos con autorización de la Gerencia, y deben ser aprobados por el Rector."
+  },
+  {
+    "frente": "¿Cuáles son las 3 limitaciones a las que están sujetas las transferencias de crédito (art. 17)?",
+    "dorso": "a) No afectarán a créditos extraordinarios concedidos durante el ejercicio ni a los incrementados con suplementos; b) No minorarán créditos incrementados por transferencias ni créditos ampliados; c) No incrementarán créditos que, como consecuencia de otras transferencias, hayan sido objeto de minoración.",
+    "ref": "Art. 17.1 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿En qué dos casos NO se aplican las limitaciones del art. 17 a las transferencias de crédito?",
+    "dorso": "a) Cuando afecten a créditos del Capítulo I de Gastos de Personal; b) Cuando se trate de transferencias motivadas por adaptaciones técnicas derivadas de reorganizaciones administrativas.",
+    "ref": "Art. 17.2 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Qué es una generación de crédito?",
+    "dorso": "Los derechos reconocidos que se produzcan en partidas sin consignación inicial o en las que se supere la existente, pueden generar crédito en el estado de gastos en partidas ya existentes o habilitando una nueva.",
+    "ref": "Art. 18.1 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Qué ingresos realizados en el propio ejercicio pueden dar lugar a generaciones de crédito (art. 18.2)?",
+    "dorso": "a) Aportaciones de personas naturales o jurídicas para gastos comprendidos en los fines de la Universidad; b) Ventas de bienes y prestación de servicios; c) Enajenaciones de inmovilizado; d) Reembolsos de préstamos; e) Proyectos, contratos y trabajos científicos/técnicos/artísticos, cursos y seminarios; f) Reintegros de pagos indebidos de ejercicios cerrados; g) Remanente de tesorería.",
+    "ref": "Art. 18.2 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Qué ingresos del ejercicio anterior pueden excepcionalmente generar crédito en el presupuesto del ejercicio corriente?",
+    "dorso": "Los contemplados en los párrafos b) ventas de bienes y prestación de servicios, c) enajenaciones de inmovilizado y d) reembolsos de préstamos, realizados en el último trimestre del ejercicio anterior.",
+    "ref": "Art. 18.3 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿A quién corresponde la competencia para autorizar las generaciones de crédito?",
+    "dorso": "Al Rector.",
+    "ref": "Art. 18.4 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Cuándo puede realizarse la generación de crédito según el art. 19?",
+    "dorso": "Solo cuando se hayan recaudado los correspondientes ingresos que la justifican. No obstante, el Rector podrá autorizar la generación una vez efectuado el reconocimiento del derecho de cobro por la Universidad.",
+    "ref": "Art. 19.2 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Los ingresos de carácter finalista pueden generar cualquier tipo de crédito?",
+    "dorso": "No. Los ingresos de carácter finalista o específico solo podrán financiar los créditos destinados a atender la finalidad concreta que tengan asignados.",
+    "ref": "Art. 19.1 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Qué ocurre con los créditos para gastos que al último día del ejercicio no estén afectados al cumplimiento de obligaciones ya reconocidas?",
+    "dorso": "Quedarán anulados de pleno derecho.",
+    "ref": "Art. 20.1 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Quién autoriza la incorporación de créditos al presupuesto del ejercicio siguiente y a propuesta de quién?",
+    "dorso": "El Rector, a propuesta del Gerente.",
+    "ref": "Art. 20.2 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Con qué se financian las incorporaciones de crédito?",
+    "dorso": "Con cargo a la financiación afectada, en su caso, y con cargo a remanente de tesorería no afectado, si así es autorizado por el Estado y la Comunidad Autónoma.",
+    "ref": "Art. 20.3 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Qué limitación tienen las incorporaciones de remanentes (afectados o no afectados)?",
+    "dorso": "No pondrán en riesgo el cumplimiento de la estabilidad presupuestaria ni de la regla de gasto.",
+    "ref": "Art. 20.4 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Cuándo procede un crédito extraordinario y cuándo un suplemento de crédito?",
+    "dorso": "Crédito extraordinario: cuando no exista crédito para un gasto extraordinario cuya ejecución no pueda demorarse. Suplemento de crédito: cuando el crédito consignado no sea suficiente ni ampliable.",
+    "ref": "Art. 21.1 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Cuál es el procedimiento para la concesión de un crédito extraordinario o suplemento de crédito?",
+    "dorso": "El Rector, a propuesta del Gerente, eleva —previo acuerdo del Consejo de Gobierno— propuesta al Consejo Social de la Universidad.",
+    "ref": "Art. 21.1 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Con qué medios pueden financiarse los suplementos de crédito y los créditos extraordinarios?",
+    "dorso": "a) Remanente de tesorería no afectado; b) Mayores ingresos de los previstos de carácter no finalista; c) Ingresos no previstos de carácter no finalista; d) Los destinados a gastos de inversión pueden financiarse además con operaciones de crédito (previa autorización).",
+    "ref": "Art. 21.2 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Qué son las bajas por anulación?",
+    "dorso": "Una modificación presupuestaria que consiste en la disminución total o parcial del crédito presupuestario asignado a una determinada partida de gastos.",
+    "ref": "Art. 22.1 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Cuándo puede darse la baja por anulación de un crédito?",
+    "dorso": "Siempre que dicha dotación se estime reducible o anulable sin perturbación del respectivo Centro de Gasto.",
+    "ref": "Art. 22.2 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿A quién corresponde la competencia para autorizar las bajas por anulación?",
+    "dorso": "Al Rector.",
+    "ref": "Art. 22.3 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Qué permite la creación de aplicaciones presupuestarias del art. 23?",
+    "dorso": "Cuando exista dotación para una o varias aplicaciones, la Unidad de Gasto puede solicitar al Servicio de Asuntos Económicos el alta de otra aplicación dentro del mismo nivel de vinculación que no figure en el Estado de Gastos, sin necesidad de transferencia de crédito.",
+    "ref": "Art. 23 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Qué permite el desglose de aplicaciones presupuestarias del art. 24?",
+    "dorso": "Permite a las unidades de gasto ejecutar sus créditos presupuestarios a un mayor nivel de desagregación que el que figura en el presupuesto aprobado, sin perjuicio del nivel de vinculación jurídica de dichos créditos.",
+    "ref": "Art. 24 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Qué son los centros de gasto según el art. 40?",
+    "dorso": "Unidades dotadas de autonomía para la gestión de los créditos que les son asignados dentro del Presupuesto de Gasto de la Universidad, así como para proponer modificaciones de crédito a lo largo del ejercicio económico.",
+    "ref": "Art. 40.1 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Qué tres funciones corresponden a los responsables de los centros de gasto?",
+    "dorso": "a) Garantizar la economía, eficacia y eficiencia del gasto; b) Asegurar el cumplimiento de la normativa de ejecución del Presupuesto (en especial la de contratación del Sector Público); c) Disponer los gastos, con el límite del total de créditos asignados.",
+    "ref": "Art. 40.2 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Quién autoriza el establecimiento de Centros de Gasto?",
+    "dorso": "El Gerente.",
+    "ref": "Art. 40.3 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Cuándo se dan de baja los Centros de Gasto con financiación afectada o finalista?",
+    "dorso": "Permanecerán activos como máximo hasta el 31 de diciembre del ejercicio posterior a la finalización de la actividad. También se dan de baja los que no hayan contraído obligaciones con cargo a dicha financiación en los 4 ejercicios anteriores.",
+    "ref": "Art. 40.3 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Quiénes tienen la consideración de responsables de centros de gasto?",
+    "dorso": "a) Vicerrectores/as y Secretaria General; b) El Gerente; c) El Presidente del Consejo Social; d) Decanos/as y Directores/as de Centro; e) Directores/as de Departamento; f) Directores/as de Servicios y Unidades Orgánicas con dotación presupuestaria; g) Coordinadores/as de postgrado, másteres, doctorado, congresos, jornadas, seminarios; h) Investigadores/as principales de proyectos/contratos/convenios y responsables de grupos de investigación.",
+    "ref": "Art. 40.4 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Quién puede establecer adicionalmente otros Centros de Gasto y responsables de los mismos?",
+    "dorso": "La Gerencia.",
+    "ref": "Art. 40.5 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿A quién corresponde autorizar el gasto y ordenar el pago en la UHU (art. 41)?",
+    "dorso": "Al Rector (conforme al art. 31.m de los Estatutos).",
+    "ref": "Art. 41 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Cuáles son las 4 fases del procedimiento de gestión del gasto?",
+    "dorso": "1.ª Aprobación o autorización del gasto (Fase A); 2.ª Compromiso o disposición del gasto (Fase D); 3.ª Reconocimiento de la obligación (Fase O); 4.ª Ordenación del pago (Fase P).",
+    "ref": "Art. 42.1 Bases Ejecución Presupuestaria UHU",
+    "exp": "Regla mnemotécnica: A-D-O-P."
+  },
+  {
+    "frente": "¿Puede un mismo acto administrativo abarcar más de una fase de la gestión del gasto?",
+    "dorso": "Sí. Cuando la naturaleza de la operación lo determine, un mismo acto puede abarcar más de una de las tres primeras fases (A, D, O), produciendo los mismos efectos que si se acordaran en actos separados.",
+    "ref": "Art. 42.2 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Qué es la autorización del gasto (Fase A)?",
+    "dorso": "El acto administrativo por el que la autoridad competente para gestionar un gasto con cargo a un crédito presupuestario aprueba su realización, determinando su cuantía de forma cierta (o lo más aproximada posible), reservando el crédito del presupuesto.",
+    "ref": "Art. 43.1 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿La autorización es el primer acto con individualidad propia dentro del procedimiento de ejecución del gasto?",
+    "dorso": "Sí. Antes de la autorización, el responsable del centro de gasto debe solicitar al Servicio de Asuntos Económicos la certificación de existencia de crédito disponible.",
+    "ref": "Art. 43.2 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Qué consecuencia tienen los acuerdos o actos administrativos que se adopten sin la existencia de crédito presupuestario adecuado y suficiente?",
+    "dorso": "Son nulos de pleno derecho, sin perjuicio de las responsabilidades que se puedan derivar.",
+    "ref": "Art. 43.3 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Qué es el compromiso o disposición del gasto (Fase D)?",
+    "dorso": "El acto administrativo por el que la autoridad competente acuerda o concierta con un tercero, tras cumplir los trámites legales, la realización de gastos previamente aprobados, por un importe determinado o determinable.",
+    "ref": "Art. 44.1 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Cuándo pueden acumularse las fases de autorización y disposición (A+D)?",
+    "dorso": "Cuando al inicio de un expediente de gasto se conozca su cuantía exacta y el nombre del perceptor.",
+    "ref": "Art. 44.3 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Qué es el reconocimiento de la obligación (Fase O)?",
+    "dorso": "El acto administrativo por el que la autoridad competente acepta formalmente, con cargo al presupuesto de la UHU, una deuda a favor de un tercero como consecuencia del cumplimiento por parte de este de la prestación comprometida.",
+    "ref": "Art. 45.1 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Cuándo se efectúa, con carácter general, el reconocimiento de la obligación?",
+    "dorso": "Una vez recibida la factura y/o justificantes que prueben la recepción de los bienes, la prestación del servicio o el derecho del acreedor.",
+    "ref": "Art. 45.3 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿En qué plazo deben los proveedores presentar la factura tras la entrega de bienes o prestación de servicios?",
+    "dorso": "En el plazo de 30 días desde la fecha de entrega efectiva de las mercancías o la prestación de servicios.",
+    "ref": "Art. 45.4 Bases Ejecución Presupuestaria UHU",
+    "exp": "Conforme al art. 3 de la Ley 25/2013 de impulso de la factura electrónica."
+  },
+  {
+    "frente": "¿Qué entidades están obligadas al uso de la factura electrónica ante la UHU?",
+    "dorso": "Sociedades anónimas; sociedades de responsabilidad limitada; personas jurídicas y entidades sin personalidad jurídica que carezcan de nacionalidad española; establecimientos permanentes y sucursales de entidades no residentes en España; uniones temporales de empresas; agrupaciones de interés económico y fondos (pensiones, capital riesgo, inversiones, etc.).",
+    "ref": "Art. 45.5 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿En qué plazo máximo deben las unidades tramitadoras imputar las facturas y demás documentos justificativos?",
+    "dorso": "5 días hábiles desde su entrada en el registro administrativo.",
+    "ref": "Art. 45.11 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿En qué plazo máximo deben los responsables de centros de gasto dar conformidad a las facturas imputadas?",
+    "dorso": "10 días hábiles desde la fecha de imputación de las mismas.",
+    "ref": "Art. 45.12 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Hasta qué importe se admiten facturas simplificadas sin los datos fiscales de la UHU?",
+    "dorso": "Importe inferior a 100 euros (IVA no incluido), con carácter excepcional.",
+    "ref": "Art. 45.9 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Qué es la ordenación del pago (Fase P)?",
+    "dorso": "El acto mediante el cual se expide una orden de pago contra la Tesorería de la Universidad.",
+    "ref": "Art. 46.1 Bases Ejecución Presupuestaria UHU",
+    "exp": "No es un «acto administrativo» a diferencia de las fases A, D y O — es un «acto» a secas."
+  },
+  {
+    "frente": "¿Cómo se clasifican las órdenes de pago atendiendo al momento de su justificación?",
+    "dorso": "a) Órdenes de pago en firme; b) Órdenes de pago a justificar.",
+    "ref": "Art. 46.3 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Qué es el pago material (art. 47)?",
+    "dorso": "El acto mediante el cual se satisfacen a los perceptores, a cuyo favor estuvieran expedidas las órdenes de pago, los importes que figuran en las mismas, produciéndose la salida de fondos de la tesorería y la cancelación de la obligación reconocida.",
+    "ref": "Art. 47.1 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Cómo se realiza la ejecución material del pago en la UHU?",
+    "dorso": "Mediante transferencia bancaria; excepcionalmente, se utilizará el cheque nominativo.",
+    "ref": "Art. 47.3 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿A favor de quién se expiden las órdenes de pago, con carácter general?",
+    "dorso": "A favor del acreedor directo. Excepciones: pagos de retribuciones, pagos a justificar y aquellos con pluralidad de perceptores.",
+    "ref": "Art. 47.2 Bases Ejecución Presupuestaria UHU"
+  },
+  {
+    "frente": "¿Cuándo no deben los perceptores acreditar su personalidad ni firmar el recibí?",
+    "dorso": "En las transferencias bancarias, en las que el pago material se acredita con el justificante bancario.",
+    "ref": "Art. 47.5 Bases Ejecución Presupuestaria UHU"
+  }
+]

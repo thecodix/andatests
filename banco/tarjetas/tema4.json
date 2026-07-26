@@ -1,0 +1,243 @@
+[
+  {
+    "frente": "¿Qué resoluciones y actos pueden ser recurridos en alzada según la Ley 39/2015?",
+    "dorso": "Las resoluciones y actos a que se refiere el artículo 112.1, cuando no pongan fin a la vía administrativa.",
+    "ref": "Art. 121.1 Ley 39/2015"
+  },
+  {
+    "frente": "¿Ante qué órgano se recurre en alzada?",
+    "dorso": "Ante el órgano superior jerárquico del que dictó el acto.",
+    "ref": "Art. 121.1 Ley 39/2015"
+  },
+  {
+    "frente": "¿Ante quién puede interponerse materialmente el recurso de alzada?",
+    "dorso": "Ante el órgano que dictó el acto que se impugna o ante el competente para resolverlo.",
+    "ref": "Art. 121.2 Ley 39/2015"
+  },
+  {
+    "frente": "Si el recurso de alzada se interpone ante el órgano que dictó el acto, ¿en qué plazo debe remitirlo al competente para resolverlo?",
+    "dorso": "En el plazo de 10 días, con su informe y una copia completa y ordenada del expediente.",
+    "ref": "Art. 121.2 Ley 39/2015"
+  },
+  {
+    "frente": "¿Quién es el responsable directo de remitir el recurso de alzada al órgano competente para resolverlo?",
+    "dorso": "El titular del órgano que dictó el acto recurrido.",
+    "ref": "Art. 121.2 Ley 39/2015"
+  },
+  {
+    "frente": "A efectos del recurso de alzada, ¿de quién se consideran dependientes los Tribunales y órganos de selección del personal que actúen con autonomía funcional?",
+    "dorso": "Del órgano al que estén adscritos o, en su defecto, del que haya nombrado al presidente de los mismos.",
+    "ref": "Art. 121.1 Ley 39/2015"
+  },
+  {
+    "frente": "¿Cuál es el plazo para interponer recurso de alzada si el acto es expreso?",
+    "dorso": "Un mes desde la notificación del acto.",
+    "ref": "Art. 122.1 Ley 39/2015"
+  },
+  {
+    "frente": "¿Qué ocurre si transcurre el plazo de un mes sin interponer recurso de alzada contra un acto expreso?",
+    "dorso": "La resolución será firme a todos los efectos.",
+    "ref": "Art. 122.1 Ley 39/2015"
+  },
+  {
+    "frente": "Si el acto no es expreso (silencio administrativo), ¿en qué plazo puede interponerse recurso de alzada?",
+    "dorso": "En cualquier momento a partir del día siguiente a aquel en que se produzcan los efectos del silencio administrativo, según su normativa específica.",
+    "ref": "Art. 122.1 Ley 39/2015"
+  },
+  {
+    "frente": "¿Quién puede interponer recurso de alzada contra un acto presunto (no expreso)?",
+    "dorso": "El solicitante y otros posibles interesados.",
+    "ref": "Art. 122.1 Ley 39/2015"
+  },
+  {
+    "frente": "¿Cuál es el plazo máximo para dictar y notificar la resolución del recurso de alzada?",
+    "dorso": "Tres meses.",
+    "ref": "Art. 122.2 Ley 39/2015"
+  },
+  {
+    "frente": "¿Qué ocurre si transcurre el plazo máximo de tres meses sin que recaiga resolución en el recurso de alzada?",
+    "dorso": "Se podrá entender desestimado el recurso, salvo en el supuesto previsto en el artículo 24.1, tercer párrafo.",
+    "ref": "Art. 122.2 Ley 39/2015"
+  },
+  {
+    "frente": "¿Cabe algún recurso administrativo contra la resolución de un recurso de alzada?",
+    "dorso": "No cabe ningún otro recurso administrativo, salvo el recurso extraordinario de revisión en los casos del artículo 125.1.",
+    "ref": "Art. 122.3 Ley 39/2015"
+  },
+  {
+    "frente": "¿Qué actos administrativos pueden ser recurridos potestativamente en reposición?",
+    "dorso": "Los actos administrativos que pongan fin a la vía administrativa.",
+    "ref": "Art. 123.1 Ley 39/2015"
+  },
+  {
+    "frente": "¿Ante qué órgano se interpone el recurso potestativo de reposición?",
+    "dorso": "Ante el mismo órgano que hubiera dictado el acto.",
+    "ref": "Art. 123.1 Ley 39/2015"
+  },
+  {
+    "frente": "¿Qué alternativa tiene el interesado frente a un acto que pone fin a la vía administrativa, en lugar de interponer reposición?",
+    "dorso": "Impugnarlo directamente ante el orden jurisdiccional contencioso-administrativo.",
+    "ref": "Art. 123.1 Ley 39/2015"
+  },
+  {
+    "frente": "Si se interpone recurso de reposición, ¿puede interponerse simultáneamente recurso contencioso-administrativo?",
+    "dorso": "No. No se podrá interponer recurso contencioso-administrativo hasta que sea resuelto expresamente o se haya producido la desestimación presunta del recurso de reposición.",
+    "ref": "Art. 123.2 Ley 39/2015"
+  },
+  {
+    "frente": "¿Cuál es el plazo para interponer recurso potestativo de reposición si el acto es expreso?",
+    "dorso": "Un mes.",
+    "ref": "Art. 124.1 Ley 39/2015"
+  },
+  {
+    "frente": "Si transcurre el plazo de un mes sin interponer recurso de reposición contra un acto expreso, ¿qué puede hacerse?",
+    "dorso": "Únicamente podrá interponerse recurso contencioso-administrativo, sin perjuicio de la procedencia del recurso extraordinario de revisión.",
+    "ref": "Art. 124.1 Ley 39/2015"
+  },
+  {
+    "frente": "Si el acto no es expreso, ¿en qué plazo puede interponerse recurso potestativo de reposición?",
+    "dorso": "En cualquier momento a partir del día siguiente a aquel en que, de acuerdo con su normativa específica, se produzca el acto presunto.",
+    "ref": "Art. 124.1 Ley 39/2015"
+  },
+  {
+    "frente": "¿Cuál es el plazo máximo para dictar y notificar la resolución del recurso potestativo de reposición?",
+    "dorso": "Un mes.",
+    "ref": "Art. 124.2 Ley 39/2015"
+  },
+  {
+    "frente": "¿Puede interponerse de nuevo un recurso de reposición contra la resolución de otro recurso de reposición?",
+    "dorso": "No. Contra la resolución de un recurso de reposición no podrá interponerse de nuevo dicho recurso.",
+    "ref": "Art. 124.3 Ley 39/2015"
+  },
+  {
+    "frente": "¿Contra qué tipo de actos puede interponerse el recurso extraordinario de revisión?",
+    "dorso": "Contra los actos firmes en vía administrativa.",
+    "ref": "Art. 125.1 Ley 39/2015"
+  },
+  {
+    "frente": "¿Ante qué órgano se interpone el recurso extraordinario de revisión?",
+    "dorso": "Ante el órgano administrativo que dictó el acto, que también será el competente para su resolución.",
+    "ref": "Art. 125.1 Ley 39/2015"
+  },
+  {
+    "frente": "¿Cuáles son las cuatro circunstancias que permiten interponer recurso extraordinario de revisión?",
+    "dorso": "a) Error de hecho que resulte de los propios documentos del expediente; b) Aparición de documentos de valor esencial posteriores que evidencien error; c) Documentos o testimonios declarados falsos por sentencia judicial firme; d) Resolución dictada como consecuencia de prevaricación, cohecho, violencia, maquinación fraudulenta u otra conducta punible declarada por sentencia judicial firme.",
+    "ref": "Art. 125.1 Ley 39/2015"
+  },
+  {
+    "frente": "Para la causa de «error de hecho» del recurso extraordinario de revisión, ¿de dónde debe resultar el error?",
+    "dorso": "De los propios documentos incorporados al expediente.",
+    "ref": "Art. 125.1.a) Ley 39/2015"
+  },
+  {
+    "frente": "Para la causa de «documentos nuevos de valor esencial» del recurso extraordinario de revisión, ¿qué requisito deben cumplir esos documentos?",
+    "dorso": "Que, aunque sean posteriores, evidencien el error de la resolución recurrida.",
+    "ref": "Art. 125.1.b) Ley 39/2015"
+  },
+  {
+    "frente": "Para la causa de «documentos o testimonios falsos» del recurso extraordinario de revisión, ¿quién debe declararlos falsos?",
+    "dorso": "Deben haber sido declarados falsos por sentencia judicial firme, anterior o posterior a la resolución recurrida.",
+    "ref": "Art. 125.1.c) Ley 39/2015"
+  },
+  {
+    "frente": "Para la causa de «conducta punible» del recurso extraordinario de revisión, ¿qué conductas se incluyen y cómo deben haberse declarado?",
+    "dorso": "Prevaricación, cohecho, violencia, maquinación fraudulenta u otra conducta punible, declarada así en virtud de sentencia judicial firme.",
+    "ref": "Art. 125.1.d) Ley 39/2015"
+  },
+  {
+    "frente": "¿Cuál es el plazo para interponer recurso extraordinario de revisión por error de hecho (causa a)?",
+    "dorso": "Cuatro años siguientes a la fecha de la notificación de la resolución impugnada.",
+    "ref": "Art. 125.2 Ley 39/2015"
+  },
+  {
+    "frente": "¿Cuál es el plazo para interponer recurso extraordinario de revisión por las causas b), c) y d) (documentos nuevos, testimonios falsos o conducta punible)?",
+    "dorso": "Tres meses a contar desde el conocimiento de los documentos o desde que la sentencia judicial quedó firme.",
+    "ref": "Art. 125.2 Ley 39/2015"
+  },
+  {
+    "frente": "¿En qué se diferencian los plazos de interposición del recurso extraordinario de revisión según la causa?",
+    "dorso": "Causa a) (error de hecho): 4 años desde la notificación. Causas b), c) y d): 3 meses desde el conocimiento de los documentos o desde que la sentencia judicial quedó firme.",
+    "ref": "Art. 125.2 Ley 39/2015"
+  },
+  {
+    "frente": "¿Puede el órgano competente inadmitir a trámite un recurso extraordinario de revisión?",
+    "dorso": "Sí, motivadamente, sin necesidad de recabar dictamen del Consejo de Estado u órgano consultivo de la Comunidad Autónoma.",
+    "ref": "Art. 126.1 Ley 39/2015"
+  },
+  {
+    "frente": "¿En qué supuestos puede inadmitirse a trámite el recurso extraordinario de revisión?",
+    "dorso": "Cuando no se funde en alguna de las causas del artículo 125.1, o cuando se hubiesen desestimado en cuanto al fondo otros recursos sustancialmente iguales.",
+    "ref": "Art. 126.1 Ley 39/2015"
+  },
+  {
+    "frente": "Al resolver un recurso extraordinario de revisión, ¿sobre qué debe pronunciarse el órgano competente?",
+    "dorso": "No solo sobre la procedencia del recurso, sino también, en su caso, sobre el fondo de la cuestión resuelta por el acto recurrido.",
+    "ref": "Art. 126.2 Ley 39/2015"
+  },
+  {
+    "frente": "¿Cuál es el plazo máximo para dictar y notificar la resolución del recurso extraordinario de revisión?",
+    "dorso": "Tres meses desde la interposición del recurso.",
+    "ref": "Art. 126.3 Ley 39/2015"
+  },
+  {
+    "frente": "¿Qué ocurre si transcurren tres meses sin resolución del recurso extraordinario de revisión?",
+    "dorso": "Se entenderá desestimado, quedando expedita la vía jurisdiccional contencioso-administrativa.",
+    "ref": "Art. 126.3 Ley 39/2015"
+  },
+  {
+    "frente": "¿Qué recurso cabe contra actos que NO ponen fin a la vía administrativa?",
+    "dorso": "Recurso de alzada.",
+    "ref": "Art. 121.1 Ley 39/2015"
+  },
+  {
+    "frente": "¿Qué recurso cabe contra actos que SÍ ponen fin a la vía administrativa?",
+    "dorso": "Recurso potestativo de reposición (ante el mismo órgano) o impugnación directa ante la jurisdicción contencioso-administrativa.",
+    "ref": "Art. 123.1 Ley 39/2015"
+  },
+  {
+    "frente": "¿Qué recurso cabe contra actos firmes en vía administrativa?",
+    "dorso": "Recurso extraordinario de revisión, cuando concurra alguna de las circunstancias tasadas del artículo 125.1.",
+    "ref": "Art. 125.1 Ley 39/2015"
+  },
+  {
+    "frente": "Compara los plazos máximos para resolver los tres recursos administrativos.",
+    "dorso": "Alzada: 3 meses; Reposición: 1 mes; Extraordinario de revisión: 3 meses.",
+    "ref": "Arts. 122.2, 124.2 y 126.3 Ley 39/2015"
+  },
+  {
+    "frente": "Compara los plazos de interposición de alzada y reposición cuando el acto es expreso.",
+    "dorso": "Ambos son de un mes.",
+    "ref": "Arts. 122.1 y 124.1 Ley 39/2015"
+  },
+  {
+    "frente": "¿Qué sentido tiene el silencio administrativo en los tres recursos (alzada, reposición, revisión)?",
+    "dorso": "Desestimatorio en los tres casos (en alzada, salvo la excepción del art. 24.1, tercer párrafo).",
+    "ref": "Arts. 122.2, 124.2 y 126.3 Ley 39/2015",
+    "exp": "En reposición la ley no dice expresamente 'desestimado', pero se infiere porque al no resolverse se entiende abierta la vía contencioso-administrativa."
+  },
+  {
+    "frente": "¿Quién resuelve el recurso de alzada?",
+    "dorso": "El órgano superior jerárquico del que dictó el acto.",
+    "ref": "Art. 121.1 Ley 39/2015"
+  },
+  {
+    "frente": "¿Quién resuelve el recurso potestativo de reposición?",
+    "dorso": "El mismo órgano que dictó el acto.",
+    "ref": "Art. 123.1 Ley 39/2015"
+  },
+  {
+    "frente": "¿Quién resuelve el recurso extraordinario de revisión?",
+    "dorso": "El mismo órgano administrativo que dictó el acto firme.",
+    "ref": "Art. 125.1 Ley 39/2015"
+  },
+  {
+    "frente": "¿Es necesario el dictamen del Consejo de Estado para inadmitir a trámite un recurso extraordinario de revisión?",
+    "dorso": "No. La inadmisión puede acordarse motivadamente sin necesidad de recabar dictamen del Consejo de Estado u órgano consultivo autonómico.",
+    "ref": "Art. 126.1 Ley 39/2015"
+  },
+  {
+    "frente": "¿Qué documentación debe remitir el órgano que dictó el acto al competente para resolver la alzada?",
+    "dorso": "Su informe y una copia completa y ordenada del expediente.",
+    "ref": "Art. 121.2 Ley 39/2015"
+  }
+]

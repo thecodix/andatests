@@ -1,0 +1,257 @@
+[
+  {
+    "frente": "¿Cuál es el nombre completo y fecha de la ley de protección de datos española vigente?",
+    "dorso": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y Garantía de los Derechos Digitales (LOPDGDD).",
+    "ref": "LO 3/2018",
+    "exp": "Es una ley orgánica, no ordinaria."
+  },
+  {
+    "frente": "¿Cómo se denomina el Título II de la LO 3/2018 de Protección de Datos?",
+    "dorso": "Principios de protección de datos.",
+    "ref": "Título II LO 3/2018"
+  },
+  {
+    "frente": "¿Qué artículos comprende el Título II de la LO 3/2018?",
+    "dorso": "Artículos 4 a 10.",
+    "ref": "Título II LO 3/2018"
+  },
+  {
+    "frente": "Según el art. 4 de la LO 3/2018, ¿cómo deben ser los datos personales?",
+    "dorso": "Exactos y, si fuere necesario, actualizados.",
+    "ref": "Art. 4 LO 3/2018",
+    "exp": "Conforme al artículo 5.1.d) del Reglamento (UE) 2016/679."
+  },
+  {
+    "frente": "¿A qué artículo del Reglamento (UE) 2016/679 remite el principio de exactitud del art. 4 de la LO 3/2018?",
+    "dorso": "Al artículo 5.1.d) del Reglamento (UE) 2016/679.",
+    "ref": "Art. 4 LO 3/2018"
+  },
+  {
+    "frente": "Según el art. 4 de la LO 3/2018, ¿en qué cuatro supuestos no será imputable al responsable la inexactitud de los datos (siempre que haya adoptado medidas razonables para suprimirlos o rectificarlos sin dilación)?",
+    "dorso": "a) Obtenidos directamente del afectado; b) Obtenidos de un mediador o intermediario (si la normativa sectorial lo permite); c) Recibidos de otro responsable por ejercicio del derecho a la portabilidad; d) Obtenidos de un registro público.",
+    "ref": "Art. 4.2 LO 3/2018"
+  },
+  {
+    "frente": "Según el art. 4.2.b) de la LO 3/2018, cuando los datos inexactos se obtuvieron de un mediador o intermediario, ¿quién asume la responsabilidad?",
+    "dorso": "El mediador o intermediario asumirá las responsabilidades que pudieran derivarse si comunicó al responsable datos que no se correspondan con los facilitados por el afectado.",
+    "ref": "Art. 4.2.b) LO 3/2018"
+  },
+  {
+    "frente": "¿Quiénes están sujetos al deber de confidencialidad según el art. 5 de la LO 3/2018?",
+    "dorso": "Los responsables y encargados del tratamiento, así como todas las personas que intervengan en cualquier fase del mismo.",
+    "ref": "Art. 5.1 LO 3/2018"
+  },
+  {
+    "frente": "¿A qué artículo del RGPD se refiere el deber de confidencialidad del art. 5 de la LO 3/2018?",
+    "dorso": "Al artículo 5.1.f) del Reglamento (UE) 2016/679.",
+    "ref": "Art. 5.1 LO 3/2018"
+  },
+  {
+    "frente": "Según el art. 5 de la LO 3/2018, ¿de qué es complementaria la obligación de confidencialidad?",
+    "dorso": "De los deberes de secreto profesional de conformidad con su normativa aplicable.",
+    "ref": "Art. 5.2 LO 3/2018"
+  },
+  {
+    "frente": "¿Se mantiene el deber de confidencialidad tras finalizar la relación con el responsable o encargado del tratamiento?",
+    "dorso": "Sí, las obligaciones se mantienen aun cuando hubiese finalizado dicha relación.",
+    "ref": "Art. 5.3 LO 3/2018"
+  },
+  {
+    "frente": "Según el art. 6 de la LO 3/2018, ¿qué se entiende por consentimiento del afectado?",
+    "dorso": "Toda manifestación de voluntad libre, específica, informada e inequívoca por la que acepta, ya sea mediante una declaración o una clara acción afirmativa, el tratamiento de datos personales que le conciernen.",
+    "ref": "Art. 6.1 LO 3/2018",
+    "exp": "Se remite al art. 4.11 del RGPD."
+  },
+  {
+    "frente": "¿Cuáles son las cuatro características que debe reunir el consentimiento del afectado según el art. 6 de la LO 3/2018?",
+    "dorso": "Libre, específica, informada e inequívoca.",
+    "ref": "Art. 6.1 LO 3/2018"
+  },
+  {
+    "frente": "Cuando se pretenda el tratamiento de datos para una pluralidad de finalidades, ¿qué exige el art. 6.2 de la LO 3/2018 respecto al consentimiento?",
+    "dorso": "Que conste de manera específica e inequívoca que el consentimiento se otorga para todas ellas.",
+    "ref": "Art. 6.2 LO 3/2018"
+  },
+  {
+    "frente": "¿Puede supeditarse la ejecución de un contrato a que el afectado consienta el tratamiento de datos para finalidades ajenas al contrato?",
+    "dorso": "No. No podrá supeditarse la ejecución del contrato a que el afectado consienta el tratamiento para finalidades que no guarden relación con el mantenimiento, desarrollo o control de la relación contractual.",
+    "ref": "Art. 6.3 LO 3/2018"
+  },
+  {
+    "frente": "¿A partir de qué edad puede un menor consentir por sí mismo el tratamiento de sus datos personales según la LO 3/2018?",
+    "dorso": "A partir de los catorce años.",
+    "ref": "Art. 7.1 LO 3/2018"
+  },
+  {
+    "frente": "¿Qué excepción existe a la regla de los 14 años para el consentimiento de menores en protección de datos?",
+    "dorso": "Se exceptúan los supuestos en que la ley exija la asistencia de los titulares de la patria potestad o tutela para la celebración del acto o negocio jurídico en cuyo contexto se recaba el consentimiento.",
+    "ref": "Art. 7.1 LO 3/2018"
+  },
+  {
+    "frente": "Para menores de 14 años, ¿cuándo será lícito el tratamiento de datos fundado en el consentimiento?",
+    "dorso": "Solo si consta el consentimiento del titular de la patria potestad o tutela, con el alcance que estos determinen.",
+    "ref": "Art. 7.2 LO 3/2018"
+  },
+  {
+    "frente": "Según el art. 8.1 de la LO 3/2018, ¿cuándo puede considerarse fundado en una obligación legal el tratamiento de datos?",
+    "dorso": "Cuando así lo prevea una norma de Derecho de la Unión Europea o una norma con rango de ley.",
+    "ref": "Art. 8.1 LO 3/2018",
+    "exp": "No basta un reglamento ni un real decreto no legislativo."
+  },
+  {
+    "frente": "¿Qué puede determinar la norma que ampara el tratamiento por obligación legal (art. 8.1 LO 3/2018)?",
+    "dorso": "Las condiciones generales del tratamiento, los tipos de datos objeto del mismo y las cesiones que procedan.",
+    "ref": "Art. 8.1 LO 3/2018"
+  },
+  {
+    "frente": "Según el art. 8.2 de la LO 3/2018, ¿cuándo puede considerarse fundado en una misión de interés público el tratamiento de datos?",
+    "dorso": "Cuando derive de una competencia atribuida por una norma con rango de ley.",
+    "ref": "Art. 8.2 LO 3/2018"
+  },
+  {
+    "frente": "¿Qué datos del art. 9 de la LO 3/2018 no pueden tratarse con el solo consentimiento del afectado para evitar situaciones discriminatorias?",
+    "dorso": "Aquellos cuya finalidad principal sea identificar ideología, afiliación sindical, religión, orientación sexual, creencias u origen racial o étnico.",
+    "ref": "Art. 9.1 LO 3/2018"
+  },
+  {
+    "frente": "En las categorías especiales de datos (art. 9.2 LO 3/2018), los tratamientos fundados en Derecho español (letras g, h, i del art. 9.2 RGPD), ¿por qué tipo de norma deben estar amparados?",
+    "dorso": "Por una norma con rango de ley, que podrá establecer requisitos adicionales relativos a su seguridad y confidencialidad.",
+    "ref": "Art. 9.2 LO 3/2018"
+  },
+  {
+    "frente": "¿En qué ámbito puede una norma con rango de ley amparar el tratamiento de categorías especiales de datos según el art. 9.2 de la LO 3/2018?",
+    "dorso": "En el ámbito de la salud (gestión de sistemas de asistencia sanitaria y social, pública y privada) o en la ejecución de un contrato de seguro del que el afectado sea parte.",
+    "ref": "Art. 9.2 LO 3/2018"
+  },
+  {
+    "frente": "Según el art. 10.1 de la LO 3/2018, ¿en qué normas debe ampararse el tratamiento de datos relativos a condenas e infracciones penales para fines distintos de prevención/investigación/detección/enjuiciamiento?",
+    "dorso": "En una norma de Derecho de la Unión Europea, en la propia LO 3/2018 o en otras normas de rango legal.",
+    "ref": "Art. 10.1 LO 3/2018"
+  },
+  {
+    "frente": "¿Conforme a qué regulación puede realizarse el registro completo de datos de condenas e infracciones penales (art. 10.2 LO 3/2018)?",
+    "dorso": "Conforme a lo establecido en la regulación del Sistema de registros administrativos de apoyo a la Administración de Justicia.",
+    "ref": "Art. 10.2 LO 3/2018"
+  },
+  {
+    "frente": "Fuera de los supuestos generales del art. 10, ¿quiénes pueden tratar datos de condenas e infracciones penales y con qué objeto?",
+    "dorso": "Abogados y procuradores, con el objeto de recoger la información facilitada por sus clientes para el ejercicio de sus funciones.",
+    "ref": "Art. 10.3 LO 3/2018"
+  },
+  {
+    "frente": "¿Cómo se denomina el Título III de la LO 3/2018 y qué capítulos contiene?",
+    "dorso": "Derechos de las personas. Capítulo I: Transparencia e información; Capítulo II: Ejercicio de los derechos.",
+    "ref": "Título III LO 3/2018"
+  },
+  {
+    "frente": "Según el art. 11.2 de la LO 3/2018, ¿qué debe contener como mínimo la información básica que se facilita al afectado?",
+    "dorso": "a) La identidad del responsable del tratamiento y de su representante, en su caso; b) La finalidad del tratamiento; c) La posibilidad de ejercer los derechos de los artículos 15 a 22 del RGPD.",
+    "ref": "Art. 11.2 LO 3/2018"
+  },
+  {
+    "frente": "Si los datos obtenidos del afectado van a tratarse para elaboración de perfiles, ¿qué información adicional debe incluir la información básica?",
+    "dorso": "Esa misma circunstancia (que se elaborarán perfiles) y el derecho a oponerse a decisiones individuales automatizadas que produzcan efectos jurídicos sobre él o le afecten significativamente de modo similar.",
+    "ref": "Art. 11.2 LO 3/2018"
+  },
+  {
+    "frente": "Cuando los datos NO se obtienen del afectado, ¿qué dos extremos adicionales incluye la información básica según el art. 11.3?",
+    "dorso": "a) Las categorías de datos objeto de tratamiento; b) Las fuentes de las que procedieran los datos.",
+    "ref": "Art. 11.3 LO 3/2018"
+  },
+  {
+    "frente": "¿Cómo puede el responsable dar cumplimiento al deber de información cuando los datos se obtienen del propio afectado (art. 11.1)?",
+    "dorso": "Facilitando la información básica e indicándole una dirección electrónica u otro medio que permita acceder de forma sencilla e inmediata a la restante información.",
+    "ref": "Art. 11.1 LO 3/2018"
+  },
+  {
+    "frente": "Según el art. 12.1 de la LO 3/2018, ¿cómo pueden ejercerse los derechos de los artículos 15 a 22 del RGPD?",
+    "dorso": "Directamente o por medio de representante legal o voluntario.",
+    "ref": "Art. 12.1 LO 3/2018"
+  },
+  {
+    "frente": "¿Puede denegarse el ejercicio de un derecho por el solo motivo de que el afectado opte por un medio distinto al ofrecido?",
+    "dorso": "No, el ejercicio del derecho no podrá ser denegado por el solo motivo de optar el afectado por otro medio.",
+    "ref": "Art. 12.2 LO 3/2018"
+  },
+  {
+    "frente": "¿Puede el encargado tramitar solicitudes de ejercicio de derechos por cuenta del responsable?",
+    "dorso": "Sí, si así se estableciere en el contrato o acto jurídico que les vincule.",
+    "ref": "Art. 12.3 LO 3/2018"
+  },
+  {
+    "frente": "¿Sobre quién recae la prueba del cumplimiento del deber de responder a la solicitud de ejercicio de derechos?",
+    "dorso": "Sobre el responsable del tratamiento.",
+    "ref": "Art. 12.4 LO 3/2018"
+  },
+  {
+    "frente": "¿Quiénes pueden ejercitar los derechos en nombre de los menores de 14 años según el art. 12.6 de la LO 3/2018?",
+    "dorso": "Los titulares de la patria potestad, en nombre y representación de los menores de catorce años.",
+    "ref": "Art. 12.6 LO 3/2018"
+  },
+  {
+    "frente": "¿Son gratuitas las actuaciones del responsable para atender solicitudes de ejercicio de derechos?",
+    "dorso": "Sí, serán gratuitas, sin perjuicio de lo dispuesto en los arts. 12.5 y 15.3 del RGPD y en los apartados 3 y 4 del art. 13 de la LO 3/2018.",
+    "ref": "Art. 12.7 LO 3/2018"
+  },
+  {
+    "frente": "Según el art. 13.2 de la LO 3/2018, ¿cuándo se entiende otorgado el derecho de acceso?",
+    "dorso": "Si el responsable facilita al afectado un sistema de acceso remoto, directo y seguro a los datos personales que garantice, de modo permanente, el acceso a su totalidad.",
+    "ref": "Art. 13.2 LO 3/2018"
+  },
+  {
+    "frente": "¿Cuándo puede considerarse repetitivo el ejercicio del derecho de acceso según el art. 13.3 de la LO 3/2018?",
+    "dorso": "En más de una ocasión durante el plazo de seis meses, a menos que exista causa legítima para ello.",
+    "ref": "Art. 13.3 LO 3/2018"
+  },
+  {
+    "frente": "Si el afectado elige un medio distinto al ofrecido para el derecho de acceso que suponga un coste desproporcionado, ¿cómo se considerará la solicitud?",
+    "dorso": "Excesiva. El afectado asumirá el exceso de costes que su elección comporte.",
+    "ref": "Art. 13.4 LO 3/2018"
+  },
+  {
+    "frente": "Al ejercer el derecho de rectificación (art. 14), ¿qué debe indicar el afectado en su solicitud?",
+    "dorso": "A qué datos se refiere y la corrección que haya de realizarse; deberá acompañar, cuando sea preciso, documentación justificativa de la inexactitud o carácter incompleto de los datos.",
+    "ref": "Art. 14 LO 3/2018"
+  },
+  {
+    "frente": "¿Con arreglo a qué artículo del RGPD se ejerce el derecho de supresión según el art. 15 de la LO 3/2018?",
+    "dorso": "Con arreglo al artículo 17 del Reglamento (UE) 2016/679.",
+    "ref": "Art. 15.1 LO 3/2018"
+  },
+  {
+    "frente": "Tras ejercer el derecho de oposición a mercadotecnia directa (art. 21.2 RGPD), ¿puede el responsable conservar algún dato?",
+    "dorso": "Sí, podrá conservar los datos identificativos del afectado necesarios con el fin de impedir tratamientos futuros para fines de mercadotecnia directa.",
+    "ref": "Art. 15.2 LO 3/2018"
+  },
+  {
+    "frente": "¿Dónde debe constar claramente que el tratamiento de datos está limitado según el art. 16.2 de la LO 3/2018?",
+    "dorso": "En los sistemas de información del responsable.",
+    "ref": "Art. 16.2 LO 3/2018"
+  },
+  {
+    "frente": "¿Con arreglo a qué artículo del RGPD se ejerce el derecho a la limitación del tratamiento (art. 16 LO 3/2018)?",
+    "dorso": "Con arreglo al artículo 18 del Reglamento (UE) 2016/679.",
+    "ref": "Art. 16.1 LO 3/2018"
+  },
+  {
+    "frente": "¿Con arreglo a qué artículo del RGPD se ejerce el derecho a la portabilidad (art. 17 LO 3/2018)?",
+    "dorso": "Con arreglo al artículo 20 del Reglamento (UE) 2016/679.",
+    "ref": "Art. 17 LO 3/2018"
+  },
+  {
+    "frente": "¿Con arreglo a qué artículos del RGPD se ejercen el derecho de oposición y los derechos sobre decisiones individuales automatizadas (art. 18 LO 3/2018)?",
+    "dorso": "Con arreglo a los artículos 21 y 22 del Reglamento (UE) 2016/679, respectivamente.",
+    "ref": "Art. 18 LO 3/2018"
+  },
+  {
+    "frente": "El derecho de oposición del art. 18 de la LO 3/2018, ¿incluye o excluye la realización de perfiles?",
+    "dorso": "Incluye la realización de perfiles.",
+    "ref": "Art. 18 LO 3/2018"
+  },
+  {
+    "frente": "¿Cuál es la correspondencia entre derechos de la LO 3/2018 y artículos del RGPD? (acceso, rectificación, supresión, limitación, portabilidad, oposición)",
+    "dorso": "Acceso → art. 15 RGPD; Rectificación → art. 16 RGPD; Supresión → art. 17 RGPD; Limitación → art. 18 RGPD; Portabilidad → art. 20 RGPD; Oposición → art. 21 RGPD.",
+    "ref": "Arts. 13-18 LO 3/2018",
+    "exp": "Pregunta recurrente en exámenes: memorizar la correlación numérica artículo LO 3/2018 ↔ artículo RGPD."
+  }
+]

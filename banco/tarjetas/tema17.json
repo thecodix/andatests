@@ -1,0 +1,579 @@
+[
+  {
+    "frente": "¿Qué es Microsoft Excel dentro de Microsoft 365?",
+    "dorso": "La aplicación de hoja de cálculo integrada en el paquete ofimático Microsoft 365 (antigua Office 365).",
+    "ref": "Tema 17 - Apartado 1"
+  },
+  {
+    "frente": "¿Cuál es la unidad básica de trabajo en Excel?",
+    "dorso": "La celda, que es la intersección de una fila y una columna.",
+    "ref": "Tema 17 - Apartado 1"
+  },
+  {
+    "frente": "¿Qué nombre aparece en la barra de título de Excel cuando se crea un libro nuevo sin guardar?",
+    "dorso": "«Libro1 - Excel».",
+    "ref": "Tema 17 - Apartado 1.1"
+  },
+  {
+    "frente": "¿Qué comandos incluye por defecto la barra de herramientas de acceso rápido de Excel?",
+    "dorso": "Guardar, Deshacer y Rehacer; y el control de Autoguardado cuando el libro está en OneDrive.",
+    "ref": "Tema 17 - Apartado 1.1"
+  },
+  {
+    "frente": "¿Qué muestra el cuadro de nombres de Excel y dónde se sitúa?",
+    "dorso": "Muestra la referencia de la celda activa y se sitúa a la izquierda de la barra de fórmulas. Permite desplazarse a una celda escribiendo su referencia.",
+    "ref": "Tema 17 - Apartado 1.1"
+  },
+  {
+    "frente": "¿Qué muestra y permite hacer la barra de fórmulas de Excel?",
+    "dorso": "Muestra y permite editar el contenido real de la celda activa. Puede ocultarse desde Vista > grupo Mostrar.",
+    "ref": "Tema 17 - Apartado 1.1"
+  },
+  {
+    "frente": "¿Cómo se identifican las columnas y las filas en Excel?",
+    "dorso": "Las columnas se identifican con letras (A, B, C…) y las filas con números (1, 2, 3…).",
+    "ref": "Tema 17 - Apartado 1.1"
+  },
+  {
+    "frente": "¿Qué tres modos de celda indica la barra de estado de Excel?",
+    "dorso": "Listo (celda en reposo), Introducir (mientras se teclea un dato) y Modificar (al editar contenido existente).",
+    "ref": "Tema 17 - Apartado 1.1"
+  },
+  {
+    "frente": "¿Qué cálculos automáticos muestra la barra de estado de Excel sobre la selección?",
+    "dorso": "Promedio, Recuento y Suma.",
+    "ref": "Tema 17 - Apartado 1.1"
+  },
+  {
+    "frente": "¿Qué elemento NO aparece en la pantalla de un libro nuevo de Excel (frente a Word)?",
+    "dorso": "Las marcas de tabulaciones (son propias de Word, no de Excel).",
+    "ref": "Tema 17 - Apartado 1.1"
+  },
+  {
+    "frente": "¿Cuáles son las pestañas de la cinta de opciones de Excel 365?",
+    "dorso": "Archivo, Inicio, Insertar, Disposición de página, Fórmulas, Datos, Revisar, Vista y Ayuda.",
+    "ref": "Tema 17 - Apartado 1.2",
+    "exp": "Excel incorpora dos pestañas propias frente a Word: Fórmulas (biblioteca de funciones) y Datos (ordenar, filtrar)."
+  },
+  {
+    "frente": "¿Qué atajo de teclado contrae o expande la cinta de opciones en Excel?",
+    "dorso": "CTRL+F1.",
+    "ref": "Tema 17 - Apartado 1.2"
+  },
+  {
+    "frente": "¿Cuáles son las tres opciones de visualización de la cinta en Excel?",
+    "dorso": "Ocultar automáticamente la cinta, Mostrar pestañas, y Mostrar pestañas y comandos. No existe la opción de «eliminar» la cinta.",
+    "ref": "Tema 17 - Apartado 1.2"
+  },
+  {
+    "frente": "¿Qué ocurre al pulsar la pestaña Archivo en Excel?",
+    "dorso": "Se abre la vista Backstage, que ocupa toda la pantalla y oculta temporalmente la hoja de cálculo.",
+    "ref": "Tema 17 - Apartado 1.3"
+  },
+  {
+    "frente": "¿Qué comandos principales están disponibles en la vista Backstage (pestaña Archivo) de Excel?",
+    "dorso": "Inicio, Nuevo, Abrir, Información, Guardar, Guardar como, Imprimir, Compartir, Exportar, Publicar, Cerrar, Cuenta y Opciones.",
+    "ref": "Tema 17 - Apartado 1.3"
+  },
+  {
+    "frente": "¿Cuáles son las tres vistas principales de Excel y cuál es la vista por defecto?",
+    "dorso": "Normal (por defecto), Diseño de página (muestra la hoja como se imprimirá, con márgenes y encabezados) y Ver salto de página.",
+    "ref": "Tema 17 - Apartado 1.4",
+    "exp": "La vista que muestra la hoja como se imprimirá se llama «Diseño de página» en Excel (no «Diseño de impresión», que es terminología de Word)."
+  },
+  {
+    "frente": "¿Qué hace el zoom en Excel y cómo se puede regular?",
+    "dorso": "Amplía o reduce la visualización sin alterar el tamaño real de la hoja. Se regula con el control de la barra de estado o con CTRL + rueda del ratón.",
+    "ref": "Tema 17 - Apartado 1.4"
+  },
+  {
+    "frente": "¿Cómo se llama el archivo que crea Excel y cuál es su extensión predeterminada?",
+    "dorso": "Se denomina libro y su extensión predeterminada es .xlsx.",
+    "ref": "Tema 17 - Apartado 2.1"
+  },
+  {
+    "frente": "¿Cuántas hojas contiene por defecto un libro nuevo de Excel?",
+    "dorso": "Una sola hoja.",
+    "ref": "Tema 17 - Apartado 2.1"
+  },
+  {
+    "frente": "¿Cuál es el atajo de teclado para crear un libro nuevo en blanco en Excel?",
+    "dorso": "CTRL+U.",
+    "ref": "Tema 17 - Apartado 2.1"
+  },
+  {
+    "frente": "¿Cuál es el atajo de teclado para abrir un libro existente en Excel?",
+    "dorso": "CTRL+A.",
+    "ref": "Tema 17 - Apartado 2.1"
+  },
+  {
+    "frente": "¿Cuál es el atajo para guardar un libro en Excel?",
+    "dorso": "CTRL+G.",
+    "ref": "Tema 17 - Apartado 2.1"
+  },
+  {
+    "frente": "¿Qué ocurre al guardar por primera vez un libro nuevo con Archivo > Guardar?",
+    "dorso": "Se activa «Guardar como», mostrando en el panel derecho las ubicaciones disponibles para guardarlo.",
+    "ref": "Tema 17 - Apartado 2.1"
+  },
+  {
+    "frente": "¿Cómo se puede cambiar el tipo de archivo en Excel?",
+    "dorso": "A través de Archivo > Exportar (o Guardar como).",
+    "ref": "Tema 17 - Apartado 2.1"
+  },
+  {
+    "frente": "¿Cuál es el atajo para cerrar el libro activo y cuál para cerrar la aplicación Excel?",
+    "dorso": "CTRL+F4 cierra el libro activo; ALT+F4 cierra la aplicación Excel.",
+    "ref": "Tema 17 - Apartado 2.1"
+  },
+  {
+    "frente": "¿Qué ocurre si se cierra un libro de Excel con cambios sin guardar?",
+    "dorso": "Excel conserva temporalmente una copia reciente del archivo, recuperable.",
+    "ref": "Tema 17 - Apartado 2.1"
+  },
+  {
+    "frente": "¿Cuál es el máximo de caracteres que admite el nombre de una hoja de cálculo?",
+    "dorso": "31 caracteres.",
+    "ref": "Tema 17 - Apartado 2.2"
+  },
+  {
+    "frente": "¿Qué caracteres NO se pueden usar en el nombre de una hoja de Excel?",
+    "dorso": "Los caracteres \\ / ? * [ ] : (pero la coma SÍ está permitida).",
+    "ref": "Tema 17 - Apartado 2.2"
+  },
+  {
+    "frente": "¿Cómo se cambia el nombre de una hoja de cálculo en Excel?",
+    "dorso": "Doble clic sobre la etiqueta; menú contextual > Cambiar nombre; o Inicio > Celdas > Formato > Cambiar el nombre de la hoja.",
+    "ref": "Tema 17 - Apartado 2.2"
+  },
+  {
+    "frente": "¿Cuál es el atajo de teclado para insertar una nueva hoja de cálculo en Excel?",
+    "dorso": "MAY+F11 (inserta una nueva hoja a la izquierda de la hoja activa).",
+    "ref": "Tema 17 - Apartado 2.2"
+  },
+  {
+    "frente": "¿Cómo se copia una hoja de Excel arrastrando la etiqueta?",
+    "dorso": "Arrastrando la etiqueta con la tecla CTRL pulsada. Sin CTRL, se mueve en lugar de copiar.",
+    "ref": "Tema 17 - Apartado 2.2"
+  },
+  {
+    "frente": "¿De qué color son por defecto las etiquetas de las hojas en un libro nuevo?",
+    "dorso": "Sin color asignado (fondo blanco y texto en negro).",
+    "ref": "Tema 17 - Apartado 2.2"
+  },
+  {
+    "frente": "¿Desde qué pestaña se inserta una imagen de fondo a la hoja?",
+    "dorso": "Disposición de página > Fondo.",
+    "ref": "Tema 17 - Apartado 2.2"
+  },
+  {
+    "frente": "¿Qué es un rango en Excel?",
+    "dorso": "Un conjunto de celdas contiguas (p. ej. B5:F5). Se puede asignar un nombre a un rango a través del cuadro de nombres.",
+    "ref": "Tema 17 - Apartado 2.3"
+  },
+  {
+    "frente": "¿Cuál es el atajo de teclado para seleccionar una columna completa?",
+    "dorso": "CTRL+Barra espaciadora (o clic en la letra de encabezado de la columna).",
+    "ref": "Tema 17 - Apartado 2.3"
+  },
+  {
+    "frente": "¿Cuál es el atajo de teclado para seleccionar una fila completa?",
+    "dorso": "MAY+Barra espaciadora (o clic en el número de encabezado de la fila).",
+    "ref": "Tema 17 - Apartado 2.3"
+  },
+  {
+    "frente": "¿Cuál es el atajo para seleccionar toda la hoja de cálculo?",
+    "dorso": "CTRL+MAY+Barra espaciadora (o clic en el botón de la esquina superior izquierda).",
+    "ref": "Tema 17 - Apartado 2.3"
+  },
+  {
+    "frente": "¿Qué tecla se mantiene pulsada para seleccionar celdas no contiguas?",
+    "dorso": "La tecla CTRL.",
+    "ref": "Tema 17 - Apartado 2.3"
+  },
+  {
+    "frente": "¿Cuáles son los atajos para insertar y eliminar celdas/filas/columnas?",
+    "dorso": "CTRL++ (insertar) y CTRL+- (eliminar).",
+    "ref": "Tema 17 - Apartado 2.3"
+  },
+  {
+    "frente": "Al insertar una columna en Excel, ¿dónde se sitúa respecto a la seleccionada?",
+    "dorso": "A la izquierda de la seleccionada. Una fila nueva se inserta encima. La nueva fila o columna hereda el formato de la precedente.",
+    "ref": "Tema 17 - Apartado 2.3"
+  },
+  {
+    "frente": "¿Qué atajo lleva a la celda A1 en Excel?",
+    "dorso": "CTRL+INICIO.",
+    "ref": "Tema 17 - Apartado 2.4"
+  },
+  {
+    "frente": "¿Qué atajo lleva a la última celda usada de la hoja?",
+    "dorso": "CTRL+FIN.",
+    "ref": "Tema 17 - Apartado 2.4"
+  },
+  {
+    "frente": "¿Qué tecla lleva a la primera celda de la fila activa (columna A)?",
+    "dorso": "INICIO.",
+    "ref": "Tema 17 - Apartado 2.4"
+  },
+  {
+    "frente": "¿Qué tecla se usa para pasar a la celda de abajo tras introducir un dato?",
+    "dorso": "INTRO (también la flecha abajo).",
+    "ref": "Tema 17 - Apartado 2.4"
+  },
+  {
+    "frente": "¿Qué atajo se usa para subir a la celda de arriba?",
+    "dorso": "MAY+INTRO (o la flecha arriba).",
+    "ref": "Tema 17 - Apartado 2.4"
+  },
+  {
+    "frente": "¿Desde qué dos comandos de la pestaña Archivo se gestiona la configuración general de Excel?",
+    "dorso": "Cuenta (información del usuario, tema de Office, licencia) y Opciones (cuadro de diálogo con todas las categorías de configuración).",
+    "ref": "Tema 17 - Apartado 3"
+  },
+  {
+    "frente": "¿Cuáles son las categorías del cuadro de diálogo Opciones de Excel?",
+    "dorso": "General, Fórmulas, Datos, Revisión, Guardar, Idioma, Accesibilidad, Avanzadas, Personalizar cinta de opciones, Barra de herramientas de acceso rápido, Complementos y Centro de confianza.",
+    "ref": "Tema 17 - Apartado 3"
+  },
+  {
+    "frente": "¿Desde qué categoría de Opciones se ajusta la carpeta y el intervalo de autorrecuperación?",
+    "dorso": "Desde la categoría Guardar (Archivo > Opciones > Guardar).",
+    "ref": "Tema 17 - Apartado 3"
+  },
+  {
+    "frente": "¿Desde dónde se accede a las opciones de autocorrección en Excel?",
+    "dorso": "Archivo > Opciones > Revisión > Opciones de autocorrección.",
+    "ref": "Tema 17 - Apartado 3"
+  },
+  {
+    "frente": "¿Cómo se confirma la entrada de datos en una celda de Excel?",
+    "dorso": "Con INTRO, TABULADOR, una tecla de flecha o el botón verde ✓ de la barra de fórmulas.",
+    "ref": "Tema 17 - Apartado 4.1"
+  },
+  {
+    "frente": "¿Cómo se cancela la introducción de datos en una celda?",
+    "dorso": "Con ESC o con el botón rojo ✗ de la barra de fórmulas (que solo aparece activo mientras se están introduciendo datos).",
+    "ref": "Tema 17 - Apartado 4.1"
+  },
+  {
+    "frente": "¿Cuál es la alineación por defecto de los textos, los números y las fechas en Excel?",
+    "dorso": "Textos: a la izquierda. Números (una vez confirmados): a la derecha. Fechas y horas: a la derecha.",
+    "ref": "Tema 17 - Apartado 4.2"
+  },
+  {
+    "frente": "¿Cómo interpreta Excel un número escrito entre paréntesis, por ejemplo (10)?",
+    "dorso": "Como un número negativo: (10) se interpreta como –10.",
+    "ref": "Tema 17 - Apartado 4.2"
+  },
+  {
+    "frente": "¿Cuál es el atajo para insertar la fecha actual de forma estática (no actualizable) en una celda?",
+    "dorso": "CTRL+, (CTRL+punto y coma en teclado inglés).",
+    "ref": "Tema 17 - Apartado 4.3",
+    "exp": "A diferencia de la función HOY(), este valor no se actualiza al abrir el libro."
+  },
+  {
+    "frente": "¿Cuál es el atajo para insertar la hora actual de forma estática en una celda?",
+    "dorso": "CTRL+MAY+;",
+    "ref": "Tema 17 - Apartado 4.3"
+  },
+  {
+    "frente": "¿Qué es el controlador de relleno en Excel y para qué sirve?",
+    "dorso": "Es el pequeño cuadro de la esquina inferior derecha de la celda (el puntero cambia a una cruz negra fina). Sirve para copiar valores o generar series al arrastrarlo.",
+    "ref": "Tema 17 - Apartado 4.3"
+  },
+  {
+    "frente": "¿Cómo se introduce el mismo dato en un rango de celdas de una sola vez?",
+    "dorso": "Seleccionar el rango, escribir el dato y confirmar con CTRL+INTRO.",
+    "ref": "Tema 17 - Apartado 4.3"
+  },
+  {
+    "frente": "¿Cuál es el atajo para hacer un salto de línea dentro de la misma celda?",
+    "dorso": "ALT+INTRO.",
+    "ref": "Tema 17 - Apartado 4.3"
+  },
+  {
+    "frente": "¿Qué hace la tecla SUPR sobre una celda en Excel?",
+    "dorso": "Borra el contenido de la celda pero conserva el formato.",
+    "ref": "Tema 17 - Apartado 4.4",
+    "exp": "Para borrar también el formato se usa Inicio > Modificar > Borrar."
+  },
+  {
+    "frente": "¿Con qué signo debe comenzar obligatoriamente toda fórmula en Excel?",
+    "dorso": "Con el signo = (igual).",
+    "ref": "Tema 17 - Apartado 5.1"
+  },
+  {
+    "frente": "¿Cuáles son los operadores aritméticos de Excel?",
+    "dorso": "+ (suma), – (resta), * (multiplicación), / (división), % (porcentaje) y ^ (exponenciación).",
+    "ref": "Tema 17 - Apartado 5.1"
+  },
+  {
+    "frente": "¿Cuál es el operador de concatenación de texto en Excel?",
+    "dorso": "El signo & (ampersand), que une cadenas de texto.",
+    "ref": "Tema 17 - Apartado 5.1"
+  },
+  {
+    "frente": "¿Cuáles son los tres operadores de referencia en Excel?",
+    "dorso": "Dos puntos : (rango), punto y coma ; (unión) y el espacio (intersección).",
+    "ref": "Tema 17 - Apartado 5.1"
+  },
+  {
+    "frente": "¿Cuál es la sintaxis general de una función en Excel?",
+    "dorso": "Signo igual + nombre de la función + paréntesis con los argumentos separados por punto y coma. Ejemplo: =SUMA(A1:A4).",
+    "ref": "Tema 17 - Apartado 5.2"
+  },
+  {
+    "frente": "¿Cuál es el atajo de teclado para insertar una función en Excel?",
+    "dorso": "MAY+F3 (o el botón fx de la barra de fórmulas).",
+    "ref": "Tema 17 - Apartado 5.2"
+  },
+  {
+    "frente": "¿En qué pestaña de la cinta se encuentra el grupo Biblioteca de funciones?",
+    "dorso": "En la pestaña Fórmulas.",
+    "ref": "Tema 17 - Apartado 5.2"
+  },
+  {
+    "frente": "¿Qué tipo de función es PROMEDIO en Excel?",
+    "dorso": "Es una función estadística (calcula la media aritmética de un conjunto de celdas con valores numéricos).",
+    "ref": "Tema 17 - Apartado 5.2"
+  },
+  {
+    "frente": "¿Qué devuelve la función RESIDUO en Excel?",
+    "dorso": "Devuelve el resto de una división (es una función matemática).",
+    "ref": "Tema 17 - Apartado 5.2"
+  },
+  {
+    "frente": "¿Qué devuelve la función ABS en Excel y de qué categoría es?",
+    "dorso": "Devuelve el valor absoluto de un número. Es una función matemática (no de texto).",
+    "ref": "Tema 17 - Apartado 5.2"
+  },
+  {
+    "frente": "¿Qué devuelve la función AHORA() y qué particularidad tiene respecto a argumentos?",
+    "dorso": "Devuelve la fecha y la hora del sistema. No requiere argumentos (los paréntesis van vacíos).",
+    "ref": "Tema 17 - Apartado 5.2",
+    "exp": "HOY() devuelve solo la fecha, sin la hora."
+  },
+  {
+    "frente": "¿A qué categoría pertenecen las funciones LARGO, IZQUIERDA, DERECHA y SUSTITUIR?",
+    "dorso": "Son funciones de texto.",
+    "ref": "Tema 17 - Apartado 5.2",
+    "exp": "TRUNCAR y ENTERO son funciones matemáticas, no de texto."
+  },
+  {
+    "frente": "¿Qué significa el error ##### en una celda de Excel?",
+    "dorso": "Que la columna es demasiado estrecha para mostrar el contenido (hay que aumentar el ancho de columna).",
+    "ref": "Tema 17 - Apartado 5.3"
+  },
+  {
+    "frente": "¿Qué significa el error #¡DIV/0! en Excel?",
+    "dorso": "División por cero: el denominador es cero o está vacío.",
+    "ref": "Tema 17 - Apartado 5.3"
+  },
+  {
+    "frente": "¿Qué significa el error #¿NOMBRE? en Excel?",
+    "dorso": "Que no se reconoce el texto de la fórmula (nombre de función o referencia mal escrito).",
+    "ref": "Tema 17 - Apartado 5.3"
+  },
+  {
+    "frente": "¿Qué significa el error #¡REF! en Excel?",
+    "dorso": "Referencia no válida: se ha eliminado una celda que estaba referenciada en la fórmula.",
+    "ref": "Tema 17 - Apartado 5.3"
+  },
+  {
+    "frente": "¿Cuál es la diferencia entre una referencia relativa, absoluta y mixta en Excel?",
+    "dorso": "Relativa (A1): se ajusta al copiar. Absoluta ($A$1): no varía al copiar. Mixta: fija solo fila ($A1 = columna fija) o solo columna (A$1 = fila fija).",
+    "ref": "Tema 17 - Apartado 5.4"
+  },
+  {
+    "frente": "¿Qué tecla alterna entre referencia relativa, absoluta y mixta al editar una fórmula?",
+    "dorso": "La tecla F4.",
+    "ref": "Tema 17 - Apartado 5.4"
+  },
+  {
+    "frente": "¿Qué tipo de referencia es $B10?",
+    "dorso": "Es una referencia mixta con la columna fija (B no cambia al copiar, pero la fila 10 sí se ajusta).",
+    "ref": "Tema 17 - Apartado 5.4"
+  },
+  {
+    "frente": "¿Cómo se hace referencia a una celda de otra hoja en Excel?",
+    "dorso": "Se antepone el nombre de la hoja seguido del signo de exclamación. Ejemplo: Hoja2!B4.",
+    "ref": "Tema 17 - Apartado 5.4"
+  },
+  {
+    "frente": "¿En qué pestaña y grupo de la cinta se encuentra la herramienta para insertar gráficos?",
+    "dorso": "En la pestaña Insertar, grupo Gráficos.",
+    "ref": "Tema 17 - Apartado 6"
+  },
+  {
+    "frente": "¿Cuáles son las partes principales de un gráfico en Excel?",
+    "dorso": "Área del gráfico, título, serie de datos, ejes (X e Y), área de trazado, líneas de división y leyenda.",
+    "ref": "Tema 17 - Apartado 6.1"
+  },
+  {
+    "frente": "¿Cuántas series de datos admite un gráfico circular en Excel?",
+    "dorso": "Una única serie de datos.",
+    "ref": "Tema 17 - Apartado 6.1"
+  },
+  {
+    "frente": "¿Qué atajo crea un gráfico incrustado en la propia hoja y cuál lo crea en una hoja independiente?",
+    "dorso": "ALT+F1 crea un gráfico incrustado en la hoja; F11 lo crea en una hoja de gráfico independiente.",
+    "ref": "Tema 17 - Apartado 6.2"
+  },
+  {
+    "frente": "¿Qué son los minigráficos en Excel y desde dónde se insertan?",
+    "dorso": "Son pequeños gráficos (líneas, columnas o pérdidas y ganancias) contenidos en una única celda. Se insertan desde Insertar > Minigráficos.",
+    "ref": "Tema 17 - Apartado 6.2"
+  },
+  {
+    "frente": "¿En qué pestaña se concentran las herramientas de gestión de datos (ordenar, filtrar, quitar duplicados)?",
+    "dorso": "En la pestaña Datos.",
+    "ref": "Tema 17 - Apartado 7"
+  },
+  {
+    "frente": "¿Qué icono indica que hay un filtro aplicado en una columna de Excel?",
+    "dorso": "El icono de embudo en el encabezado de la columna.",
+    "ref": "Tema 17 - Apartado 7"
+  },
+  {
+    "frente": "¿Dónde se encuentra la herramienta «Quitar duplicados» en Excel?",
+    "dorso": "Pestaña Datos > grupo Herramientas de datos.",
+    "ref": "Tema 17 - Apartado 7"
+  },
+  {
+    "frente": "¿Cuáles son los atajos para Buscar y para Reemplazar en Excel?",
+    "dorso": "CTRL+B para buscar y CTRL+L para reemplazar (ambos en Inicio > Buscar y seleccionar).",
+    "ref": "Tema 17 - Apartado 7"
+  },
+  {
+    "frente": "¿Desde dónde se personaliza la cinta de opciones en Excel?",
+    "dorso": "Archivo > Opciones > Personalizar cinta de opciones (permite crear pestañas y grupos propios).",
+    "ref": "Tema 17 - Apartado 8"
+  },
+  {
+    "frente": "¿Qué hace la herramienta «Inmovilizar paneles» y en qué pestaña está?",
+    "dorso": "Mantiene visibles determinadas filas o columnas mientras se desplaza el resto de la hoja. Está en la pestaña Vista.",
+    "ref": "Tema 17 - Apartado 8"
+  },
+  {
+    "frente": "¿Qué hace la herramienta «Dividir» en Excel?",
+    "dorso": "Divide la ventana en varios paneles que se desplazan por separado sobre la misma hoja. Está en la pestaña Vista.",
+    "ref": "Tema 17 - Apartado 8"
+  },
+  {
+    "frente": "¿Qué ocurre al desactivar las «Líneas de cuadrícula» en Vista > Mostrar?",
+    "dorso": "Desaparecen las líneas entre las celdas de toda la hoja.",
+    "ref": "Tema 17 - Apartado 8"
+  },
+  {
+    "frente": "¿Qué ocurre al desactivar los «Encabezados» en Vista > Mostrar?",
+    "dorso": "Se ocultan las letras de columna y los números de fila de toda la hoja.",
+    "ref": "Tema 17 - Apartado 8"
+  },
+  {
+    "frente": "¿Cuál es el atajo de teclado para abrir el cuadro de diálogo Formato de celdas?",
+    "dorso": "CTRL+1. También CTRL+MAY+F lo abre directamente en la ficha Fuente.",
+    "ref": "Tema 17 - Apartado 9"
+  },
+  {
+    "frente": "¿Cuáles son las pestañas del cuadro de diálogo Formato de celdas?",
+    "dorso": "Número, Alineación, Fuente, Bordes, Relleno y Proteger.",
+    "ref": "Tema 17 - Apartado 9"
+  },
+  {
+    "frente": "¿Cuáles son las opciones de alineación vertical en una celda de Excel?",
+    "dorso": "Superior, Central (en el medio) e Inferior.",
+    "ref": "Tema 17 - Apartado 9.1"
+  },
+  {
+    "frente": "¿Qué hace «Ajustar texto» en Excel y en qué se diferencia de «Reducir hasta ajustar»?",
+    "dorso": "«Ajustar texto» muestra el contenido en varias líneas dentro de la celda. «Reducir hasta ajustar» disminuye el tamaño de la fuente para que quepa en una línea.",
+    "ref": "Tema 17 - Apartado 9.1"
+  },
+  {
+    "frente": "¿Qué opciones ofrece la herramienta «Combinar y centrar» de Excel?",
+    "dorso": "Combinar y centrar, Combinar horizontalmente, Combinar celdas y Separar celdas. NO existe la opción «combinar verticalmente».",
+    "ref": "Tema 17 - Apartado 9.1"
+  },
+  {
+    "frente": "¿Qué categoría de formato numérico es la predeterminada en Excel?",
+    "dorso": "General (sin formato numérico específico).",
+    "ref": "Tema 17 - Apartado 9.2"
+  },
+  {
+    "frente": "¿Cuál es la diferencia entre los formatos Moneda y Contabilidad en Excel?",
+    "dorso": "Ambos añaden símbolo monetario, pero Contabilidad alinea los símbolos y decimales en columna. Moneda admite valores negativos resaltados en rojo.",
+    "ref": "Tema 17 - Apartado 9.2"
+  },
+  {
+    "frente": "¿Qué hace el formato Porcentaje en Excel?",
+    "dorso": "Multiplica el valor de la celda por 100 y añade el símbolo %.",
+    "ref": "Tema 17 - Apartado 9.2"
+  },
+  {
+    "frente": "¿Qué formatos pertenecen a la categoría «Especial» del formato numérico?",
+    "dorso": "Formatos regionales como Código postal, Número de teléfono o Nº de la Seguridad Social.",
+    "ref": "Tema 17 - Apartado 9.2",
+    "exp": "No existen formatos denominados «cotización» ni «promedio» en la lista de formatos numéricos."
+  },
+  {
+    "frente": "¿Qué es el formato condicional en Excel y en qué pestaña/grupo se encuentra?",
+    "dorso": "Aplica automáticamente un formato a las celdas que cumplen una condición (barras, colores, iconos). Se encuentra en Inicio > Estilos > Formato condicional.",
+    "ref": "Tema 17 - Apartado 10"
+  },
+  {
+    "frente": "¿Cuáles son las opciones principales del formato condicional en Excel?",
+    "dorso": "Resaltar reglas de celdas; Reglas superiores e inferiores; Barras de datos; Escalas de color; Conjuntos de iconos; Nueva regla; Borrar reglas; Administrar reglas.",
+    "ref": "Tema 17 - Apartado 10"
+  },
+  {
+    "frente": "¿Están todas las celdas de Excel bloqueadas o desbloqueadas por defecto?",
+    "dorso": "Todas están marcadas como bloqueadas por defecto, pero ese bloqueo solo surte efecto cuando se activa la protección de la hoja.",
+    "ref": "Tema 17 - Apartado 11"
+  },
+  {
+    "frente": "¿Desde qué pestaña y grupo se activa la protección de una hoja en Excel?",
+    "dorso": "Pestaña Revisar > grupo Proteger > Proteger hoja (impide modificar las celdas bloqueadas).",
+    "ref": "Tema 17 - Apartado 11"
+  },
+  {
+    "frente": "¿Qué impide «Proteger libro» (pestaña Revisar) en Excel?",
+    "dorso": "Impide que otros usuarios cambien la estructura del libro (insertar, eliminar, mover, ocultar o renombrar hojas).",
+    "ref": "Tema 17 - Apartado 11"
+  },
+  {
+    "frente": "¿Qué opciones de protección ofrece Archivo > Información > Proteger libro?",
+    "dorso": "Marcar como final; Cifrar con contraseña (exige contraseña para abrir el archivo); Proteger hoja actual; Proteger estructura del libro; Agregar una firma digital.",
+    "ref": "Tema 17 - Apartado 11"
+  },
+  {
+    "frente": "¿Cuál es el atajo de teclado para abrir la vista previa de impresión en Excel?",
+    "dorso": "CTRL+P.",
+    "ref": "Tema 17 - Apartado 12"
+  },
+  {
+    "frente": "¿Desde qué pestaña se configura la orientación, tamaño, márgenes y área de impresión?",
+    "dorso": "Desde la pestaña Disposición de página (grupo Configurar página).",
+    "ref": "Tema 17 - Apartado 12"
+  },
+  {
+    "frente": "¿Qué opciones de impresión están disponibles en la vista Backstage (Archivo > Imprimir)?",
+    "dorso": "Imprimir hojas activas, Imprimir todo el libro e Imprimir la selección. NO existe «imprimir referencias».",
+    "ref": "Tema 17 - Apartado 12"
+  },
+  {
+    "frente": "¿Dónde se establecen las filas y columnas que se repiten en cada página impresa?",
+    "dorso": "Disposición de página > Imprimir títulos.",
+    "ref": "Tema 17 - Apartado 12"
+  },
+  {
+    "frente": "¿En qué vista de Excel se pueden insertar directamente encabezados y pies de página?",
+    "dorso": "En la vista Diseño de página.",
+    "ref": "Tema 17 - Apartado 12"
+  },
+  {
+    "frente": "¿Qué tecla abre la Ayuda de Excel?",
+    "dorso": "F1.",
+    "ref": "Tema 17 - Anexo atajos"
+  }
+]

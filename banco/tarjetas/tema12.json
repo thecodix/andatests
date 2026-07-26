@@ -1,0 +1,352 @@
+[
+  {
+    "frente": "¿Cuál es el objeto del Real Decreto 822/2021, de 28 de septiembre?",
+    "dorso": "El establecimiento de la organización y la estructura de las enseñanzas universitarias, a partir de los principios generales que definen el Espacio Europeo de Educación Superior (EEES).",
+    "ref": "Art. 1.1 RD 822/2021",
+    "exp": "También ordena la oferta académica oficial y la de otros títulos (formación permanente), y regula estructuras curriculares específicas y prácticas académicas externas."
+  },
+  {
+    "frente": "¿En qué se concretan los procedimientos de aseguramiento de la calidad según el art. 1.2 del RD 822/2021?",
+    "dorso": "En la verificación del plan de estudios (requisito para la acreditación inicial y su inscripción en el RUCT), y en el seguimiento, la modificación y la renovación de la acreditación ya otorgada.",
+    "ref": "Art. 1.2 RD 822/2021"
+  },
+  {
+    "frente": "¿Cuál es el ámbito de aplicación del RD 822/2021?",
+    "dorso": "Las enseñanzas universitarias oficiales de Grado, Máster Universitario y Doctorado, así como otras enseñanzas universitarias (específicamente la formación permanente), que se definirán como títulos propios.",
+    "ref": "Art. 2 RD 822/2021"
+  },
+  {
+    "frente": "¿Cómo se denominan los tres ciclos en que se estructuran los estudios universitarios oficiales?",
+    "dorso": "Grado, Máster y Doctorado.",
+    "ref": "Art. 3.1 RD 822/2021"
+  },
+  {
+    "frente": "¿Dónde deben inscribirse los títulos universitarios oficiales?",
+    "dorso": "En el RUCT (Registro de Universidades, Centros y Títulos) del Ministerio de Universidades.",
+    "ref": "Art. 3.2 RD 822/2021"
+  },
+  {
+    "frente": "¿A qué deben adscribirse todos los títulos oficiales de Grado y de Máster Universitario en el momento de su inscripción en el RUCT?",
+    "dorso": "A uno de los campos de estudio relacionados en el anexo I del RD 822/2021.",
+    "ref": "Art. 3.3 RD 822/2021",
+    "exp": "Este campo de estudio también debe incluirse en la memoria del plan de estudios durante el proceso de verificación."
+  },
+  {
+    "frente": "¿Qué acreditan los títulos oficiales de Grado, Máster Universitario y Doctorado en relación con el MECES?",
+    "dorso": "La cualificación en los niveles en los que se estructura el Marco Español de Cualificaciones para la Educación Superior (MECES).",
+    "ref": "Art. 3.4 RD 822/2021"
+  },
+  {
+    "frente": "¿Cuáles son los cuatro principios generales que deben inspirar el diseño de los planes de estudios de títulos oficiales (art. 4.1)?",
+    "dorso": "a) Rigor académico del proyecto formativo; b) concordancia con el cariz generalista o especializado de los ciclos; c) coherencia entre objetivos formativos, competencias y sistemas de evaluación; d) comprensibilidad social.",
+    "ref": "Art. 4.1 RD 822/2021"
+  },
+  {
+    "frente": "¿Qué deben tener como referente los planes de estudios, además de los principios generales del art. 4.1?",
+    "dorso": "Los principios y valores democráticos y los Objetivos de Desarrollo Sostenible.",
+    "ref": "Art. 4.2 RD 822/2021"
+  },
+  {
+    "frente": "¿Cómo deben incorporarse los valores y objetivos del art. 4.2 (igualdad de género, accesibilidad universal, sostenibilidad, etc.) en las enseñanzas oficiales?",
+    "dorso": "Como contenidos o competencias de carácter transversal, en el formato que el centro o la universidad decida.",
+    "ref": "Art. 4.3 RD 822/2021"
+  },
+  {
+    "frente": "¿En cursos de cuántos créditos ECTS se estructura el plan de estudios de Grado y Máster Universitario?",
+    "dorso": "En cursos de 60 créditos ECTS.",
+    "ref": "Art. 5.2 RD 822/2021",
+    "exp": "Excepción: Másteres con carga total de 90 créditos, donde uno de los cursos puede ser de 30 créditos."
+  },
+  {
+    "frente": "¿Quién elabora los planes de estudios de las enseñanzas universitarias oficiales, y quién los aprueba?",
+    "dorso": "Los elaboran las universidades (de acuerdo con la normativa vigente) y los aprueban sus órganos de gobierno.",
+    "ref": "Art. 5.3 RD 822/2021"
+  },
+  {
+    "frente": "¿Quién debe verificar la memoria del plan de estudios para que produzca plenos efectos como título universitario oficial?",
+    "dorso": "El Consejo de Universidades.",
+    "ref": "Art. 5.4 RD 822/2021"
+  },
+  {
+    "frente": "Cuando universidades españolas y extranjeras proponen un plan de estudios conjunto y la coordinadora es extranjera, ¿qué obligación tiene la universidad española?",
+    "dorso": "Deberá disponer de una copia de los expedientes del estudiantado que curse dicho título.",
+    "ref": "Art. 5.6 RD 822/2021"
+  },
+  {
+    "frente": "¿En qué comisiones deben las universidades asegurar la participación del estudiantado respecto a los planes de estudios?",
+    "dorso": "En las comisiones creadas específicamente para la elaboración de la memoria del título de Grado o de Máster Universitario (que incluye el plan de estudios), o en las comisiones de estudio si cumplen esa función.",
+    "ref": "Art. 5.7 RD 822/2021"
+  },
+  {
+    "frente": "¿Qué Real Decreto rige los programas de Doctorado?",
+    "dorso": "El Real Decreto 99/2011, de 28 de enero.",
+    "ref": "Art. 6 RD 822/2021"
+  },
+  {
+    "frente": "¿De qué formas pueden las universidades implantar los planes de estudios de nuevas enseñanzas?",
+    "dorso": "De forma progresiva (curso a curso) o simultánea (para todos los cursos o varios a la vez), según la temporalidad prevista en la memoria presentada en el proceso de verificación.",
+    "ref": "Art. 7 RD 822/2021"
+  },
+  {
+    "frente": "¿En nombre de quién y por quién se expiden los títulos de Graduada/o, Máster Universitario y Doctora/Doctor?",
+    "dorso": "Se expiden en nombre del Rey, por la Rectora o el Rector de la universidad en que se hubieren finalizado los estudios.",
+    "ref": "Art. 8.2 RD 822/2021"
+  },
+  {
+    "frente": "¿En qué formato se mide el conjunto de actividades académicas del estudiantado en Grado y Máster?",
+    "dorso": "En créditos que siguen el formato del Sistema Europeo de Transferencia de Créditos (ECTS).",
+    "ref": "Art. 9.1 RD 822/2021"
+  },
+  {
+    "frente": "¿De qué forma deben expresarse las calificaciones de las actividades académicas de cada materia o asignatura en Grado y Máster?",
+    "dorso": "De forma numérica, a tenor del nivel de aprendizaje de los conocimientos, competencias y habilidades alcanzados por el/la estudiante.",
+    "ref": "Art. 9.2 RD 822/2021"
+  },
+  {
+    "frente": "¿Qué recoge la guía docente de cada materia/asignatura, y cuándo debe ser accesible al estudiantado?",
+    "dorso": "Recoge las actividades académicas teóricas y prácticas y el sistema de evaluación del aprendizaje programado. Debe ser accesible previamente al período oficial de matrícula.",
+    "ref": "Art. 9.3 RD 822/2021"
+  },
+  {
+    "frente": "¿Cuál es el objeto de los procedimientos de reconocimiento y transferencia de créditos académicos?",
+    "dorso": "Facilitar la movilidad del estudiantado entre títulos universitarios oficiales españoles, y entre estos y los títulos universitarios extranjeros.",
+    "ref": "Art. 10.1 RD 822/2021"
+  },
+  {
+    "frente": "¿A qué se refiere el 'reconocimiento de créditos académicos'?",
+    "dorso": "Al procedimiento de aceptación por parte de una universidad de créditos obtenidos en otros estudios oficiales (misma u otra universidad), para que formen parte del expediente a efecto de obtener un título oficial diferente del que proceden.",
+    "ref": "Art. 10.3 RD 822/2021",
+    "exp": "No pueden reconocerse créditos de TFG o TFM, salvo los desarrollados en un programa de movilidad."
+  },
+  {
+    "frente": "¿Qué porcentaje máximo del plan de estudios pueden suponer los créditos reconocidos a partir de experiencia profesional/laboral o estudios no oficiales?",
+    "dorso": "El 15% del total de créditos del plan de estudios. Además, estos créditos no tienen calificación numérica y no pueden usarse para baremar el expediente.",
+    "ref": "Art. 10.5 RD 822/2021"
+  },
+  {
+    "frente": "¿Cuándo puede superarse el límite del 15% de créditos reconocidos por estudios no oficiales, hasta llegar a la totalidad?",
+    "dorso": "Cuando el título no oficial deje de impartirse (se extinga) y sea reemplazado por el nuevo título universitario oficial.",
+    "ref": "Art. 10.6 RD 822/2021"
+  },
+  {
+    "frente": "En un convenio entre un centro de FP de grado superior y un centro universitario, ¿hasta qué porcentaje de créditos pueden reconocerse en un Grado?",
+    "dorso": "Hasta el 25% de la carga crediticia total del título de Grado.",
+    "ref": "Art. 10.7 RD 822/2021"
+  },
+  {
+    "frente": "¿A qué se refiere la 'transferencia de créditos académicos'?",
+    "dorso": "A la inclusión, en el expediente académico y en el Suplemento Europeo al Título, de la totalidad de créditos obtenidos en enseñanzas oficiales cursadas previamente que no hayan conducido a la obtención de un título oficial.",
+    "ref": "Art. 10.8 RD 822/2021"
+  },
+  {
+    "frente": "En Grado, ¿qué créditos son objeto de reconocimiento/transferencia hasta la totalidad entre títulos del mismo campo de estudio?",
+    "dorso": "Los créditos de formación básica.",
+    "ref": "Art. 10.9.a RD 822/2021"
+  },
+  {
+    "frente": "¿A cuántos créditos mínimos equivalen conjuntamente las actividades de cooperación, solidarias, culturales, deportivas y de representación estudiantil reconocibles en un Grado?",
+    "dorso": "A como mínimo 6 créditos; pero no pueden suponer más del 10% del total de créditos del plan de estudios.",
+    "ref": "Art. 10.9.c RD 822/2021"
+  },
+  {
+    "frente": "¿Qué naturaleza tienen las prácticas académicas externas?",
+    "dorso": "Naturaleza formativa, realizada por estudiantes universitarios y supervisada por las universidades.",
+    "ref": "Art. 11.1 RD 822/2021"
+  },
+  {
+    "frente": "¿En qué dos modalidades pueden realizarse las prácticas académicas externas?",
+    "dorso": "Modalidad curricular (forman parte del plan de estudios, pueden ser obligatorias u optativas) y modalidad extracurricular.",
+    "ref": "Art. 11.2 RD 822/2021"
+  },
+  {
+    "frente": "¿Qué documento se exige para la realización de prácticas académicas externas?",
+    "dorso": "Un Convenio de Cooperación Educativa entre la universidad (o sus centros) y las entidades/empresas/organizaciones/administración.",
+    "ref": "Art. 11.4 RD 822/2021"
+  },
+  {
+    "frente": "¿Quién fija los precios públicos de los títulos universitarios oficiales de las universidades públicas?",
+    "dorso": "Las Comunidades Autónomas, dentro de los límites máximos establecidos por la Conferencia General de Política Universitaria.",
+    "ref": "Art. 12 RD 822/2021"
+  },
+  {
+    "frente": "¿Cuál es el objetivo fundamental de las enseñanzas oficiales de Grado?",
+    "dorso": "La formación básica y generalista del estudiante en las diversas disciplinas del saber científico, tecnológico, humanístico y artístico.",
+    "ref": "Art. 13.1 RD 822/2021"
+  },
+  {
+    "frente": "¿Quién debe garantizar la coherencia académica entre la denominación del título de Grado y los objetivos formativos y contenidos del plan de estudios?",
+    "dorso": "Las agencias de aseguramiento de la calidad y las Administraciones públicas.",
+    "ref": "Art. 13.2 RD 822/2021"
+  },
+  {
+    "frente": "¿Con qué pueden complementarse las enseñanzas oficiales de Grado, y qué porcentaje mínimo de créditos debe tener?",
+    "dorso": "Con la incorporación de menciones. Una mención tendrá como mínimo el 20% de la carga de créditos total del Grado.",
+    "ref": "Art. 13.3 RD 822/2021"
+  },
+  {
+    "frente": "¿A qué nivel MECES equivalen los títulos oficiales de Grado?",
+    "dorso": "MECES 2.",
+    "ref": "Art. 13.5 RD 822/2021",
+    "exp": "Grados con directrices europeas específicas de al menos 300 ECTS (con 60 concordantes con un Máster) pueden obtener nivel MECES 3."
+  },
+  {
+    "frente": "¿Cuántos créditos ECTS tienen los planes de estudios de Grado?",
+    "dorso": "240 créditos ECTS, salvo los sujetos a legislación específica o normas de la UE que tengan 300 o 360 créditos.",
+    "ref": "Art. 14.1 RD 822/2021"
+  },
+  {
+    "frente": "¿Cuántos créditos de formación básica debe incluir como mínimo un Grado de 240 créditos? ¿Y uno de 300? ¿Y uno de 360?",
+    "dorso": "240 créditos → mínimo 60 de formación básica; 300 créditos → mínimo 75; 360 créditos → mínimo 90.",
+    "ref": "Art. 14.4 RD 822/2021"
+  },
+  {
+    "frente": "De los créditos de formación básica en un Grado de 240, ¿cuántos deben estar vinculados al mismo campo de estudio?",
+    "dorso": "Al menos la mitad (30 créditos). El resto estará relacionado con otros campos de estudio y se concretará en materias de mínimo 6 créditos cada una, ofertadas en la primera mitad del plan.",
+    "ref": "Art. 14.4 RD 822/2021"
+  },
+  {
+    "frente": "¿Qué extensión máxima tienen las prácticas académicas externas curriculares en un Grado?",
+    "dorso": "El equivalente al 25% del total de créditos del título. Excepción: Grados con Mención Dual, cuya extensión será entre el 20% y el 40%.",
+    "ref": "Art. 14.5 RD 822/2021"
+  },
+  {
+    "frente": "¿Cuántos créditos tiene como mínimo y como máximo el Trabajo de Fin de Grado (TFG) en títulos de 240, 300 y 360 créditos?",
+    "dorso": "Mínimo 6 créditos en todos los casos. Máximo: 24 (en 240 cr.), 30 (en 300 cr.) y 36 (en 360 cr.).",
+    "ref": "Art. 14.6 RD 822/2021"
+  },
+  {
+    "frente": "¿Cuáles son las tres modalidades docentes en las que pueden impartirse los estudios oficiales de Grado?",
+    "dorso": "Presencial, híbrida (semipresencial) y virtual (no presencial).",
+    "ref": "Art. 14.7 RD 822/2021"
+  },
+  {
+    "frente": "¿Qué proporción de créditos no presenciales define la modalidad híbrida en un Grado?",
+    "dorso": "Entre el 40% y el 60% de la carga crediticia total del título.",
+    "ref": "Art. 14.7 RD 822/2021"
+  },
+  {
+    "frente": "¿Qué proporción de créditos define la modalidad virtual en un Grado?",
+    "dorso": "Al menos el 80% de los créditos ECTS se imparten en modalidad virtual.",
+    "ref": "Art. 14.7 RD 822/2021"
+  },
+  {
+    "frente": "¿Qué porcentaje mínimo de plazas deben reservar las universidades en Grado para estudiantes con discapacidad ≥ 33%?",
+    "dorso": "Al menos un 5% de las plazas ofertadas.",
+    "ref": "Art. 15.3 RD 822/2021"
+  },
+  {
+    "frente": "¿Cuál es el objetivo de las enseñanzas oficiales de Máster Universitario?",
+    "dorso": "La formación avanzada, de carácter especializado temáticamente o multidisciplinar, dirigida a la especialización académica y profesional, o al aprendizaje en actividades investigadoras.",
+    "ref": "Art. 16.1 RD 822/2021"
+  },
+  {
+    "frente": "¿A qué nivel MECES equivalen los títulos oficiales de Máster Universitario?",
+    "dorso": "MECES 3.",
+    "ref": "Art. 16.5 RD 822/2021"
+  },
+  {
+    "frente": "¿De cuántos créditos ECTS pueden ser los planes de estudios de Máster Universitario?",
+    "dorso": "60, 90 o 120 créditos ECTS.",
+    "ref": "Art. 17.1 RD 822/2021"
+  },
+  {
+    "frente": "¿Qué extensión máxima tienen las prácticas académicas externas en un Máster Universitario?",
+    "dorso": "No pueden superar un tercio de la carga crediticia total del plan de estudios.",
+    "ref": "Art. 17.3 RD 822/2021"
+  },
+  {
+    "frente": "¿Cuántos créditos tiene como mínimo y como máximo el Trabajo de Fin de Máster (TFM)?",
+    "dorso": "Mínimo 6 créditos ECTS; máximo 30 créditos ECTS.",
+    "ref": "Art. 17.4 RD 822/2021"
+  },
+  {
+    "frente": "¿Qué condición es necesaria para acceder a un Máster Universitario?",
+    "dorso": "Poseer un título universitario oficial de Graduada/o español o equivalente (u otro título de Máster), o un título del mismo nivel expedido por una universidad del EEES que en dicho país permita acceder a estudios de Máster.",
+    "ref": "Art. 18.1 RD 822/2021"
+  },
+  {
+    "frente": "¿En qué consiste la matrícula condicionada excepcional en un Máster Universitario?",
+    "dorso": "Permite que un/a estudiante de Grado al que le reste el TFG y como máximo 9 créditos ECTS pueda matricularse en un Máster, sin poder obtener el título de Máster hasta obtener previamente el de Grado.",
+    "ref": "Art. 18.4 RD 822/2021"
+  },
+  {
+    "frente": "¿Qué carga máxima en créditos pueden tener los complementos formativos que establezcan las universidades para admisión a un Máster?",
+    "dorso": "No podrá superar el equivalente al 20% de la carga crediticia del título de Máster.",
+    "ref": "Art. 18.5 RD 822/2021"
+  },
+  {
+    "frente": "¿Cuál es la finalidad de las enseñanzas de Doctorado?",
+    "dorso": "La adquisición de las competencias y habilidades concernientes con la investigación universitaria de calidad y su desarrollo.",
+    "ref": "Art. 19.1 RD 822/2021"
+  },
+  {
+    "frente": "¿Cómo se organizan las enseñanzas de Doctorado?",
+    "dorso": "En programas de Doctorado de los diversos campos del conocimiento científico, tecnológico, humanístico y artístico, así como desde un enfoque interdisciplinar del conocimiento.",
+    "ref": "Art. 19.2 RD 822/2021"
+  },
+  {
+    "frente": "¿Qué se requiere para obtener el título oficial de Doctora o Doctor?",
+    "dorso": "La superación de las enseñanzas del programa de Doctorado y la presentación y aprobación de la tesis doctoral.",
+    "ref": "Art. 19.3 RD 822/2021"
+  },
+  {
+    "frente": "¿A qué nivel MECES equivale el título de Doctor/a?",
+    "dorso": "MECES 4.",
+    "ref": "Art. 19.3 RD 822/2021"
+  },
+  {
+    "frente": "¿Qué da lugar la superación del plan de estudios de Grado?",
+    "dorso": "A la obtención del título de Graduada o Graduado.",
+    "ref": "Art. 3.1 RD 822/2021"
+  },
+  {
+    "frente": "¿Qué da lugar la superación del plan de estudios de Máster?",
+    "dorso": "A la obtención del título de Máster Universitario.",
+    "ref": "Art. 3.1 RD 822/2021"
+  },
+  {
+    "frente": "¿Qué da lugar la superación del programa de Doctorado?",
+    "dorso": "A la obtención del título de Doctorado (Doctor/a).",
+    "ref": "Art. 3.1 RD 822/2021"
+  },
+  {
+    "frente": "¿Con qué deben estar relacionados los precios públicos de los títulos universitarios oficiales de las universidades públicas?",
+    "dorso": "Con los costes de prestación del servicio académico.",
+    "ref": "Art. 12 RD 822/2021"
+  },
+  {
+    "frente": "¿Puede un Máster Universitario incluir especialidades? ¿Qué límite de créditos tienen?",
+    "dorso": "Sí. El número de créditos de una especialidad no puede superar el 50% del total de créditos del plan de estudios de Máster.",
+    "ref": "Art. 16.4 RD 822/2021"
+  },
+  {
+    "frente": "En los títulos de Grado, ¿dónde deben ofrecerse preferentemente las prácticas académicas externas curriculares?",
+    "dorso": "En la segunda mitad del plan de estudios.",
+    "ref": "Art. 14.5 RD 822/2021"
+  },
+  {
+    "frente": "¿Dónde se recogen los créditos reconocidos o transferidos?",
+    "dorso": "En el expediente del/la estudiante y en el Suplemento Europeo del Título.",
+    "ref": "Art. 10.2 RD 822/2021"
+  },
+  {
+    "frente": "¿Pueden reconocerse los créditos correspondientes a TFG o TFM?",
+    "dorso": "No, salvo aquellos que se desarrollen específicamente en un programa de movilidad.",
+    "ref": "Art. 10.3 RD 822/2021"
+  },
+  {
+    "frente": "¿Dónde debe desarrollarse el Trabajo de Fin de Grado dentro del plan de estudios?",
+    "dorso": "En la fase final del plan de estudios.",
+    "ref": "Art. 14.6 RD 822/2021"
+  },
+  {
+    "frente": "¿Los trabajos de fin de Grado y de fin de Máster deben defenderse en acto público?",
+    "dorso": "Sí, ambos deberán ser defendidos en un acto público, siguiendo la normativa que a tal efecto establezca el centro o la universidad.",
+    "ref": "Arts. 14.6 y 17.4 RD 822/2021"
+  },
+  {
+    "frente": "¿Qué porcentaje mínimo de plazas deben reservar las universidades en Máster para estudiantes con discapacidad ≥ 33%?",
+    "dorso": "Al menos un 5% de las plazas ofertadas.",
+    "ref": "Art. 18.6 RD 822/2021"
+  }
+]

@@ -1,0 +1,195 @@
+[
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada función de Excel según su categoría en la Biblioteca de funciones",
+    "ref": "Apartado 5.2 — Funciones (tabla de categorías)",
+    "categorias": ["Estadísticas", "Matemáticas y trigonométricas", "Texto", "Lógicas"],
+    "items": [
+      { "texto": "PROMEDIO", "categoria": "Estadísticas" },
+      { "texto": "CONTAR", "categoria": "Estadísticas" },
+      { "texto": "MAX", "categoria": "Estadísticas" },
+      { "texto": "MIN", "categoria": "Estadísticas" },
+      { "texto": "SUMA", "categoria": "Matemáticas y trigonométricas" },
+      { "texto": "RESIDUO", "categoria": "Matemáticas y trigonométricas" },
+      { "texto": "ABS", "categoria": "Matemáticas y trigonométricas" },
+      { "texto": "IZQUIERDA", "categoria": "Texto" },
+      { "texto": "LARGO", "categoria": "Texto" },
+      { "texto": "SI", "categoria": "Lógicas" },
+      { "texto": "SI.ERROR", "categoria": "Lógicas" },
+      { "texto": "Y", "categoria": "Lógicas" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada operador de Excel según su tipo",
+    "ref": "Apartado 5.1 — Fórmulas y operadores",
+    "categorias": ["Aritmético", "De comparación", "De referencia"],
+    "items": [
+      { "texto": "+ (suma)", "categoria": "Aritmético" },
+      { "texto": "* (multiplicación)", "categoria": "Aritmético" },
+      { "texto": "/ (división)", "categoria": "Aritmético" },
+      { "texto": "^ (exponenciación)", "categoria": "Aritmético" },
+      { "texto": "> (mayor que)", "categoria": "De comparación" },
+      { "texto": "<> (distinto de)", "categoria": "De comparación" },
+      { "texto": ">= (mayor o igual)", "categoria": "De comparación" },
+      { "texto": ": (rango)", "categoria": "De referencia" },
+      { "texto": "; (unión)", "categoria": "De referencia" },
+      { "texto": "Espacio (intersección)", "categoria": "De referencia" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada acción según corresponda a Proteger hoja (pestaña Revisar) o a Proteger libro (pestaña Revisar / Archivo > Información)",
+    "ref": "Apartado 11 — Protección de la hoja de cálculo por contraseña",
+    "categorias": ["Proteger hoja", "Proteger libro"],
+    "items": [
+      { "texto": "Impide modificar las celdas bloqueadas", "categoria": "Proteger hoja" },
+      { "texto": "Permite elegir qué acciones se autorizan a los usuarios", "categoria": "Proteger hoja" },
+      { "texto": "Solo surte efecto sobre celdas marcadas como bloqueadas", "categoria": "Proteger hoja" },
+      { "texto": "Impide insertar, eliminar o mover hojas", "categoria": "Proteger libro" },
+      { "texto": "Impide ocultar o renombrar hojas", "categoria": "Proteger libro" },
+      { "texto": "Protege la estructura del libro", "categoria": "Proteger libro" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada opción de formato condicional en su grupo correspondiente",
+    "ref": "Apartado 10 — Formatos condicionales",
+    "categorias": ["Resaltar reglas de celdas", "Reglas superiores e inferiores", "Representación gráfica"],
+    "items": [
+      { "texto": "Mayor que", "categoria": "Resaltar reglas de celdas" },
+      { "texto": "Menor que", "categoria": "Resaltar reglas de celdas" },
+      { "texto": "Texto que contiene", "categoria": "Resaltar reglas de celdas" },
+      { "texto": "Entre (un rango de valores)", "categoria": "Resaltar reglas de celdas" },
+      { "texto": "10 primeros elementos", "categoria": "Reglas superiores e inferiores" },
+      { "texto": "Por encima del promedio", "categoria": "Reglas superiores e inferiores" },
+      { "texto": "Por debajo del promedio", "categoria": "Reglas superiores e inferiores" },
+      { "texto": "Barras de datos", "categoria": "Representación gráfica" },
+      { "texto": "Escalas de color", "categoria": "Representación gráfica" },
+      { "texto": "Conjuntos de iconos", "categoria": "Representación gráfica" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada categoría de formato numérico según alinee el valor a la izquierda o a la derecha de la celda",
+    "ref": "Apartados 4.2 y 9.2 — Tipos de datos, alineación y formato numérico",
+    "categorias": ["Alineación a la izquierda", "Alineación a la derecha"],
+    "items": [
+      { "texto": "Texto", "categoria": "Alineación a la izquierda" },
+      { "texto": "Número", "categoria": "Alineación a la derecha" },
+      { "texto": "Moneda", "categoria": "Alineación a la derecha" },
+      { "texto": "Contabilidad", "categoria": "Alineación a la derecha" },
+      { "texto": "Porcentaje", "categoria": "Alineación a la derecha" },
+      { "texto": "Fecha", "categoria": "Alineación a la derecha" },
+      { "texto": "Hora", "categoria": "Alineación a la derecha" },
+      { "texto": "General (cuando contiene solo texto)", "categoria": "Alineación a la izquierda" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada error de fórmula con su causa o significado",
+    "ref": "Apartado 5.3 — Errores frecuentes",
+    "pares": [
+      { "izquierda": "#####", "derecha": "La columna es demasiado estrecha para mostrar el contenido" },
+      { "izquierda": "#¡DIV/0!", "derecha": "División por cero o denominador vacío" },
+      { "izquierda": "#¿NOMBRE?", "derecha": "No se reconoce el texto de la fórmula (nombre mal escrito)" },
+      { "izquierda": "#¡REF!", "derecha": "Referencia no válida: se eliminó una celda referenciada" },
+      { "izquierda": "#¡VALOR!", "derecha": "Valor o argumento no válido para la operación" },
+      { "izquierda": "#¡NULO!", "derecha": "Intersección vacía: no se puede determinar el rango" },
+      { "izquierda": "#N/A", "derecha": "No se encuentra el valor buscado" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada atajo de teclado con la acción que realiza en Excel 365 (gestión de libros y hojas)",
+    "ref": "Anexo — Atajos de teclado citados",
+    "pares": [
+      { "izquierda": "CTRL+U", "derecha": "Crear un libro nuevo en blanco" },
+      { "izquierda": "CTRL+A", "derecha": "Abrir un libro existente" },
+      { "izquierda": "CTRL+G", "derecha": "Guardar" },
+      { "izquierda": "CTRL+F4", "derecha": "Cerrar el libro activo" },
+      { "izquierda": "ALT+F4", "derecha": "Cerrar la aplicación Excel" },
+      { "izquierda": "CTRL+P", "derecha": "Vista previa e impresión" },
+      { "izquierda": "MAY+F11", "derecha": "Insertar una hoja de cálculo" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada atajo de teclado con la acción de edición o desplazamiento que realiza en Excel 365",
+    "ref": "Anexo — Atajos de teclado citados y Apartado 2.4",
+    "pares": [
+      { "izquierda": "CTRL+INICIO", "derecha": "Ir a la celda A1" },
+      { "izquierda": "CTRL+FIN", "derecha": "Ir a la última celda usada" },
+      { "izquierda": "CTRL+1", "derecha": "Abrir cuadro de diálogo Formato de celdas" },
+      { "izquierda": "CTRL+INTRO", "derecha": "Introducir el mismo dato en un rango seleccionado" },
+      { "izquierda": "ALT+INTRO", "derecha": "Salto de línea dentro de la celda" },
+      { "izquierda": "MAY+F3", "derecha": "Insertar función" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada tipo de referencia de celda con su comportamiento al copiar una fórmula",
+    "ref": "Apartado 5.4 — Referencias a hojas y celdas",
+    "pares": [
+      { "izquierda": "A1 (relativa)", "derecha": "Se ajusta automáticamente al copiar la fórmula" },
+      { "izquierda": "$A$1 (absoluta)", "derecha": "No varía al copiar: fija columna y fila" },
+      { "izquierda": "$A1 (mixta)", "derecha": "Fija solo la columna; la fila se ajusta al copiar" },
+      { "izquierda": "A$1 (mixta)", "derecha": "Fija solo la fila; la columna se ajusta al copiar" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada elemento de un gráfico con su descripción",
+    "ref": "Apartado 6.1 — Partes de un gráfico",
+    "pares": [
+      { "izquierda": "Área del gráfico", "derecha": "Toda la superficie delimitada por el marco" },
+      { "izquierda": "Serie de datos", "derecha": "Conjunto de puntos relacionados, cada uno con un color" },
+      { "izquierda": "Eje X (horizontal)", "derecha": "Suele contener las categorías" },
+      { "izquierda": "Eje Y (vertical)", "derecha": "Contiene los valores numéricos" },
+      { "izquierda": "Área de trazado", "derecha": "Zona delimitada por los ejes" },
+      { "izquierda": "Leyenda", "derecha": "Cuadro que identifica los colores de cada serie" }
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena las zonas principales de la pantalla de Excel de arriba a abajo",
+    "ref": "Apartado 1.1 — La pantalla de trabajo",
+    "items": [
+      "Barra de título",
+      "Barra de herramientas de acceso rápido",
+      "Cinta de opciones",
+      "Cuadro de nombres y Barra de fórmulas",
+      "Área de la hoja (cuadrícula de celdas)",
+      "Etiquetas de hoja",
+      "Barra de estado"
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena las pestañas de la cinta de opciones de Excel de izquierda a derecha",
+    "ref": "Apartado 1.2 — La cinta de opciones",
+    "items": [
+      "Archivo",
+      "Inicio",
+      "Insertar",
+      "Disposición de página",
+      "Fórmulas",
+      "Datos",
+      "Revisar",
+      "Vista"
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena las pestañas del cuadro de diálogo Formato de celdas (CTRL+1) de izquierda a derecha",
+    "ref": "Apartado 9 — Formato de celdas",
+    "items": [
+      "Número",
+      "Alineación",
+      "Fuente",
+      "Bordes",
+      "Relleno",
+      "Proteger"
+    ]
+  }
+]

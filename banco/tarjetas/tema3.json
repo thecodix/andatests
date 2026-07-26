@@ -1,0 +1,536 @@
+[
+  {
+    "frente": "¿De qué dos formas pueden iniciarse los procedimientos administrativos según la Ley 39/2015?",
+    "dorso": "De oficio o a solicitud del interesado.",
+    "ref": "Art. 54 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué puede abrir el órgano competente con anterioridad al inicio del procedimiento para conocer las circunstancias del caso?",
+    "dorso": "Un período de información o actuaciones previas.",
+    "ref": "Art. 55.1 Ley 39/2015",
+    "exp": "Sirve para conocer las circunstancias del caso concreto y la conveniencia o no de iniciar el procedimiento."
+  },
+  {
+    "frente": "En procedimientos sancionadores, ¿a qué se orientan las actuaciones previas del art. 55?",
+    "dorso": "A determinar con la mayor precisión posible los hechos susceptibles de motivar la incoación del procedimiento, la identificación de los presuntos responsables y las circunstancias relevantes.",
+    "ref": "Art. 55.2 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Quién realiza las actuaciones previas en procedimientos sancionadores si no hay órganos con funciones de investigación?",
+    "dorso": "La persona u órgano administrativo que determine el órgano competente para la iniciación o resolución del procedimiento.",
+    "ref": "Art. 55.2 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "Una vez iniciado el procedimiento, ¿qué órgano puede adoptar medidas provisionales?",
+    "dorso": "El órgano administrativo competente para resolver.",
+    "ref": "Art. 56.1 Ley 39/2015",
+    "exp": "Puede hacerlo de oficio o a instancia de parte, de forma motivada."
+  },
+  {
+    "frente": "¿Con qué principios deben acordarse las medidas provisionales del art. 56?",
+    "dorso": "Proporcionalidad, efectividad y menor onerosidad.",
+    "ref": "Art. 56.1 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Quién puede adoptar medidas provisionales ANTES de la iniciación del procedimiento y en qué circunstancias?",
+    "dorso": "El órgano competente para iniciar o instruir el procedimiento, en casos de urgencia inaplazable y para la protección provisional de los intereses implicados.",
+    "ref": "Art. 56.2 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿En qué plazo debe efectuarse el acuerdo de iniciación del procedimiento cuando se han adoptado medidas provisionales antes de su inicio?",
+    "dorso": "Dentro de los 15 días siguientes a la adopción de las medidas provisionales.",
+    "ref": "Art. 56.2 Ley 39/2015",
+    "exp": "Si no se inicia el procedimiento en ese plazo, las medidas quedan sin efecto."
+  },
+  {
+    "frente": "Enumera al menos 5 medidas provisionales que pueden acordarse según el art. 56.3.",
+    "dorso": "Suspensión temporal de actividades; prestación de fianzas; retirada o intervención de bienes productivos; embargo preventivo de bienes, rentas y cosas fungibles; depósito, retención o inmovilización de cosa mueble; intervención y depósito de ingresos de actividad ilícita; consignación o depósito de cantidades reclamadas; retención de ingresos a cuenta de las AAPP.",
+    "ref": "Art. 56.3 Ley 39/2015",
+    "exp": "Se acuerdan en los términos previstos en la LEC."
+  },
+  {
+    "frente": "¿Qué tipo de medidas provisionales NO se pueden adoptar nunca?",
+    "dorso": "Las que puedan causar perjuicio de difícil o imposible reparación a los interesados, o que impliquen violación de derechos amparados por las leyes.",
+    "ref": "Art. 56.4 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cuándo se extinguen las medidas provisionales adoptadas durante un procedimiento?",
+    "dorso": "Cuando surta efectos la resolución administrativa que ponga fin al procedimiento correspondiente.",
+    "ref": "Art. 56.5 Ley 39/2015",
+    "exp": "También pueden alzarse o modificarse durante la tramitación por circunstancias sobrevenidas."
+  },
+  {
+    "frente": "¿Qué recurso cabe contra el acuerdo de acumulación de procedimientos?",
+    "dorso": "Ninguno. Contra el acuerdo de acumulación no procederá recurso alguno.",
+    "ref": "Art. 57 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué requisitos exige el art. 57 para poder acumular procedimientos?",
+    "dorso": "Que guarden identidad sustancial o íntima conexión, y que sea el mismo órgano quien deba tramitar y resolver.",
+    "ref": "Art. 57 Ley 39/2015",
+    "exp": "Puede disponerse de oficio o a instancia de parte."
+  },
+  {
+    "frente": "¿Cuáles son las cuatro formas de inicio de oficio de un procedimiento?",
+    "dorso": "Por propia iniciativa, como consecuencia de orden superior, a petición razonada de otros órganos, o por denuncia.",
+    "ref": "Art. 58 Ley 39/2015",
+    "exp": "Siempre por acuerdo del órgano competente."
+  },
+  {
+    "frente": "¿Qué se entiende por 'propia iniciativa' como forma de inicio de oficio?",
+    "dorso": "La actuación derivada del conocimiento directo o indirecto de las circunstancias, conductas o hechos objeto del procedimiento por el órgano que tiene atribuida la competencia de iniciación.",
+    "ref": "Art. 59 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué se entiende por 'orden superior' como forma de inicio de oficio?",
+    "dorso": "La emitida por un órgano administrativo superior jerárquico del competente para la iniciación del procedimiento.",
+    "ref": "Art. 60.1 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "En procedimientos sancionadores iniciados por orden superior, ¿qué debe expresar la orden en la medida de lo posible?",
+    "dorso": "La persona o personas presuntamente responsables; las conductas o hechos que pudieran constituir infracción y su tipificación; y el lugar, fecha o período de tiempo en que se produjeron.",
+    "ref": "Art. 60.2 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué se entiende por 'petición razonada de otros órganos'?",
+    "dorso": "La propuesta de iniciación formulada por cualquier órgano administrativo que no tiene competencia para iniciar el procedimiento y que ha tenido conocimiento de los hechos, bien ocasionalmente o por tener funciones de inspección, averiguación o investigación.",
+    "ref": "Art. 61.1 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿La petición razonada de otros órganos vincula al órgano competente para iniciar el procedimiento?",
+    "dorso": "No, no vincula. Pero el órgano competente deberá comunicar al peticionario los motivos por los que no procede la iniciación, en su caso.",
+    "ref": "Art. 61.2 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué se entiende por 'denuncia' según la Ley 39/2015?",
+    "dorso": "El acto por el que cualquier persona, en cumplimiento o no de una obligación legal, pone en conocimiento de un órgano administrativo un hecho que pudiera justificar la iniciación de oficio de un procedimiento.",
+    "ref": "Art. 62.1 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿La presentación de una denuncia confiere por sí sola la condición de interesado?",
+    "dorso": "No.",
+    "ref": "Art. 62.5 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿En qué caso el denunciante que participó en la infracción puede quedar exento de sanción?",
+    "dorso": "Cuando sea el primero en aportar elementos de prueba que permitan iniciar el procedimiento o comprobar la infracción, no se disponga aún de elementos suficientes, y repare el perjuicio causado.",
+    "ref": "Art. 62.4 Ley 39/2015",
+    "exp": "Además debe cesar en la participación y no haber destruido elementos de prueba (programa de clemencia)."
+  },
+  {
+    "frente": "¿Los procedimientos sancionadores pueden iniciarse a solicitud del interesado?",
+    "dorso": "No. Se iniciarán siempre de oficio por acuerdo del órgano competente.",
+    "ref": "Art. 63.1 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué separación deben establecer los procedimientos sancionadores?",
+    "dorso": "La debida separación entre la fase instructora y la sancionadora, que se encomendará a órganos distintos.",
+    "ref": "Art. 63.1 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Se puede imponer una sanción sin que se haya tramitado el oportuno procedimiento?",
+    "dorso": "No, en ningún caso.",
+    "ref": "Art. 63.2 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Se pueden iniciar nuevos procedimientos sancionadores por hechos en cuya comisión el infractor persiste de forma continuada?",
+    "dorso": "No, en tanto no haya recaído una primera resolución sancionadora con carácter ejecutivo.",
+    "ref": "Art. 63.3 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué contenido mínimo debe tener el acuerdo de iniciación de un procedimiento sancionador? (Enumera al menos 4 elementos)",
+    "dorso": "Identificación presuntos responsables; hechos, posible calificación y sanciones; identificación del instructor (y secretario, en su caso) con régimen de recusación; órgano competente para resolver; medidas provisionales acordadas; indicación del derecho a formular alegaciones y audiencia con sus plazos.",
+    "ref": "Art. 64.2 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "Si al dictar el acuerdo de iniciación de un procedimiento sancionador no hay elementos suficientes para calificar los hechos, ¿cómo se realiza después la calificación?",
+    "dorso": "Mediante la elaboración de un Pliego de cargos, que deberá ser notificado a los interesados.",
+    "ref": "Art. 64.3 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "En procedimientos de responsabilidad patrimonial iniciados de oficio, ¿qué plazo se da a los presuntamente lesionados para aportar alegaciones?",
+    "dorso": "Diez días.",
+    "ref": "Art. 65.2 Ley 39/2015",
+    "exp": "El procedimiento se instruirá aunque no se personen en ese plazo."
+  },
+  {
+    "frente": "¿Qué debe contener una solicitud de iniciación según el art. 66? (Enumera los 6 elementos)",
+    "dorso": "Nombre y apellidos del interesado (o representante); medio electrónico o lugar físico para notificaciones; hechos, razones y petición; lugar y fecha; firma del solicitante; órgano, centro o unidad administrativa a la que se dirige y su código de identificación.",
+    "ref": "Art. 66.1 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cuándo son de uso obligatorio los modelos específicos de presentación de solicitudes?",
+    "dorso": "Cuando la Administración en un procedimiento concreto los establezca expresamente.",
+    "ref": "Art. 66.6 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿En qué plazo prescribe el derecho a reclamar responsabilidad patrimonial?",
+    "dorso": "Al año de producido el hecho o acto que motive la indemnización o se manifieste su efecto lesivo.",
+    "ref": "Art. 67.1 Ley 39/2015",
+    "exp": "En daños físicos o psíquicos, desde la curación o determinación del alcance de las secuelas."
+  },
+  {
+    "frente": "En responsabilidad patrimonial por anulación de un acto en vía administrativa o contencioso-administrativa, ¿cuándo prescribe el derecho a reclamar?",
+    "dorso": "Al año de haberse notificado la resolución administrativa o la sentencia definitiva.",
+    "ref": "Art. 67.1 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "Si una solicitud de iniciación no reúne los requisitos del art. 66, ¿qué plazo se da al interesado para subsanar?",
+    "dorso": "Diez días, con indicación de que si no lo hace se le tendrá por desistido de su petición.",
+    "ref": "Art. 68.1 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿En cuánto puede ampliarse el plazo de subsanación de la solicitud y en qué casos no procede la ampliación?",
+    "dorso": "Puede ampliarse prudencialmente hasta 5 días cuando la aportación de documentos presente dificultades especiales, salvo en procedimientos selectivos o de concurrencia competitiva.",
+    "ref": "Art. 68.2 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué es una declaración responsable?",
+    "dorso": "El documento suscrito por un interesado en el que manifiesta, bajo su responsabilidad, que cumple los requisitos para obtener un derecho o facultad, que dispone de la documentación acreditativa y que la pondrá a disposición de la Administración cuando se la requiera.",
+    "ref": "Art. 69.1 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué es una comunicación según el art. 69?",
+    "dorso": "El documento mediante el que los interesados ponen en conocimiento de la Administración Pública competente sus datos identificativos o cualquier otro dato relevante para el inicio de una actividad o el ejercicio de un derecho.",
+    "ref": "Art. 69.2 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Desde cuándo permiten las declaraciones responsables y comunicaciones el ejercicio del derecho o inicio de la actividad?",
+    "dorso": "Desde el día de su presentación.",
+    "ref": "Art. 69.3 Ley 39/2015",
+    "exp": "Sin perjuicio de las facultades de comprobación, control e inspección de la Administración."
+  },
+  {
+    "frente": "¿Se puede exigir acumulativamente una declaración responsable y una comunicación para una misma actividad?",
+    "dorso": "No. Únicamente será exigible una u otra, no ambas acumulativamente.",
+    "ref": "Art. 69.6 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué se entiende por expediente administrativo?",
+    "dorso": "El conjunto ordenado de documentos y actuaciones que sirven de antecedente y fundamento a la resolución administrativa, así como las diligencias encaminadas a ejecutarla.",
+    "ref": "Art. 70.1 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿En qué formato deben tener los expedientes administrativos?",
+    "dorso": "Formato electrónico.",
+    "ref": "Art. 70.2 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué información NO forma parte del expediente administrativo?",
+    "dorso": "La información auxiliar o de apoyo: aplicaciones, ficheros, bases de datos, notas, borradores, opiniones, resúmenes, comunicaciones e informes internos, y juicios de valor de las AAPP (salvo informes preceptivos y facultativos solicitados antes de la resolución final).",
+    "ref": "Art. 70.4 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿A qué principio está sometido el procedimiento según el art. 71 y cómo se impulsa?",
+    "dorso": "Al principio de celeridad; se impulsa de oficio en todos sus trámites y a través de medios electrónicos.",
+    "ref": "Art. 71.1 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿En qué orden se despachan los expedientes de homogénea naturaleza?",
+    "dorso": "En riguroso orden de incoación, salvo orden motivada en contrario del titular de la unidad administrativa.",
+    "ref": "Art. 71.2 Ley 39/2015",
+    "exp": "El incumplimiento da lugar a responsabilidad disciplinaria y puede ser causa de remoción del puesto."
+  },
+  {
+    "frente": "¿Qué principio rige la concentración de trámites del art. 72?",
+    "dorso": "El principio de simplificación administrativa: se acordarán en un solo acto todos los trámites que admitan impulso simultáneo y no sea obligado su cumplimiento sucesivo.",
+    "ref": "Art. 72.1 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué plazo tienen los interesados para cumplimentar los trámites que les corresponden, salvo norma distinta?",
+    "dorso": "Diez días a partir del siguiente al de la notificación del correspondiente acto.",
+    "ref": "Art. 73.1 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué consecuencia tiene para el interesado no cumplir un trámite en plazo?",
+    "dorso": "Se le puede declarar decaído en su derecho al trámite correspondiente, salvo que actúe antes o dentro del día en que se le notifique dicha resolución.",
+    "ref": "Art. 73.3 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Las cuestiones incidentales suspenden la tramitación del procedimiento?",
+    "dorso": "No, salvo la recusación.",
+    "ref": "Art. 74 Ley 39/2015",
+    "exp": "Incluidas las referidas a la nulidad de actuaciones."
+  },
+  {
+    "frente": "¿Quién realiza los actos de instrucción y en qué forma?",
+    "dorso": "Se realizan de oficio y a través de medios electrónicos por el órgano que tramita el procedimiento.",
+    "ref": "Art. 75.1 Ley 39/2015",
+    "exp": "Sin perjuicio del derecho de los interesados a proponer actuaciones."
+  },
+  {
+    "frente": "¿Hasta qué momento pueden los interesados aducir alegaciones y aportar documentos?",
+    "dorso": "En cualquier momento del procedimiento anterior al trámite de audiencia.",
+    "ref": "Art. 76.1 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cuál es la duración del período de prueba ordinario?",
+    "dorso": "No superior a 30 días ni inferior a 10 días.",
+    "ref": "Art. 77.2 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cuál es la duración máxima del período extraordinario de prueba?",
+    "dorso": "No superior a 10 días.",
+    "ref": "Art. 77.2 Ley 39/2015",
+    "exp": "Se abre a petición de los interesados cuando el instructor lo considere necesario."
+  },
+  {
+    "frente": "¿Cuándo puede el instructor rechazar pruebas propuestas por los interesados?",
+    "dorso": "Cuando sean manifiestamente improcedentes o innecesarias, mediante resolución motivada.",
+    "ref": "Art. 77.3 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "En procedimientos sancionadores, ¿vinculan a la Administración los hechos declarados probados por resoluciones judiciales penales firmes?",
+    "dorso": "Sí.",
+    "ref": "Art. 77.4 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué valor probatorio tienen los documentos formalizados por funcionarios con condición de autoridad?",
+    "dorso": "Harán prueba de los hechos constatados, salvo que se acredite lo contrario (presunción iuris tantum).",
+    "ref": "Art. 77.5 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Los informes son, por defecto, preceptivos o facultativos? ¿Vinculantes o no vinculantes?",
+    "dorso": "Salvo disposición expresa en contrario, son facultativos y no vinculantes.",
+    "ref": "Art. 80.1 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿En qué plazo deben emitirse los informes, salvo disposición distinta?",
+    "dorso": "En el plazo de 10 días.",
+    "ref": "Art. 80.2 Ley 39/2015",
+    "exp": "A través de medios electrónicos."
+  },
+  {
+    "frente": "¿Qué ocurre si un informe preceptivo no se emite en plazo?",
+    "dorso": "Se puede suspender el transcurso del plazo máximo legal para resolver el procedimiento (conforme al art. 22.1.d).",
+    "ref": "Art. 80.3 Ley 39/2015",
+    "exp": "Si el informe es facultativo, se prosiguen las actuaciones sin él."
+  },
+  {
+    "frente": "En procedimientos de responsabilidad patrimonial, ¿cuándo es preceptivo solicitar dictamen del Consejo de Estado?",
+    "dorso": "Cuando las indemnizaciones reclamadas sean de cuantía igual o superior a 50.000 euros, o cuando lo disponga la Ley Orgánica del Consejo de Estado.",
+    "ref": "Art. 81.2 Ley 39/2015",
+    "exp": "El dictamen se emite en 2 meses."
+  },
+  {
+    "frente": "¿Cuándo se realiza el trámite de audiencia a los interesados?",
+    "dorso": "Instruidos los procedimientos, inmediatamente antes de redactar la propuesta de resolución.",
+    "ref": "Art. 82.1 Ley 39/2015",
+    "exp": "Será anterior a la solicitud del dictamen del Consejo de Estado u órgano consultivo equivalente, si forma parte del procedimiento."
+  },
+  {
+    "frente": "¿Qué plazo tienen los interesados en el trámite de audiencia para alegar y presentar documentos?",
+    "dorso": "No inferior a 10 días ni superior a 15 días.",
+    "ref": "Art. 82.2 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cuándo puede prescindirse del trámite de audiencia?",
+    "dorso": "Cuando no figuren en el procedimiento ni sean tenidos en cuenta en la resolución otros hechos, alegaciones y pruebas que las aducidas por el interesado.",
+    "ref": "Art. 82.4 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cuál es el plazo mínimo para formular alegaciones en el trámite de información pública?",
+    "dorso": "En ningún caso inferior a 20 días.",
+    "ref": "Art. 83.2 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿La comparecencia en el trámite de información pública otorga por sí misma la condición de interesado?",
+    "dorso": "No, pero quienes presenten alegaciones tienen derecho a obtener una respuesta razonada de la Administración.",
+    "ref": "Art. 83.3 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué formas de terminación del procedimiento enumera el art. 84?",
+    "dorso": "Resolución, desistimiento, renuncia al derecho en que se funde la solicitud (si no está prohibida), y declaración de caducidad.",
+    "ref": "Art. 84.1 Ley 39/2015",
+    "exp": "También la imposibilidad material de continuarlo por causas sobrevenidas (resolución motivada)."
+  },
+  {
+    "frente": "En procedimientos sancionadores, ¿qué reducción mínima se aplica a la sanción pecuniaria por reconocimiento de responsabilidad o pago voluntario?",
+    "dorso": "Al menos el 20% sobre el importe de la sanción propuesta, siendo acumulables entre sí.",
+    "ref": "Art. 85.3 Ley 39/2015",
+    "exp": "Condicionadas al desistimiento o renuncia de cualquier acción o recurso en vía administrativa."
+  },
+  {
+    "frente": "¿Qué implica el pago voluntario del presunto responsable en un procedimiento sancionador con sanción únicamente pecuniaria?",
+    "dorso": "La terminación del procedimiento, salvo en lo relativo a la reposición de la situación alterada o la determinación de la indemnización por daños y perjuicios.",
+    "ref": "Art. 85.2 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué es la terminación convencional del procedimiento?",
+    "dorso": "La celebración de acuerdos, pactos, convenios o contratos con personas de Derecho público o privado que tengan por objeto satisfacer el interés público, siempre que no sean contrarios al ordenamiento jurídico ni versen sobre materias no susceptibles de transacción.",
+    "ref": "Art. 86.1 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué contenido mínimo deben establecer los instrumentos de terminación convencional?",
+    "dorso": "Identificación de las partes intervinientes, ámbito personal, funcional y territorial, y plazo de vigencia.",
+    "ref": "Art. 86.2 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué plazo se concede a los interesados para formular alegaciones tras las actuaciones complementarias del art. 87?",
+    "dorso": "Siete días.",
+    "ref": "Art. 87 Ley 39/2015",
+    "exp": "Las actuaciones complementarias deben practicarse en un plazo no superior a 15 días."
+  },
+  {
+    "frente": "En procedimientos a solicitud del interesado, ¿puede la resolución agravar la situación inicial del solicitante?",
+    "dorso": "No, en ningún caso (prohibición de reformatio in peius).",
+    "ref": "Art. 88.2 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Puede la Administración abstenerse de resolver invocando silencio, oscuridad o insuficiencia de los preceptos legales?",
+    "dorso": "No, en ningún caso.",
+    "ref": "Art. 88.5 Ley 39/2015",
+    "exp": "Aunque puede acordar la inadmisión de solicitudes de derechos no previstos en el ordenamiento o manifiestamente carentes de fundamento."
+  },
+  {
+    "frente": "¿Cuándo es necesario que el instructor eleve propuesta de resolución al órgano competente para resolver?",
+    "dorso": "Cuando la competencia para instruir y resolver no recaiga en un mismo órgano.",
+    "ref": "Art. 88.7 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿En qué circunstancias el instructor puede archivar las actuaciones sin propuesta de resolución en procedimientos sancionadores? (Enumera al menos 3)",
+    "dorso": "Inexistencia de los hechos; hechos no acreditados; hechos que manifiestamente no constituyen infracción; inexistencia o no identificación de responsables o exención de responsabilidad; prescripción de la infracción.",
+    "ref": "Art. 89.1 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "En la propuesta de resolución de un procedimiento sancionador, ¿qué debe fijar de forma motivada?",
+    "dorso": "Los hechos probados y su exacta calificación jurídica, la infracción, la persona responsable, la sanción propuesta, y la valoración de las pruebas practicadas (en especial las que fundamentan la decisión).",
+    "ref": "Art. 89.3 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "Si el órgano competente para resolver un procedimiento sancionador considera que la infracción o sanción reviste mayor gravedad que la de la propuesta de resolución, ¿qué debe hacer?",
+    "dorso": "Notificar al inculpado para que aporte alegaciones en el plazo de 15 días.",
+    "ref": "Art. 90.2 Ley 39/2015",
+    "exp": "No se pueden aceptar hechos distintos de los determinados en el procedimiento."
+  },
+  {
+    "frente": "¿Cuándo es ejecutiva la resolución que pone fin a un procedimiento sancionador?",
+    "dorso": "Cuando no quepa contra ella ningún recurso ordinario en vía administrativa.",
+    "ref": "Art. 90.3 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cuándo puede suspenderse cautelarmente una resolución sancionadora ejecutiva?",
+    "dorso": "Si el interesado manifiesta a la Administración su intención de interponer recurso contencioso-administrativo contra la resolución firme en vía administrativa.",
+    "ref": "Art. 90.3 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cuándo finaliza la suspensión cautelar de una resolución sancionadora ejecutiva? (2 supuestos)",
+    "dorso": "1) Si transcurre el plazo sin que el interesado interponga recurso contencioso-administrativo; 2) Si, interpuesto el recurso, no solicita la suspensión cautelar en el mismo, o el órgano judicial se pronuncia sobre ella.",
+    "ref": "Art. 90.3 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "En responsabilidad patrimonial, ¿en qué plazo se entiende desestimada la reclamación por silencio administrativo?",
+    "dorso": "Transcurridos 6 meses desde que se inició el procedimiento sin que se haya notificado resolución expresa.",
+    "ref": "Art. 91.3 Ley 39/2015",
+    "exp": "Se entiende que la resolución es contraria a la indemnización."
+  },
+  {
+    "frente": "¿Quién resuelve los procedimientos de responsabilidad patrimonial en la Administración General del Estado?",
+    "dorso": "El Ministro respectivo, o el Consejo de Ministros en los casos del art. 32.3 LRJSP o cuando una ley así lo disponga.",
+    "ref": "Art. 92 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Puede la Administración desistir en procedimientos iniciados de oficio?",
+    "dorso": "Sí, motivadamente, en los supuestos y con los requisitos previstos en las Leyes.",
+    "ref": "Art. 93 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "Si una solicitud fue formulada por varios interesados y uno desiste, ¿a quién afecta el desistimiento?",
+    "dorso": "Solo a aquel que lo haya formulado.",
+    "ref": "Art. 94.2 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cuándo puede la Administración NO aceptar de plano el desistimiento o la renuncia?",
+    "dorso": "Cuando terceros interesados personados insten la continuación del procedimiento en el plazo de 10 días desde que fueron notificados, o cuando la cuestión entrañe interés general.",
+    "ref": "Art. 94.4-5 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "En procedimientos iniciados a solicitud del interesado, ¿tras cuánto tiempo de paralización por causa del interesado se produce la caducidad?",
+    "dorso": "Tres meses desde que la Administración le advierte de que se producirá la caducidad.",
+    "ref": "Art. 95.1 Ley 39/2015",
+    "exp": "Contra la resolución que declare la caducidad proceden los recursos pertinentes."
+  },
+  {
+    "frente": "¿La caducidad produce por sí sola la prescripción de las acciones?",
+    "dorso": "No, pero los procedimientos caducados no interrumpen el plazo de prescripción.",
+    "ref": "Art. 95.3 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Puede acordarse la caducidad por simple inactividad del interesado en trámites no indispensables para dictar resolución?",
+    "dorso": "No. La inactividad solo supone la pérdida del derecho a ese trámite concreto.",
+    "ref": "Art. 95.2 Ley 39/2015",
+    "exp": ""
+  },
+  {
+    "frente": "Si un procedimiento caduca y se inicia uno nuevo, ¿qué trámites deben cumplimentarse necesariamente en el nuevo procedimiento?",
+    "dorso": "Alegaciones, proposición de prueba y audiencia al interesado.",
+    "ref": "Art. 95.3 Ley 39/2015",
+    "exp": "Los actos y trámites cuyo contenido se hubiera mantenido igual pueden incorporarse al nuevo procedimiento."
+  },
+  {
+    "frente": "¿En qué supuesto puede no aplicarse la caducidad?",
+    "dorso": "Cuando la cuestión suscitada afecte al interés general o fuera conveniente sustanciarla para su definición y esclarecimiento.",
+    "ref": "Art. 95.4 Ley 39/2015",
+    "exp": ""
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada característica de matrícula de Grado según corresponda a dedicación a tiempo completo o a tiempo parcial",
+    "ref": "Art. 2 Reglamento de Permanencia UHU",
+    "categorias": ["Tiempo completo", "Tiempo parcial"],
+    "items": [
+      { "texto": "Es la modalidad estándar de matrícula", "categoria": "Tiempo completo" },
+      { "texto": "Para alumnos que compatibilicen sus estudios con alguna circunstancia personal", "categoria": "Tiempo parcial" },
+      { "texto": "Primer curso: mínimo 60 créditos, máximo 78", "categoria": "Tiempo completo" },
+      { "texto": "Primer curso: entre 24 y 36 créditos", "categoria": "Tiempo parcial" },
+      { "texto": "Resto de cursos: entre 36 y 78 créditos", "categoria": "Tiempo completo" },
+      { "texto": "Resto de cursos: no podrá superar los 36 créditos", "categoria": "Tiempo parcial" },
+      { "texto": "Permanencia máxima de 7 cursos académicos", "categoria": "Tiempo completo" },
+      { "texto": "Permanencia máxima de 10 cursos académicos", "categoria": "Tiempo parcial" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada regla según se aplique a las enseñanzas de Grado o de Máster",
+    "ref": "Arts. 2, 6, 7 Reglamento de Permanencia UHU",
+    "categorias": ["Grado", "Máster"],
+    "items": [
+      { "texto": "Rendimiento mínimo nuevo ingreso: superar al menos 6 créditos", "categoria": "Grado" },
+      { "texto": "Rendimiento mínimo nuevo ingreso: superar un mínimo de 10 créditos", "categoria": "Máster" },
+      { "texto": "Excepción de permanencia si restan máximo 30 créditos para finalizar", "categoria": "Grado" },
+      { "texto": "Excepción de permanencia si resta máximo un 12,5% de la carga lectiva", "categoria": "Máster" },
+      { "texto": "Matrícula a tiempo parcial (no nuevo ingreso): no superar 36 créditos", "categoria": "Grado" },
+      { "texto": "Matrícula a tiempo parcial: mínimo 20, máximo 45 créditos", "categoria": "Máster" }
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena los criterios de prioridad para la concesión de matrícula a tiempo parcial cuando hay más solicitudes que plazas",
+    "ref": "Art. 4 Reglamento de Permanencia UHU",
+    "items": [
+      "Estudiantes con discapacidad física, sensorial o psíquica reconocida oficialmente",
+      "Formar unidad familiar con menores o dependientes a su cargo",
+      "Estudiantes que estén trabajando",
+      "Otras circunstancias"
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena los pasos del procedimiento de solicitud de matrícula a tiempo parcial para estudiantes de nuevo ingreso",
+    "ref": "Art. 3 Reglamento de Permanencia UHU",
+    "items": [
+      "El Centro establece el número máximo de plazas TP antes del inicio de la admisión",
+      "El estudiante formaliza matrícula a tiempo completo",
+      "Solicita matrícula a tiempo parcial en plazo no superior a 5 días",
+      "La Comisión de Ordenación Académica del Centro resuelve la solicitud",
+      "Si favorable, el interesado modifica su matrícula ajustando créditos a tiempo parcial"
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada tipo de enseñanza y dedicación con su permanencia máxima en cursos académicos",
+    "ref": "Art. 7 Reglamento de Permanencia UHU",
+    "pares": [
+      { "izquierda": "Grado a tiempo completo", "derecha": "7 cursos académicos" },
+      { "izquierda": "Grado a tiempo parcial", "derecha": "10 cursos académicos" },
+      { "izquierda": "Doble Grado a tiempo completo", "derecha": "9 cursos académicos" },
+      { "izquierda": "Doble Grado a tiempo parcial", "derecha": "11 cursos académicos" },
+      { "izquierda": "Máster de 60 créditos a tiempo completo", "derecha": "3 cursos académicos" },
+      { "izquierda": "Máster de 120 créditos a tiempo parcial", "derecha": "6 cursos académicos" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada órgano con la competencia que le atribuye el Reglamento de Permanencia",
+    "ref": "Arts. 2, 3, 6, 9 Reglamento de Permanencia UHU",
+    "pares": [
+      { "izquierda": "Comisión de Ordenación Académica del Centro", "derecha": "Resuelve solicitudes de cambio de modalidad de matrícula" },
+      { "izquierda": "Junta de Centro", "derecha": "Concede matrícula extraordinaria por incumplimiento del rendimiento mínimo" },
+      { "izquierda": "Secretaría del Centro", "derecha": "Autoriza la ampliación de matrícula cuando restan ≤24 créditos (sin TFG/TFM)" },
+      { "izquierda": "Rector", "derecha": "Interpreta la normativa y resuelve recursos de alzada" },
+      { "izquierda": "Centro (antes del periodo de admisión)", "derecha": "Establece el número máximo de plazas de nuevo ingreso a tiempo parcial" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada situación del estudiante con su consecuencia según el Reglamento",
+    "ref": "Arts. 5, 6, 7, 8 y Disp. adicional Reglamento de Permanencia UHU",
+    "pares": [
+      { "izquierda": "Agota las 6 convocatorias (incluidas las de gracia)", "derecha": "No puede formalizar matrícula en esa asignatura ni continuar estudios" },
+      { "izquierda": "No supera el rendimiento mínimo de nuevo ingreso", "derecha": "Puede solicitar matrícula extraordinaria a la Junta de Centro" },
+      { "izquierda": "Matrícula extraordinaria consumida sin éxito o denegada", "derecha": "Puede solicitar admisión en otra titulación de la UHU por una sola vez" },
+      { "izquierda": "Incumple los requisitos de permanencia del Art. 7", "derecha": "Puede solicitar al Rector ampliación de un curso académico más" },
+      { "izquierda": "Participa en un programa de movilidad", "derecha": "Exento de cumplir las condiciones de permanencia durante ese curso" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada disposición final del Reglamento con su contenido",
+    "ref": "Disposiciones adicional, transitoria, derogatoria y final del Reglamento de Permanencia UHU",
+    "pares": [
+      { "izquierda": "Disposición adicional", "derecha": "Posibilidad de solicitar al Rector ampliación de permanencia un curso más" },
+      { "izquierda": "Disposición transitoria", "derecha": "Se aplica a estudiantes que iniciaron estudios antes de la entrada en vigor" },
+      { "izquierda": "Disposición derogatoria", "derecha": "Deroga el Cap. VI del Reglamento de máster (Consejo de Gobierno 23/04/2012)" },
+      { "izquierda": "Disposición final", "derecha": "Entra en vigor al día siguiente de su aprobación por el Consejo Social (curso 2016/2017)" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada cifra o plazo con el concepto que regula en el Reglamento de Permanencia",
+    "ref": "Arts. 2, 3, 5 Reglamento de Permanencia UHU",
+    "pares": [
+      { "izquierda": "5 días", "derecha": "Plazo para solicitar matrícula a tiempo parcial tras matricularse (nuevo ingreso)" },
+      { "izquierda": "2 convocatorias", "derecha": "Convocatorias ordinarias de examen por curso académico" },
+      { "izquierda": "6 convocatorias", "derecha": "Máximo para superar cada asignatura matriculada" },
+      { "izquierda": "24 créditos", "derecha": "Máximo restante (sin TFG/TFM) para poder solicitar ampliación de matrícula" },
+      { "izquierda": "1 mes", "derecha": "Plazo para recurso de alzada ante el Rector contra resolución de cambio de modalidad" },
+      { "izquierda": "2 cambios", "derecha": "Máximo de cambios en la modalidad de matrícula durante los estudios" }
+    ]
+  }
+]

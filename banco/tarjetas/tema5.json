@@ -1,0 +1,632 @@
+[
+  {
+    "frente": "¿Qué establece y regula la Ley 40/2015, de 1 de octubre?",
+    "dorso": "Las bases del régimen jurídico de las Administraciones Públicas, los principios del sistema de responsabilidad de las AAPP y de la potestad sancionadora, así como la organización y funcionamiento de la AGE y de su sector público institucional.",
+    "ref": "Art. 1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué comprende el sector público según el art. 2 de la Ley 40/2015?",
+    "dorso": "La Administración General del Estado; las Administraciones de las Comunidades Autónomas; las Entidades que integran la Administración Local; el sector público institucional.",
+    "ref": "Art. 2.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué integra el sector público institucional según la Ley 40/2015?",
+    "dorso": "Organismos públicos y entidades de derecho público vinculados o dependientes de las AAPP; entidades de derecho privado vinculadas o dependientes de las AAPP; Universidades públicas.",
+    "ref": "Art. 2.2 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cómo se rigen las Universidades públicas en relación con la Ley 40/2015?",
+    "dorso": "Por su normativa específica y supletoriamente por las previsiones de la Ley 40/2015.",
+    "ref": "Art. 2.2.c) Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué entidades tienen la consideración de Administraciones Públicas según la Ley 40/2015?",
+    "dorso": "La AGE, las Administraciones de las CCAA, las Entidades de la Administración Local, y los organismos públicos y entidades de derecho público vinculados o dependientes de las AAPP.",
+    "ref": "Art. 2.3 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Con qué principios actúan las Administraciones Públicas según el art. 3.1 de la Ley 40/2015 (principios constitucionales)?",
+    "dorso": "Eficacia, jerarquía, descentralización, desconcentración y coordinación, con sometimiento pleno a la Constitución, a la Ley y al Derecho.",
+    "ref": "Art. 3.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿A través de qué medios se relacionarán las AAPP entre sí y con sus organismos y entidades vinculados, y qué deben asegurar?",
+    "dorso": "A través de medios electrónicos, que aseguren la interoperabilidad y seguridad de los sistemas y soluciones adoptadas.",
+    "ref": "Art. 3.2 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Con qué personalidad jurídica actúa cada Administración Pública para el cumplimiento de sus fines?",
+    "dorso": "Con personalidad jurídica única.",
+    "ref": "Art. 3.4 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué principio deben aplicar las AAPP cuando establezcan medidas que limiten derechos individuales o colectivos o exijan requisitos para el desarrollo de una actividad?",
+    "dorso": "El principio de proporcionalidad, eligiendo la medida menos restrictiva.",
+    "ref": "Art. 4.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué unidades tienen la consideración de órganos administrativos?",
+    "dorso": "Las unidades administrativas a las que se les atribuyan funciones que tengan efectos jurídicos frente a terceros, o cuya actuación tenga carácter preceptivo.",
+    "ref": "Art. 5.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué requisitos exige como mínimo la creación de cualquier órgano administrativo?",
+    "dorso": "Determinación de su forma de integración y dependencia jerárquica; delimitación de sus funciones y competencias; dotación de los créditos necesarios para su puesta en marcha y funcionamiento.",
+    "ref": "Art. 5.3 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué condición debe comprobarse antes de crear un nuevo órgano administrativo?",
+    "dorso": "Que no existe otro en la misma Administración Pública que desarrolle igual función sobre el mismo territorio y población.",
+    "ref": "Art. 5.4 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Mediante qué instrumentos pueden los órganos administrativos dirigir las actividades de sus órganos jerárquicamente dependientes?",
+    "dorso": "Mediante instrucciones y órdenes de servicio.",
+    "ref": "Art. 6.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿El incumplimiento de las instrucciones u órdenes de servicio afecta a la validez de los actos dictados por los órganos administrativos?",
+    "dorso": "No afecta por sí solo a la validez de los actos, sin perjuicio de la responsabilidad disciplinaria en que se pueda incurrir.",
+    "ref": "Art. 6.2 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cómo puede articularse la Administración consultiva según la Ley 40/2015?",
+    "dorso": "Mediante órganos específicos dotados de autonomía orgánica y funcional con respecto a la Administración activa, o a través de los servicios de esta última que prestan asistencia jurídica.",
+    "ref": "Art. 7 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿La competencia administrativa es renunciable?",
+    "dorso": "No. La competencia es irrenunciable y se ejercerá por los órganos que la tengan atribuida como propia, salvo los casos de delegación o avocación.",
+    "ref": "Art. 8.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué figuras no suponen alteración de la titularidad de la competencia?",
+    "dorso": "La delegación de competencias, las encomiendas de gestión, la delegación de firma y la suplencia.",
+    "ref": "Art. 8.1 Ley 40/2015",
+    "exp": "Aunque sí alteran los elementos determinantes de su ejercicio en cada caso."
+  },
+  {
+    "frente": "¿En qué otros órganos pueden desconcentrarse la titularidad y ejercicio de competencias?",
+    "dorso": "En otros órganos jerárquicamente dependientes, en los términos y con los requisitos que prevean las propias normas de atribución de competencias.",
+    "ref": "Art. 8.2 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "Si hay más de un órgano inferior competente por razón de materia y territorio, ¿a quién corresponde instruir y resolver los expedientes?",
+    "dorso": "Al superior jerárquico común de estos.",
+    "ref": "Art. 8.3 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿En qué órganos pueden delegarse competencias según el art. 9 de la Ley 40/2015?",
+    "dorso": "En otros órganos de la misma Administración (aun cuando no sean jerárquicamente dependientes) o en Organismos públicos o Entidades de Derecho Público vinculados o dependientes.",
+    "ref": "Art. 9.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué competencias no pueden delegarse en ningún caso (art. 9.2)?",
+    "dorso": "Las relativas a relaciones con la Jefatura del Estado, Presidencia del Gobierno, Cortes Generales, Presidencias de Consejos de Gobierno y Asambleas Legislativas de las CCAA; la adopción de disposiciones de carácter general; la resolución de recursos en los órganos que dictaron los actos recurridos; las que se determinen por norma con rango de Ley.",
+    "ref": "Art. 9.2 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Dónde deben publicarse las delegaciones de competencias y su revocación?",
+    "dorso": "En el BOE, en el Boletín Oficial de la Comunidad Autónoma o en el de la Provincia, según la Administración a que pertenezca el órgano delegante y su ámbito territorial.",
+    "ref": "Art. 9.3 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Por qué órgano se consideran dictadas las resoluciones adoptadas por delegación?",
+    "dorso": "Se consideran dictadas por el órgano delegante.",
+    "ref": "Art. 9.4 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Pueden delegarse las competencias que ya se ejercen por delegación?",
+    "dorso": "No, salvo autorización expresa de una Ley.",
+    "ref": "Art. 9.5 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Por quién puede ser avocado un asunto en el supuesto de delegación de competencias en órganos no dependientes jerárquicamente?",
+    "dorso": "Únicamente por el órgano delegante.",
+    "ref": "Art. 10.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué circunstancias hacen conveniente la avocación?",
+    "dorso": "Circunstancias de índole técnica, económica, social, jurídica o territorial.",
+    "ref": "Art. 10.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cómo se realiza la avocación y a quién debe notificarse?",
+    "dorso": "Mediante acuerdo motivado, que debe notificarse a los interesados en el procedimiento con anterioridad o simultáneamente a la resolución final.",
+    "ref": "Art. 10.2 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cabe recurso contra el acuerdo de avocación?",
+    "dorso": "No cabe recurso directo, pero puede impugnarse en el recurso que se interponga contra la resolución del procedimiento.",
+    "ref": "Art. 10.2 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué actividades pueden ser objeto de encomienda de gestión?",
+    "dorso": "Actividades de carácter material o técnico (nunca prestaciones propias de los contratos del sector público).",
+    "ref": "Art. 11.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿La encomienda de gestión supone cesión de la titularidad de la competencia?",
+    "dorso": "No supone cesión de la titularidad de la competencia ni de los elementos sustantivos de su ejercicio.",
+    "ref": "Art. 11.2 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cómo se formaliza la encomienda de gestión entre órganos de distintas Administraciones?",
+    "dorso": "Mediante firma del correspondiente convenio entre ellas.",
+    "ref": "Art. 11.3.b) Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cómo se formaliza la encomienda de gestión entre órganos de la misma Administración?",
+    "dorso": "En los términos que establezca su normativa propia y, en su defecto, por acuerdo expreso de los órganos intervinientes.",
+    "ref": "Art. 11.3.a) Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Quién tiene la condición de encargado del tratamiento de datos personales en la encomienda de gestión?",
+    "dorso": "La entidad u órgano encomendado.",
+    "ref": "Art. 11.2 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "En la delegación de firma, ¿se altera la competencia del órgano delegante? ¿Es necesaria su publicación?",
+    "dorso": "No se altera la competencia del órgano delegante y no es necesaria su publicación para su validez.",
+    "ref": "Art. 12.2 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿En quién pueden delegar la firma los titulares de los órganos administrativos?",
+    "dorso": "En los titulares de los órganos o unidades administrativas que de ellos dependan, en materias de su competencia (por atribución o por delegación).",
+    "ref": "Art. 12.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿En qué supuestos pueden ser suplidos temporalmente los titulares de órganos administrativos?",
+    "dorso": "Vacante, ausencia, enfermedad, o cuando se haya declarado su abstención o recusación.",
+    "ref": "Art. 13.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿La suplencia implica alteración de la competencia? ¿Requiere publicación?",
+    "dorso": "No implica alteración de la competencia y no es necesaria su publicación para su validez.",
+    "ref": "Art. 13.2 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué hará el órgano administrativo que se estime incompetente para resolver un asunto?",
+    "dorso": "Remitirá directamente las actuaciones al órgano que considere competente, debiendo notificarlo a los interesados.",
+    "ref": "Art. 14.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Entre qué órganos pueden suscitarse conflictos de atribuciones?",
+    "dorso": "Solo entre órganos de una misma Administración no relacionados jerárquicamente, y respecto a asuntos sobre los que no haya finalizado el procedimiento administrativo.",
+    "ref": "Art. 14.3 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué quórum se requiere para la válida constitución de un órgano colegiado?",
+    "dorso": "La asistencia (presencial o a distancia) del Presidente y Secretario (o sus suplentes) y de la mitad, al menos, de sus miembros.",
+    "ref": "Art. 17.2 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Pueden celebrarse sesiones de órganos colegiados a distancia?",
+    "dorso": "Sí, todos los órganos colegiados pueden constituirse, convocarse, celebrar sesiones, adoptar acuerdos y remitir actas tanto presencial como a distancia, salvo que su reglamento interno lo excluya expresa y excepcionalmente.",
+    "ref": "Art. 17.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Puede deliberarse sobre un asunto no incluido en el orden del día de un órgano colegiado?",
+    "dorso": "No, salvo que asistan todos los miembros y se declare la urgencia por mayoría de votos.",
+    "ref": "Art. 17.4 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cómo se adoptan los acuerdos en un órgano colegiado?",
+    "dorso": "Por mayoría de votos.",
+    "ref": "Art. 17.5 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Dónde se entienden adoptados los acuerdos cuando se asiste a distancia a un órgano colegiado?",
+    "dorso": "En el lugar donde tenga la sede el órgano colegiado y, en su defecto, donde esté ubicada la presidencia.",
+    "ref": "Art. 17.5 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Quién garantiza que los procedimientos y reglas de constitución y adopción de acuerdos de un órgano colegiado sean respetados?",
+    "dorso": "El Secretario del órgano colegiado.",
+    "ref": "Art. 16.2 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Quién puede pedir certificación de los acuerdos de un órgano colegiado?",
+    "dorso": "Quienes acrediten la titularidad de un interés legítimo.",
+    "ref": "Art. 17.7 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cuándo puede aprobarse el acta de una sesión de un órgano colegiado?",
+    "dorso": "En la misma reunión o en la inmediata siguiente.",
+    "ref": "Art. 18.2 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Con qué antelación mínima deben recibir los miembros del órgano colegiado la convocatoria con el orden del día (en la AGE)?",
+    "dorso": "Con una antelación mínima de dos días.",
+    "ref": "Art. 19.3.a) Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Quién dirime con su voto los empates en un órgano colegiado de la AGE?",
+    "dorso": "El Presidente (voto de calidad).",
+    "ref": "Art. 19.2.d) Ley 40/2015",
+    "exp": "Excepto en los órganos del art. 15.2, donde solo será dirimente si lo establecen sus propias normas."
+  },
+  {
+    "frente": "¿Pueden abstenerse en las votaciones los miembros natos de un órgano colegiado que tengan la condición de autoridades o personal al servicio de las AAPP?",
+    "dorso": "No, no podrán abstenerse quienes por su condición de autoridades o personal al servicio de las AAPP tengan la condición de miembros natos en virtud del cargo que desempeñan.",
+    "ref": "Art. 19.3.c) Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿En qué plazo pueden los miembros que discrepen del acuerdo mayoritario formular voto particular por escrito?",
+    "dorso": "En el plazo de dos días.",
+    "ref": "Art. 19.5 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Por cuántas personas mínimo deben estar integrados los órganos colegiados de la AGE?",
+    "dorso": "Por tres o más personas.",
+    "ref": "Art. 20.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cuáles son los motivos de abstención del personal al servicio de las AAPP (art. 23)?",
+    "dorso": "Interés personal en el asunto; vínculo matrimonial o parentesco de consanguinidad (4.º grado) o afinidad (2.º grado) con interesados; amistad íntima o enemistad manifiesta; haber intervenido como perito o testigo; relación de servicio con interesado o haberle prestado servicios profesionales en los dos últimos años.",
+    "ref": "Art. 23.2 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Hasta qué grado de consanguinidad y de afinidad es motivo de abstención el parentesco con un interesado?",
+    "dorso": "Consanguinidad hasta el cuarto grado; afinidad hasta el segundo grado.",
+    "ref": "Art. 23.2.b) Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿La no abstención cuando concurre causa implica necesariamente la invalidez de los actos?",
+    "dorso": "No necesariamente; no implicará en todo caso la invalidez, pero dará lugar a la responsabilidad que proceda.",
+    "ref": "Art. 23.4-5 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿En qué plazo debe el recusado manifestar a su superior inmediato si concurre la causa de recusación alegada?",
+    "dorso": "En el día siguiente.",
+    "ref": "Art. 24.3 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "Si el recusado niega la causa de recusación, ¿en qué plazo resuelve su superior?",
+    "dorso": "En el plazo de tres días.",
+    "ref": "Art. 24.4 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cabe recurso contra las resoluciones adoptadas en materia de recusación?",
+    "dorso": "No cabe recurso, sin perjuicio de poder alegar la recusación al interponer el recurso contra el acto que ponga fin al procedimiento.",
+    "ref": "Art. 24.5 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cuándo se ejercerá la potestad sancionadora de las AAPP?",
+    "dorso": "Cuando haya sido expresamente reconocida por una norma con rango de Ley.",
+    "ref": "Art. 25.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿A quién corresponde el ejercicio de la potestad sancionadora?",
+    "dorso": "A los órganos administrativos que la tengan expresamente atribuida por disposición de rango legal o reglamentario.",
+    "ref": "Art. 25.2 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cuándo producen efecto retroactivo las disposiciones sancionadoras?",
+    "dorso": "Cuando favorezcan al presunto infractor o al infractor, tanto en la tipificación de la infracción como en la sanción y sus plazos de prescripción, incluso respecto de sanciones pendientes de cumplimiento.",
+    "ref": "Art. 26.2 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cómo se clasifican las infracciones administrativas?",
+    "dorso": "En leves, graves y muy graves.",
+    "ref": "Art. 27.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Son susceptibles de aplicación analógica las normas definidoras de infracciones y sanciones?",
+    "dorso": "No, no serán susceptibles de aplicación analógica.",
+    "ref": "Art. 27.4 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Pueden las sanciones administrativas implicar privación de libertad?",
+    "dorso": "No. En ningún caso podrán implicar, directa o subsidiariamente, privación de libertad.",
+    "ref": "Art. 29.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué es la reincidencia a efectos de graduación de la sanción?",
+    "dorso": "La comisión en el término de un año de más de una infracción de la misma naturaleza cuando así haya sido declarado por resolución firme en vía administrativa.",
+    "ref": "Art. 29.3.d) Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué es la infracción continuada?",
+    "dorso": "La realización de una pluralidad de acciones u omisiones que infrinjan el mismo o semejantes preceptos administrativos, en ejecución de un plan preconcebido o aprovechando idéntica ocasión.",
+    "ref": "Art. 29.6 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cuáles son los plazos de prescripción de las infracciones si la ley no fija plazos?",
+    "dorso": "Muy graves: 3 años; graves: 2 años; leves: 6 meses.",
+    "ref": "Art. 30.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cuáles son los plazos de prescripción de las sanciones si la ley no fija plazos?",
+    "dorso": "Muy graves: 3 años; graves: 2 años; leves: 1 año.",
+    "ref": "Art. 30.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Desde cuándo se cuenta el plazo de prescripción de las infracciones?",
+    "dorso": "Desde el día en que la infracción se hubiera cometido. En infracciones continuadas o permanentes, desde que finalizó la conducta infractora.",
+    "ref": "Art. 30.2 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Desde cuándo se cuenta el plazo de prescripción de las sanciones?",
+    "dorso": "Desde el día siguiente a aquel en que sea ejecutable la resolución por la que se impone la sanción o haya transcurrido el plazo para recurrirla.",
+    "ref": "Art. 30.3 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué interrumpe la prescripción de las infracciones?",
+    "dorso": "La iniciación, con conocimiento del interesado, de un procedimiento sancionador. Se reinicia si el expediente está paralizado más de un mes por causa no imputable al presunto responsable.",
+    "ref": "Art. 30.2 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué exige el principio non bis in idem en la Ley 40/2015?",
+    "dorso": "No podrán sancionarse los hechos que lo hayan sido penal o administrativamente cuando se aprecie identidad del sujeto, hecho y fundamento.",
+    "ref": "Art. 31.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cuándo tienen los particulares derecho a ser indemnizados por las AAPP?",
+    "dorso": "Cuando sufran lesión en sus bienes o derechos como consecuencia del funcionamiento normal o anormal de los servicios públicos, salvo fuerza mayor o daños que tengan el deber jurídico de soportar.",
+    "ref": "Art. 32.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué requisitos debe reunir el daño alegado para ser indemnizable?",
+    "dorso": "Debe ser efectivo, evaluable económicamente e individualizado con relación a una persona o grupo de personas.",
+    "ref": "Art. 32.2 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿La anulación de actos o disposiciones administrativas presupone por sí misma derecho a indemnización?",
+    "dorso": "No.",
+    "ref": "Art. 32.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "Cuando varias AAPP causan un daño mediante fórmulas conjuntas de actuación, ¿cómo responden frente al particular?",
+    "dorso": "De forma solidaria, en todo caso.",
+    "ref": "Art. 33.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Con arreglo a qué criterios se calcula la indemnización por responsabilidad patrimonial?",
+    "dorso": "Los criterios de valoración de la legislación fiscal, de expropiación forzosa y demás normas aplicables, ponderando las valoraciones predominantes en el mercado.",
+    "ref": "Art. 34.2 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Con referencia a qué fecha se calcula la cuantía de la indemnización?",
+    "dorso": "Al día en que la lesión efectivamente se produjo, actualizándose a la fecha de finalización del procedimiento de responsabilidad con arreglo al Índice de Garantía de la Competitividad.",
+    "ref": "Art. 34.3 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿A quién exigen los particulares las indemnizaciones por daños causados por autoridades y personal?",
+    "dorso": "Directamente a la Administración Pública correspondiente (no al funcionario).",
+    "ref": "Art. 36.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cuándo puede la Administración repetir contra sus autoridades y personal?",
+    "dorso": "Cuando hubiera indemnizado a los lesionados, exigirá de oficio la responsabilidad en que hubieran incurrido por dolo, o culpa o negligencia graves.",
+    "ref": "Art. 36.2 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué trámites incluye como mínimo el procedimiento de exigencia de responsabilidad al personal (art. 36.4)?",
+    "dorso": "Alegaciones (15 días); práctica de pruebas (15 días); audiencia (10 días); propuesta de resolución (5 días); resolución (5 días).",
+    "ref": "Art. 36.4 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué es una sede electrónica según la Ley 40/2015?",
+    "dorso": "Una dirección electrónica, disponible para los ciudadanos a través de redes de telecomunicaciones, cuya titularidad corresponde a una Administración Pública o a organismos/entidades de Derecho Público.",
+    "ref": "Art. 38.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué responsabilidad conlleva el establecimiento de una sede electrónica para su titular?",
+    "dorso": "La responsabilidad respecto de la integridad, veracidad y actualización de la información y servicios accesibles a través de la misma.",
+    "ref": "Art. 38.2 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué es un portal de internet según la Ley 40/2015?",
+    "dorso": "El punto de acceso electrónico cuya titularidad corresponde a una Administración Pública, organismo público o entidad de Derecho Público que permite el acceso a través de internet a la información publicada y, en su caso, a la sede electrónica correspondiente.",
+    "ref": "Art. 39 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cuándo se entiende identificada una Administración Pública respecto de la información que publica?",
+    "dorso": "Respecto de la información que se publique como propia en su portal de internet.",
+    "ref": "Art. 40.2 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué es la actuación administrativa automatizada?",
+    "dorso": "Cualquier acto o actuación realizada íntegramente a través de medios electrónicos por una Administración Pública en el marco de un procedimiento administrativo en la que no haya intervenido de forma directa un empleado público.",
+    "ref": "Art. 41.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cómo se almacenarán los documentos utilizados en las actuaciones administrativas?",
+    "dorso": "Por medios electrónicos, salvo cuando no sea posible.",
+    "ref": "Art. 46.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿De acuerdo con qué instrumento deben contar con medidas de seguridad los medios o soportes de almacenamiento de documentos?",
+    "dorso": "De acuerdo con lo previsto en el Esquema Nacional de Seguridad.",
+    "ref": "Art. 46.3 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué son los convenios según el art. 47 de la Ley 40/2015?",
+    "dorso": "Acuerdos con efectos jurídicos adoptados por las AAPP, los organismos públicos y entidades de derecho público vinculados o dependientes o las Universidades públicas entre sí o con sujetos de derecho privado para un fin común.",
+    "ref": "Art. 47.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué no tiene la consideración de convenio?",
+    "dorso": "Los Protocolos Generales de Actuación o instrumentos similares que comporten meras declaraciones de intención de contenido general sin compromisos jurídicos concretos y exigibles.",
+    "ref": "Art. 47.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cuáles son los cuatro tipos de convenios según la Ley 40/2015?",
+    "dorso": "Interadministrativos (entre AAPP de distintas Administraciones); intradministrativos (entre organismos de la misma Administración); con sujetos de Derecho privado; internacionales no constitutivos de tratado.",
+    "ref": "Art. 47.2 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué quedan excluidos de los convenios interadministrativos?",
+    "dorso": "Los suscritos entre dos o más Comunidades Autónomas para la gestión y prestación de servicios propios de las mismas (se rigen por sus respectivos Estatutos de Autonomía).",
+    "ref": "Art. 47.2.a) Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cuál es la duración máxima de un convenio?",
+    "dorso": "Cuatro años, salvo que normativamente se prevea un plazo superior.",
+    "ref": "Art. 49.h).1.º Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Puede prorrogarse un convenio? ¿Por cuánto tiempo?",
+    "dorso": "Sí, los firmantes pueden acordar unánimemente su prórroga por un periodo de hasta cuatro años adicionales, antes de que finalice su plazo de vigencia.",
+    "ref": "Art. 49.h).2.º Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cómo se perfeccionan los convenios?",
+    "dorso": "Por la prestación del consentimiento de las partes.",
+    "ref": "Art. 48.8 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿En qué plazo deben inscribirse en el Registro Electrónico estatal los convenios de la AGE para resultar eficaces?",
+    "dorso": "En el plazo de 5 días hábiles desde su formalización.",
+    "ref": "Art. 48.8 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿En qué plazo deben publicarse en el BOE los convenios de la AGE?",
+    "dorso": "En el plazo de 10 días hábiles desde su formalización.",
+    "ref": "Art. 48.8 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué requiere la modificación del contenido de un convenio a falta de regulación expresa?",
+    "dorso": "Acuerdo unánime de los firmantes.",
+    "ref": "Art. 49.g) Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Qué documentos deben acompañar a todo convenio?",
+    "dorso": "Una memoria justificativa donde se analice su necesidad y oportunidad, su impacto económico, el carácter no contractual de la actividad y el cumplimiento de la Ley 40/2015.",
+    "ref": "Art. 50.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿En qué plazo debe emitirse el informe del servicio jurídico para los convenios de la AGE?",
+    "dorso": "En un plazo máximo de siete días hábiles desde su solicitud; transcurrido el plazo se continúa la tramitación, pero debe incorporarse antes del perfeccionamiento.",
+    "ref": "Art. 50.2.a) Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cuáles son las causas de extinción de los convenios?",
+    "dorso": "Cumplimiento de su objeto o por incurrir en causa de resolución.",
+    "ref": "Art. 51.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿Cuáles son las causas de resolución de los convenios (art. 51.2)?",
+    "dorso": "Transcurso del plazo sin prórroga; acuerdo unánime de todos los firmantes; incumplimiento de obligaciones; decisión judicial declaratoria de nulidad; cualquier otra causa prevista en el convenio u otras leyes.",
+    "ref": "Art. 51.2 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿A dónde deben remitirse los convenios interadministrativos suscritos con las CCAA?",
+    "dorso": "Al Senado, por el Ministerio de Política Territorial.",
+    "ref": "Art. 50.2.e) Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿A partir de qué importe deben remitirse los convenios al Tribunal de Cuentas?",
+    "dorso": "Cuando los compromisos económicos asumidos superen los 600.000 euros, dentro de los tres meses siguientes a su suscripción.",
+    "ref": "Art. 53.1 Ley 40/2015",
+    "exp": ""
+  },
+  {
+    "frente": "¿A qué da lugar el cumplimiento y la resolución de los convenios?",
+    "dorso": "A la liquidación de los mismos con el objeto de determinar las obligaciones y compromisos de cada una de las partes.",
+    "ref": "Art. 52.1 Ley 40/2015",
+    "exp": ""
+  }
+]

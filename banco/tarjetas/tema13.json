@@ -1,0 +1,422 @@
+[
+  {
+    "frente": "¿Qué es el Consejo de Gobierno de la Universidad de Huelva y cuál es su función principal?",
+    "dorso": "Es el órgano de gobierno de la Universidad. Establece las líneas estratégicas y programáticas, así como las directrices y procedimientos para su aplicación en organización de enseñanzas, investigación, recursos humanos y económicos, y elaboración de presupuestos.",
+    "ref": "Estatutos UHU, Título I – Consejo de Gobierno",
+    "exp": "Regulado conforme a la Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario (LOSU)."
+  },
+  {
+    "frente": "¿Quién preside el Consejo de Gobierno de la UHU y quiénes son sus miembros natos?",
+    "dorso": "Lo preside el Rector o Rectora. Son miembros natos el Secretario/a General y el/la Gerente.",
+    "ref": "Estatutos UHU – Consejo de Gobierno"
+  },
+  {
+    "frente": "¿Cuántos miembros tiene como máximo el Consejo de Gobierno de la UHU y cuántos designa el Rector?",
+    "dorso": "Un máximo de 50 miembros, de los cuales 15 son designados por el Rector o Rectora.",
+    "ref": "Estatutos UHU – Consejo de Gobierno"
+  },
+  {
+    "frente": "¿Con qué periodicidad se reúne en sesión ordinaria el Consejo de Gobierno de la UHU?",
+    "dorso": "Al menos una vez cada dos meses.",
+    "ref": "Estatutos UHU – Consejo de Gobierno",
+    "exp": "En sesión extraordinaria: a petición de un quinto de sus miembros no natos o a instancia del Rector."
+  },
+  {
+    "frente": "¿Qué es el Claustro Universitario de la UHU?",
+    "dorso": "Es el máximo órgano colegiado de representación de la comunidad universitaria.",
+    "ref": "Estatutos UHU – Claustro Universitario"
+  },
+  {
+    "frente": "¿Cuántos representantes componen el Claustro Universitario de la UHU (sin contar los natos)?",
+    "dorso": "252 representantes de los distintos sectores de la comunidad universitaria.",
+    "ref": "Estatutos UHU – Claustro Universitario"
+  },
+  {
+    "frente": "¿Por cuánto tiempo son elegidos los representantes del Claustro y cuál es la excepción?",
+    "dorso": "Mandato de 4 años, salvo los representantes del alumnado que son elegidos por un mandato de 2 años.",
+    "ref": "Estatutos UHU – Claustro Universitario"
+  },
+  {
+    "frente": "¿Con qué periodicidad se reúne el Claustro Universitario de forma ordinaria?",
+    "dorso": "Al menos dos veces al año.",
+    "ref": "Estatutos UHU – Claustro Universitario"
+  },
+  {
+    "frente": "¿Qué es el Consejo Social de la UHU y cuál es su función?",
+    "dorso": "Es el órgano de participación de la sociedad en la Universidad. Garantiza la participación de la sociedad en la universidad y representa los diversos intereses sociales y de la comunidad universitaria.",
+    "ref": "Estatutos UHU – Consejo Social"
+  },
+  {
+    "frente": "¿Cuáles son los objetivos del Consejo Social de la UHU?",
+    "dorso": "Ser interlocutor entre la universidad y la sociedad; impulsar actividades de participación; promover espacios de colaboración e intercambio; impulsar políticas que refuercen el papel social.",
+    "ref": "Estatutos UHU – Consejo Social"
+  },
+  {
+    "frente": "¿Cuáles son las competencias del Consejo Social de la UHU?",
+    "dorso": "Aprobación y supervisión de actividades económicas; rendimiento y calidad de los servicios; planificación y desarrollo institucional; fomento de las relaciones con la sociedad.",
+    "ref": "Estatutos UHU – Consejo Social"
+  },
+  {
+    "frente": "¿Quién nombra al Presidente del Consejo Social de la UHU?",
+    "dorso": "La Comunidad Autónoma.",
+    "ref": "Estatutos UHU – Consejo Social"
+  },
+  {
+    "frente": "¿Qué es el Rector de la Universidad de Huelva?",
+    "dorso": "Es la máxima autoridad académica de la Universidad. Ejerce la dirección, gobierno y gestión de la Universidad, desarrolla las líneas de actuación aprobadas por los órganos colegiados y ejecuta sus acuerdos.",
+    "ref": "Estatutos UHU – Rector"
+  },
+  {
+    "frente": "¿Qué requisitos deben cumplir los Vicerrectores/as de la UHU?",
+    "dorso": "Deben ser miembros del profesorado doctor que presten servicios en la Universidad de Huelva.",
+    "ref": "Estatutos UHU – Vicerrectores"
+  },
+  {
+    "frente": "¿Cuáles son los 11 Vicerrectorados actuales de la Universidad de Huelva?",
+    "dorso": "Investigación y Planificación Estratégica; Transferencia y Desarrollo Territorial; Ordenación Académica y Profesorado; Calidad y Concursos Docentes; Alianzas Internacionales; Estudiantes; Igualdad, Campus Saludable y Justicia Social; Formación y Desarrollo Profesional; Doctorado, Política Lingüística y Biblioteca; Campus Sostenible y Transformación Digital; Proyección Universitaria.",
+    "ref": "Estructura organizativa UHU – Vicerrectorados"
+  },
+  {
+    "frente": "¿Qué servicios están vinculados al Vicerrectorado de Investigación y Planificación Estratégica?",
+    "dorso": "Oficina de Gestión de la Investigación; Centros de Investigación; Oficina para la gestión y tratamiento de datos.",
+    "ref": "Estructura organizativa UHU – Vicerrectorado de Investigación"
+  },
+  {
+    "frente": "¿Qué servicios están vinculados al Vicerrectorado de Transferencia y Desarrollo Territorial?",
+    "dorso": "Cátedras Externas; Oficina de Transferencia de Conocimiento (OTC); SOIPEA; Unidad de Cultura Científica y de la Innovación (UCC+i).",
+    "ref": "Estructura organizativa UHU – Vicerrectorado de Transferencia"
+  },
+  {
+    "frente": "¿Qué servicio de la UHU gestiona las Spin-offs?",
+    "dorso": "La Oficina de Transferencia de Conocimiento (OTC), vinculada al Vicerrectorado de Transferencia y Desarrollo Territorial.",
+    "ref": "Estructura organizativa UHU – OTC"
+  },
+  {
+    "frente": "¿Qué servicios están vinculados al Vicerrectorado de Ordenación Académica y Profesorado?",
+    "dorso": "Gestión de Personal Docente; Ordenación Académica; Títulos de Grado y Máster Oficial.",
+    "ref": "Estructura organizativa UHU – Vicerrectorado de Ordenación Académica"
+  },
+  {
+    "frente": "¿Qué servicios están vinculados al Vicerrectorado de Calidad y Concursos Docentes?",
+    "dorso": "Concursos Docentes; Programa Docentia; Unidad para la Calidad.",
+    "ref": "Estructura organizativa UHU – Vicerrectorado de Calidad"
+  },
+  {
+    "frente": "¿Qué servicios están vinculados al Vicerrectorado de Alianzas Internacionales?",
+    "dorso": "Alianza PIONEER; Servicio de Relaciones Internacionales.",
+    "ref": "Estructura organizativa UHU – Vicerrectorado de Alianzas Internacionales"
+  },
+  {
+    "frente": "¿Qué servicios están vinculados al Vicerrectorado de Estudiantes?",
+    "dorso": "Alumni UHU; Servicio de Gestión Académica; Servicio de Secretarías de los Centros; Unidad de Orientación y Atención al Estudiante; Participación y Representación Estudiantil.",
+    "ref": "Estructura organizativa UHU – Vicerrectorado de Estudiantes"
+  },
+  {
+    "frente": "¿Qué servicios están vinculados al Vicerrectorado de Igualdad, Campus Saludable y Justicia Social?",
+    "dorso": "Unidad de Igualdad y Atención a la Diversidad; Unidad de Salud; Inclusión y Justicia Social; Cooperación Internacional.",
+    "ref": "Estructura organizativa UHU – Vicerrectorado de Igualdad"
+  },
+  {
+    "frente": "¿Qué servicios están vinculados al Vicerrectorado de Formación y Desarrollo Profesional?",
+    "dorso": "Formación del PDI; Formación del PTGAS; Innovación docente.",
+    "ref": "Estructura organizativa UHU – Vicerrectorado de Formación"
+  },
+  {
+    "frente": "¿Qué servicios están vinculados al Vicerrectorado de Doctorado, Política Lingüística y Biblioteca?",
+    "dorso": "Biblioteca Universitaria; Escuela de Doctorado; Política Lingüística.",
+    "ref": "Estructura organizativa UHU – Vicerrectorado de Doctorado"
+  },
+  {
+    "frente": "¿Qué servicios están vinculados al Vicerrectorado de Campus Sostenible y Transformación Digital?",
+    "dorso": "Informática y Comunicaciones; Enseñanza Virtual; Infraestructura.",
+    "ref": "Estructura organizativa UHU – Vicerrectorado de Campus Sostenible"
+  },
+  {
+    "frente": "¿Qué servicios están vinculados al Vicerrectorado de Proyección Universitaria?",
+    "dorso": "Área de Cultura; Aula de la Experiencia; Editorial; Museo Pedagógico; Relaciones Institucionales; Servicio de Actividades Físicas y Deportivas; Tienda Universitaria.",
+    "ref": "Estructura organizativa UHU – Vicerrectorado de Proyección Universitaria"
+  },
+  {
+    "frente": "¿Qué función cumple el Secretario/a General de la UHU?",
+    "dorso": "Es un órgano unipersonal de gobierno. Actúa como Secretario/a del Consejo de Gobierno y se integra en cuantas comisiones se estime preciso.",
+    "ref": "Estatutos UHU – Secretaría General"
+  },
+  {
+    "frente": "¿Qué servicios están vinculados a la Secretaría General de la UHU?",
+    "dorso": "Archivo Universitario; Asesoría Jurídica; Órganos Colegiados; Protección de Datos; Registro General.",
+    "ref": "Estructura organizativa UHU – Secretaría General"
+  },
+  {
+    "frente": "¿Qué función tiene el Gerente de la UHU y de quién depende?",
+    "dorso": "Se ocupa de la gestión de los servicios administrativos y económicos de la Universidad, bajo la inmediata dependencia del Rector o Rectora.",
+    "ref": "Estatutos UHU – Gerente"
+  },
+  {
+    "frente": "¿De qué órganos es miembro nato el Gerente de la UHU?",
+    "dorso": "Del Consejo Social, del Claustro Universitario y del Consejo de Gobierno.",
+    "ref": "Estatutos UHU – Gerente"
+  },
+  {
+    "frente": "¿Qué servicios están vinculados a la Gerencia de la UHU?",
+    "dorso": "Área de Contratación e Infraestructura; Conserjerías y Coordinación de Campus; Servicio de Gestión Presupuestaria, Planificación Económica y Patrimonio; Servicio de Prevención de Riesgos Laborales; Servicio de Recursos Humanos; Servicio de Lenguas Modernas.",
+    "ref": "Estructura organizativa UHU – Gerencia"
+  },
+  {
+    "frente": "¿Qué es la Junta de Centro en la UHU?",
+    "dorso": "Es el órgano colegiado de gobierno de las Facultades y Escuelas, representativo de la comunidad universitaria que lo integra.",
+    "ref": "Estatutos UHU – Órganos de gobierno de los Centros"
+  },
+  {
+    "frente": "¿Cuántos miembros componen una Junta de Centro en la UHU y qué porcentaje mínimo deben ser cuerpos docentes?",
+    "dorso": "Entre 20 y 80 miembros (incluidos los natos), de los que al menos el 51% serán profesores pertenecientes a los cuerpos docentes universitarios.",
+    "ref": "Estatutos UHU – Juntas de Centro"
+  },
+  {
+    "frente": "¿Quién puede ser Decano/a de Facultad en la UHU?",
+    "dorso": "Un Profesor o Profesora Doctor con vinculación permanente a la Universidad que imparta docencia en ese centro.",
+    "ref": "Estatutos UHU – Decanos"
+  },
+  {
+    "frente": "¿Qué excepción existe para la Dirección de una Escuela en la UHU respecto al requisito de doctor?",
+    "dorso": "En las Escuelas, la Dirección del Centro podrá recaer en profesorado no doctor con vinculación permanente.",
+    "ref": "Estatutos UHU – Directores de Escuela"
+  },
+  {
+    "frente": "¿Quién elige al Director/a de Departamento en la UHU y qué mayoría se necesita?",
+    "dorso": "Lo elige el Consejo de Departamento entre el profesorado doctor con vinculación permanente, por mayoría absoluta.",
+    "ref": "Estatutos UHU – Directores de Departamento"
+  },
+  {
+    "frente": "¿Cuáles son las Facultades y Escuela de la Universidad de Huelva?",
+    "dorso": "Facultad de Ciencias Experimentales; Facultad de Humanidades; Facultad de Educación, Psicología y Ciencias del Deporte; Facultad de Ciencias Empresariales y Turismo; Facultad de Derecho; Facultad de Trabajo Social; Facultad de Ciencias del Trabajo; Facultad de Enfermería; Escuela Técnica Superior de Ingeniería (ETSI).",
+    "ref": "Centros UHU"
+  },
+  {
+    "frente": "¿Qué grados se imparten en la Facultad de Ciencias Experimentales de la UHU?",
+    "dorso": "Geología; Ciencias Ambientales; Química; Física. Dobles grados: Geología y Ciencias Ambientales; Ciencias Ambientales e Ingeniería Forestal y del Medio Natural.",
+    "ref": "Catálogo de titulaciones UHU – Fac. Ciencias Experimentales"
+  },
+  {
+    "frente": "¿Qué grados se imparten en la Facultad de Humanidades de la UHU?",
+    "dorso": "Estudios Ingleses; Filología Hispánica; Doble Grado en Estudios Ingleses y Filología Hispánica; Humanidades; Historia; Gestión Cultural (a extinguir); Gestión Cultural Virtual.",
+    "ref": "Catálogo de titulaciones UHU – Fac. Humanidades"
+  },
+  {
+    "frente": "¿Qué grados se imparten en la Facultad de Educación, Psicología y Ciencias del Deporte de la UHU?",
+    "dorso": "Ciencias de la Actividad Física y del Deporte; Educación Infantil; Educación Primaria; Educación Social; Psicología.",
+    "ref": "Catálogo de titulaciones UHU – Fac. Educación"
+  },
+  {
+    "frente": "¿Qué grados se imparten en la Facultad de Ciencias Empresariales y Turismo de la UHU?",
+    "dorso": "Administración y Dirección de Empresas; Finanzas y Contabilidad; Turismo. Dobles grados: ADE+FICO; ADE+Turismo; ADE+Derecho.",
+    "ref": "Catálogo de titulaciones UHU – Fac. Ciencias Empresariales"
+  },
+  {
+    "frente": "¿Qué grados oferta la Facultad de Enfermería de la UHU?",
+    "dorso": "Grado en Enfermería y Grado en Medicina.",
+    "ref": "Catálogo de titulaciones UHU – Fac. Enfermería"
+  },
+  {
+    "frente": "¿En qué modalidades se imparte el Grado en Relaciones Laborales y Recursos Humanos en la UHU?",
+    "dorso": "En modalidad presencial y en modalidad virtual.",
+    "ref": "Catálogo de titulaciones UHU – Fac. Ciencias del Trabajo"
+  },
+  {
+    "frente": "¿Cuáles son las 5 ramas de estudio en las que se clasifican las titulaciones de grado de la UHU?",
+    "dorso": "Humanidades; Ciencias y Ciencias de la Salud; Ciencias Sociales y Jurídicas; Ingenierías (Ingeniería y Arquitectura).",
+    "ref": "Catálogo de titulaciones UHU",
+    "exp": "Son 4 ramas principales según el catálogo del temario."
+  },
+  {
+    "frente": "¿A qué rama de estudio pertenece el Grado en Psicología en la UHU?",
+    "dorso": "A la rama de Ciencias y Ciencias de la Salud.",
+    "ref": "Catálogo de titulaciones UHU"
+  },
+  {
+    "frente": "¿A qué rama de estudio pertenece el Grado en Educación Primaria en la UHU?",
+    "dorso": "A la rama de Ciencias Sociales y Jurídicas.",
+    "ref": "Catálogo de titulaciones UHU"
+  },
+  {
+    "frente": "¿Cuáles son los 4 campus de la Universidad de Huelva?",
+    "dorso": "El Carmen; La Merced; La Rábida; Cantero Cuadrado.",
+    "ref": "Información general UHU – Campus"
+  },
+  {
+    "frente": "¿Cuál es la función de los Departamentos universitarios en la UHU?",
+    "dorso": "Coordinar las enseñanzas de una o varias Áreas de Conocimiento en uno o múltiples centros, apoyar las actividades e iniciativas docentes e investigadoras del profesorado.",
+    "ref": "Estatutos UHU – Departamentos"
+  },
+  {
+    "frente": "Nombra al menos 10 Departamentos de la Universidad de Huelva.",
+    "dorso": "Ciencias Agroforestales; Ciencias de la Tierra; Ciencias Integradas; Derecho Público y del Trabajo; Didácticas Integradas; Dirección de Empresas y Marketing; Economía; Economía Financiera, Contabilidad y Dirección de Operaciones; Enfermería; Filología; Filología Inglesa; Historia, Geografía y Antropología.",
+    "ref": "Departamentos UHU",
+    "exp": "La UHU tiene 23 departamentos en total."
+  },
+  {
+    "frente": "¿Cuál es el nombre completo del departamento de la UHU que incluye 'Ingeniería Electrónica'?",
+    "dorso": "Departamento de Ingeniería Electrónica, de Sistemas Informáticos y Automática.",
+    "ref": "Departamentos UHU"
+  },
+  {
+    "frente": "¿Cuál es el nombre completo del departamento de Química con nombre honorífico de la UHU?",
+    "dorso": "Departamento de Química – Profesor José Carlos Vílchez Martín.",
+    "ref": "Departamentos UHU"
+  },
+  {
+    "frente": "¿Existe un departamento llamado 'Theodor Mommsen' en la UHU?",
+    "dorso": "Sí, es uno de los 23 departamentos de la Universidad de Huelva.",
+    "ref": "Departamentos UHU"
+  },
+  {
+    "frente": "¿Qué es el Aula de la Experiencia de la UHU y a quién va dirigida?",
+    "dorso": "Es un programa de desarrollo social, cultural y científico dirigido a mujeres y hombres mayores de 55 años que no estén matriculados en una titulación oficial.",
+    "ref": "Servicios UHU – Aula de la Experiencia"
+  },
+  {
+    "frente": "¿Se exige titulación previa o prueba selectiva para acceder al Aula de la Experiencia de la UHU?",
+    "dorso": "No, no se exige ningún tipo de prueba selectiva ni acreditar titulación previa.",
+    "ref": "Servicios UHU – Aula de la Experiencia"
+  },
+  {
+    "frente": "¿Dónde se ubica la sede principal del Aula de la Experiencia de la UHU?",
+    "dorso": "En el Campus del Carmen (Avda. Tres de Marzo s/n, 21071 Huelva).",
+    "ref": "Servicios UHU – Aula de la Experiencia"
+  },
+  {
+    "frente": "¿Dónde se encuentra el Servicio de Lenguas Modernas de la UHU?",
+    "dorso": "En el Edificio Juan Agustín de Mora (planta baja), Campus de El Carmen.",
+    "ref": "Servicios UHU – Lenguas Modernas"
+  },
+  {
+    "frente": "¿Qué es el SOIPEA de la UHU y a qué Vicerrectorado está vinculado?",
+    "dorso": "Es el Servicio de Orientación, Información y Prácticas para el Empleo y el Autoempleo. Está vinculado al Vicerrectorado de Transferencia y Desarrollo Territorial.",
+    "ref": "Servicios UHU – SOIPEA"
+  },
+  {
+    "frente": "¿Cuándo fue aprobado el SOIPEA y qué número de agencia de colocación tiene?",
+    "dorso": "Fue aprobado en Junta de Gobierno el 6 de junio de 1999. Agencia de colocación nº 0100000014.",
+    "ref": "Servicios UHU – SOIPEA"
+  },
+  {
+    "frente": "¿Qué funciones principales tiene el Servicio de Atención a la Comunidad Universitaria (SACU)?",
+    "dorso": "1) Gestionar y difundir información sobre acceso, trámites, becas, premios, actividades. 2) Orientar en temas académicos, sociales o de salud a la comunidad universitaria.",
+    "ref": "Servicios UHU – SACU"
+  },
+  {
+    "frente": "¿Dónde se ubica el SACU de la UHU?",
+    "dorso": "Edificio Juan Agustín de Mora, 1ª planta, Campus El Carmen.",
+    "ref": "Servicios UHU – SACU"
+  },
+  {
+    "frente": "¿Qué es la Defensoría Universitaria de la UHU?",
+    "dorso": "Es el órgano encargado de proteger y defender los derechos y libertades del alumnado, PDI y PAS en su relación con los diferentes órganos y servicios de la Universidad.",
+    "ref": "Servicios UHU – Defensoría Universitaria"
+  },
+  {
+    "frente": "¿Dónde se ubica la Defensoría Universitaria de la UHU?",
+    "dorso": "Edificio Zenobia Camprubí, Campus de El Carmen.",
+    "ref": "Servicios UHU – Defensoría Universitaria"
+  },
+  {
+    "frente": "¿Qué es la Inspección de Servicios de la UHU y sobre quién ejerce sus funciones?",
+    "dorso": "Es un órgano que vela por el correcto funcionamiento de los servicios de la Universidad. Ejerce sus funciones sobre todos los centros, departamentos, servicios y unidades, así como sobre todo el PDI, PAS y estudiantes.",
+    "ref": "Servicios UHU – Inspección de Servicios"
+  },
+  {
+    "frente": "¿Dónde se ubica la Inspección de Servicios de la UHU?",
+    "dorso": "Campus del Carmen, Pabellón 7, Edificio Zenobia Camprubí.",
+    "ref": "Servicios UHU – Inspección de Servicios"
+  },
+  {
+    "frente": "¿Qué modalidades tiene el Registro General de la UHU?",
+    "dorso": "Electrónica (online, disponible 24 horas) y Presencial (en C/ Dr. Cantero Cuadrado, 6; y Oficina Auxiliar en Edificio Juan Agustín de Mora, Campus de El Carmen).",
+    "ref": "Servicios UHU – Registro General"
+  },
+  {
+    "frente": "¿Dónde se encuentra el Servicio de Informática y Comunicaciones de la UHU?",
+    "dorso": "En el Edificio Alan Turing, Campus de El Carmen.",
+    "ref": "Servicios UHU – Informática y Comunicaciones"
+  },
+  {
+    "frente": "¿Dónde se encuentra la Editorial de la UHU?",
+    "dorso": "En el Edificio Marie Curie, Campus de El Carmen.",
+    "ref": "Servicios UHU – Editorial UHU"
+  },
+  {
+    "frente": "¿Dónde se encuentra la Oficina de Gestión de la Investigación y la OTC de la UHU?",
+    "dorso": "En el Edificio Marie Curie, 1ª planta, Campus de El Carmen.",
+    "ref": "Servicios UHU – OGI y OTC"
+  },
+  {
+    "frente": "¿Dónde se ubica el Servicio de Cultura de la UHU?",
+    "dorso": "En el Edificio Zenobia Camprubí (antiguo Pabellón 7), Campus de El Carmen.",
+    "ref": "Servicios UHU – Cultura"
+  },
+  {
+    "frente": "¿Dónde se encuentra la Escuela de Doctorado de la UHU?",
+    "dorso": "En C/ Dr. Cantero Cuadrado, 6, Edificio Rectorado, 3ª planta. También tiene oficina en la Facultad de Ciencias Experimentales del Campus del Carmen.",
+    "ref": "Servicios UHU – Escuela de Doctorado"
+  },
+  {
+    "frente": "¿Qué funciones realiza el Servicio de Gestión Académica de la UHU?",
+    "dorso": "Trámite administrativo para acceso a la Universidad, matriculación, solicitud y gestión de becas y ayudas, solicitud de títulos oficiales, recursos a resoluciones de Decanos/Directores.",
+    "ref": "Servicios UHU – Gestión Académica"
+  },
+  {
+    "frente": "¿Dónde se ubica el Servicio de Gestión Académica de la UHU?",
+    "dorso": "Edificio Juan Agustín de Mora, Campus de El Carmen.",
+    "ref": "Servicios UHU – Gestión Académica"
+  },
+  {
+    "frente": "¿Cuáles son las vías de acceso a la Universidad de Huelva?",
+    "dorso": "PAU (Prueba de Acceso a la Universidad); Mayores de 25 años; Mayores de 40 años; Mayores de 45 años.",
+    "ref": "Servicios UHU – Gestión Académica",
+    "exp": "En exámenes se pregunta frecuentemente si existe acceso para mayores de 55 años (no existe como tal; el de 55 es para el Aula de la Experiencia, no para titulación oficial)."
+  },
+  {
+    "frente": "¿Qué es el Aula de Sostenibilidad de la UHU?",
+    "dorso": "Es un órgano representativo, competente y responsable de la política ambiental de la Universidad de Huelva.",
+    "ref": "Servicios UHU – Aula de Sostenibilidad"
+  },
+  {
+    "frente": "¿Dónde se ubica el Aula de Sostenibilidad de la UHU?",
+    "dorso": "En la Facultad de Ciencias Experimentales (zona Decanato), Campus El Carmen.",
+    "ref": "Servicios UHU – Aula de Sostenibilidad"
+  },
+  {
+    "frente": "¿Dónde se ubica el Servicio de Prevención de Riesgos Laborales de la UHU?",
+    "dorso": "En C/ Doctor Cantero Cuadrado, 6 (Campus Cantero Cuadrado / Rectorado).",
+    "ref": "Servicios UHU – Prevención de Riesgos Laborales"
+  },
+  {
+    "frente": "¿Qué funciones tiene el Servicio de Prevención de Riesgos Laborales de la UHU?",
+    "dorso": "Vigilancia de la salud; gestión de residuos peligrosos; procedimientos y recursos para la prevención y protección frente a accidentes.",
+    "ref": "Servicios UHU – Prevención de Riesgos Laborales"
+  },
+  {
+    "frente": "¿Dónde se ubica el Servicio de Actividades Físicas y Deportivas de la UHU?",
+    "dorso": "En el Pabellón Príncipe de Asturias, Avenida de las Artes, s/n, Campus El Carmen.",
+    "ref": "Servicios UHU – Actividades Físicas y Deportivas"
+  },
+  {
+    "frente": "¿Qué servicio de la UHU gestiona videoconferencias?",
+    "dorso": "El Servicio de Informática y Comunicaciones.",
+    "ref": "Servicios UHU – Informática y Comunicaciones"
+  },
+  {
+    "frente": "¿Qué servicio de la UHU dispone del catálogo Columbus?",
+    "dorso": "La Biblioteca Universitaria.",
+    "ref": "Servicios UHU – Biblioteca"
+  },
+  {
+    "frente": "¿A qué Vicerrectorado está vinculado 'Innovación docente' en la UHU?",
+    "dorso": "Al Vicerrectorado de Formación y Desarrollo Profesional.",
+    "ref": "Estructura organizativa UHU – Vicerrectorado de Formación"
+  },
+  {
+    "frente": "¿Qué ley orgánica regula actualmente el Sistema Universitario español?",
+    "dorso": "La Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario (LOSU).",
+    "ref": "Estatutos UHU – Marco legal"
+  }
+]

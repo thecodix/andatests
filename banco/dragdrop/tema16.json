@@ -1,0 +1,188 @@
+[
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada herramienta según pertenezca al grupo Fuente o al grupo Párrafo de la pestaña Inicio",
+    "ref": "Apartados 10.1 y 10.2 — Formato de fuente y de párrafo",
+    "categorias": ["Fuente", "Párrafo"],
+    "items": [
+      { "texto": "Negrita", "categoria": "Fuente" },
+      { "texto": "Cursiva", "categoria": "Fuente" },
+      { "texto": "Tachado", "categoria": "Fuente" },
+      { "texto": "Color de fuente", "categoria": "Fuente" },
+      { "texto": "Tamaño de fuente", "categoria": "Fuente" },
+      { "texto": "Alineación (izquierda, centrada, derecha, justificada)", "categoria": "Párrafo" },
+      { "texto": "Interlineado", "categoria": "Párrafo" },
+      { "texto": "Sangrías", "categoria": "Párrafo" },
+      { "texto": "Viñetas y numeración", "categoria": "Párrafo" },
+      { "texto": "Bordes y sombreados", "categoria": "Párrafo" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada opción de formato de página según se gestione desde la pestaña Disposición o desde la pestaña Diseño",
+    "ref": "Apartados 2.3 y 10.3 — Estructuración y formato de página",
+    "categorias": ["Disposición", "Diseño"],
+    "items": [
+      { "texto": "Márgenes", "categoria": "Disposición" },
+      { "texto": "Orientación (vertical/horizontal)", "categoria": "Disposición" },
+      { "texto": "Columnas", "categoria": "Disposición" },
+      { "texto": "Saltos de página y de sección", "categoria": "Disposición" },
+      { "texto": "Temas (colores, fuentes y efectos)", "categoria": "Diseño" },
+      { "texto": "Marca de agua", "categoria": "Diseño" },
+      { "texto": "Colores de página", "categoria": "Diseño" },
+      { "texto": "Bordes de página", "categoria": "Diseño" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada característica según corresponda a Viñetas, Numeración o Lista multinivel (esquema numerado)",
+    "ref": "Apartado 8 — Viñetas, numeración y esquema numerado",
+    "categorias": ["Viñetas", "Numeración", "Lista multinivel"],
+    "items": [
+      { "texto": "Antepone un símbolo (no un número) a cada elemento", "categoria": "Viñetas" },
+      { "texto": "Se puede definir una imagen propia como marcador", "categoria": "Viñetas" },
+      { "texto": "Dispone de biblioteca de símbolos y viñetas recientes", "categoria": "Viñetas" },
+      { "texto": "Antepone un número o letra (arábigo, romano, alfabético…)", "categoria": "Numeración" },
+      { "texto": "Permite definir el valor inicial desde el que empieza la lista", "categoria": "Numeración" },
+      { "texto": "Combina estilo de número con texto antes y después (ej. «Capítulo 1.»)", "categoria": "Numeración" },
+      { "texto": "Permite crear listas con varios niveles jerárquicos", "categoria": "Lista multinivel" },
+      { "texto": "Se cambia de nivel con TABULADOR / MAYÚS+TABULADOR", "categoria": "Lista multinivel" },
+      { "texto": "Puede vincular cada nivel a un estilo de párrafo distinto", "categoria": "Lista multinivel" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada pestaña de la cinta de opciones según sea habitual (siempre visible) o contextual (aparece solo al seleccionar un objeto)",
+    "ref": "Apartados 1.3, 4, 5 y 7 — Entorno de Word, tablas, objetos y encabezado/pie",
+    "categorias": ["Habitual", "Contextual"],
+    "items": [
+      { "texto": "Inicio", "categoria": "Habitual" },
+      { "texto": "Insertar", "categoria": "Habitual" },
+      { "texto": "Disposición", "categoria": "Habitual" },
+      { "texto": "Referencias", "categoria": "Habitual" },
+      { "texto": "Diseño de tabla (al seleccionar una tabla)", "categoria": "Contextual" },
+      { "texto": "Presentación (al seleccionar una tabla)", "categoria": "Contextual" },
+      { "texto": "Formato (al seleccionar un objeto o imagen)", "categoria": "Contextual" },
+      { "texto": "Diseño — Herramientas de encabezado y pie de página", "categoria": "Contextual" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada elemento insertable según pertenezca al grupo Ilustraciones o al grupo Texto de la pestaña Insertar",
+    "ref": "Apartado 5 — Objetos",
+    "categorias": ["Ilustraciones", "Texto"],
+    "items": [
+      { "texto": "Imágenes", "categoria": "Ilustraciones" },
+      { "texto": "Formas", "categoria": "Ilustraciones" },
+      { "texto": "Iconos", "categoria": "Ilustraciones" },
+      { "texto": "SmartArt", "categoria": "Ilustraciones" },
+      { "texto": "Gráficos", "categoria": "Ilustraciones" },
+      { "texto": "Cuadro de texto", "categoria": "Texto" },
+      { "texto": "Partes rápidas", "categoria": "Texto" },
+      { "texto": "Fecha y hora", "categoria": "Texto" },
+      { "texto": "Objeto incrustado de otra aplicación", "categoria": "Texto" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada atajo de teclado con la acción de gestión de documentos que realiza en la versión en español de Word 365",
+    "ref": "Anexo — Cuadro resumen de atajos de teclado",
+    "pares": [
+      { "izquierda": "CTRL+U", "derecha": "Crear documento nuevo" },
+      { "izquierda": "CTRL+A", "derecha": "Abrir documento" },
+      { "izquierda": "CTRL+F4", "derecha": "Cerrar el documento activo" },
+      { "izquierda": "CTRL+P", "derecha": "Abrir opciones de impresión" },
+      { "izquierda": "CTRL+E", "derecha": "Seleccionar todo el documento" },
+      { "izquierda": "CTRL+B", "derecha": "Buscar" },
+      { "izquierda": "CTRL+L", "derecha": "Reemplazar" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada atajo de teclado con la acción de formato que realiza en Word 365",
+    "ref": "Anexo — Cuadro resumen de atajos de teclado",
+    "pares": [
+      { "izquierda": "CTRL+N", "derecha": "Negrita" },
+      { "izquierda": "CTRL+K", "derecha": "Cursiva" },
+      { "izquierda": "CTRL+S", "derecha": "Subrayado simple" },
+      { "izquierda": "CTRL+Q", "derecha": "Alinear a la izquierda" },
+      { "izquierda": "CTRL+T", "derecha": "Centrar texto" },
+      { "izquierda": "CTRL+D", "derecha": "Alinear a la derecha" },
+      { "izquierda": "CTRL+J", "derecha": "Justificar" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada vista de documento con su descripción",
+    "ref": "Apartado 12 — Diseño de impresión y vistas",
+    "pares": [
+      { "izquierda": "Diseño de impresión", "derecha": "Vista predeterminada; muestra el documento tal como quedará al imprimirse" },
+      { "izquierda": "Modo de lectura", "derecha": "Oculta la cinta y organiza el contenido en páginas tipo libro" },
+      { "izquierda": "Diseño web", "derecha": "Sin saltos de página, como aparecería en una página web" },
+      { "izquierda": "Esquema", "derecha": "Organizado por niveles de título, útil para reorganizar documentos largos" },
+      { "izquierda": "Borrador", "derecha": "Vista simplificada sin encabezados, pies ni elementos gráficos" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada acción del ratón o teclado con la unidad de texto que selecciona",
+    "ref": "Apartado 3.2 — Selección de texto",
+    "pares": [
+      { "izquierda": "Doble clic sobre una palabra", "derecha": "Selecciona una palabra" },
+      { "izquierda": "Clic a la izquierda de la línea", "derecha": "Selecciona una línea" },
+      { "izquierda": "CTRL + clic en una palabra de la frase", "derecha": "Selecciona una frase" },
+      { "izquierda": "Triple clic sobre el párrafo", "derecha": "Selecciona un párrafo" },
+      { "izquierda": "CTRL+E", "derecha": "Selecciona todo el documento" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada pestaña de la cinta de opciones con un grupo o herramienta que contiene",
+    "ref": "Apartados 1.3, 4, 5, 6, 7, 8, 9 y 10",
+    "pares": [
+      { "izquierda": "Inicio", "derecha": "Fuente, Párrafo y Estilos" },
+      { "izquierda": "Insertar", "derecha": "Tablas, Ilustraciones, Encabezado y pie de página" },
+      { "izquierda": "Diseño", "derecha": "Temas, Marca de agua y Bordes de página" },
+      { "izquierda": "Disposición", "derecha": "Configurar página (Márgenes, Orientación, Columnas, Saltos)" },
+      { "izquierda": "Referencias", "derecha": "Tabla de contenido y Notas al pie" },
+      { "izquierda": "Vista", "derecha": "Vistas del documento, Zoom y Regla" }
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena las zonas principales del entorno de Word de arriba a abajo en la ventana",
+    "ref": "Apartado 1.3 — El entorno de la aplicación",
+    "items": [
+      "Barra de título",
+      "Barra de acceso rápido",
+      "Cinta de opciones",
+      "Regla",
+      "Barra de estado"
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena los pasos necesarios para generar automáticamente una tabla de contenido en Word",
+    "ref": "Apartado 2.3 — Estructuración del documento (Títulos y tabla de contenido)",
+    "items": [
+      "Redactar el contenido del documento con sus títulos y subtítulos",
+      "Aplicar los estilos de título (Título 1, Título 2…) a los títulos principales",
+      "Situar el cursor en el punto donde se desea insertar la tabla de contenido",
+      "Insertar la tabla de contenido desde la pestaña Referencias"
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena las pestañas habituales de la cinta de opciones de Word de izquierda a derecha",
+    "ref": "Apartado 1.3 — El entorno de la aplicación",
+    "items": [
+      "Archivo",
+      "Inicio",
+      "Insertar",
+      "Diseño",
+      "Disposición",
+      "Referencias",
+      "Correspondencia"
+    ]
+  }
+]

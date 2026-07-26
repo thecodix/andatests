@@ -1,0 +1,268 @@
+[
+  {
+    "frente": "¿Quién tiene derecho a acceder a la información pública según la Ley 19/2013?",
+    "dorso": "Todas las personas.",
+    "ref": "Art. 12 Ley 19/2013",
+    "exp": "No se limita a ciudadanos españoles ni a interesados en un procedimiento; es un derecho universal."
+  },
+  {
+    "frente": "¿En qué artículo de la Constitución Española se fundamenta el derecho de acceso a la información pública desarrollado por la Ley 19/2013?",
+    "dorso": "En el artículo 105.b) de la Constitución Española.",
+    "ref": "Art. 12 Ley 19/2013"
+  },
+  {
+    "frente": "¿Qué se entiende por «información pública» según la Ley 19/2013?",
+    "dorso": "Los contenidos o documentos, cualquiera que sea su formato o soporte, que obren en poder de alguno de los sujetos incluidos en el ámbito de aplicación de la ley y que hayan sido elaborados o adquiridos en el ejercicio de sus funciones.",
+    "ref": "Art. 13 Ley 19/2013"
+  },
+  {
+    "frente": "Enumera los 12 límites al derecho de acceso a la información pública (art. 14 Ley 19/2013).",
+    "dorso": "Seguridad nacional; defensa; relaciones exteriores; seguridad pública; prevención/investigación/sanción de ilícitos penales, administrativos o disciplinarios; igualdad de partes en procesos judiciales y tutela judicial efectiva; funciones administrativas de vigilancia, inspección y control; intereses económicos y comerciales; política económica y monetaria; secreto profesional y propiedad intelectual e industrial; confidencialidad en procesos de toma de decisión; protección del medio ambiente.",
+    "ref": "Art. 14.1 Ley 19/2013"
+  },
+  {
+    "frente": "¿Cómo debe ser la aplicación de los límites al derecho de acceso a la información pública?",
+    "dorso": "Justificada y proporcionada a su objeto y finalidad de protección.",
+    "ref": "Art. 14.2 Ley 19/2013"
+  },
+  {
+    "frente": "¿A qué debe atender la aplicación de los límites al derecho de acceso?",
+    "dorso": "A las circunstancias del caso concreto, especialmente a la concurrencia de un interés público o privado superior que justifique el acceso.",
+    "ref": "Art. 14.2 Ley 19/2013"
+  },
+  {
+    "frente": "¿Qué ocurre con las resoluciones dictadas en aplicación de los límites del art. 14 de la Ley 19/2013?",
+    "dorso": "Son objeto de publicidad previa disociación de los datos de carácter personal, una vez hayan sido notificadas a los interesados.",
+    "ref": "Art. 14.3 Ley 19/2013"
+  },
+  {
+    "frente": "Si la información solicitada contiene datos que revelen ideología, afiliación sindical, religión o creencias, ¿qué se requiere para autorizar el acceso?",
+    "dorso": "El consentimiento expreso y por escrito del afectado, a menos que este hubiese hecho manifiestamente públicos los datos con anterioridad.",
+    "ref": "Art. 15.1 Ley 19/2013",
+    "exp": "Este es el nivel más exigente de protección: expreso + por escrito."
+  },
+  {
+    "frente": "Si la información contiene datos sobre origen racial, salud, vida sexual, datos genéticos o biométricos, o infracciones penales/administrativas que no conlleven amonestación pública, ¿qué se requiere para autorizar el acceso?",
+    "dorso": "El consentimiento expreso del afectado o que el acceso esté amparado por una norma con rango de ley.",
+    "ref": "Art. 15.1 Ley 19/2013",
+    "exp": "A diferencia de ideología/religión, aquí basta consentimiento expreso (sin exigir que sea por escrito) o una norma con rango de ley."
+  },
+  {
+    "frente": "¿Qué tipo de datos personales permite con carácter general el acceso a la información, salvo que prevalezca la protección de datos?",
+    "dorso": "Los datos meramente identificativos relacionados con la organización, funcionamiento o actividad pública del órgano.",
+    "ref": "Art. 15.2 Ley 19/2013"
+  },
+  {
+    "frente": "Cuando la información no contiene datos especialmente protegidos, ¿qué 4 criterios toma en consideración el órgano para la ponderación del acceso?",
+    "dorso": "a) Menor perjuicio por el transcurso de plazos del art. 57 Ley del Patrimonio Histórico; b) justificación de la petición en el ejercicio de un derecho o condición de investigadores con fines históricos, científicos o estadísticos; c) menor perjuicio si los datos son meramente identificativos; d) mayor garantía si afectan a intimidad, seguridad o se refieren a menores de edad.",
+    "ref": "Art. 15.3 Ley 19/2013"
+  },
+  {
+    "frente": "¿Cuándo NO se aplican las restricciones de protección de datos del art. 15 de la Ley 19/2013?",
+    "dorso": "Cuando el acceso se efectúe previa disociación de los datos personales de modo que se impida la identificación de las personas afectadas.",
+    "ref": "Art. 15.4 Ley 19/2013"
+  },
+  {
+    "frente": "¿Qué normativa se aplica al tratamiento posterior de los datos obtenidos mediante el ejercicio del derecho de acceso?",
+    "dorso": "La normativa de protección de datos personales.",
+    "ref": "Art. 15.5 Ley 19/2013"
+  },
+  {
+    "frente": "¿Cuándo procede conceder el acceso parcial a la información pública?",
+    "dorso": "Cuando los límites del art. 14 no afecten a la totalidad de la información, previa omisión de la parte afectada, salvo que de ello resulte una información distorsionada o que carezca de sentido.",
+    "ref": "Art. 16 Ley 19/2013"
+  },
+  {
+    "frente": "En caso de concederse acceso parcial a la información, ¿qué debe indicarse al solicitante?",
+    "dorso": "Que parte de la información ha sido omitida.",
+    "ref": "Art. 16 Ley 19/2013"
+  },
+  {
+    "frente": "¿Cómo se inicia el procedimiento para ejercer el derecho de acceso a la información pública?",
+    "dorso": "Con la presentación de la correspondiente solicitud.",
+    "ref": "Art. 17.1 Ley 19/2013"
+  },
+  {
+    "frente": "¿A quién debe dirigirse la solicitud de acceso a la información pública?",
+    "dorso": "Al titular del órgano administrativo o entidad que posea la información.",
+    "ref": "Art. 17.1 Ley 19/2013",
+    "exp": "Si se trata de información en posesión de personas que prestan servicios públicos, la solicitud se dirige a la Administración a la que se encuentren vinculadas."
+  },
+  {
+    "frente": "¿Qué 4 extremos debe permitir acreditar la solicitud de acceso a la información pública?",
+    "dorso": "a) La identidad del solicitante; b) la información que se solicita; c) una dirección de contacto, preferentemente electrónica; d) en su caso, la modalidad preferida para acceder a la información.",
+    "ref": "Art. 17.2 Ley 19/2013"
+  },
+  {
+    "frente": "¿Está obligado el solicitante a motivar su solicitud de acceso a la información pública?",
+    "dorso": "No. Podrá exponer motivos (que podrán ser tenidos en cuenta al resolver), pero la ausencia de motivación no será por sí sola causa de rechazo.",
+    "ref": "Art. 17.3 Ley 19/2013"
+  },
+  {
+    "frente": "¿En qué lenguas pueden dirigirse los solicitantes de información a las Administraciones Públicas?",
+    "dorso": "En cualquiera de las lenguas cooficiales del Estado en el territorio en que radique la Administración.",
+    "ref": "Art. 17.4 Ley 19/2013"
+  },
+  {
+    "frente": "¿Cuáles son las 5 causas de inadmisión a trámite de solicitudes de acceso a la información (art. 18)?",
+    "dorso": "a) Información en curso de elaboración o de publicación general; b) información auxiliar o de apoyo (notas, borradores, opiniones, resúmenes, comunicaciones e informes internos); c) información que requiera reelaboración previa; d) dirigidas a un órgano que no posee la información y se desconoce el competente; e) solicitudes manifiestamente repetitivas o de carácter abusivo.",
+    "ref": "Art. 18.1 Ley 19/2013"
+  },
+  {
+    "frente": "¿Mediante qué tipo de resolución se inadmiten a trámite las solicitudes de acceso a la información?",
+    "dorso": "Mediante resolución motivada.",
+    "ref": "Art. 18.1 Ley 19/2013"
+  },
+  {
+    "frente": "Si se inadmite una solicitud porque se dirige a un órgano que no posee la información y se desconoce el competente, ¿qué debe indicar la resolución?",
+    "dorso": "El órgano que, a su juicio, es competente para conocer de la solicitud.",
+    "ref": "Art. 18.2 Ley 19/2013"
+  },
+  {
+    "frente": "Si la solicitud de acceso se refiere a información que no obra en poder del sujeto al que se dirige, ¿cómo debe actuar este?",
+    "dorso": "La remitirá al competente (si lo conoce) e informará de esta circunstancia al solicitante.",
+    "ref": "Art. 19.1 Ley 19/2013"
+  },
+  {
+    "frente": "Si la solicitud no identifica de forma suficiente la información, ¿qué plazo se concede al solicitante para concretarla?",
+    "dorso": "10 días. Si no lo hace, se le tendrá por desistido. Se suspende el plazo para dictar resolución.",
+    "ref": "Art. 19.2 Ley 19/2013"
+  },
+  {
+    "frente": "Si la información solicitada pudiera afectar a derechos o intereses de terceros identificados, ¿qué plazo se les concede para alegar?",
+    "dorso": "15 días para realizar las alegaciones que estimen oportunas.",
+    "ref": "Art. 19.3 Ley 19/2013",
+    "exp": "Se suspende el plazo para dictar resolución hasta que se reciban las alegaciones o transcurra el plazo."
+  },
+  {
+    "frente": "¿De qué debe ser informado el solicitante cuando se da audiencia a terceros cuyos derechos pudieran verse afectados?",
+    "dorso": "De esta circunstancia y de la suspensión del plazo para dictar resolución hasta que se reciban las alegaciones o transcurra el plazo para presentarlas.",
+    "ref": "Art. 19.3 Ley 19/2013"
+  },
+  {
+    "frente": "Cuando la información ha sido elaborada o generada en su integridad o parte principal por otro sujeto distinto del que la posee, ¿qué se hace con la solicitud?",
+    "dorso": "Se le remite la solicitud a aquel que la elaboró para que decida sobre el acceso.",
+    "ref": "Art. 19.4 Ley 19/2013"
+  },
+  {
+    "frente": "¿Cuál es el plazo máximo para notificar la resolución que concede o deniega el acceso a la información?",
+    "dorso": "Un mes desde la recepción de la solicitud por el órgano competente para resolver.",
+    "ref": "Art. 20.1 Ley 19/2013"
+  },
+  {
+    "frente": "¿Puede ampliarse el plazo de un mes para resolver sobre el acceso a la información? ¿En qué condiciones?",
+    "dorso": "Sí, por otro mes, cuando el volumen o la complejidad de la información lo hagan necesario, previa notificación al solicitante.",
+    "ref": "Art. 20.1 Ley 19/2013"
+  },
+  {
+    "frente": "¿Qué resoluciones en materia de acceso a la información pública deben ser motivadas?",
+    "dorso": "Las que denieguen el acceso; las que concedan acceso parcial o a través de modalidad distinta a la solicitada; y las que permitan el acceso habiendo habido oposición de un tercero.",
+    "ref": "Art. 20.2 Ley 19/2013"
+  },
+  {
+    "frente": "Si la mera indicación de la existencia o inexistencia de la información vulneraría un límite al acceso, ¿qué se hace?",
+    "dorso": "Se indica esta circunstancia al desestimar la solicitud.",
+    "ref": "Art. 20.3 Ley 19/2013"
+  },
+  {
+    "frente": "¿Qué efecto tiene el silencio administrativo (transcurso del plazo sin resolución expresa) en materia de acceso a la información?",
+    "dorso": "La solicitud se entiende desestimada (silencio negativo).",
+    "ref": "Art. 20.4 Ley 19/2013"
+  },
+  {
+    "frente": "¿Ante qué jurisdicción son directamente recurribles las resoluciones en materia de acceso a la información pública?",
+    "dorso": "Ante la jurisdicción contencioso-administrativa, sin perjuicio de la reclamación potestativa ante el Consejo de Transparencia (art. 24).",
+    "ref": "Art. 20.5 Ley 19/2013"
+  },
+  {
+    "frente": "¿Qué consideración tiene el incumplimiento reiterado de la obligación de resolver en plazo las solicitudes de acceso?",
+    "dorso": "Infracción grave a efectos de la aplicación del régimen disciplinario.",
+    "ref": "Art. 20.6 Ley 19/2013"
+  },
+  {
+    "frente": "¿Qué deben establecer las Administraciones Públicas incluidas en el ámbito de la Ley de Transparencia respecto a las solicitudes de información?",
+    "dorso": "Sistemas para integrar la gestión de solicitudes de información de los ciudadanos en el funcionamiento de su organización interna.",
+    "ref": "Art. 21.1 Ley 19/2013"
+  },
+  {
+    "frente": "En la Administración General del Estado, ¿qué órganos existen para gestionar el acceso a la información y cuántas funciones tienen asignadas?",
+    "dorso": "Unidades especializadas, con 8 funciones: recabar y difundir información del Cap. II; recibir y tramitar solicitudes; trámites internos de acceso; seguimiento y control; registro de solicitudes; disponibilidad en web de la info más solicitada; mapa de contenidos actualizado; y todas las necesarias para la correcta aplicación de la ley.",
+    "ref": "Art. 21.2 Ley 19/2013"
+  },
+  {
+    "frente": "¿Qué obligación tienen las entidades (no AGE) incluidas en el ámbito de la Ley de Transparencia respecto a las solicitudes de acceso?",
+    "dorso": "Identificar claramente el órgano competente para conocer de las solicitudes de acceso.",
+    "ref": "Art. 21.3 Ley 19/2013"
+  },
+  {
+    "frente": "¿Por qué vía se realizará preferentemente el acceso a la información pública?",
+    "dorso": "Por vía electrónica, salvo cuando no sea posible o el solicitante haya señalado expresamente otro medio.",
+    "ref": "Art. 22.1 Ley 19/2013"
+  },
+  {
+    "frente": "Si no puede darse el acceso a la información en el momento de la notificación de la resolución, ¿en qué plazo máximo deberá otorgarse?",
+    "dorso": "En un plazo no superior a 10 días.",
+    "ref": "Art. 22.1 Ley 19/2013"
+  },
+  {
+    "frente": "Si ha existido oposición de un tercero y se concede el acceso, ¿cuándo se hace efectivo?",
+    "dorso": "Cuando haya transcurrido el plazo para interponer recurso contencioso-administrativo sin que se haya formalizado, o cuando dicho recurso haya sido resuelto confirmando el derecho a recibir la información.",
+    "ref": "Art. 22.2 Ley 19/2013"
+  },
+  {
+    "frente": "Si la información ya ha sido publicada, ¿qué puede hacer la resolución?",
+    "dorso": "Limitarse a indicar al solicitante cómo puede acceder a ella.",
+    "ref": "Art. 22.3 Ley 19/2013"
+  },
+  {
+    "frente": "¿Es gratuito el acceso a la información pública?",
+    "dorso": "Sí, el acceso es gratuito. No obstante, la expedición de copias o la trasposición a un formato diferente al original puede dar lugar a la exigencia de exacciones.",
+    "ref": "Art. 22.4 Ley 19/2013"
+  },
+  {
+    "frente": "¿Qué consideración tiene la reclamación ante el Consejo de Transparencia y Buen Gobierno respecto a los recursos administrativos?",
+    "dorso": "Es sustitutiva de los recursos administrativos (conforme al art. 107.2 Ley 30/1992).",
+    "ref": "Art. 23.1 Ley 19/2013"
+  },
+  {
+    "frente": "Contra las resoluciones dictadas por los órganos del art. 2.1.f) de la Ley 19/2013, ¿qué recurso cabe?",
+    "dorso": "Solo cabe la interposición de recurso contencioso-administrativo (no procede la reclamación ante el Consejo de Transparencia).",
+    "ref": "Art. 23.2 Ley 19/2013"
+  },
+  {
+    "frente": "¿Ante qué órgano puede interponerse reclamación frente a resoluciones expresas o presuntas en materia de acceso a la información?",
+    "dorso": "Ante el Consejo de Transparencia y Buen Gobierno.",
+    "ref": "Art. 24.1 Ley 19/2013"
+  },
+  {
+    "frente": "¿Qué carácter tiene la reclamación ante el Consejo de Transparencia y Buen Gobierno?",
+    "dorso": "Potestativo y previo a su impugnación en vía contencioso-administrativa.",
+    "ref": "Art. 24.1 Ley 19/2013"
+  },
+  {
+    "frente": "¿En qué plazo debe interponerse la reclamación ante el Consejo de Transparencia y Buen Gobierno?",
+    "dorso": "Un mes, a contar desde el día siguiente al de la notificación del acto impugnado o desde el día siguiente a aquel en que se produzcan los efectos del silencio administrativo.",
+    "ref": "Art. 24.2 Ley 19/2013"
+  },
+  {
+    "frente": "¿Cuál es el plazo máximo para resolver y notificar la resolución de la reclamación ante el Consejo de Transparencia?",
+    "dorso": "Tres meses. Transcurrido sin resolución, la reclamación se entiende desestimada.",
+    "ref": "Art. 24.4 Ley 19/2013"
+  },
+  {
+    "frente": "Si la denegación del acceso se fundamenta en la protección de derechos de terceros, ¿qué trámite se otorga previamente a la resolución de la reclamación?",
+    "dorso": "Trámite de audiencia a las personas que pudieran resultar afectadas para que aleguen lo que a su derecho convenga.",
+    "ref": "Art. 24.3 Ley 19/2013"
+  },
+  {
+    "frente": "¿Cómo se publican las resoluciones del Consejo de Transparencia y Buen Gobierno y a quién se comunican?",
+    "dorso": "Se publican por medios electrónicos, previa disociación de los datos personales. El Presidente del Consejo las comunica al Defensor del Pueblo.",
+    "ref": "Art. 24.5 Ley 19/2013"
+  },
+  {
+    "frente": "¿Quién ostenta la competencia para conocer de las reclamaciones en materia de acceso cuando las Comunidades Autónomas no hayan atribuido dicha competencia a un órgano propio?",
+    "dorso": "El Consejo de Transparencia y Buen Gobierno.",
+    "ref": "Art. 24.6 Ley 19/2013",
+    "exp": "Las CCAA pueden atribuir la competencia a un órgano específico propio según la disposición adicional cuarta."
+  }
+]

@@ -1,0 +1,487 @@
+[
+  {
+    "frente": "¿Cuál es la denominación actual del paquete ofimático de Microsoft en el que se integra Word?",
+    "dorso": "Microsoft 365 (anteriormente Office 365).",
+    "ref": "Tema 16 - Apartado 1.1",
+    "exp": "El cambio de nombre responde a que la suite incorpora herramientas más allá de la ofimática clásica (Teams, Skype, etc.)."
+  },
+  {
+    "frente": "¿Cuáles son las dos formas de utilizar Word 365?",
+    "dorso": "De forma local (programa instalado en el equipo) o de forma online (desde cualquier navegador, sin necesidad de instalación).",
+    "ref": "Tema 16 - Apartado 1.2",
+    "exp": "El acceso online se realiza a través de OneDrive."
+  },
+  {
+    "frente": "¿Qué muestra la barra de título de Word?",
+    "dorso": "El nombre del documento abierto.",
+    "ref": "Tema 16 - Apartado 1.3"
+  },
+  {
+    "frente": "¿Qué comandos incluye por defecto la barra de acceso rápido de Word 365?",
+    "dorso": "Guardar, Deshacer y Rehacer. Si el documento está en OneDrive, aparece también el control de autoguardado.",
+    "ref": "Tema 16 - Apartado 1.3"
+  },
+  {
+    "frente": "¿Dónde se sitúa la barra de acceso rápido en Word 365?",
+    "dorso": "Por encima de la cinta de opciones (aunque puede mostrarse también debajo de ella).",
+    "ref": "Tema 16 - Apartado 1.3"
+  },
+  {
+    "frente": "¿Cuáles son las pestañas habituales de la cinta de opciones de Word 365?",
+    "dorso": "Archivo, Inicio, Insertar, Diseño, Disposición, Referencias, Correspondencia, Revisar y Vista.",
+    "ref": "Tema 16 - Apartado 1.3",
+    "exp": "No existe una pestaña llamada «Fórmulas» (es de Excel) ni una pestaña genérica llamada «Formato»."
+  },
+  {
+    "frente": "¿Qué atajo de teclado contrae o expande la cinta de opciones en Word 365?",
+    "dorso": "CTRL+F1.",
+    "ref": "Tema 16 - Apartado 1.3",
+    "exp": "También se puede contraer haciendo doble clic sobre cualquiera de sus pestañas."
+  },
+  {
+    "frente": "¿Desde qué pestaña se activa la regla (horizontal y vertical) en Word 365?",
+    "dorso": "Desde la pestaña Vista.",
+    "ref": "Tema 16 - Apartado 1.3"
+  },
+  {
+    "frente": "¿Qué información muestra la barra de estado de Word 365?",
+    "dorso": "Número de página, recuento de palabras, idioma, accesos a las vistas del documento, control de Zoom, indicación del modo concentración y estado del autoguardado.",
+    "ref": "Tema 16 - Apartado 1.3"
+  },
+  {
+    "frente": "¿Cuál es la vista predeterminada con la que se abre Word 365?",
+    "dorso": "Diseño de impresión.",
+    "ref": "Tema 16 - Apartado 1.4"
+  },
+  {
+    "frente": "¿Cuáles son las vistas disponibles en Word 365?",
+    "dorso": "Diseño de impresión (predeterminada), Modo de lectura, Diseño web, Esquema y Borrador.",
+    "ref": "Tema 16 - Apartado 1.4"
+  },
+  {
+    "frente": "¿Dónde se encuentra el control de Zoom en Word 365?",
+    "dorso": "En el grupo Zoom de la pestaña Vista y como deslizador en el extremo derecho de la barra de estado.",
+    "ref": "Tema 16 - Apartado 1.5"
+  },
+  {
+    "frente": "¿Qué hace el modo concentración en Word 365?",
+    "dorso": "Oculta temporalmente la cinta de opciones, las barras y el resto de elementos de la interfaz para facilitar la lectura o escritura sin distracciones.",
+    "ref": "Tema 16 - Apartado 1.5",
+    "exp": "Se activa y se muestra su información en la barra de estado."
+  },
+  {
+    "frente": "¿Cuáles son los atajos de teclado para Deshacer y Rehacer en Word 365?",
+    "dorso": "Deshacer: CTRL+Z; Rehacer: CTRL+Y.",
+    "ref": "Tema 16 - Apartado 1.6"
+  },
+  {
+    "frente": "¿Cuál es el atajo de teclado para crear un documento nuevo en la versión en español de Word 365?",
+    "dorso": "CTRL+U.",
+    "ref": "Tema 16 - Apartado 2.1",
+    "exp": "Para que funcione, la pestaña Archivo no debe estar activada en ese momento."
+  },
+  {
+    "frente": "¿Cuál es la ruta para crear un documento nuevo en Word 365?",
+    "dorso": "Pestaña Archivo > Nuevo > Documento en blanco (o elegir una plantilla).",
+    "ref": "Tema 16 - Apartado 2.1"
+  },
+  {
+    "frente": "¿Con qué extensión se guardan las plantillas de Word?",
+    "dorso": ".dotx",
+    "ref": "Tema 16 - Apartado 2.2"
+  },
+  {
+    "frente": "¿Dónde se almacenan las plantillas personalizadas creadas por el usuario en Word 365?",
+    "dorso": "En la carpeta «Plantillas Office personalizadas» dentro de la carpeta Documentos del usuario, y aparecen en la sección «Personal» del cuadro Nuevo.",
+    "ref": "Tema 16 - Apartado 2.2"
+  },
+  {
+    "frente": "¿Dónde se buscan plantillas en línea en Word 365?",
+    "dorso": "Desde Archivo > Nuevo, mediante el buscador de plantillas en línea (a través de Office.com).",
+    "ref": "Tema 16 - Apartado 2.2"
+  },
+  {
+    "frente": "¿Dónde se encuentran los saltos de página y de sección en Word 365?",
+    "dorso": "Pestaña Insertar (grupo Páginas) y pestaña Disposición (grupo Configurar página).",
+    "ref": "Tema 16 - Apartado 2.3"
+  },
+  {
+    "frente": "¿Qué es un Tema en Word 365 y en qué pestaña se encuentra?",
+    "dorso": "Un conjunto único de colores, fuentes y efectos para dar una apariencia visual coherente a todo el documento. Se encuentra en la pestaña Diseño.",
+    "ref": "Tema 16 - Apartado 2.3"
+  },
+  {
+    "frente": "¿Qué hay que hacer antes de insertar una tabla de contenido automática en Word 365?",
+    "dorso": "Identificar y marcar los títulos principales aplicándoles los estilos de título (Título 1, Título 2, etc.); solo después se puede insertar la tabla de contenido desde la pestaña Referencias.",
+    "ref": "Tema 16 - Apartado 2.3"
+  },
+  {
+    "frente": "¿Cuál es el atajo de teclado para abrir un documento en la versión en español de Word 365?",
+    "dorso": "CTRL+A.",
+    "ref": "Tema 16 - Apartado 3.1",
+    "exp": "En la versión en español, CTRL+A abre un documento (no selecciona todo)."
+  },
+  {
+    "frente": "¿Qué atajos cierran un documento o la aplicación Word 365?",
+    "dorso": "CTRL+F4 cierra el documento activo; ALT+F4 cierra la aplicación.",
+    "ref": "Tema 16 - Apartado 3.1"
+  },
+  {
+    "frente": "Si se cierra un documento con cambios sin guardar, ¿qué opciones ofrece Word 365?",
+    "dorso": "Guardar, No guardar y Cancelar (no ofrece «Guardar como»).",
+    "ref": "Tema 16 - Apartado 3.1"
+  },
+  {
+    "frente": "¿Cómo se selecciona una palabra en Word 365?",
+    "dorso": "Haciendo doble clic sobre ella.",
+    "ref": "Tema 16 - Apartado 3.2"
+  },
+  {
+    "frente": "¿Cómo se selecciona una frase en Word 365?",
+    "dorso": "Manteniendo pulsada la tecla CTRL y haciendo clic en cualquier palabra de la frase.",
+    "ref": "Tema 16 - Apartado 3.2"
+  },
+  {
+    "frente": "¿Cómo se selecciona un párrafo completo en Word 365?",
+    "dorso": "Triple clic sobre cualquier palabra del párrafo, o situar el puntero a su izquierda y hacer doble clic.",
+    "ref": "Tema 16 - Apartado 3.2"
+  },
+  {
+    "frente": "¿Cuál es el atajo de teclado para seleccionar todo el documento en Word 365?",
+    "dorso": "CTRL+E.",
+    "ref": "Tema 16 - Apartado 3.2",
+    "exp": "También se puede hacer situando el puntero a la izquierda del texto y haciendo triple clic."
+  },
+  {
+    "frente": "¿Qué hace la combinación CTRL+RETROCESO en Word 365?",
+    "dorso": "Elimina de una vez toda la palabra completa situada a la izquierda del cursor.",
+    "ref": "Tema 16 - Apartado 3.2"
+  },
+  {
+    "frente": "¿Qué hace el atajo MAY+F3 en Word 365?",
+    "dorso": "Alterna entre mayúsculas, minúsculas y tipo oración en el texto seleccionado.",
+    "ref": "Tema 16 - Apartado 3.2"
+  },
+  {
+    "frente": "¿Cuáles son los atajos de teclado para Buscar y Reemplazar en Word 365?",
+    "dorso": "Buscar: CTRL+B; Reemplazar: CTRL+L.",
+    "ref": "Tema 16 - Apartado 3.3",
+    "exp": "Se encuentran en la pestaña Inicio, grupo Edición."
+  },
+  {
+    "frente": "¿Con qué extensión se guarda un documento de Word 365?",
+    "dorso": ".docx",
+    "ref": "Tema 16 - Apartado 3.4"
+  },
+  {
+    "frente": "¿Dónde aparece el control de autoguardado en Word 365 y cuándo se activa?",
+    "dorso": "Aparece en la barra de acceso rápido como un control de encendido/apagado. Se activa automáticamente cuando el documento está almacenado en OneDrive.",
+    "ref": "Tema 16 - Apartado 3.4"
+  },
+  {
+    "frente": "¿Cómo se exporta un documento a PDF en Word 365?",
+    "dorso": "Pestaña Archivo > Exportar > Crear PDF/XPS.",
+    "ref": "Tema 16 - Apartado 3.4"
+  },
+  {
+    "frente": "¿Desde dónde se accede al Historial de versiones en Word 365?",
+    "dorso": "Desde Archivo > Información.",
+    "ref": "Tema 16 - Apartado 3.5",
+    "exp": "Permite ver versiones anteriores de un documento guardado en OneDrive, con opciones de Abrir versión, Comparar y Restaurar."
+  },
+  {
+    "frente": "¿Qué permite la herramienta «Administrar documento» en Word 365?",
+    "dorso": "Recuperar documentos que se cerraron sin llegar a guardar los cambios.",
+    "ref": "Tema 16 - Apartado 3.5"
+  },
+  {
+    "frente": "¿Cuál es el atajo de teclado para abrir las opciones de impresión en Word 365?",
+    "dorso": "CTRL+P.",
+    "ref": "Tema 16 - Apartado 3.6"
+  },
+  {
+    "frente": "En la impresión personalizada de Word, ¿qué significan las comas y los guiones al indicar un rango de páginas?",
+    "dorso": "Las comas separan páginas sueltas y los guiones indican un rango continuo (p.ej., «4-6» imprime páginas 4, 5 y 6).",
+    "ref": "Tema 16 - Apartado 3.6"
+  },
+  {
+    "frente": "¿Desde qué pestaña y grupo se insertan las tablas en Word 365?",
+    "dorso": "Pestaña Insertar, grupo Tablas.",
+    "ref": "Tema 16 - Apartado 4"
+  },
+  {
+    "frente": "¿Cuáles son las formas de crear una tabla en Word 365?",
+    "dorso": "Seleccionando filas y columnas en la cuadrícula; cuadro «Insertar tabla»; dibujándola a mano; usando Tablas rápidas predefinidas; o convirtiendo texto ya escrito en tabla.",
+    "ref": "Tema 16 - Apartado 4"
+  },
+  {
+    "frente": "¿Con qué tecla se desplaza el cursor a la celda siguiente dentro de una tabla en Word 365?",
+    "dorso": "TAB (adelante); MAYÚS+TAB para retroceder a la celda anterior.",
+    "ref": "Tema 16 - Apartado 4"
+  },
+  {
+    "frente": "¿Qué opciones de ajuste de texto tiene una tabla respecto al documento en Word 365?",
+    "dorso": "Ninguno o Alrededor (el texto del documento rodea la tabla).",
+    "ref": "Tema 16 - Apartado 4",
+    "exp": "Se configuran desde Propiedades de tabla (botón secundario del ratón)."
+  },
+  {
+    "frente": "¿Qué son las Tablas rápidas en Word 365?",
+    "dorso": "Un conjunto de diseños de tabla ya formateados (calendarios, tablas tabulares…) disponibles para insertar directamente y personalizar después.",
+    "ref": "Tema 16 - Apartado 4"
+  },
+  {
+    "frente": "¿Desde qué pestaña y grupo se insertan imágenes, formas e iconos en Word 365?",
+    "dorso": "Pestaña Insertar, grupo Ilustraciones.",
+    "ref": "Tema 16 - Apartado 5"
+  },
+  {
+    "frente": "¿Cuál es la diferencia entre SmartArt y WordArt en Word 365?",
+    "dorso": "SmartArt es una representación gráfica de información estructurada (organigramas, listas, procesos); WordArt es texto decorativo con estilos visuales llamativos (contornos, rellenos, sombras).",
+    "ref": "Tema 16 - Apartado 5"
+  },
+  {
+    "frente": "¿Cuáles son las opciones de ajuste de texto respecto a un objeto insertado en Word 365?",
+    "dorso": "En línea con el texto, cuadrado, estrecho, transparente, arriba y abajo, detrás del texto y delante del texto.",
+    "ref": "Tema 16 - Apartado 5"
+  },
+  {
+    "frente": "¿Cuántos elementos puede almacenar el Portapapeles de Word 365?",
+    "dorso": "Hasta 24 elementos copiados o cortados.",
+    "ref": "Tema 16 - Apartado 10.1",
+    "exp": "El Portapapeles se encuentra en la pestaña Inicio."
+  },
+  {
+    "frente": "¿En qué pestaña y grupo se encuentra la herramienta Columnas en Word 365?",
+    "dorso": "Pestaña Disposición, grupo Configurar página.",
+    "ref": "Tema 16 - Apartado 6"
+  },
+  {
+    "frente": "¿Qué distribuciones de columnas preestablecidas ofrece Word 365?",
+    "dorso": "Una, dos o tres columnas, o dos columnas asimétricas (a la izquierda o a la derecha).",
+    "ref": "Tema 16 - Apartado 6"
+  },
+  {
+    "frente": "¿Qué atajo de teclado inserta un salto de columna en Word 365?",
+    "dorso": "CTRL+MAYÚS+INTRO.",
+    "ref": "Tema 16 - Apartado 6"
+  },
+  {
+    "frente": "¿Qué ocurre cuando se aplican columnas solo a una parte del texto seleccionado en Word 365?",
+    "dorso": "Word inserta automáticamente un salto de sección para delimitar el cambio de formato.",
+    "ref": "Tema 16 - Apartado 6"
+  },
+  {
+    "frente": "¿Desde qué pestaña y grupo se gestionan encabezados y pies de página en Word 365?",
+    "dorso": "Pestaña Insertar, grupo Encabezado y pie de página.",
+    "ref": "Tema 16 - Apartado 7"
+  },
+  {
+    "frente": "¿Cómo se accede a editar manualmente un encabezado o pie de página en Word 365?",
+    "dorso": "Haciendo doble clic directamente sobre la zona superior o inferior de la página.",
+    "ref": "Tema 16 - Apartado 7"
+  },
+  {
+    "frente": "¿Qué elementos se pueden incluir en un encabezado o pie de página de Word 365?",
+    "dorso": "Número de página, fecha y hora, imagen y nombre del archivo.",
+    "ref": "Tema 16 - Apartado 7"
+  },
+  {
+    "frente": "¿Qué opciones ofrece la pestaña contextual Diseño al editar encabezado/pie de página?",
+    "dorso": "Vincular al anterior, primera página diferente, páginas pares e impares diferentes, posición respecto al borde, ir a pie/encabezado.",
+    "ref": "Tema 16 - Apartado 7"
+  },
+  {
+    "frente": "¿En qué pestaña y grupo se encuentran Viñetas, Numeración y Lista multinivel en Word 365?",
+    "dorso": "Pestaña Inicio, grupo Párrafo.",
+    "ref": "Tema 16 - Apartado 8"
+  },
+  {
+    "frente": "¿Qué teclas se usan para cambiar de nivel dentro de un esquema numerado (lista multinivel) en Word 365?",
+    "dorso": "TABULADOR baja un nivel; MAYÚS+TABULADOR sube un nivel.",
+    "ref": "Tema 16 - Apartado 8"
+  },
+  {
+    "frente": "¿Cuál es la diferencia entre viñetas y numeración en Word 365?",
+    "dorso": "Las viñetas anteponen un símbolo (no un número) a cada elemento; la numeración antepone un número o letra siguiendo un formato elegible (arábigo, romano, alfabético…).",
+    "ref": "Tema 16 - Apartado 8"
+  },
+  {
+    "frente": "¿Qué estilo se aplica por defecto al abrir un documento nuevo en Word 365?",
+    "dorso": "El estilo «Normal».",
+    "ref": "Tema 16 - Apartado 9"
+  },
+  {
+    "frente": "¿Qué es un estilo vinculado en Word 365?",
+    "dorso": "Un estilo que combina a la vez un estilo de carácter y un estilo de párrafo.",
+    "ref": "Tema 16 - Apartado 9"
+  },
+  {
+    "frente": "¿Cuáles son los tipos de estilo en Word 365 según el elemento al que se aplican?",
+    "dorso": "Estilo de párrafo, estilo de carácter, estilo de tabla y estilo de lista.",
+    "ref": "Tema 16 - Apartado 9"
+  },
+  {
+    "frente": "¿Qué atajo de teclado abre el panel de tareas «Aplicar estilos» en Word 365?",
+    "dorso": "CTRL+MAYÚS+W.",
+    "ref": "Tema 16 - Apartado 9"
+  },
+  {
+    "frente": "¿Qué ocurre cuando se modifica un estilo ya existente en Word 365?",
+    "dorso": "Se actualizan automáticamente todos los textos del documento que tengan aplicado ese estilo.",
+    "ref": "Tema 16 - Apartado 9",
+    "exp": "Esta es la principal ventaja de trabajar con estilos frente a aplicar formato manualmente."
+  },
+  {
+    "frente": "¿Qué atajo de teclado abre el cuadro de diálogo Fuente completo en Word 365?",
+    "dorso": "CTRL+M.",
+    "ref": "Tema 16 - Apartado 10.1"
+  },
+  {
+    "frente": "¿Cuáles son los atajos de teclado para Negrita, Cursiva, Subrayado simple y Subrayado doble en Word 365?",
+    "dorso": "Negrita: CTRL+N; Cursiva: CTRL+K; Subrayado simple: CTRL+S; Subrayado doble: CTRL+MAYÚS+D.",
+    "ref": "Tema 16 - Apartado 10.1"
+  },
+  {
+    "frente": "¿Cuáles son los atajos para Copiar formato y Pegar formato en Word 365?",
+    "dorso": "Copiar formato: ALT+CTRL+C; Pegar formato: ALT+CTRL+V.",
+    "ref": "Tema 16 - Apartado 10.1",
+    "exp": "La herramienta Copiar formato es «la brochita» del grupo Portapapeles en la pestaña Inicio."
+  },
+  {
+    "frente": "¿Cuáles son los atajos de teclado de alineación de párrafo en Word 365?",
+    "dorso": "Izquierda: CTRL+Q; Centrada: CTRL+T; Derecha: CTRL+D; Justificada: CTRL+J.",
+    "ref": "Tema 16 - Apartado 10.2"
+  },
+  {
+    "frente": "¿Cuál es la alineación de párrafo por defecto en Word 365?",
+    "dorso": "Alineación a la izquierda.",
+    "ref": "Tema 16 - Apartado 10.2"
+  },
+  {
+    "frente": "¿Cuál es la diferencia entre interlineado y espaciado en Word 365?",
+    "dorso": "El interlineado es la distancia entre las líneas de un mismo párrafo; el espaciado es la distancia antes y después de cada párrafo.",
+    "ref": "Tema 16 - Apartado 10.2"
+  },
+  {
+    "frente": "¿Qué valores admite el interlineado en Word 365?",
+    "dorso": "Sencillo, 1,5 líneas, doble, mínimo, exacto o múltiple.",
+    "ref": "Tema 16 - Apartado 10.2"
+  },
+  {
+    "frente": "¿Cuáles son los tipos de sangría disponibles en Word 365?",
+    "dorso": "Izquierda, derecha, de primera línea y francesa (afecta a todas las líneas salvo la primera).",
+    "ref": "Tema 16 - Apartado 10.2",
+    "exp": "La sangría francesa no debe confundirse con un tipo de tabulación."
+  },
+  {
+    "frente": "¿Qué es el control de líneas viudas y huérfanas en Word 365?",
+    "dorso": "Una opción que evita que quede la primera o última línea de un párrafo aislada al cambiar de página.",
+    "ref": "Tema 16 - Apartado 10.2",
+    "exp": "Se encuentra en el cuadro de diálogo Párrafo, pestaña «Líneas y saltos de página»."
+  },
+  {
+    "frente": "¿Desde qué pestaña y grupo se configuran los márgenes de página en Word 365?",
+    "dorso": "Pestaña Disposición, grupo Configurar página.",
+    "ref": "Tema 16 - Apartado 10.3"
+  },
+  {
+    "frente": "¿Cuál es la orientación de página por defecto en Word 365?",
+    "dorso": "Vertical.",
+    "ref": "Tema 16 - Apartado 10.3"
+  },
+  {
+    "frente": "¿Qué tipos de saltos de sección existen en Word 365?",
+    "dorso": "De página siguiente, continuo, de página par y de página impar.",
+    "ref": "Tema 16 - Apartado 10.3"
+  },
+  {
+    "frente": "¿Qué permite cambiar de forma independiente un salto de sección en Word 365?",
+    "dorso": "Los márgenes, la orientación, las columnas y el encabezado y pie de página a partir de ese punto.",
+    "ref": "Tema 16 - Apartado 10.3"
+  },
+  {
+    "frente": "¿Cuál es la distancia por defecto de las tabulaciones predeterminadas en Word 365?",
+    "dorso": "Cada 1,25 cm.",
+    "ref": "Tema 16 - Apartado 11"
+  },
+  {
+    "frente": "¿Cuáles son los tipos de tabulación disponibles en Word 365?",
+    "dorso": "Izquierda, centrada, derecha, decimal y de barra.",
+    "ref": "Tema 16 - Apartado 11",
+    "exp": "Cada tipo se representa con un símbolo distinto en el extremo izquierdo de la regla."
+  },
+  {
+    "frente": "¿Qué muestra la vista Modo de lectura en Word 365?",
+    "dorso": "El documento optimizado para lectura en pantalla, ocultando la cinta de opciones y organizando el contenido en páginas tipo libro.",
+    "ref": "Tema 16 - Apartado 12"
+  },
+  {
+    "frente": "¿Qué caracteriza a la vista Borrador en Word 365?",
+    "dorso": "Es una vista simplificada, sin encabezados, pies de página ni algunos elementos gráficos, pensada para agilizar la edición del texto.",
+    "ref": "Tema 16 - Apartado 12"
+  },
+  {
+    "frente": "¿Qué muestra la vista Esquema en Word 365?",
+    "dorso": "El documento organizado por niveles de título, útil para reorganizar la estructura de documentos largos.",
+    "ref": "Tema 16 - Apartado 12"
+  },
+  {
+    "frente": "¿En qué pestaña se encuentran los comandos «Buscar» y «Reemplazar» en Word 365?",
+    "dorso": "En la pestaña Inicio, dentro del grupo Edición.",
+    "ref": "Tema 16 - Apartado 3.3"
+  },
+  {
+    "frente": "¿Qué opciones de pegado ofrece Word 365 al pegar contenido?",
+    "dorso": "Mantener formato de origen, combinar formato o conservar solo el texto.",
+    "ref": "Tema 16 - Apartado 10.1"
+  },
+  {
+    "frente": "¿Dónde se encuentran las opciones de marcas de agua, colores de página y bordes de página en Word 365?",
+    "dorso": "En la pestaña Diseño.",
+    "ref": "Tema 16 - Apartado 10.3"
+  },
+  {
+    "frente": "¿Qué variantes de mayúsculas/minúsculas ofrece el comando correspondiente en Word 365?",
+    "dorso": "Tipo oración, minúsculas, MAYÚSCULAS, Poner En Mayúsculas Cada Palabra y alternar MAYÚSCULAS Y minúsculas.",
+    "ref": "Tema 16 - Apartado 10.1"
+  },
+  {
+    "frente": "¿Cuál es el tamaño de página por defecto en Word 365?",
+    "dorso": "A4.",
+    "ref": "Tema 16 - Apartado 10.3"
+  },
+  {
+    "frente": "¿Qué diferencia hay entre las notas al pie y los comentarios en Word 365?",
+    "dorso": "Las notas al pie son texto adicional impreso al final de la página (pestaña Referencias); los comentarios son anotaciones visibles en un panel lateral, ligadas a un fragmento de texto sin modificarlo (pestaña Revisar).",
+    "ref": "Tema 16 - Apartado 2.3"
+  },
+  {
+    "frente": "¿Qué tecla permite acceder al contenido de las pestañas de la cinta de opciones a través del teclado?",
+    "dorso": "ALT.",
+    "ref": "Tema 16 - Apartado 1.3",
+    "exp": "Al pulsar ALT aparecen las letras de acceso rápido sobre cada pestaña."
+  },
+  {
+    "frente": "¿Dónde se encuentra el comando «Número de página» en Word 365?",
+    "dorso": "En la pestaña Insertar, grupo Encabezado y pie de página.",
+    "ref": "Tema 16 - Apartado 7",
+    "exp": "Permite insertar la numeración al principio de página, al final, en los márgenes o en la posición actual del cursor."
+  },
+  {
+    "frente": "¿Desde qué pestaña se accede a la información de la cuenta y licencia de Office en Word 365?",
+    "dorso": "Archivo > Cuenta.",
+    "ref": "Tema 16 - Apartado 1.7",
+    "exp": "Es distinto de Archivo > Información, donde están las propiedades del documento y el historial de versiones."
+  },
+  {
+    "frente": "¿Qué hace el botón tachado en Word 365?",
+    "dorso": "Dibuja una línea recta a través del texto seleccionado, simulando que está tachado.",
+    "ref": "Tema 16 - Apartado 10.1"
+  },
+  {
+    "frente": "¿En qué grupo de la pestaña Inicio se encuentra el comando «Borrar formato»?",
+    "dorso": "En el grupo Fuente.",
+    "ref": "Tema 16 - Apartado 10.1"
+  }
+]

@@ -1,0 +1,131 @@
+[
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada característica según pertenezca al Estado de Gastos o al Estado de Ingresos del Presupuesto de la UHU",
+    "ref": "Arts. 4-6 Bases de Ejecución Presupuestaria UHU",
+    "categorias": ["Estado de Gastos", "Estado de Ingresos"],
+    "items": [
+      { "texto": "Incluye los créditos necesarios para atender el cumplimiento de las obligaciones", "categoria": "Estado de Gastos" },
+      { "texto": "Figuran las estimaciones de los distintos derechos económicos a liquidar", "categoria": "Estado de Ingresos" },
+      { "texto": "Aplica clasificación orgánica, funcional y económica", "categoria": "Estado de Gastos" },
+      { "texto": "Aplica clasificación orgánica y económica (sin funcional)", "categoria": "Estado de Ingresos" },
+      { "texto": "Recoge las obligaciones que como máximo puede reconocer la Universidad", "categoria": "Estado de Gastos" },
+      { "texto": "Recoge los derechos que la Universidad prevea liquidar durante el ejercicio", "categoria": "Estado de Ingresos" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada tipo de clasificación presupuestaria del Estado de Gastos con su definición",
+    "ref": "Art. 5 Bases de Ejecución Presupuestaria UHU",
+    "pares": [
+      { "izquierda": "Clasificación orgánica", "derecha": "Imputa el gasto en función del órgano o unidad que lo realiza" },
+      { "izquierda": "Clasificación funcional", "derecha": "Agrupa los créditos en atención a la finalidad y objetivos perseguidos" },
+      { "izquierda": "Clasificación económica", "derecha": "Ordena según la naturaleza económica del gasto" },
+      { "izquierda": "Centros de Gasto (dentro de la orgánica)", "derecha": "Centros, Departamentos, Servicios, Proyectos, Grupos y Contratos de Investigación" },
+      { "izquierda": "Estructura de programas (dentro de la funcional)", "derecha": "Objetivos académicos, de gestión e investigación" }
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena los niveles de la codificación de la clasificación económica del presupuesto, de más general a más específico",
+    "ref": "Arts. 5-6 Bases de Ejecución Presupuestaria UHU",
+    "items": ["Capítulo", "Artículo", "Concepto", "Subconcepto", "Partida"]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada limitación de los créditos presupuestarios con su contenido",
+    "ref": "Arts. 8-11 Bases de Ejecución Presupuestaria UHU",
+    "pares": [
+      { "izquierda": "Limitación cualitativa (Art. 8)", "derecha": "Los créditos se destinan exclusivamente a la finalidad específica para la que fueron autorizados" },
+      { "izquierda": "Limitación cuantitativa (Art. 9)", "derecha": "No pueden adquirirse compromisos de gasto por cuantía superior al importe de los créditos autorizados" },
+      { "izquierda": "Limitación temporal (Art. 10)", "derecha": "Solo pueden contraerse obligaciones de gastos que se realicen en el año natural del ejercicio" },
+      { "izquierda": "Vinculación de los créditos (Art. 11)", "derecha": "Los créditos son limitativos según su clasificación orgánica, funcional y económica" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada clasificación presupuestaria con su nivel de vinculación jurídica de los créditos",
+    "ref": "Art. 11 Bases de Ejecución Presupuestaria UHU",
+    "pares": [
+      { "izquierda": "Clasificación orgánica", "derecha": "Por unidad orgánica responsable" },
+      { "izquierda": "Clasificación funcional", "derecha": "Según programa de gasto" },
+      { "izquierda": "Clasificación económica (regla general)", "derecha": "A nivel de artículo" },
+      { "izquierda": "Clasificación económica Cap. 1 y Cap. 2", "derecha": "A nivel de capítulo" }
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena las fases del procedimiento de gestión del gasto de la UHU",
+    "ref": "Arts. 42-47 Bases de Ejecución Presupuestaria UHU",
+    "items": [
+      "Aprobación o autorización del gasto (Fase A)",
+      "Compromiso o disposición del gasto (Fase D)",
+      "Reconocimiento de la obligación (Fase O)",
+      "Ordenación del pago (Fase P)",
+      "Ejecución material del pago"
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada fase de gestión del gasto con su definición",
+    "ref": "Arts. 43-47 Bases de Ejecución Presupuestaria UHU",
+    "pares": [
+      { "izquierda": "Autorización (Fase A)", "derecha": "Aprueba la realización del gasto, determinando su cuantía y reservando crédito" },
+      { "izquierda": "Compromiso (Fase D)", "derecha": "Acuerda con un tercero la realización de gastos previamente aprobados" },
+      { "izquierda": "Reconocimiento de la obligación (Fase O)", "derecha": "Acepta formalmente una deuda a favor de un tercero tras el cumplimiento de su prestación" },
+      { "izquierda": "Ordenación del pago (Fase P)", "derecha": "Expide una orden de pago contra la Tesorería de la Universidad" },
+      { "izquierda": "Ejecución material del pago", "derecha": "Satisface los importes a los perceptores, produciendo salida de fondos de la tesorería" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada tipo de modificación presupuestaria con su definición",
+    "ref": "Arts. 15-22 Bases de Ejecución Presupuestaria UHU",
+    "pares": [
+      { "izquierda": "Transferencias de crédito", "derecha": "Trasvase de recursos entre aplicaciones sin aumentar el importe conjunto de los créditos" },
+      { "izquierda": "Generaciones de crédito", "derecha": "Ingresos realizados crean crédito nuevo en el estado de gastos" },
+      { "izquierda": "Incorporaciones de crédito", "derecha": "Créditos no afectados a obligaciones reconocidas al final del ejercicio pasan al siguiente" },
+      { "izquierda": "Créditos extraordinarios", "derecha": "Se conceden cuando no existe crédito para un gasto que no puede demorarse" },
+      { "izquierda": "Suplementos de crédito", "derecha": "Se conceden cuando el crédito existente es insuficiente y no ampliable" },
+      { "izquierda": "Bajas por anulación", "derecha": "Disminución total o parcial del crédito asignado a una partida de gastos" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada tipo de modificación presupuestaria según el órgano competente para aprobarla",
+    "ref": "Arts. 16, 18, 20-22 Bases de Ejecución Presupuestaria UHU",
+    "categorias": ["Rector", "Consejo Social (Pleno o Presidente por delegación)"],
+    "items": [
+      { "texto": "Transferencias entre conceptos dentro de capítulos de operaciones corrientes o de capital", "categoria": "Rector" },
+      { "texto": "Transferencias de gastos corrientes a gastos de capital y viceversa", "categoria": "Consejo Social (Pleno o Presidente por delegación)" },
+      { "texto": "Generaciones de crédito", "categoria": "Rector" },
+      { "texto": "Incorporaciones de crédito", "categoria": "Rector" },
+      { "texto": "Créditos extraordinarios", "categoria": "Consejo Social (Pleno o Presidente por delegación)" },
+      { "texto": "Suplementos de crédito", "categoria": "Consejo Social (Pleno o Presidente por delegación)" },
+      { "texto": "Bajas por anulación", "categoria": "Rector" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada supuesto de gasto plurianual según la serie de porcentajes máximos que se le aplica",
+    "ref": "Art. 12.4-12.5 Bases de Ejecución Presupuestaria UHU",
+    "categorias": ["Serie 80%-70%-60%-50%", "Serie 60%-50%-40%-30%"],
+    "items": [
+      { "texto": "Inversiones y transferencias y subvenciones de capital", "categoria": "Serie 80%-70%-60%-50%" },
+      { "texto": "Arrendamientos de bienes inmuebles", "categoria": "Serie 80%-70%-60%-50%" },
+      { "texto": "Contratos de suministros, servicios y otros", "categoria": "Serie 60%-50%-40%-30%" },
+      { "texto": "Subvenciones y otras transferencias corrientes", "categoria": "Serie 60%-50%-40%-30%" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada actuación en la gestión de facturas con su plazo máximo según las Bases",
+    "ref": "Arts. 45.4, 45.9, 45.11-45.12 Bases de Ejecución Presupuestaria UHU",
+    "pares": [
+      { "izquierda": "Presentación de factura por el proveedor desde la entrega efectiva", "derecha": "30 días" },
+      { "izquierda": "Imputación por la unidad tramitadora desde entrada en registro", "derecha": "5 días hábiles" },
+      { "izquierda": "Conformidad del responsable del centro de gasto desde la imputación", "derecha": "10 días hábiles" },
+      { "izquierda": "Factura simplificada admisible sin datos fiscales de la UHU si importe inferior a (IVA no incluido)", "derecha": "100 euros" }
+    ]
+  }
+]

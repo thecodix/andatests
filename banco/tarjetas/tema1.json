@@ -1,0 +1,408 @@
+[
+  {
+    "frente": "¿Cuántos artículos tiene la Constitución Española de 1978?",
+    "dorso": "169 artículos.",
+    "ref": "Estructura CE",
+    "exp": "Se distribuyen en un Título Preliminar y diez Títulos numerados (I a X)."
+  },
+  {
+    "frente": "¿Cuántas Disposiciones Adicionales tiene la Constitución Española?",
+    "dorso": "Cuatro.",
+    "ref": "Estructura CE"
+  },
+  {
+    "frente": "¿Cuántas Disposiciones Transitorias tiene la Constitución Española?",
+    "dorso": "Nueve.",
+    "ref": "Estructura CE"
+  },
+  {
+    "frente": "¿Cuántas Disposiciones Derogatorias tiene la Constitución Española?",
+    "dorso": "Una (con tres apartados).",
+    "ref": "Estructura CE"
+  },
+  {
+    "frente": "¿Qué artículos comprende el Título Preliminar de la CE?",
+    "dorso": "Los artículos 1 al 9.",
+    "ref": "Estructura CE"
+  },
+  {
+    "frente": "¿Cómo se denomina el Título I de la Constitución y qué artículos abarca?",
+    "dorso": "\"De los derechos y deberes fundamentales\"; comprende los artículos 10 al 55.",
+    "ref": "Estructura CE"
+  },
+  {
+    "frente": "¿Qué capítulo del Título I de la CE se divide en secciones?",
+    "dorso": "El Capítulo Segundo (\"Derechos y libertades\"), dividido en Sección 1.ª (derechos fundamentales y libertades públicas) y Sección 2.ª (derechos y deberes de los ciudadanos).",
+    "ref": "Estructura CE"
+  },
+  {
+    "frente": "¿Cuáles son los cuatro valores superiores del ordenamiento jurídico según el art. 1.1 CE?",
+    "dorso": "La libertad, la justicia, la igualdad y el pluralismo político.",
+    "ref": "Art. 1.1 CE"
+  },
+  {
+    "frente": "¿En quién reside la soberanía nacional según la Constitución?",
+    "dorso": "En el pueblo español, del que emanan los poderes del Estado.",
+    "ref": "Art. 1.2 CE"
+  },
+  {
+    "frente": "¿Cuál es la forma política del Estado español?",
+    "dorso": "La Monarquía parlamentaria.",
+    "ref": "Art. 1.3 CE"
+  },
+  {
+    "frente": "¿En qué se fundamenta la Constitución según su artículo 2?",
+    "dorso": "En la indisoluble unidad de la Nación española, patria común e indivisible de todos los españoles.",
+    "ref": "Art. 2 CE",
+    "exp": "Reconoce y garantiza además el derecho a la autonomía de las nacionalidades y regiones y la solidaridad entre ellas."
+  },
+  {
+    "frente": "¿Cuál es la lengua española oficial del Estado y qué deber tienen todos los españoles respecto a ella?",
+    "dorso": "El castellano. Todos los españoles tienen el deber de conocerla y el derecho a usarla.",
+    "ref": "Art. 3.1 CE"
+  },
+  {
+    "frente": "¿En qué términos son oficiales las demás lenguas españolas distintas del castellano?",
+    "dorso": "Serán también oficiales en las respectivas Comunidades Autónomas de acuerdo con sus Estatutos.",
+    "ref": "Art. 3.2 CE"
+  },
+  {
+    "frente": "Describe la bandera de España según la Constitución.",
+    "dorso": "Tres franjas horizontales: roja, amarilla y roja, siendo la amarilla de doble anchura que cada una de las rojas.",
+    "ref": "Art. 4.1 CE"
+  },
+  {
+    "frente": "¿Cuál es la capital del Estado según la Constitución?",
+    "dorso": "La villa de Madrid.",
+    "ref": "Art. 5 CE"
+  },
+  {
+    "frente": "¿Qué función constitucional cumplen los partidos políticos según el art. 6 CE?",
+    "dorso": "Expresan el pluralismo político, concurren a la formación y manifestación de la voluntad popular y son instrumento fundamental para la participación política.",
+    "ref": "Art. 6 CE"
+  },
+  {
+    "frente": "¿A qué contribuyen los sindicatos de trabajadores y las asociaciones empresariales según la CE?",
+    "dorso": "A la defensa y promoción de los intereses económicos y sociales que les son propios.",
+    "ref": "Art. 7 CE"
+  },
+  {
+    "frente": "¿Cuáles son los tres cuerpos que constituyen las Fuerzas Armadas y cuál es su misión?",
+    "dorso": "Ejército de Tierra, Armada y Ejército del Aire. Su misión es garantizar la soberanía e independencia de España, defender su integridad territorial y el ordenamiento constitucional.",
+    "ref": "Art. 8 CE"
+  },
+  {
+    "frente": "¿Quiénes están sujetos a la Constitución y al resto del ordenamiento jurídico según el art. 9.1?",
+    "dorso": "Los ciudadanos y los poderes públicos.",
+    "ref": "Art. 9.1 CE"
+  },
+  {
+    "frente": "¿Qué siete principios garantiza la Constitución según el art. 9.3?",
+    "dorso": "Principio de legalidad; jerarquía normativa; publicidad de las normas; irretroactividad de las disposiciones sancionadoras no favorables o restrictivas de derechos individuales; seguridad jurídica; responsabilidad; interdicción de la arbitrariedad de los poderes públicos.",
+    "ref": "Art. 9.3 CE"
+  },
+  {
+    "frente": "Según el art. 10.1 CE, ¿qué cuatro elementos son fundamento del orden político y de la paz social?",
+    "dorso": "La dignidad de la persona, los derechos inviolables que le son inherentes, el libre desarrollo de la personalidad, y el respeto a la ley y a los derechos de los demás.",
+    "ref": "Art. 10.1 CE"
+  },
+  {
+    "frente": "¿De conformidad con qué se interpretan las normas sobre derechos fundamentales de la CE?",
+    "dorso": "Con la Declaración Universal de Derechos Humanos y los tratados y acuerdos internacionales sobre las mismas materias ratificados por España.",
+    "ref": "Art. 10.2 CE"
+  },
+  {
+    "frente": "¿Puede un español de origen ser privado de su nacionalidad?",
+    "dorso": "No. Ningún español de origen podrá ser privado de su nacionalidad.",
+    "ref": "Art. 11.2 CE"
+  },
+  {
+    "frente": "¿Con qué países puede el Estado concertar tratados de doble nacionalidad?",
+    "dorso": "Con los países iberoamericanos o con aquellos que hayan tenido o tengan una particular vinculación con España.",
+    "ref": "Art. 11.3 CE"
+  },
+  {
+    "frente": "¿A qué edad son mayores de edad los españoles según la CE?",
+    "dorso": "A los dieciocho años.",
+    "ref": "Art. 12 CE"
+  },
+  {
+    "frente": "¿De qué derechos son titulares solamente los españoles, con la salvedad de las elecciones municipales?",
+    "dorso": "Los reconocidos en el artículo 23 (participar en asuntos públicos y acceder a funciones y cargos públicos).",
+    "ref": "Art. 13.2 CE",
+    "exp": "Para las elecciones municipales cabe sufragio activo y pasivo de extranjeros por tratado o ley, atendiendo a criterios de reciprocidad."
+  },
+  {
+    "frente": "¿Quiénes pueden gozar del derecho de asilo en España según la CE?",
+    "dorso": "Los ciudadanos de otros países y los apátridas, en los términos que la ley establezca.",
+    "ref": "Art. 13.4 CE"
+  },
+  {
+    "frente": "¿Qué prohíbe el art. 14 CE respecto a la igualdad?",
+    "dorso": "Que prevalezca discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social.",
+    "ref": "Art. 14 CE"
+  },
+  {
+    "frente": "¿Qué dice la CE sobre la pena de muerte?",
+    "dorso": "Queda abolida la pena de muerte, salvo lo que puedan disponer las leyes penales militares para tiempos de guerra.",
+    "ref": "Art. 15 CE",
+    "exp": "En la práctica esta excepción fue eliminada por la LO 11/1995, pero el texto constitucional sigue vigente con esa redacción."
+  },
+  {
+    "frente": "¿Qué limitación tiene la libertad ideológica, religiosa y de culto en sus manifestaciones?",
+    "dorso": "La necesaria para el mantenimiento del orden público protegido por la ley.",
+    "ref": "Art. 16.1 CE"
+  },
+  {
+    "frente": "¿Puede alguien ser obligado a declarar sobre su ideología, religión o creencias?",
+    "dorso": "No. Nadie podrá ser obligado a declarar sobre su ideología, religión o creencias.",
+    "ref": "Art. 16.2 CE"
+  },
+  {
+    "frente": "¿Tiene alguna confesión carácter estatal según la CE?",
+    "dorso": "No. Ninguna confesión tendrá carácter estatal.",
+    "ref": "Art. 16.3 CE"
+  },
+  {
+    "frente": "¿Cuál es el plazo máximo de la detención preventiva según la CE?",
+    "dorso": "Setenta y dos horas. El detenido deberá ser puesto en libertad o a disposición de la autoridad judicial.",
+    "ref": "Art. 17.2 CE"
+  },
+  {
+    "frente": "¿Qué procedimiento regula la ley para la puesta a disposición judicial inmediata de una persona detenida ilegalmente?",
+    "dorso": "El procedimiento de habeas corpus.",
+    "ref": "Art. 17.4 CE"
+  },
+  {
+    "frente": "¿En qué tres supuestos puede hacerse entrada o registro en un domicilio?",
+    "dorso": "Con consentimiento del titular, por resolución judicial, o en caso de flagrante delito.",
+    "ref": "Art. 18.2 CE"
+  },
+  {
+    "frente": "¿Qué comunicaciones menciona expresamente la CE al garantizar su secreto?",
+    "dorso": "Las postales, telegráficas y telefónicas (salvo resolución judicial).",
+    "ref": "Art. 18.3 CE"
+  },
+  {
+    "frente": "¿Puede limitarse el derecho a entrar y salir libremente de España por motivos políticos o ideológicos?",
+    "dorso": "No. Este derecho no podrá ser limitado por motivos políticos o ideológicos.",
+    "ref": "Art. 19 CE"
+  },
+  {
+    "frente": "¿Qué dice la CE sobre la censura previa respecto a los derechos de expresión e información?",
+    "dorso": "El ejercicio de estos derechos no puede restringirse mediante ningún tipo de censura previa.",
+    "ref": "Art. 20.2 CE"
+  },
+  {
+    "frente": "¿En virtud de qué puede acordarse el secuestro de publicaciones y grabaciones?",
+    "dorso": "Solo en virtud de resolución judicial.",
+    "ref": "Art. 20.5 CE"
+  },
+  {
+    "frente": "¿Necesita autorización previa el derecho de reunión pacífica y sin armas?",
+    "dorso": "No. Su ejercicio no necesitará autorización previa.",
+    "ref": "Art. 21.1 CE",
+    "exp": "Para reuniones en lugares de tránsito público y manifestaciones se requiere comunicación previa a la autoridad (no autorización)."
+  },
+  {
+    "frente": "¿A los solos efectos de qué deben inscribirse las asociaciones en un registro?",
+    "dorso": "A los solos efectos de publicidad.",
+    "ref": "Art. 22.3 CE"
+  },
+  {
+    "frente": "¿Mediante qué tipo de resolución pueden ser disueltas o suspendidas las asociaciones?",
+    "dorso": "Mediante resolución judicial motivada.",
+    "ref": "Art. 22.4 CE"
+  },
+  {
+    "frente": "¿Qué dos tipos de asociaciones prohíbe expresamente el art. 22 CE?",
+    "dorso": "Las asociaciones secretas y las de carácter paramilitar.",
+    "ref": "Art. 22.5 CE"
+  },
+  {
+    "frente": "¿A qué tienen derecho los ciudadanos según el art. 23 CE?",
+    "dorso": "A participar en los asuntos públicos (directamente o por representantes elegidos por sufragio universal) y a acceder en condiciones de igualdad a funciones y cargos públicos.",
+    "ref": "Art. 23 CE"
+  },
+  {
+    "frente": "¿En qué principios se basa el procedimiento ante los Tribunales ordinarios para la tutela de los derechos del art. 14 y la Sección 1.ª del Capítulo 2.º?",
+    "dorso": "En los principios de preferencia y sumariedad.",
+    "ref": "Art. 53.2 CE"
+  },
+  {
+    "frente": "¿Hacia qué finalidad deben orientarse las penas privativas de libertad según la CE?",
+    "dorso": "Hacia la reeducación y reinserción social.",
+    "ref": "Art. 25.2 CE"
+  },
+  {
+    "frente": "¿En qué ámbitos se prohíben los Tribunales de Honor?",
+    "dorso": "En el ámbito de la Administración civil y de las organizaciones profesionales.",
+    "ref": "Art. 26 CE"
+  },
+  {
+    "frente": "¿Cómo es la enseñanza básica según la CE?",
+    "dorso": "Obligatoria y gratuita.",
+    "ref": "Art. 27.4 CE"
+  },
+  {
+    "frente": "¿En qué términos se reconoce la autonomía de las Universidades?",
+    "dorso": "En los términos que la ley establezca.",
+    "ref": "Art. 27.10 CE"
+  },
+  {
+    "frente": "¿A quién se reconoce el derecho a la huelga y para qué fin?",
+    "dorso": "A los trabajadores, para la defensa de sus intereses.",
+    "ref": "Art. 28.2 CE"
+  },
+  {
+    "frente": "¿Cómo pueden ejercer los miembros de las Fuerzas o Institutos armados el derecho de petición?",
+    "dorso": "Solo individualmente y con arreglo a su legislación específica.",
+    "ref": "Art. 29.2 CE"
+  },
+  {
+    "frente": "¿Mediante qué instrumento normativo pueden regularse los deberes de los ciudadanos en casos de grave riesgo, catástrofe o calamidad pública?",
+    "dorso": "Mediante ley.",
+    "ref": "Art. 30.4 CE"
+  },
+  {
+    "frente": "¿En qué tres principios se inspira el sistema tributario según el art. 31 CE?",
+    "dorso": "Igualdad, progresividad y no confiscatoriedad (en ningún caso tendrá alcance confiscatorio).",
+    "ref": "Art. 31.1 CE"
+  },
+  {
+    "frente": "¿Qué derechos se reconocen en el art. 33 CE respecto al patrimonio?",
+    "dorso": "El derecho a la propiedad privada y a la herencia.",
+    "ref": "Art. 33 CE"
+  },
+  {
+    "frente": "¿Para qué fines se reconoce el derecho de fundación según la CE?",
+    "dorso": "Para fines de interés general, con arreglo a la ley.",
+    "ref": "Art. 34.1 CE"
+  },
+  {
+    "frente": "¿Qué derecho y deber laboral establece el art. 35 CE?",
+    "dorso": "Todos los españoles tienen el deber de trabajar y el derecho al trabajo, a la libre elección de profesión u oficio, a la promoción a través del trabajo y a una remuneración suficiente, sin discriminación por razón de sexo.",
+    "ref": "Art. 35 CE"
+  },
+  {
+    "frente": "¿En el marco de qué se reconoce la libertad de empresa?",
+    "dorso": "En el marco de la economía de mercado.",
+    "ref": "Art. 38 CE"
+  },
+  {
+    "frente": "¿Qué régimen mantendrán los poderes públicos para todos los ciudadanos según el art. 41?",
+    "dorso": "Un régimen público de Seguridad Social que garantice asistencia y prestaciones sociales suficientes ante situaciones de necesidad, especialmente en caso de desempleo.",
+    "ref": "Art. 41 CE",
+    "exp": "La asistencia y prestaciones complementarias serán libres."
+  },
+  {
+    "frente": "¿Quién vela por la salvaguardia de los derechos económicos y sociales de los trabajadores españoles en el extranjero?",
+    "dorso": "El Estado.",
+    "ref": "Art. 42 CE"
+  },
+  {
+    "frente": "¿A quién compete organizar y tutelar la salud pública según la CE?",
+    "dorso": "A los poderes públicos, a través de medidas preventivas y de las prestaciones y servicios necesarios.",
+    "ref": "Art. 43.2 CE"
+  },
+  {
+    "frente": "¿Quién participará en las plusvalías que genere la acción urbanística de los entes públicos?",
+    "dorso": "La comunidad.",
+    "ref": "Art. 47 CE"
+  },
+  {
+    "frente": "¿Cómo garantizan los poderes públicos la suficiencia económica en la tercera edad?",
+    "dorso": "Mediante pensiones adecuadas y periódicamente actualizadas.",
+    "ref": "Art. 50 CE"
+  },
+  {
+    "frente": "¿Mediante qué tipo de procedimientos protegen los poderes públicos la seguridad, la salud y los legítimos intereses económicos de consumidores y usuarios?",
+    "dorso": "Mediante procedimientos eficaces.",
+    "ref": "Art. 51.1 CE"
+  },
+  {
+    "frente": "¿Qué vinculación tienen los derechos del Capítulo 2.º del Título I respecto a los poderes públicos?",
+    "dorso": "Vinculan a todos los poderes públicos. Solo por ley, que en todo caso deberá respetar su contenido esencial, podrá regularse su ejercicio.",
+    "ref": "Art. 53.1 CE"
+  },
+  {
+    "frente": "¿Qué efecto jurídico tienen los principios rectores del Capítulo 3.º del Título I?",
+    "dorso": "Informarán la legislación positiva, la práctica judicial y la actuación de los poderes públicos; solo podrán ser alegados ante la Jurisdicción ordinaria de acuerdo con las leyes que los desarrollen.",
+    "ref": "Art. 53.3 CE"
+  },
+  {
+    "frente": "¿Qué es el Defensor del Pueblo y quién lo designa?",
+    "dorso": "Es un alto comisionado de las Cortes Generales, designado por éstas para la defensa de los derechos del Título I, pudiendo supervisar la actividad de la Administración.",
+    "ref": "Art. 54 CE"
+  },
+  {
+    "frente": "¿Qué derecho del art. 17 NO se suspende en la declaración de estado de excepción (pero sí en estado de sitio)?",
+    "dorso": "El del apartado 3: la asistencia de abogado al detenido en las diligencias policiales y judiciales.",
+    "ref": "Art. 55.1 CE"
+  },
+  {
+    "frente": "¿Qué dirige el Gobierno según el art. 97 CE?",
+    "dorso": "La política interior y exterior, la Administración civil y militar y la defensa del Estado. Ejerce la función ejecutiva y la potestad reglamentaria.",
+    "ref": "Art. 97 CE"
+  },
+  {
+    "frente": "¿Quién controla la potestad reglamentaria y la legalidad de la actuación administrativa?",
+    "dorso": "Los Tribunales.",
+    "ref": "Art. 106.1 CE"
+  },
+  {
+    "frente": "¿A través de quién propone el Rey al candidato a la Presidencia del Gobierno?",
+    "dorso": "Del Presidente del Congreso, previa consulta con los representantes designados por los grupos políticos con representación parlamentaria.",
+    "ref": "Art. 99.1 CE"
+  },
+  {
+    "frente": "Si transcurridos dos meses desde la primera votación de investidura ningún candidato obtiene la confianza del Congreso, ¿qué ocurre?",
+    "dorso": "El Rey disolverá ambas Cámaras y convocará nuevas elecciones con el refrendo del Presidente del Congreso.",
+    "ref": "Art. 99.5 CE"
+  },
+  {
+    "frente": "¿Quién propone al Rey el nombramiento y la separación de los miembros del Gobierno?",
+    "dorso": "El Presidente del Gobierno.",
+    "ref": "Art. 100 CE"
+  },
+  {
+    "frente": "¿En qué tres supuestos cesa el Gobierno según la CE?",
+    "dorso": "Tras la celebración de elecciones generales; en los casos de pérdida de la confianza parlamentaria (moción de censura o cuestión de confianza); y por dimisión o fallecimiento del Presidente.",
+    "ref": "Art. 101 CE"
+  },
+  {
+    "frente": "¿Ante qué órgano es exigible la responsabilidad criminal del Presidente del Gobierno?",
+    "dorso": "Ante la Sala de lo Penal del Tribunal Supremo.",
+    "ref": "Art. 102.1 CE"
+  },
+  {
+    "frente": "¿Por iniciativa de qué fracción de miembros del Congreso puede plantearse la acusación por traición contra el Presidente del Gobierno?",
+    "dorso": "Por iniciativa de la cuarta parte de los miembros del Congreso.",
+    "ref": "Art. 102.2 CE"
+  },
+  {
+    "frente": "¿Con arreglo a qué principios actúa la Administración Pública según el art. 103 CE?",
+    "dorso": "Eficacia, jerarquía, descentralización, desconcentración y coordinación, con sometimiento pleno a la ley y al Derecho.",
+    "ref": "Art. 103.1 CE"
+  },
+  {
+    "frente": "¿A qué intereses sirve la Administración Pública y con qué criterio?",
+    "dorso": "Sirve con objetividad los intereses generales.",
+    "ref": "Art. 103.1 CE"
+  },
+  {
+    "frente": "¿Cuál es la misión de las Fuerzas y Cuerpos de seguridad según la CE?",
+    "dorso": "Proteger el libre ejercicio de los derechos y libertades y garantizar la seguridad ciudadana.",
+    "ref": "Art. 104.1 CE"
+  },
+  {
+    "frente": "¿Cuál es el supremo órgano consultivo del Gobierno?",
+    "dorso": "El Consejo de Estado.",
+    "ref": "Art. 107 CE"
+  },
+  {
+    "frente": "¿Qué tipo de ley regula la institución del Defensor del Pueblo?",
+    "dorso": "Una ley orgánica.",
+    "ref": "Art. 54 CE"
+  }
+]
