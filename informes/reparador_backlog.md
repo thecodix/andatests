@@ -21,11 +21,12 @@ Lista ordenada por prioridad (arriba = primero). El agente `reparador` resuelve 
 **Tests:** sí — `backend/tests/test_rate_limit.py` (4 tests nuevos): cada endpoint devuelve 429 al superar su límite tras agotar las peticiones permitidas dentro de la ventana. Se añadió un fixture `autouse` en `backend/tests/conftest.py` que resetea el `Limiter` (`limiter.reset()`) antes/después de cada test para que los contadores en memoria no se contaminen entre tests. Suite completa (`uv run python -m pytest`, vía `python -m pytest`): 13 passed (9 de antes + 4 nuevos).
 
 ## 3. Política mínima de contraseñas en registro
-**Estado:** [ ] pendiente
+**Estado:** [x] hecho
 **Área:** seguridad
 **Contexto:** `backend/routers/auth.py`, `RegisterIn.password` no tiene validación de longitud/complejidad mínima — acepta contraseñas triviales o vacías.
 **Criterio de aceptación:** `register` rechaza contraseñas por debajo de una longitud mínima razonable (p.ej. 8 caracteres) con un 422 claro.
-**Tests:** sí — test de registro con contraseña corta (debe fallar) y válida (debe pasar).
+**Resuelto:** 2026-07-26 — añadido un `field_validator` a `RegisterIn.password` en `backend/routers/auth.py` que exige mínimo 8 caracteres (misma convención ya usada en `ResetPasswordIn.nueva_password` desde el ítem 1), devolviendo 422 si no se cumple. No requirió preguntar nada al usuario: el umbral ya estaba establecido como precedente en el propio código.
+**Tests:** sí — `backend/tests/test_auth.py`: `test_register_rechaza_contrasena_demasiado_corta` (7 caracteres → 422) y `test_register_acepta_contrasena_de_longitud_minima` (8 caracteres → 201). Suite completa: 15 passed (13 de antes + 2 nuevos).
 
 ## 4. Enumeración de usuarios vía mensajes de error
 **Estado:** [ ] pendiente

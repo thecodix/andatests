@@ -24,6 +24,16 @@ def test_register_requires_security_question(client):
     assert res.status_code == 422
 
 
+def test_register_rechaza_contrasena_demasiado_corta(client):
+    res = _register(client, email="corta@example.com", password="abc1234")
+    assert res.status_code == 422
+
+
+def test_register_acepta_contrasena_de_longitud_minima(client):
+    res = _register(client, email="minima@example.com", password="abcd1234")
+    assert res.status_code == 201
+
+
 def test_register_and_login(client):
     res = _register(client)
     assert res.status_code == 201

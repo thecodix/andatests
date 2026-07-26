@@ -28,6 +28,13 @@ class RegisterIn(BaseModel):
     pregunta_seguridad: str
     respuesta_seguridad: str
 
+    @field_validator("password")
+    @classmethod
+    def password_min_length(cls, v: str) -> str:
+        if len(v) < 8:
+            raise ValueError("La contraseña debe tener al menos 8 caracteres")
+        return v
+
     @field_validator("pregunta_seguridad", "respuesta_seguridad")
     @classmethod
     def not_blank(cls, v: str) -> str:
