@@ -130,7 +130,7 @@
       <div style="width:34px; height:34px; border-radius:9px; background:#6B46E5; display:flex; align-items:center; justify-content:center; color:#fff; font-family:'Newsreader',serif; font-weight:600; font-size:20px;">A</div>
       <div>
         <div style="font-weight:700; font-size:15px; letter-spacing:-.2px;">Andatest</div>
-        <div style="font-size:11px; color:#9A9AA6; letter-spacing:.3px;">Aux. Administrativo · UHU</div>
+        <div style="font-size:11px; color:#9A9AA6; letter-spacing:.3px;">{{ oposicionNombreSidebar }}</div>
       </div>
     </div>
 
@@ -234,7 +234,7 @@
             <div style="background:#fff; border:1px solid #ECECF1; border-radius:16px; padding:22px 24px;">
               <div style="display:flex; justify-content:space-between; align-items:center;">
                 <h3 style="margin:0; font-size:16px; font-weight:700;">Progreso por bloques</h3>
-                <button onClick="{{ goTemas }}" style="background:none; border:none; color:#6B46E5; font-weight:600; font-size:13px; cursor:pointer; font-family:inherit;">Ver 17 temas →</button>
+                <button onClick="{{ goTemas }}" style="background:none; border:none; color:#6B46E5; font-weight:600; font-size:13px; cursor:pointer; font-family:inherit;">{{ verTemasLabel }}</button>
               </div>
               <div style="margin-top:18px; display:flex; flex-direction:column; gap:15px;">
                 <sc-for list="{{ bloques }}" as="b" hint-placeholder-count="6">
@@ -357,8 +357,8 @@
       <!-- ===================== TEMAS ===================== -->
       <sc-if value="{{ isTemas }}" hint-placeholder-val="{{ true }}">
       <div class="sc-screen">
-        <h1 style="font-family:'Newsreader',serif; font-weight:500; font-size:32px; margin:0 0 4px; letter-spacing:-.4px;">Los 17 temas</h1>
-        <p style="color:#6B6B78; font-size:14px; margin:0 0 24px;">Temario de la Escala Auxiliar Administrativa (C2) de la Universidad de Huelva.</p>
+        <h1 style="font-family:'Newsreader',serif; font-weight:500; font-size:32px; margin:0 0 4px; letter-spacing:-.4px;">{{ temasTituloLabel }}</h1>
+        <p style="color:#6B6B78; font-size:14px; margin:0 0 24px;">{{ temasSubtituloLabel }}</p>
         <div style="display:flex; flex-direction:column; gap:10px;">
           <sc-for list="{{ temasView }}" as="t" hint-placeholder-count="17">
             <div onClick="{{ t.onClick }}" onKeyDown="{{ onCardKeyDown }}" role="button" tabindex="0" class="sc-hov" style="background:#fff; border:1px solid #ECECF1; border-radius:14px; padding:18px 20px; display:flex; align-items:center; gap:18px; cursor:pointer;">
@@ -2265,6 +2265,14 @@ class Component extends DCLogic {
     out.countdownDiasSub = `${diasParaExamen} días exactos`;
 
     const totalTemas = TEMAS.length || 17;
+    const oposicionActual = (S.misOposiciones||[]).find(o=>o.favorita) || null;
+    const oposicionActualId = oposicionActual ? oposicionActual.id : 1;
+    out.oposicionNombreSidebar = oposicionActual ? oposicionActual.nombre : 'Aux. Administrativo · UHU';
+    out.verTemasLabel = `Ver ${totalTemas} temas →`;
+    out.temasTituloLabel = `Los ${totalTemas} temas`;
+    out.temasSubtituloLabel = oposicionActual
+      ? (oposicionActual.descripcion || `Temario de ${oposicionActual.nombre}.`)
+      : 'Temario de la Escala Auxiliar Administrativa (C2) de la Universidad de Huelva.';
     const temasVistos = TEMAS.filter(t => this.temaStat(t.id).attempts > 0).length;
     const fase1Pct = totalTemas ? Math.round(temasVistos / totalTemas * 100) : 0;
     const fase1Done = temasVistos >= totalTemas;
@@ -2292,14 +2300,18 @@ class Component extends DCLogic {
       cardStyle: i === activeIdx ? `background:#F4F1FE; border:1.5px solid ${C.v};` : `background:#fff; border:1px solid #ECECF1;`,
     }));
 
-    const groups = [
-      { nombre:'Constitución (T1)', temas:[1] },
-      { nombre:'Procedimiento administrativo (T2–T4)', temas:[2,3,4] },
-      { nombre:'Sector público y empleo (T5–T6)', temas:[5,6] },
-      { nombre:'Datos, transparencia e igualdad (T7–T9)', temas:[7,8,9] },
-      { nombre:'Ámbito universitario (T10–T15)', temas:[10,11,12,13,14,15] },
-      { nombre:'Andalucía y Admin. electrónica (T16–T17)', temas:[16,17] },
-    ];
+    const groups = oposicionActualId === 1
+      ? [
+          { nombre:'Constitución (T1)', temas:[1] },
+          { nombre:'Procedimiento administrativo (T2–T4)', temas:[2,3,4] },
+          { nombre:'Sector público y empleo (T5–T6)', temas:[5,6] },
+          { nombre:'Datos, transparencia e igualdad (T7–T9)', temas:[7,8,9] },
+          { nombre:'Ámbito universitario (T10–T15)', temas:[10,11,12,13,14,15] },
+          { nombre:'Andalucía y Admin. electrónica (T16–T17)', temas:[16,17] },
+        ]
+      // Sin agrupación legal curada para esta oposición todavía: un bloque por tema
+      // (degrada con gracia en vez de mostrar los bloques fijos de la C2).
+      : TEMAS.map(t => ({ nombre:t.t, temas:[t.id] }));
     out.bloques = groups.map(g=>{
       let a=0,c=0; g.temas.forEach(id=>{ const s=this.temaStat(id); a+=s.attempts; c+=s.correct; });
       const pct = a ? Math.round(c/a*100) : 0;

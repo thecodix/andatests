@@ -3,7 +3,7 @@
 // llamadas a la API (/api, /auth, /asistente) van siempre a red — nunca se
 // cachean, porque son datos dinámicos por usuario (progreso, sesiones,
 // asistente IA).
-const CACHE_NAME = "andatest-shell-v1";
+const CACHE_NAME = "andatest-shell-v2";
 const APP_SHELL = [
   "/",
   "/support.js",
@@ -39,8 +39,25 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(request.url);
   if (url.origin !== self.location.origin || esApi(url)) return; // deja pasar API y orígenes externos (Google Fonts, etc.)
 
-  // Stale-while-revalidate: responde con la copia en caché al instante si
-  // existe, y en paralelo la refresca en segundo plano para la próxima vez.
+  if (request.mode === "navigate") {
+    // El HTML (la propia SPA) cambia con cada deploy/sesión de desarrollo:
+    // red primero, y solo se cae a la copia en caché si no hay conexión.
+    // Con stale-while-revalidate aquí, un cambio de frontend tardaba dos
+    // recargas en verse (la primera servía la versión vieja cacheada).
+    event.respondWith(
+      fetch(request)
+        .then((response) => {
+          if (response.ok) caches.open(CACHE_NAME).then((cache) => cache.put(request, response.clone()));
+          return response;
+        })
+        .catch(() => caches.open(CACHE_NAME).then((cache) => cache.match(request)))
+    );
+    return;
+  }
+
+  // Resto de assets estáticos (JS, manifest, iconos): stale-while-revalidate,
+  // responde con la copia en caché al instante si existe, y en paralelo la
+  // refresca en segundo plano para la próxima vez.
   event.respondWith(
     caches.open(CACHE_NAME).then((cache) =>
       cache.match(request).then((cached) => {
