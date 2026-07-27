@@ -1,0 +1,164 @@
+[
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada concepto según corresponda a una situación de riesgo o a una situación de desamparo del menor",
+    "ref": "Art. 17 y 18 LO 1/1996 / Art. 172 CC",
+    "categorias": ["Situación de riesgo", "Situación de desamparo"],
+    "items": [
+      { "texto": "Perjuicio para el menor que no requiere separación de su entorno familiar", "categoria": "Situación de riesgo" },
+      { "texto": "Intervención de los servicios sociales de atención primaria (Entidades Locales)", "categoria": "Situación de riesgo" },
+      { "texto": "Incumplimiento o imposible ejercicio de los deberes de protección que priva al menor de asistencia moral o material", "categoria": "Situación de desamparo" },
+      { "texto": "Asunción de la tutela por ministerio de la ley por la Entidad Pública", "categoria": "Situación de desamparo" },
+      { "texto": "Suspensión de la patria potestad o tutela ordinaria", "categoria": "Situación de desamparo" },
+      { "texto": "Intervención administrativa sin asumir la tutela", "categoria": "Situación de riesgo" },
+      { "texto": "Separación del menor de su familia y adopción de medidas de guarda", "categoria": "Situación de desamparo" },
+      { "texto": "Plan de intervención familiar sin separación", "categoria": "Situación de riesgo" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada tipo de guarda según sea voluntaria, judicial o provisional",
+    "ref": "Arts. 172 bis y 174.4 CC / Art. 19 LO 1/1996",
+    "categorias": ["Guarda voluntaria", "Guarda judicial", "Guarda provisional"],
+    "items": [
+      { "texto": "Los progenitores la solicitan por circunstancias graves y transitorias, máximo 2 años", "categoria": "Guarda voluntaria" },
+      { "texto": "Acordada por el Juez en los casos en que legalmente proceda", "categoria": "Guarda judicial" },
+      { "texto": "La Entidad Pública la asume para prestar atención inmediata y se formaliza en 7 días naturales", "categoria": "Guarda provisional" },
+      { "texto": "La entrega se hace por escrito dejando constancia de las responsabilidades de los progenitores", "categoria": "Guarda voluntaria" },
+      { "texto": "Se comunica al Ministerio Fiscal y se investigan las circunstancias del menor", "categoria": "Guarda provisional" },
+      { "texto": "Se adopta la medida de protección correspondiente por decisión del órgano jurisdiccional", "categoria": "Guarda judicial" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada modalidad de acogimiento familiar según su duración/objetivo (CC art. 173 bis)",
+    "ref": "Art. 173 bis CC (modalidades de acogimiento familiar)",
+    "categorias": ["Acogimiento de urgencia", "Acogimiento temporal", "Acogimiento permanente"],
+    "items": [
+      { "texto": "Principalmente para menores de 6 años, duración no superior a 6 meses", "categoria": "Acogimiento de urgencia" },
+      { "texto": "Carácter transitorio mientras se prevé la reintegración familiar o se adopta medida más estable", "categoria": "Acogimiento temporal" },
+      { "texto": "Duración máxima de 2 años, salvo prórroga por previsible reintegración", "categoria": "Acogimiento temporal" },
+      { "texto": "Se constituye al finalizar el plazo de 2 años por no ser posible la reintegración", "categoria": "Acogimiento permanente" },
+      { "texto": "Puede constituirse directamente para menores con necesidades especiales", "categoria": "Acogimiento permanente" },
+      { "texto": "La Entidad Pública puede pedir al Juez que atribuya facultades de tutela a los acogedores", "categoria": "Acogimiento permanente" }
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena las fases del procedimiento de declaración de desamparo en Andalucía (Decreto 42/2002)",
+    "ref": "Decreto 42/2002 (procedimiento de desamparo en Andalucía)",
+    "items": [
+      "Información previa para determinar indicios de desprotección",
+      "Inicio de oficio por el titular de la Delegación Territorial",
+      "Notificación a los interesados y plazo de 15 días hábiles para alegaciones",
+      "Elaboración de diagnóstico actualizado (sanitario, psicológico, socio-familiar, legal)",
+      "Período de prueba (entre 10 y 30 días)",
+      "Trámite de audiencia (vista del expediente por 10 días hábiles)",
+      "Propuesta de resolución por el órgano instructor",
+      "Resolución por la Comisión Provincial de Tutela y Guarda"
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada órgano consultivo/de participación de la Ley 4/2021 de IAA con su naturaleza",
+    "ref": "Arts. 19-21 Ley 4/2021 de Infancia y Adolescencia de Andalucía",
+    "pares": [
+      { "izquierda": "Consejo Asesor de Infancia y Adolescencia", "derecha": "Órgano colegiado, consultivo y de asesoramiento de las administraciones públicas" },
+      { "izquierda": "Consejo Andaluz de Niñas, Niños y Adolescentes", "derecha": "Órgano de participación ciudadana" },
+      { "izquierda": "Observatorio de la Infancia y Adolescencia de Andalucía", "derecha": "Órgano colegiado de carácter prospectivo, analítico y consultivo" },
+      { "izquierda": "Defensoría de la Infancia y Adolescencia", "derecha": "Institución de defensa de los derechos del menor (antes Defensor del Menor)" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada medida que pueden imponer los Jueces de Menores según implique o no privación de libertad (internamiento)",
+    "ref": "Art. 7 LORPM (LO 5/2000)",
+    "categorias": ["Medidas de internamiento", "Medidas en medio abierto"],
+    "items": [
+      { "texto": "Internamiento en régimen cerrado", "categoria": "Medidas de internamiento" },
+      { "texto": "Internamiento en régimen semiabierto", "categoria": "Medidas de internamiento" },
+      { "texto": "Internamiento en régimen abierto", "categoria": "Medidas de internamiento" },
+      { "texto": "Internamiento terapéutico", "categoria": "Medidas de internamiento" },
+      { "texto": "Libertad vigilada", "categoria": "Medidas en medio abierto" },
+      { "texto": "Prestaciones en beneficio de la comunidad", "categoria": "Medidas en medio abierto" },
+      { "texto": "Realización de tareas socio-educativas", "categoria": "Medidas en medio abierto" },
+      { "texto": "Permanencia de fin de semana", "categoria": "Medidas en medio abierto" },
+      { "texto": "Convivencia con otra persona, familia o grupo educativo", "categoria": "Medidas en medio abierto" },
+      { "texto": "Amonestación", "categoria": "Medidas en medio abierto" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada tipo de internamiento (LORPM) con la descripción de las actividades del menor",
+    "ref": "Art. 7 LORPM (definición de medidas de internamiento)",
+    "pares": [
+      { "izquierda": "Régimen cerrado", "derecha": "Reside en el centro y desarrolla en él todas las actividades formativas, educativas, laborales y de ocio" },
+      { "izquierda": "Régimen semiabierto", "derecha": "Reside en el centro pero puede realizar fuera alguna actividad según el programa individualizado" },
+      { "izquierda": "Régimen abierto", "derecha": "Realiza todas las actividades en servicios normalizados del entorno, residiendo en el centro como domicilio" },
+      { "izquierda": "Internamiento terapéutico", "derecha": "Atención educativa especializada o tratamiento de anomalías psíquicas, dependencia de sustancias o alteraciones de percepción" }
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena las actuaciones de protección de la infancia de menos a más intensidad de intervención",
+    "ref": "Art. 12 LO 1/1996 / Título V Ley 4/2021 IAA",
+    "items": [
+      "Detección y prevención del riesgo",
+      "Intervención en situación de riesgo (sin separación familiar)",
+      "Guarda voluntaria a solicitud de los progenitores",
+      "Guarda provisional (atención inmediata)",
+      "Declaración de situación de desamparo y asunción de la tutela",
+      "Acogimiento familiar o residencial",
+      "Guarda con fines de adopción",
+      "Adopción (separación definitiva)"
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada circunstancia constitutiva de desamparo con su letra en el art. 18 de la LO 1/1996",
+    "ref": "Art. 18 LO 1/1996 (circunstancias de desamparo)",
+    "pares": [
+      { "izquierda": "Abandono del menor por falta de personas que ejerzan la guarda", "derecha": "Letra a)" },
+      { "izquierda": "Riesgo para la vida, salud e integridad física (malos tratos graves, abusos sexuales...)", "derecha": "Letra c)" },
+      { "izquierda": "Inducción a la mendicidad, delincuencia o prostitución", "derecha": "Letra f)" },
+      { "izquierda": "Ausencia de escolarización o absentismo reiterado no justificado", "derecha": "Letra g)" },
+      { "izquierda": "Maltrato psicológico continuado o falta de atención grave a necesidades afectivas/educativas", "derecha": "Letra d)" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada causa de cese del acogimiento familiar según el CC",
+    "ref": "Art. 173 CC (cese del acogimiento familiar)",
+    "categorias": ["Cese por resolución de autoridad", "Cese por circunstancias personales"],
+    "items": [
+      { "texto": "Por resolución judicial", "categoria": "Cese por resolución de autoridad" },
+      { "texto": "Por resolución de la Entidad Pública para salvaguardar el interés del menor", "categoria": "Cese por resolución de autoridad" },
+      { "texto": "Por la muerte o declaración de fallecimiento del acogedor o acogedores", "categoria": "Cese por circunstancias personales" },
+      { "texto": "Por la mayoría de edad del menor", "categoria": "Cese por circunstancias personales" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada instrumento normativo andaluz de protección de menores con su contenido principal",
+    "ref": "Normativa autonómica vigente en materia de infancia (temario)",
+    "pares": [
+      { "izquierda": "Decreto 210/2018 (SIMIA)", "derecha": "Procedimiento de actuación ante situaciones de riesgo y desamparo" },
+      { "izquierda": "Orden de 30 de julio de 2019 (VALÓRAME)", "derecha": "Instrumento para la valoración de la gravedad de las situaciones de desprotección" },
+      { "izquierda": "Decreto 42/2002", "derecha": "Régimen de desamparo, tutela y guarda administrativa" },
+      { "izquierda": "Decreto 282/2002", "derecha": "Acogimiento familiar y adopción" },
+      { "izquierda": "Decreto 355/2003", "derecha": "Acogimiento residencial de menores" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada plazo temporal con la actuación de protección a la que corresponde (Ley 4/2021 IAA)",
+    "ref": "Ley 4/2021 de Infancia y Adolescencia de Andalucía (plazos)",
+    "pares": [
+      { "izquierda": "7 días naturales", "derecha": "Plazo para formalizar la guarda provisional mediante resolución administrativa" },
+      { "izquierda": "3 meses", "derecha": "Plazo máximo para resolver el procedimiento de declaración de desamparo" },
+      { "izquierda": "1 mes", "derecha": "Plazo para elaborar el plan individualizado de protección tras asumir tutela o guarda" },
+      { "izquierda": "3 meses (familia extensa)", "derecha": "Plazo máximo para que la familia extensa presente ofrecimiento de acogimiento familiar" },
+      { "izquierda": "2 años", "derecha": "Plazo durante el cual los progenitores pueden solicitar que cese la suspensión de la patria potestad" }
+    ]
+  }
+]

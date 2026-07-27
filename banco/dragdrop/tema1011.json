@@ -1,0 +1,145 @@
+[
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada prestación según pertenezca al nivel contributivo o al nivel no contributivo de la Seguridad Social",
+    "ref": "Art. 42 LGSS / Niveles de protección (RDLeg 8/2015)",
+    "categorias": ["Contributivo", "No contributivo"],
+    "items": [
+      { "texto": "Incapacidad temporal", "categoria": "Contributivo" },
+      { "texto": "Jubilación contributiva", "categoria": "Contributivo" },
+      { "texto": "Incapacidad permanente contributiva", "categoria": "Contributivo" },
+      { "texto": "Riesgo durante el embarazo", "categoria": "Contributivo" },
+      { "texto": "Pensiones no contributivas de jubilación e invalidez", "categoria": "No contributivo" },
+      { "texto": "Ingreso Mínimo Vital", "categoria": "No contributivo" },
+      { "texto": "Prestación asistencial por desempleo", "categoria": "No contributivo" },
+      { "texto": "Subsidio especial de maternidad no contributivo", "categoria": "No contributivo" },
+      { "texto": "Nacimiento y cuidado de menor", "categoria": "Contributivo" },
+      { "texto": "Prestaciones familiares en modalidad no contributiva", "categoria": "No contributivo" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada organismo según esté adscrito a la Secretaría de Estado de la Seguridad Social y Pensiones o dependa de otro Ministerio/Secretaría",
+    "ref": "RD 501/2024 (estructura orgánica del Ministerio de Inclusión, SS y Migraciones)",
+    "categorias": ["Adscrito a la Secretaría de Estado de SS y Pensiones", "Depende de otro Ministerio/Secretaría"],
+    "items": [
+      { "texto": "Instituto Nacional de la Seguridad Social (INSS)", "categoria": "Adscrito a la Secretaría de Estado de SS y Pensiones" },
+      { "texto": "Tesorería General de la Seguridad Social", "categoria": "Adscrito a la Secretaría de Estado de SS y Pensiones" },
+      { "texto": "Instituto Social de la Marina", "categoria": "Adscrito a la Secretaría de Estado de SS y Pensiones" },
+      { "texto": "Gerencia de Informática de la Seguridad Social", "categoria": "Adscrito a la Secretaría de Estado de SS y Pensiones" },
+      { "texto": "Instituto de Mayores y Servicios Sociales (IMSERSO)", "categoria": "Depende de otro Ministerio/Secretaría" },
+      { "texto": "Servicio Público de Empleo Estatal (SEPE)", "categoria": "Depende de otro Ministerio/Secretaría" },
+      { "texto": "Instituto Nacional de Gestión Sanitaria (INGESA)", "categoria": "Depende de otro Ministerio/Secretaría" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada régimen de la Seguridad Social según sea el Régimen General o un Régimen Especial (art. 10 LGSS)",
+    "ref": "Arts. 9 y 10 LGSS (RDLeg 8/2015)",
+    "categorias": ["Régimen General", "Régimen Especial"],
+    "items": [
+      { "texto": "Trabajadores por cuenta ajena", "categoria": "Régimen General" },
+      { "texto": "Trabajadores por cuenta propia o autónomos", "categoria": "Régimen Especial" },
+      { "texto": "Trabajadores del mar", "categoria": "Régimen Especial" },
+      { "texto": "Funcionarios públicos, civiles y militares", "categoria": "Régimen Especial" },
+      { "texto": "Estudiantes", "categoria": "Régimen Especial" },
+      { "texto": "Socios trabajadores de cooperativas de trabajo asociado", "categoria": "Régimen General" }
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena cronológicamente los hitos históricos del sistema español de Seguridad Social",
+    "ref": "Antecedentes históricos (epígrafe 1.2 del temario)",
+    "items": [
+      "Comisión de Reformas Sociales (1883)",
+      "Ley de Accidentes de Trabajo (1900)",
+      "Instituto Nacional de Previsión (1908)",
+      "Ley de Bases de la Seguridad Social (1963)",
+      "Ley General de la Seguridad Social (1966, vigencia 1967)",
+      "RDL 36/1978 – nuevo sistema de gestión (Pactos de la Moncloa)",
+      "Ley 26/1990 de prestaciones no contributivas",
+      "Pacto de Toledo (1995)",
+      "Texto Refundido LGSS (RDLeg 8/2015)"
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada grado de incapacidad permanente con su definición",
+    "ref": "Art. 194 LGSS (grados de incapacidad permanente)",
+    "pares": [
+      { "izquierda": "IP Parcial", "derecha": "Disminución ≥ 33% en el rendimiento para la profesión habitual, sin impedir las tareas fundamentales" },
+      { "izquierda": "IP Total", "derecha": "Inhabilita para todas las tareas fundamentales de la profesión habitual, pudiendo dedicarse a otra distinta" },
+      { "izquierda": "IP Absoluta", "derecha": "Inhabilita por completo para toda profesión u oficio" },
+      { "izquierda": "Gran incapacidad", "derecha": "IP que requiere la asistencia de otra persona para los actos más esenciales de la vida" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada prestación de IT con el porcentaje de la base reguladora que corresponde",
+    "ref": "Cuantía de la IT (Régimen General, LGSS)",
+    "pares": [
+      { "izquierda": "Enfermedad común, día 4 al 20", "derecha": "60% de la BR" },
+      { "izquierda": "Enfermedad común, día 21 en adelante", "derecha": "75% de la BR" },
+      { "izquierda": "Accidente de trabajo / enfermedad profesional", "derecha": "75% desde el nacimiento del derecho" },
+      { "izquierda": "Riesgo durante el embarazo", "derecha": "100% de la BR" },
+      { "izquierda": "Riesgo durante la lactancia natural", "derecha": "100% de la BR" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada situación especial de IT para mujeres trabajadoras con el momento en que nace el derecho al subsidio",
+    "ref": "Nacimiento del derecho a IT (LGSS, situaciones especiales)",
+    "pares": [
+      { "izquierda": "Menstruación incapacitante secundaria", "derecha": "Desde el primer día de la baja" },
+      { "izquierda": "Interrupción del embarazo", "derecha": "Desde el día siguiente al de la baja" },
+      { "izquierda": "Gestación desde la semana 39", "derecha": "Desde el día siguiente al de la baja" },
+      { "izquierda": "Enfermedad común", "derecha": "Desde el cuarto día de la fecha de baja" }
+    ]
+  },
+  {
+    "tipo": "categorizar",
+    "enunciado": "Clasifica cada prestación por muerte y supervivencia según sea una pensión vitalicia o una prestación temporal/única",
+    "ref": "Art. 216 LGSS (prestaciones por muerte y supervivencia)",
+    "categorias": ["Pensión vitalicia", "Prestación temporal o pago único"],
+    "items": [
+      { "texto": "Pensión de viudedad", "categoria": "Pensión vitalicia" },
+      { "texto": "Pensión de orfandad", "categoria": "Pensión vitalicia" },
+      { "texto": "Pensión en favor de familiares", "categoria": "Pensión vitalicia" },
+      { "texto": "Prestación temporal de viudedad", "categoria": "Prestación temporal o pago único" },
+      { "texto": "Auxilio por defunción", "categoria": "Prestación temporal o pago único" },
+      { "texto": "Subsidio en favor de familiares", "categoria": "Prestación temporal o pago único" },
+      { "texto": "Indemnización a tanto alzado por AT/EP", "categoria": "Prestación temporal o pago único" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada porcentaje de la pensión de viudedad con el requisito principal que lo activa",
+    "ref": "Cuantía de la pensión de viudedad (LGSS)",
+    "pares": [
+      { "izquierda": "52% de la BR", "derecha": "Porcentaje general, sin requisitos adicionales" },
+      { "izquierda": "60% de la BR", "derecha": "Beneficiario ≥ 65 años, sin otra pensión pública ni ingresos por trabajo" },
+      { "izquierda": "70% de la BR", "derecha": "Cargas familiares + pensión como principal fuente de ingresos + límite de rentas" }
+    ]
+  },
+  {
+    "tipo": "emparejar",
+    "enunciado": "Empareja cada órgano superior del Ministerio de Inclusión, Seguridad Social y Migraciones con su ámbito funcional",
+    "ref": "Art. 1 RD 501/2024 (estructura orgánica del Ministerio)",
+    "pares": [
+      { "izquierda": "Secretaría de Estado de la Seguridad Social y Pensiones", "derecha": "Dirección y tutela de entidades gestoras, ordenación jurídica y planificación económica de la SS" },
+      { "izquierda": "Secretaría de Estado de Migraciones", "derecha": "Política en materia de extranjería, inmigración y emigración" },
+      { "izquierda": "Secretaría General de Inclusión", "derecha": "Políticas de inclusión (rango de Subsecretaría)" },
+      { "izquierda": "Subsecretaría de Inclusión, SS y Migraciones", "derecha": "Servicios comunes y apoyo administrativo del Departamento" }
+    ]
+  },
+  {
+    "tipo": "ordenar",
+    "enunciado": "Ordena las semanas de la prestación por nacimiento y cuidado de menor según su régimen de disfrute (desde el 31/07/2025)",
+    "ref": "RDL 9/2025 – Nacimiento y cuidado de menor (duración)",
+    "items": [
+      "6 semanas obligatorias e ininterrumpidas tras el parto/resolución (jornada completa)",
+      "11 semanas distribuibles hasta que el hijo cumpla 12 meses",
+      "2 semanas para cuidado del menor hasta que cumpla 8 años"
+    ]
+  }
+]
