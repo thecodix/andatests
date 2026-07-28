@@ -186,7 +186,7 @@ def test_seed_real_crea_opo2_con_sus_dos_temas_sin_afectar_oposicion_1(client):
         opo2 = session.get(Oposicion, 2)
         assert opo2 is not None
         assert opo2.slug == "opo2"
-        assert opo2.nombre == "OPO2"
+        assert opo2.nombre == "Cuerpo Técnico Facultativo A2 - Trabajo Social"
 
         temas_opo2 = session.exec(select(Tema).where(Tema.oposicion_id == 2)).all()
         assert {t.id for t in temas_opo2} == {1011, 1029}

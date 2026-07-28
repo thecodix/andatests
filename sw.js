@@ -3,7 +3,7 @@
 // llamadas a la API (/api, /auth, /asistente) van siempre a red — nunca se
 // cachean, porque son datos dinámicos por usuario (progreso, sesiones,
 // asistente IA).
-const CACHE_NAME = "andatest-shell-v2";
+const CACHE_NAME = "andatest-shell-v3";
 const APP_SHELL = [
   "/",
   "/support.js",

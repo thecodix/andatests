@@ -1149,6 +1149,29 @@ class Component extends DCLogic {
     };
   }
 
+  // FastAPI's `detail` can be a plain string OR (on 422 validation errors) an array of
+  // {type, loc, msg, input, ctx} objects — never render that shape directly as a JSX child
+  // (React error #31). Always coerce to a safe string message first.
+  errDetail(data, fallback) {
+    const d = data && data.detail;
+    if (!d) return fallback;
+    if (typeof d === 'string') return d;
+    if (Array.isArray(d)) {
+      const esEmailInvalido = d.some(e => e && Array.isArray(e.loc) && e.loc.includes('email'));
+      if (esEmailInvalido) return 'El email no tiene un formato válido.';
+      return d.map(e => (e && e.msg) || 'Dato inválido').join(' · ') || fallback;
+    }
+    return fallback;
+  }
+
+  // fetch() only throws a TypeError for genuine network failures (offline, DNS,
+  // CORS, server unreachable) — anything else caught here (e.g. res.json() failing
+  // to parse a non-JSON response) is a different problem, so don't call it "de conexión".
+  errConexion(e) {
+    if (e instanceof TypeError) return 'Error de conexión. Comprueba tu conexión a internet e inténtalo de nuevo.';
+    return 'Ha ocurrido un error inesperado. Inténtalo de nuevo.';
+  }
+
   // Authenticated fetch — injects Bearer token, redirects to login on 401
   async apiFetch(url, options={}) {
     const token = localStorage.getItem('andatest_token');
@@ -1177,6 +1200,10 @@ class Component extends DCLogic {
 
   async submitAuth() {
     const { authMode, authEmail, authPassword, authNombre, authPreguntaSeg, authRespuestaSeg, authOposicionId } = this.state;
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test((authEmail||'').trim())) {
+      this.setState({ authError:'Escribe un email válido (p.ej. tu@email.com).' });
+      return;
+    }
     this.setState({ authLoading:true, authError:'' });
     try {
       const body = authMode==='login'
@@ -1186,13 +1213,13 @@ class Component extends DCLogic {
         method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(body),
       });
       const data = await res.json();
-      if (!res.ok) { this.setState({ authError: data.detail || 'Error', authLoading:false }); return; }
+      if (!res.ok) { this.setState({ authError: this.errDetail(data, 'Error'), authLoading:false }); return; }
       localStorage.setItem('andatest_token', data.access_token);
       localStorage.setItem('andatest_nombre', data.nombre);
       this.setState({ authScreen:null, authLoading:false, nombreUsuario:data.nombre });
       this.loadBank();
       this.cargarMisOposiciones();
-    } catch(e) { this.setState({ authError:'Error de conexión', authLoading:false }); }
+    } catch(e) { this.setState({ authError: this.errConexion(e), authLoading:false }); }
   }
 
   async cargarOposicionesDisponibles() {
@@ -1244,15 +1271,16 @@ class Component extends DCLogic {
   async iniciarResetPassword() {
     const email = (this.state.authEmail || '').trim();
     if (!email) { this.setState({ authError:'Escribe tu email arriba para restablecer la contraseña.' }); return; }
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { this.setState({ authError:'Escribe un email válido (p.ej. tu@email.com).' }); return; }
     this.setState({ authLoading:true, authError:'' });
     try {
       const res = await fetch('/api/auth/reset-password/pregunta', {
         method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({ email }),
       });
       const data = await res.json();
-      if (!res.ok) { this.setState({ authError: data.detail || 'Error', authLoading:false }); return; }
+      if (!res.ok) { this.setState({ authError: this.errDetail(data, 'Error'), authLoading:false }); return; }
       this.setState({ resetStep:'pregunta', resetPreguntaTexto:data.pregunta_seguridad, resetRespuesta:'', resetNuevaPassword:'', authLoading:false });
-    } catch(e) { this.setState({ authError:'Error de conexión', authLoading:false }); }
+    } catch(e) { this.setState({ authError: this.errConexion(e), authLoading:false }); }
   }
 
   async confirmarResetPassword() {
@@ -1266,14 +1294,14 @@ class Component extends DCLogic {
         body:JSON.stringify({ email, respuesta_seguridad:resetRespuesta, nueva_password:resetNuevaPassword }),
       });
       const data = await res.json();
-      if (!res.ok) { this.setState({ authError: data.detail || 'Error', authLoading:false }); return; }
+      if (!res.ok) { this.setState({ authError: this.errDetail(data, 'Error'), authLoading:false }); return; }
       localStorage.setItem('andatest_token', data.access_token);
       localStorage.setItem('andatest_nombre', data.nombre);
       this.setState({ authScreen:null, authLoading:false, nombreUsuario:data.nombre, authPassword:'',
                       resetStep:'idle', resetPreguntaTexto:'', resetRespuesta:'', resetNuevaPassword:'' });
       this.loadBank();
       this.cargarMisOposiciones();
-    } catch(e) { this.setState({ authError:'Error de conexión', authLoading:false }); }
+    } catch(e) { this.setState({ authError: this.errConexion(e), authLoading:false }); }
   }
 
   cancelarResetPassword() {

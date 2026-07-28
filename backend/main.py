@@ -67,7 +67,11 @@ async def unhandled_exception_handler(request: Request, exc: Exception):
 
 @app.get("/", include_in_schema=False)
 def serve_index():
-    return FileResponse(FRONTEND_DIR / "Tests Oposición.dc.html")
+    # no-cache (not no-store): el navegador siempre revalida con el servidor
+    # (If-None-Match/ETag) antes de usar la copia local, así que un deploy
+    # nuevo se ve en el siguiente refresco en vez de quedar "pegado" con la
+    # heurística de caché por defecto del navegador para FileResponse.
+    return FileResponse(FRONTEND_DIR / "Tests Oposición.dc.html", headers={"Cache-Control": "no-cache"})
 
 
 # Mounted last so API routes take precedence
