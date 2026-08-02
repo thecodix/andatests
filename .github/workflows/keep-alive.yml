@@ -11,7 +11,10 @@ name: Keep backend alive
 
 on:
   schedule:
-    - cron: "*/10 * * * *" # every 10 minutes
+    # Offset from round numbers (not :00/:10/:20...) since GitHub's queue is
+    # most congested right at those boundaries, which delays exact-round
+    # cron schedules the most. Still effectively every ~10 minutes.
+    - cron: "4,14,24,34,44,54 * * * *"
   workflow_dispatch: {} # allows manual "Run workflow" trigger too
 
 jobs:
