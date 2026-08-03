@@ -65,3 +65,9 @@ def get_current_user(
     if user is None:
         raise credentials_exc
     return user
+
+
+def require_admin(current_user: Usuario = Depends(get_current_user)) -> Usuario:
+    if current_user.email.lower() not in settings.admin_emails_list:
+        raise HTTPException(status.HTTP_403_FORBIDDEN, "Requiere permisos de administrador")
+    return current_user

@@ -169,3 +169,12 @@ class Tarjeta(SQLModel, table=True):
     dorso: str
     ref: str
     explicacion: Optional[str] = None
+
+
+class LoginEvento(SQLModel, table=True):
+    """Un registro por cada login correcto, para el dashboard de administración
+    (últimos accesos, usuarios activos). Tabla nueva (no columna añadida a Usuario)
+    para no requerir migración de una tabla ya existente."""
+    id: Optional[int] = Field(default=None, primary_key=True)
+    usuario_id: int = Field(foreign_key="usuario.id", index=True)
+    created_at: datetime = Field(default_factory=datetime.utcnow, index=True)

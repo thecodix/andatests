@@ -10,8 +10,9 @@ from auth import (
     verify_password,
     verify_respuesta_seguridad,
 )
+from config import settings
 from database import get_session
-from models import Oposicion, Usuario, UsuarioOposicion
+from models import LoginEvento, Oposicion, Usuario, UsuarioOposicion
 from rate_limit import limiter
 
 router = APIRouter(prefix="/auth", tags=["auth"])
@@ -95,6 +96,7 @@ class MeOut(BaseModel):
     id: int
     email: str
     nombre: str
+    es_admin: bool = False
 
 
 @router.post("/register", response_model=TokenOut, status_code=201)
@@ -127,6 +129,8 @@ def login(request: Request, body: LoginIn, session: Session = Depends(get_sessio
     user = session.exec(select(Usuario).where(Usuario.email == body.email)).first()
     if not user or not verify_password(body.password, user.hashed_password):
         raise HTTPException(status.HTTP_401_UNAUTHORIZED, "Email o contraseña incorrectos")
+    session.add(LoginEvento(usuario_id=user.id))
+    session.commit()
     return TokenOut(access_token=create_access_token(user.id), nombre=user.nombre)
 
 
@@ -176,4 +180,5 @@ def set_security_question(
 
 @router.get("/me", response_model=MeOut)
 def me(current_user: Usuario = Depends(get_current_user)):
-    return MeOut(id=current_user.id, email=current_user.email, nombre=current_user.nombre)
+    es_admin = current_user.email.lower() in settings.admin_emails_list
+    return MeOut(id=current_user.id, email=current_user.email, nombre=current_user.nombre, es_admin=es_admin)

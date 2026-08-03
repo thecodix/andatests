@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Andatest · Admin</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Libre+Franklin:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --v:#6B46E5; --v-dark:#5333C4; --v-soft:#F4F1FE; --v-border:#E6DEFB;
+    --ok:#2E9E6B; --err:#D6455B; --warn:#E0922F;
+    --text:#1B1B22; --text-sec:#6B6B78; --gris:#9A9AA6;
+    --borde:#ECECF1; --bg:#F7F7FA; --card:#FFFFFF;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0; background:var(--bg); color:var(--text); font-family:'Libre Franklin',sans-serif;}
+  h1,h2{font-family:'Newsreader',serif; font-weight:500; margin:0;}
+  .wrap{max-width:1080px; margin:0 auto; padding:32px 24px 64px;}
+  header{display:flex; align-items:center; gap:12px; margin-bottom:28px;}
+  header .logo{width:38px; height:38px; border-radius:10px; background:var(--v); display:flex; align-items:center; justify-content:center; color:#fff; font-family:'Newsreader',serif; font-weight:600; font-size:20px;}
+  header h1{font-size:26px; letter-spacing:-.3px;}
+  header .sub{color:var(--text-sec); font-size:13px; margin-top:2px;}
+  .cards{display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:14px; margin-bottom:32px;}
+  .card{background:var(--card); border:1px solid var(--borde); border-radius:14px; padding:16px 18px;}
+  .card .label{font-size:12px; color:var(--text-sec); margin-bottom:6px;}
+  .card .value{font-family:'Newsreader',serif; font-size:28px; font-weight:600; line-height:1;}
+  .card .value.small{font-size:22px;}
+  table{width:100%; border-collapse:collapse; background:var(--card); border:1px solid var(--borde); border-radius:14px; overflow:hidden;}
+  th,td{text-align:left; padding:10px 14px; font-size:13.5px; border-bottom:1px solid var(--borde);}
+  th{background:var(--v-soft); color:var(--v-dark); font-weight:600; font-size:12px; text-transform:uppercase; letter-spacing:.02em;}
+  tr:last-child td{border-bottom:none;}
+  td.num{text-align:right; font-variant-numeric:tabular-nums;}
+  .pill{display:inline-block; padding:2px 8px; border-radius:20px; font-size:11.5px; font-weight:600;}
+  .pill.ok{background:#E4F5EC; color:var(--ok);}
+  .pill.warn{background:#FDF1E2; color:var(--warn);}
+  .pill.err{background:#FBE7EA; color:var(--err);}
+  .msg{background:var(--card); border:1px solid var(--borde); border-radius:14px; padding:28px; text-align:center; color:var(--text-sec);}
+  .msg a{color:var(--v); font-weight:600; text-decoration:none;}
+  .section-title{font-size:16px; font-weight:600; margin:0 0 12px; color:var(--text-sec); text-transform:uppercase; letter-spacing:.03em; font-family:'Libre Franklin';}
+  .refresh{border:1px solid var(--v-border); background:var(--v-soft); color:var(--v-dark); font-weight:600; font-size:13px; border-radius:9px; padding:7px 14px; cursor:pointer; margin-left:auto;}
+  .refresh:hover{background:var(--v-border);}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">A</div>
+    <div>
+      <h1>Panel de administración</h1>
+      <div class="sub">Uso de la app · Andatest</div>
+    </div>
+    <button class="refresh" id="btnRefresh">↻ Actualizar</button>
+  </header>
+  <div id="content">
+    <div class="msg">Cargando…</div>
+  </div>
+</div>
+
+<script>
+const API = '';
+const token = localStorage.getItem('andatest_token');
+const contentEl = document.getElementById('content');
+
+function esc(s){ return String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+function fmtFecha(iso){
+  if(!iso) return '—';
+  const d = new Date(iso.endsWith('Z') ? iso : iso + 'Z');
+  return d.toLocaleString('es-ES', { day:'2-digit', month:'2-digit', year:'numeric', hour:'2-digit', minute:'2-digit' });
+}
+
+async function apiGet(path){
+  const res = await fetch(API + path, { headers: { Authorization: `Bearer ${token}` } });
+  if(!res.ok){
+    const err = new Error('http_' + res.status);
+    err.status = res.status;
+    throw err;
+  }
+  return res.json();
+}
+
+function pillAcierto(pct){
+  const cls = pct >= 70 ? 'ok' : pct >= 40 ? 'warn' : 'err';
+  return `<span class="pill ${cls}">${pct}%</span>`;
+}
+
+function renderMsg(html){
+  contentEl.innerHTML = `<div class="msg">${html}</div>`;
+}
+
+function renderDashboard(resumen, usuarios){
+  const cards = [
+    ['Usuarios totales', resumen.total_usuarios],
+    ['Nuevos (7 días)', resumen.usuarios_nuevos_7d],
+    ['Usuarios activos (7 días)', resumen.usuarios_activos_7d],
+    ['Tests completados', resumen.total_sesiones],
+    ['Tests hoy', resumen.sesiones_hoy],
+    ['Tests (7 días)', resumen.sesiones_7d],
+    ['Preguntas respondidas', resumen.total_respuestas],
+    ['Logins hoy', resumen.logins_hoy],
+    ['Logins (7 días)', resumen.logins_7d],
+  ];
+
+  const filas = usuarios.map(u => `
+    <tr>
+      <td>${esc(u.nombre)}<br><span style="color:var(--text-sec); font-size:12px;">${esc(u.email)}</span></td>
+      <td>${fmtFecha(u.created_at)}</td>
+      <td>${fmtFecha(u.ultimo_login)}</td>
+      <td class="num">${u.total_sesiones}</td>
+      <td class="num">${u.total_preguntas_respondidas}</td>
+      <td class="num">${pillAcierto(u.acierto_pct)}</td>
+    </tr>
+  `).join('');
+
+  contentEl.innerHTML = `
+    <div class="cards">
+      ${cards.map(([label, value]) => `
+        <div class="card">
+          <div class="label">${label}</div>
+          <div class="value ${String(value).length > 5 ? 'small' : ''}">${value}</div>
+        </div>
+      `).join('')}
+    </div>
+    <div class="section-title">Usuarios (${usuarios.length})</div>
+    <table>
+      <thead>
+        <tr>
+          <th>Usuario</th>
+          <th>Registrado</th>
+          <th>Último login</th>
+          <th style="text-align:right;">Tests</th>
+          <th style="text-align:right;">Preguntas</th>
+          <th style="text-align:right;">Acierto</th>
+        </tr>
+      </thead>
+      <tbody>${filas || `<tr><td colspan="6" style="text-align:center; color:var(--text-sec);">Sin usuarios todavía</td></tr>`}</tbody>
+    </table>
+  `;
+}
+
+async function load(){
+  if(!token){
+    renderMsg('No has iniciado sesión. <a href="/">Ir a la app para iniciar sesión</a>, luego vuelve a esta página.');
+    return;
+  }
+  renderMsg('Cargando…');
+  try{
+    const [resumen, usuarios] = await Promise.all([
+      apiGet('/api/admin/resumen'),
+      apiGet('/api/admin/usuarios'),
+    ]);
+    renderDashboard(resumen, usuarios);
+  }catch(e){
+    if(e.status === 403){
+      renderMsg('Tu cuenta no tiene permisos de administrador.');
+    }else if(e.status === 401){
+      renderMsg('Sesión caducada. <a href="/">Vuelve a iniciar sesión</a> y regresa aquí.');
+    }else{
+      renderMsg('No se pudo cargar el panel. Inténtalo de nuevo en unos segundos.');
+    }
+  }
+}
+
+document.getElementById('btnRefresh').addEventListener('click', load);
+load();
+</script>
+</body>
+</html>

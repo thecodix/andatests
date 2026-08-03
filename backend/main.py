@@ -15,7 +15,7 @@ from config import settings
 from database import engine
 from logging_config import configure_logging
 from rate_limit import limiter
-from routers import asistente, auth, notas, oposiciones, ranking, sesiones, stats, tarjetas, temas
+from routers import admin, asistente, auth, notas, oposiciones, ranking, sesiones, stats, tarjetas, temas
 
 configure_logging()
 logger = logging.getLogger("andatest")
@@ -52,6 +52,7 @@ app.include_router(ranking.router, prefix="/api")
 app.include_router(asistente.router, prefix="/api")
 app.include_router(notas.router, prefix="/api")
 app.include_router(tarjetas.router, prefix="/api")
+app.include_router(admin.router, prefix="/api")
 
 
 @app.get("/api/health")
